@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>中国初中数学知识图谱（七—九年级）· 草稿</title>
+<style>
+  :root { --bg:#f6f7f9; --panel:#fff; --line:#e1e4e8; --text:#1f2933; --muted:#6b7785; --accent:#2563eb;
+          --hard:#c2410c; --soft:#6b7785; --ext:#7c3aed; }
+  * { box-sizing:border-box; }
+  html,body { height:100%; margin:0; }
+  body { font:14px/1.6 -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif; color:var(--text); background:var(--bg); display:flex; flex-direction:column; }
+  header { padding:8px 16px; background:#1e293b; color:#fff; display:flex; align-items:baseline; gap:12px; flex-wrap:wrap; }
+  header h1 { font-size:16px; margin:0; font-weight:600; }
+  header .note { font-size:12px; color:#cbd5e1; }
+  header .tool-link { margin-left:auto; font-size:13px; color:#fff; background:#2563eb; padding:2px 12px; border-radius:12px; text-decoration:none; }
+  header .tool-link:hover { background:#1d4ed8; }
+  #app { flex:1; display:flex; min-height:0; }
+  #side { width:340px; min-width:260px; background:var(--panel); border-right:1px solid var(--line); display:flex; flex-direction:column; }
+  #filters { padding:10px 12px; border-bottom:1px solid var(--line); display:grid; gap:6px; }
+  #filters input, #filters select { width:100%; padding:6px 8px; border:1px solid var(--line); border-radius:6px; font:inherit; background:#fff; }
+  #filters .row { display:grid; grid-template-columns:1fr 1fr; gap:6px; }
+  #filters label.chk { font-size:12px; color:var(--muted); display:flex; align-items:center; gap:4px; white-space:nowrap; }
+  #filters label.chk input { width:auto; }
+  #count { font-size:12px; color:var(--muted); }
+  #list { overflow:auto; flex:1; margin:0; padding:0; list-style:none; }
+  #list .grp { position:sticky; top:0; background:#f1f5f9; padding:3px 12px; font-size:12px; font-weight:600; color:#475569; border-bottom:1px solid var(--line); }
+  #list li.item { padding:6px 12px; border-bottom:1px solid #f0f2f4; cursor:pointer; }
+  #list li.item:hover { background:#f8fafc; }
+  #list li.item.sel { background:#e8f0fe; border-left:3px solid var(--accent); padding-left:9px; }
+  #list .nm { display:block; }
+  #list .meta { font-size:11px; color:var(--muted); }
+  #main { flex:1; overflow:auto; padding:18px 24px 48px; }
+  .card { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:14px 18px; margin-bottom:14px; max-width:900px; }
+  .card h2 { font-size:15px; margin:0 0 8px; }
+  h1.title { font-size:20px; margin:0 0 6px; }
+  .tags { display:flex; flex-wrap:wrap; gap:6px; margin:6px 0; }
+  .tag { font-size:12px; padding:1px 8px; border-radius:10px; background:#eef2f7; color:#334155; }
+  .tag.ext { background:#ede9fe; color:var(--ext); }
+  .badge { font-size:11px; padding:0 6px; border-radius:8px; margin-right:6px; color:#fff; vertical-align:1px; }
+  .badge.hard { background:var(--hard); } .badge.soft { background:var(--soft); }
+  ul.plain { margin:4px 0; padding-left:20px; }
+  .q { background:#f8fafc; border:1px dashed var(--line); border-radius:6px; padding:8px 12px; }
+  details.ans > summary { cursor:pointer; color:var(--accent); }
+  .tree, .tree ul { list-style:none; margin:0; padding-left:20px; }
+  .tree { padding-left:0; }
+  .tree li { position:relative; padding:2px 0 2px 0; }
+  .tree ul { border-left:1px solid var(--line); margin-left:6px; }
+  .tree .why { color:var(--muted); font-size:12px; margin-left:4px; }
+  a.node { color:var(--accent); cursor:pointer; text-decoration:none; }
+  a.node:hover { text-decoration:underline; }
+  .seen { color:var(--muted); font-size:12px; }
+  .toolbar { display:flex; gap:8px; margin-bottom:8px; align-items:center; flex-wrap:wrap; }
+  .toolbar button { border:1px solid var(--line); background:#fff; border-radius:6px; padding:3px 10px; cursor:pointer; font:inherit; }
+  .toolbar button.on { background:var(--accent); border-color:var(--accent); color:#fff; }
+  .layer { margin:6px 0; } .layer h3 { font-size:12px; margin:0; color:var(--muted); font-weight:600; }
+  .layer .chips { display:flex; flex-wrap:wrap; gap:6px; margin-top:3px; }
+  .chip { border:1px solid var(--line); border-radius:6px; padding:1px 8px; background:#fff; cursor:pointer; font-size:13px; }
+  .chip:hover { border-color:var(--accent); }
+  .chip.ext { border-color:#c4b5fd; }
+  #err { background:#fef2f2; color:#991b1b; border:1px solid #fecaca; border-radius:8px; padding:14px 18px; max-width:760px; }
+  #err code { background:#fee2e2; padding:1px 4px; border-radius:4px; }
+  .empty { color:var(--muted); padding:40px 0; }
+  .muted { color:var(--muted); }
+  @media (max-width:760px){ #app{flex-direction:column;} #side{width:100%;height:42%;} }
+</style>
+</head>
+<body>
+<header>
+  <h1>中国初中数学知识图谱（七—九年级）</h1>
+  <span class="note">AI 生成的初稿，未经教师审核；先修关系尤其需要一线教师审核。人教版 2024 审定版章节顺序。</span>
+  <a class="tool-link" href="diagnose/">诊断小工具 →</a>
+</header>
+<div id="app">
+  <aside id="side">
+    <div id="filters">
+      <input id="q" type="search" placeholder="搜索知识点名称、描述、章节…" autocomplete="off">
+      <div class="row">
+        <select id="fDomain"><option value="">全部学科</option></select>
+        <select id="fGrade">
+          <option value="">全部年级</option>
+          <option value="7上">七年级上</option><option value="7下">七年级下</option>
+          <option value="8上">八年级上</option><option value="8下">八年级下</option>
+          <option value="9上">九年级上</option><option value="9下">九年级下</option>
+          <option value="7">七年级（全）</option><option value="8">八年级（全）</option><option value="9">九年级（全）</option>
+        </select>
+      </div>
+      <div class="row">
+        <select id="fType"><option value="">全部类型</option></select>
+        <label class="chk"><input type="checkbox" id="fExt"> 含小学先修</label>
+      </div>
+      <div id="count"></div>
+    </div>
+    <ul id="list"></ul>
+  </aside>
+  <main id="main"><div class="empty">加载中…</div></main>
+</div>
+
+<script>
+"use strict";
+const TYPE_ZH = {conceptual:"概念理解", procedural:"程序性技能", reasoning:"推理证明", application:"应用", modeling:"建模"};
+const GRADE_ZH = {7:"七", 8:"八", 9:"九"};
+const $ = s => document.querySelector(s);
+const el = (tag, attrs, ...kids) => {
+  const e = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs || {})) {
+    if (k === "class") e.className = v; else if (k === "text") e.textContent = v;
+    else if (k.startsWith("on")) e.addEventListener(k.slice(2), v); else e.setAttribute(k, v);
+  }
+  for (const c of kids.flat()) if (c != null) e.append(c.nodeType ? c : document.createTextNode(c));
+  return e;
+};
+
+let topics = [], deps = [], byId = new Map(), pre = new Map(), post = new Map(), selected = null;
+
+function gradeKey(t) { return t.external ? "小学" : GRADE_ZH[t.grade] + t.semester; }
+
+async function load() {
+  try {
+    const [a, b] = await Promise.all([fetch("data/topics.json"), fetch("data/dependencies.json")]);
+    if (!a.ok || !b.ok) throw new Error("HTTP " + a.status + "/" + b.status);
+    topics = await a.json(); deps = await b.json();
+  } catch (e) {
+    $("#main").replaceChildren(el("div", {id:"err"},
+      el("b", {text:"无法加载数据文件。"}), el("br"),
+      "浏览器出于安全限制不允许用 ", el("code", {text:"file://"}), " 直接读取本地 JSON。请在本目录运行：", el("br"),
+      el("code", {text:"python3 -m http.server 8000"}), " 然后访问 ", el("code", {text:"http://localhost:8000/"}),
+      el("br"), el("span", {class:"muted", text:"（" + e.message + "）"})));
+    $("#count").textContent = "";
+    return;
+  }
+  for (const t of topics) { byId.set(t.id, t); pre.set(t.id, []); post.set(t.id, []); }
+  for (const d of deps) {
+    pre.get(d.topicId).push({id:d.prerequisiteId, strength:d.strength, reason:d.reason});
+    post.get(d.prerequisiteId).push({id:d.topicId, strength:d.strength, reason:d.reason});
+  }
+  for (const m of [pre, post]) for (const arr of m.values())
+    arr.sort((x, y) => (x.strength === y.strength ? 0 : x.strength === "hard" ? -1 : 1) || x.id.localeCompare(y.id));
+
+  const doms = [...new Set(topics.map(t => t.domain))];
+  for (const d of doms) $("#fDomain").append(el("option", {value:d, text:d}));
+  for (const [k, v] of Object.entries(TYPE_ZH)) $("#fType").append(el("option", {value:k, text:v}));
+  for (const id of ["q", "fDomain", "fGrade", "fType", "fExt"]) $("#" + id).addEventListener("input", renderList);
+  window.addEventListener("hashchange", () => select(location.hash.slice(1), false));
+  renderList();
+  if (byId.has(location.hash.slice(1))) select(location.hash.slice(1), true);
+  else $("#main").replaceChildren(el("div", {class:"empty", text:"← 请从左侧选择一个知识点。共 " + topics.filter(t => !t.external).length + " 个知识点、" + deps.length + " 条先修边。"}));
+}
+
+function filtered() {
+  const q = $("#q").value.trim().toLowerCase(), d = $("#fDomain").value, g = $("#fGrade").value,
+        ty = $("#fType").value, ext = $("#fExt").checked;
+  return topics.filter(t => {
+    if (t.external && !ext) return false;
+    if (d && t.domain !== d) return false;
+    if (ty && t.type !== ty) return false;
+    if (g) { if (t.external) return false; if (g.length === 1 ? String(t.grade) !== g : (t.grade + t.semester) !== g) return false; }
+    if (q && !((t.name + t.description + (t.chapter || "") + t.id).toLowerCase().includes(q))) return false;
+    return true;
+  });
+}
+
+function renderList() {
+  const items = filtered(), ul = $("#list");
+  ul.replaceChildren();
+  let last = null;
+  for (const t of items) {
+    const key = gradeKey(t);
+    if (key !== last) {
+      last = key;
+      ul.append(el("li", {class:"grp", text: t.external ? "小学先修（外部节点）" : GRADE_ZH[t.grade] + "年级" + t.semester + "册"}));
+    }
+    const li = el("li", {class:"item" + (t.id === selected ? " sel" : ""), "data-id":t.id, onclick:() => select(t.id, true)},
+      el("span", {class:"nm", text:t.name}),
+      el("span", {class:"meta", text: t.external ? t.domain : t.domain + " · " + (t.chapter || "").replace(/^.. /, "")}));
+    ul.append(li);
+  }
+  $("#count").textContent = "显示 " + items.length + " / " + topics.length;
+}
+
+function select(id, push) {
+  if (!byId.has(id)) return;
+  selected = id;
+  if (push && location.hash.slice(1) !== id) history.replaceState(null, "", "#" + id);
+  for (const li of document.querySelectorAll("#list li.item")) li.classList.toggle("sel", li.dataset.id === id);
+  const cur = document.querySelector("#list li.sel"); if (cur) cur.scrollIntoView({block:"nearest"});
+  renderDetail(byId.get(id));
+  $("#main").scrollTop = 0;
+}
+
+const link = id => el("a", {class:"node", onclick:() => select(id, true), text:byId.get(id).name});
+const badge = s => el("span", {class:"badge " + s, text: s === "hard" ? "硬先修" : "软先修"});
+
+function renderDetail(t) {
+  const m = $("#main");
+  const head = el("div", {class:"card"},
+    el("h1", {class:"title", text:t.name}),
+    el("div", {class:"tags"},
+      el("span", {class:"tag" + (t.external ? " ext" : ""), text:t.id}),
+      el("span", {class:"tag", text:t.domain}),
+      t.external ? el("span", {class:"tag ext", text:"小学先修（外部节点）"})
+                 : [el("span", {class:"tag", text:GRADE_ZH[t.grade] + "年级" + t.semester}),
+                    el("span", {class:"tag", text:TYPE_ZH[t.type] || t.type}),
+                    el("span", {class:"tag", text:t.chapter})]),
+    el("p", {text:t.description}));
+  const parts = [head];
+  if (!t.external) {
+    parts.push(el("div", {class:"card"}, el("h2", {text:"掌握标准"}),
+      el("ul", {class:"plain"}, t.mastery_criteria.map(c => el("li", {text:c})))));
+    parts.push(el("div", {class:"card"}, el("h2", {text:"诊断题"}),
+      el("div", {class:"q"}, el("div", {text:t.diagnostic_question.question}),
+        el("details", {class:"ans"}, el("summary", {text:"查看答案"}), el("div", {text:t.diagnostic_question.answer})))));
+  }
+  parts.push(prereqCard(t), postCard(t));
+  m.replaceChildren(...parts);
+}
+
+let viewMode = "tree";
+function prereqCard(t) {
+  const card = el("div", {class:"card"}), body = el("div");
+  const direct = pre.get(t.id);
+  const all = ancestors(t.id);
+  card.append(el("h2", {text:"先修链（向上递归）"}));
+  if (!direct.length) {
+    card.append(el("div", {class:"muted", text: t.external ? "外部节点，没有进一步先修。" : "没有先修（根节点）。"}));
+    return card;
+  }
+  const bar = el("div", {class:"toolbar"},
+    el("button", {class:viewMode === "tree" ? "on" : "", text:"树状", onclick:() => { viewMode = "tree"; renderDetail(t); }}),
+    el("button", {class:viewMode === "layer" ? "on" : "", text:"分层列表", onclick:() => { viewMode = "layer"; renderDetail(t); }}),
+    el("span", {class:"muted", text:"直接先修 " + direct.length + " 个，累计上游 " + all.size + " 个知识点。树状图中同一知识点只在首次出现处展开。"}));
+  card.append(bar, body);
+  if (viewMode === "tree") body.append(tree(t.id));
+  else body.append(layers(t.id));
+  return card;
+}
+
+function ancestors(id) {
+  const seen = new Set(), st = [id];
+  while (st.length) for (const p of pre.get(st.pop())) if (!seen.has(p.id)) { seen.add(p.id); st.push(p.id); }
+  return seen;
+}
+
+function tree(rootId) {
+  const expanded = new Set([rootId]);
+  const build = id => {
+    const ul = el("ul", {class:"tree"});
+    for (const p of pre.get(id)) {
+      const n = byId.get(p.id), li = el("li");
+      li.append(badge(p.strength), link(p.id),
+        el("span", {class:"seen", text:" " + (n.external ? "小学" : gradeKey(n))}),
+        el("span", {class:"why", text:"— " + p.reason}));
+      if (pre.get(p.id).length) {
+        if (expanded.has(p.id)) li.append(el("span", {class:"seen", text:"  （↑ 已在上方展开）"}));
+        else { expanded.add(p.id); li.append(build(p.id)); }
+      }
+      ul.append(li);
+    }
+    return ul;
+  };
+  return build(rootId);
+}
+
+function layers(rootId) {
+  const level = new Map();
+  const walk = (id, d) => { for (const p of pre.get(id)) { if ((level.get(p.id) || 0) < d) { level.set(p.id, d); walk(p.id, d + 1); } } };
+  walk(rootId, 1);
+  const direct = new Map(pre.get(rootId).map(p => [p.id, p.strength]));
+  const max = Math.max(...level.values()), box = el("div");
+  for (let d = 1; d <= max; d++) {
+    const ids = [...level].filter(([, v]) => v === d).map(([k]) => k)
+      .sort((a, b) => (byId.get(a).external - byId.get(b).external) || a.localeCompare(b));
+    box.append(el("div", {class:"layer"},
+      el("h3", {text: d === 1 ? "第 1 层：直接先修" : "第 " + d + " 层：先修的先修"}),
+      el("div", {class:"chips"}, ids.map(id => {
+        const c = el("span", {class:"chip" + (byId.get(id).external ? " ext" : ""), onclick:() => select(id, true)},
+          direct.has(id) ? badge(direct.get(id)) : null, byId.get(id).name,
+          el("span", {class:"seen", text:" " + (byId.get(id).external ? "小学" : gradeKey(byId.get(id)))}));
+        return c;
+      }))));
+  }
+  box.append(el("div", {class:"muted", text:"层数 = 到当前知识点的最长先修路径长度；越靠后越基础。"}));
+  return box;
+}
+
+function postCard(t) {
+  const card = el("div", {class:"card"}), list = post.get(t.id);
+  const down = new Set(), st = [t.id];
+  while (st.length) for (const p of post.get(st.pop())) if (!down.has(p.id)) { down.add(p.id); st.push(p.id); }
+  card.append(el("h2", {text:"它是哪些后续知识点的先修（共直接 " + list.length + " 个，累计下游 " + down.size + " 个）"}));
+  if (!list.length) { card.append(el("div", {class:"muted", text:"没有后续知识点依赖它（末端节点）。"})); return card; }
+  card.append(el("ul", {class:"plain"}, list.map(p => el("li", {},
+    badge(p.strength), link(p.id), el("span", {class:"seen", text:" " + gradeKey(byId.get(p.id))}),
+    el("span", {class:"why muted", text:" — " + p.reason})))));
+  return card;
+}
+
+load();
+</script>
+</body>
+</html>
