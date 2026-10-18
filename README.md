@@ -203,3 +203,14 @@ python3 -m http.server 8000
 1. 请初中数学教师先审先修边（尤其是 hard 边），并用教材实物或人教社官方目录核对九下的章名、章号和小节号。
 2. 请课程专家审核 `standards` 映射（尤其 inferred），并考虑为 15 条无对应知识点的课标条款补点；再补充每个知识点的常见错误、典型例题。
 3. 用真实学生答题数据校准诊断题与先修强度。
+
+## 许可证 / License
+
+本项目（知识图谱数据、题库、诊断工具代码及文档）采用 [知识共享 署名-非商业性使用 4.0 国际许可协议（CC BY-NC 4.0）](https://creativecommons.org/licenses/by-nc/4.0/deed.zh-hans) 授权，完整条款见 [LICENSE](LICENSE)。
+
+- ✅ 可以免费用于个人学习、教学、研究，可以修改和再分发，但需署名并注明来源（本仓库链接）。
+- ❌ 不得用于商业用途（包括但不限于付费课程、付费 App、机构收费服务、售卖题库等）。
+
+**商用授权：** 如需商业使用，请联系作者获取单独授权：X（Twitter）私信 [@hassanyehiaa](https://x.com/hassanyehiaa)，或在本仓库 [提交 Issue](https://github.com/xiaoyang111222/cn-math-taxonomy/issues) 说明用途。
+
+This project is licensed under CC BY-NC 4.0. For commercial licensing, please contact the author via X [@hassanyehiaa](https://x.com/hassanyehiaa) or open an issue.
