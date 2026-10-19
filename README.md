@@ -3,9 +3,10 @@
 对齐《义务教育数学课程标准（2022 年版）》与人教版七–九的知识点 DAG，附**自适应前置诊断**与题库。答错会沿先修边回溯找根因，并给出拓扑学习路径。
 
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
-[![在线试用](https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF%E8%AF%95%E7%94%A8-GitHub%20Pages-2ea44f)](https://xiaoyang111222.github.io/cn-math-taxonomy/)
+[![在线试用](https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF%E8%AF%95%E7%94%A8-math.pansgo.com-2ea44f)](https://math.pansgo.com/)
+[![GitHub Pages 备份](https://img.shields.io/badge/备份-GitHub%20Pages-lightgrey)](https://xiaoyang111222.github.io/cn-math-taxonomy/)
 
-**[→ 在线试用诊断（演示：配方法）](https://xiaoyang111222.github.io/cn-math-taxonomy/diagnose/?target=cnm_221&demo=1)** · [知识图谱浏览](https://xiaoyang111222.github.io/cn-math-taxonomy/) · [诊断工具](https://xiaoyang111222.github.io/cn-math-taxonomy/diagnose/)
+**[→ 在线试用诊断（演示：配方法）](https://math.pansgo.com/diagnose/?target=cnm_221&demo=1)** · [知识图谱浏览](https://math.pansgo.com/) · [诊断工具](https://math.pansgo.com/diagnose/) · [GitHub Pages 备份](https://xiaoyang111222.github.io/cn-math-taxonomy/)
 
 ![诊断结果示例：配方法 → 回溯到完全平方公式](screenshots/03-result.png)
 
@@ -218,6 +219,19 @@ python3 -m http.server 8000
 1. 请初中数学教师先审先修边（尤其是 hard 边），并用教材实物或人教社官方目录核对九下的章名、章号和小节号。
 2. 请课程专家审核 `standards` 映射（尤其 inferred），并考虑为 15 条无对应知识点的课标条款补点；再补充每个知识点的常见错误、典型例题。
 3. 用真实学生答题数据校准诊断题与先修强度。
+
+
+## 部署（Cloudflare Pages）
+
+生产站点：https://math.pansgo.com/ （Pages 项目 `cn-math-taxonomy`，备用 https://cn-math-taxonomy.pages.dev/）。
+
+本仓库更新后，在本机执行一次即可重新发布静态页：
+
+```bash
+./scripts/deploy-cf.sh
+```
+
+脚本会打包 `index.html`、`diagnose/`、`data/` 中页面用到的文件，部署到 Cloudflare Pages 的 `main` 生产分支。不改动 VPS / Caddy。
 
 ## 许可证 / License
 
