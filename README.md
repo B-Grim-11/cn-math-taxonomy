@@ -6,7 +6,11 @@
 [![在线试用](https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF%E8%AF%95%E7%94%A8-math.pansgo.com-2ea44f)](https://math.pansgo.com/)
 [![GitHub Pages 备份](https://img.shields.io/badge/备份-GitHub%20Pages-lightgrey)](https://xiaoyang111222.github.io/cn-math-taxonomy/)
 
-**[→ 在线试用诊断（演示：配方法）](https://math.pansgo.com/diagnose/?target=cnm_221&demo=1)** · [知识图谱浏览](https://math.pansgo.com/) · [诊断工具](https://math.pansgo.com/diagnose/) · [GitHub Pages 备份](https://xiaoyang111222.github.io/cn-math-taxonomy/)
+**[→ 在线试用诊断（演示：配方法）](https://math.pansgo.com/diagnose/?target=cnm_221&demo=1)** · [首页](https://math.pansgo.com/) · [知识图谱](https://math.pansgo.com/explore/) · [诊断工具](https://math.pansgo.com/diagnose/) · [GitHub Pages 备份](https://xiaoyang111222.github.io/cn-math-taxonomy/)
+
+![首页：三步说明、实时统计和年级入口](screenshots/06-home.png)
+
+![知识图谱：配方法附近的先修（向上 2 层，向下 1 层）](screenshots/07-explore-221.png)
 
 ![诊断结果示例：配方法 → 回溯到完全平方公式](screenshots/03-result.png)
 
@@ -75,7 +79,7 @@
 | 五上–六下（现行） | 五上：小数乘法；位置；小数除法；可能性；简易方程；多边形的面积；数学广角——植树问题。五下：观察物体（三）；因数与倍数；长方体和正方体；分数的意义和性质；图形的运动（三）；分数的加法和减法；折线统计图；数学广角——找次品。六上：分数乘法；位置与方向（二）；分数除法；比；圆；百分数（一）；扇形统计图；数学广角——数与形。六下：负数；百分数（二）；圆柱与圆锥；比例；数学广角——鸽巢问题 | **非官方、待核**。教师之家汇总 <https://www.renjiaoshe.com/xiaoxueshuxue.html> 与数学课 <https://www.shuxueke.net/mulu> 的五、六年级单元名一致（这两页的一、二年级仍是旧目录，一、二年级不采用它们）。六上 2022 年印次预览（<https://zy.21cnjy.com/15027400>）在「圆」后有综合与实践「确定起跑线」、扇形统计图后有「节约用水」，**本图谱未单列，待核**。 |
 
 数学广角保持为编号单元，领域记为综合与实践，不改成「综合与实践」那种 chapter 写法。
-- **旧的小学外部节点（方案 b）**：原来的 18 个 `cnm_ext_*` 已从 `topics.json` **删除**，不保留为汇总节点。`data/id-aliases.json` 把每个旧 id 映射到一个或多个小学正式知识点（`cnm_pNNN`）。浏览页遇到 `#cnm_ext_002` 会打开映射里的第一个小学知识点；诊断页 `?target=cnm_ext_002` 会把该旧 id 展开成映射里的全部小学知识点再开始诊断。图上不再有任何 `cnm_ext_*` 边。
+- **旧的小学外部节点（方案 b）**：原来的 18 个 `cnm_ext_*` 已从 `topics.json` **删除**，不保留为汇总节点。`data/id-aliases.json` 把每个旧 id 映射到一个或多个小学正式知识点（`cnm_pNNN`）。根路径或知识图谱页遇到 `#cnm_ext_002` 会打开映射里的第一个小学知识点（地址栏仍保留这个旧编号）；诊断页 `?target=cnm_ext_002` 会把该旧 id 展开成映射里的全部小学知识点再开始诊断。图上不再有任何 `cnm_ext_*` 边。
 - **格式参考**：已阅读 Marble 的 `data/topics.json` / `data/dependencies.json`（节点含 `type`、`domain`、`evidence`、`assessmentPrompt`；边为 `topicId` 依赖 `prerequisiteId`）。其中文分支 [os-taxonomy-beijing](https://github.com/luw2007/os-taxonomy-beijing) 只读了 README，**没有解析它的数据文件**。本项目在字段含义上对应关系为：`mastery_criteria` ≈ `evidence`，`diagnostic_question` ≈ `assessmentPrompt`；但文件顶层是裸数组（没有 `version`/`topicCount` 包装），id 为 `cnm_NNN`，也没有 `centrality`、`ageRange`、`standards`。
 
 ## 文件
@@ -95,11 +99,16 @@ scripts/validate.py      校验脚本（仅标准库；含题库检查）
 scripts/verify_questions.py  题库答案自动核验（受限表达式求值）
 scripts/second_pass.py       独立第二遍复核的辅助脚本（出盲解题、比对答案）
 CHANGELOG.md             按日期记录的变更日志（含 id 变动说明）
-index.html               单文件浏览页面（无外部依赖）
+index.html               首页（实时统计、三步说明、按年级进入）
+explore/                 知识图谱浏览（index.html、app.js；局部先修图）
+assets/site.css          全站配色、字号、导航（浏览页与诊断页共用）
+assets/explore.css       知识图谱三栏布局
+assets/home.js           首页统计与年级入口（从 data/*.json 计算）
+assets/vendor/           Cytoscape 3.30.4、dagre 0.8.5、cytoscape-dagre 2.5.0（MIT，随仓库分发，见 VENDOR.md）
 diagnose/                诊断小工具（纯静态：index.html、engine.js、app.js、style.css、README.md）
 tests/test_engine.js     诊断引擎测试（Node，无依赖）
 scripts/screenshot.js    无头 Chrome 冒烟测试与截图脚本
-screenshots/             诊断小工具截图（01-start / 02-question / 03-result / 04-graph / 05-explanation）
+screenshots/             首页、知识图谱与诊断页截图（01–05 诊断流程，06 起为新界面与窄屏）
 ```
 
 ### topics.json 字段
@@ -189,7 +198,7 @@ node tests/test_engine.js                          # 引擎测试
 node scripts/screenshot.js                         # 冒烟测试 + 截图（需要本机 Chrome）
 ```
 
-算法说明、判题规则、URL 参数与局限见 [diagnose/README.md](diagnose/README.md)；浏览页 `index.html` 右上角也有入口。每个知识点最多问 2 题，诊断结果只是线索。
+算法说明、判题规则、URL 参数与局限见 [diagnose/README.md](diagnose/README.md)。首页、知识图谱和诊断页顶部都有同一套导航。每个知识点最多问 2 题，诊断结果只是线索。
 
 ## 小学知识点（2026-10-19）
 
@@ -239,16 +248,24 @@ python3 scripts/validate.py
 
 检查：JSON 合法；id 唯一；必填字段齐全；`domain`/`type`/`strength` 取值合法；每条边的两端都存在；无自环、无重复边；无环（有环时打印环路）；每个非外部知识点要么有先修边要么有 `root_reason`；没有完全孤立的节点。并打印按领域、按册次的数量以及边数、hard/soft 数。第三轮新增：`standards` 引用的课标 id 必须存在于 `data/cn-curriculum-standards.json`，`confidence` 只能是 `exact`/`inferred`，课标文件自身的 id 格式与编号连续性；并打印课标条目数、映射覆盖率；正式知识点 `standards` 为空时只打印警告（至多 30 个），设置 `STRICT_STANDARDS=1` 才视为错误。全部通过时输出 `VALIDATION PASSED` 且退出码为 0，否则输出错误并以非 0 退出。
 
-## 打开浏览页面
+## 打开网页
 
 页面通过 `fetch` 读取 `data/*.json`，浏览器不允许直接用 `file://` 打开，请在本目录启动一个静态服务器：
 
 ```bash
 python3 -m http.server 8000
-# 然后访问 http://localhost:8000/
+# 首页 http://localhost:8000/
+# 知识图谱 http://localhost:8000/explore/
+# 诊断 http://localhost:8000/diagnose/
 ```
 
-功能：左侧可按学科、学段（全部 / 小学 / 初中）、年级或册次、类型筛选并搜索（名称、描述、章节）。点击知识点后显示描述、掌握标准、诊断题（答案默认折叠）、**先修链**（向上递归，树状或分层列表两种视图，边上标注硬/软先修及理由），以及**它是哪些后续知识点的先修**。地址栏 `#cnm_219` 或 `#cnm_p001` 可直接定位。`#cnm_ext_002` 这类旧编号会跳到 `id-aliases.json` 里的第一个小学知识点。页面标题是「中小学数学知识图谱」。
+三个页面共用 `assets/site.css`（柔和青绿主色，小学 / 初中两种辅助色，跟随系统深色模式）和顶部导航：首页、知识图谱、诊断、关于（GitHub）。图形库放在 `assets/vendor/`，页面不从外网 CDN 加载脚本、样式或字体。旧链接 `#cnm_219`、`#cnm_p001`、`#cnm_ext_002` 写在网站根路径上时，会转到知识图谱的同一哈希。
+
+**首页**（`index.html`）：一句话介绍；三步（选知识点 → 自适应答题 → 找到根因和学习路径）；四张统计卡（知识点、先修边、题目、课标条目，打开时从数据文件计数，不写死）；「开始诊断」「浏览知识图谱」；一至九年级入口（链到 `explore/?grade=`）。
+
+**知识图谱**（`explore/`）：左侧搜索，以及学段 / 年级 / 领域筛选，结果按年级·册·章折叠。手机上目录收在顶部抽屉里。中间用 Cytoscape + dagre 只画**当前知识点的局部图**：默认向上 2 层先修（可改 1 / 2 / 3 层或全部祖先），向下 1 层。硬先修实线、软先修虚线，小学和初中节点颜色不同，点节点即可换选中项，可缩放、拖动和「适配画面」。不会默认铺开全部 531 个点。右侧（窄屏在图下方）是详情：名称、年级册章、领域、类型、描述、掌握标准、课标条目、样题（答案折叠）、先修列表，以及「被哪些知识点依赖」。大按钮「诊断这个知识点」进入 `diagnose/?target=<id>`。
+
+**诊断**（`diagnose/`）：开始页先按学段筛选并搜索，册章列表仍在，但默认折叠。答题卡片和选项加大（触控不小于 44px）。结果页把根因、不稳和学习路径分成卡片，路径图仍是原来的 SVG。导出 JSON 和打印保留。
 
 ## 后续建议
 
@@ -267,11 +284,11 @@ python3 -m http.server 8000
 ./scripts/deploy-cf.sh
 ```
 
-脚本会打包 `index.html`、`diagnose/`、`data/` 中页面用到的文件，部署到 Cloudflare Pages 的 `main` 生产分支。不改动 VPS / Caddy。
+脚本会打包 `index.html`、`assets/`（含图形库）、`explore/`、`diagnose/`、`data/` 中页面用到的文件，部署到 Cloudflare Pages 的 `main` 生产分支。不改动 VPS / Caddy。截图和出题批次不会打进部署包。
 
 ## 许可证 / License
 
-本项目（知识图谱数据、题库、诊断工具代码及文档）采用 [知识共享 署名-非商业性使用 4.0 国际许可协议（CC BY-NC 4.0）](https://creativecommons.org/licenses/by-nc/4.0/deed.zh-hans) 授权，完整条款见 [LICENSE](LICENSE)。
+本项目（知识图谱数据、题库、诊断工具代码及文档）采用 [知识共享 署名-非商业性使用 4.0 国际许可协议（CC BY-NC 4.0）](https://creativecommons.org/licenses/by-nc/4.0/deed.zh-hans) 授权，完整条款见 [LICENSE](LICENSE)。`assets/vendor/` 里的 Cytoscape、dagre、cytoscape-dagre 仍是各自的 MIT 许可证（见 `assets/vendor/VENDOR.md` 和同目录的 LICENSE 文件），不改成 CC BY-NC。
 
 - ✅ 可以免费用于个人学习、教学、研究，可以修改和再分发，但需署名并注明来源（本仓库链接）。
 - ❌ 不得用于商业用途（包括但不限于付费课程、付费 App、机构收费服务、售卖题库等）。

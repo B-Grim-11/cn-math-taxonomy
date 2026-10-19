@@ -8,7 +8,9 @@
  *      再用固定 seed 分别测选择题（点选项）和数值题（输入答案）的自动判题与解析显示；全程监听 console 错误；
  *   2) 用 ?target=cnm_221&demo=1 的演示模式（掌握 / 不稳 / 薄弱 三种状态都会出现）截
  *      screenshots/01-start.png、02-question.png、03-result.png、04-graph.png，
- *      并截答题后显示解析的 05-explanation.png（1280×900）。
+ *      并截答题后显示解析的 05-explanation.png（1280×900）；
+ *   3) 首页、知识图谱（cnm_221 / cnm_p001 / cnm_ext_002，以及根路径 #cnm_219）在 1280 与 375 宽下
+ *      检查局部图、无横向溢出、无外网脚本/样式/字体/图片请求，并截 06–16。
  * 环境变量：CHROME=/path/to/chrome  PORT=8765  DEBUG_PORT=9333
  */
 'use strict';
@@ -93,9 +95,16 @@ async function main() {
   const server = spawn('python3', ['-m', 'http.server', String(PORT), '--bind', '127.0.0.1'], { cwd: ROOT, stdio: 'ignore' });
   const chrome = spawn(chromePath, [
     '--headless=new', '--remote-debugging-port=' + DEBUG_PORT, '--user-data-dir=' + profile,
-    '--window-size=1280,900', '--hide-scrollbars', '--no-first-run', '--no-default-browser-check', '--disable-gpu', 'about:blank'
+    '--window-size=1280,900', '--hide-scrollbars', '--no-first-run', '--no-default-browser-check',
+    '--disable-gpu', '--no-sandbox', '--disable-dev-shm-usage',
+    '--disable-background-networking', '--disable-sync', '--disable-default-apps', '--disable-extensions',
+    '--disable-component-update', '--disable-domain-reliability', '--metrics-recording-only', '--no-pings',
+    '--safebrowsing-disable-auto-update',
+    '--disable-features=Translate,OptimizationHints,MediaRouter,DialMediaRouteProvider',
+    'about:blank'
   ], { stdio: 'ignore' });
   const errors = [];
+  const externalReqs = [];
   const checks = [];
   const check = (ok, msg) => { checks.push([ok, msg]); console.log((ok ? '  ok   ' : '  FAIL ') + msg); };
   let exitCode = 0;
@@ -108,10 +117,20 @@ async function main() {
       if (m.method === 'Runtime.exceptionThrown') errors.push('exception: ' + (m.params.exceptionDetails.exception && m.params.exceptionDetails.exception.description || m.params.exceptionDetails.text));
       if (m.method === 'Runtime.consoleAPICalled' && m.params.type === 'error') errors.push('console.error: ' + m.params.args.map((a) => a.value || a.description).join(' '));
       if (m.method === 'Log.entryAdded' && m.params.entry.level === 'error') errors.push('log: ' + m.params.entry.text + ' ' + (m.params.entry.url || ''));
-      if (m.method === 'Network.responseReceived' && m.params.response.status >= 400) errors.push('http ' + m.params.response.status + ' ' + m.params.response.url);
+      if (m.method === 'Network.responseReceived' && m.params.response.status >= 400) {
+        const url = m.params.response.url;
+        if (!/\/favicon\.ico(?:$|\?)/.test(url)) errors.push('http ' + m.params.response.status + ' ' + url);
+      }
+      if (m.method === 'Network.requestWillBeSent') noteExternal(m.params, externalReqs);
     });
     await Promise.all(['Runtime', 'Log', 'Page', 'Network'].map((d) => cdp.send(d + '.enable')));
-    await cdp.send('Emulation.setDeviceMetricsOverride', { width: 1280, height: 900, deviceScaleFactor: 1, mobile: false });
+    let viewW = 1280, viewH = 900;
+    const setView = async (w, h) => {
+      viewW = w; viewH = h;
+      await cdp.send('Emulation.setDeviceMetricsOverride', { width: w, height: h, deviceScaleFactor: 1, mobile: w < 700 });
+      await sleep(80);
+    };
+    await setView(1280, 900);
 
     const evalJs = async (expr) => {
       const r = await cdp.send('Runtime.evaluate', { expression: expr, awaitPromise: true, returnByValue: true });
@@ -125,13 +144,21 @@ async function main() {
     dumpPage = () => evalJs('document.body.innerText.slice(0, 1500)');
     const exists = (sel) => evalJs('!!document.querySelector(' + JSON.stringify(sel) + ')');
     const click = (sel) => evalJs('(() => { const e = document.querySelector(' + JSON.stringify(sel) + '); if (!e) throw new Error("no " + ' + JSON.stringify(sel) + '); e.click(); return true; })()');
-    const shot = async (file, selector) => {
+    const shot = async (file, selector, clipH) => {
       await sleep(300);
-      // 默认截页面顶部 1280×900；给 selector 则从该元素上沿起截 1280×900（可超出当前视口）
+      // 默认截当前视口宽度、从页面顶部起；给 selector 则从该元素上沿起截（可超出当前视口）
       const y = selector ? await evalJs('Math.max(0, document.querySelector(' + JSON.stringify(selector) + ').getBoundingClientRect().top + window.scrollY - 12)') : 0;
-      const r = await cdp.send('Page.captureScreenshot', { format: 'png', captureBeyondViewport: true, clip: { x: 0, y: y, width: 1280, height: 900, scale: 1 } });
+      const r = await cdp.send('Page.captureScreenshot', { format: 'png', captureBeyondViewport: true, clip: { x: 0, y: y, width: viewW, height: clipH || viewH, scale: 1 } });
       fs.writeFileSync(path.join(OUT, file), Buffer.from(r.data, 'base64'));
       console.log('  截图 screenshots/' + file);
+    };
+    const overflowOf = () => evalJs('(() => { const doc = document.documentElement; const sw = Math.max(doc.scrollWidth, document.body ? document.body.scrollWidth : 0); return { sw: sw, cw: doc.clientWidth, ok: sw <= doc.clientWidth + 1 }; })()');
+    const assetsOf = () => evalJs(LOCAL_ASSET_EXPR);
+    const checkPage = async (label) => {
+      const ov = await overflowOf();
+      check(ov.ok, label + ' 无横向溢出（scrollWidth ' + ov.sw + ' / clientWidth ' + ov.cw + '）');
+      const bad = await assetsOf();
+      check(bad.length === 0, label + ' 没有外网 script/link/font/img' + (bad.length ? '：' + bad.join('；') : ''));
     };
 
     console.log('冒烟测试');
@@ -142,7 +169,8 @@ async function main() {
     const rows = await evalJs('document.querySelectorAll("#target-list .topic-row").length');
     check(rows > 100, '开始页渲染了知识点列表（' + rows + ' 行）');
     check(await exists('.chap-head button.primary'), '有「以整章为目标」按钮');
-    check(await evalJs('document.querySelector("a.back").getAttribute("href")') === '../index.html', '有返回知识图谱的链接');
+    check(await evalJs('document.querySelector("a.back").getAttribute("href")') === '../explore/', '有返回知识图谱的链接');
+    await checkPage('诊断开始页 1280');
 
     // 搜索并选目标
     await evalJs('(() => { const s = document.getElementById("search"); s.value = "配方法"; s.dispatchEvent(new Event("input", {bubbles:true})); })()');
@@ -267,6 +295,74 @@ async function main() {
     await waitFor(() => exists('#summary'), '整章演示结果页');
     check((await evalJs('document.querySelector("#summary h2").textContent')).includes('整章'), '整章作为目标（?chapter=七上 第一章）可诊断');
 
+    console.log('首页 / 知识图谱');
+    await setView(1280, 900);
+    await goto(BASE + '/');
+    await waitFor(() => evalJs('document.getElementById("n-topics") && document.getElementById("n-topics").textContent !== "…" && document.querySelectorAll("a.grade-card").length === 9'), '首页统计');
+    const stats = await evalJs('[document.getElementById("n-topics").textContent, document.getElementById("n-edges").textContent, document.getElementById("n-questions").textContent, document.getElementById("n-standards").textContent].join(",")');
+    check(stats === '531,909,2271,230', '首页统计来自数据文件（' + stats + '）');
+    check((await evalJs('document.body.innerText')).includes('AI 生成初稿，未经教师审核') && !(await evalJs('document.title')).includes('草稿'), '首页有初稿声明，标题不含「草稿」');
+    check((await evalJs('document.querySelector("a.grade-card").getAttribute("href")')) === 'explore/?grade=1', '一年级卡片指向知识图谱');
+    await checkPage('首页 1280');
+    await shot('06-home.png', null, 1400);
+
+    const checkExplore = async (id, expect) => {
+      await goto(BASE + '/explore/#' + encodeURIComponent(id));
+      await waitFor(() => evalJs('document.getElementById("cy") && document.getElementById("cy").dataset.ready === "1"'), '局部图 ' + id, 20000);
+      const info = await evalJs('(() => { const cy = window.__cy; const hard = cy.edges(".hard"); const soft = cy.edges(".soft"); return { nodes: cy.nodes().length, hash: location.hash, title: (document.querySelector(".detail-title") || {}).textContent || "", idCode: (document.querySelector(".id-code") || {}).textContent || "", meta: document.getElementById("graph-meta").textContent, diag: (document.querySelector("a.diag-btn") || {}).getAttribute ? document.querySelector("a.diag-btn").getAttribute("href") : "", alias: (document.querySelector(".alias-note") || {}).textContent || "", hard: hard.length ? hard[0].style("line-style") : "", soft: soft.length ? soft[0].style("line-style") : "", hardN: hard.length, softN: soft.length, current: cy.nodes(".current").length }; })()');
+      check(info.ready !== 'err' && info.nodes > 1 && info.nodes < 80, id + ' 局部图渲染了 ' + info.nodes + ' 个节点（不是全图 531）');
+      check(info.meta.indexOf('向上 2 层') >= 0, id + ' 图注含「向上 2 层」（' + info.meta + '）');
+      check(info.hash === '#' + id, id + ' 地址栏哈希保持为 ' + info.hash);
+      check(info.title.indexOf(expect.title) >= 0 && info.idCode === expect.idCode, id + ' 详情是「' + info.title + '」' + info.idCode);
+      check(info.diag.indexOf('target=' + encodeURIComponent(expect.diag)) >= 0, id + ' 诊断按钮指向 ' + expect.diag);
+      check(info.current === 1, id + ' 当前节点已高亮');
+      if (expect.alias) check(info.alias.indexOf(expect.alias) >= 0 && info.alias.indexOf(id) >= 0, id + ' 显示旧编号说明');
+      if (info.hardN) check(info.hard === 'solid', id + ' 硬先修为实线');
+      if (info.softN) check(info.soft === 'dashed', id + ' 软先修为虚线（' + info.softN + ' 条）');
+      await checkPage('图谱 ' + id + ' ' + viewW);
+      return info;
+    };
+
+    await checkExplore('cnm_221', { title: '配方法', idCode: 'cnm_221', diag: 'cnm_221' });
+    await shot('07-explore-221.png');
+    await checkExplore('cnm_p001', { title: '1到5', idCode: 'cnm_p001', diag: 'cnm_p001' });
+    await shot('08-explore-p001.png');
+    await checkExplore('cnm_ext_002', { title: '分数的意义', idCode: 'cnm_p165', diag: 'cnm_p165', alias: '分数的意义与四则运算' });
+    await shot('09-explore-ext002.png');
+
+    await goto(BASE + '/#cnm_219');
+    await waitFor(() => evalJs('location.pathname.indexOf("/explore/") >= 0 && location.hash === "#cnm_219" && document.getElementById("cy") && document.getElementById("cy").dataset.ready === "1"'), '根路径 #cnm_219', 20000);
+    check((await evalJs('(document.querySelector(".id-code") || {}).textContent')) === 'cnm_219', '根路径 #cnm_219 仍定位到该知识点');
+    await checkPage('根路径 #cnm_219');
+    await shot('16-explore-219.png');
+
+    console.log('窄屏 375');
+    await setView(375, 812);
+    await goto(BASE + '/');
+    await waitFor(() => evalJs('document.getElementById("n-topics") && document.getElementById("n-topics").textContent === "531"'), '首页 375');
+    await checkPage('首页 375');
+    await shot('10-home-375.png', null, 1500);
+    await checkExplore('cnm_221', { title: '配方法', idCode: 'cnm_221', diag: 'cnm_221' });
+    await shot('11-explore-221-375.png', null, 1100);
+    await checkExplore('cnm_p001', { title: '1到5', idCode: 'cnm_p001', diag: 'cnm_p001' });
+    await shot('12-explore-p001-375.png', null, 1100);
+    await checkExplore('cnm_ext_002', { title: '分数的意义', idCode: 'cnm_p165', diag: 'cnm_p165', alias: '分数的意义与四则运算' });
+    await shot('13-explore-ext002-375.png', null, 1100);
+    await goto(BASE + '/diagnose/?target=cnm_221&demo=1');
+    await waitFor(() => exists('#summary'), '诊断结果页 375');
+    check(await exists('svg.graph'), '375 宽结果页仍有 SVG 路径图');
+    const choiceH = await evalJs('(() => { const b = document.querySelector("button"); return b ? b.getBoundingClientRect().height : 0; })()');
+    check(choiceH >= 44, '按钮触控高度 ≥ 44px（' + Math.round(choiceH) + '）');
+    await checkPage('诊断结果 375');
+    await shot('14-diagnose-375.png', null, 1100);
+    await goto(BASE + '/diagnose/');
+    await evalJs('localStorage.clear()');
+    await goto(BASE + '/diagnose/');
+    await waitFor(() => exists('#search'), '诊断开始页 375');
+    await checkPage('诊断开始页 375');
+    await shot('15-start-375.png', null, 900);
+
+    check(externalReqs.length === 0, '运行时没有页面发起的外网资源请求' + (externalReqs.length ? '：\n       ' + externalReqs.slice(0, 8).join('\n       ') : ''));
     check(errors.length === 0, 'console / 网络无错误' + (errors.length ? '：\n       ' + errors.join('\n       ') : ''));
     if (checks.some((c) => !c[0])) exitCode = 1;
     cdp.ws.close();
@@ -285,4 +381,57 @@ async function main() {
 }
 
 function fetchOk(url) { return fetch(url).then((r) => r.ok, () => false); }
+
+function noteExternal(params, bucket) {
+  const initiator = (params.initiator && params.initiator.type) || '';
+  if (initiator !== 'parser' && initiator !== 'script') return;
+  const url = params.request && params.request.url;
+  if (!url || !/^https?:/i.test(url)) return;
+  let host = '';
+  try { host = new URL(url).hostname; } catch (e) { return; }
+  if (host === '127.0.0.1' || host === 'localhost') return;
+  const type = params.type || '';
+  if (['Script', 'Stylesheet', 'Image', 'Font', 'XHR', 'Fetch', 'Document', 'Other'].indexOf(type) < 0) return;
+  const line = type + ' ' + initiator + ' ' + url;
+  if (bucket.indexOf(line) < 0) bucket.push(line);
+}
+
+const LOCAL_ASSET_EXPR = `(() => {
+  const bad = [];
+  const local = (raw) => {
+    if (!raw || raw.indexOf('data:') === 0 || raw.indexOf('blob:') === 0 || raw.charAt(0) === '#') return true;
+    try {
+      const u = new URL(raw, location.href);
+      return u.protocol === 'data:' || u.protocol === 'blob:' || u.hostname === '127.0.0.1' || u.hostname === 'localhost';
+    } catch (e) { return false; }
+  };
+  document.querySelectorAll('script[src], link[href], img[src], iframe[src], video[src], audio[src], source[src]').forEach((el) => {
+    const raw = el.getAttribute('src') || el.getAttribute('href') || '';
+    if (!local(raw)) bad.push(el.tagName.toLowerCase() + ' ' + raw);
+  });
+  Array.from(document.styleSheets).forEach((sheet) => {
+    let rules;
+    try { rules = sheet.cssRules; } catch (e) { bad.push('stylesheet ' + (sheet.href || 'inline')); return; }
+    const walk = (list) => {
+      if (!list) return;
+      for (const rule of list) {
+        if (rule.style) {
+          for (let i = 0; i < rule.style.length; i++) {
+            const val = rule.style.getPropertyValue(rule.style[i]);
+            const re = /url\\(([^)]+)\\)/g;
+            let m;
+            while ((m = re.exec(val))) {
+              const raw = m[1].trim().replace(/^['"]|['"]$/g, '');
+              if (!local(raw)) bad.push('css ' + raw);
+            }
+          }
+        }
+        if (rule.cssRules) walk(rule.cssRules);
+      }
+    };
+    walk(rules);
+  });
+  return bad;
+})()`;
+
 main();

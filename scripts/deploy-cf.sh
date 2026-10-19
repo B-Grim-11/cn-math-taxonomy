@@ -11,6 +11,8 @@ mkdir -p "$XDG_CACHE_HOME" "$DIST/data"
 
 cp "$ROOT/index.html" "$DIST/"
 [[ -f "$ROOT/.nojekyll" ]] && cp "$ROOT/.nojekyll" "$DIST/"
+cp -a "$ROOT/assets" "$DIST/"
+cp -a "$ROOT/explore" "$DIST/"
 cp -a "$ROOT/diagnose" "$DIST/"
 rm -f "$DIST/diagnose/README.md"
 cp "$ROOT/data/topics.json" \
