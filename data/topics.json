@@ -376,8 +376,8 @@
       "知道换一个观察的人，左右可能不一样"
     ],
     "diagnostic_question": {
-      "question": "第几是看顺序，从 1 开始数。从自己前面数起，正对着的那一边叫什么？",
-      "answer": "顺序，从 1 开始数"
+      "question": "面向黑板站好，你正对着的那一边叫什么？",
+      "answer": "前面"
     },
     "external": false,
     "standards": [
@@ -476,8 +476,8 @@
       "能用凑十算出 9 加几"
     ],
     "diagnostic_question": {
-      "question": "凑十法是先把一个数凑成 10。计算 9＋3 时，先把 3 看成几和几更方便？",
-      "answer": "先把一个数凑成 10"
+      "question": "用凑十法算 9＋3 时，把 3 拆成几和几更方便？",
+      "answer": "1和2"
     },
     "external": false,
     "standards": [
@@ -1855,8 +1855,8 @@
       "能用加法验算减法"
     ],
     "diagnostic_question": {
-      "question": "验算加法可以用什么方法？这里用减法验算加法的逆运算：和减去一个加数。368＋475 的和是 843，843－475 应等于多少？",
-      "answer": "用减法把和减去一个加数"
+      "question": "笔算加法算完后，常用什么方法验算？",
+      "answer": "用减法：和减去一个加数，看是否等于另一个加数"
     },
     "external": false,
     "standards": [
@@ -2554,8 +2554,8 @@
       "知道直线没有端点、射线有一个端点"
     ],
     "diagnostic_question": {
-      "question": "周长是图形一周边线的长度。线段和直线相比，线段有几个端点？下面哪句说的是线段？",
-      "answer": "图形一周边线的长度"
+      "question": "线段和直线相比，下面哪一句说的是线段？",
+      "answer": "有两个端点，可以量出长度"
     },
     "external": false,
     "standards": [
