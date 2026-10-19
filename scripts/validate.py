@@ -30,11 +30,15 @@ CONFIDENCES = {"exact", "inferred"}
 MAX_STANDARDS_PER_TOPIC = 3
 MAX_WARNINGS_LISTED = 30
 STD_DOMAIN_CODES = {"NA": "数与代数", "GG": "图形与几何", "SP": "统计与概率", "IP": "综合与实践"}
-STD_ID_RE = re.compile(r"^cms-2022:(\d)\.(NA|GG|SP|IP)\.(\d{2,})$")
+STD_ID_RE = re.compile(r"^cms-2022:([1-4])\.(NA|GG|SP|IP)\.(\d{2,})$")
 CORE_FIELDS = ["id", "name", "domain", "grade", "semester", "chapter", "type",
                "description", "mastery_criteria", "diagnostic_question", "external"]
 EXT_FIELDS = ["id", "name", "domain", "grade", "description", "external"]
-ID_RE = re.compile(r"^cnm_(ext_)?\d{3,}$")
+# cnm_001 初中正式；cnm_p001 小学正式。cnm_ext_* 已迁到 data/id-aliases.json，不再作为节点。
+ID_RE = re.compile(r"^cnm_(p)?\d{3,}$")
+GRADES = (1, 2, 3, 4, 5, 6, 7, 8, 9)
+ALIASES_PATH = os.path.join(ROOT, "data", "id-aliases.json")
+ALIAS_ID_RE = re.compile(r"^cnm_ext_\d{3,}$")
 
 errors = []
 warnings = []
@@ -98,8 +102,8 @@ def check_topics(topics):
             if t.get("grade") != "小学":
                 err("%s 外部节点 grade 必须为 \"小学\"" % where)
             continue
-        if t.get("grade") not in (7, 8, 9):
-            err("%s grade 必须是 7/8/9" % where)
+        if t.get("grade") not in GRADES:
+            err("%s grade 必须是 1–9 的整数" % where)
         if t.get("semester") not in ("上", "下"):
             err("%s semester 必须是 上/下" % where)
         if t.get("type") not in TYPES:
@@ -201,9 +205,16 @@ def report(ids, prereqs, dependents, n_hard, n_soft):
     for k, v in sorted(Counter(t["domain"] for t in core).items(), key=lambda x: -x[1]):
         print("  %-8s %d" % (k, v))
     print("\n按 grade+semester（正式知识点）：")
-    c = Counter("%s%s" % ({7: "七", 8: "八", 9: "九"}.get(t["grade"], t["grade"]), t["semester"]) for t in core)
-    for k in ["七上", "七下", "八上", "八下", "九上", "九下"]:
-        print("  %-4s %d" % (k, c.get(k, 0)))
+    zh = {1: "一", 2: "二", 3: "三", 4: "四", 5: "五", 6: "六", 7: "七", 8: "八", 9: "九"}
+    c = Counter("%s%s" % (zh.get(t["grade"], t["grade"]), t["semester"]) for t in core)
+    order = ["一上", "一下", "二上", "二下", "三上", "三下", "四上", "四下", "五上", "五下", "六上", "六下",
+             "七上", "七下", "八上", "八下", "九上", "九下"]
+    for k in order:
+        if c.get(k, 0) or k[0] in "七八九":
+            print("  %-4s %d" % (k, c.get(k, 0)))
+    n_pri = sum(1 for t in core if isinstance(t.get("grade"), int) and t["grade"] <= 6)
+    n_jun = sum(1 for t in core if isinstance(t.get("grade"), int) and t["grade"] >= 7)
+    print("其中小学（1–6 年级）%d，初中（7–9 年级）%d" % (n_pri, n_jun))
     print("\n按 type（正式知识点）：")
     for k, v in sorted(Counter(t["type"] for t in core).items(), key=lambda x: -x[1]):
         print("  %-12s %d" % (k, v))
@@ -349,7 +360,7 @@ Q_DIFFICULTIES = ("basic", "standard", "advanced")
 Q_TYPES = ("numeric", "choice", "short", "self")
 Q_FIELDS = {"id", "topicId", "difficulty", "type", "prompt", "answer", "choices", "accept",
             "explanation", "verify", "unordered", "fixed_from_source"}
-Q_ID_RE = re.compile(r"^(cnm_\d{3,})_q([1-9]\d*)$")
+Q_ID_RE = re.compile(r"^(cnm_(?:p)?\d{3,})_q([1-9]\d*)$")
 NUM_RE = re.compile(r"^-?\d+(?:\.\d+)?(?:/\d+(?:\.\d+)?)?$")
 MIN_QUESTIONS_PER_TOPIC = 3
 MIN_AUTO_SHARE = 0.60
@@ -502,6 +513,43 @@ def report_questions(stats, topics_by_id):
             "，".join("%d 题×%d" % (k, dist[k]) for k in sorted(dist))))
 
 
+def check_aliases(ids):
+    """data/id-aliases.json：旧 cnm_ext_* 必须映射到仍存在的小学正式知识点。"""
+    if not os.path.exists(ALIASES_PATH):
+        err("缺少 data/id-aliases.json（旧 cnm_ext_* 的跳转表）")
+        return
+    data = load(ALIASES_PATH)
+    if not isinstance(data, dict):
+        return
+    aliases = data.get("aliases")
+    if not isinstance(aliases, dict) or not aliases:
+        err("id-aliases.json 的 aliases 必须是非空对象")
+        return
+    for i in range(1, 19):
+        key = "cnm_ext_%03d" % i
+        if key not in aliases:
+            err("id-aliases.json 缺少旧节点 %s" % key)
+    for key, spec in aliases.items():
+        if not ALIAS_ID_RE.match(key):
+            err("别名 id 格式不合法：%s" % key)
+        if key in ids:
+            err("别名 %s 仍作为知识点存在，应只出现在 id-aliases.json" % key)
+        targets = spec.get("targets") if isinstance(spec, dict) else None
+        if not (isinstance(targets, list) and targets):
+            err("别名 %s 的 targets 必须是非空数组" % key)
+            continue
+        if len(set(targets)) != len(targets):
+            err("别名 %s 的 targets 有重复" % key)
+        for tid in targets:
+            t = ids.get(tid)
+            if t is None:
+                err("别名 %s 指向不存在的知识点 %s" % (key, tid))
+            elif t.get("external") or not (isinstance(t.get("grade"), int) and t["grade"] <= 6):
+                err("别名 %s 必须指向小学正式知识点，而不是 %s" % (key, tid))
+        if isinstance(spec, dict) and not nonempty_str(spec.get("name")):
+            err("别名 %s 缺少原名称 name" % key)
+
+
 def main():
     topics = load(TOPICS_PATH)
     deps = load(DEPS_PATH)
@@ -511,6 +559,7 @@ def main():
         print("VALIDATION FAILED")
         return 1
     ids = check_topics(topics)
+    check_aliases(ids)
     prereqs, dependents, n_hard, n_soft = check_deps(deps, ids)
     check_graph(ids, prereqs, dependents)
     std_items = None

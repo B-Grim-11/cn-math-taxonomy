@@ -13,6 +13,7 @@
  */
 'use strict';
 const { spawn } = require('child_process');
+const WebSocket = globalThis.WebSocket || require('undici').WebSocket;
 const fs = require('fs');
 const os = require('os');
 const path = require('path');
