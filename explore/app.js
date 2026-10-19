@@ -1,0 +1,681 @@
+/* 知识图谱浏览：搜索、筛选，以及选中知识点的局部先修图。 */
+(function () {
+  'use strict';
+
+  var FONT = '"PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", "Noto Sans SC", sans-serif';
+  var CN = ['', '一', '二', '三', '四', '五', '六', '七', '八', '九'];
+  var TYPE_ZH = {
+    conceptual: '概念理解', procedural: '程序性技能', reasoning: '推理证明',
+    application: '应用', modeling: '建模'
+  };
+  var DOMAIN_ORDER = ['数与代数', '图形与几何', '统计与概率', '综合与实践'];
+
+  var topics = [];
+  var deps = [];
+  var aliases = {};
+  var byId = new Map();
+  var indexOf = new Map();
+  var pre = new Map();
+  var post = new Map();
+  var stdById = new Map();
+  var selected = null;
+  var currentAlias = null;
+  var stage = '';
+  var grade = '';
+  var domain = '';
+  var query = '';
+  var aliasHitIds = new Set();
+  var upDepth = 2;
+  var cy = null;
+  var graphToken = 0;
+  var dagreReady = false;
+
+  function $(id) { return document.getElementById(id); }
+
+  function el(tag, attrs) {
+    var node = document.createElement(tag);
+    var a = attrs || {};
+    Object.keys(a).forEach(function (key) {
+      var value = a[key];
+      if (value == null || value === false) return;
+      if (key === 'class') node.className = value;
+      else if (key === 'text') node.textContent = value;
+      else node.setAttribute(key, value === true ? '' : String(value));
+    });
+    for (var i = 2; i < arguments.length; i++) append(node, arguments[i]);
+    return node;
+  }
+  function append(node, child) {
+    if (child == null || child === false) return;
+    if (Array.isArray(child)) { child.forEach(function (item) { append(node, item); }); return; }
+    node.append(child.nodeType ? child : document.createTextNode(String(child)));
+  }
+
+  function gradeLabel(topic) { return CN[topic.grade] + '年级' + topic.semester + '册'; }
+
+  function chapterOf(topic) {
+    var text = topic.chapter || '未分章';
+    var primary = /^[一二三四五六]年级[上下]册\s+(.+)$/.exec(text);
+    if (primary) return primary[1];
+    var junior = /^\S+\s+(第\S+章)\s+(.+)$/.exec(text);
+    if (junior) return junior[1] + ' ' + junior[2].replace(/\s+\d+(?:\.\d+)*$/, '');
+    return text;
+  }
+
+  function readHash() {
+    var hash = location.hash.replace(/^#/, '');
+    if (!hash) return '';
+    try { hash = decodeURIComponent(hash); } catch (error) { /* 保持原样 */ }
+    return hash;
+  }
+
+  function resolveId(raw) {
+    if (!raw) return null;
+    if (byId.has(raw)) return { id: raw, alias: null };
+    var spec = aliases[raw];
+    if (spec && Array.isArray(spec.targets) && spec.targets.length && byId.has(spec.targets[0])) {
+      return {
+        id: spec.targets[0],
+        alias: { id: raw, name: spec.name || raw, targets: spec.targets.slice() }
+      };
+    }
+    return null;
+  }
+
+  function writeHash(id) {
+    if (readHash() === id) return;
+    history.replaceState(null, '', location.pathname + location.search + '#' + id);
+  }
+
+  function cssVar(name) {
+    return getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+  }
+  function theme() {
+    return {
+      primary: cssVar('--node-primary'),
+      primaryBg: cssVar('--node-primary-bg'),
+      junior: cssVar('--node-junior'),
+      juniorBg: cssVar('--node-junior-bg'),
+      currentBg: cssVar('--node-current-bg'),
+      currentBorder: cssVar('--node-current-border'),
+      text: cssVar('--node-text'),
+      edge: cssVar('--edge'),
+      edgeSoft: cssVar('--edge-soft')
+    };
+  }
+
+  function restoreDepth() {
+    try {
+      var saved = sessionStorage.getItem('cnmExplore.depth');
+      if (saved === '1' || saved === '2' || saved === '3') upDepth = parseInt(saved, 10);
+      else if (saved === 'all') upDepth = 'all';
+    } catch (error) { /* 隐私模式 */ }
+  }
+
+  function syncControls() {
+    document.querySelectorAll('#stage-tabs [data-stage]').forEach(function (button) {
+      var on = button.getAttribute('data-stage') === stage;
+      button.classList.toggle('on', on);
+      button.setAttribute('aria-selected', on ? 'true' : 'false');
+    });
+    $('fGrade').value = grade;
+    var domainSelect = $('fDomain');
+    if (Array.prototype.some.call(domainSelect.options, function (option) { return option.value === domain; })) {
+      domainSelect.value = domain;
+    }
+    syncDepthButtons();
+  }
+
+  function syncDepthButtons() {
+    var current = upDepth === 'all' ? 'all' : String(upDepth);
+    document.querySelectorAll('#depth-switch [data-depth]').forEach(function (button) {
+      var on = button.getAttribute('data-depth') === current;
+      button.classList.toggle('on', on);
+      button.setAttribute('aria-pressed', on ? 'true' : 'false');
+    });
+  }
+
+  function closeDrawerIfMobile() {
+    if (!window.matchMedia('(max-width: 900px)').matches) return;
+    $('side').classList.remove('open');
+    var toggle = $('list-toggle');
+    toggle.setAttribute('aria-expanded', 'false');
+    toggle.textContent = '知识点目录';
+  }
+
+  function recomputeAliasHits() {
+    aliasHitIds = new Set();
+    if (query.length < 2) return;
+    Object.keys(aliases).forEach(function (id) {
+      var spec = aliases[id];
+      var name = ((spec && spec.name) || '').toLowerCase();
+      if (id.toLowerCase().indexOf(query) >= 0 || name.indexOf(query) >= 0) {
+        ((spec && spec.targets) || []).forEach(function (target) { aliasHitIds.add(target); });
+      }
+    });
+  }
+
+  function passFilter(topic) {
+    if (stage === 'p' && topic.grade > 6) return false;
+    if (stage === 'j' && topic.grade < 7) return false;
+    if (grade && String(topic.grade) !== grade) return false;
+    if (domain && topic.domain !== domain) return false;
+    if (query) {
+      var blob = (topic.name + '\n' + topic.description + '\n' + (topic.chapter || '') + '\n' + topic.id + '\n' + topic.domain).toLowerCase();
+      if (blob.indexOf(query) < 0 && !aliasHitIds.has(topic.id)) return false;
+    }
+    return true;
+  }
+
+  function renderList() {
+    recomputeAliasHits();
+    var volumes = [];
+    var volumeMap = new Map();
+    topics.forEach(function (topic) {
+      if (!passFilter(topic)) return;
+      var key = topic.grade + topic.semester;
+      var volume = volumeMap.get(key);
+      if (!volume) {
+        volume = { label: gradeLabel(topic), grade: topic.grade, semester: topic.semester, chapters: [], chapterMap: new Map() };
+        volumeMap.set(key, volume);
+        volumes.push(volume);
+      }
+      var chapterKey = chapterOf(topic);
+      var chapter = volume.chapterMap.get(chapterKey);
+      if (!chapter) {
+        chapter = { label: chapterKey, topics: [] };
+        volume.chapterMap.set(chapterKey, chapter);
+        volume.chapters.push(chapter);
+      }
+      chapter.topics.push(topic);
+    });
+    volumes.sort(function (a, b) {
+      return a.grade - b.grade || (a.semester === b.semester ? 0 : a.semester === '上' ? -1 : 1);
+    });
+
+    var shown = 0;
+    var box = $('list');
+    box.replaceChildren();
+    var filtering = !!(query || grade || stage || domain);
+    volumes.forEach(function (volume) {
+      var count = volume.chapters.reduce(function (sum, chapter) { return sum + chapter.topics.length; }, 0);
+      shown += count;
+      var volumeHas = volume.chapters.some(function (chapter) {
+        return chapter.topics.some(function (topic) { return topic.id === selected; });
+      });
+      var details = el('details', { class: 'vol' });
+      details.open = filtering || volumeHas;
+      details.append(el('summary', null, volume.label, el('span', { class: 'count-pill', text: ' ' + count })));
+      volume.chapters.forEach(function (chapter) {
+        var chapterHas = chapter.topics.some(function (topic) { return topic.id === selected; });
+        var chapterDetails = el('details', { class: 'chap' });
+        chapterDetails.open = !!query || chapterHas;
+        chapterDetails.append(el('summary', { text: chapter.label }));
+        chapter.topics.forEach(function (topic) {
+          chapterDetails.append(el('button', {
+            type: 'button',
+            class: 'topic-item' + (topic.id === selected ? ' sel' : ''),
+            'data-jump': topic.id
+          }, el('span', { class: 'nm', text: topic.name }), el('span', { class: 'meta', text: topic.domain })));
+        });
+        details.append(chapterDetails);
+      });
+      box.append(details);
+    });
+    if (!shown) box.append(el('p', { class: 'muted', text: '没有匹配的知识点。', style: 'padding:12px' }));
+    $('count').textContent = '显示 ' + shown + ' / ' + topics.length;
+  }
+
+  function sideVisible() {
+    var side = $('side');
+    return side.offsetParent !== null && side.getBoundingClientRect().height > 0;
+  }
+
+  function highlight(scroll) {
+    document.querySelectorAll('#list .topic-item').forEach(function (button) {
+      var on = button.getAttribute('data-jump') === selected;
+      button.classList.toggle('sel', on);
+      if (on) button.setAttribute('aria-current', 'true');
+      else button.removeAttribute('aria-current');
+    });
+    var current = document.querySelector('#list .topic-item.sel');
+    if (!current) return;
+    var parent = current.parentElement;
+    while (parent && parent.id !== 'list') {
+      if (parent.tagName === 'DETAILS') parent.open = true;
+      parent = parent.parentElement;
+    }
+    if (scroll && sideVisible()) current.scrollIntoView({ block: 'nearest' });
+  }
+
+  function countReach(map, id) {
+    var seen = new Set();
+    var stack = [id];
+    while (stack.length) {
+      var current = stack.pop();
+      (map.get(current) || []).forEach(function (edge) {
+        if (!seen.has(edge.id)) { seen.add(edge.id); stack.push(edge.id); }
+      });
+    }
+    return seen.size;
+  }
+
+  function badge(strength) {
+    var hard = strength === 'hard';
+    return el('span', { class: 'badge ' + (hard ? 'hard' : 'soft'), text: hard ? '硬先修' : '软先修' });
+  }
+
+  function relButton(edge) {
+    var other = byId.get(edge.id);
+    return el('button', { type: 'button', class: 'rel-row', 'data-jump': edge.id },
+      badge(edge.strength),
+      el('span', { class: 'rel-name', text: other ? other.name : edge.id }),
+      el('span', { class: 'rel-where', text: other ? gradeLabel(other) : '' }),
+      edge.reason ? el('span', { class: 'why', text: edge.reason }) : null);
+  }
+
+  function metaItem(label, value, wide) {
+    return el('div', { class: wide ? 'span-2' : '' }, el('dt', { text: label }), el('dd', { text: value || '—' }));
+  }
+
+  function renderDetail() {
+    var box = $('detail');
+    if (!selected || !byId.has(selected)) {
+      box.replaceChildren(el('div', { class: 'detail-empty' },
+        el('h1', { text: '选择一个知识点' }),
+        el('p', { text: '可以搜索，也可以按年级、册、章展开。选中之后，中间只画它附近的先修，以及后面一层会用到它的知识点。' })));
+      document.title = '知识图谱 · 中小学数学知识图谱';
+      return;
+    }
+    var topic = byId.get(selected);
+    var primary = topic.grade <= 6;
+    var parts = [];
+    if (currentAlias) {
+      parts.push(el('div', { class: 'alias-note' },
+        '旧编号 ', el('code', { text: currentAlias.id }),
+        '（' + (currentAlias.name || '未命名') + '）已对应到这个知识点。用该旧编号开始诊断时，会包含映射中的全部 ' + currentAlias.targets.length + ' 个小学知识点。 ',
+        el('a', { href: '../diagnose/?target=' + encodeURIComponent(currentAlias.id) }, '按旧编号诊断')));
+    }
+    parts.push(el('h1', { class: 'detail-title', text: topic.name }));
+    parts.push(el('div', { class: 'pills' },
+      el('span', { class: 'pill ' + (primary ? 'pill-p' : 'pill-j'), text: primary ? '小学' : '初中' }),
+      el('code', { class: 'id-code', text: topic.id })));
+    parts.push(el('a', {
+      class: 'btn btn-primary btn-lg diag-btn',
+      href: '../diagnose/?target=' + encodeURIComponent(topic.id)
+    }, '诊断这个知识点'));
+    parts.push(el('dl', { class: 'meta-grid' },
+      metaItem('年级册次', gradeLabel(topic)),
+      metaItem('领域', topic.domain),
+      metaItem('类型', TYPE_ZH[topic.type] || topic.type),
+      metaItem('章节', topic.chapter, true)));
+    if (topic.description) parts.push(el('p', { class: 'desc', text: topic.description }));
+    if (topic.root_reason) parts.push(el('p', { class: 'root-reason', text: topic.root_reason }));
+
+    if (topic.mastery_criteria && topic.mastery_criteria.length) {
+      parts.push(el('section', null,
+        el('h2', { text: '掌握标准' }),
+        el('ul', { class: 'plain' }, topic.mastery_criteria.map(function (item) { return el('li', { text: item }); }))));
+    }
+
+    var standards = topic.standards || [];
+    var standardNodes = standards.length ? standards.map(function (entry) {
+      var item = stdById.get(entry.id);
+      return el('div', { class: 'std' },
+        el('div', { class: 'std-id' }, el('code', { text: entry.id }), ' · ' + (entry.confidence === 'exact' ? '直接对应' : '推断对应')),
+        el('p', { text: item ? item.text : '（课标文件中找不到该条目）' }),
+        entry.note ? el('p', { class: 'muted', text: '说明：' + entry.note }) : null);
+    }) : [el('p', { class: 'muted', text: '没有对应的课标条目。' })];
+    parts.push(el('section', null, el('h2', { text: '课标条目' }), standardNodes));
+
+    if (topic.diagnostic_question && topic.diagnostic_question.question) {
+      var answer = el('details', { class: 'ans' });
+      answer.append(el('summary', { text: '查看答案' }), el('p', { text: topic.diagnostic_question.answer || '' }));
+      parts.push(el('section', null,
+        el('h2', { text: '样题' }),
+        el('p', { class: 'sample-q', text: topic.diagnostic_question.question }),
+        answer));
+    }
+
+    var pres = pre.get(topic.id) || [];
+    parts.push(el('section', null,
+      el('h2', { text: '先修' }),
+      el('p', { class: 'muted', text: '直接 ' + pres.length + ' 个，全部上游 ' + countReach(pre, topic.id) + ' 个。图上默认只画向上 2 层。' }),
+      pres.length ? pres.map(relButton) : el('p', { text: '这是起点，没有更早的先修。' })));
+
+    var posts = post.get(topic.id) || [];
+    parts.push(el('section', null,
+      el('h2', { text: '被哪些知识点依赖' }),
+      el('p', { class: 'muted', text: '直接 ' + posts.length + ' 个，全部下游 ' + countReach(post, topic.id) + ' 个。图上只画向下 1 层。' }),
+      posts.length ? posts.map(relButton) : el('p', { text: '还没有后续知识点依赖它。' })));
+
+    box.replaceChildren.apply(box, parts);
+    document.title = topic.name + ' · 知识图谱';
+  }
+
+  function upstream(id, depth) {
+    var seen = new Set([id]);
+    var frontier = [id];
+    var limit = depth === Infinity ? 10000 : depth;
+    for (var step = 0; step < limit; step++) {
+      var next = [];
+      frontier.forEach(function (current) {
+        (pre.get(current) || []).forEach(function (edge) {
+          if (!seen.has(edge.id)) { seen.add(edge.id); next.push(edge.id); }
+        });
+      });
+      if (!next.length) break;
+      frontier = next;
+    }
+    return seen;
+  }
+
+  function ensureDagre() {
+    if (dagreReady) return;
+    if (!window.cytoscape || !window.dagre || !window.cytoscapeDagre) {
+      throw new Error('图形库没有加载');
+    }
+    window.cytoscape.use(window.cytoscapeDagre);
+    dagreReady = true;
+  }
+
+  function renderGraph() {
+    var token = ++graphToken;
+    if (cy) { cy.destroy(); cy = null; window.__cy = null; }
+    var cyEl = $('cy');
+    var emptyEl = $('graph-empty');
+    var meta = $('graph-meta');
+    if (!selected || !byId.has(selected)) {
+      cyEl.hidden = true;
+      cyEl.dataset.ready = '0';
+      emptyEl.hidden = false;
+      meta.textContent = '';
+      return;
+    }
+    var depth = upDepth === 'all' ? Infinity : upDepth;
+    var upSet = upstream(selected, depth);
+    var nodeSet = new Set(upSet);
+    (post.get(selected) || []).forEach(function (edge) { nodeSet.add(edge.id); });
+    var edgeCount = 0;
+    deps.forEach(function (edge) {
+      if (nodeSet.has(edge.topicId) && nodeSet.has(edge.prerequisiteId)) edgeCount++;
+    });
+    var depthLabel = upDepth === 'all' ? '全部祖先' : (upDepth + ' 层');
+    meta.textContent = '局部图 ' + nodeSet.size + ' 个知识点、' + edgeCount + ' 条先修。向上 ' + depthLabel + '，向下 1 层。';
+    cyEl.hidden = false;
+    emptyEl.hidden = true;
+    cyEl.dataset.ready = '0';
+
+    requestAnimationFrame(function () {
+      if (token !== graphToken) return;
+      try {
+        ensureDagre();
+        if (cyEl.clientHeight < 40) cyEl.style.minHeight = '420px';
+        var colors = theme();
+        var elements = [];
+        nodeSet.forEach(function (id) {
+          var topic = byId.get(id);
+          var primary = topic.grade <= 6;
+          var current = id === selected;
+          elements.push({
+            data: {
+              id: id,
+              label: topic.name,
+              bg: current ? colors.currentBg : (primary ? colors.primaryBg : colors.juniorBg),
+              border: current ? colors.currentBorder : (primary ? colors.primary : colors.junior),
+              color: colors.text
+            },
+            classes: (primary ? 'primary' : 'junior') + (current ? ' current' : '')
+          });
+        });
+        deps.forEach(function (edge, edgeIndex) {
+          if (!nodeSet.has(edge.topicId) || !nodeSet.has(edge.prerequisiteId)) return;
+          var soft = edge.strength === 'soft';
+          elements.push({
+            data: {
+              id: 'e' + edgeIndex,
+              source: edge.prerequisiteId,
+              target: edge.topicId,
+              color: soft ? colors.edgeSoft : colors.edge
+            },
+            classes: soft ? 'soft' : 'hard'
+          });
+        });
+        cy = window.cytoscape({
+          container: cyEl,
+          elements: elements,
+          minZoom: 0.25,
+          maxZoom: 2.6,
+          wheelSensitivity: 0.28,
+          boxSelectionEnabled: false,
+          autoungrabify: true,
+          userPanningEnabled: true,
+          userZoomingEnabled: true,
+          style: [
+            { selector: 'node', style: {
+              label: 'data(label)', 'text-wrap': 'wrap', 'text-max-width': '140px',
+              'text-valign': 'center', 'text-halign': 'center', 'text-justification': 'center',
+              'font-size': 14, 'font-family': FONT, color: 'data(color)',
+              'background-color': 'data(bg)', 'border-width': 2, 'border-color': 'data(border)',
+              shape: 'round-rectangle', width: 'label', height: 'label', padding: '8px', 'corner-radius': 10
+            } },
+            { selector: 'node.current', style: { 'border-width': 4, 'font-size': 15, 'z-index': 10 } },
+            { selector: 'edge', style: {
+              width: 1.8, 'line-color': 'data(color)', 'target-arrow-color': 'data(color)',
+              'target-arrow-shape': 'triangle', 'curve-style': 'bezier', 'arrow-scale': 0.85, 'line-style': 'solid'
+            } },
+            { selector: 'edge.soft', style: { 'line-style': 'dashed', width: 1.6 } }
+          ]
+        });
+        window.__cy = cy;
+        cy.on('tap', 'node', function (event) {
+          var id = event.target.id();
+          if (id && id !== selected) select(id, 'user');
+        });
+        var layout = cy.layout({
+          name: 'dagre', rankDir: 'TB', rankSep: 72, nodeSep: 28, edgeSep: 12,
+          padding: 16, animate: false, fit: true, nodeDimensionsIncludeLabels: true, spacingFactor: 1.05
+        });
+        layout.one('layoutstop', function () {
+          if (token !== graphToken) return;
+          requestAnimationFrame(function () {
+            if (token !== graphToken || !cy) return;
+            cy.resize();
+            cy.fit(undefined, 36);
+            cyEl.dataset.ready = '1';
+          });
+        });
+        layout.run();
+      } catch (error) {
+        cyEl.dataset.ready = 'err';
+        meta.textContent = '图没有画出来：' + (error && error.message ? error.message : error);
+      }
+    });
+  }
+
+  function select(raw, source) {
+    var hit = resolveId(raw);
+    if (!hit) {
+      if (source === 'hash') {
+        $('detail').replaceChildren(el('div', { class: 'detail-empty' },
+          el('h1', { text: '没有这个知识点' }),
+          el('p', { text: '编号「' + raw + '」不在图谱里，也不是已登记的旧编号。' })));
+      }
+      return;
+    }
+    var same = hit.id === selected && !currentAlias && !hit.alias;
+    selected = hit.id;
+    currentAlias = source === 'user' ? null : hit.alias;
+    if (source === 'user') {
+      writeHash(selected);
+      closeDrawerIfMobile();
+    }
+    highlight(true);
+    renderDetail();
+    if (!same) renderGraph();
+  }
+
+  function zoomBy(factor) {
+    if (!cy) return;
+    var rect = cy.container().getBoundingClientRect();
+    cy.zoom({
+      level: Math.max(cy.minZoom(), Math.min(cy.maxZoom(), cy.zoom() * factor)),
+      renderedPosition: { x: rect.width / 2, y: rect.height / 2 }
+    });
+  }
+
+  function showLoadError(message) {
+    $('count').textContent = '';
+    $('list').replaceChildren(el('p', { class: 'muted', text: message, style: 'padding:12px' }));
+    $('detail').replaceChildren(el('div', { class: 'detail-empty' },
+      el('h1', { text: '数据没有加载成功' }),
+      el('p', { text: message })));
+    $('graph-meta').textContent = '';
+  }
+
+  function fillDomain() {
+    var seen = {};
+    topics.forEach(function (topic) { if (topic.domain) seen[topic.domain] = true; });
+    var names = DOMAIN_ORDER.filter(function (name) { return seen[name]; });
+    Object.keys(seen).forEach(function (name) { if (names.indexOf(name) < 0) names.push(name); });
+    var select = $('fDomain');
+    names.forEach(function (name) { select.append(el('option', { value: name, text: name })); });
+    if (domain && !seen[domain]) domain = '';
+  }
+
+  function applyQuery() {
+    var params = new URLSearchParams(location.search);
+    var gradeValue = params.get('grade') || '';
+    if (/^[1-9]$/.test(gradeValue)) grade = gradeValue;
+    var stageValue = params.get('stage') || '';
+    if (stageValue === 'p' || stageValue === 'j') stage = stageValue;
+    domain = params.get('domain') || '';
+  }
+
+  function bootSelection() {
+    var hash = readHash();
+    if (hash && resolveId(hash)) { select(hash, 'hash'); return; }
+    if (grade) {
+      var first = topics.filter(passFilter)[0];
+      if (first) { select(first.id, 'user'); return; }
+    }
+    renderDetail();
+    renderGraph();
+  }
+
+  function bind() {
+    $('q').addEventListener('input', function () {
+      query = $('q').value.trim().toLowerCase();
+      renderList();
+      highlight(false);
+    });
+    $('stage-tabs').addEventListener('click', function (event) {
+      var button = event.target.closest('[data-stage]');
+      if (!button) return;
+      stage = button.getAttribute('data-stage');
+      var gradeNumber = parseInt(grade, 10);
+      if (stage === 'p' && gradeNumber >= 7) grade = '';
+      if (stage === 'j' && gradeNumber >= 1 && gradeNumber <= 6) grade = '';
+      syncControls();
+      renderList();
+      highlight(false);
+    });
+    $('fGrade').addEventListener('change', function () {
+      grade = $('fGrade').value;
+      var gradeNumber = parseInt(grade, 10);
+      if (gradeNumber >= 1 && gradeNumber <= 6 && stage === 'j') stage = 'p';
+      if (gradeNumber >= 7 && stage === 'p') stage = 'j';
+      syncControls();
+      renderList();
+      highlight(false);
+    });
+    $('fDomain').addEventListener('change', function () {
+      domain = $('fDomain').value;
+      renderList();
+      highlight(false);
+    });
+    $('depth-switch').addEventListener('click', function (event) {
+      var button = event.target.closest('[data-depth]');
+      if (!button) return;
+      var value = button.getAttribute('data-depth');
+      upDepth = value === 'all' ? 'all' : parseInt(value, 10);
+      try { sessionStorage.setItem('cnmExplore.depth', value); } catch (error) { /* 忽略 */ }
+      syncDepthButtons();
+      renderGraph();
+    });
+    $('list-toggle').addEventListener('click', function () {
+      var open = $('side').classList.toggle('open');
+      $('list-toggle').setAttribute('aria-expanded', open ? 'true' : 'false');
+      $('list-toggle').textContent = open ? '收起目录' : '知识点目录';
+    });
+    $('btn-fit').addEventListener('click', function () {
+      if (!cy) return;
+      cy.resize();
+      cy.fit(undefined, 36);
+    });
+    $('btn-zoom-in').addEventListener('click', function () { zoomBy(1.25); });
+    $('btn-zoom-out').addEventListener('click', function () { zoomBy(0.8); });
+    $('pick-sample').addEventListener('click', function () { select('cnm_221', 'user'); });
+    document.body.addEventListener('click', function (event) {
+      var jump = event.target.closest('[data-jump]');
+      if (!jump) return;
+      select(jump.getAttribute('data-jump'), 'user');
+    });
+    window.addEventListener('hashchange', function () {
+      var hash = readHash();
+      if (hash) select(hash, 'hash');
+    });
+    if (window.ResizeObserver) {
+      new ResizeObserver(function () { if (cy) cy.resize(); }).observe($('cy'));
+    }
+    var colorScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (colorScheme.addEventListener) {
+      colorScheme.addEventListener('change', function () { if (selected) renderGraph(); });
+    }
+  }
+
+  async function load() {
+    var files = ['topics.json', 'dependencies.json', 'id-aliases.json', 'cn-curriculum-standards.json'];
+    var responses = await Promise.all(files.map(function (file) { return fetch('../data/' + file); }));
+    responses.forEach(function (response, responseIndex) {
+      if (!response.ok) throw new Error(files[responseIndex] + ' HTTP ' + response.status);
+    });
+    var json = await Promise.all(responses.map(function (response) { return response.json(); }));
+    topics = json[0];
+    deps = json[1];
+    aliases = (json[2] && json[2].aliases) || {};
+    (json[3].items || []).forEach(function (item) { stdById.set(item.id, item); });
+    topics.forEach(function (topic, topicIndex) {
+      byId.set(topic.id, topic);
+      indexOf.set(topic.id, topicIndex);
+      pre.set(topic.id, []);
+      post.set(topic.id, []);
+    });
+    deps.forEach(function (edge) {
+      if (!pre.has(edge.topicId) || !post.has(edge.prerequisiteId)) return;
+      pre.get(edge.topicId).push({ id: edge.prerequisiteId, strength: edge.strength, reason: edge.reason || '' });
+      post.get(edge.prerequisiteId).push({ id: edge.topicId, strength: edge.strength, reason: edge.reason || '' });
+    });
+    pre.forEach(function (list) {
+      list.sort(function (a, b) {
+        return ((a.strength === 'hard' ? 0 : 1) - (b.strength === 'hard' ? 0 : 1)) || ((indexOf.get(a.id) || 0) - (indexOf.get(b.id) || 0));
+      });
+    });
+    post.forEach(function (list) {
+      list.sort(function (a, b) { return (indexOf.get(a.id) || 0) - (indexOf.get(b.id) || 0); });
+    });
+  }
+
+  restoreDepth();
+  syncDepthButtons();
+  applyQuery();
+  bind();
+  load().then(function () {
+    fillDomain();
+    syncControls();
+    renderList();
+    bootSelection();
+  }).catch(function (error) {
+    showLoadError('无法读取数据（' + (error && error.message ? error.message : error) + '）。请在项目根目录运行 python3 -m http.server 8000，不要直接用 file:// 打开。');
+  });
+})();

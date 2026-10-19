@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>知识图谱 · 中小学数学知识图谱</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230f766e'/%3E%3Ccircle cx='9' cy='21' r='2.5' fill='white'/%3E%3Ccircle cx='17' cy='11' r='2.5' fill='white'/%3E%3Ccircle cx='24' cy='20' r='2.5' fill='white'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="stylesheet" href="../assets/explore.css">
+</head>
+<body class="page-explore">
+<header class="site-header">
+  <a class="brand" href="../">
+    <svg class="logo" viewBox="0 0 32 32" width="32" height="32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="currentColor"/><circle cx="9" cy="21" r="2.5" fill="#fff"/><circle cx="17" cy="11" r="2.5" fill="#fff"/><circle cx="24" cy="20" r="2.5" fill="#fff"/><path d="M11.2 19.2 15.2 12.8M18.6 12.6 22.2 18.2" stroke="#fff" stroke-width="1.7" stroke-linecap="round"/></svg>
+    <span class="brand-name">中小学数学知识图谱</span>
+  </a>
+  <nav class="site-nav" aria-label="主导航">
+    <a class="nav-link" href="../">首页</a>
+    <a class="nav-link back active" href="./" aria-current="page">知识图谱</a>
+    <a class="nav-link" href="../diagnose/">诊断</a>
+    <a class="nav-link" href="https://github.com/xiaoyang111222/cn-math-taxonomy" target="_blank" rel="noopener noreferrer">关于</a>
+  </nav>
+</header>
+<div class="explore">
+  <div class="explore-mobile-bar">
+    <button type="button" id="list-toggle" class="list-toggle" aria-expanded="false" aria-controls="side">知识点目录</button>
+  </div>
+  <aside id="side" class="side">
+    <div class="side-tools">
+      <input id="q" type="search" placeholder="搜索名称、章节或编号" autocomplete="off" aria-label="搜索知识点">
+      <div class="stage-tabs" id="stage-tabs" role="tablist" aria-label="学段">
+        <button type="button" class="stage-tab on" data-stage="" aria-selected="true">全部</button>
+        <button type="button" class="stage-tab" data-stage="p" aria-selected="false">小学</button>
+        <button type="button" class="stage-tab" data-stage="j" aria-selected="false">初中</button>
+      </div>
+      <div class="filter-row">
+        <select id="fGrade" aria-label="年级">
+          <option value="">全部年级</option>
+          <option value="1">一年级</option><option value="2">二年级</option><option value="3">三年级</option>
+          <option value="4">四年级</option><option value="5">五年级</option><option value="6">六年级</option>
+          <option value="7">七年级</option><option value="8">八年级</option><option value="9">九年级</option>
+        </select>
+        <select id="fDomain" aria-label="领域"><option value="">全部领域</option></select>
+      </div>
+      <div id="count" class="count">正在加载…</div>
+    </div>
+    <div id="list" class="list"><p class="muted" style="padding:12px">正在加载知识点…</p></div>
+  </aside>
+  <section class="graph-pane" aria-label="局部先修图">
+    <div class="graph-toolbar">
+      <div class="depth" id="depth-switch" role="group" aria-label="向上先修层数">
+        <span class="depth-label">向上</span>
+        <button type="button" data-depth="1" aria-pressed="false">1 层</button>
+        <button type="button" data-depth="2" class="on" aria-pressed="true">2 层</button>
+        <button type="button" data-depth="3" aria-pressed="false">3 层</button>
+        <button type="button" data-depth="all" aria-pressed="false">全部</button>
+      </div>
+      <div class="zoom-tools">
+        <button type="button" id="btn-zoom-out">缩小</button>
+        <button type="button" id="btn-zoom-in">放大</button>
+        <button type="button" id="btn-fit">适配画面</button>
+      </div>
+    </div>
+    <div id="cy" hidden role="img" aria-label="选中知识点的局部先修图"></div>
+    <div id="graph-empty" class="graph-empty">
+      <p>选一个知识点后，这里只画它附近的先修，以及后面一层会用到它的知识点。</p>
+      <p class="muted">不会一次铺开全部知识点。点节点可以换选中项，滚轮或拖动可以缩放、平移。</p>
+      <button type="button" id="pick-sample" class="btn btn-primary">先看看「配方法」</button>
+    </div>
+    <ul class="legend">
+      <li><i class="swatch sw-p"></i>小学</li>
+      <li><i class="swatch sw-j"></i>初中</li>
+      <li><i class="swatch sw-c"></i>当前</li>
+      <li><i class="swatch line-hard"></i>硬先修（实线）</li>
+      <li><i class="swatch line-soft"></i>软先修（虚线）</li>
+    </ul>
+    <p id="graph-meta" class="graph-meta"></p>
+  </section>
+  <aside id="detail" class="detail"><p class="muted">正在加载…</p></aside>
+</div>
+<footer class="site-footer">
+  <p>AI 生成初稿，未经教师审核。<a href="https://github.com/xiaoyang111222/cn-math-taxonomy/issues/new/choose">提交 Issue</a></p>
+</footer>
+<script src="../assets/vendor/cytoscape.min.js"></script>
+<script src="../assets/vendor/dagre.min.js"></script>
+<script src="../assets/vendor/cytoscape-dagre.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

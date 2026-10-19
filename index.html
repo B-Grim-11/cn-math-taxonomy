@@ -3,325 +3,81 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>中小学数学知识图谱（一—九年级）· 草稿</title>
-<link rel="icon" href="data:,">
-<style>
-  :root { --bg:#f6f7f9; --panel:#fff; --line:#e1e4e8; --text:#1f2933; --muted:#6b7785; --accent:#2563eb;
-          --hard:#c2410c; --soft:#6b7785; --ext:#7c3aed; }
-  * { box-sizing:border-box; }
-  html,body { height:100%; margin:0; }
-  body { font:14px/1.6 -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif; color:var(--text); background:var(--bg); display:flex; flex-direction:column; }
-  header { padding:8px 16px; background:#1e293b; color:#fff; display:flex; align-items:baseline; gap:12px; flex-wrap:wrap; }
-  header h1 { font-size:16px; margin:0; font-weight:600; }
-  header .note { font-size:12px; color:#cbd5e1; }
-  header .tool-link { margin-left:auto; font-size:13px; color:#fff; background:#2563eb; padding:2px 12px; border-radius:12px; text-decoration:none; }
-  header .tool-link:hover { background:#1d4ed8; }
-  #app { flex:1; display:flex; min-height:0; }
-  #side { width:340px; min-width:260px; background:var(--panel); border-right:1px solid var(--line); display:flex; flex-direction:column; }
-  #filters { padding:10px 12px; border-bottom:1px solid var(--line); display:grid; gap:6px; }
-  #filters input, #filters select { width:100%; padding:6px 8px; border:1px solid var(--line); border-radius:6px; font:inherit; background:#fff; }
-  #filters .row { display:grid; grid-template-columns:1fr 1fr; gap:6px; }
-  #filters label.chk { font-size:12px; color:var(--muted); display:flex; align-items:center; gap:4px; white-space:nowrap; }
-  #filters label.chk input { width:auto; }
-  #count { font-size:12px; color:var(--muted); }
-  #list { overflow:auto; flex:1; margin:0; padding:0; list-style:none; }
-  #list .grp { position:sticky; top:0; background:#f1f5f9; padding:3px 12px; font-size:12px; font-weight:600; color:#475569; border-bottom:1px solid var(--line); }
-  #list li.item { padding:6px 12px; border-bottom:1px solid #f0f2f4; cursor:pointer; }
-  #list li.item:hover { background:#f8fafc; }
-  #list li.item.sel { background:#e8f0fe; border-left:3px solid var(--accent); padding-left:9px; }
-  #list .nm { display:block; }
-  #list .meta { font-size:11px; color:var(--muted); }
-  #main { flex:1; overflow:auto; padding:18px 24px 48px; }
-  .card { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:14px 18px; margin-bottom:14px; max-width:900px; }
-  .card h2 { font-size:15px; margin:0 0 8px; }
-  h1.title { font-size:20px; margin:0 0 6px; }
-  .tags { display:flex; flex-wrap:wrap; gap:6px; margin:6px 0; }
-  .tag { font-size:12px; padding:1px 8px; border-radius:10px; background:#eef2f7; color:#334155; }
-  .tag.ext { background:#ede9fe; color:var(--ext); }
-  .badge { font-size:11px; padding:0 6px; border-radius:8px; margin-right:6px; color:#fff; vertical-align:1px; }
-  .badge.hard { background:var(--hard); } .badge.soft { background:var(--soft); }
-  ul.plain { margin:4px 0; padding-left:20px; }
-  .q { background:#f8fafc; border:1px dashed var(--line); border-radius:6px; padding:8px 12px; }
-  details.ans > summary { cursor:pointer; color:var(--accent); }
-  .tree, .tree ul { list-style:none; margin:0; padding-left:20px; }
-  .tree { padding-left:0; }
-  .tree li { position:relative; padding:2px 0 2px 0; }
-  .tree ul { border-left:1px solid var(--line); margin-left:6px; }
-  .tree .why { color:var(--muted); font-size:12px; margin-left:4px; }
-  a.node { color:var(--accent); cursor:pointer; text-decoration:none; }
-  a.node:hover { text-decoration:underline; }
-  .seen { color:var(--muted); font-size:12px; }
-  .toolbar { display:flex; gap:8px; margin-bottom:8px; align-items:center; flex-wrap:wrap; }
-  .toolbar button { border:1px solid var(--line); background:#fff; border-radius:6px; padding:3px 10px; cursor:pointer; font:inherit; }
-  .toolbar button.on { background:var(--accent); border-color:var(--accent); color:#fff; }
-  .layer { margin:6px 0; } .layer h3 { font-size:12px; margin:0; color:var(--muted); font-weight:600; }
-  .layer .chips { display:flex; flex-wrap:wrap; gap:6px; margin-top:3px; }
-  .chip { border:1px solid var(--line); border-radius:6px; padding:1px 8px; background:#fff; cursor:pointer; font-size:13px; }
-  .chip:hover { border-color:var(--accent); }
-  .chip.ext { border-color:#c4b5fd; }
-  #err { background:#fef2f2; color:#991b1b; border:1px solid #fecaca; border-radius:8px; padding:14px 18px; max-width:760px; }
-  #err code { background:#fee2e2; padding:1px 4px; border-radius:4px; }
-  .empty { color:var(--muted); padding:40px 0; }
-  .muted { color:var(--muted); }
-  @media (max-width:760px){ #app{flex-direction:column;} #side{width:100%;height:42%;} }
-</style>
-</head>
-<body>
-<header>
-  <h1>中小学数学知识图谱（一—九年级）</h1>
-  <span class="note">AI 生成的初稿，未经教师审核；先修关系尤其需要一线教师审核。小学与初中都按人教版章节；部分小学册次目录非官方、待核。</span>
-  <a class="tool-link" href="diagnose/">诊断小工具 →</a>
-</header>
-<div id="app">
-  <aside id="side">
-    <div id="filters">
-      <input id="q" type="search" placeholder="搜索知识点名称、描述、章节…" autocomplete="off">
-      <div class="row">
-        <select id="fDomain"><option value="">全部学科</option></select>
-        <select id="fGrade">
-          <option value="">全部</option>
-          <optgroup label="学段">
-            <option value="p">小学（1–6 年级）</option>
-            <option value="j">初中（7–9 年级）</option>
-          </optgroup>
-          <optgroup label="小学">
-            <option value="1">一年级</option><option value="2">二年级</option><option value="3">三年级</option>
-            <option value="4">四年级</option><option value="5">五年级</option><option value="6">六年级</option>
-            <option value="1上">一年级上</option><option value="1下">一年级下</option>
-            <option value="2上">二年级上</option><option value="2下">二年级下</option>
-            <option value="3上">三年级上</option><option value="3下">三年级下</option>
-            <option value="4上">四年级上</option><option value="4下">四年级下</option>
-            <option value="5上">五年级上</option><option value="5下">五年级下</option>
-            <option value="6上">六年级上</option><option value="6下">六年级下</option>
-          </optgroup>
-          <optgroup label="初中">
-            <option value="7">七年级</option><option value="8">八年级</option><option value="9">九年级</option>
-            <option value="7上">七年级上</option><option value="7下">七年级下</option>
-            <option value="8上">八年级上</option><option value="8下">八年级下</option>
-            <option value="9上">九年级上</option><option value="9下">九年级下</option>
-          </optgroup>
-        </select>
-      </div>
-      <div class="row">
-        <select id="fType"><option value="">全部类型</option></select>
-      </div>
-      <div id="count"></div>
-    </div>
-    <ul id="list"></ul>
-  </aside>
-  <main id="main"><div class="empty">加载中…</div></main>
-</div>
-
+<title>中小学数学知识图谱</title>
+<meta name="description" content="沿先修关系自适应出题，从选中的知识点往回找到薄弱根因，并给出从低年级排起的学习路径。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230f766e'/%3E%3Ccircle cx='9' cy='21' r='2.5' fill='white'/%3E%3Ccircle cx='17' cy='11' r='2.5' fill='white'/%3E%3Ccircle cx='24' cy='20' r='2.5' fill='white'/%3E%3C/svg%3E">
 <script>
-"use strict";
-const TYPE_ZH = {conceptual:"概念理解", procedural:"程序性技能", reasoning:"推理证明", application:"应用", modeling:"建模"};
-const GRADE_ZH = {1:"一", 2:"二", 3:"三", 4:"四", 5:"五", 6:"六", 7:"七", 8:"八", 9:"九"};
-const $ = s => document.querySelector(s);
-const el = (tag, attrs, ...kids) => {
-  const e = document.createElement(tag);
-  for (const [k, v] of Object.entries(attrs || {})) {
-    if (k === "class") e.className = v; else if (k === "text") e.textContent = v;
-    else if (k.startsWith("on")) e.addEventListener(k.slice(2), v); else e.setAttribute(k, v);
+(function () {
+  var id = location.hash.replace(/^#/, '');
+  try { id = decodeURIComponent(id); } catch (e) { return; }
+  if (/^cnm_[A-Za-z0-9]+$/.test(id)) {
+    document.documentElement.style.visibility = 'hidden';
+    location.replace('explore/#' + encodeURIComponent(id));
   }
-  for (const c of kids.flat()) if (c != null) e.append(c.nodeType ? c : document.createTextNode(c));
-  return e;
-};
-
-let topics = [], deps = [], aliases = {}, byId = new Map(), pre = new Map(), post = new Map(), selected = null;
-
-function gradeKey(t) { return t.external ? "小学" : GRADE_ZH[t.grade] + t.semester; }
-
-async function load() {
-  try {
-    const [a, b, c] = await Promise.all([fetch("data/topics.json"), fetch("data/dependencies.json"), fetch("data/id-aliases.json")]);
-    if (!a.ok || !b.ok || !c.ok) throw new Error("HTTP " + a.status + "/" + b.status + "/" + c.status);
-    topics = await a.json(); deps = await b.json(); aliases = (await c.json()).aliases || {};
-  } catch (e) {
-    $("#main").replaceChildren(el("div", {id:"err"},
-      el("b", {text:"无法加载数据文件。"}), el("br"),
-      "浏览器出于安全限制不允许用 ", el("code", {text:"file://"}), " 直接读取本地 JSON。请在本目录运行：", el("br"),
-      el("code", {text:"python3 -m http.server 8000"}), " 然后访问 ", el("code", {text:"http://localhost:8000/"}),
-      el("br"), el("span", {class:"muted", text:"（" + e.message + "）"})));
-    $("#count").textContent = "";
-    return;
-  }
-  for (const t of topics) { byId.set(t.id, t); pre.set(t.id, []); post.set(t.id, []); }
-  for (const d of deps) {
-    pre.get(d.topicId).push({id:d.prerequisiteId, strength:d.strength, reason:d.reason});
-    post.get(d.prerequisiteId).push({id:d.topicId, strength:d.strength, reason:d.reason});
-  }
-  for (const m of [pre, post]) for (const arr of m.values())
-    arr.sort((x, y) => (x.strength === y.strength ? 0 : x.strength === "hard" ? -1 : 1) || x.id.localeCompare(y.id));
-
-  const doms = [...new Set(topics.map(t => t.domain))];
-  for (const d of doms) $("#fDomain").append(el("option", {value:d, text:d}));
-  for (const [k, v] of Object.entries(TYPE_ZH)) $("#fType").append(el("option", {value:k, text:v}));
-  for (const id of ["q", "fDomain", "fGrade", "fType"]) $("#" + id).addEventListener("input", renderList);
-  window.addEventListener("hashchange", () => select(decodeURIComponent(location.hash.slice(1)), true));
-  renderList();
-  const nPri = topics.filter(t => t.grade <= 6).length, nJun = topics.filter(t => t.grade >= 7).length;
-  if (location.hash.slice(1)) select(location.hash.slice(1), true);
-  else $("#main").replaceChildren(el("div", {class:"empty", text:"← 请从左侧选择一个知识点。小学 " + nPri + "、初中 " + nJun + "，共 " + topics.length + " 个知识点、" + deps.length + " 条先修边。"}));
-}
-
-function filtered() {
-  const q = $("#q").value.trim().toLowerCase(), d = $("#fDomain").value, g = $("#fGrade").value,
-        ty = $("#fType").value;
-  return topics.filter(t => {
-    if (d && t.domain !== d) return false;
-    if (ty && t.type !== ty) return false;
-    if (g === "p" && !(t.grade <= 6)) return false;
-    if (g === "j" && !(t.grade >= 7)) return false;
-    if (g && g !== "p" && g !== "j") {
-      if (g.length === 1 ? String(t.grade) !== g : (t.grade + t.semester) !== g) return false;
-    }
-    if (q && !((t.name + t.description + (t.chapter || "") + t.id).toLowerCase().includes(q))) return false;
-    return true;
-  });
-}
-
-function renderList() {
-  const items = filtered(), ul = $("#list");
-  ul.replaceChildren();
-  let last = null;
-  for (const t of items) {
-    const key = gradeKey(t);
-    if (key !== last) {
-      last = key;
-      ul.append(el("li", {class:"grp", text: t.external ? "小学先修（外部节点）" : GRADE_ZH[t.grade] + "年级" + t.semester + "册"}));
-    }
-    const li = el("li", {class:"item" + (t.id === selected ? " sel" : ""), "data-id":t.id, onclick:() => select(t.id, true)},
-      el("span", {class:"nm", text:t.name}),
-      el("span", {class:"meta", text: t.external ? t.domain : t.domain + " · " + (t.chapter || "").replace(/^.. /, "")}));
-    ul.append(li);
-  }
-  $("#count").textContent = "显示 " + items.length + " / " + topics.length;
-}
-
-function select(id, push) {
-  if (!byId.has(id) && aliases[id] && aliases[id].targets && aliases[id].targets.length) {
-    const first = aliases[id].targets[0];
-    if (byId.has(first)) return select(first, push);
-  }
-  if (!byId.has(id)) return;
-  selected = id;
-  if (push && decodeURIComponent(location.hash.slice(1)) !== id) {
-    history.replaceState(null, "", location.pathname + location.search + "#" + id);
-  }
-  for (const li of document.querySelectorAll("#list li.item")) li.classList.toggle("sel", li.dataset.id === id);
-  const cur = document.querySelector("#list li.sel"); if (cur) cur.scrollIntoView({block:"nearest"});
-  renderDetail(byId.get(id));
-  $("#main").scrollTop = 0;
-}
-
-const link = id => el("a", {class:"node", onclick:() => select(id, true), text:byId.get(id).name});
-const badge = s => el("span", {class:"badge " + s, text: s === "hard" ? "硬先修" : "软先修"});
-
-function renderDetail(t) {
-  const m = $("#main");
-  const head = el("div", {class:"card"},
-    el("h1", {class:"title", text:t.name}),
-    el("div", {class:"tags"},
-      el("span", {class:"tag" + (t.external ? " ext" : ""), text:t.id}),
-      el("span", {class:"tag", text:t.domain}),
-      t.external ? el("span", {class:"tag ext", text:"小学先修（外部节点）"})
-                 : [el("span", {class:"tag", text:GRADE_ZH[t.grade] + "年级" + t.semester}),
-                    el("span", {class:"tag", text:TYPE_ZH[t.type] || t.type}),
-                    el("span", {class:"tag", text:t.chapter})]),
-    el("p", {text:t.description}));
-  const parts = [head];
-  if (!t.external) {
-    parts.push(el("div", {class:"card"}, el("h2", {text:"掌握标准"}),
-      el("ul", {class:"plain"}, t.mastery_criteria.map(c => el("li", {text:c})))));
-    parts.push(el("div", {class:"card"}, el("h2", {text:"诊断题"}),
-      el("div", {class:"q"}, el("div", {text:t.diagnostic_question.question}),
-        el("details", {class:"ans"}, el("summary", {text:"查看答案"}), el("div", {text:t.diagnostic_question.answer})))));
-  }
-  parts.push(prereqCard(t), postCard(t));
-  m.replaceChildren(...parts);
-}
-
-let viewMode = "tree";
-function prereqCard(t) {
-  const card = el("div", {class:"card"}), body = el("div");
-  const direct = pre.get(t.id);
-  const all = ancestors(t.id);
-  card.append(el("h2", {text:"先修链（向上递归）"}));
-  if (!direct.length) {
-    card.append(el("div", {class:"muted", text: t.external ? "外部节点，没有进一步先修。" : "没有先修（根节点）。"}));
-    return card;
-  }
-  const bar = el("div", {class:"toolbar"},
-    el("button", {class:viewMode === "tree" ? "on" : "", text:"树状", onclick:() => { viewMode = "tree"; renderDetail(t); }}),
-    el("button", {class:viewMode === "layer" ? "on" : "", text:"分层列表", onclick:() => { viewMode = "layer"; renderDetail(t); }}),
-    el("span", {class:"muted", text:"直接先修 " + direct.length + " 个，累计上游 " + all.size + " 个知识点。树状图中同一知识点只在首次出现处展开。"}));
-  card.append(bar, body);
-  if (viewMode === "tree") body.append(tree(t.id));
-  else body.append(layers(t.id));
-  return card;
-}
-
-function ancestors(id) {
-  const seen = new Set(), st = [id];
-  while (st.length) for (const p of pre.get(st.pop())) if (!seen.has(p.id)) { seen.add(p.id); st.push(p.id); }
-  return seen;
-}
-
-function tree(rootId) {
-  const expanded = new Set([rootId]);
-  const build = id => {
-    const ul = el("ul", {class:"tree"});
-    for (const p of pre.get(id)) {
-      const n = byId.get(p.id), li = el("li");
-      li.append(badge(p.strength), link(p.id),
-        el("span", {class:"seen", text:" " + (n.external ? "小学" : gradeKey(n))}),
-        el("span", {class:"why", text:"— " + p.reason}));
-      if (pre.get(p.id).length) {
-        if (expanded.has(p.id)) li.append(el("span", {class:"seen", text:"  （↑ 已在上方展开）"}));
-        else { expanded.add(p.id); li.append(build(p.id)); }
-      }
-      ul.append(li);
-    }
-    return ul;
-  };
-  return build(rootId);
-}
-
-function layers(rootId) {
-  const level = new Map();
-  const walk = (id, d) => { for (const p of pre.get(id)) { if ((level.get(p.id) || 0) < d) { level.set(p.id, d); walk(p.id, d + 1); } } };
-  walk(rootId, 1);
-  const direct = new Map(pre.get(rootId).map(p => [p.id, p.strength]));
-  const max = Math.max(...level.values()), box = el("div");
-  for (let d = 1; d <= max; d++) {
-    const ids = [...level].filter(([, v]) => v === d).map(([k]) => k)
-      .sort((a, b) => (byId.get(a).external - byId.get(b).external) || a.localeCompare(b));
-    box.append(el("div", {class:"layer"},
-      el("h3", {text: d === 1 ? "第 1 层：直接先修" : "第 " + d + " 层：先修的先修"}),
-      el("div", {class:"chips"}, ids.map(id => {
-        const c = el("span", {class:"chip" + (byId.get(id).external ? " ext" : ""), onclick:() => select(id, true)},
-          direct.has(id) ? badge(direct.get(id)) : null, byId.get(id).name,
-          el("span", {class:"seen", text:" " + (byId.get(id).external ? "小学" : gradeKey(byId.get(id)))}));
-        return c;
-      }))));
-  }
-  box.append(el("div", {class:"muted", text:"层数 = 到当前知识点的最长先修路径长度；越靠后越基础。"}));
-  return box;
-}
-
-function postCard(t) {
-  const card = el("div", {class:"card"}), list = post.get(t.id);
-  const down = new Set(), st = [t.id];
-  while (st.length) for (const p of post.get(st.pop())) if (!down.has(p.id)) { down.add(p.id); st.push(p.id); }
-  card.append(el("h2", {text:"它是哪些后续知识点的先修（共直接 " + list.length + " 个，累计下游 " + down.size + " 个）"}));
-  if (!list.length) { card.append(el("div", {class:"muted", text:"没有后续知识点依赖它（末端节点）。"})); return card; }
-  card.append(el("ul", {class:"plain"}, list.map(p => el("li", {},
-    badge(p.strength), link(p.id), el("span", {class:"seen", text:" " + gradeKey(byId.get(p.id))}),
-    el("span", {class:"why muted", text:" — " + p.reason})))));
-  return card;
-}
-
-load();
+})();
 </script>
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body class="page-home">
+<header class="site-header">
+  <a class="brand" href="./">
+    <svg class="logo" viewBox="0 0 32 32" width="32" height="32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="currentColor"/><circle cx="9" cy="21" r="2.5" fill="#fff"/><circle cx="17" cy="11" r="2.5" fill="#fff"/><circle cx="24" cy="20" r="2.5" fill="#fff"/><path d="M11.2 19.2 15.2 12.8M18.6 12.6 22.2 18.2" stroke="#fff" stroke-width="1.7" stroke-linecap="round"/></svg>
+    <span class="brand-name">中小学数学知识图谱</span>
+  </a>
+  <nav class="site-nav" aria-label="主导航">
+    <a class="nav-link active" href="./" aria-current="page">首页</a>
+    <a class="nav-link" href="explore/">知识图谱</a>
+    <a class="nav-link" href="diagnose/">诊断</a>
+    <a class="nav-link" href="https://github.com/xiaoyang111222/cn-math-taxonomy" target="_blank" rel="noopener noreferrer">关于</a>
+  </nav>
+</header>
+<main class="home">
+  <section class="hero">
+    <p class="eyebrow">一至九年级 · 人教版数学</p>
+    <h1>先找到真正没学会的那一步</h1>
+    <p class="lede">沿着先修关系自适应出题，从你选的知识点往回追，定位薄弱根因，并给出一条从低年级排起的学习路径。</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary btn-lg" href="diagnose/">开始诊断</a>
+      <a class="btn btn-lg" href="explore/">浏览知识图谱</a>
+    </div>
+    <p class="quiet-link"><a href="diagnose/?target=cnm_221&amp;demo=1">先看一遍演示：配方法</a></p>
+  </section>
+
+  <h2 class="section-title">三步</h2>
+  <ol class="steps">
+    <li>
+      <span class="step-no">1</span>
+      <h3>选知识点</h3>
+      <p>从一年级到九年级，搜索或按册、章找到想检查的内容。</p>
+    </li>
+    <li>
+      <span class="step-no">2</span>
+      <h3>自适应答题</h3>
+      <p>先问目标本身。答错再出一道同级或更容易的题，仍然错才沿着先修往回追。</p>
+    </li>
+    <li>
+      <span class="step-no">3</span>
+      <h3>找到根因和学习路径</h3>
+      <p>标出薄弱根因和不稳的点，并按年级从低到高排出建议补学的顺序。</p>
+    </li>
+  </ol>
+
+  <h2 class="section-title">图谱里有什么</h2>
+  <div class="stat-grid" id="stats">
+    <div class="stat-card"><div class="stat-num" id="n-topics">…</div><div class="stat-label">知识点</div></div>
+    <div class="stat-card"><div class="stat-num" id="n-edges">…</div><div class="stat-label">先修边</div></div>
+    <div class="stat-card"><div class="stat-num" id="n-questions">…</div><div class="stat-label">题目</div></div>
+    <div class="stat-card"><div class="stat-num" id="n-standards">…</div><div class="stat-label">课标条目</div></div>
+  </div>
+  <p class="stat-note">以上数字在打开页面时从知识点、先修、题库和课标文件统计。</p>
+  <div id="load-error" class="load-error" hidden></div>
+
+  <h2 class="section-title">按年级进入</h2>
+  <div class="grade-grid" id="grades" aria-busy="true"></div>
+</main>
+<footer class="site-footer">
+  <p>AI 生成初稿，未经教师审核。<a href="https://github.com/xiaoyang111222/cn-math-taxonomy/issues/new/choose">提交 Issue</a></p>
+</footer>
+<script src="assets/home.js"></script>
 </body>
 </html>
