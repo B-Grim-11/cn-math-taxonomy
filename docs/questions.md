@@ -1,6 +1,8 @@
 # 题库说明（data/questions.json）
 
-给每个正式知识点（315 个；小学外部节点不出题）建的小题库，供 `diagnose/` 诊断工具按「每个知识点最多 2 题」的规则出题。**题目与答案全部由 AI 生成，没有教师审核**；正确性靠下面的自动核验与独立复核尽量保证，但不等于权威答案。
+给每个正式知识点建的小题库，供 `diagnose/` 诊断工具按「每个知识点最多 2 题」的规则出题。现在共 **531** 个知识点（小学 216 + 初中 315），**2271** 题。小学和初中一样出题。**题目与答案全部由 AI 生成，没有教师审核**（小学题也一样）；正确性靠下面的自动核验和独立复核尽量保证，但不等于权威答案。
+
+下面「统计」「核验方法」里标成第五轮的数字只计当时的 1407 道初中题。全库和小学见文末「小学题（2026-10-19）」。
 
 ## 格式
 
@@ -23,9 +25,9 @@
 
 `topics.json` 里的 `diagnostic_question` 原样保留（兼容；题库缺失时诊断工具回退到它）。
 
-## 统计（`python3 scripts/validate.py` / `verify_questions.py` 输出）
+## 统计（第五轮，只计初中 1407 题）
 
-- 总数 **1407** 题，覆盖全部 315 个正式知识点；每个知识点 4 题（168 个）或 5 题（147 个），最少 4、最多 5、平均 4.47。
+- 当时总数 **1407** 题，覆盖全部 315 个初中知识点；每个知识点 4 题（168 个）或 5 题（147 个），最少 4、最多 5、平均 4.47。这些题后来没有改写。
 - 按 type：numeric 903，choice 475，short 23，self 6；**numeric + choice 占 97.9%**。
 - 按 difficulty：basic 591，standard 537，advanced 279。每个知识点都含 basic 和 standard，并且除 q1 之外至少还有一道 basic（诊断时「第二题优先出 basic」要用）。
 - choice 的正确选项分布：A 124，B 126，C 126，D 99；101 题 3 个选项，374 题 4 个选项。
@@ -39,7 +41,7 @@ numeric 和 choice 题可以带 `verify` 表达式，脚本在**受限环境**�
 - numeric：结果与 `answer` 逐项比较；整数 / 分数结果**精确比较**，浮点结果容差 1e-9；多个答案按 `unordered` 决定是否顺序无关；
 - choice：结果与**正确选项的内容**比较（选项是数时按数值比较，否则要求文字完全相同），同时要求没有第二个选项与它相同（防双解）。
 
-脚本会同时做格式检查，输出 `auto_verified`（有 verify 且通过）、`mismatch`、`unverifiable`，明细写入 `data/verification_report.json`。当前：
+脚本会同时做格式检查，输出 `auto_verified`（有 verify 且通过）、`mismatch`、`unverifiable`，明细写入 `data/verification_report.json`。第五轮当时（只计初中；全库数字见文末）：
 
 | 项 | 数量 |
 |---|---|
@@ -84,4 +86,23 @@ numeric 和 choice 题可以带 `verify` 表达式，脚本在**受限环境**�
 - **选择题干扰项**只对应「典型错误」的猜测，没有真实学生数据校准；难度标注（basic / standard / advanced）是出题者的主观判断，同一难度内也没有区分度数据。
 - 每个知识点只有 4–5 题：重测几次后会重复（诊断工具会优先出没出过的题，出完才重复）；也不足以支撑严肃的测评。
 - numeric 答案限于有理数（含小数），含根号、π 的答案只能做成选择题；short 题（23 道）和 self 题（6 道）靠规范化精确匹配或自评，等价写法可能被判成「需自评」。
-- 批次文件（出题者的中间产物）合并后已删除；题库现在是唯一来源，要改题直接改 `data/questions.json`，再跑 `verify_questions.py` 和 `validate.py`。
+- 初中批次文件合并后已删除。小学批次留在 `data/_qbatches/primary_g1.json` … `primary_g6.json`。要改题直接改 `data/questions.json`（小学题若从批次重编，需按 `scripts/build_primary.py` 的说明先恢复含 `cnm_ext_*` 的依赖再编译），再跑 `verify_questions.py` 和 `validate.py`。
+
+## 小学题（2026-10-19）
+
+每个小学正式知识点 4 题，共 **864** 题，id 形如 `cnm_p001_q1`。字段与初中题相同。q1 的题干等于该知识点 `diagnostic_question.question`；q1 和 q2 都是 basic，另外两道是 standard。没有 short、self、advanced。
+
+| 项 | 小学 864 题 | 全库 2271 题 |
+|---|---|---|
+| type | numeric 644，choice 220（合计 100%） | numeric 1547，choice 695，short 23，self 6（numeric + choice 占 98.7%） |
+| difficulty | basic 433，standard 431 | basic 1024，standard 968，advanced 279 |
+| 每知识点 | 正好 4 题；每个点都有 basic 和 standard | 最少 4，最多 5，平均 4.28（4 题 × 384，5 题 × 147） |
+| auto_verified | 864（每道 numeric / choice 都有 `verify` 且通过） | **1739** |
+| mismatch | 0 | **0** |
+| unverifiable | 0 | 532（choice 464、numeric 39、short 23、self 6，都是原来的初中题） |
+
+低年级题用小学生说法，避免还没学过的符号（例如一年级不用字母方程）。numeric 的 `verify` 用 `scripts/verify_questions.py` 同一套受限求值。
+
+独立复核记为 C 轮，写在 `data/second_pass_log.json`，名称是「C：小学题独立复核（primary_recheck，只读题干和选项，不读 answer / verify / explanation）」：`scripts/primary_recheck.py` 只根据题干和选项重算，864 题不一致 **0**。这一轮不是另请一位没看过出题脚本的人逐题手解，而是另一段不读取 `answer` / `verify` / `explanation` 的程序重算；和初中 A/B 轮的盲解不是同一做法。A/B 轮的记录没有改。`second_pass_mismatch` 仍是空数组。
+
+小学题同样没有教师审核。二年级下册等册次目录若以后改了，对应题目的情境不一定要改，但章节归属要跟着教材重核。

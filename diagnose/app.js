@@ -6,7 +6,13 @@
   const LS_SETTINGS = 'cnmDiagnose.settings.v2';
   const LS_SEEN = 'cnmDiagnose.seen.v1';
   const LIMIT_MIN = 8, LIMIT_MAX = 30;
-  const VOLUMES = [['七上', '七年级上册'], ['七下', '七年级下册'], ['八上', '八年级上册'], ['八下', '八年级下册'], ['九上', '九年级上册'], ['九下', '九年级下册']];
+  const VOLUMES = [
+    ['一上', '一年级上册'], ['一下', '一年级下册'], ['二上', '二年级上册'], ['二下', '二年级下册'],
+    ['三上', '三年级上册'], ['三下', '三年级下册'], ['四上', '四年级上册'], ['四下', '四年级下册'],
+    ['五上', '五年级上册'], ['五下', '五年级下册'], ['六上', '六年级上册'], ['六下', '六年级下册'],
+    ['七上', '七年级上册'], ['七下', '七年级下册'], ['八上', '八年级上册'], ['八下', '八年级下册'],
+    ['九上', '九年级上册'], ['九下', '九年级下册']
+  ];
   const RESULT_LABEL = { correct: '对', wrong: '错', skip: '不会' };
   const STATUS_LABEL = { mastered: '已掌握', shaky: '不稳', weak: '薄弱', unknown: '未测' };
   const DIFF_LABEL = { basic: '基础', standard: '标准', advanced: '提高' };
@@ -19,6 +25,7 @@
   let demo = null;         // 演示模式：{oracle}
   let ui = { key: null, phase: 'ask', answer: '', verdict: null };
   let startQuery = '';
+  let startStage = '';
   let seedParam = null;    // URL 参数 seed：固定选题的随机种子
 
   /* ------------------------------------------------------------ 小工具 */
@@ -73,7 +80,7 @@
 
   /* ------------------------------------------------------------ 数据 */
   async function loadData() {
-    const urls = ['../data/topics.json', '../data/dependencies.json', '../data/cn-curriculum-standards.json'];
+    const urls = ['../data/topics.json', '../data/dependencies.json', '../data/cn-curriculum-standards.json', '../data/id-aliases.json'];
     const rs = await Promise.all(urls.map(function (u) { return fetch(u); }));
     rs.forEach(function (r, i) { if (!r.ok) throw new Error(urls[i] + ' → HTTP ' + r.status); });
     const js = await Promise.all(rs.map(function (r) { return r.json(); }));
@@ -86,7 +93,7 @@
     const stdById = {};
     js[2].items.forEach(function (x) { stdById[x.id] = x; });
     const graph = E.buildGraph(js[0], js[1], questions);
-    D = { topics: js[0], deps: js[1], stdById: stdById, graph: graph, tree: buildTree(js[0]) };
+    D = { topics: js[0], deps: js[1], stdById: stdById, graph: graph, tree: buildTree(js[0]), aliases: (js[3] && js[3].aliases) || {} };
   }
 
   function buildTree(topics) {
@@ -224,8 +231,12 @@
         h('label', null, '题量上限（' + LIMIT_MIN + '–' + LIMIT_MAX + '）：', limitInput),
         h('span', { class: 'muted small' }, '每个知识点最多问 2 题；达到上限时，没测到的知识点会标为「未测」。')),
       h('div', { class: 'row', style: 'margin-top:8px' },
+        h('select', { id: 'stage', onchange: function (e) { startStage = e.target.value; fillList(listBox); } },
+          h('option', { value: '', selected: startStage === '', text: '全部学段' }),
+          h('option', { value: 'p', selected: startStage === 'p', text: '小学 1–6 年级' }),
+          h('option', { value: 'j', selected: startStage === 'j', text: '初中 7–9 年级' })),
         h('input', {
-          type: 'search', class: 'grow', id: 'search', placeholder: '搜索知识点（名称、描述、章节），如：配方法、一次函数、勾股',
+          type: 'search', class: 'grow', id: 'search', placeholder: '搜索知识点（名称、描述、章节），如：20 以内加法、配方法、一次函数',
           value: startQuery, oninput: function (e) { startQuery = e.target.value; fillList(listBox); }
         }))));
     const listBox = h('div', { id: 'target-list' });
@@ -241,7 +252,10 @@
     while (box.firstChild) box.removeChild(box.firstChild);
     const q = startQuery.trim().toLowerCase();
     let shown = 0;
+    const primaryGrade = '一二三四五六';
     VOLUMES.forEach(function (vv) {
+      if (startStage === 'p' && primaryGrade.indexOf(vv[0].charAt(0)) < 0) return;
+      if (startStage === 'j' && primaryGrade.indexOf(vv[0].charAt(0)) >= 0) return;
       const v = D.tree[vv[0]];
       if (!v) return;
       const chapters = [];
@@ -256,7 +270,7 @@
       if (!chapters.length) return;
       const count = chapters.reduce(function (n, c) { return n + c.rows.length; }, 0);
       shown += count;
-      const det = h('details', { class: 'vol', open: !!q || vv[0] === '七上' },
+      const det = h('details', { class: 'vol', open: !!q || (startStage === 'j' ? vv[0] === '七上' : vv[0] === '一上') },
         h('summary', null, vv[1] + '（' + count + ' 个知识点）'));
       chapters.forEach(function (c) {
         const ch = c.ch;
@@ -509,7 +523,7 @@
 
     page.append(h('div', { class: 'card', id: 'path' },
       h('h2', { text: '推荐学习路径' }),
-      h('p', { class: 'muted small' }, '从根因（和「不稳」的点）出发到目标之间、尚未判定为掌握的知识点，按先修顺序（拓扑序）排列，从上往下学。「不稳」「未测」的点也在路径上，建议先巩固 / 自查。'),
+      h('p', { class: 'muted small' }, '从根因（和「不稳」的点）出发到目标之间、尚未判定为掌握的知识点，按年级从低到高排列（同一年级里先修在前），从上往下学。「不稳」「未测」的点也在路径上，建议先巩固 / 自查。'),
       sum.path.length ? h('ol', { class: 'path' }, sum.path.map(function (p) {
         return h('li', null, topicItem(p.id, statusTags(p.id, rootSet, targetSet)));
       })) : h('p', { text: '不需要补课。' })));
@@ -531,7 +545,7 @@
 
     page.append(h('details', { class: 'card', id: 'untested' },
       h('summary', null, h('b', null, '未测的知识点（' + sum.untested.length + '）')),
-      h('p', { class: 'muted small' }, '小学外部节点没有诊断题，不出题；其余是题量用完或不必再测而没测到的点。'),
+      h('p', { class: 'muted small' }, '题量用完，或不必再测，所以没问到的知识点。小学知识点同样会出题。'),
       sum.untested.map(function (id) { return topicItem(id, statusTags(id, rootSet, targetSet)); })));
 
     page.append(standardsCard(sum));
@@ -551,7 +565,7 @@
     const keys = Object.keys(by).sort();
     return h('div', { class: 'card', id: 'standards' },
       h('h2', { text: '相关课标条目' }),
-      h('p', { class: 'muted small' }, '目标与学习路径上的知识点对应的《义务教育数学课程标准（2022年版）》第四学段内容要求（映射由 AI 生成，未经专家审核）。'),
+      h('p', { class: 'muted small' }, '目标与学习路径上的知识点对应的《义务教育数学课程标准（2022年版）》内容要求（第一至第四学段；映射由 AI 生成，未经专家审核）。'),
       keys.length ? keys.map(function (k) {
         const item = D.stdById[k];
         return h('div', { class: 'std' }, h('code', { text: k }),
@@ -679,10 +693,17 @@
   function resolveTargets(params) {
     const t = params.get('target');
     if (t) {
-      const ids = t.split(',').map(function (x) { return x.trim(); }).filter(Boolean);
+      const raw = t.split(',').map(function (x) { return x.trim(); }).filter(Boolean);
+      const ids = E.resolveTargets(raw, D.aliases);
       const bad = ids.filter(function (id) { return !D.graph.byId[id] || D.graph.byId[id].external; });
       if (bad.length) throw new Error('URL 参数 target 里有无效知识点：' + bad.join(', '));
-      return { ids: ids, label: ids.map(nameOf).join('、') };
+      const aliased = raw.filter(function (id) { return D.aliases[id]; });
+      let label = ids.map(nameOf).join('、');
+      if (aliased.length) {
+        label = aliased.map(function (id) { return (D.aliases[id].name || id); }).join('、') + '（旧编号已对应到小学知识点）';
+        if (ids.length <= 6) label += '：' + ids.map(nameOf).join('、');
+      }
+      return { ids: ids, label: label };
     }
     const c = params.get('chapter');
     if (c) {

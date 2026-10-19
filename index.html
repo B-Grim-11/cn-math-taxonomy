@@ -3,7 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>中国初中数学知识图谱（七—九年级）· 草稿</title>
+<title>中小学数学知识图谱（一—九年级）· 草稿</title>
+<link rel="icon" href="data:,">
 <style>
   :root { --bg:#f6f7f9; --panel:#fff; --line:#e1e4e8; --text:#1f2933; --muted:#6b7785; --accent:#2563eb;
           --hard:#c2410c; --soft:#6b7785; --ext:#7c3aed; }
@@ -67,8 +68,8 @@
 </head>
 <body>
 <header>
-  <h1>中国初中数学知识图谱（七—九年级）</h1>
-  <span class="note">AI 生成的初稿，未经教师审核；先修关系尤其需要一线教师审核。人教版 2024 审定版章节顺序。</span>
+  <h1>中小学数学知识图谱（一—九年级）</h1>
+  <span class="note">AI 生成的初稿，未经教师审核；先修关系尤其需要一线教师审核。小学与初中都按人教版章节；部分小学册次目录非官方、待核。</span>
   <a class="tool-link" href="diagnose/">诊断小工具 →</a>
 </header>
 <div id="app">
@@ -78,16 +79,31 @@
       <div class="row">
         <select id="fDomain"><option value="">全部学科</option></select>
         <select id="fGrade">
-          <option value="">全部年级</option>
-          <option value="7上">七年级上</option><option value="7下">七年级下</option>
-          <option value="8上">八年级上</option><option value="8下">八年级下</option>
-          <option value="9上">九年级上</option><option value="9下">九年级下</option>
-          <option value="7">七年级（全）</option><option value="8">八年级（全）</option><option value="9">九年级（全）</option>
+          <option value="">全部</option>
+          <optgroup label="学段">
+            <option value="p">小学（1–6 年级）</option>
+            <option value="j">初中（7–9 年级）</option>
+          </optgroup>
+          <optgroup label="小学">
+            <option value="1">一年级</option><option value="2">二年级</option><option value="3">三年级</option>
+            <option value="4">四年级</option><option value="5">五年级</option><option value="6">六年级</option>
+            <option value="1上">一年级上</option><option value="1下">一年级下</option>
+            <option value="2上">二年级上</option><option value="2下">二年级下</option>
+            <option value="3上">三年级上</option><option value="3下">三年级下</option>
+            <option value="4上">四年级上</option><option value="4下">四年级下</option>
+            <option value="5上">五年级上</option><option value="5下">五年级下</option>
+            <option value="6上">六年级上</option><option value="6下">六年级下</option>
+          </optgroup>
+          <optgroup label="初中">
+            <option value="7">七年级</option><option value="8">八年级</option><option value="9">九年级</option>
+            <option value="7上">七年级上</option><option value="7下">七年级下</option>
+            <option value="8上">八年级上</option><option value="8下">八年级下</option>
+            <option value="9上">九年级上</option><option value="9下">九年级下</option>
+          </optgroup>
         </select>
       </div>
       <div class="row">
         <select id="fType"><option value="">全部类型</option></select>
-        <label class="chk"><input type="checkbox" id="fExt"> 含小学先修</label>
       </div>
       <div id="count"></div>
     </div>
@@ -99,7 +115,7 @@
 <script>
 "use strict";
 const TYPE_ZH = {conceptual:"概念理解", procedural:"程序性技能", reasoning:"推理证明", application:"应用", modeling:"建模"};
-const GRADE_ZH = {7:"七", 8:"八", 9:"九"};
+const GRADE_ZH = {1:"一", 2:"二", 3:"三", 4:"四", 5:"五", 6:"六", 7:"七", 8:"八", 9:"九"};
 const $ = s => document.querySelector(s);
 const el = (tag, attrs, ...kids) => {
   const e = document.createElement(tag);
@@ -111,15 +127,15 @@ const el = (tag, attrs, ...kids) => {
   return e;
 };
 
-let topics = [], deps = [], byId = new Map(), pre = new Map(), post = new Map(), selected = null;
+let topics = [], deps = [], aliases = {}, byId = new Map(), pre = new Map(), post = new Map(), selected = null;
 
 function gradeKey(t) { return t.external ? "小学" : GRADE_ZH[t.grade] + t.semester; }
 
 async function load() {
   try {
-    const [a, b] = await Promise.all([fetch("data/topics.json"), fetch("data/dependencies.json")]);
-    if (!a.ok || !b.ok) throw new Error("HTTP " + a.status + "/" + b.status);
-    topics = await a.json(); deps = await b.json();
+    const [a, b, c] = await Promise.all([fetch("data/topics.json"), fetch("data/dependencies.json"), fetch("data/id-aliases.json")]);
+    if (!a.ok || !b.ok || !c.ok) throw new Error("HTTP " + a.status + "/" + b.status + "/" + c.status);
+    topics = await a.json(); deps = await b.json(); aliases = (await c.json()).aliases || {};
   } catch (e) {
     $("#main").replaceChildren(el("div", {id:"err"},
       el("b", {text:"无法加载数据文件。"}), el("br"),
@@ -140,21 +156,25 @@ async function load() {
   const doms = [...new Set(topics.map(t => t.domain))];
   for (const d of doms) $("#fDomain").append(el("option", {value:d, text:d}));
   for (const [k, v] of Object.entries(TYPE_ZH)) $("#fType").append(el("option", {value:k, text:v}));
-  for (const id of ["q", "fDomain", "fGrade", "fType", "fExt"]) $("#" + id).addEventListener("input", renderList);
-  window.addEventListener("hashchange", () => select(location.hash.slice(1), false));
+  for (const id of ["q", "fDomain", "fGrade", "fType"]) $("#" + id).addEventListener("input", renderList);
+  window.addEventListener("hashchange", () => select(decodeURIComponent(location.hash.slice(1)), true));
   renderList();
-  if (byId.has(location.hash.slice(1))) select(location.hash.slice(1), true);
-  else $("#main").replaceChildren(el("div", {class:"empty", text:"← 请从左侧选择一个知识点。共 " + topics.filter(t => !t.external).length + " 个知识点、" + deps.length + " 条先修边。"}));
+  const nPri = topics.filter(t => t.grade <= 6).length, nJun = topics.filter(t => t.grade >= 7).length;
+  if (location.hash.slice(1)) select(location.hash.slice(1), true);
+  else $("#main").replaceChildren(el("div", {class:"empty", text:"← 请从左侧选择一个知识点。小学 " + nPri + "、初中 " + nJun + "，共 " + topics.length + " 个知识点、" + deps.length + " 条先修边。"}));
 }
 
 function filtered() {
   const q = $("#q").value.trim().toLowerCase(), d = $("#fDomain").value, g = $("#fGrade").value,
-        ty = $("#fType").value, ext = $("#fExt").checked;
+        ty = $("#fType").value;
   return topics.filter(t => {
-    if (t.external && !ext) return false;
     if (d && t.domain !== d) return false;
     if (ty && t.type !== ty) return false;
-    if (g) { if (t.external) return false; if (g.length === 1 ? String(t.grade) !== g : (t.grade + t.semester) !== g) return false; }
+    if (g === "p" && !(t.grade <= 6)) return false;
+    if (g === "j" && !(t.grade >= 7)) return false;
+    if (g && g !== "p" && g !== "j") {
+      if (g.length === 1 ? String(t.grade) !== g : (t.grade + t.semester) !== g) return false;
+    }
     if (q && !((t.name + t.description + (t.chapter || "") + t.id).toLowerCase().includes(q))) return false;
     return true;
   });
@@ -179,9 +199,15 @@ function renderList() {
 }
 
 function select(id, push) {
+  if (!byId.has(id) && aliases[id] && aliases[id].targets && aliases[id].targets.length) {
+    const first = aliases[id].targets[0];
+    if (byId.has(first)) return select(first, push);
+  }
   if (!byId.has(id)) return;
   selected = id;
-  if (push && location.hash.slice(1) !== id) history.replaceState(null, "", "#" + id);
+  if (push && decodeURIComponent(location.hash.slice(1)) !== id) {
+    history.replaceState(null, "", location.pathname + location.search + "#" + id);
+  }
   for (const li of document.querySelectorAll("#list li.item")) li.classList.toggle("sel", li.dataset.id === id);
   const cur = document.querySelector("#list li.sel"); if (cur) cur.scrollIntoView({block:"nearest"});
   renderDetail(byId.get(id));

@@ -1,5 +1,34 @@
 # 变更日志
 
+## 2026-10-19（小学正式知识点）
+
+把小学数学（1–6 年级）接进同一张图。诊断答错初中题时，可以回溯到具体的小学知识点。初中知识点的 **id、名称、题目没有改**；初中—初中先修边没有改。第四学段课标条目正文没有改。
+
+### id
+
+- 新增小学正式知识点 `cnm_p001`–`cnm_p216`（216 个）。`grade` 为 1–6 的整数，`semester` 为上/下，`external` 为 false，字段与初中正式知识点相同。
+- **方案 b（不是汇总节点）：** `cnm_ext_001`–`cnm_ext_018` 从 `data/topics.json` **删除**。新增 `data/id-aliases.json`，把每个旧 id 映射到一个或多个 `cnm_p*`。浏览页 `#cnm_ext_002` 打开映射中的第一个小学知识点；诊断 `?target=cnm_ext_002` 展开映射中的全部小学知识点。
+- 原来指向 `cnm_ext_*` 的先修边改为指向具体小学知识点（一条可以拆成多条）。图上不再出现 `cnm_ext_*`。
+
+### 数据
+
+- 先修边由 616 增至 **909**（hard 788，soft 121）。其中初中内部仍为 563；新保留的边 346 条（小学内部 311，初中→小学 35）。只对新增边做传递约简。
+- 全图一个根：`cnm_p001`，带 `root_reason`。
+- `data/cn-curriculum-standards.json` 在第四学段 157 条之前追加第一至三学段 **73** 条（第一学段 18、第二学段 29、第三学段 26），合计 **230**。id 形如 `cms-2022:1.NA.01`。第一至三学段来自公开转写（<http://zy.21cnjy.com/20610065>），`verbatim: false`，`page_or_ref` 为「待核」，未与教育部 PDF 逐页核对。百分数没有单独编一条内容要求；第三学段综合与实践只收录转写里确认的主题活动 1。
+- 题库新增小学题 **864**（每点 4 题；numeric 644，choice 220；basic 433，standard 431）。`questions.json` 共 2271 题。批次在 `data/_qbatches/primary_g1.json` … `primary_g6.json`。
+- `scripts/verify_questions.py`：auto_verified 1739，mismatch 0，unverifiable 532。`second_pass_log.json` 增加 C 轮「小学题独立复核」，864 题不一致 0；初中 A/B 轮记录保留。
+
+### 工具与页面
+
+- `scripts/validate.py` 的课标 id 正则支持第 1–4 学段；年级允许 1–9。
+- `index.html` 标题改为「中小学数学知识图谱」，筛选增加学段和 1–6 年级。
+- `diagnose/` 目标列表包含小学；学习路径按年级从低到高排序；每个知识点最多仍问 2 题。
+- 生成脚本：`scripts/build_primary.py`、`primary_g12.py`、`primary_g34.py`、`primary_g46.py`、`primary_g56.py`、`primary_std.py`、`primary_qgen.py`、`primary_recheck.py`。`build_primary.py` 不能在已经去掉 `cnm_ext_*` 边之后再跑第二遍，需要先从版本库恢复 `topics.json` 和 `dependencies.json`。
+
+### 仍待核
+
+小学各册没有人教社官网全文目录（见 README 的册次表）。二年级下册是按 2024 上册上移内容推定的，与现行版二年级下册目录不一致。一年级「我的教室」「数学游戏分享」、四年级下「营养午餐」、六年级「确定起跑线」「节约用水」未按目录单列或未建点。第一至三学段课标页码待核。
+
 ## 2026-10-17（第五轮）
 
 ### 题库（新增 `data/questions.json`，其它数据文件未改动）

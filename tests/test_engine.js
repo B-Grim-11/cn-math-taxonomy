@@ -609,11 +609,15 @@ function bfsAncestors(id) {
   return seen;
 }
 
-test('数据可加载：333 个知识点，616 条边；每个正式知识点有诊断题', () => {
-  assert.strictEqual(topics.length, RG.topics.length);
+test('数据可加载：小学 216 + 初中 315，没有外部节点；课标含第一学段', () => {
+  assert.strictEqual(topics.length, 531);
+  assert.strictEqual(deps.length, 909);
+  assert.strictEqual(topics.filter((t) => t.external).length, 0);
+  assert.strictEqual(topics.filter((t) => t.grade <= 6).length, 216);
+  assert.strictEqual(topics.filter((t) => t.grade >= 7).length, 315);
   assert.ok(formal.every((t) => E.isTestable(RG, t.id)));
-  assert.ok(topics.filter((t) => t.external).every((t) => !E.isTestable(RG, t.id)));
-  assert.ok(stdFile.items.length > 100);
+  assert.ok(stdFile.items.length > 200);
+  assert.ok(stdFile.items[0].id.indexOf('cms-2022:1.') === 0);
 });
 
 test('真实数据：祖先集合与独立 BFS 一致（全部知识点）', () => {
@@ -622,15 +626,39 @@ test('真实数据：祖先集合与独立 BFS 一致（全部知识点）', () 
   });
 });
 
-test('真实数据：先修子图含外部节点，拓扑序合法（全部目标）', () => {
-  let sawExternal = false;
+test('真实数据：先修子图不含外部节点，初中目标能回到小学，拓扑序合法', () => {
+  let sawPrimary = false;
   formal.forEach((t) => {
     const sub = E.subgraph(RG, [t.id]);
     assert.strictEqual(sub.nodes[sub.nodes.length - 1], t.id);
     assertTopological(sub.nodes, RG);
-    if (sub.nodes.some((id) => RG.byId[id].external)) sawExternal = true;
+    assert.ok(sub.nodes.every((id) => !RG.byId[id].external));
+    if (t.grade >= 7 && sub.nodes.some((id) => RG.byId[id].grade <= 6)) sawPrimary = true;
   });
-  assert.ok(sawExternal);
+  assert.ok(sawPrimary, '至少有一个初中知识点的祖先里有小学知识点');
+});
+
+test('旧 id 别名：cnm_ext_* 已不在图中，resolveTargets 跳到小学正式知识点', () => {
+  const aliases = JSON.parse(fs.readFileSync(path.join(dataDir, 'id-aliases.json'), 'utf8')).aliases;
+  assert.strictEqual(Object.keys(aliases).length, 18);
+  for (let i = 1; i <= 18; i++) {
+    const key = 'cnm_ext_' + String(i).padStart(3, '0');
+    assert.ok(!RG.byId[key], key + ' 不应再作为知识点');
+    assert.ok(aliases[key] && aliases[key].name && aliases[key].targets.length);
+    const ids = E.resolveTargets([key], aliases);
+    assert.ok(ids.length >= 1 && ids.length === new Set(ids).size, key);
+    ids.forEach((id) => {
+      const t = RG.byId[id];
+      assert.ok(t && t.grade <= 6 && !t.external, key + ' -> ' + id);
+    });
+    const s = E.createSession(RG, ids, { limit: 2 });
+    assert.ok(ids.indexOf(E.nextQuestion(RG, s)) >= 0, key);
+  }
+  const mixed = E.resolveTargets(['cnm_ext_002', 'cnm_001'], aliases);
+  assert.ok(mixed.indexOf('cnm_001') >= 0);
+  assert.ok(mixed.some((id) => RG.byId[id].grade <= 6));
+  assert.deepStrictEqual(E.resolveTargets(['nope'], aliases), ['nope']);
+  assert.deepStrictEqual(E.resolveTargets(['cnm_221'], null), ['cnm_221']);
 });
 
 test('真实数据：cnm_221（配方法）——首问目标；答错后 hard 先修在前', () => {
@@ -906,6 +934,26 @@ function simulateBank(targets, known, flaky, limit, seed) {
   }
   return { s: s, asked: asked };
 }
+
+test('小学回溯：答错初中「正数与负数」会问到小学，学习路径按年级从低到高', () => {
+  const { s, asked } = simulateBank(['cnm_001'], new Set(), new Set(), 80, 'primary');
+  const ids = asked.map((x) => x.split('#')[0]);
+  assert.ok(ids.indexOf('cnm_001') >= 0);
+  assert.ok(ids.filter((id) => id === 'cnm_001').length <= 2);
+  assert.ok(ids.some((id) => RGQ.byId[id].grade === 6), '应问到六年级');
+  assert.ok(ids.some((id) => RGQ.byId[id].grade === 1), '应继续问到一年级');
+  const per = {};
+  ids.forEach((id) => { per[id] = (per[id] || 0) + 1; });
+  Object.keys(per).forEach((id) => assert.ok(per[id] <= 2, id + ' 超过 2 题'));
+  const sum = E.summarize(RGQ, s);
+  const ranks = sum.path.map((p) => E.gradeRank(RGQ, p.id));
+  for (let i = 1; i < ranks.length; i++) {
+    assert.ok(ranks[i] >= ranks[i - 1], '路径应按年级从低到高：' + sum.path[i - 1].id + ' -> ' + sum.path[i].id);
+  }
+  assert.ok(sum.path.some((p) => RGQ.byId[p.id].grade <= 6));
+  assert.strictEqual(sum.path[sum.path.length - 1].id, 'cnm_001');
+  assertTopological(sum.path.map((p) => p.id), RGQ);
+});
 
 test('带题库：一致的学生 + 无限题量 => 薄弱集合与根因精确还原；会的 1 题、不会的 2 题', () => {
   const rand = rng(20261018);

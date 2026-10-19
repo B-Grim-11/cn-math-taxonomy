@@ -351,10 +351,16 @@
     }
     const rootSet = new Set(roots.map(function (r) { return r.id; }));
     const targetSet = new Set(session.targets);
+    const topoPos = Object.create(null);
+    nodes.forEach(function (id, i) { topoPos[id] = i; });
     const path = nodes.filter(function (id) { return reach.has(id) && st(id) !== 'mastered'; })
       .map(function (id) {
         return { id: id, status: st(id), isRoot: rootSet.has(id), isTarget: targetSet.has(id) };
       });
+    // 学习路径按年级从低到高；同一年级内保持拓扑序（先修在前）。没有 grade 的手造图保持原顺序。
+    path.sort(function (a, b) {
+      return gradeRank(graph, a.id) - gradeRank(graph, b.id) || topoPos[a.id] - topoPos[b.id];
+    });
 
     const pending = session.stack.filter(function (id) { return !session.status[id] && isTestable(graph, id); });
     const next = nextQuestion(graph, session);
@@ -450,11 +456,49 @@
 
   /* ------------------------------------------------------------------ 章节解析 */
 
-  /** "七上 第一章 有理数 1.1" -> {volume:'七上', chapterNo:'第一章', chapterName:'有理数', section:'1.1'} */
+  /** 年级数字 ×2 + 学期，用于学习路径排序。没有 grade 时返回 0。 */
+  function gradeRank(graph, id) {
+    const t = graph.byId[id];
+    if (!t || typeof t.grade !== 'number') return 0;
+    return t.grade * 2 + (t.semester === '下' ? 1 : 0);
+  }
+
+  /**
+   * 初中："七上 第一章 有理数 1.1" -> {volume:'七上', chapterNo:'第一章', chapterName:'有理数', section:'1.1'}
+   * 小学："一年级上册 第1单元 单元名" 或 "一年级上册 综合与实践 活动名"
+   */
   function parseChapter(chapter) {
-    const m = /^(\S+) (第\S+章) (\S+?)(?: (\S+))?$/.exec(chapter || '');
-    if (!m) return { volume: '', chapterNo: '', chapterName: chapter || '', section: '' };
+    const s = chapter || '';
+    const pm = /^([一二三四五六])年级([上下])册 (第\d+单元) (.+)$/.exec(s);
+    if (pm) return { volume: pm[1] + pm[2], chapterNo: pm[3], chapterName: pm[4], section: '' };
+    const pi = /^([一二三四五六])年级([上下])册 (综合与实践) (.+)$/.exec(s);
+    if (pi) return { volume: pi[1] + pi[2], chapterNo: pi[3], chapterName: pi[4], section: '' };
+    const m = /^(\S+) (第\S+章) (\S+?)(?: (\S+))?$/.exec(s);
+    if (!m) return { volume: '', chapterNo: '', chapterName: s, section: '' };
     return { volume: m[1], chapterNo: m[2], chapterName: m[3], section: m[4] || '' };
+  }
+
+  /**
+   * 把 URL / 选择器里的 id 展开成图中的知识点。
+   * aliases 形如 { "cnm_ext_002": { targets: ["cnm_p010", ...] } } 或 { id: ["cnm_p010"] }。
+   * 未知 id 原样保留，交给 createSession 报错。
+   */
+  function resolveTargets(rawIds, aliases) {
+    const map = aliases || {};
+    const out = [];
+    const seen = Object.create(null);
+    (Array.isArray(rawIds) ? rawIds : [rawIds]).forEach(function (id) {
+      if (!id) return;
+      let targets = null;
+      const spec = map[id];
+      if (spec && Array.isArray(spec.targets)) targets = spec.targets;
+      else if (Array.isArray(spec)) targets = spec;
+      const list = targets && targets.length ? targets : [id];
+      list.forEach(function (tid) {
+        if (!seen[tid]) { seen[tid] = true; out.push(tid); }
+      });
+    });
+    return out;
   }
 
   /* ------------------------------------------------------------------ 判题 */
@@ -777,6 +821,8 @@
     summarize: summarize,
     layout: layout,
     parseChapter: parseChapter,
+    gradeRank: gradeRank,
+    resolveTargets: resolveTargets,
     normalizeText: normalizeText,
     judgeAnswer: judgeAnswer
   };
