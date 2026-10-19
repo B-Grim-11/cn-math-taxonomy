@@ -21,6 +21,17 @@
       "scope": "没有 verify 自动核验的 numeric/choice/short 题 + 全部 advanced 题",
       "disagreements": 0,
       "flagged_doubtful": 0
+    },
+    {
+      "name": "C：小学题独立复核（primary_recheck，只读题干和选项，不读 answer / verify / explanation）",
+      "solver": "scripts/primary_recheck.py",
+      "questions": 864,
+      "by_type": {
+        "numeric": 644,
+        "choice": 220
+      },
+      "disagreements": 0,
+      "adjudication": "不一致的题必须先改目录再编译；本轮为 0"
     }
   ],
   "checked": 1401,
@@ -87,5 +98,7 @@
       "reason": "解析把正确选项 C 误写成“没提干净”；由“解析中出现的选项字母与答案矛盾”的扫描发现，答案 C 不变"
     }
   ],
-  "doubtful_notes_reviewed": "解题者标出的 16 条存疑（分隔符格式、需要“同一平面内”、小数取舍、边界归属、口径等）逐条看过：除上面 4 处改题干外，其余题干条件已足以唯一确定答案（如 cnm_228_q4 已写明“要让顾客得到更多实惠”、cnm_293_q4 已写明“11~20（含 20）”、cnm_290_q1 已写明保留一位小数与 √3≈1.73），不改。"
+  "doubtful_notes_reviewed": "解题者标出的 16 条存疑（分隔符格式、需要“同一平面内”、小数取舍、边界归属、口径等）逐条看过：除上面 4 处改题干外，其余题干条件已足以唯一确定答案（如 cnm_228_q4 已写明“要让顾客得到更多实惠”、cnm_293_q4 已写明“11~20（含 20）”、cnm_290_q1 已写明保留一位小数与 √3≈1.73），不改。",
+  "primary_checked": 864,
+  "primary_disagreements": []
 }
