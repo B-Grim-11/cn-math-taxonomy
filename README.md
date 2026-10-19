@@ -1,6 +1,21 @@
-# 中国初中数学（七—九年级）知识图谱 · 第一版草稿
+# 中国初中数学知识图谱
 
-用「知识点节点 + 先修边」的有向无环图（DAG）描述人教版初中数学（七上至九下）的知识结构，数据格式参考 [Marble os-taxonomy](https://github.com/withmarbleapp/os-taxonomy)（`topics` + `dependencies`）。
+对齐《义务教育数学课程标准（2022 年版）》与人教版七–九的知识点 DAG，附**自适应前置诊断**与题库。答错会沿先修边回溯找根因，并给出拓扑学习路径。
+
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+[![在线试用](https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF%E8%AF%95%E7%94%A8-GitHub%20Pages-2ea44f)](https://xiaoyang111222.github.io/cn-math-taxonomy/)
+
+**[→ 在线试用诊断（演示：配方法）](https://xiaoyang111222.github.io/cn-math-taxonomy/diagnose/?target=cnm_221&demo=1)** · [知识图谱浏览](https://xiaoyang111222.github.io/cn-math-taxonomy/) · [诊断工具](https://xiaoyang111222.github.io/cn-math-taxonomy/diagnose/)
+
+![诊断结果示例：配方法 → 回溯到完全平方公式](screenshots/03-result.png)
+
+| 知识点 | 先修边 | 课标条目 | 题库 |
+| ---: | ---: | ---: | ---: |
+| 333（正式 315） | 616 | 157 | 1407 |
+
+数据格式参考 [Marble os-taxonomy](https://github.com/withmarbleapp/os-taxonomy)（`topics` + `dependencies`）。
+
+**反馈 / 挑错：** 题干、答案或先修关系有问题，或想提功能建议，请 [提交 Issue](https://github.com/xiaoyang111222/cn-math-taxonomy/issues/new/choose)（已提供「题目纠错」「功能建议」模板）。
 
 > **状态声明：这是 AI 生成的初稿，未经任何教师审核。**
 > 知识点的拆分粒度、掌握标准、诊断题答案，尤其是**先修关系（哪些是 hard、哪些是 soft，甚至某条边该不该存在）都需要一线初中数学教师审核**后才能用于教学、诊断或学习路径推荐。诊断题答案虽经抽查心算，但没有逐题由人工复核。
