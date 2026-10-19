@@ -26,6 +26,7 @@
   let ui = { key: null, phase: 'ask', answer: '', verdict: null };
   let startQuery = '';
   let startStage = '';
+  let chapterOpen = false;
   let seedParam = null;    // URL 参数 seed：固定选题的随机种子
 
   /* ------------------------------------------------------------ 小工具 */
@@ -203,6 +204,16 @@
   }
 
   /* ------------------------------------------------------------ 开始页 */
+  function stageButton(value, label) {
+    return h('button', {
+      type: 'button',
+      class: 'stage-tab' + (startStage === value ? ' on' : ''),
+      role: 'tab',
+      'aria-selected': startStage === value ? 'true' : 'false',
+      onclick: function () { startStage = value; renderStart(); }
+    }, label);
+  }
+
   function renderStart(errMsg) {
     const page = h('div');
     const saved = lsGet(LS_SESSION);
@@ -216,7 +227,7 @@
     if (errMsg) page.append(h('p', { class: 'err', text: errMsg }));
 
     const st = getSettings();
-    const limitInput = h('input', { type: 'number', min: LIMIT_MIN, max: LIMIT_MAX, step: 1, value: String(st.limit), style: 'width:70px', id: 'limit-input' });
+    const limitInput = h('input', { type: 'number', min: LIMIT_MIN, max: LIMIT_MAX, step: 1, value: String(st.limit), id: 'limit-input', 'aria-label': '题量上限' });
     limitInput.addEventListener('change', function () {
       let v = parseInt(limitInput.value, 10);
       if (!(v >= LIMIT_MIN)) v = LIMIT_MIN;
@@ -224,25 +235,33 @@
       limitInput.value = String(v);
       lsSet(LS_SETTINGS, { limit: v });
     });
-    page.append(h('div', { class: 'card' },
-      h('h2', { text: '1. 选择诊断目标' }),
-      h('p', { class: 'muted' }, '选一个你想学会（或想检查）的知识点，或者选整章。工具会从目标开始提问：第一题答对就算掌握；答错会再出一道同级或更容易的题——第二题也错才算薄弱，并回溯到它的先修知识点，找到真正薄弱的根因；第二题答对则标为「不稳」。'),
-      h('div', { class: 'row' },
-        h('label', null, '题量上限（' + LIMIT_MIN + '–' + LIMIT_MAX + '）：', limitInput),
-        h('span', { class: 'muted small' }, '每个知识点最多问 2 题；达到上限时，没测到的知识点会标为「未测」。')),
-      h('div', { class: 'row', style: 'margin-top:8px' },
-        h('select', { id: 'stage', onchange: function (e) { startStage = e.target.value; fillList(listBox); } },
-          h('option', { value: '', selected: startStage === '', text: '全部学段' }),
-          h('option', { value: 'p', selected: startStage === 'p', text: '小学 1–6 年级' }),
-          h('option', { value: 'j', selected: startStage === 'j', text: '初中 7–9 年级' })),
-        h('input', {
-          type: 'search', class: 'grow', id: 'search', placeholder: '搜索知识点（名称、描述、章节），如：20 以内加法、配方法、一次函数',
-          value: startQuery, oninput: function (e) { startQuery = e.target.value; fillList(listBox); }
-        }))));
     const listBox = h('div', { id: 'target-list' });
-    page.append(h('div', { class: 'card' }, h('h2', { text: '知识点列表（按年级 / 册 / 章节）' }), listBox));
+    const browser = h('details', { class: 'chapter-browser', id: 'chapter-browser', open: chapterOpen || !!startQuery },
+      h('summary', null, '按册、章浏览'),
+      h('p', { class: 'muted small', text: '列表按年级、册、章折叠。想直接开始，用上面的搜索更快。' }),
+      listBox);
+    browser.addEventListener('toggle', function () { chapterOpen = browser.open; });
+    page.append(h('div', { class: 'card' },
+      h('h1', { text: '选择诊断目标' }),
+      h('p', { class: 'muted' }, '选一个想学会或想检查的知识点。第一题答对就算掌握；答错会再出一道同级或更容易的题——第二题也错才算薄弱，并回溯到先修；第二题答对则标为「不稳」。'),
+      h('div', { class: 'stage-tabs', role: 'tablist', 'aria-label': '学段' },
+        stageButton('', '全部'), stageButton('p', '小学'), stageButton('j', '初中')),
+      h('input', {
+        type: 'search', class: 'search-lg', id: 'search', placeholder: '搜索知识点，例如：配方法、20 以内加法、一次函数',
+        value: startQuery, autocomplete: 'off', 'aria-label': '搜索知识点',
+        oninput: function (e) {
+          startQuery = e.target.value;
+          fillList(listBox);
+          if (startQuery.trim()) { browser.open = true; chapterOpen = true; }
+        }
+      }),
+      h('p', { class: 'muted small', id: 'match-count' }),
+      h('div', { class: 'row' },
+        h('label', null, '题量上限（' + LIMIT_MIN + '–' + LIMIT_MAX + '）', limitInput),
+        h('span', { class: 'muted small' }, '每个知识点最多问 2 题。到上限后，没测到的标为「未测」。'))));
+    page.append(h('div', { class: 'card' }, browser));
     page.append(h('p', { class: 'muted small' },
-      '数据来自本项目的 data/*.json（AI 生成的草稿，先修关系与题库未经教师审核）。进度和「出过的题」只保存在本机浏览器里（localStorage）。'));
+      '可以诊断的知识点：' + D.topics.length + ' 个。进度和出过的题只保存在这台浏览器里。'));
     show(page);
     fillList(listBox);
     if (startQuery) { const el = document.getElementById('search'); if (el) el.focus(); }
@@ -291,6 +310,10 @@
       box.append(det);
     });
     if (!shown) box.append(h('p', { class: 'muted', text: '没有匹配的知识点。' }));
+    const mc = document.getElementById('match-count');
+    if (mc) mc.textContent = (q ? '找到 ' : '册章列表里有 ') + shown + ' 个知识点';
+    const browser = document.getElementById('chapter-browser');
+    if (browser && q) browser.open = true;
   }
 
   /* ------------------------------------------------------------ 出题页 */
@@ -647,7 +670,7 @@
     });
     const out = {
       tool: 'cn-math-taxonomy/diagnose', version: 2, generatedAt: new Date().toISOString(),
-      note: '自动判题是近似的，以参考答案为准；数据为 AI 生成的草稿。',
+      note: '自动判题是近似的，以参考答案为准；数据为 AI 生成的初稿，未经教师审核。',
       label: sessionMeta.label,
       targets: session.targets.map(brief),
       limit: session.limit, seed: session.seed, asked: sum.asked, finished: sum.finished, limitReached: sum.limitReached,
