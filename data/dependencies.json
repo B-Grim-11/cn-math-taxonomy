@@ -5452,5 +5452,1181 @@
     "prerequisiteId": "cnm_296",
     "strength": "soft",
     "reason": "撰写调查分析报告时要避免图表误导读者，辨识误导的能力有帮助"
+  },
+  {
+    "topicId": "cnm_h001",
+    "prerequisiteId": "cnm_025",
+    "strength": "soft",
+    "reason": "用字母表示集合里的元素，需要先会用字母表示数。"
+  },
+  {
+    "topicId": "cnm_h002",
+    "prerequisiteId": "cnm_h001",
+    "strength": "hard",
+    "reason": "判断一个对象属不属于集合，要先知道集合是由确定元素组成的。"
+  },
+  {
+    "topicId": "cnm_h003",
+    "prerequisiteId": "cnm_h002",
+    "strength": "hard",
+    "reason": "列举法要确认写出来的每一个对象都属于这个集合。"
+  },
+  {
+    "topicId": "cnm_h004",
+    "prerequisiteId": "cnm_h003",
+    "strength": "hard",
+    "reason": "描述法和列举法是同一批集合的两种写法，先会列举再读描述更稳。"
+  },
+  {
+    "topicId": "cnm_h005",
+    "prerequisiteId": "cnm_h004",
+    "strength": "hard",
+    "reason": "常用数集常用描述法表示，需要先读得懂描述法。"
+  },
+  {
+    "topicId": "cnm_h005",
+    "prerequisiteId": "cnm_078",
+    "strength": "hard",
+    "reason": "自然数集、整数集、有理数集和实数集的划分，直接用到实数的分类。"
+  },
+  {
+    "topicId": "cnm_h006",
+    "prerequisiteId": "cnm_h005",
+    "strength": "hard",
+    "reason": "判断数集之间谁包含谁，要先认识这些常用数集。"
+  },
+  {
+    "topicId": "cnm_h007",
+    "prerequisiteId": "cnm_h006",
+    "strength": "hard",
+    "reason": "真子集是去掉自身之后的子集，必须先会判断子集。"
+  },
+  {
+    "topicId": "cnm_h008",
+    "prerequisiteId": "cnm_h006",
+    "strength": "hard",
+    "reason": "交集是两个集合的公共部分，判断时要用到元素是否属于集合以及子集语言。"
+  },
+  {
+    "topicId": "cnm_h009",
+    "prerequisiteId": "cnm_h008",
+    "strength": "hard",
+    "reason": "并集个数要用到交集，避免把公共元素算两次。"
+  },
+  {
+    "topicId": "cnm_h010",
+    "prerequisiteId": "cnm_h009",
+    "strength": "hard",
+    "reason": "补集和并集一起才能说清全集被分成的两部分。"
+  },
+  {
+    "topicId": "cnm_h011",
+    "prerequisiteId": "cnm_h010",
+    "strength": "hard",
+    "reason": "交、并、补的混合运算要先分别会做这三种运算。"
+  },
+  {
+    "topicId": "cnm_h012",
+    "prerequisiteId": "cnm_h006",
+    "strength": "hard",
+    "reason": "充分条件可以用集合包含来理解：能推出，就是一个集合落在另一个里面。"
+  },
+  {
+    "topicId": "cnm_h012",
+    "prerequisiteId": "cnm_071",
+    "strength": "soft",
+    "reason": "充分条件和必要条件说的是命题之间的推出，需要知道命题是什么。"
+  },
+  {
+    "topicId": "cnm_h013",
+    "prerequisiteId": "cnm_h012",
+    "strength": "hard",
+    "reason": "充要条件就是充分条件和必要条件同时成立。"
+  },
+  {
+    "topicId": "cnm_h014",
+    "prerequisiteId": "cnm_h012",
+    "strength": "hard",
+    "reason": "含有量词的命题仍要判断能不能推出，需要先会看条件关系。"
+  },
+  {
+    "topicId": "cnm_h015",
+    "prerequisiteId": "cnm_h014",
+    "strength": "hard",
+    "reason": "否定全称或存在命题，要先分清句子用的是哪一种量词。"
+  },
+  {
+    "topicId": "cnm_h016",
+    "prerequisiteId": "cnm_h005",
+    "strength": "hard",
+    "reason": "不等式比较的是实数，对象都在实数集里。"
+  },
+  {
+    "topicId": "cnm_h016",
+    "prerequisiteId": "cnm_040",
+    "strength": "hard",
+    "reason": "等式性质是不等式性质的对照，解方程时仍然要用等式性质。"
+  },
+  {
+    "topicId": "cnm_h017",
+    "prerequisiteId": "cnm_h016",
+    "strength": "hard",
+    "reason": "解集是使不等式成立的未知数的取值，要先认识不等式本身。"
+  },
+  {
+    "topicId": "cnm_h017",
+    "prerequisiteId": "cnm_094",
+    "strength": "hard",
+    "reason": "高中继续使用不等式的解集，这个概念在初中已经建立。"
+  },
+  {
+    "topicId": "cnm_h018",
+    "prerequisiteId": "cnm_h017",
+    "strength": "hard",
+    "reason": "用性质变形之后，还要把结果写成解集。"
+  },
+  {
+    "topicId": "cnm_h018",
+    "prerequisiteId": "cnm_096",
+    "strength": "hard",
+    "reason": "实数范围内的不等式性质，是在初中不等式性质上推广的。"
+  },
+  {
+    "topicId": "cnm_h019",
+    "prerequisiteId": "cnm_h018",
+    "strength": "hard",
+    "reason": "作差之后要依据差的符号判断大小，这就是不等式的性质。"
+  },
+  {
+    "topicId": "cnm_h020",
+    "prerequisiteId": "cnm_h017",
+    "strength": "hard",
+    "reason": "整数解是解集里的整数，要先求出不等式的解集。"
+  },
+  {
+    "topicId": "cnm_h021",
+    "prerequisiteId": "cnm_h018",
+    "strength": "hard",
+    "reason": "基本不等式的证明要用不等式的基本性质。"
+  },
+  {
+    "topicId": "cnm_h022",
+    "prerequisiteId": "cnm_h021",
+    "strength": "hard",
+    "reason": "用基本不等式求最值，要先会基本不等式和等号条件。"
+  },
+  {
+    "topicId": "cnm_h023",
+    "prerequisiteId": "cnm_h018",
+    "strength": "hard",
+    "reason": "从函数观点看方程和不等式，仍然要会比较函数值的大小。"
+  },
+  {
+    "topicId": "cnm_h023",
+    "prerequisiteId": "cnm_234",
+    "strength": "hard",
+    "reason": "方程的根与二次函数的关系，初中已经讨论过，高中在此基础上看不等式。"
+  },
+  {
+    "topicId": "cnm_h024",
+    "prerequisiteId": "cnm_h023",
+    "strength": "hard",
+    "reason": "解一元二次不等式要借助二次函数图象或对应方程的根。"
+  },
+  {
+    "topicId": "cnm_h024",
+    "prerequisiteId": "cnm_224",
+    "strength": "soft",
+    "reason": "十字相乘或提公因式能把二次式拆开，从而确定根。"
+  },
+  {
+    "topicId": "cnm_h025",
+    "prerequisiteId": "cnm_h024",
+    "strength": "hard",
+    "reason": "含参讨论要先会解不含参的一元二次不等式。"
+  },
+  {
+    "topicId": "cnm_h026",
+    "prerequisiteId": "cnm_h024",
+    "strength": "hard",
+    "reason": "实际限制常常列成一元二次不等式，再求符合实际的解。"
+  },
+  {
+    "topicId": "cnm_h027",
+    "prerequisiteId": "cnm_h001",
+    "strength": "hard",
+    "reason": "高中用集合与对应定义函数，要先知道集合的含义。"
+  },
+  {
+    "topicId": "cnm_h027",
+    "prerequisiteId": "cnm_229",
+    "strength": "hard",
+    "reason": "二次函数也是初中已经学过的函数，高中定义要能覆盖它。"
+  },
+  {
+    "topicId": "cnm_h028",
+    "prerequisiteId": "cnm_h027",
+    "strength": "hard",
+    "reason": "定义域是函数概念的一部分，先要知道函数是什么。"
+  },
+  {
+    "topicId": "cnm_h028",
+    "prerequisiteId": "cnm_195",
+    "strength": "hard",
+    "reason": "使解析式有意义的自变量范围，初中已经作为取值范围学过。"
+  },
+  {
+    "topicId": "cnm_h029",
+    "prerequisiteId": "cnm_h028",
+    "strength": "hard",
+    "reason": "值域是定义域上所有函数值组成的集合，要先确定定义域。"
+  },
+  {
+    "topicId": "cnm_h030",
+    "prerequisiteId": "cnm_h027",
+    "strength": "hard",
+    "reason": "解析式、图象和列表表示的都是同一个函数概念。"
+  },
+  {
+    "topicId": "cnm_h031",
+    "prerequisiteId": "cnm_h030",
+    "strength": "hard",
+    "reason": "分段函数是用不止一个解析式表示同一个函数。"
+  },
+  {
+    "topicId": "cnm_h031",
+    "prerequisiteId": "cnm_049",
+    "strength": "soft",
+    "reason": "分段计费是分段函数最常见的实际原型。"
+  },
+  {
+    "topicId": "cnm_h032",
+    "prerequisiteId": "cnm_h027",
+    "strength": "hard",
+    "reason": "单调性是函数的性质，要先有函数和函数值的比较。"
+  },
+  {
+    "topicId": "cnm_h032",
+    "prerequisiteId": "cnm_203",
+    "strength": "soft",
+    "reason": "一次函数的增减是单调性的熟悉例子。"
+  },
+  {
+    "topicId": "cnm_h033",
+    "prerequisiteId": "cnm_h032",
+    "strength": "hard",
+    "reason": "用定义证明之前，要先知道递增和递减的含义。"
+  },
+  {
+    "topicId": "cnm_h033",
+    "prerequisiteId": "cnm_h019",
+    "strength": "hard",
+    "reason": "证明单调性通常比较 f(x2)−f(x1) 的符号，这是作差法。"
+  },
+  {
+    "topicId": "cnm_h034",
+    "prerequisiteId": "cnm_h032",
+    "strength": "hard",
+    "reason": "闭区间上的最值要结合单调性或顶点来判断。"
+  },
+  {
+    "topicId": "cnm_h034",
+    "prerequisiteId": "cnm_235",
+    "strength": "soft",
+    "reason": "二次函数的最值在初中学过，高中把它放进一般函数的最值里。"
+  },
+  {
+    "topicId": "cnm_h035",
+    "prerequisiteId": "cnm_h027",
+    "strength": "hard",
+    "reason": "奇偶性要求定义域关于原点对称，并比较 f(−x) 与 f(x)。"
+  },
+  {
+    "topicId": "cnm_h036",
+    "prerequisiteId": "cnm_h035",
+    "strength": "hard",
+    "reason": "图象对称是奇偶性的几何说法，要先会判断奇偶。"
+  },
+  {
+    "topicId": "cnm_h037",
+    "prerequisiteId": "cnm_h032",
+    "strength": "hard",
+    "reason": "比较几个幂函数，要会看它们在区间上的增减。"
+  },
+  {
+    "topicId": "cnm_h037",
+    "prerequisiteId": "cnm_230",
+    "strength": "hard",
+    "reason": "y=x² 是幂函数里最基本的一个，它的图象在初中已经学过。"
+  },
+  {
+    "topicId": "cnm_h037",
+    "prerequisiteId": "cnm_237",
+    "strength": "soft",
+    "reason": "y=1/x 就是反比例函数，讨论幂函数时会回到它。"
+  },
+  {
+    "topicId": "cnm_h038",
+    "prerequisiteId": "cnm_h031",
+    "strength": "hard",
+    "reason": "简单应用里既有一个解析式，也有分段计费这种分段函数。"
+  },
+  {
+    "topicId": "cnm_h039",
+    "prerequisiteId": "cnm_h037",
+    "strength": "hard",
+    "reason": "分数指数幂把根式和幂统一起来，幂函数是它的直接前奏。"
+  },
+  {
+    "topicId": "cnm_h039",
+    "prerequisiteId": "cnm_164",
+    "strength": "hard",
+    "reason": "负整数指数幂表示倒数，分数指数里的负指数沿用这一规定。"
+  },
+  {
+    "topicId": "cnm_h039",
+    "prerequisiteId": "cnm_167",
+    "strength": "hard",
+    "reason": "根式要有意义，偶次根式的被开方数不能为负。"
+  },
+  {
+    "topicId": "cnm_h040",
+    "prerequisiteId": "cnm_h039",
+    "strength": "hard",
+    "reason": "指数幂的运算性质要先对整数指数和分数指数的含义成立。"
+  },
+  {
+    "topicId": "cnm_h041",
+    "prerequisiteId": "cnm_h040",
+    "strength": "hard",
+    "reason": "指数函数的函数值就是具体的指数幂，要先会算指数幂。"
+  },
+  {
+    "topicId": "cnm_h042",
+    "prerequisiteId": "cnm_h041",
+    "strength": "hard",
+    "reason": "单调性是指数函数的性质，要先认识指数函数。"
+  },
+  {
+    "topicId": "cnm_h043",
+    "prerequisiteId": "cnm_h041",
+    "strength": "hard",
+    "reason": "对数是指数的逆运算，要先知道 a 的多少次方等于 N。"
+  },
+  {
+    "topicId": "cnm_h044",
+    "prerequisiteId": "cnm_h043",
+    "strength": "hard",
+    "reason": "对数运算性质建立在对数的定义上。"
+  },
+  {
+    "topicId": "cnm_h045",
+    "prerequisiteId": "cnm_h044",
+    "strength": "hard",
+    "reason": "换底公式的推导要用对数的运算性质。"
+  },
+  {
+    "topicId": "cnm_h046",
+    "prerequisiteId": "cnm_h044",
+    "strength": "hard",
+    "reason": "对数函数的求值要用对数的定义和运算。"
+  },
+  {
+    "topicId": "cnm_h047",
+    "prerequisiteId": "cnm_h046",
+    "strength": "hard",
+    "reason": "对数函数的单调性要先有对数函数本身。"
+  },
+  {
+    "topicId": "cnm_h048",
+    "prerequisiteId": "cnm_h046",
+    "strength": "hard",
+    "reason": "互为反函数是对数函数和指数函数的对应关系。"
+  },
+  {
+    "topicId": "cnm_h049",
+    "prerequisiteId": "cnm_h027",
+    "strength": "hard",
+    "reason": "零点是函数值为 0 的自变量，要先有函数概念。"
+  },
+  {
+    "topicId": "cnm_h049",
+    "prerequisiteId": "cnm_234",
+    "strength": "hard",
+    "reason": "二次函数的零点就是对应一元二次方程的根。"
+  },
+  {
+    "topicId": "cnm_h050",
+    "prerequisiteId": "cnm_h049",
+    "strength": "hard",
+    "reason": "二分法用来缩小零点所在的区间，要先知道零点是什么。"
+  },
+  {
+    "topicId": "cnm_h051",
+    "prerequisiteId": "cnm_h046",
+    "strength": "hard",
+    "reason": "有些反问题要用对数把指数模型解出来。"
+  },
+  {
+    "topicId": "cnm_h052",
+    "prerequisiteId": "cnm_h051",
+    "strength": "hard",
+    "reason": "预测是在已经选定的函数模型上代入计算。"
+  },
+  {
+    "topicId": "cnm_h053",
+    "prerequisiteId": "cnm_h051",
+    "strength": "hard",
+    "reason": "本册的建模活动用函数描述变化，要先会选择函数模型。"
+  },
+  {
+    "topicId": "cnm_h054",
+    "prerequisiteId": "cnm_h053",
+    "strength": "hard",
+    "reason": "把具体数据套进函数之前，要先按建模步骤提出问题和检验。"
+  },
+  {
+    "topicId": "cnm_h055",
+    "prerequisiteId": "cnm_056",
+    "strength": "hard",
+    "reason": "任意角仍然是角，只是允许继续旋转，需要先认识角。"
+  },
+  {
+    "topicId": "cnm_h055",
+    "prerequisiteId": "cnm_244",
+    "strength": "soft",
+    "reason": "正角和负角按旋转方向区分，旋转的概念在图形的旋转里学过。"
+  },
+  {
+    "topicId": "cnm_h056",
+    "prerequisiteId": "cnm_h055",
+    "strength": "hard",
+    "reason": "终边相同的角是在任意角的基础上相差若干周。"
+  },
+  {
+    "topicId": "cnm_h057",
+    "prerequisiteId": "cnm_h056",
+    "strength": "hard",
+    "reason": "弧度用来度量任意角，要先有角的终边。"
+  },
+  {
+    "topicId": "cnm_h058",
+    "prerequisiteId": "cnm_h057",
+    "strength": "hard",
+    "reason": "角度和弧度的换算建立在弧度定义上。"
+  },
+  {
+    "topicId": "cnm_h059",
+    "prerequisiteId": "cnm_h057",
+    "strength": "hard",
+    "reason": "弧度制下的弧长公式直接用圆心角的弧度数。"
+  },
+  {
+    "topicId": "cnm_h059",
+    "prerequisiteId": "cnm_256",
+    "strength": "soft",
+    "reason": "初中用角度计算弧长，高中改用弧度，两者说的是同一段弧。"
+  },
+  {
+    "topicId": "cnm_h060",
+    "prerequisiteId": "cnm_h058",
+    "strength": "hard",
+    "reason": "三角函数既用角度也用弧度，要先会换算。"
+  },
+  {
+    "topicId": "cnm_h060",
+    "prerequisiteId": "cnm_h027",
+    "strength": "hard",
+    "reason": "正弦、余弦是从角的集合到实数的函数。"
+  },
+  {
+    "topicId": "cnm_h060",
+    "prerequisiteId": "cnm_276",
+    "strength": "hard",
+    "reason": "锐角三角函数是单位圆定义在锐角时的特殊情形。"
+  },
+  {
+    "topicId": "cnm_h060",
+    "prerequisiteId": "cnm_250",
+    "strength": "soft",
+    "reason": "单位圆定义用到圆上的点，需要圆的基本概念。"
+  },
+  {
+    "topicId": "cnm_h061",
+    "prerequisiteId": "cnm_h060",
+    "strength": "hard",
+    "reason": "各象限的符号来自单位圆上点的横、纵坐标。"
+  },
+  {
+    "topicId": "cnm_h062",
+    "prerequisiteId": "cnm_h060",
+    "strength": "hard",
+    "reason": "同角关系来自单位圆上点满足 x²+y²=1。"
+  },
+  {
+    "topicId": "cnm_h063",
+    "prerequisiteId": "cnm_h062",
+    "strength": "hard",
+    "reason": "由一个三角函数求另一个，要用同角的平方关系并判断符号。"
+  },
+  {
+    "topicId": "cnm_h063",
+    "prerequisiteId": "cnm_277",
+    "strength": "soft",
+    "reason": "30°、45°、60° 的三角函数值在初中已经计算过。"
+  },
+  {
+    "topicId": "cnm_h064",
+    "prerequisiteId": "cnm_h061",
+    "strength": "hard",
+    "reason": "诱导公式要把角变到锐角，并处理符号。"
+  },
+  {
+    "topicId": "cnm_h065",
+    "prerequisiteId": "cnm_h064",
+    "strength": "hard",
+    "reason": "求值就是把诱导公式用到具体的角上。"
+  },
+  {
+    "topicId": "cnm_h066",
+    "prerequisiteId": "cnm_h065",
+    "strength": "hard",
+    "reason": "画正弦图象、讨论性质时，要会求特殊角的正弦。"
+  },
+  {
+    "topicId": "cnm_h067",
+    "prerequisiteId": "cnm_h066",
+    "strength": "hard",
+    "reason": "单调区间是正弦函数图象性质的一部分。"
+  },
+  {
+    "topicId": "cnm_h068",
+    "prerequisiteId": "cnm_h066",
+    "strength": "hard",
+    "reason": "余弦函数和正弦函数用同一套周期、最值语言。"
+  },
+  {
+    "topicId": "cnm_h069",
+    "prerequisiteId": "cnm_h066",
+    "strength": "hard",
+    "reason": "正切等于正弦除以余弦，要先有正弦和余弦。"
+  },
+  {
+    "topicId": "cnm_h070",
+    "prerequisiteId": "cnm_h062",
+    "strength": "hard",
+    "reason": "和差公式的推导和检验会用到同角关系。"
+  },
+  {
+    "topicId": "cnm_h071",
+    "prerequisiteId": "cnm_h070",
+    "strength": "hard",
+    "reason": "和角公式与差角公式是同一组恒等式的两种写法。"
+  },
+  {
+    "topicId": "cnm_h072",
+    "prerequisiteId": "cnm_h071",
+    "strength": "hard",
+    "reason": "正切的和差由正弦、余弦的和差相除得到。"
+  },
+  {
+    "topicId": "cnm_h073",
+    "prerequisiteId": "cnm_h071",
+    "strength": "hard",
+    "reason": "二倍角是两角和公式里两个角相等的特例。"
+  },
+  {
+    "topicId": "cnm_h074",
+    "prerequisiteId": "cnm_h073",
+    "strength": "hard",
+    "reason": "简单恒等变换要把同角关系和二倍角放在一起用。"
+  },
+  {
+    "topicId": "cnm_h075",
+    "prerequisiteId": "cnm_h066",
+    "strength": "hard",
+    "reason": "正弦型函数是在正弦函数上改变振幅、周期和左右位置。"
+  },
+  {
+    "topicId": "cnm_h076",
+    "prerequisiteId": "cnm_h075",
+    "strength": "hard",
+    "reason": "读振幅和周期，要先认识 y=Asin(ωx+φ) 的各个字母。"
+  },
+  {
+    "topicId": "cnm_h077",
+    "prerequisiteId": "cnm_h076",
+    "strength": "hard",
+    "reason": "由最大、最小和周期反求参数，要先会从解析式读参数。"
+  },
+  {
+    "topicId": "cnm_h078",
+    "prerequisiteId": "cnm_h077",
+    "strength": "hard",
+    "reason": "用正弦型函数描述周期现象，要会确定振幅和平衡位置。"
+  },
+  {
+    "topicId": "cnm_h078",
+    "prerequisiteId": "cnm_278",
+    "strength": "soft",
+    "reason": "测量问题里仍会用到解直角三角形。"
+  },
+  {
+    "topicId": "cnm_h079",
+    "prerequisiteId": "cnm_072",
+    "strength": "soft",
+    "reason": "相等向量可以平移后比较，平移的概念和性质在初中学过。"
+  },
+  {
+    "topicId": "cnm_h080",
+    "prerequisiteId": "cnm_h079",
+    "strength": "hard",
+    "reason": "判断相等或共线，要先知道向量有大小和方向。"
+  },
+  {
+    "topicId": "cnm_h081",
+    "prerequisiteId": "cnm_h080",
+    "strength": "hard",
+    "reason": "向量加法用三角形法则，要把相等向量移到一起。"
+  },
+  {
+    "topicId": "cnm_h081",
+    "prerequisiteId": "cnm_183",
+    "strength": "soft",
+    "reason": "平行四边形法则直接用到平行四边形的对边。"
+  },
+  {
+    "topicId": "cnm_h082",
+    "prerequisiteId": "cnm_h081",
+    "strength": "hard",
+    "reason": "减法定义成加上相反向量，要先会加法。"
+  },
+  {
+    "topicId": "cnm_h083",
+    "prerequisiteId": "cnm_h081",
+    "strength": "hard",
+    "reason": "数乘和加法一起才有线性运算。"
+  },
+  {
+    "topicId": "cnm_h084",
+    "prerequisiteId": "cnm_h083",
+    "strength": "hard",
+    "reason": "共线就是一个向量是另一个的实数倍，这是数乘。"
+  },
+  {
+    "topicId": "cnm_h085",
+    "prerequisiteId": "cnm_h084",
+    "strength": "hard",
+    "reason": "基底必须不共线，要先会判断共线。"
+  },
+  {
+    "topicId": "cnm_h086",
+    "prerequisiteId": "cnm_h085",
+    "strength": "hard",
+    "reason": "坐标是在一组基底下的系数，基本定理保证这种写法唯一。"
+  },
+  {
+    "topicId": "cnm_h086",
+    "prerequisiteId": "cnm_082",
+    "strength": "hard",
+    "reason": "向量坐标放在平面直角坐标系里，终点减起点。"
+  },
+  {
+    "topicId": "cnm_h087",
+    "prerequisiteId": "cnm_h086",
+    "strength": "hard",
+    "reason": "坐标运算就是对向量的横、纵坐标分别计算。"
+  },
+  {
+    "topicId": "cnm_h088",
+    "prerequisiteId": "cnm_h087",
+    "strength": "hard",
+    "reason": "数量积的坐标公式要用坐标的乘法。"
+  },
+  {
+    "topicId": "cnm_h089",
+    "prerequisiteId": "cnm_h088",
+    "strength": "hard",
+    "reason": "运算律是在数量积定义之后用来拆开计算的，要先会求数量积。"
+  },
+  {
+    "topicId": "cnm_h090",
+    "prerequisiteId": "cnm_h088",
+    "strength": "hard",
+    "reason": "夹角的余弦由数量积和两个模决定。"
+  },
+  {
+    "topicId": "cnm_h090",
+    "prerequisiteId": "cnm_174",
+    "strength": "hard",
+    "reason": "由坐标求模，就是勾股定理。"
+  },
+  {
+    "topicId": "cnm_h091",
+    "prerequisiteId": "cnm_h090",
+    "strength": "hard",
+    "reason": "余弦定理里的夹角和边长，都可以用向量的模与数量积来看。"
+  },
+  {
+    "topicId": "cnm_h091",
+    "prerequisiteId": "cnm_h060",
+    "strength": "hard",
+    "reason": "余弦定理要用任意角的余弦，不能只停留在锐角。"
+  },
+  {
+    "topicId": "cnm_h092",
+    "prerequisiteId": "cnm_h091",
+    "strength": "hard",
+    "reason": "解三角形时正弦定理和余弦定理要配合使用。"
+  },
+  {
+    "topicId": "cnm_h093",
+    "prerequisiteId": "cnm_h092",
+    "strength": "hard",
+    "reason": "解三角形要会选择正弦定理或余弦定理。"
+  },
+  {
+    "topicId": "cnm_h094",
+    "prerequisiteId": "cnm_h093",
+    "strength": "hard",
+    "reason": "测量问题先化成三角形，再解这个三角形。"
+  },
+  {
+    "topicId": "cnm_h095",
+    "prerequisiteId": "cnm_h090",
+    "strength": "hard",
+    "reason": "用向量研究垂直和长度，依靠数量积与模。"
+  },
+  {
+    "topicId": "cnm_h096",
+    "prerequisiteId": "cnm_h095",
+    "strength": "hard",
+    "reason": "探究活动用向量的模和数量积研究三角形。"
+  },
+  {
+    "topicId": "cnm_h096",
+    "prerequisiteId": "cnm_h092",
+    "strength": "hard",
+    "reason": "用向量得到的边角关系要和正余弦定理对照。"
+  },
+  {
+    "topicId": "cnm_h097",
+    "prerequisiteId": "cnm_h005",
+    "strength": "hard",
+    "reason": "复数是实数集的扩充，要先认识实数集。"
+  },
+  {
+    "topicId": "cnm_h098",
+    "prerequisiteId": "cnm_h097",
+    "strength": "hard",
+    "reason": "复平面上的点由实部和虚部两个坐标决定。"
+  },
+  {
+    "topicId": "cnm_h098",
+    "prerequisiteId": "cnm_082",
+    "strength": "hard",
+    "reason": "复数的几何表示就是平面上的点。"
+  },
+  {
+    "topicId": "cnm_h099",
+    "prerequisiteId": "cnm_h097",
+    "strength": "hard",
+    "reason": "比较两个复数，就是比较它们的实部和虚部。"
+  },
+  {
+    "topicId": "cnm_h100",
+    "prerequisiteId": "cnm_h099",
+    "strength": "hard",
+    "reason": "加完之后仍写成 a+bi，要能认出实部和虚部。"
+  },
+  {
+    "topicId": "cnm_h101",
+    "prerequisiteId": "cnm_h100",
+    "strength": "hard",
+    "reason": "加减的几何意义是把复数看成向量再相加减。"
+  },
+  {
+    "topicId": "cnm_h101",
+    "prerequisiteId": "cnm_h081",
+    "strength": "soft",
+    "reason": "复数加法对应向量加法，三角形法则在这里仍然适用。"
+  },
+  {
+    "topicId": "cnm_h102",
+    "prerequisiteId": "cnm_h100",
+    "strength": "hard",
+    "reason": "乘法按分配律展开，再用 i²=−1 合并实部和虚部。"
+  },
+  {
+    "topicId": "cnm_h103",
+    "prerequisiteId": "cnm_h102",
+    "strength": "hard",
+    "reason": "除法要乘共轭，本质是一次乘法。"
+  },
+  {
+    "topicId": "cnm_h104",
+    "prerequisiteId": "cnm_h102",
+    "strength": "hard",
+    "reason": "幂是同一个复数连乘，要先会乘法。"
+  },
+  {
+    "topicId": "cnm_h105",
+    "prerequisiteId": "cnm_050",
+    "strength": "hard",
+    "reason": "棱柱是立体图形，要先区分立体图形和平面图形。"
+  },
+  {
+    "topicId": "cnm_h105",
+    "prerequisiteId": "cnm_283",
+    "strength": "soft",
+    "reason": "从三视图想象棱柱，是认识立体图形的一种办法。"
+  },
+  {
+    "topicId": "cnm_h106",
+    "prerequisiteId": "cnm_h105",
+    "strength": "hard",
+    "reason": "圆柱、圆锥、球和棱柱一起构成基本几何体。"
+  },
+  {
+    "topicId": "cnm_h106",
+    "prerequisiteId": "cnm_258",
+    "strength": "soft",
+    "reason": "圆锥的侧面在初中已经展开过。"
+  },
+  {
+    "topicId": "cnm_h107",
+    "prerequisiteId": "cnm_h106",
+    "strength": "hard",
+    "reason": "组合体由柱、锥、球这些基本几何体拼成。"
+  },
+  {
+    "topicId": "cnm_h108",
+    "prerequisiteId": "cnm_h105",
+    "strength": "hard",
+    "reason": "斜二测用来画棱柱等水平放置的图形。"
+  },
+  {
+    "topicId": "cnm_h109",
+    "prerequisiteId": "cnm_h108",
+    "strength": "hard",
+    "reason": "画直观图就是按斜二测的长度规则作图。"
+  },
+  {
+    "topicId": "cnm_h110",
+    "prerequisiteId": "cnm_h109",
+    "strength": "hard",
+    "reason": "计算表面积前要分清底面和侧面，直观图帮助识别这些面。"
+  },
+  {
+    "topicId": "cnm_h110",
+    "prerequisiteId": "cnm_p208",
+    "strength": "hard",
+    "reason": "圆柱侧面积等于底面周长乘高，小学已经算过圆柱表面积。"
+  },
+  {
+    "topicId": "cnm_h110",
+    "prerequisiteId": "cnm_258",
+    "strength": "hard",
+    "reason": "圆锥侧面展开成扇形，侧面积公式在初中学过。"
+  },
+  {
+    "topicId": "cnm_h111",
+    "prerequisiteId": "cnm_h110",
+    "strength": "hard",
+    "reason": "体积和表面积都是简单几何体的度量，先分清底面积和高。"
+  },
+  {
+    "topicId": "cnm_h111",
+    "prerequisiteId": "cnm_p209",
+    "strength": "hard",
+    "reason": "圆锥体积是同底等高圆柱的三分之一。"
+  },
+  {
+    "topicId": "cnm_h112",
+    "prerequisiteId": "cnm_h111",
+    "strength": "hard",
+    "reason": "球的体积和柱、锥的体积放在同一节比较倍数。"
+  },
+  {
+    "topicId": "cnm_h113",
+    "prerequisiteId": "cnm_h105",
+    "strength": "hard",
+    "reason": "平面的基本事实要用长方体这类模型来看点、线、面。"
+  },
+  {
+    "topicId": "cnm_h113",
+    "prerequisiteId": "cnm_052",
+    "strength": "hard",
+    "reason": "点、线、面、体的基本关系从初中就在用。"
+  },
+  {
+    "topicId": "cnm_h114",
+    "prerequisiteId": "cnm_h113",
+    "strength": "hard",
+    "reason": "判断相交、平行还是异面，要先知道什么叫共面。"
+  },
+  {
+    "topicId": "cnm_h115",
+    "prerequisiteId": "cnm_h114",
+    "strength": "hard",
+    "reason": "线面、面面的位置是在空间直线位置上继续分类。"
+  },
+  {
+    "topicId": "cnm_h116",
+    "prerequisiteId": "cnm_h115",
+    "strength": "hard",
+    "reason": "判定线面平行之前，要先分清平行和相交。"
+  },
+  {
+    "topicId": "cnm_h117",
+    "prerequisiteId": "cnm_h116",
+    "strength": "hard",
+    "reason": "性质定理用在已经知道线面平行之后。"
+  },
+  {
+    "topicId": "cnm_h118",
+    "prerequisiteId": "cnm_h116",
+    "strength": "hard",
+    "reason": "面面平行的判定要先会判定线面平行。"
+  },
+  {
+    "topicId": "cnm_h119",
+    "prerequisiteId": "cnm_h118",
+    "strength": "hard",
+    "reason": "有了面面平行，才能用性质得到交线平行。"
+  },
+  {
+    "topicId": "cnm_h120",
+    "prerequisiteId": "cnm_h115",
+    "strength": "hard",
+    "reason": "线面垂直是线面位置关系里的特殊相交。"
+  },
+  {
+    "topicId": "cnm_h120",
+    "prerequisiteId": "cnm_064",
+    "strength": "hard",
+    "reason": "垂直的概念从平面内的垂线推广到空间。"
+  },
+  {
+    "topicId": "cnm_h121",
+    "prerequisiteId": "cnm_h120",
+    "strength": "hard",
+    "reason": "性质定理的前提是已经有线面垂直。"
+  },
+  {
+    "topicId": "cnm_h122",
+    "prerequisiteId": "cnm_h120",
+    "strength": "hard",
+    "reason": "面面垂直可以用其中一个平面经过另一平面的垂线来判定。"
+  },
+  {
+    "topicId": "cnm_h123",
+    "prerequisiteId": "cnm_292",
+    "strength": "hard",
+    "reason": "调查、试验和查阅资料这些收集数据的方法，初中已经用过。"
+  },
+  {
+    "topicId": "cnm_h124",
+    "prerequisiteId": "cnm_h123",
+    "strength": "hard",
+    "reason": "简单随机抽样是获取样本数据的一种具体办法。"
+  },
+  {
+    "topicId": "cnm_h124",
+    "prerequisiteId": "cnm_298",
+    "strength": "hard",
+    "reason": "抽签和随机数表是初中实施简单随机抽样的方法。"
+  },
+  {
+    "topicId": "cnm_h125",
+    "prerequisiteId": "cnm_h124",
+    "strength": "hard",
+    "reason": "分层之后，每一层内部仍做简单随机抽样。"
+  },
+  {
+    "topicId": "cnm_h126",
+    "prerequisiteId": "cnm_h125",
+    "strength": "hard",
+    "reason": "要会两种抽样，才能根据总体特点选择。"
+  },
+  {
+    "topicId": "cnm_h127",
+    "prerequisiteId": "cnm_h126",
+    "strength": "hard",
+    "reason": "直方图用的是抽出来的样本，要先有样本。"
+  },
+  {
+    "topicId": "cnm_h127",
+    "prerequisiteId": "cnm_107",
+    "strength": "hard",
+    "reason": "频率分布直方图是频数分布直方图的延续。"
+  },
+  {
+    "topicId": "cnm_h127",
+    "prerequisiteId": "cnm_297",
+    "strength": "hard",
+    "reason": "小长方形的面积是频率，频率等于频数除以样本容量。"
+  },
+  {
+    "topicId": "cnm_h128",
+    "prerequisiteId": "cnm_h127",
+    "strength": "hard",
+    "reason": "读图就是从频率和组距还原频数。"
+  },
+  {
+    "topicId": "cnm_h129",
+    "prerequisiteId": "cnm_h128",
+    "strength": "hard",
+    "reason": "百分位数要在排好序的样本上找位置，读分布是前提。"
+  },
+  {
+    "topicId": "cnm_h129",
+    "prerequisiteId": "cnm_216",
+    "strength": "hard",
+    "reason": "四分位数是百分位数的特例，初中已经接触过。"
+  },
+  {
+    "topicId": "cnm_h130",
+    "prerequisiteId": "cnm_h128",
+    "strength": "hard",
+    "reason": "用样本估计中心，数据来自已经整理的样本。"
+  },
+  {
+    "topicId": "cnm_h130",
+    "prerequisiteId": "cnm_213",
+    "strength": "soft",
+    "reason": "中位数和众数也用来估计总体的中心。"
+  },
+  {
+    "topicId": "cnm_h130",
+    "prerequisiteId": "cnm_302",
+    "strength": "hard",
+    "reason": "用样本平均数估计总体平均数，初中已经建立这个想法。"
+  },
+  {
+    "topicId": "cnm_h131",
+    "prerequisiteId": "cnm_h130",
+    "strength": "hard",
+    "reason": "方差是围绕平均数计算的，要先有平均数。"
+  },
+  {
+    "topicId": "cnm_h131",
+    "prerequisiteId": "cnm_306",
+    "strength": "hard",
+    "reason": "用样本方差估计总体波动，这里仍按除以 n 计算。"
+  },
+  {
+    "topicId": "cnm_h132",
+    "prerequisiteId": "cnm_h130",
+    "strength": "hard",
+    "reason": "选择图表是为了表达样本的中心和分布。"
+  },
+  {
+    "topicId": "cnm_h132",
+    "prerequisiteId": "cnm_105",
+    "strength": "hard",
+    "reason": "条形图、扇形图和折线图在初中已经会画会读。"
+  },
+  {
+    "topicId": "cnm_h133",
+    "prerequisiteId": "cnm_h131",
+    "strength": "hard",
+    "reason": "案例里既看平均水平，也看波动。"
+  },
+  {
+    "topicId": "cnm_h134",
+    "prerequisiteId": "cnm_284",
+    "strength": "hard",
+    "reason": "样本点是随机试验的结果，随机事件的语言在初中学过。"
+  },
+  {
+    "topicId": "cnm_h134",
+    "prerequisiteId": "cnm_h001",
+    "strength": "hard",
+    "reason": "样本空间是所有结果组成的集合。"
+  },
+  {
+    "topicId": "cnm_h135",
+    "prerequisiteId": "cnm_h134",
+    "strength": "hard",
+    "reason": "事件是样本空间的子集。"
+  },
+  {
+    "topicId": "cnm_h136",
+    "prerequisiteId": "cnm_h135",
+    "strength": "hard",
+    "reason": "事件的交、并、补要先把事件看成集合。"
+  },
+  {
+    "topicId": "cnm_h136",
+    "prerequisiteId": "cnm_h008",
+    "strength": "hard",
+    "reason": "同时发生就是交集，至少一个发生就是并集。"
+  },
+  {
+    "topicId": "cnm_h137",
+    "prerequisiteId": "cnm_h136",
+    "strength": "hard",
+    "reason": "古典概率等于事件里的样本点数除以样本空间的点数。"
+  },
+  {
+    "topicId": "cnm_h137",
+    "prerequisiteId": "cnm_286",
+    "strength": "hard",
+    "reason": "列举样本点是初中用列举法求概率的做法。"
+  },
+  {
+    "topicId": "cnm_h137",
+    "prerequisiteId": "cnm_309",
+    "strength": "hard",
+    "reason": "使用古典概型之前要判断是不是等可能。"
+  },
+  {
+    "topicId": "cnm_h138",
+    "prerequisiteId": "cnm_h137",
+    "strength": "hard",
+    "reason": "加法公式用来求并事件的概率，古典概型是它的计算基础。"
+  },
+  {
+    "topicId": "cnm_h138",
+    "prerequisiteId": "cnm_308",
+    "strength": "soft",
+    "reason": "概率在 0 和 1 之间，对立事件的概率用 1 去减。"
+  },
+  {
+    "topicId": "cnm_h139",
+    "prerequisiteId": "cnm_h138",
+    "strength": "hard",
+    "reason": "互斥时才能把概率直接相加，对立是互斥的特殊情形。"
+  },
+  {
+    "topicId": "cnm_h140",
+    "prerequisiteId": "cnm_h139",
+    "strength": "hard",
+    "reason": "独立和互斥容易混，要先会判断互斥。"
+  },
+  {
+    "topicId": "cnm_h141",
+    "prerequisiteId": "cnm_h140",
+    "strength": "hard",
+    "reason": "多次独立试验的概率，用独立性把概率相乘。"
+  },
+  {
+    "topicId": "cnm_h142",
+    "prerequisiteId": "cnm_h137",
+    "strength": "hard",
+    "reason": "频率用来估计概率，要先知道概率本身是什么。"
+  },
+  {
+    "topicId": "cnm_h142",
+    "prerequisiteId": "cnm_288",
+    "strength": "hard",
+    "reason": "用频率估计概率是初中概率里已经做过的事。"
+  },
+  {
+    "topicId": "cnm_h143",
+    "prerequisiteId": "cnm_h142",
+    "strength": "hard",
+    "reason": "估计是否可信，要看频率是在多少次试验里得到的。"
   }
 ]

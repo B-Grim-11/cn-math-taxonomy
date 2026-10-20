@@ -6,7 +6,7 @@
  *         nextItem(graph, session) -> {topicId, question, attempt} | null   （要出的具体题目；attempt 为 1 或 2）
  *         applyAnswer(graph, session, id, 'correct'|'wrong'|'skip', {text}) -> 新 session（不修改入参）
  *         summarize(graph, session) -> 结果（根因、学习路径、掌握/不稳/薄弱/未测）
- *         gradeTargets(graph, '一年级'|'七上') -> {ids, volumes, label} | null   （整年级 / 整册的知识点）
+ *         gradeTargets(graph, '一年级'|'七上'|'高一') -> {ids, volumes, label} | null   （整年级 / 整册 / 高中必修）
  *         createSession(graph, ids, {mode:'screen'}) -> 筛查会话：范围 = 目标本身，回溯不出范围，默认题量上限 SCREEN_LIMIT
  *         chapterSummary(graph, session) -> 按章汇总（薄弱章节在前）
  *         layout(graph, session, summary) -> 路径图的分层布局
@@ -488,6 +488,9 @@
     if (pm) return { volume: pm[1] + pm[2], chapterNo: pm[3], chapterName: pm[4], section: '' };
     const pi = /^([一二三四五六])年级([上下])册 (综合与实践) (.+)$/.exec(s);
     if (pi) return { volume: pi[1] + pi[2], chapterNo: pi[3], chapterName: pi[4], section: '' };
+    // 高中必修没有上下册：册次写在 volume（高一 = 必修第一册，高二 = 必修第二册）。
+    const hs = /^(高[一二]) (数学建模|数学探究) (\S+)$/.exec(s);
+    if (hs) return { volume: hs[1], chapterNo: hs[2], chapterName: hs[3], section: '' };
     const m = /^(\S+) (第\S+章) (\S+?)(?: (\S+))?$/.exec(s);
     if (!m) return { volume: '', chapterNo: '', chapterName: s, section: '' };
     return { volume: m[1], chapterNo: m[2], chapterName: m[3], section: m[4] || '' };
@@ -495,16 +498,25 @@
 
   /**
    * 整年级 / 整册的知识点：'一年级' = 一上 + 一下，'七上' = 七年级上册。
+   * 高中必修不拆上下册：'高一' / '高一必修' = 必修第一册，'高二' / '高二必修' = 必修第二册。
    * 返回 {ids, volumes, label}（ids 按 topics 文件顺序，只含正式知识点）；不认识的写法返回 null。
    */
   function gradeTargets(graph, scope) {
     const key = String(scope == null ? '' : scope).trim();
     let volumes = null;
     let label = '';
-    const g = /^([一二三四五六七八九])年级$/.exec(key);
-    const v = /^([一二三四五六七八九])([上下])$/.exec(key);
-    if (g) { volumes = [g[1] + '上', g[1] + '下']; label = g[1] + '年级'; }
-    else if (v) { volumes = [key]; label = v[1] + '年级' + (v[2] === '上' ? '上册' : '下册'); }
+    if (key === '高一' || key === '高一必修') {
+      volumes = ['高一'];
+      label = '高一（必修第一册）';
+    } else if (key === '高二' || key === '高二必修') {
+      volumes = ['高二'];
+      label = '高二（必修第二册）';
+    } else {
+      const g = /^([一二三四五六七八九])年级$/.exec(key);
+      const v = /^([一二三四五六七八九])([上下])$/.exec(key);
+      if (g) { volumes = [g[1] + '上', g[1] + '下']; label = g[1] + '年级'; }
+      else if (v) { volumes = [key]; label = v[1] + '年级' + (v[2] === '上' ? '上册' : '下册'); }
+    }
     if (!volumes) return null;
     const ids = graph.topics.filter(function (t) {
       return !t.external && volumes.indexOf(parseChapter(t.chapter).volume) >= 0;

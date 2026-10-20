@@ -609,12 +609,14 @@ function bfsAncestors(id) {
   return seen;
 }
 
-test('数据可加载：小学 216 + 初中 315，没有外部节点；课标含第一学段', () => {
-  assert.strictEqual(topics.length, 531);
-  assert.strictEqual(deps.length, 909);
+test('数据可加载：小学 216 + 初中 315 + 高中必修 143，没有外部节点；课标含第一学段', () => {
+  assert.strictEqual(topics.length, 674);
+  assert.strictEqual(deps.length, 1105);
   assert.strictEqual(topics.filter((t) => t.external).length, 0);
   assert.strictEqual(topics.filter((t) => t.grade <= 6).length, 216);
-  assert.strictEqual(topics.filter((t) => t.grade >= 7).length, 315);
+  assert.strictEqual(topics.filter((t) => t.grade >= 7 && t.grade <= 9).length, 315);
+  assert.strictEqual(topics.filter((t) => t.grade >= 10).length, 143);
+  assert.ok(topics.filter((t) => t.grade >= 10).every((t) => /^cnm_h\d{3,}$/.test(t.id)));
   assert.ok(formal.every((t) => E.isTestable(RG, t.id)));
   assert.ok(stdFile.items.length > 200);
   assert.ok(stdFile.items[0].id.indexOf('cms-2022:1.') === 0);
@@ -635,7 +637,12 @@ test('真实数据：先修子图不含外部节点，初中目标能回到小�
     assert.ok(sub.nodes.every((id) => !RG.byId[id].external));
     if (t.grade >= 7 && sub.nodes.some((id) => RG.byId[id].grade <= 6)) sawPrimary = true;
   });
-  assert.ok(sawPrimary, '至少有一个初中知识点的祖先里有小学知识点');
+  assert.ok(sawPrimary, '至少有一个初中或高中知识点的祖先里有小学知识点');
+  const senior = formal.filter((t) => t.grade >= 10);
+  assert.ok(senior.length === 143);
+  assert.ok(senior.every((t) => E.subgraph(RG, [t.id]).nodes.length > 1), '高中知识点都有先修');
+  assert.ok(senior.some((t) => E.subgraph(RG, [t.id]).nodes.some((id) => RG.byId[id].grade >= 7 && RG.byId[id].grade <= 9)),
+    '至少有一个高中知识点的祖先里有初中知识点');
 });
 
 test('旧 id 别名：cnm_ext_* 已不在图中，resolveTargets 跳到小学正式知识点', () => {
@@ -1114,6 +1121,21 @@ test('gradeTargets：一年级 = 一上 + 一下，七上只含七上；写法�
   assert.strictEqual(E.gradeTargets(RGQ, '十年级'), null);
   assert.strictEqual(E.gradeTargets(RGQ, '七'), null);
   assert.strictEqual(E.gradeTargets(RGQ, ''), null);
+  const g10 = E.gradeTargets(RGQ, '高一');
+  assert.strictEqual(g10.label, '高一（必修第一册）');
+  assert.deepStrictEqual(g10.volumes, ['高一']);
+  assert.strictEqual(g10.ids.length, 78);
+  g10.ids.forEach((id) => assert.strictEqual(RGQ.byId[id].grade, 10));
+  const g11 = E.gradeTargets(RGQ, '高二必修');
+  assert.strictEqual(g11.label, '高二（必修第二册）');
+  assert.strictEqual(g11.ids.length, 65);
+  g11.ids.forEach((id) => assert.strictEqual(RGQ.byId[id].grade, 11));
+  assert.deepStrictEqual(E.parseChapter('高一 第一章 集合与常用逻辑用语 1.1'), {
+    volume: '高一', chapterNo: '第一章', chapterName: '集合与常用逻辑用语', section: '1.1'
+  });
+  assert.deepStrictEqual(E.parseChapter('高二 数学探究 用向量研究三角形'), {
+    volume: '高二', chapterNo: '数学探究', chapterName: '用向量研究三角形', section: ''
+  });
 });
 
 test('筛查会话：范围 = 目标本身，默认题量上限 SCREEN_LIMIT；普通会话不受影响', () => {

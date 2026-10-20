@@ -13838,5 +13838,3675 @@
         "note": "项目活动：试验调查与频率估计概率"
       }
     ]
+  },
+  {
+    "id": "cnm_h001",
+    "name": "集合的含义",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第一章 集合与常用逻辑用语 1.1",
+    "type": "conceptual",
+    "description": "知道集合由确定的对象组成，这些对象叫做元素。",
+    "mastery_criteria": [
+      "能判断一组对象能不能组成集合",
+      "能说出元素和集合的区别"
+    ],
+    "diagnostic_question": {
+      "question": "下面哪一组对象可以组成集合？",
+      "answer": "全体正整数"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PRE.01",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h002",
+    "name": "元素与集合的关系",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第一章 集合与常用逻辑用语 1.1",
+    "type": "conceptual",
+    "description": "会用属于、不属于表示元素和集合的关系，并知道同一集合里元素不重复。",
+    "mastery_criteria": [
+      "能判断一个对象是否属于给定集合",
+      "能正确使用属于符号"
+    ],
+    "diagnostic_question": {
+      "question": "集合 {0，2，4，6} 中的偶数个数是多少？",
+      "answer": "4"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PRE.01",
+        "confidence": "inferred",
+        "note": "课标把元素与集合的关系放在集合含义里，本点只练属于关系。原文待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h003",
+    "name": "列举法",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第一章 集合与常用逻辑用语 1.1",
+    "type": "procedural",
+    "description": "能用列举法表示有限集合，并会数出元素个数。",
+    "mastery_criteria": [
+      "能把符合条件的有限元素一一列出",
+      "知道列举时不计顺序、不重复"
+    ],
+    "diagnostic_question": {
+      "question": "用列举法写出小于 6 的正整数，元素有几个？",
+      "answer": "5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PRE.01",
+        "confidence": "inferred",
+        "note": "列举法是集合的一种表示，课标原文未按表示法拆条。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h004",
+    "name": "描述法",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第一章 集合与常用逻辑用语 1.1",
+    "type": "conceptual",
+    "description": "能用描述法表示集合，并会在列举法和描述法之间选择。",
+    "mastery_criteria": [
+      "能读懂 {x | 条件} 的含义",
+      "能把简单的描述法改写成列举法"
+    ],
+    "diagnostic_question": {
+      "question": "集合 {x | x 是小于 4 的正整数} 有几个元素？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PRE.01",
+        "confidence": "inferred",
+        "note": "描述法是集合的一种表示，与列举法同属集合含义这一条。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h005",
+    "name": "常用数集",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第一章 集合与常用逻辑用语 1.2",
+    "type": "conceptual",
+    "description": "认识自然数集、整数集、有理数集、实数集及其包含关系。本图谱按人教 A 版把 0 算进自然数集。",
+    "mastery_criteria": [
+      "能判断一个数属于哪个常用数集",
+      "能说出 N、Z、Q、R 的包含关系"
+    ],
+    "diagnostic_question": {
+      "question": "按本图谱约定，自然数集含 0。集合 {−1，0，1，2} 中的自然数有几个？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PRE.01",
+        "confidence": "inferred",
+        "note": "常用数集是集合语言在实数分类上的用法。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h006",
+    "name": "子集与集合相等",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第一章 集合与常用逻辑用语 1.2",
+    "type": "conceptual",
+    "description": "能判断子集和集合相等，知道空集是任何集合的子集。",
+    "mastery_criteria": [
+      "能用定义判断 A 是否为 B 的子集",
+      "知道 A=B 就是互相包含"
+    ],
+    "diagnostic_question": {
+      "question": "集合 {1，2} 的子集共有多少个？",
+      "answer": "4"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PRE.02",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h007",
+    "name": "真子集",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第一章 集合与常用逻辑用语 1.2",
+    "type": "procedural",
+    "description": "知道真子集是不等于自身的子集，会计算有限集的真子集个数。",
+    "mastery_criteria": [
+      "能区分子集和真子集",
+      "能计算 n 元集合的真子集个数"
+    ],
+    "diagnostic_question": {
+      "question": "3 个元素的集合有多少个真子集？",
+      "answer": "7"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PRE.02",
+        "confidence": "inferred",
+        "note": "真子集是子集关系中的一种，课标未单独成条。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h008",
+    "name": "交集",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第一章 集合与常用逻辑用语 1.3",
+    "type": "procedural",
+    "description": "会求两个集合的交集，并知道交集里的元素同时属于两个集合。",
+    "mastery_criteria": [
+      "能列出两个有限集的公共元素",
+      "能说明 A∩B 与 A、B 的包含关系"
+    ],
+    "diagnostic_question": {
+      "question": "A={1，2，3，4}，B={3，4，5}，A 与 B 的交集有几个元素？",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PRE.03",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h009",
+    "name": "并集",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第一章 集合与常用逻辑用语 1.3",
+    "type": "procedural",
+    "description": "会求两个集合的并集，并用 |A|+|B|−|A∩B| 计算有限并集的元素个数。",
+    "mastery_criteria": [
+      "能列出两个有限集的并集",
+      "能用容斥计算并集的元素个数"
+    ],
+    "diagnostic_question": {
+      "question": "A 有 3 个元素，B 有 3 个元素，交集有 2 个元素。并集有几个元素？",
+      "answer": "4"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PRE.03",
+        "confidence": "inferred",
+        "note": "并集与交集同属集合的基本运算。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h010",
+    "name": "补集",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第一章 集合与常用逻辑用语 1.3",
+    "type": "procedural",
+    "description": "在给定全集中会求补集，知道补集与原集合没有公共元素、并且合并后是全集。",
+    "mastery_criteria": [
+      "能在有限全集中列出补集",
+      "能用全集个数减去集合个数求补集个数"
+    ],
+    "diagnostic_question": {
+      "question": "全集有 5 个元素，A 有 2 个元素。A 的补集有几个元素？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PRE.03",
+        "confidence": "inferred",
+        "note": "补集与交、并同属集合的基本运算。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h011",
+    "name": "交并补的混合运算",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第一章 集合与常用逻辑用语 1.3",
+    "type": "procedural",
+    "description": "能在具体的有限全集中完成交、并、补的混合运算。",
+    "mastery_criteria": [
+      "能按括号顺序求混合运算的结果",
+      "能用元素个数检验结果"
+    ],
+    "diagnostic_question": {
+      "question": "全集 8 个元素，A 有 5 个，B 有 4 个，A∩B 有 2 个。A∪B 有几个元素？",
+      "answer": "7"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PRE.03",
+        "confidence": "inferred",
+        "note": "混合运算是交、并、补的综合，不单独对应新的课标句子。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h012",
+    "name": "充分条件与必要条件",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第一章 集合与常用逻辑用语 1.4",
+    "type": "reasoning",
+    "description": "能判断 p 是 q 的充分条件、必要条件，还是两者都不是。",
+    "mastery_criteria": [
+      "能把「若 p 则 q」说成 p 是 q 的充分条件",
+      "能举出只充分或只必要的例子"
+    ],
+    "diagnostic_question": {
+      "question": "对实数 x，「x>2」是「x>0」的什么条件？",
+      "answer": "充分不必要条件"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PRE.04",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h013",
+    "name": "充要条件",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第一章 集合与常用逻辑用语 1.4",
+    "type": "reasoning",
+    "description": "知道充要条件是既能推出也能反推，会判断简单命题的充要关系。",
+    "mastery_criteria": [
+      "能说出充要就是互相推出",
+      "能判断两个简单条件是否充要"
+    ],
+    "diagnostic_question": {
+      "question": "对实数 x，「x²=4」是「x=2 或 x=−2」的什么条件？",
+      "answer": "充要条件"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PRE.04",
+        "confidence": "inferred",
+        "note": "充要条件是充分条件与必要条件同时成立。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h014",
+    "name": "全称量词与存在量词",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第一章 集合与常用逻辑用语 1.5",
+    "type": "conceptual",
+    "description": "能区分「所有」和「存在」，并判断只含一个量词的简单命题的真假。",
+    "mastery_criteria": [
+      "能指出命题用的是全称还是存在",
+      "能判断给定范围内命题的真假"
+    ],
+    "diagnostic_question": {
+      "question": "命题「所有实数的平方都大于或等于 0」的量词是？",
+      "answer": "全称量词"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PRE.05",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h015",
+    "name": "含一个量词的命题的否定",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第一章 集合与常用逻辑用语 1.5",
+    "type": "reasoning",
+    "description": "会否定只含一个量词的命题：全称的否定是存在，存在的否定是全称。",
+    "mastery_criteria": [
+      "能写出全称命题的否定",
+      "能写出存在命题的否定"
+    ],
+    "diagnostic_question": {
+      "question": "「所有实数都大于 0」的否定是？",
+      "answer": "存在一个实数不大于 0"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PRE.05",
+        "confidence": "inferred",
+        "note": "命题的否定写在全称量词与存在量词这一要求里。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h016",
+    "name": "等式性质与不等式的概念",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第二章 一元二次函数、方程和不等式 2.1",
+    "type": "conceptual",
+    "description": "能区分等式和不等式，知道不等式表示两个实数的大小关系。",
+    "mastery_criteria": [
+      "能判断一个式子是等式还是不等式",
+      "能说出不等式两边是实数"
+    ],
+    "diagnostic_question": {
+      "question": "3<5 表示的关系是？",
+      "answer": "不等关系"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PRE.06",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h017",
+    "name": "不等式的解集",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第二章 一元二次函数、方程和不等式 2.1",
+    "type": "procedural",
+    "description": "能求简单一元一次不等式的解集，并说出解集中的整数。",
+    "mastery_criteria": [
+      "能把不等式的解写成范围",
+      "能找出解集中的整数"
+    ],
+    "diagnostic_question": {
+      "question": "不等式 x+3>5 的正整数解中，最小的一个是多少？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PRE.06",
+        "confidence": "inferred",
+        "note": "解集是不等式性质的直接应用，沿用初中解集语言。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h018",
+    "name": "不等式的性质",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第二章 一元二次函数、方程和不等式 2.1",
+    "type": "reasoning",
+    "description": "会用不等式的基本性质：两边加同一个数、乘正数方向不变，乘负数方向改变。",
+    "mastery_criteria": [
+      "能判断变形后不等号是否要改向",
+      "能用性质比较两个数的大小"
+    ],
+    "diagnostic_question": {
+      "question": "已知 a>b。a+4 与 b+4 比较，若 a+4 更大则回答 1，更小回答 −1，相等回答 0。",
+      "answer": "1"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PRE.06",
+        "confidence": "inferred",
+        "note": "性质的证明写在等式与不等式性质这一条里。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h019",
+    "name": "作差法比较大小",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第二章 一元二次函数、方程和不等式 2.1",
+    "type": "procedural",
+    "description": "会把两个式子作差，用差的符号判断大小。",
+    "mastery_criteria": [
+      "能正确计算两式的差",
+      "能由差的正负得出大小"
+    ],
+    "diagnostic_question": {
+      "question": "比较 2³ 与 3²：计算 2³−3²。",
+      "answer": "-1"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PRE.06",
+        "confidence": "inferred",
+        "note": "作差是比较大小的一种方法，课标要求能比较大小。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h020",
+    "name": "不等式的整数解",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第二章 一元二次函数、方程和不等式 2.1",
+    "type": "procedural",
+    "description": "能在指定范围内列出不等式的整数解，并做简单计数。",
+    "mastery_criteria": [
+      "能列出解集中的全部整数",
+      "能求这些整数的个数或和"
+    ],
+    "diagnostic_question": {
+      "question": "不等式 1<x<5 的整数解有几个？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PRE.06",
+        "confidence": "inferred",
+        "note": "整数解是解集在整数上的限制，仍属于不等式的解。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h021",
+    "name": "基本不等式",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第二章 一元二次函数、方程和不等式 2.2",
+    "type": "procedural",
+    "description": "知道两个正数的算术平均数不小于几何平均数，等号当且仅当两数相等。",
+    "mastery_criteria": [
+      "能计算两个正数的算术平均数和几何平均数",
+      "能说出等号成立的条件"
+    ],
+    "diagnostic_question": {
+      "question": "4 和 9 的算术平均数是多少？",
+      "answer": "13/2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PRE.07",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h022",
+    "name": "基本不等式求最值",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第二章 一元二次函数、方程和不等式 2.2",
+    "type": "application",
+    "description": "能在积或和为定值时，用基本不等式求正数的最值，并检查等号能否取到。",
+    "mastery_criteria": [
+      "能判断使用基本不等式的条件",
+      "能写出最值以及取到最值时的数"
+    ],
+    "diagnostic_question": {
+      "question": "正数 x、y 满足 x+y=10。xy 的最大值是多少？",
+      "answer": "25"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PRE.07",
+        "confidence": "inferred",
+        "note": "最值是基本不等式的简单应用。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h023",
+    "name": "二次函数与一元二次方程",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第二章 一元二次函数、方程和不等式 2.3",
+    "type": "reasoning",
+    "description": "能把一元二次方程的根看成二次函数图象与 x 轴的交点。",
+    "mastery_criteria": [
+      "能由判别式判断交点个数",
+      "能写出方程的实数根"
+    ],
+    "diagnostic_question": {
+      "question": "方程 x²−5x+6=0 的较小实根是多少？",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PRE.08",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h024",
+    "name": "一元二次不等式",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第二章 一元二次函数、方程和不等式 2.3",
+    "type": "procedural",
+    "description": "会借助因式分解或函数图象解一元二次不等式，并统计整数解。",
+    "mastery_criteria": [
+      "能求出一元二次不等式的解集类型",
+      "能数出解集中的整数"
+    ],
+    "diagnostic_question": {
+      "question": "不等式 x²−5x+6<0 的整数解有几个？",
+      "answer": "0"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PRE.09",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h025",
+    "name": "含参的二次不等式",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第二章 一元二次函数、方程和不等式 2.3",
+    "type": "reasoning",
+    "description": "能根据二次函数开口和图象，讨论简单参数使不等式恒成立或有解。",
+    "mastery_criteria": [
+      "能把恒成立转化成最值条件",
+      "能写出参数应满足的不等式"
+    ],
+    "diagnostic_question": {
+      "question": "对任意实数 x，x²+1≥k 恒成立。k 的最大值是多少？",
+      "answer": "1"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PRE.09",
+        "confidence": "inferred",
+        "note": "含参讨论是一元二次不等式的延伸，课标写的是简单情形。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h026",
+    "name": "不等式的实际应用",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第二章 一元二次函数、方程和不等式 2.3",
+    "type": "application",
+    "description": "能把简单的利润、面积等实际限制写成不等式，并求正整数解的个数。",
+    "mastery_criteria": [
+      "能列出符合题意的不等式",
+      "能在实际范围内取整数解"
+    ],
+    "diagnostic_question": {
+      "question": "每件利润 3 元，固定成本已收回。卖出件数 x 满足 3x>21 时才有超过 21 元的利润。x 的最小正整数是多少？",
+      "answer": "8"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PRE.09",
+        "confidence": "inferred",
+        "note": "实际问题是不等式内容的简单应用。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h027",
+    "name": "函数的概念",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第三章 函数的概念与性质 3.1",
+    "type": "conceptual",
+    "description": "用集合与对应理解函数：定义域中每个 x 都对应唯一的 y。",
+    "mastery_criteria": [
+      "能判断一个对应是不是函数",
+      "能说出函数的定义域、对应关系和值域"
+    ],
+    "diagnostic_question": {
+      "question": "下面哪个对应是从实数集到实数集的函数？",
+      "answer": "每个 x 对应 x+1"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.01",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h028",
+    "name": "函数的定义域",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第三章 函数的概念与性质 3.1",
+    "type": "procedural",
+    "description": "会求分式、偶次根式等简单函数的定义域，并用整数点检查。",
+    "mastery_criteria": [
+      "能列出使解析式有意义的条件",
+      "能判断给定的数是否在定义域内"
+    ],
+    "diagnostic_question": {
+      "question": "f(x)=1/(x−2)。在 1，2，3 这三个数中，有几个在定义域内？",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.02",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h029",
+    "name": "函数的值域",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第三章 函数的概念与性质 3.1",
+    "type": "procedural",
+    "description": "能根据解析式或给定的有限定义域求出简单函数的值域和最值。",
+    "mastery_criteria": [
+      "能计算有限定义域上的全部函数值",
+      "能说出二次函数在指定区间上的最值"
+    ],
+    "diagnostic_question": {
+      "question": "f(x)=x+1，x∈{0，1，2}。函数值中的最大值是多少？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.02",
+        "confidence": "inferred",
+        "note": "值域和定义域写在函数表示的同一要求里。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h030",
+    "name": "函数的表示方法",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第三章 函数的概念与性质 3.1",
+    "type": "conceptual",
+    "description": "知道函数可以用解析式、图象、列表表示，并能在列表和图象上读值。",
+    "mastery_criteria": [
+      "能说出函数的三种表示",
+      "能从图象或表格读出函数值"
+    ],
+    "diagnostic_question": {
+      "question": "表格中 x=1 时 y=4，x=2 时 y=7。这两个函数值的差 y(2)−y(1) 是多少？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.02",
+        "confidence": "inferred",
+        "note": "三种表示是函数概念的一部分。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h031",
+    "name": "分段函数",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第三章 函数的概念与性质 3.1",
+    "type": "procedural",
+    "description": "会按自变量所在的段选择解析式求值，并能处理简单的分段计费。",
+    "mastery_criteria": [
+      "能判断自变量落在哪一段",
+      "能分别计算各段的函数值"
+    ],
+    "diagnostic_question": {
+      "question": "x<0 时 f(x)=x+1，x≥0 时 f(x)=2x。求 f(−2)。",
+      "answer": "-1"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.02",
+        "confidence": "inferred",
+        "note": "分段函数是函数表示中的一种具体形式。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h032",
+    "name": "函数的单调性",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第三章 函数的概念与性质 3.2",
+    "type": "conceptual",
+    "description": "能用图象和定义判断一次函数、二次函数在指定区间上的增减。",
+    "mastery_criteria": [
+      "能说出增函数、减函数的含义",
+      "能判断 y=kx+b 的单调性"
+    ],
+    "diagnostic_question": {
+      "question": "f(x)=2x+1 在实数集上是？",
+      "answer": "增函数"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.03",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h033",
+    "name": "用定义证明单调性",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第三章 函数的概念与性质 3.2",
+    "type": "reasoning",
+    "description": "会在区间上任取 x1<x2，用作差判断 f(x1) 与 f(x2) 的大小。",
+    "mastery_criteria": [
+      "能正确作差并因式分解",
+      "能由差的符号得出增减"
+    ],
+    "diagnostic_question": {
+      "question": "f(x)=3x−1。取 x1=1，x2=4，计算 f(x2)−f(x1)。",
+      "answer": "9"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.03",
+        "confidence": "inferred",
+        "note": "用定义证明是单调性要求中的基本方法。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h034",
+    "name": "函数的最大（小）值",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第三章 函数的概念与性质 3.2",
+    "type": "procedural",
+    "description": "能求二次函数在闭区间上的最大、最小值。",
+    "mastery_criteria": [
+      "能比较端点和顶点的函数值",
+      "能指出最值在哪一点取到"
+    ],
+    "diagnostic_question": {
+      "question": "f(x)=x²，x∈[−1，2]。最大值是多少？",
+      "answer": "4"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.03",
+        "confidence": "inferred",
+        "note": "最值与单调性同属函数的基本性质。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h035",
+    "name": "函数的奇偶性",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第三章 函数的概念与性质 3.2",
+    "type": "conceptual",
+    "description": "知道奇函数满足 f(−x)=−f(x)，偶函数满足 f(−x)=f(x)，并且定义域关于原点对称。",
+    "mastery_criteria": [
+      "能根据定义判断奇偶",
+      "知道定义域不对称就不是奇函数或偶函数"
+    ],
+    "diagnostic_question": {
+      "question": "f(x)=x² 是？",
+      "answer": "偶函数"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.04",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h036",
+    "name": "奇偶性与图象",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第三章 函数的概念与性质 3.2",
+    "type": "reasoning",
+    "description": "知道偶函数图象关于 y 轴对称，奇函数图象关于原点对称，并能由此求对称点的函数值。",
+    "mastery_criteria": [
+      "能由对称性写出另一点的函数值",
+      "能判断既奇又偶的函数"
+    ],
+    "diagnostic_question": {
+      "question": "偶函数 f(2)=7。f(−2) 是多少？",
+      "answer": "7"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.04",
+        "confidence": "inferred",
+        "note": "图象对称是奇偶性的几何含义。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h037",
+    "name": "幂函数",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第三章 函数的概念与性质 3.3",
+    "type": "conceptual",
+    "description": "能区分五个基本幂函数在第一象限的增减，并计算整数点的函数值。",
+    "mastery_criteria": [
+      "能说出 y=x、y=x²、y=x³、y=√x、y=1/x 哪几个递增",
+      "能计算这些函数在正整数处的值"
+    ],
+    "diagnostic_question": {
+      "question": "幂函数 y=x³，求 x=2 时的函数值。",
+      "answer": "8"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.05",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h038",
+    "name": "用函数描述简单对应",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第三章 函数的概念与性质 3.3",
+    "type": "application",
+    "description": "能把单价、路程等简单数量关系写成函数，并求值。",
+    "mastery_criteria": [
+      "能指出自变量和函数值",
+      "能用解析式回答具体问题"
+    ],
+    "diagnostic_question": {
+      "question": "每本笔记本 4 元，买 x 本的金额 f(x)=4x。买 6 本多少元？",
+      "answer": "24"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.11",
+        "confidence": "inferred",
+        "note": "本章先用一次、二次对应做简单应用，完整的模型选择在函数应用。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h039",
+    "name": "分数指数幂",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第四章 指数函数与对数函数 4.1",
+    "type": "procedural",
+    "description": "能把根式写成分数指数幂，并计算可开尽的有理数指数幂。",
+    "mastery_criteria": [
+      "能计算整数指数幂和简单的分数指数幂",
+      "能说出负指数是倒数"
+    ],
+    "diagnostic_question": {
+      "question": "计算 2 的 −3 次方。",
+      "answer": "1/8"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.06",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h040",
+    "name": "指数幂的运算",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第四章 指数函数与对数函数 4.1",
+    "type": "procedural",
+    "description": "会用同底数幂相乘、相除和幂的乘方计算整数指数幂。",
+    "mastery_criteria": [
+      "能把同底数幂的乘法写成指数相加",
+      "能计算幂的乘方"
+    ],
+    "diagnostic_question": {
+      "question": "计算 2³×2⁴。",
+      "answer": "128"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.06",
+        "confidence": "inferred",
+        "note": "运算性质和指数幂的含义写在同一条。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h041",
+    "name": "指数函数的概念",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第四章 指数函数与对数函数 4.2",
+    "type": "conceptual",
+    "description": "知道 y=a^x（a>0 且 a≠1）是指数函数，会求具体的函数值。",
+    "mastery_criteria": [
+      "能判断一个解析式是不是指数函数",
+      "能计算 a 为具体正数时的函数值"
+    ],
+    "diagnostic_question": {
+      "question": "f(x)=2^x，求 f(5)。",
+      "answer": "32"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.07",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h042",
+    "name": "指数函数的性质",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第四章 指数函数与对数函数 4.2",
+    "type": "reasoning",
+    "description": "能按底数大于 1 或介于 0 与 1 之间判断指数函数的单调性，并比较大小。",
+    "mastery_criteria": [
+      "能判断底数对单调性的影响",
+      "能比较同一底数的两个指数式"
+    ],
+    "diagnostic_question": {
+      "question": "y=2^x 在实数集上是？",
+      "answer": "增函数"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.07",
+        "confidence": "inferred",
+        "note": "单调性和图象比较是指数函数概念之后的性质。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h043",
+    "name": "对数的概念",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第四章 指数函数与对数函数 4.3",
+    "type": "procedural",
+    "description": "知道 log_a N 是 a 的多少次方等于 N，会求简单对数。",
+    "mastery_criteria": [
+      "能把对数式写成指数式",
+      "能计算以 2 或 10 为底的简单对数"
+    ],
+    "diagnostic_question": {
+      "question": "计算 log₂32。",
+      "answer": "5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.08",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h044",
+    "name": "对数的运算性质",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第四章 指数函数与对数函数 4.3",
+    "type": "procedural",
+    "description": "会用对数的加法、减法和数乘性质计算。",
+    "mastery_criteria": [
+      "能把积的对数写成对数之和",
+      "能计算简单的对数式"
+    ],
+    "diagnostic_question": {
+      "question": "计算 log₂8+log₂4。",
+      "answer": "5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.08",
+        "confidence": "inferred",
+        "note": "运算性质和对数概念写在同一条。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h045",
+    "name": "换底公式",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第四章 指数函数与对数函数 4.3",
+    "type": "procedural",
+    "description": "会用换底公式把对数化为以 2 或 10 为底的对数。",
+    "mastery_criteria": [
+      "能写出换底公式",
+      "能计算可以换到底数 2 的对数"
+    ],
+    "diagnostic_question": {
+      "question": "计算 log₄16。",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.08",
+        "confidence": "inferred",
+        "note": "换底公式是对数运算的工具。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h046",
+    "name": "对数函数",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第四章 指数函数与对数函数 4.4",
+    "type": "conceptual",
+    "description": "知道 y=log_a x（a>0 且 a≠1）的定义域是正实数，会求具体函数值。",
+    "mastery_criteria": [
+      "能说出对数函数的定义域",
+      "能计算简单的对数值"
+    ],
+    "diagnostic_question": {
+      "question": "f(x)=log₂x，求 f(16)。",
+      "answer": "4"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.09",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h047",
+    "name": "对数函数的性质",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第四章 指数函数与对数函数 4.4",
+    "type": "reasoning",
+    "description": "能按底数判断对数函数的单调性，并比较两个对数的大小。",
+    "mastery_criteria": [
+      "能判断底数大于 1 时的增减",
+      "能比较同底对数的大小"
+    ],
+    "diagnostic_question": {
+      "question": "y=log₂x 在 (0，+∞) 上是？",
+      "answer": "增函数"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.09",
+        "confidence": "inferred",
+        "note": "单调性是对数函数概念后的性质。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h048",
+    "name": "指数与对数互为反函数",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第四章 指数函数与对数函数 4.4",
+    "type": "reasoning",
+    "description": "知道 y=a^x 与 y=log_a x 互为反函数，会用这个关系求值。",
+    "mastery_criteria": [
+      "能说出互为反函数的两对对应",
+      "能计算 log_a(a^k) 和 a^(log_a k)"
+    ],
+    "diagnostic_question": {
+      "question": "计算 log₂(2⁵)。",
+      "answer": "5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.09",
+        "confidence": "inferred",
+        "note": "反函数关系写在对数函数与指数函数的联系里。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h049",
+    "name": "函数零点",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第四章 指数函数与对数函数 4.5",
+    "type": "procedural",
+    "description": "知道函数零点就是方程 f(x)=0 的实根，也是图象与 x 轴交点的横坐标。",
+    "mastery_criteria": [
+      "能求简单函数的零点",
+      "能用函数值变号判断零点所在区间"
+    ],
+    "diagnostic_question": {
+      "question": "f(x)=x²−4 的正零点是多少？",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.10",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h050",
+    "name": "二分法",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第四章 指数函数与对数函数 4.5",
+    "type": "procedural",
+    "description": "能用二分法把含根区间缩小一半，并计算中点的函数值。",
+    "mastery_criteria": [
+      "能求出区间中点",
+      "能根据中点函数值的符号选择下一区间"
+    ],
+    "diagnostic_question": {
+      "question": "区间 (1，3) 的中点是多少？",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.10",
+        "confidence": "inferred",
+        "note": "二分法是求近似解的方法，与零点存在性写在一起。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h051",
+    "name": "选择函数模型",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第四章 指数函数与对数函数 4.5",
+    "type": "application",
+    "description": "能根据增减快慢，区分一次、二次和指数模型，并代入计算。",
+    "mastery_criteria": [
+      "能指出哪种变化适合指数模型",
+      "能用给定模型求值"
+    ],
+    "diagnostic_question": {
+      "question": "某种细菌每小时数量变为原来的 2 倍，开始有 100 个。3 小时后有多少个？",
+      "answer": "800"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.11",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h052",
+    "name": "函数模型的拟合与预测",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第四章 指数函数与对数函数 4.5",
+    "type": "application",
+    "description": "能用给定的函数模型做一步预测，并知道预测需要回到实际中检验。",
+    "mastery_criteria": [
+      "能把已知数据代入模型",
+      "能说明预测不是精确事实"
+    ],
+    "diagnostic_question": {
+      "question": "按模型 P=20+3t，t=10 时的值是多少？",
+      "answer": "50"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.11",
+        "confidence": "inferred",
+        "note": "预测是函数应用的一步，仍属于选择并使用模型。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h053",
+    "name": "数学建模的过程",
+    "domain": "综合与实践",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 数学建模 建立函数模型",
+    "type": "modeling",
+    "description": "知道数学建模包括提出问题、收集数据、建立模型、求解和检验。",
+    "mastery_criteria": [
+      "能按顺序说出建模的主要步骤",
+      "能指出检验是建模的一部分"
+    ],
+    "diagnostic_question": {
+      "question": "数学建模的合理顺序是？",
+      "answer": "提出问题，收集数据，建立模型，求解并检验"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.MI.01",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h054",
+    "name": "用函数模型解决实际问题",
+    "domain": "综合与实践",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 数学建模 建立函数模型",
+    "type": "modeling",
+    "description": "能选择一次或指数函数描述一组简单数据，并计算预测值。",
+    "mastery_criteria": [
+      "能根据「每次加固定数」或「每次乘固定数」选择模型",
+      "能用模型算出指定时刻的值"
+    ],
+    "diagnostic_question": {
+      "question": "水位每小时上升 3 厘米，开始时 20 厘米。4 小时后按一次模型是多少厘米？",
+      "answer": "32"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.MI.01",
+        "confidence": "inferred",
+        "note": "本点是必修建模活动中的函数模型，与建模过程共用一条。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h055",
+    "name": "任意角",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第五章 三角函数 5.1",
+    "type": "conceptual",
+    "description": "知道角可以按旋转方向分正角、负角和零角，大小可以超过一周。",
+    "mastery_criteria": [
+      "能判断正角和负角",
+      "知道任意角不一定在 0° 到 360° 之间"
+    ],
+    "diagnostic_question": {
+      "question": "按逆时针方向旋转形成的角是？",
+      "answer": "正角"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.12",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h056",
+    "name": "终边相同的角",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第五章 三角函数 5.1",
+    "type": "procedural",
+    "description": "知道与角 α 终边相同的角可以写成 α+k·360°，k 为整数。",
+    "mastery_criteria": [
+      "能把指定范围内的终边相同角写出来",
+      "能判断两个角的终边是否相同"
+    ],
+    "diagnostic_question": {
+      "question": "与 400° 终边相同、且在 0° 到 360° 之间的角是多少度？",
+      "answer": "40"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.12",
+        "confidence": "inferred",
+        "note": "终边相同是任意角概念的直接内容。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h057",
+    "name": "弧度制",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第五章 三角函数 5.1",
+    "type": "conceptual",
+    "description": "知道弧度是弧长与半径的比，1 弧度约等于半径长的弧所对的圆心角。",
+    "mastery_criteria": [
+      "能说出弧度的定义",
+      "知道 π 弧度等于 180°"
+    ],
+    "diagnostic_question": {
+      "question": "π 弧度等于多少度？",
+      "answer": "180"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.12",
+        "confidence": "inferred",
+        "note": "弧度制与任意角写在同一主题。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h058",
+    "name": "角度与弧度的换算",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第五章 三角函数 5.1",
+    "type": "procedural",
+    "description": "会把特殊角在角度和弧度之间换算。",
+    "mastery_criteria": [
+      "能把 π 的简单倍数写成角度",
+      "能把 30°、45°、60°、90° 写成弧度的系数"
+    ],
+    "diagnostic_question": {
+      "question": "π/6 弧度等于多少度？",
+      "answer": "30"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.12",
+        "confidence": "inferred",
+        "note": "换算是引入弧度后的基本技能。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h059",
+    "name": "弧长公式",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第五章 三角函数 5.1",
+    "type": "procedural",
+    "description": "在弧度制下会用弧长等于半径乘圆心角。",
+    "mastery_criteria": [
+      "能由半径和弧度求弧长",
+      "能由弧长和半径求圆心角"
+    ],
+    "diagnostic_question": {
+      "question": "半径为 5、圆心角为 2 弧度，弧长是多少？",
+      "answer": "10"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.12",
+        "confidence": "inferred",
+        "note": "弧长公式是弧度制的直接应用。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h060",
+    "name": "三角函数的定义",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第五章 三角函数 5.2",
+    "type": "conceptual",
+    "description": "借助单位圆，用终边与单位圆交点的坐标定义正弦和余弦。",
+    "mastery_criteria": [
+      "能说出正弦是纵坐标、余弦是横坐标",
+      "能求 0°、30°、90° 的正弦或余弦"
+    ],
+    "diagnostic_question": {
+      "question": "求 sin90°。",
+      "answer": "1"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.13",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h061",
+    "name": "三角函数的符号",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第五章 三角函数 5.2",
+    "type": "procedural",
+    "description": "能按象限判断正弦、余弦的符号，并求轴上的特殊值。",
+    "mastery_criteria": [
+      "能说出各象限正弦、余弦的符号",
+      "能求 180°、270° 的正弦或余弦"
+    ],
+    "diagnostic_question": {
+      "question": "求 sin180°。",
+      "answer": "0"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.13",
+        "confidence": "inferred",
+        "note": "符号是单位圆定义的直接推论。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h062",
+    "name": "同角三角函数关系",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第五章 三角函数 5.2",
+    "type": "reasoning",
+    "description": "会用 sin²θ+cos²θ=1，以及用一个三角函数表示另一个。",
+    "mastery_criteria": [
+      "能由同角关系检验平方和",
+      "能由正弦求余弦的平方"
+    ],
+    "diagnostic_question": {
+      "question": "计算 sin²30°+cos²30°。",
+      "answer": "1"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.14",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h063",
+    "name": "由一个三角函数求其他值",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第五章 三角函数 5.2",
+    "type": "procedural",
+    "description": "在已知角所在象限时，能由一个三角函数值求出其他值。",
+    "mastery_criteria": [
+      "能先确定符号再开方",
+      "能计算由此得到的整数或分数"
+    ],
+    "diagnostic_question": {
+      "question": "θ 为锐角，sinθ=1/2。求 2sinθ。",
+      "answer": "1"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.14",
+        "confidence": "inferred",
+        "note": "求值是同角关系的基本练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h064",
+    "name": "诱导公式",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第五章 三角函数 5.3",
+    "type": "conceptual",
+    "description": "知道终边相同、以及与 π±α、π/2±α 有关的诱导公式，能说出正弦、余弦如何变化。",
+    "mastery_criteria": [
+      "能说出 sin(π−α)=sinα",
+      "能说出 cos(π−α)=−cosα"
+    ],
+    "diagnostic_question": {
+      "question": "sin(180°−α) 等于？",
+      "answer": "sinα"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.14",
+        "confidence": "inferred",
+        "note": "诱导公式是把任意角化为锐角的工具。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h065",
+    "name": "用诱导公式求值",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第五章 三角函数 5.3",
+    "type": "procedural",
+    "description": "能把 120°、150°、180°、210°、270°、360° 的三角函数化为特殊值。",
+    "mastery_criteria": [
+      "能选择合适的诱导公式",
+      "能得到 0、±1 或 ±1/2"
+    ],
+    "diagnostic_question": {
+      "question": "求 sin150°。",
+      "answer": "1/2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.14",
+        "confidence": "inferred",
+        "note": "求值是诱导公式的基本练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h066",
+    "name": "正弦函数的图象与性质",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第五章 三角函数 5.4",
+    "type": "conceptual",
+    "description": "知道 y=sin x 的定义域、值域、最大最小值和周期性。",
+    "mastery_criteria": [
+      "能说出值域是 [−1，1]",
+      "能说出最小正周期是 2π"
+    ],
+    "diagnostic_question": {
+      "question": "y=sin x 的最大值是多少？",
+      "answer": "1"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.15",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h067",
+    "name": "正弦函数的单调区间",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第五章 三角函数 5.4",
+    "type": "reasoning",
+    "description": "能在 [−π/2，π/2] 一类区间上判断正弦的增减，并求端点函数值。",
+    "mastery_criteria": [
+      "能说出 [−π/2，π/2] 上正弦递增",
+      "能计算区间端点的正弦"
+    ],
+    "diagnostic_question": {
+      "question": "y=sin x 在 [−π/2，π/2] 上是？",
+      "answer": "增函数"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.15",
+        "confidence": "inferred",
+        "note": "单调区间是正弦函数性质的一部分。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h068",
+    "name": "余弦函数的图象与性质",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第五章 三角函数 5.4",
+    "type": "conceptual",
+    "description": "知道 y=cos x 是偶函数，最大值为 1，最小值为 −1，最小正周期是 2π。",
+    "mastery_criteria": [
+      "能求 0°、60°、180° 的余弦",
+      "能说出余弦是偶函数"
+    ],
+    "diagnostic_question": {
+      "question": "求 cos0°。",
+      "answer": "1"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.15",
+        "confidence": "inferred",
+        "note": "余弦函数的性质与正弦写在同一条。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h069",
+    "name": "正切函数",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第五章 三角函数 5.4",
+    "type": "procedural",
+    "description": "知道正切在余弦为 0 时没有定义，会求 0° 和 45° 的正切。",
+    "mastery_criteria": [
+      "能说出正切的无定义角",
+      "能求 tan0° 和 tan45°"
+    ],
+    "diagnostic_question": {
+      "question": "求 tan0°。",
+      "answer": "0"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.15",
+        "confidence": "inferred",
+        "note": "正切是三角函数图象与性质中的一个函数。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h070",
+    "name": "两角差的正弦",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第五章 三角函数 5.5",
+    "type": "procedural",
+    "description": "会用 sin(α−β)=sinα cosβ−cosα sinβ 计算可以化成特殊角的值。",
+    "mastery_criteria": [
+      "能把公式用在 60° 与 30° 上",
+      "能把结果化成 1/2 这类值"
+    ],
+    "diagnostic_question": {
+      "question": "计算 sin60°cos30°−cos60°sin30°。已知 sin60°=cos30°=√3/2，cos60°=sin30°=1/2。",
+      "answer": "1/2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.16",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h071",
+    "name": "两角和的正弦与余弦",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第五章 三角函数 5.5",
+    "type": "procedural",
+    "description": "会用和角公式计算能化成 0、±1/2、±1 的值。",
+    "mastery_criteria": [
+      "能计算 sin(α+β) 在特殊角上的值",
+      "能区分和角与差角公式的符号"
+    ],
+    "diagnostic_question": {
+      "question": "计算 sin30°cos60°+cos30°sin60°。已知 sin30°=cos60°=1/2，cos30°=sin60°=√3/2。",
+      "answer": "1"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.16",
+        "confidence": "inferred",
+        "note": "和角公式与差角公式同属恒等变换。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h072",
+    "name": "两角和与差的正切",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第五章 三角函数 5.5",
+    "type": "procedural",
+    "description": "会用正切的和差公式计算分母不为 0 的特殊值。",
+    "mastery_criteria": [
+      "能计算 tan(α−β)",
+      "知道分母为 0 时公式不能用"
+    ],
+    "diagnostic_question": {
+      "question": "计算 (tan45°−tan0°)/(1+tan45°·tan0°)。",
+      "answer": "1"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.16",
+        "confidence": "inferred",
+        "note": "正切的和差公式属于三角恒等变换。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h073",
+    "name": "二倍角公式",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第五章 三角函数 5.5",
+    "type": "procedural",
+    "description": "会用 cos2α=2cos²α−1=1−2sin²α 计算特殊角。",
+    "mastery_criteria": [
+      "能用余弦的二倍角公式求值",
+      "能说出二倍角公式的三种余弦形式"
+    ],
+    "diagnostic_question": {
+      "question": "计算 2cos²60°−1。",
+      "answer": "-1/2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.16",
+        "confidence": "inferred",
+        "note": "二倍角是和角公式的特例。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h074",
+    "name": "简单的三角恒等变换",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第五章 三角函数 5.5",
+    "type": "procedural",
+    "description": "能把同角关系和二倍角用在求值里，结果保持为整数或分数。",
+    "mastery_criteria": [
+      "能先化简再代入特殊角",
+      "能判断哪一种公式更合适"
+    ],
+    "diagnostic_question": {
+      "question": "计算 1+cos60°。",
+      "answer": "3/2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.16",
+        "confidence": "inferred",
+        "note": "恒等变换的练习服务于和差与二倍角。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h075",
+    "name": "正弦型函数",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第五章 三角函数 5.6",
+    "type": "conceptual",
+    "description": "知道 y=Asin(ωx+φ) 中 A 影响振幅，ω 影响周期。",
+    "mastery_criteria": [
+      "能指出振幅是 |A|",
+      "能由 ω 说出周期与 2π 的关系"
+    ],
+    "diagnostic_question": {
+      "question": "y=2sin x 的最大值是多少？",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.17",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h076",
+    "name": "正弦型函数的参数",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第五章 三角函数 5.6",
+    "type": "procedural",
+    "description": "能从解析式读出振幅、周期和初相。",
+    "mastery_criteria": [
+      "能读出 A 和 ω",
+      "能计算 x 取特殊值时的函数值"
+    ],
+    "diagnostic_question": {
+      "question": "y=2sin(2x+φ) 的振幅是多少？",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.17",
+        "confidence": "inferred",
+        "note": "读参数是正弦型函数的基本技能。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h077",
+    "name": "由条件确定正弦型函数",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第五章 三角函数 5.6",
+    "type": "procedural",
+    "description": "能由最大值、最小值和周期求出振幅、平衡位置和 ω。",
+    "mastery_criteria": [
+      "能用最大值和最小值求振幅",
+      "能由周期求 ω"
+    ],
+    "diagnostic_question": {
+      "question": "一个正弦型函数最大值是 5，最小值是 −1。振幅是多少？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.17",
+        "confidence": "inferred",
+        "note": "确定参数是用正弦型函数描述现象的前提。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h078",
+    "name": "三角函数的应用",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "高一 第五章 三角函数 5.7",
+    "type": "application",
+    "description": "能用正弦型函数描述温度、摩天轮高度等简单周期现象。",
+    "mastery_criteria": [
+      "能由平衡位置和振幅求最高、最低",
+      "能说明周期是现象重复一次的时间"
+    ],
+    "diagnostic_question": {
+      "question": "温度按 y=10+8sin(ωt) 变化。最高温度是多少？",
+      "answer": "18"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.17",
+        "confidence": "inferred",
+        "note": "应用是正弦型函数的实际背景。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h079",
+    "name": "平面向量的概念",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第六章 平面向量及其应用 6.1",
+    "type": "conceptual",
+    "description": "知道向量既有大小又有方向，长度叫做模。",
+    "mastery_criteria": [
+      "能区分向量和数量",
+      "能说出零向量的模是 0"
+    ],
+    "diagnostic_question": {
+      "question": "向量和数量的差别是？",
+      "answer": "向量有方向，数量没有方向"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.01",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h080",
+    "name": "相等向量与共线向量",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第六章 平面向量及其应用 6.1",
+    "type": "conceptual",
+    "description": "知道相等向量方向相同且模相等，共线向量方向相同或相反。",
+    "mastery_criteria": [
+      "能判断两个向量是否相等",
+      "能区分相等和共线"
+    ],
+    "diagnostic_question": {
+      "question": "两个向量相等，是指？",
+      "answer": "模相等并且方向相同"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.01",
+        "confidence": "inferred",
+        "note": "相等与共线是向量概念的基本关系。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h081",
+    "name": "向量加法",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第六章 平面向量及其应用 6.2",
+    "type": "procedural",
+    "description": "会用三角形法则和平行四边形法则作向量加法，并在坐标下相加。",
+    "mastery_criteria": [
+      "能计算两个坐标向量的和",
+      "能说出加法满足交换律"
+    ],
+    "diagnostic_question": {
+      "question": "向量 (1，2) 与 (3，4) 的和的横坐标是多少？",
+      "answer": "4"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.02",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h082",
+    "name": "向量减法",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第六章 平面向量及其应用 6.2",
+    "type": "procedural",
+    "description": "知道 a−b=a+(−b)，会在坐标下做减法。",
+    "mastery_criteria": [
+      "能计算坐标向量的差",
+      "能说出减去一个向量等于加上它的相反向量"
+    ],
+    "diagnostic_question": {
+      "question": "向量 (5，1) 减去 (2，3)，差的横坐标是多少？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.02",
+        "confidence": "inferred",
+        "note": "减法是加法的逆运算，与加法同属线性运算。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h083",
+    "name": "向量数乘",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第六章 平面向量及其应用 6.2",
+    "type": "procedural",
+    "description": "会把向量乘以实数：正数不改方向，负数改成相反方向，模乘以绝对值。",
+    "mastery_criteria": [
+      "能计算数乘后的坐标",
+      "能说出数乘后的模"
+    ],
+    "diagnostic_question": {
+      "question": "3 乘以向量 (1，−2)，纵坐标是多少？",
+      "answer": "-6"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.02",
+        "confidence": "inferred",
+        "note": "数乘与加减一起构成向量的线性运算。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h084",
+    "name": "向量共线定理",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第六章 平面向量及其应用 6.2",
+    "type": "reasoning",
+    "description": "知道非零向量 b 与 a 共线，当且仅当存在实数 λ 使 b=λa。",
+    "mastery_criteria": [
+      "能判断一个向量是否为另一个的实数倍",
+      "能求出这个倍数"
+    ],
+    "diagnostic_question": {
+      "question": "向量 (2，4) 是 (1，2) 的多少倍？",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.02",
+        "confidence": "inferred",
+        "note": "共线定理是数乘的判定用法。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h085",
+    "name": "平面向量基本定理",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第六章 平面向量及其应用 6.3",
+    "type": "conceptual",
+    "description": "知道不共线的两个向量可以作基底，平面内任一向量都能唯一分解到这组基底上。",
+    "mastery_criteria": [
+      "能说出基底必须不共线",
+      "能把向量写成两个不共线向量的线性组合"
+    ],
+    "diagnostic_question": {
+      "question": "作为平面向量基底的两个向量必须？",
+      "answer": "不共线"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.03",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h086",
+    "name": "向量的坐标表示",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第六章 平面向量及其应用 6.3",
+    "type": "procedural",
+    "description": "会在平面直角坐标系里用起点和终点的坐标表示向量。",
+    "mastery_criteria": [
+      "能由起点和终点写出向量坐标",
+      "能说出坐标等于终点坐标减起点坐标"
+    ],
+    "diagnostic_question": {
+      "question": "起点 (1，2)，终点 (4，6)。这个向量的横坐标是多少？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.03",
+        "confidence": "inferred",
+        "note": "坐标表示是基本定理在正交基底下的写法。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h087",
+    "name": "坐标运算",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第六章 平面向量及其应用 6.3",
+    "type": "procedural",
+    "description": "会用坐标做加法、减法和数乘。",
+    "mastery_criteria": [
+      "能对坐标分别进行加减",
+      "能求线性组合的坐标"
+    ],
+    "diagnostic_question": {
+      "question": "a=(2，−1)，b=(1，4)。2a+b 的横坐标是多少？",
+      "answer": "5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.03",
+        "confidence": "inferred",
+        "note": "坐标运算是线性运算在坐标下的形式。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h088",
+    "name": "向量数量积",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第六章 平面向量及其应用 6.4",
+    "type": "procedural",
+    "description": "知道 a·b=|a||b|cosθ，也会用坐标计算 x1x2+y1y2。",
+    "mastery_criteria": [
+      "能用坐标求数量积",
+      "知道数量积是一个数"
+    ],
+    "diagnostic_question": {
+      "question": "求 (1，2)·(3，4)。",
+      "answer": "11"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.04",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h089",
+    "name": "数量积的运算律",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第六章 平面向量及其应用 6.4",
+    "type": "procedural",
+    "description": "会用分配律把数量积拆开，并知道 a·a 等于模的平方。",
+    "mastery_criteria": [
+      "能计算 a·a",
+      "能用分配律求 (a+b)·c"
+    ],
+    "diagnostic_question": {
+      "question": "a=(3，4)。|a|²=a·a，|a| 是多少？",
+      "answer": "5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.04",
+        "confidence": "inferred",
+        "note": "运算律是数量积定义之后的计算规则。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h090",
+    "name": "向量的模与夹角",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第六章 平面向量及其应用 6.4",
+    "type": "procedural",
+    "description": "能由坐标求模，并判断两个向量是否垂直。",
+    "mastery_criteria": [
+      "能用勾股定理求模",
+      "知道数量积为 0 时垂直"
+    ],
+    "diagnostic_question": {
+      "question": "求向量 (3，4) 的模。",
+      "answer": "5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.04",
+        "confidence": "inferred",
+        "note": "模和夹角是数量积的几何意义。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h091",
+    "name": "余弦定理",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第六章 平面向量及其应用 6.4",
+    "type": "procedural",
+    "description": "会用余弦定理求第三边的平方，已知两边及其夹角的余弦。",
+    "mastery_criteria": [
+      "能写出余弦定理",
+      "能在 cos 为 0、1 或 1/2 时算出第三边的平方"
+    ],
+    "diagnostic_question": {
+      "question": "两边为 2 和 3，夹角的余弦是 1/2。第三边的平方是多少？",
+      "answer": "7"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.05",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h092",
+    "name": "正弦定理",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第六章 平面向量及其应用 6.4",
+    "type": "procedural",
+    "description": "会用 a/sinA=2R 在特殊角下求边或直径。",
+    "mastery_criteria": [
+      "能在 sin 为 1 或 1/2 时使用正弦定理",
+      "能说出正弦定理与外接圆直径的关系"
+    ],
+    "diagnostic_question": {
+      "question": "a=2，A=30°，sin30°=1/2。a/sinA 等于多少？",
+      "answer": "4"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.05",
+        "confidence": "inferred",
+        "note": "正弦定理和余弦定理一起用于解三角形。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h093",
+    "name": "解三角形",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第六章 平面向量及其应用 6.4",
+    "type": "application",
+    "description": "能选择正弦或余弦定理，求出三角形中未知的边或角的相关数值。",
+    "mastery_criteria": [
+      "能判断该用正弦还是余弦",
+      "能在直角三角形中求出第三边"
+    ],
+    "diagnostic_question": {
+      "question": "三角形两边为 6 和 8，夹角 90°。第三边是多少？",
+      "answer": "10"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.05",
+        "confidence": "inferred",
+        "note": "解三角形是正余弦定理的综合应用。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h094",
+    "name": "解三角形的实际应用",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第六章 平面向量及其应用 6.4",
+    "type": "application",
+    "description": "能把简单的测量问题归结为求三角形的边或角。",
+    "mastery_criteria": [
+      "能指出测量问题里的已知边角",
+      "能在直角情形下求距离"
+    ],
+    "diagnostic_question": {
+      "question": "船从岸边垂直驶出 12 千米，再沿垂直方向驶 5 千米。离出发点的直线距离是多少千米？",
+      "answer": "13"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.05",
+        "confidence": "inferred",
+        "note": "测量是解三角形的典型应用。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h095",
+    "name": "向量方法研究图形",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第六章 平面向量及其应用 6.4",
+    "type": "reasoning",
+    "description": "会用向量的模和数量积说明垂直、长度等简单几何事实。",
+    "mastery_criteria": [
+      "能用数量积判断垂直",
+      "能用模比较长度"
+    ],
+    "diagnostic_question": {
+      "question": "平行四边形邻边向量为 (2，1) 和 (1，−2)。它们的数量积是多少？",
+      "answer": "0"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.05",
+        "confidence": "inferred",
+        "note": "用向量研究图形是正余弦定理之外的向量应用。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h096",
+    "name": "用向量研究三角形",
+    "domain": "综合与实践",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 数学探究 用向量研究三角形",
+    "type": "modeling",
+    "description": "能按探究步骤用向量重写三角形的边角关系，并计算一个具体例子。",
+    "mastery_criteria": [
+      "能说出探究要有猜想、推算和检验",
+      "能用向量坐标计算三角形的一条边长"
+    ],
+    "diagnostic_question": {
+      "question": "三角形顶点 A(0，0)、B(4，0)、C(0，3)。边 BC 的长是多少？",
+      "answer": "5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.MI.02",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h097",
+    "name": "复数的概念",
+    "domain": "数与代数",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第七章 复数 7.1",
+    "type": "conceptual",
+    "description": "知道复数 z=a+bi（a、b 为实数，i²=−1），a 是实部，b 是虚部。",
+    "mastery_criteria": [
+      "能指出实部和虚部",
+      "知道实数是虚部为 0 的复数"
+    ],
+    "diagnostic_question": {
+      "question": "复数 3−2i 的实部是多少？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.06",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h098",
+    "name": "复数的几何意义",
+    "domain": "数与代数",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第七章 复数 7.1",
+    "type": "conceptual",
+    "description": "知道复数 a+bi 对应复平面上的点 (a，b)，模是该点到原点的距离。",
+    "mastery_criteria": [
+      "能写出复数对应的点",
+      "能计算可开尽的模"
+    ],
+    "diagnostic_question": {
+      "question": "复数 3+4i 的模是多少？",
+      "answer": "5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.06",
+        "confidence": "inferred",
+        "note": "几何意义和复数概念写在同一条。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h099",
+    "name": "复数相等",
+    "domain": "数与代数",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第七章 复数 7.1",
+    "type": "procedural",
+    "description": "知道 a+bi=c+di 当且仅当 a=c 且 b=d。",
+    "mastery_criteria": [
+      "能分别比较实部和虚部",
+      "能由此求出未知实数"
+    ],
+    "diagnostic_question": {
+      "question": "若 x+2i=3+yi，且 x、y 为实数，则 x 是多少？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.06",
+        "confidence": "inferred",
+        "note": "相等条件是代数形式的基本性质。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h100",
+    "name": "复数加法与减法",
+    "domain": "数与代数",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第七章 复数 7.2",
+    "type": "procedural",
+    "description": "会把实部与实部相加减，虚部与虚部相加减。",
+    "mastery_criteria": [
+      "能计算两个复数的和",
+      "能计算两个复数的差"
+    ],
+    "diagnostic_question": {
+      "question": "(1+2i)+(3+4i) 的实部是多少？",
+      "answer": "4"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.07",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h101",
+    "name": "复数加减的几何意义",
+    "domain": "数与代数",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第七章 复数 7.2",
+    "type": "reasoning",
+    "description": "知道复数加减对应向量加减，和的模不超过模的和。",
+    "mastery_criteria": [
+      "能把复数看成向量后做加减",
+      "能比较和的模与模的和"
+    ],
+    "diagnostic_question": {
+      "question": "复数 3 与 4i 的模分别是 3 和 4。它们的和 3+4i 的模是多少？",
+      "answer": "5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.07",
+        "confidence": "inferred",
+        "note": "几何意义是加减法的向量解释。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h102",
+    "name": "复数乘法",
+    "domain": "数与代数",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第七章 复数 7.2",
+    "type": "procedural",
+    "description": "会按分配律做复数乘法，并把 i² 换成 −1。",
+    "mastery_criteria": [
+      "能计算两个复数的积的实部",
+      "能计算 i 的正整数次幂中可化为 ±1 的情形"
+    ],
+    "diagnostic_question": {
+      "question": "计算 (1+i)(1−i) 的结果。",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.07",
+        "confidence": "inferred",
+        "note": "乘法和加减同属四则运算。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h103",
+    "name": "复数除法",
+    "domain": "数与代数",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第七章 复数 7.2",
+    "type": "procedural",
+    "description": "会用分母的共轭把除法化成乘法，并计算结果的实部或虚部。",
+    "mastery_criteria": [
+      "能指出共轭复数",
+      "能计算分母为实数或可化为整数的商"
+    ],
+    "diagnostic_question": {
+      "question": "(4+6i)/2 的实部是多少？",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.07",
+        "confidence": "inferred",
+        "note": "除法是四则运算的最后一种。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h104",
+    "name": "复数的幂",
+    "domain": "数与代数",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第七章 复数 7.2",
+    "type": "procedural",
+    "description": "会计算 i 的整数次幂，以及实系数下可化为整数的简单幂。",
+    "mastery_criteria": [
+      "能把 i 的幂化成 1、−1、i 或 −i 中的实数情形",
+      "能计算 (a+bi)(a−bi)"
+    ],
+    "diagnostic_question": {
+      "question": "i³=−i。它的虚部是多少？",
+      "answer": "-1"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.07",
+        "confidence": "inferred",
+        "note": "幂是乘法的重复，不涉及三角形式。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h105",
+    "name": "棱柱的结构",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第八章 立体几何初步 8.1",
+    "type": "conceptual",
+    "description": "认识棱柱的底面、侧面、侧棱和顶点，会数简单棱柱的顶点数、棱数和面数。",
+    "mastery_criteria": [
+      "能说出棱柱的构成要素",
+      "能数出直棱柱的顶点、棱和面"
+    ],
+    "diagnostic_question": {
+      "question": "长方体有多少个顶点？",
+      "answer": "8"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.08",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h106",
+    "name": "圆柱、圆锥与球",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第八章 立体几何初步 8.1",
+    "type": "conceptual",
+    "description": "能说出圆柱、圆锥、球的主要元素，并和棱柱区分开。",
+    "mastery_criteria": [
+      "能指出圆柱的母线和高",
+      "能说出球的半径"
+    ],
+    "diagnostic_question": {
+      "question": "圆柱可以看成？",
+      "answer": "矩形绕它的一条边旋转一周"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.08",
+        "confidence": "inferred",
+        "note": "旋转体和棱柱同属基本立体图形。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h107",
+    "name": "简单组合体",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第八章 立体几何初步 8.1",
+    "type": "procedural",
+    "description": "能把简单组合体拆成柱、锥、球，并数出可见的简单个数。",
+    "mastery_criteria": [
+      "能指出组合体由哪些基本几何体组成",
+      "能分别使用各部分的数量"
+    ],
+    "diagnostic_question": {
+      "question": "一个几何体由 1 个圆柱和 1 个圆锥拼成。基本几何体的个数是多少？",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.08",
+        "confidence": "inferred",
+        "note": "组合体是基本立体图形的综合。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h108",
+    "name": "斜二测画法",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第八章 立体几何初步 8.2",
+    "type": "procedural",
+    "description": "知道水平放置的图形在斜二测直观图里，平行于横轴的线段长度不变，平行于纵轴的线段画成一半。",
+    "mastery_criteria": [
+      "能说出哪一个方向的长度不变",
+      "能把平行于纵轴的长度折半"
+    ],
+    "diagnostic_question": {
+      "question": "水平放置的图形中，平行于横轴的线段长 6。直观图上这条线段画成多长？",
+      "answer": "6"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.08",
+        "confidence": "inferred",
+        "note": "斜二测是画直观图的规定。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h109",
+    "name": "水平放置的平面图形直观图",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第八章 立体几何初步 8.2",
+    "type": "procedural",
+    "description": "能根据斜二测规则，计算直观图里已知线段对应的长度。",
+    "mastery_criteria": [
+      "能分别处理横、纵两个方向",
+      "能判断原来平行的线段在直观图中仍平行"
+    ],
+    "diagnostic_question": {
+      "question": "正方形边长为 4，放在水平面上，一条边平行于横轴。这条边在直观图上的长度是多少？",
+      "answer": "4"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.08",
+        "confidence": "inferred",
+        "note": "直观图是斜二测画法的直接练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h110",
+    "name": "简单几何体的表面积",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第八章 立体几何初步 8.3",
+    "type": "procedural",
+    "description": "会计算棱柱、正方体的表面积；圆柱、圆锥在已知底面积或侧面展开数据时能代入。",
+    "mastery_criteria": [
+      "能计算正方体和长方体的表面积",
+      "能把曲面展开后的数据代进公式"
+    ],
+    "diagnostic_question": {
+      "question": "棱长为 3 的正方体，表面积是多少？",
+      "answer": "54"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.09",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h111",
+    "name": "简单几何体的体积",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第八章 立体几何初步 8.3",
+    "type": "procedural",
+    "description": "会用底面积乘高求柱体体积，并用三分之一求锥体体积。",
+    "mastery_criteria": [
+      "能计算棱柱和已知底面积的圆柱体积",
+      "能计算已知底面积和高的圆锥体积"
+    ],
+    "diagnostic_question": {
+      "question": "底面积为 20、高为 4 的棱柱，体积是多少？",
+      "answer": "80"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.09",
+        "confidence": "inferred",
+        "note": "体积和表面积同属简单几何体的度量。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h112",
+    "name": "球的体积与表面积",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第八章 立体几何初步 8.3",
+    "type": "reasoning",
+    "description": "知道球的体积与半径的立方成正比，表面积与半径的平方成正比，会比较不同半径的倍数。",
+    "mastery_criteria": [
+      "能由半径比求体积比",
+      "能由半径比求表面积比"
+    ],
+    "diagnostic_question": {
+      "question": "半径变为原来的 2 倍时，球的体积变为原来的多少倍？",
+      "answer": "8"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.09",
+        "confidence": "inferred",
+        "note": "球的度量放在简单几何体的体积和表面积里。公式中的 π 不在数值题里展开。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h113",
+    "name": "平面的基本事实",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第八章 立体几何初步 8.4",
+    "type": "conceptual",
+    "description": "了解确定平面的基本事实，以及两个平面相交的基本事实。",
+    "mastery_criteria": [
+      "能说出过不共线三点确定一个平面",
+      "能说出两平面相交成一条直线"
+    ],
+    "diagnostic_question": {
+      "question": "经过不在同一条直线上的三点，可以确定几个平面？",
+      "answer": "有且只有一个"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.10",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h114",
+    "name": "空间直线的位置关系",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第八章 立体几何初步 8.4",
+    "type": "conceptual",
+    "description": "能区分相交、平行和异面，知道异面直线既不平行也不相交。",
+    "mastery_criteria": [
+      "能判断两条直线是否共面",
+      "能说出异面直线的含义"
+    ],
+    "diagnostic_question": {
+      "question": "异面直线是指？",
+      "answer": "不同在任何一个平面内的两条直线"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.10",
+        "confidence": "inferred",
+        "note": "空间直线的位置关系是基本事实之后的分类。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h115",
+    "name": "直线与平面、平面与平面的位置",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第八章 立体几何初步 8.4",
+    "type": "conceptual",
+    "description": "能区分线面相交、线面平行、线在面内，以及面面平行、面面相交。",
+    "mastery_criteria": [
+      "能说出直线与平面的三种位置",
+      "能说平面与平面要么平行要么相交"
+    ],
+    "diagnostic_question": {
+      "question": "直线与平面的位置关系有几种？",
+      "answer": "在平面内、平行、相交，共三种"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.10",
+        "confidence": "inferred",
+        "note": "线面、面面位置和空间直线放在同一节。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h116",
+    "name": "直线与平面平行的判定",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第八章 立体几何初步 8.5",
+    "type": "reasoning",
+    "description": "会用「平面外一条直线平行于平面内一条直线」判定线面平行。",
+    "mastery_criteria": [
+      "能说出判定定理的条件",
+      "能指出缺了哪一条条件就不能用"
+    ],
+    "diagnostic_question": {
+      "question": "直线 a 不在平面内，且 a 平行于平面内的直线 b。则？",
+      "answer": "a 与这个平面平行"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.11",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h117",
+    "name": "直线与平面平行的性质",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第八章 立体几何初步 8.5",
+    "type": "reasoning",
+    "description": "知道过这条直线的平面若与已知平面相交，则交线与该直线平行。",
+    "mastery_criteria": [
+      "能说出交线与已知直线平行",
+      "能区分判定和性质"
+    ],
+    "diagnostic_question": {
+      "question": "直线 a 平行于平面 α。过 a 的平面与 α 交于 b。则？",
+      "answer": "a 平行于 b"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.11",
+        "confidence": "inferred",
+        "note": "性质定理与判定定理成对出现。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h118",
+    "name": "平面与平面平行的判定",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第八章 立体几何初步 8.5",
+    "type": "reasoning",
+    "description": "会用「一个平面内的两条相交直线都平行于另一个平面」判定面面平行。",
+    "mastery_criteria": [
+      "能说出需要两条相交直线",
+      "能说明一条直线不够"
+    ],
+    "diagnostic_question": {
+      "question": "平面 α 内两条相交直线都平行于平面 β。则？",
+      "answer": "α 平行于 β"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.11",
+        "confidence": "inferred",
+        "note": "面面平行的判定在线面平行之后。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h119",
+    "name": "平面与平面平行的性质",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第八章 立体几何初步 8.5",
+    "type": "reasoning",
+    "description": "知道两个平行平面被第三个平面所截，两条交线互相平行。",
+    "mastery_criteria": [
+      "能说出两条交线平行",
+      "能在长方体中指出这样的交线"
+    ],
+    "diagnostic_question": {
+      "question": "两个平行平面被第三个平面所截，得到的两条交线？",
+      "answer": "互相平行"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.11",
+        "confidence": "inferred",
+        "note": "面面平行的性质与判定成对。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h120",
+    "name": "直线与平面垂直的判定",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第八章 立体几何初步 8.6",
+    "type": "reasoning",
+    "description": "会用「垂直于平面内两条相交直线」判定直线与平面垂直。",
+    "mastery_criteria": [
+      "能说出必须垂直于两条相交直线",
+      "能说明只垂直于一条不够"
+    ],
+    "diagnostic_question": {
+      "question": "直线 l 垂直于平面内两条相交直线。则？",
+      "answer": "l 垂直于这个平面"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.12",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h121",
+    "name": "直线与平面垂直的性质",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第八章 立体几何初步 8.6",
+    "type": "reasoning",
+    "description": "知道垂直于同一平面的两条直线互相平行。",
+    "mastery_criteria": [
+      "能由线面垂直得到两条直线平行",
+      "能在长方体里举出例子"
+    ],
+    "diagnostic_question": {
+      "question": "垂直于同一个平面的两条直线？",
+      "answer": "互相平行"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.12",
+        "confidence": "inferred",
+        "note": "性质定理与判定定理成对。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h122",
+    "name": "平面与平面垂直",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第八章 立体几何初步 8.6",
+    "type": "reasoning",
+    "description": "知道若一个平面过另一个平面的垂线，则这两个平面垂直。不计算二面角的大小。",
+    "mastery_criteria": [
+      "能用平面的垂线判定面面垂直",
+      "知道本图谱不要求计算二面角的度数"
+    ],
+    "diagnostic_question": {
+      "question": "一个平面经过另一个平面的一条垂线，则这两个平面？",
+      "answer": "互相垂直"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.12",
+        "confidence": "inferred",
+        "note": "面面垂直用线面垂直来判定。二面角的度量属选择性必修，这里不计算。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h123",
+    "name": "获取数据的途径",
+    "domain": "统计与概率",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第九章 统计 9.1",
+    "type": "conceptual",
+    "description": "知道可以通过调查、试验、观察和资料获取数据，并能按问题选择途径。",
+    "mastery_criteria": [
+      "能说出常见的数据来源",
+      "能判断一个问题适合普查还是抽样"
+    ],
+    "diagnostic_question": {
+      "question": "想知道一批灯泡的使用寿命，又不能把灯泡全部用坏。更合适的是？",
+      "answer": "抽样试验"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.01",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h124",
+    "name": "简单随机抽样",
+    "domain": "统计与概率",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第九章 统计 9.1",
+    "type": "procedural",
+    "description": "会用抽签或随机数做简单随机抽样，知道每个个体被抽到的机会相同。",
+    "mastery_criteria": [
+      "能计算每个人被抽到的概率",
+      "能说出简单随机抽样的特点"
+    ],
+    "diagnostic_question": {
+      "question": "总体有 20 人，用简单随机抽样抽 1 人。每个人被抽到的概率是多少？",
+      "answer": "1/20"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.02",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h125",
+    "name": "分层随机抽样",
+    "domain": "统计与概率",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第九章 统计 9.1",
+    "type": "procedural",
+    "description": "能按各层的个体数比例分配样本。",
+    "mastery_criteria": [
+      "能计算每一层应抽的人数",
+      "能把各层人数加总核对样本量"
+    ],
+    "diagnostic_question": {
+      "question": "甲层 40 人、乙层 60 人，按 1/10 分层抽样。甲层应抽多少人？",
+      "answer": "4"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.02",
+        "confidence": "inferred",
+        "note": "分层抽样和简单随机抽样同属随机抽样。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h126",
+    "name": "抽样方法的选择",
+    "domain": "统计与概率",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第九章 统计 9.1",
+    "type": "reasoning",
+    "description": "能根据总体是否分层，选择简单随机抽样或分层抽样。",
+    "mastery_criteria": [
+      "能指出比例抽样是分层",
+      "能说明样本不是总体本身"
+    ],
+    "diagnostic_question": {
+      "question": "学校三个年级人数差很多，要了解全校每天的作业时间。更合适的是？",
+      "answer": "分层随机抽样"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.02",
+        "confidence": "inferred",
+        "note": "选择方法是两种抽样都会之后的判断。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h127",
+    "name": "频率分布直方图",
+    "domain": "统计与概率",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第九章 统计 9.2",
+    "type": "procedural",
+    "description": "知道小长方形的面积表示频率，高是频率除以组距，各面积之和为 1。",
+    "mastery_criteria": [
+      "能由频率、组距和样本容量求频数",
+      "能检验各频率之和"
+    ],
+    "diagnostic_question": {
+      "question": "组距为 5，频率除以组距等于 0.04，样本容量为 50。这一组的频数是多少？",
+      "answer": "10"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.03",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h128",
+    "name": "从直方图读取信息",
+    "domain": "统计与概率",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第九章 统计 9.2",
+    "type": "procedural",
+    "description": "能从频率和组距还原频数，并比较哪一组更多。",
+    "mastery_criteria": [
+      "能计算指定组的频数",
+      "能比较两组频率"
+    ],
+    "diagnostic_question": {
+      "question": "样本容量 40，某组频率 0.25。这一组的频数是多少？",
+      "answer": "10"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.03",
+        "confidence": "inferred",
+        "note": "读图是频率分布直方图的应用。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h129",
+    "name": "百分位数",
+    "domain": "统计与概率",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第九章 统计 9.2",
+    "type": "procedural",
+    "description": "会按人教练习中常见的做法求百分位数：数据从小到大排好，i=n×p%。i 不是整数时取第 ceil(i) 个数；i 是整数时取第 i 个和第 i+1 个的平均数。",
+    "mastery_criteria": [
+      "能判断 i 是否为整数",
+      "能按规则取出对应的数"
+    ],
+    "diagnostic_question": {
+      "question": "数据 1，2，3，4 已按从小到大排列，n=4。求第 50 百分位数。规则：i=n×50%；i 是整数时取第 i 个和第 i+1 个的平均数。",
+      "answer": "5/2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.04",
+        "confidence": "inferred",
+        "note": "百分位数是用样本估计总体时的一种数字特征。算法按常见教材叙述写在题干里，未与纸质课本逐页核对。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h130",
+    "name": "用样本估计总体的中心",
+    "domain": "统计与概率",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第九章 统计 9.2",
+    "type": "procedural",
+    "description": "会计算样本平均数和中位数，并用来估计总体的中心。",
+    "mastery_criteria": [
+      "能求一组数据的平均数",
+      "能求中位数"
+    ],
+    "diagnostic_question": {
+      "question": "样本 2，4，6，8 的平均数是多少？",
+      "answer": "5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.04",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h131",
+    "name": "用样本估计总体的离散程度",
+    "domain": "统计与概率",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第九章 统计 9.2",
+    "type": "procedural",
+    "description": "会用极差和总体方差（除以 n）比较数据的波动。题干若说方差，都指除以 n。",
+    "mastery_criteria": [
+      "能计算极差",
+      "能计算除以 n 的方差"
+    ],
+    "diagnostic_question": {
+      "question": "数据 2，4，4，6 的极差是多少？",
+      "answer": "4"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.04",
+        "confidence": "inferred",
+        "note": "离散程度和中心一起用来估计总体。方差约定与初中样本方差那一题相同，除以 n。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h132",
+    "name": "统计图表的选择",
+    "domain": "统计与概率",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第九章 统计 9.2",
+    "type": "reasoning",
+    "description": "能根据问题选择条形图、折线图、扇形图或直方图。",
+    "mastery_criteria": [
+      "能说出扇形图适合看占比",
+      "能说出折线图适合看变化"
+    ],
+    "diagnostic_question": {
+      "question": "要看各部分占总体的百分比，更合适的是？",
+      "answer": "扇形图"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.04",
+        "confidence": "inferred",
+        "note": "图表是用样本估计总体时的表达方式。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h133",
+    "name": "统计案例",
+    "domain": "统计与概率",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第九章 统计 9.3",
+    "type": "application",
+    "description": "能在简单案例中比较两组样本的平均数，并说明结论是估计。",
+    "mastery_criteria": [
+      "能计算并比较两组平均数",
+      "能说出样本结论不能当成绝对事实"
+    ],
+    "diagnostic_question": {
+      "question": "甲组 4 人的体重数据 60，62，64，66。平均数是多少？",
+      "answer": "63"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.04",
+        "confidence": "inferred",
+        "note": "统计案例是用样本估计总体的综合。人教案例「公司员工的肥胖情况」等待核，这里只用结构相同的小例子。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h134",
+    "name": "样本点与样本空间",
+    "domain": "统计与概率",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第十章 概率 10.1",
+    "type": "conceptual",
+    "description": "知道一次试验的每个可能结果是样本点，全体样本点组成样本空间。",
+    "mastery_criteria": [
+      "能列出有限试验的全部样本点",
+      "能说出样本空间用集合表示"
+    ],
+    "diagnostic_question": {
+      "question": "抛一枚均匀硬币 2 次，样本点有多少个？",
+      "answer": "4"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.05",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h135",
+    "name": "随机事件",
+    "domain": "统计与概率",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第十章 概率 10.1",
+    "type": "conceptual",
+    "description": "知道事件是样本空间的子集，必然事件是样本空间本身，不可能事件是空集。",
+    "mastery_criteria": [
+      "能判断一个事件是不是必然或不可能",
+      "能说出事件的概率在 0 和 1 之间"
+    ],
+    "diagnostic_question": {
+      "question": "必然事件的概率是？",
+      "answer": "1"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.05",
+        "confidence": "inferred",
+        "note": "事件是样本空间上的子集。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h136",
+    "name": "事件的关系与运算",
+    "domain": "统计与概率",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第十章 概率 10.1",
+    "type": "procedural",
+    "description": "会用交、并、补表示事件同时发生、至少一个发生和对立事件。",
+    "mastery_criteria": [
+      "能说出并事件和交事件的含义",
+      "能计算有限样本空间中对立事件的样本点数"
+    ],
+    "diagnostic_question": {
+      "question": "样本空间有 8 个样本点，事件 A 有 3 个。A 的对立事件有几个样本点？",
+      "answer": "5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.05",
+        "confidence": "inferred",
+        "note": "事件运算就是集合运算。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h137",
+    "name": "古典概型",
+    "domain": "统计与概率",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第十章 概率 10.1",
+    "type": "procedural",
+    "description": "在有限且等可能的样本空间里，用事件的样本点数除以总数求概率。",
+    "mastery_criteria": [
+      "能判断是否等可能",
+      "能用组合数计算抽取的概率"
+    ],
+    "diagnostic_question": {
+      "question": "袋中 5 红 3 蓝，共 8 个球，随机摸 2 个。摸到 2 个红球的概率是多少？",
+      "answer": "5/14"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.06",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h138",
+    "name": "概率的加法",
+    "domain": "统计与概率",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第十章 概率 10.1",
+    "type": "procedural",
+    "description": "会用互斥事件的加法：P(A∪B)=P(A)+P(B)。也会用容斥处理不互斥的情形。",
+    "mastery_criteria": [
+      "能判断两个事件是否互斥",
+      "能计算互斥事件的并的概率"
+    ],
+    "diagnostic_question": {
+      "question": "A、B 互斥，P(A)=1/4，P(B)=1/5。P(A∪B) 是多少？",
+      "answer": "9/20"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.06",
+        "confidence": "inferred",
+        "note": "加法公式是古典概型和概率性质的计算。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h139",
+    "name": "互斥与对立",
+    "domain": "统计与概率",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第十章 概率 10.1",
+    "type": "reasoning",
+    "description": "能区分互斥和对立：对立一定互斥，互斥不一定对立。",
+    "mastery_criteria": [
+      "能判断一对事件是互斥还是对立",
+      "能计算对立事件的概率"
+    ],
+    "diagnostic_question": {
+      "question": "对立一定互斥吗？",
+      "answer": "一定"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.06",
+        "confidence": "inferred",
+        "note": "互斥与对立是概率加法里要分清的关系。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h140",
+    "name": "事件的相互独立",
+    "domain": "统计与概率",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第十章 概率 10.2",
+    "type": "conceptual",
+    "description": "知道若 P(A∩B)=P(A)P(B)，则 A 与 B 相互独立。独立不是互斥。",
+    "mastery_criteria": [
+      "能用乘法计算两个独立事件同时发生的概率",
+      "能说出独立和互斥不同"
+    ],
+    "diagnostic_question": {
+      "question": "A 与 B 相互独立，P(A)=1/2，P(B)=1/3。P(A∩B) 是多少？",
+      "answer": "1/6"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.07",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h141",
+    "name": "独立事件的概率计算",
+    "domain": "统计与概率",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第十章 概率 10.2",
+    "type": "procedural",
+    "description": "会计算多次独立重复中「都发生」或「至少一次」的概率。条件概率不在必修范围。",
+    "mastery_criteria": [
+      "能计算 n 次独立都发生的概率",
+      "能用对立事件求至少一次"
+    ],
+    "diagnostic_question": {
+      "question": "每次命中概率为 1/2，三次独立射击都命中的概率是多少？",
+      "answer": "1/8"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.07",
+        "confidence": "inferred",
+        "note": "计算是独立性定义的应用。不引入条件概率。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h142",
+    "name": "频率与概率",
+    "domain": "统计与概率",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第十章 概率 10.3",
+    "type": "conceptual",
+    "description": "知道频率会在试验次数增多时稳定到概率附近，频率本身不是概率。",
+    "mastery_criteria": [
+      "能计算一批试验的频率",
+      "能说出频率和概率的区别"
+    ],
+    "diagnostic_question": {
+      "question": "做了 200 次试验，事件出现 40 次。频率是多少？",
+      "answer": "1/5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.08",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h143",
+    "name": "用频率估计概率",
+    "domain": "统计与概率",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "高二 第十章 概率 10.3",
+    "type": "application",
+    "description": "能用大量重复试验的频率估计概率，并比较哪一个估计用的试验更多。",
+    "mastery_criteria": [
+      "能选出试验次数更多的估计",
+      "能计算频率作为估计值"
+    ],
+    "diagnostic_question": {
+      "question": "1000 次试验中事件出现 320 次。用频率估计的概率是多少？",
+      "answer": "8/25"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.08",
+        "confidence": "inferred",
+        "note": "用频率估计概率是频率稳定性的用途。待核。"
+      }
+    ]
   }
 ]

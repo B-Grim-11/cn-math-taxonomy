@@ -31,12 +31,15 @@ MAX_STANDARDS_PER_TOPIC = 3
 MAX_WARNINGS_LISTED = 30
 STD_DOMAIN_CODES = {"NA": "数与代数", "GG": "图形与几何", "SP": "统计与概率", "IP": "综合与实践"}
 STD_ID_RE = re.compile(r"^cms-2022:([1-4])\.(NA|GG|SP|IP)\.(\d{2,})$")
+# 高中必修：cms-2017:H.<模块>.NN。模块不是领域代码（几何与代数横跨数与代数和图形与几何）。
+HS_STD_ID_RE = re.compile(r"^cms-2017:H\.(PRE|FUN|GA|PS|MI)\.(\d{2,})$")
+HS_STD_MODULES = ("PRE", "FUN", "GA", "PS", "MI")
 CORE_FIELDS = ["id", "name", "domain", "grade", "semester", "chapter", "type",
                "description", "mastery_criteria", "diagnostic_question", "external"]
 EXT_FIELDS = ["id", "name", "domain", "grade", "description", "external"]
-# cnm_001 初中正式；cnm_p001 小学正式。cnm_ext_* 已迁到 data/id-aliases.json，不再作为节点。
-ID_RE = re.compile(r"^cnm_(p)?\d{3,}$")
-GRADES = (1, 2, 3, 4, 5, 6, 7, 8, 9)
+# cnm_001 初中正式；cnm_p001 小学正式；cnm_h001 高中正式。cnm_ext_* 已迁到 data/id-aliases.json。
+ID_RE = re.compile(r"^cnm_(p|h)?\d{3,}$")
+GRADES = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11)
 ALIASES_PATH = os.path.join(ROOT, "data", "id-aliases.json")
 ALIAS_ID_RE = re.compile(r"^cnm_ext_\d{3,}$")
 
@@ -103,7 +106,7 @@ def check_topics(topics):
                 err("%s 外部节点 grade 必须为 \"小学\"" % where)
             continue
         if t.get("grade") not in GRADES:
-            err("%s grade 必须是 1–9 的整数" % where)
+            err("%s grade 必须是 1–11 的整数（10 必修第一册，11 必修第二册）" % where)
         if t.get("semester") not in ("上", "下"):
             err("%s semester 必须是 上/下" % where)
         if t.get("type") not in TYPES:
@@ -206,15 +209,24 @@ def report(ids, prereqs, dependents, n_hard, n_soft):
         print("  %-8s %d" % (k, v))
     print("\n按 grade+semester（正式知识点）：")
     zh = {1: "一", 2: "二", 3: "三", 4: "四", 5: "五", 6: "六", 7: "七", 8: "八", 9: "九"}
-    c = Counter("%s%s" % (zh.get(t["grade"], t["grade"]), t["semester"]) for t in core)
+
+    def vol_label(t):
+        if t["grade"] == 10:
+            return "高一必修一"
+        if t["grade"] == 11:
+            return "高二必修二"
+        return "%s%s" % (zh.get(t["grade"], t["grade"]), t["semester"])
+
+    c = Counter(vol_label(t) for t in core)
     order = ["一上", "一下", "二上", "二下", "三上", "三下", "四上", "四下", "五上", "五下", "六上", "六下",
-             "七上", "七下", "八上", "八下", "九上", "九下"]
+             "七上", "七下", "八上", "八下", "九上", "九下", "高一必修一", "高二必修二"]
     for k in order:
-        if c.get(k, 0) or k[0] in "七八九":
-            print("  %-4s %d" % (k, c.get(k, 0)))
+        if c.get(k, 0) or k[0] in "七八九" or k.startswith("高"):
+            print("  %-8s %d" % (k, c.get(k, 0)))
     n_pri = sum(1 for t in core if isinstance(t.get("grade"), int) and t["grade"] <= 6)
-    n_jun = sum(1 for t in core if isinstance(t.get("grade"), int) and t["grade"] >= 7)
-    print("其中小学（1–6 年级）%d，初中（7–9 年级）%d" % (n_pri, n_jun))
+    n_jun = sum(1 for t in core if isinstance(t.get("grade"), int) and 7 <= t["grade"] <= 9)
+    n_sen = sum(1 for t in core if isinstance(t.get("grade"), int) and t["grade"] >= 10)
+    print("其中小学（1–6 年级）%d，初中（7–9 年级）%d，高中（10–11，必修）%d" % (n_pri, n_jun, n_sen))
     print("\n按 type（正式知识点）：")
     for k, v in sorted(Counter(t["type"] for t in core).items(), key=lambda x: -x[1]):
         print("  %-12s %d" % (k, v))
@@ -263,16 +275,27 @@ def check_standards_file(std):
             err("课标条目 id 重复：%s" % sid)
         items_by_id[sid] = it
         m = STD_ID_RE.match(sid)
-        if not m:
-            err("%s id 格式不合法（应为 cms-2022:<学段>.<NA|GG|SP|IP>.<NN>）" % where)
-        else:
+        hm = HS_STD_ID_RE.match(sid)
+        if m:
             stage, code, num = m.group(1), m.group(2), int(m.group(3))
             if it.get("domain") != STD_DOMAIN_CODES[code]:
                 err("%s domain 与 id 中的领域代码不一致：%r" % (where, it.get("domain")))
-            key = (stage, code)
+            key = ("2022", stage, code)
             if num != last.get(key, 0) + 1:
                 err("%s 编号在域内不连续（上一条为 %02d）" % (where, last.get(key, 0)))
             last[key] = num
+        elif hm:
+            code, num = hm.group(1), int(hm.group(2))
+            if it.get("domain") not in DOMAINS:
+                err("%s domain 取值非法：%r" % (where, it.get("domain")))
+            key = ("2017", code)
+            if num != last.get(key, 0) + 1:
+                err("%s 编号在模块内不连续（上一条为 %02d）" % (where, last.get(key, 0)))
+            last[key] = num
+            if it.get("verbatim") is not False:
+                err("%s 高中条目必须显式标 verbatim:false（原文未逐页核对）" % where)
+        else:
+            err("%s id 格式不合法（应为 cms-2022:<学段>.<NA|GG|SP|IP>.<NN> 或 cms-2017:H.<PRE|FUN|GA|PS|MI>.<NN>）" % where)
         for f in ("domain", "section", "text"):
             if not nonempty_str(it.get(f)):
                 err("%s 字段 %s 缺失或为空" % (where, f))
@@ -360,7 +383,7 @@ Q_DIFFICULTIES = ("basic", "standard", "advanced")
 Q_TYPES = ("numeric", "choice", "short", "self")
 Q_FIELDS = {"id", "topicId", "difficulty", "type", "prompt", "answer", "choices", "accept",
             "explanation", "verify", "unordered", "fixed_from_source"}
-Q_ID_RE = re.compile(r"^(cnm_(?:p)?\d{3,})_q([1-9]\d*)$")
+Q_ID_RE = re.compile(r"^(cnm_(?:p|h)?\d{3,})_q([1-9]\d*)$")
 NUM_RE = re.compile(r"^-?\d+(?:\.\d+)?(?:/\d+(?:\.\d+)?)?$")
 MIN_QUESTIONS_PER_TOPIC = 3
 MIN_AUTO_SHARE = 0.60
