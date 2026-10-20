@@ -146,7 +146,7 @@
     "topicId": "cnm_h002",
     "difficulty": "standard",
     "type": "choice",
-    "prompt": "同一个元素能否在一个集合里出现两次？",
+    "prompt": "集合 {1，2，2} 里，元素 2 写了两次。按互异性，它能否算成两个不同的元素？",
     "choices": [
       {
         "key": "A",
@@ -166,7 +166,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "集合中的元素互异，重复写出的对象只算一个元素。",
+    "explanation": "集合中的元素互异。{1，2，2} 与 {1，2} 是同一个集合，重复写出的 2 只算一个元素。",
     "verify": "\"不能，元素互不相同\""
   },
   {
@@ -702,9 +702,9 @@
     "topicId": "cnm_h011",
     "difficulty": "basic",
     "type": "numeric",
-    "prompt": "上题中，A∪B 在全集里的补集有几个元素？",
+    "prompt": "全集有 8 个元素，A 有 5 个，B 有 4 个，A∩B 有 2 个。A∪B 在全集里的补集有几个元素？",
     "answer": "1",
-    "explanation": "全集 8 个，并集 7 个，补集 8−7=1。",
+    "explanation": "并集有 5+4−2=7 个元素，补集是全集去掉并集，8−7=1。",
     "verify": "8-(5+4-2)"
   },
   {
@@ -1965,29 +1965,11 @@
     "id": "cnm_h030_q2",
     "topicId": "cnm_h030",
     "difficulty": "basic",
-    "type": "choice",
-    "prompt": "函数的表示方法有几种是课标要求了解的？",
-    "choices": [
-      {
-        "key": "A",
-        "text": "解析式、图象、列表三种"
-      },
-      {
-        "key": "B",
-        "text": "只有解析式"
-      },
-      {
-        "key": "C",
-        "text": "只有图象"
-      },
-      {
-        "key": "D",
-        "text": "解析式和方程两种"
-      }
-    ],
-    "answer": "A",
-    "explanation": "同一个函数可以根据需要用解析式、图象或列表表示。",
-    "verify": "\"解析式、图象、列表三种\""
+    "type": "numeric",
+    "prompt": "函数用列表表示：f(1)=2，f(2)=5，f(4)=11。求 f(1)+f(4)。",
+    "answer": "13",
+    "explanation": "列表法直接读出对应值，f(1)=2，f(4)=11，和是 13。",
+    "verify": "2+11"
   },
   {
     "id": "cnm_h030_q3",
@@ -2042,9 +2024,9 @@
     "topicId": "cnm_h031",
     "difficulty": "basic",
     "type": "numeric",
-    "prompt": "同一分段函数，求 f(3)。",
+    "prompt": "x<0 时 f(x)=x+1，x≥0 时 f(x)=2x。求 f(3)。",
     "answer": "6",
-    "explanation": "3≥0，用第二段，2×3=6。",
+    "explanation": "3≥0，用第二段 f(x)=2x，2×3=6。",
     "verify": "2*3"
   },
   {
@@ -2252,10 +2234,10 @@
     "topicId": "cnm_h034",
     "difficulty": "basic",
     "type": "numeric",
-    "prompt": "同一函数在 [−1，2] 上的最小值是多少？",
+    "prompt": "f(x)=x²，x∈[−1，2]。最小值是多少？",
     "answer": "0",
-    "explanation": "顶点 x=0 在区间内，最小值是 0。",
-    "verify": "0"
+    "explanation": "顶点 x=0 在区间 [−1，2] 内，f(0)=0；端点值是 1 和 4。最小值是 0。",
+    "verify": "min([(-1)**2, 0**2, 2**2])"
   },
   {
     "id": "cnm_h034_q3",
@@ -4908,9 +4890,9 @@
     "topicId": "cnm_h077",
     "difficulty": "basic",
     "type": "numeric",
-    "prompt": "上题中，平衡位置是多少？",
+    "prompt": "一个正弦型函数最大值是 5，最小值是 −1。平衡位置是多少？",
     "answer": "2",
-    "explanation": "最大值与最小值的平均是 (5−1)/2=2。",
+    "explanation": "平衡位置是最大值与最小值的平均，(5+(−1))/2=2。",
     "verify": "(5+(-1))/2"
   },
   {
@@ -4966,9 +4948,9 @@
     "topicId": "cnm_h078",
     "difficulty": "basic",
     "type": "numeric",
-    "prompt": "同一模型的最低温度是多少？",
+    "prompt": "温度按 y=10+8sin(ωt) 变化。最低温度是多少？",
     "answer": "2",
-    "explanation": "正弦最小是 −1，最低温度是 10−8=2。",
+    "explanation": "正弦的最小值是 −1，最低温度是 10+8×(−1)=10−8=2。",
     "verify": "10-8"
   },
   {
@@ -5212,9 +5194,9 @@
     "topicId": "cnm_h081",
     "difficulty": "basic",
     "type": "numeric",
-    "prompt": "同一对向量的和的纵坐标是多少？",
+    "prompt": "向量 (1，2) 与 (3，4) 的和的纵坐标是多少？",
     "answer": "6",
-    "explanation": "纵坐标 2+4=6。",
+    "explanation": "坐标分别相加，纵坐标 2+4=6。",
     "verify": "2+4"
   },
   {
@@ -5500,7 +5482,7 @@
     "topicId": "cnm_h085",
     "difficulty": "standard",
     "type": "choice",
-    "prompt": "同一组基底下，一个向量的分解？",
+    "prompt": "在基底 e1=(1，0)、e2=(0，1) 下，向量 (3，5) 的分解？",
     "choices": [
       {
         "key": "A",
@@ -5520,7 +5502,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "基本定理保证存在并且唯一。",
+    "explanation": "e1、e2 不共线，可作基底。基本定理保证 (3，5)=3 e1+5 e2 这种分解存在并且唯一。",
     "verify": "\"是唯一的\""
   },
   {
@@ -5596,9 +5578,9 @@
     "topicId": "cnm_h087",
     "difficulty": "basic",
     "type": "numeric",
-    "prompt": "同一对向量，2a+b 的纵坐标是多少？",
+    "prompt": "a=(2，−1)，b=(1，4)。2a+b 的纵坐标是多少？",
     "answer": "2",
-    "explanation": "−2+4=2。",
+    "explanation": "纵坐标是 2×(−1)+4=2。",
     "verify": "2*(-1)+4"
   },
   {
@@ -6101,20 +6083,20 @@
     "topicId": "cnm_h096",
     "difficulty": "basic",
     "type": "numeric",
-    "prompt": "同一三角形中 AB 的长是多少？",
+    "prompt": "三角形顶点 A(0，0)、B(4，0)、C(0，3)。边 AB 的长是多少？",
     "answer": "4",
-    "explanation": "B 在 x 轴上，横坐标差是 4。",
-    "verify": "4"
+    "explanation": "向量 AB=(4，0)，模 √(16+0)=4。",
+    "verify": "isqrt((4-0)**2+(0-0)**2)"
   },
   {
     "id": "cnm_h096_q3",
     "topicId": "cnm_h096",
     "difficulty": "standard",
     "type": "numeric",
-    "prompt": "同一三角形中 AC 的长是多少？",
+    "prompt": "三角形顶点 A(0，0)、B(4，0)、C(0，3)。边 AC 的长是多少？",
     "answer": "3",
-    "explanation": "C 在 y 轴上，纵坐标差是 3。",
-    "verify": "3"
+    "explanation": "向量 AC=(0，3)，模 √(0+9)=3。",
+    "verify": "isqrt((0-0)**2+(3-0)**2)"
   },
   {
     "id": "cnm_h096_q4",
@@ -6351,9 +6333,9 @@
     "topicId": "cnm_h100",
     "difficulty": "basic",
     "type": "numeric",
-    "prompt": "同一和的虚部是多少？",
+    "prompt": "(1+2i)+(3+4i) 的虚部是多少？",
     "answer": "6",
-    "explanation": "虚部 2+4=6。",
+    "explanation": "虚部与虚部相加，2+4=6。",
     "verify": "2+4"
   },
   {
@@ -7968,29 +7950,11 @@
     "id": "cnm_h122_q2",
     "topicId": "cnm_h122",
     "difficulty": "basic",
-    "type": "choice",
-    "prompt": "本知识点是否要求算出二面角的度数？",
-    "choices": [
-      {
-        "key": "A",
-        "text": "不要求"
-      },
-      {
-        "key": "B",
-        "text": "要求用余弦算度数"
-      },
-      {
-        "key": "C",
-        "text": "要求用向量坐标算"
-      },
-      {
-        "key": "D",
-        "text": "只在球里要求"
-      }
-    ],
-    "answer": "A",
-    "explanation": "二面角的度量计算属于选择性必修，必修只判断垂直关系。",
-    "verify": "\"不要求\""
+    "type": "numeric",
+    "prompt": "正方体中指定一个面为底面后，与这个底面垂直的面有几个？",
+    "answer": "4",
+    "explanation": "四个侧面都经过底面的垂线（侧棱）。由面面垂直的判定，它们都与底面垂直；对面与底面平行。",
+    "verify": "4"
   },
   {
     "id": "cnm_h122_q3",
@@ -8215,9 +8179,9 @@
     "topicId": "cnm_h125",
     "difficulty": "basic",
     "type": "numeric",
-    "prompt": "同一抽样中，乙层应抽多少人？",
+    "prompt": "甲层 40 人、乙层 60 人，按 1/10 分层抽样。乙层应抽多少人？",
     "answer": "6",
-    "explanation": "60×1/10=6。",
+    "explanation": "按各层人数的 1/10 分配，乙层 60×1/10=6。",
     "verify": "60/10"
   },
   {
