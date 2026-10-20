@@ -18139,7 +18139,7 @@
       "能用斜率乘积判断垂直"
     ],
     "diagnostic_question": {
-      "question": "两条直线斜率都是 3。它们的位置关系是？",
+      "question": "两条不重合的直线斜率都是 3。它们的位置关系是？",
       "answer": "平行"
     },
     "external": false,
