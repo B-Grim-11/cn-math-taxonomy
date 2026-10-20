@@ -3,9 +3,42 @@
   'use strict';
   var raw = location.hash.replace(/^#/, '');
   try { raw = decodeURIComponent(raw); } catch (e) { /* 保持原样 */ }
-  if (/^cnm_[A-Za-z0-9]+$/.test(raw)) return;
+  if (/^cnm_[A-Za-z0-9]+$/.test(raw) || /^cne_[A-Za-z0-9]+$/.test(raw)) return;
 
   var CN = ['', '一', '二', '三', '四', '五', '六', '七', '八', '九'];
+  var subject = new URLSearchParams(location.search).get('subject') === 'english' ? 'english' : 'math';
+
+  function withSubject(href) {
+    if (subject !== 'english' || !href || href.indexOf('subject=') >= 0 || href.indexOf('http') === 0) return href;
+    return href + (href.indexOf('?') >= 0 ? '&' : '?') + 'subject=english';
+  }
+
+  document.body.classList.toggle('subject-english', subject === 'english');
+  document.querySelectorAll('.subject-link').forEach(function (link) {
+    var on = link.getAttribute('data-subject') === subject;
+    link.classList.toggle('on', on);
+    if (on) link.setAttribute('aria-current', 'true');
+    else link.removeAttribute('aria-current');
+  });
+  document.querySelectorAll('.site-nav a:not(.subject-link), a.brand').forEach(function (link) {
+    var href = link.getAttribute('href');
+    var next = withSubject(href);
+    if (next && next !== href) link.setAttribute('href', next);
+  });
+  if (subject === 'english') {
+    document.title = '小学英语 · 中小学知识图谱';
+    var eye = document.querySelector('.eyebrow');
+    if (eye) eye.textContent = '小学英语 · 人教 PEP（三年级起点）三上到六下';
+    var primary = document.querySelector('.hero-actions a.btn-primary');
+    var browse = document.querySelector('.hero-actions a.btn:not(.btn-primary)');
+    if (primary) primary.setAttribute('href', 'diagnose/?subject=english');
+    if (browse) browse.setAttribute('href', 'explore/?subject=english');
+    var demo = document.querySelector('.quiet-link a');
+    if (demo) {
+      demo.setAttribute('href', 'diagnose/?subject=english&grade=' + encodeURIComponent('四上') + '&demo=1');
+      demo.textContent = '先看一遍演示：四年级上册英语';
+    }
+  }
 
   function setText(id, value) {
     var node = document.getElementById(id);
@@ -38,6 +71,14 @@
       throw new Error('数据格式无法识别');
     }
     var items = standards && Array.isArray(standards.items) ? standards.items : [];
+    function isEnglishTopic(topic) {
+      return topic.subject === 'english' || String(topic.id || '').indexOf('cne_') === 0;
+    }
+    var wantEnglish = subject === 'english';
+    topics = topics.filter(function (topic) { return isEnglishTopic(topic) === wantEnglish; });
+    deps = deps.filter(function (edge) { return String(edge.topicId || '').indexOf('cne_') === 0 === wantEnglish; });
+    questions = questions.filter(function (question) { return String(question.topicId || '').indexOf('cne_') === 0 === wantEnglish; });
+    items = items.filter(function (item) { return String(item.id || '').indexOf('ces-') === 0 === wantEnglish; });
     setText('n-topics', String(topics.length));
     setText('n-edges', String(deps.length));
     setText('n-questions', String(questions.length));
@@ -47,11 +88,11 @@
     if (!grades) return;
     grades.replaceChildren();
     grades.removeAttribute('aria-busy');
-    function addCard(g, stageName, title, klass, splitText) {
+    function addCard(g, stageName, title, klass, splitText, href) {
       var list = topics.filter(function (topic) { return topic.grade === g; });
       var link = document.createElement('a');
       link.className = 'grade-card ' + klass;
-      link.href = 'explore/?grade=' + g;
+      link.href = href;
       var stage = document.createElement('span');
       stage.className = 'grade-stage';
       stage.textContent = stageName;
@@ -66,17 +107,22 @@
       link.append(stage, name, count, split);
       grades.append(link);
     }
-    for (var g = 1; g <= 9; g++) {
+    var from = wantEnglish ? 3 : 1;
+    var to = wantEnglish ? 6 : 9;
+    for (var g = from; g <= to; g++) {
       var list = topics.filter(function (topic) { return topic.grade === g; });
       var up = list.filter(function (topic) { return topic.semester === '上'; }).length;
       var down = list.filter(function (topic) { return topic.semester === '下'; }).length;
-      addCard(g, g <= 6 ? '小学' : '初中', CN[g] + '年级', g <= 6 ? 'is-primary' : 'is-junior', '上 ' + up + ' · 下 ' + down);
+      var href = wantEnglish ? 'explore/?subject=english&grade=' + g : 'explore/?grade=' + g;
+      addCard(g, g <= 6 ? '小学' : '初中', CN[g] + '年级', g <= 6 ? 'is-primary' : 'is-junior', '上 ' + up + ' · 下 ' + down, href);
     }
-    addCard(10, '高中', '高一', 'is-senior', '必修第一册');
-    addCard(11, '高中', '高二', 'is-senior', '必修第二册');
-    addCard(12, '高中', '选必一', 'is-senior', '选择性必修第一册');
-    addCard(13, '高中', '选必二', 'is-senior', '选择性必修第二册');
-    addCard(14, '高中', '选必三', 'is-senior', '选择性必修第三册');
+    if (!wantEnglish) {
+      addCard(10, '高中', '高一', 'is-senior', '必修第一册', 'explore/?grade=10');
+      addCard(11, '高中', '高二', 'is-senior', '必修第二册', 'explore/?grade=11');
+      addCard(12, '高中', '选必一', 'is-senior', '选择性必修第一册', 'explore/?grade=12');
+      addCard(13, '高中', '选必二', 'is-senior', '选择性必修第二册', 'explore/?grade=13');
+      addCard(14, '高中', '选必三', 'is-senior', '选择性必修第三册', 'explore/?grade=14');
+    }
   }).catch(function (error) {
     fail('数据没有加载成功（' + (error && error.message ? error.message : error) + '）。请在项目根目录运行 python3 -m http.server 8000，再用浏览器打开，不要直接双击 html 文件。');
   });

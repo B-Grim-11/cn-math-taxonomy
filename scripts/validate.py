@@ -23,7 +23,9 @@ STANDARDS_PATH = os.path.join(ROOT, "data", "cn-curriculum-standards.json")
 QUESTIONS_PATH = os.path.join(ROOT, "data", "questions.json")
 STRICT_STANDARDS = os.environ.get("STRICT_STANDARDS") == "1"
 
-DOMAINS = {"数与代数", "图形与几何", "统计与概率", "综合与实践"}
+MATH_DOMAINS = {"数与代数", "图形与几何", "统计与概率", "综合与实践"}
+EN_DOMAINS = {"语音", "词汇", "语法", "日常表达", "读写"}
+DOMAINS = MATH_DOMAINS | EN_DOMAINS
 TYPES = {"conceptual", "procedural", "reasoning", "application", "modeling"}
 STRENGTHS = {"hard", "soft"}
 CONFIDENCES = {"exact", "inferred"}
@@ -34,11 +36,15 @@ STD_ID_RE = re.compile(r"^cms-2022:([1-4])\.(NA|GG|SP|IP)\.(\d{2,})$")
 # 高中必修：cms-2017:H.<模块>.NN。模块不是领域代码（几何与代数横跨数与代数和图形与几何）。
 HS_STD_ID_RE = re.compile(r"^cms-2017:H\.(PRE|FUN|GA|PS|MI)\.(\d{2,})$")
 HS_STD_MODULES = ("PRE", "FUN", "GA", "PS", "MI")
+EN_STD_CODES = {"PH": "语音", "VO": "词汇", "GR": "语法", "FU": "日常表达", "RW": "读写"}
+EN_STD_ID_RE = re.compile(r"^ces-2022:([12])\.(PH|VO|GR|FU|RW)\.(\d{2,})$")
+EN_PROMPT_START_RE = re.compile(r"^(同一|上题|该题|同上)")
+EN_PROMPT_BAN_RE = re.compile(r"本知识点|课标|是否要求")
 CORE_FIELDS = ["id", "name", "domain", "grade", "semester", "chapter", "type",
                "description", "mastery_criteria", "diagnostic_question", "external"]
 EXT_FIELDS = ["id", "name", "domain", "grade", "description", "external"]
-# cnm_001 初中正式；cnm_p001 小学正式；cnm_h001 高中正式。cnm_ext_* 已迁到 data/id-aliases.json。
-ID_RE = re.compile(r"^cnm_(p|h)?\d{3,}$")
+# cnm_001 初中正式；cnm_p001 小学正式；cnm_h001 高中正式。cne_p001 小学英语。cnm_ext_* 已迁到 data/id-aliases.json。
+ID_RE = re.compile(r"^(?:cnm_(?:p|h)?|cne_p)\d{3,}$")
 # 10、11 是必修第一、二册；12、13、14 是选择性必修第一、二、三册，不是教学年份。
 GRADES = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14)
 ALIASES_PATH = os.path.join(ROOT, "data", "id-aliases.json")
@@ -65,6 +71,34 @@ def load(path):
 
 def nonempty_str(v):
     return isinstance(v, str) and v.strip() != ""
+
+
+def is_english_id(tid):
+    return str(tid).startswith("cne_")
+
+
+def topic_subject(tid):
+    if is_english_id(tid):
+        return "english"
+    if str(tid).startswith("cnm_"):
+        return "math"
+    return ""
+
+
+def volume_rank(topic):
+    grade = topic.get("grade")
+    if not isinstance(grade, int):
+        return None
+    return grade * 2 + (1 if topic.get("semester") == "下" else 0)
+
+
+def english_prompt_problem(text):
+    s = str(text or "").strip()
+    if EN_PROMPT_START_RE.match(s):
+        return "题干不能以「同一 / 上题 / 该题 / 同上」开头"
+    if EN_PROMPT_BAN_RE.search(s):
+        return "题干不能出现「本知识点 / 课标 / 是否要求」"
+    return ""
 
 
 def check_topics(topics):
@@ -100,14 +134,26 @@ def check_topics(topics):
             elif f not in ("mastery_criteria", "diagnostic_question", "external") and not nonempty_str(t[f]) \
                     and not (f == "grade" and isinstance(t[f], int)):
                 err("%s 字段 %s 为空或类型错误" % (where, f))
-        if t.get("domain") not in DOMAINS:
-            err("%s domain 取值非法：%r" % (where, t.get("domain")))
+        subj = topic_subject(tid)
+        marked = t.get("subject")
+        if subj == "english":
+            if marked != "english":
+                err("%s 英语知识点的 subject 必须是 english" % where)
+            if t.get("domain") not in EN_DOMAINS:
+                err("%s 英语 domain 取值非法：%r" % (where, t.get("domain")))
+        else:
+            if marked not in (None, "math"):
+                err("%s 数学知识点不能标成其他学科：%r" % (where, marked))
+            if t.get("domain") not in MATH_DOMAINS:
+                err("%s domain 取值非法：%r" % (where, t.get("domain")))
         if ext:
             if t.get("grade") != "小学":
                 err("%s 外部节点 grade 必须为 \"小学\"" % where)
             continue
         if t.get("grade") not in GRADES:
             err("%s grade 必须是 1–14 的整数（10、11 为必修两册，12–14 为选择性必修三册）" % where)
+        if subj == "english" and t.get("grade") not in (3, 4, 5, 6):
+            err("%s 小学英语 grade 必须是 3–6" % where)
         if t.get("semester") not in ("上", "下"):
             err("%s semester 必须是 上/下" % where)
         if t.get("type") not in TYPES:
@@ -120,6 +166,10 @@ def check_topics(topics):
             err("%s diagnostic_question 必须含非空 question 与 answer" % where)
         if "root_reason" in t and not nonempty_str(t["root_reason"]):
             err("%s root_reason 为空" % where)
+        if subj == "english" and isinstance(t.get("diagnostic_question"), dict):
+            problem = english_prompt_problem(t["diagnostic_question"].get("question"))
+            if problem:
+                err("%s 诊断题%s" % (where, problem))
     return ids
 
 
@@ -127,10 +177,10 @@ def check_deps(deps, ids):
     prereqs = defaultdict(list)   # topic -> [prerequisite]
     dependents = defaultdict(list)
     seen = set()
-    n_hard = n_soft = 0
+    n_hard = n_soft = n_en_hard = n_en_soft = 0
     if not isinstance(deps, list):
         err("dependencies.json 顶层必须是数组")
-        return prereqs, dependents, 0, 0
+        return prereqs, dependents, 0, 0, 0, 0
     for i, d in enumerate(deps):
         where = "dependencies[%d]" % i
         if not isinstance(d, dict):
@@ -152,6 +202,18 @@ def check_deps(deps, ids):
             n_hard += 1
         else:
             n_soft += 1
+        sa, sb = topic_subject(a), topic_subject(b)
+        if sa and sb and sa != sb:
+            err("%s 跨学科边：%s -> %s" % (where, a, b))
+        if sa == "english" and d.get("strength") in STRENGTHS:
+            if d["strength"] == "hard":
+                n_en_hard += 1
+            else:
+                n_en_soft += 1
+        if sa == "english" and sb == "english" and a in ids and b in ids:
+            ra, rb = volume_rank(ids[a]), volume_rank(ids[b])
+            if ra is not None and rb is not None and rb > ra:
+                err("%s 英语先修年级或册次更晚：%s 依赖 %s" % (where, a, b))
         key = (a, b)
         if key in seen:
             err("%s 重复边：%s -> %s" % (where, a, b))
@@ -159,7 +221,7 @@ def check_deps(deps, ids):
         if a in ids and b in ids and a != b:
             prereqs[a].append(b)
             dependents[b].append(a)
-    return prereqs, dependents, n_hard, n_soft
+    return prereqs, dependents, n_hard, n_soft, n_en_hard, n_en_soft
 
 
 def find_cycle(ids, prereqs):
@@ -201,14 +263,17 @@ def check_graph(ids, prereqs, dependents):
             err("%s(%s) 完全孤立（既无先修也未被依赖）" % (tid, t.get("name")))
 
 
-def report(ids, prereqs, dependents, n_hard, n_soft):
+def report(ids, prereqs, dependents, n_hard, n_soft, n_en_hard, n_en_soft):
     core = [t for t in ids.values() if not t.get("external")]
     ext = [t for t in ids.values() if t.get("external")]
+    math_core = [t for t in core if not is_english_id(t.get("id"))]
+    en_core = [t for t in core if is_english_id(t.get("id"))]
     print("知识点总数：%d（正式 %d，小学外部 %d）" % (len(ids), len(core), len(ext)))
-    print("\n按 domain（正式知识点）：")
-    for k, v in sorted(Counter(t["domain"] for t in core).items(), key=lambda x: -x[1]):
+    print("其中数学 %d，小学英语 %d" % (len(math_core), len(en_core)))
+    print("\n按 domain（数学正式知识点）：")
+    for k, v in sorted(Counter(t["domain"] for t in math_core).items(), key=lambda x: -x[1]):
         print("  %-8s %d" % (k, v))
-    print("\n按 grade+semester（正式知识点）：")
+    print("\n按 grade+semester（数学正式知识点）：")
     zh = {1: "一", 2: "二", 3: "三", 4: "四", 5: "五", 6: "六", 7: "七", 8: "八", 9: "九"}
 
     def vol_label(t):
@@ -224,23 +289,34 @@ def report(ids, prereqs, dependents, n_hard, n_soft):
             return "选必三"
         return "%s%s" % (zh.get(t["grade"], t["grade"]), t["semester"])
 
-    c = Counter(vol_label(t) for t in core)
+    c = Counter(vol_label(t) for t in math_core)
     order = ["一上", "一下", "二上", "二下", "三上", "三下", "四上", "四下", "五上", "五下", "六上", "六下",
              "七上", "七下", "八上", "八下", "九上", "九下", "高一必修一", "高二必修二", "选必一", "选必二", "选必三"]
     for k in order:
         if c.get(k, 0) or k[0] in "七八九" or k.startswith("高") or k.startswith("选必"):
             print("  %-8s %d" % (k, c.get(k, 0)))
-    n_pri = sum(1 for t in core if isinstance(t.get("grade"), int) and t["grade"] <= 6)
-    n_jun = sum(1 for t in core if isinstance(t.get("grade"), int) and 7 <= t["grade"] <= 9)
-    n_req = sum(1 for t in core if t.get("grade") in (10, 11))
-    n_sel = sum(1 for t in core if isinstance(t.get("grade"), int) and t["grade"] >= 12)
+    n_pri = sum(1 for t in math_core if isinstance(t.get("grade"), int) and t["grade"] <= 6)
+    n_jun = sum(1 for t in math_core if isinstance(t.get("grade"), int) and 7 <= t["grade"] <= 9)
+    n_req = sum(1 for t in math_core if t.get("grade") in (10, 11))
+    n_sel = sum(1 for t in math_core if isinstance(t.get("grade"), int) and t["grade"] >= 12)
     print("其中小学（1–6 年级）%d，初中（7–9 年级）%d，高中必修（10–11）%d，选择性必修（12–14）%d" % (
         n_pri, n_jun, n_req, n_sel))
+    if en_core:
+        print("\n小学英语按 domain：")
+        for k, v in sorted(Counter(t["domain"] for t in en_core).items(), key=lambda x: -x[1]):
+            print("  %-8s %d" % (k, v))
+        print("小学英语按册：")
+        ec = Counter(vol_label(t) for t in en_core)
+        for k in ["三上", "三下", "四上", "四下", "五上", "五下", "六上", "六下"]:
+            print("  %-8s %d" % (k, ec.get(k, 0)))
     print("\n按 type（正式知识点）：")
     for k, v in sorted(Counter(t["type"] for t in core).items(), key=lambda x: -x[1]):
         print("  %-12s %d" % (k, v))
     total = n_hard + n_soft
     print("\n先修边：%d 条（hard %d，soft %d）" % (total, n_hard, n_soft))
+    if en_core:
+        print("其中小学英语 %d 条（hard %d，soft %d），数学 %d 条" % (
+            n_en_hard + n_en_soft, n_en_hard, n_en_soft, total - n_en_hard - n_en_soft))
     roots = [t["id"] for t in core if not prereqs.get(t["id"])]
     leaves = [t["id"] for t in core if not dependents.get(t["id"])]
     print("带 root_reason 的根节点：%d；未被任何知识点依赖的末端节点：%d" % (len(roots), len(leaves)))
@@ -270,6 +346,7 @@ def check_standards_file(std):
         err("cn-curriculum-standards.json 的 items 必须是非空数组")
         return items_by_id
     last = {}
+    saw_english = False
     for i, it in enumerate(items):
         where = "standards.items[%d]" % i
         if not isinstance(it, dict):
@@ -285,6 +362,7 @@ def check_standards_file(std):
         items_by_id[sid] = it
         m = STD_ID_RE.match(sid)
         hm = HS_STD_ID_RE.match(sid)
+        em = EN_STD_ID_RE.match(sid)
         if m:
             stage, code, num = m.group(1), m.group(2), int(m.group(3))
             if it.get("domain") != STD_DOMAIN_CODES[code]:
@@ -295,7 +373,7 @@ def check_standards_file(std):
             last[key] = num
         elif hm:
             code, num = hm.group(1), int(hm.group(2))
-            if it.get("domain") not in DOMAINS:
+            if it.get("domain") not in MATH_DOMAINS:
                 err("%s domain 取值非法：%r" % (where, it.get("domain")))
             key = ("2017", code)
             if num != last.get(key, 0) + 1:
@@ -303,8 +381,23 @@ def check_standards_file(std):
             last[key] = num
             if it.get("verbatim") is not False:
                 err("%s 高中条目必须显式标 verbatim:false（原文未逐页核对）" % where)
+        elif em:
+            saw_english = True
+            level, code, num = em.group(1), em.group(2), int(em.group(3))
+            if it.get("domain") != EN_STD_CODES[code]:
+                err("%s domain 与 id 中的领域代码不一致：%r" % (where, it.get("domain")))
+            if level not in ("1", "2"):
+                err("%s 英语课标级别必须是 1 或 2" % where)
+            key = ("ces", level, code)
+            if num != last.get(key, 0) + 1:
+                err("%s 编号在级别和领域内不连续（上一条为 %02d）" % (where, last.get(key, 0)))
+            last[key] = num
+            if it.get("verbatim") is not False:
+                err("%s 英语课标必须显式标 verbatim:false（原文未逐页核对）" % where)
+            if it.get("page_or_ref") != "待核":
+                err("%s 英语课标 page_or_ref 必须是「待核」，不能编页码" % where)
         else:
-            err("%s id 格式不合法（应为 cms-2022:<学段>.<NA|GG|SP|IP>.<NN> 或 cms-2017:H.<PRE|FUN|GA|PS|MI>.<NN>）" % where)
+            err("%s id 格式不合法（应为 cms-2022:<学段>.<NA|GG|SP|IP>.<NN>、cms-2017:H.<PRE|FUN|GA|PS|MI>.<NN> 或 ces-2022:<1|2>.<PH|VO|GR|FU|RW>.<NN>）" % where)
         for f in ("domain", "section", "text"):
             if not nonempty_str(it.get(f)):
                 err("%s 字段 %s 缺失或为空" % (where, f))
@@ -312,6 +405,16 @@ def check_standards_file(std):
             err("%s verbatim 必须是布尔值" % where)
         if nonempty_str(it.get("text")) and not re.search(r"[\u4e00-\u9fff]", it["text"]):
             err("%s text 必须是中文" % where)
+    if saw_english:
+        eng = std.get("english")
+        if not isinstance(eng, dict):
+            err("有英语课标条目，但缺少 english 对象")
+        else:
+            for f in ("title", "issuer", "stage", "note"):
+                if not nonempty_str(eng.get(f)):
+                    err("english.%s 缺失或为空" % f)
+            if not isinstance(eng.get("year"), int):
+                err("english.year 必须是整数")
     return items_by_id
 
 
@@ -366,8 +469,8 @@ def report_standards(ids, std_items, cited, empty_core):
         print("\n课标对齐：未找到 data/cn-curriculum-standards.json，跳过")
         return
     c = Counter(it.get("domain") for it in std_items.values())
-    print("\n课标条目：%d 条（%s）" % (len(std_items), "，".join("%s %d" % (k, c[k]) for k in
-                                                             ("数与代数", "图形与几何", "统计与概率", "综合与实践"))))
+    std_order = ("数与代数", "图形与几何", "统计与概率", "综合与实践", "语音", "词汇", "语法", "日常表达", "读写")
+    print("\n课标条目：%d 条（%s）" % (len(std_items), "，".join("%s %d" % (k, c[k]) for k in std_order if c[k])))
     n_ok = len(core) - len(empty_core)
     pct = 100.0 * n_ok / len(core) if core else 0.0
     print("正式知识点 standards 非空：%d / %d（%.1f%%）；standards 为空：%d" % (n_ok, len(core), pct, len(empty_core)))
@@ -392,7 +495,7 @@ Q_DIFFICULTIES = ("basic", "standard", "advanced")
 Q_TYPES = ("numeric", "choice", "short", "self")
 Q_FIELDS = {"id", "topicId", "difficulty", "type", "prompt", "answer", "choices", "accept",
             "explanation", "verify", "unordered", "fixed_from_source"}
-Q_ID_RE = re.compile(r"^(cnm_(?:p|h)?\d{3,})_q([1-9]\d*)$")
+Q_ID_RE = re.compile(r"^((?:cnm_(?:p|h)?|cne_p)\d{3,})_q([1-9]\d*)$")
 NUM_RE = re.compile(r"^-?\d+(?:\.\d+)?(?:/\d+(?:\.\d+)?)?$")
 MIN_QUESTIONS_PER_TOPIC = 3
 MIN_AUTO_SHARE = 0.60
@@ -453,6 +556,10 @@ def question_errors(questions, topics_by_id, require_coverage=True):
         for f in ("difficulty", "type", "prompt", "answer", "explanation"):
             if not nonempty_str(q.get(f)):
                 errs.append("%s 字段 %s 缺失或为空（answer 必须是字符串）" % (w, f))
+        if is_english_id(tid):
+            problem = english_prompt_problem(q.get("prompt"))
+            if problem:
+                errs.append("%s %s" % (w, problem))
         diff, typ = q.get("difficulty"), q.get("type")
         if nonempty_str(diff) and diff not in Q_DIFFICULTIES:
             errs.append("%s difficulty 取值非法：%r" % (w, diff))
@@ -592,7 +699,7 @@ def main():
         return 1
     ids = check_topics(topics)
     check_aliases(ids)
-    prereqs, dependents, n_hard, n_soft = check_deps(deps, ids)
+    prereqs, dependents, n_hard, n_soft, n_en_hard, n_en_soft = check_deps(deps, ids)
     check_graph(ids, prereqs, dependents)
     std_items = None
     if os.path.exists(STANDARDS_PATH):
@@ -600,7 +707,7 @@ def main():
     cited, empty_core = check_topic_standards(ids, std_items)
     if STRICT_STANDARDS and std_items is not None and empty_core:
         err("STRICT_STANDARDS=1：%d 个正式知识点的 standards 为空" % len(empty_core))
-    report(ids, prereqs, dependents, n_hard, n_soft)
+    report(ids, prereqs, dependents, n_hard, n_soft, n_en_hard, n_en_soft)
     report_standards(ids, std_items, cited, empty_core)
     if os.path.exists(QUESTIONS_PATH):
         qs = load(QUESTIONS_PATH)

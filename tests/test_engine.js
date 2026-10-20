@@ -610,18 +610,56 @@ function bfsAncestors(id) {
 }
 
 test('数据可加载：小学 216 + 初中 315 + 高中必修 143 + 选择性必修 128，没有外部节点；课标含第一学段', () => {
-  assert.strictEqual(topics.length, 802);
-  assert.strictEqual(deps.length, 1299);
+  const mathTopics = topics.filter((t) => String(t.id).startsWith('cnm_'));
+  const mathDeps = deps.filter((d) => String(d.topicId).startsWith('cnm_'));
+  assert.strictEqual(mathTopics.length, 802);
+  assert.strictEqual(mathDeps.length, 1299);
   assert.strictEqual(topics.filter((t) => t.external).length, 0);
-  assert.strictEqual(topics.filter((t) => t.grade <= 6).length, 216);
-  assert.strictEqual(topics.filter((t) => t.grade >= 7 && t.grade <= 9).length, 315);
-  assert.strictEqual(topics.filter((t) => t.grade === 10 || t.grade === 11).length, 143);
-  assert.strictEqual(topics.filter((t) => t.grade >= 12).length, 128);
-  assert.strictEqual(topics.filter((t) => t.grade >= 10).length, 271);
-  assert.ok(topics.filter((t) => t.grade >= 10).every((t) => /^cnm_h\d{3,}$/.test(t.id)));
+  assert.strictEqual(mathTopics.filter((t) => t.grade <= 6).length, 216);
+  assert.strictEqual(mathTopics.filter((t) => t.grade >= 7 && t.grade <= 9).length, 315);
+  assert.strictEqual(mathTopics.filter((t) => t.grade === 10 || t.grade === 11).length, 143);
+  assert.strictEqual(mathTopics.filter((t) => t.grade >= 12).length, 128);
+  assert.strictEqual(mathTopics.filter((t) => t.grade >= 10).length, 271);
+  assert.ok(mathTopics.filter((t) => t.grade >= 10).every((t) => /^cnm_h\d{3,}$/.test(t.id)));
   assert.ok(formal.every((t) => E.isTestable(RG, t.id)));
   assert.ok(stdFile.items.length > 200);
   assert.ok(stdFile.items[0].id.indexOf('cms-2022:1.') === 0);
+  assert.deepStrictEqual(mathTopics.map((t) => t.id + '\t' + t.name), topics.filter((t) => String(t.id).startsWith('cnm_')).map((t) => t.id + '\t' + t.name));
+});
+
+test('小学英语：150–250 个点、不与数学连边、非起点都有先修；整册默认仍是数学', () => {
+  const enTopics = topics.filter((t) => String(t.id).startsWith('cne_'));
+  assert.ok(enTopics.length >= 150 && enTopics.length <= 250, '英语知识点 ' + enTopics.length);
+  assert.ok(enTopics.every((t) => t.subject === 'english' && t.grade >= 3 && t.grade <= 6 && !t.external));
+  assert.ok(enTopics.every((t) => ['语音', '词汇', '语法', '日常表达', '读写'].includes(t.domain)));
+  const enDeps = deps.filter((d) => String(d.topicId).startsWith('cne_'));
+  assert.ok(deps.every((d) => String(d.topicId).startsWith('cne_') === String(d.prerequisiteId).startsWith('cne_')));
+  const pre = new Map();
+  enDeps.forEach((d) => { (pre.get(d.topicId) || pre.set(d.topicId, []).get(d.topicId)).push(d); });
+  enTopics.forEach((t) => {
+    if (t.id === 'cne_p001') {
+      assert.ok(t.root_reason);
+      return;
+    }
+    assert.ok(pre.get(t.id) && pre.get(t.id).length >= 1, t.id + ' 没有先修');
+    pre.get(t.id).forEach((d) => {
+      const src = RG.byId[t.id];
+      const dst = RG.byId[d.prerequisiteId];
+      const ra = src.grade * 2 + (src.semester === '下' ? 1 : 0);
+      const rb = dst.grade * 2 + (dst.semester === '下' ? 1 : 0);
+      assert.ok(rb <= ra, t.id + ' 的先修更晚 ' + d.prerequisiteId);
+    });
+  });
+  const math4 = E.gradeTargets(RG, '四上');
+  const en4 = E.gradeTargets(RG, '四上', 'english');
+  assert.ok(math4.ids.length > 0 && math4.ids.every((id) => id.startsWith('cnm_') && RG.byId[id].grade === 4 && RG.byId[id].semester === '上'));
+  assert.ok(en4.ids.length > 0 && en4.ids.every((id) => id.startsWith('cne_') && RG.byId[id].grade === 4 && RG.byId[id].semester === '上'));
+  assert.deepStrictEqual(E.gradeTargets(RG, '四上').ids, E.gradeTargets(RG, '四上', 'math').ids);
+  assert.strictEqual(E.subjectOf(enTopics[0]), 'english');
+  assert.strictEqual(E.subjectOf(topics.find((t) => t.id === 'cnm_p001')), 'math');
+  const ces = stdFile.items.filter((it) => String(it.id).startsWith('ces-2022:'));
+  assert.ok(ces.length >= 20);
+  assert.ok(ces.every((it) => it.verbatim === false && it.page_or_ref === '待核'));
 });
 
 test('真实数据：祖先集合与独立 BFS 一致（全部知识点）', () => {
@@ -892,6 +930,18 @@ test('题库：numeric 题的 answer 能被解析为数（整数/小数/分数/�
     if (q.unordered) assert.ok(parts.length > 1, q.id + ' unordered 但只有一个答案');
   });
   assert.ok(n > 500);
+});
+
+test('小学英语题：自包含、不引用课标或上一题，答案能被判对', () => {
+  const enQs = questions.filter((q) => String(q.topicId).startsWith('cne_'));
+  assert.ok(enQs.length >= 150 * 3);
+  enQs.forEach((q) => {
+    assert.ok(!/^(同一|上题|该题|同上)/.test(String(q.prompt).trim()), q.id);
+    assert.ok(!/本知识点|课标|是否要求/.test(q.prompt), q.id);
+    assert.ok(q.type === 'numeric' || q.type === 'choice', q.id);
+    const verdict = E.judgeQuestion(q, q.type === 'choice' ? q.answer : q.answer).verdict;
+    assert.strictEqual(verdict, 'correct', q.id);
+  });
 });
 
 test('题库：q1 由 diagnostic_question 迁移（题干以原题开头，或标注了 fixed_from_source）', () => {

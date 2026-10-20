@@ -6,7 +6,8 @@
  *         nextItem(graph, session) -> {topicId, question, attempt} | null   （要出的具体题目；attempt 为 1 或 2）
  *         applyAnswer(graph, session, id, 'correct'|'wrong'|'skip', {text}) -> 新 session（不修改入参）
  *         summarize(graph, session) -> 结果（根因、学习路径、掌握/不稳/薄弱/未测）
- *         gradeTargets(graph, '一年级'|'七上'|'高一'|'选必二') -> {ids, volumes, label} | null   （整年级 / 整册 / 高中册）
+ *         gradeTargets(graph, '一年级'|'七上'|'高一'|'选必二', subject?) -> {ids, volumes, label} | null
+ *           默认 subject 为 math，不把小学英语卷进数学的整册；'english' 只取英语，'all' 不限学科
  *         createSession(graph, ids, {mode:'screen'}) -> 筛查会话：范围 = 目标本身，回溯不出范围，默认题量上限 SCREEN_LIMIT
  *         chapterSummary(graph, session) -> 按章汇总（薄弱章节在前）
  *         layout(graph, session, summary) -> 路径图的分层布局
@@ -496,13 +497,23 @@
     return { volume: m[1], chapterNo: m[2], chapterName: m[3], section: m[4] || '' };
   }
 
+  /** 学科：显式 subject 优先，否则 cne_ 前缀是英语，其余算数学。 */
+  function subjectOf(topic) {
+    if (!topic) return 'math';
+    if (topic.subject === 'english' || topic.subject === 'math') return topic.subject;
+    if (String(topic.id || '').indexOf('cne_') === 0) return 'english';
+    return 'math';
+  }
+
   /**
    * 整年级 / 整册的知识点：'一年级' = 一上 + 一下，'七上' = 七年级上册。
    * 高中不拆上下册：'高一' / '高一必修' = 必修第一册，'高二' / '高二必修' = 必修第二册。
    * '选必一' / '选择性必修第一册'、选必二、选必三 = 选择性必修三册。
+   * subject 默认 math，避免三上、四上等册次把小学英语和数学混在一起。
    * 返回 {ids, volumes, label}（ids 按 topics 文件顺序，只含正式知识点）；不认识的写法返回 null。
    */
-  function gradeTargets(graph, scope) {
+  function gradeTargets(graph, scope, subject) {
+    const subj = subject == null || subject === '' ? 'math' : subject;
     const key = String(scope == null ? '' : scope).trim();
     const books = {
       '高一': ['高一', '高一（必修第一册）'],
@@ -529,7 +540,9 @@
     }
     if (!volumes) return null;
     const ids = graph.topics.filter(function (t) {
-      return !t.external && volumes.indexOf(parseChapter(t.chapter).volume) >= 0;
+      if (t.external) return false;
+      if (subj !== 'all' && subjectOf(t) !== subj) return false;
+      return volumes.indexOf(parseChapter(t.chapter).volume) >= 0;
     }).map(function (t) { return t.id; });
     return ids.length ? { ids: ids, volumes: volumes, label: label } : null;
   }
@@ -893,6 +906,7 @@
     DEFAULT_LIMIT: DEFAULT_LIMIT,
     SCREEN_LIMIT: SCREEN_LIMIT,
     gradeTargets: gradeTargets,
+    subjectOf: subjectOf,
     chapterSummary: chapterSummary,
     buildGraph: buildGraph,
     questionById: questionById,

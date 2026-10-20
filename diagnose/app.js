@@ -3,6 +3,7 @@
   'use strict';
   const E = window.DiagEngine;
   const LS_SESSION = 'cnmDiagnose.session.v2';
+  const LS_SESSION_EN = 'cneDiagnose.session.v2';
   const LS_SETTINGS = 'cnmDiagnose.settings.v2';
   const LS_SEEN = 'cnmDiagnose.seen.v1';
   const LIMIT_MIN = 8, LIMIT_MAX = 30;
@@ -29,6 +30,7 @@
   let sessionMeta = null;  // {label, chapterKey?}
   let demo = null;         // 演示模式：{oracle}
   let ui = { key: null, phase: 'ask', answer: '', verdict: null };
+  let subject = 'math';
   let startQuery = '';
   let startStage = '';
   let chapterOpen = false;
@@ -59,6 +61,43 @@
     if (c == null || c === false) return;
     if (Array.isArray(c)) { c.forEach(function (x) { append(el, x); }); return; }
     el.append(c.nodeType ? c : document.createTextNode(String(c)));
+  }
+  function sessionKey() { return subject === 'english' ? LS_SESSION_EN : LS_SESSION; }
+  function withSubject(href) {
+    if (subject !== 'english' || !href || href.indexOf('subject=') >= 0 || href.indexOf('http') === 0) return href;
+    return href + (href.indexOf('?') >= 0 ? '&' : '?') + 'subject=english';
+  }
+  function detectSubject() {
+    const params = new URLSearchParams(location.search);
+    const explicit = params.get('subject');
+    if (explicit === 'english' || explicit === 'math') return explicit;
+    const target = params.get('target') || '';
+    let hashId = (location.hash || '').replace(/^#/, '');
+    try { hashId = decodeURIComponent(hashId); } catch (e) { /* 保持原样 */ }
+    if (/(^|,)\s*cne_/.test(target) || /^cne_/.test(hashId)) {
+      params.set('subject', 'english');
+      history.replaceState(null, '', location.pathname + '?' + params.toString() + location.hash);
+      return 'english';
+    }
+    return 'math';
+  }
+  function applySubjectChrome() {
+    document.body.classList.toggle('subject-english', subject === 'english');
+    document.querySelectorAll('.site-nav a:not(.subject-link), a.brand').forEach(function (link) {
+      const href = link.getAttribute('href');
+      const next = withSubject(href);
+      if (next && next !== href) link.setAttribute('href', next);
+    });
+    document.querySelectorAll('.subject-link').forEach(function (link) {
+      const on = link.getAttribute('data-subject') === subject;
+      link.classList.toggle('on', on);
+      if (on) link.setAttribute('aria-current', 'true');
+      else link.removeAttribute('aria-current');
+    });
+    if (subject === 'english') {
+      document.title = '诊断 · 小学英语';
+      if (gradeSel === '七') gradeSel = '四';
+    }
   }
   function lsGet(k) { try { return JSON.parse(localStorage.getItem(k)); } catch (e) { return null; } }
   function lsSet(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) { /* 隐私模式等 */ } }
@@ -119,10 +158,15 @@
       const qr = await fetch('../data/questions.json');
       if (qr.ok) questions = await qr.json();
     } catch (e) { questions = null; }
+    const topics = js[0].filter(function (t) { return E.subjectOf(t) === subject; });
+    const allow = {};
+    topics.forEach(function (t) { allow[t.id] = true; });
+    const deps = js[1].filter(function (d) { return allow[d.topicId] && allow[d.prerequisiteId]; });
+    if (questions) questions = questions.filter(function (q) { return allow[q.topicId]; });
     const stdById = {};
     js[2].items.forEach(function (x) { stdById[x.id] = x; });
-    const graph = E.buildGraph(js[0], js[1], questions);
-    D = { topics: js[0], deps: js[1], stdById: stdById, graph: graph, tree: buildTree(js[0]), aliases: (js[3] && js[3].aliases) || {} };
+    const graph = E.buildGraph(topics, deps, questions);
+    D = { topics: topics, deps: deps, stdById: stdById, graph: graph, tree: buildTree(topics), aliases: (js[3] && js[3].aliases) || {} };
   }
 
   function buildTree(topics) {
@@ -145,7 +189,7 @@
   /* ------------------------------------------------------------ 会话 */
   function save() {
     if (demo || !session) return;
-    lsSet(LS_SESSION, {
+    lsSet(sessionKey(), {
       v: 2, mode: session.mode, targets: session.targets, limit: session.limit, label: sessionMeta.label, answers: session.answers,
       seed: session.seed, avoid: session.avoid, savedAt: new Date().toISOString()
     });
@@ -172,8 +216,8 @@
 
   function restart() {
     session = null; demo = null;
-    lsDel(LS_SESSION);
-    if (location.search) history.replaceState(null, '', location.pathname);
+    lsDel(sessionKey());
+    history.replaceState(null, '', location.pathname + (subject === 'english' ? '?subject=english' : ''));
     render();
   }
 
@@ -256,13 +300,13 @@
 
   function renderStart(errMsg) {
     const page = h('div');
-    const saved = lsGet(LS_SESSION);
+    const saved = lsGet(sessionKey());
     if (saved && saved.targets && D.graph.byId[saved.targets[0]]) {
       page.append(h('div', { class: 'banner' },
         h('b', { text: '有一份未清除的诊断：' }), saved.label || saved.targets.map(nameOf).join('、'),
         '（已答 ' + (saved.answers || []).length + ' 题）　',
-        h('button', { class: 'primary', onclick: function () { if (restoreSession(saved)) render(); else { lsDel(LS_SESSION); renderStart('存档无法恢复，已清除。'); } } }, '继续'),
-        ' ', h('button', { onclick: function () { lsDel(LS_SESSION); renderStart(); } }, '放弃存档')));
+        h('button', { class: 'primary', onclick: function () { if (restoreSession(saved)) render(); else { lsDel(sessionKey()); renderStart('存档无法恢复，已清除。'); } } }, '继续'),
+        ' ', h('button', { onclick: function () { lsDel(sessionKey()); renderStart(); } }, '放弃存档')));
     }
     if (errMsg) page.append(h('p', { class: 'err', text: errMsg }));
 
@@ -283,11 +327,16 @@
     browser.addEventListener('toggle', function () { chapterOpen = browser.open; });
     page.append(h('div', { class: 'card' },
       h('h1', { text: '选择诊断目标' }),
-      h('p', { class: 'muted' }, '选一个想学会或想检查的知识点。第一题答对就算掌握；答错会再出一道同级或更容易的题——第二题也错才算薄弱，并回溯到先修；第二题答对则标为「不稳」。'),
+      h('p', { class: 'muted' }, subject === 'english'
+        ? '选一个想学会或想检查的英语知识点。第一题答对就算掌握；答错会再出一道同级或更容易的题——第二题也错才算薄弱，并回溯到先修；第二题答对则标为「不稳」。'
+        : '选一个想学会或想检查的知识点。第一题答对就算掌握；答错会再出一道同级或更容易的题——第二题也错才算薄弱，并回溯到先修；第二题答对则标为「不稳」。'),
       h('div', { class: 'stage-tabs', role: 'tablist', 'aria-label': '学段' },
-        stageButton('', '全部'), stageButton('p', '小学'), stageButton('j', '初中'), stageButton('h', '高中')),
+        subject === 'english'
+          ? [stageButton('', '全部'), stageButton('p', '小学')]
+          : [stageButton('', '全部'), stageButton('p', '小学'), stageButton('j', '初中'), stageButton('h', '高中')]),
       h('input', {
-        type: 'search', class: 'search-lg', id: 'search', placeholder: '搜索知识点，例如：配方法、20 以内加法、一次函数',
+        type: 'search', class: 'search-lg', id: 'search',
+        placeholder: subject === 'english' ? '搜索知识点，例如：现在进行时、颜色、there is' : '搜索知识点，例如：配方法、20 以内加法、一次函数',
         value: startQuery, autocomplete: 'off', 'aria-label': '搜索知识点',
         oninput: function (e) {
           startQuery = e.target.value;
@@ -321,7 +370,7 @@
     const box = h('div', { class: 'card', id: 'grade-card' });
     const fill = function () {
       while (box.firstChild) box.removeChild(box.firstChild);
-      const g = E.gradeTargets(D.graph, gradeScope());
+      const g = E.gradeTargets(D.graph, gradeScope(), subject);
       const tabs = function (label, items, current, set) {
         return h('div', { class: 'stage-tabs', role: 'tablist', 'aria-label': label }, items.map(function (it) {
           return h('button', {
@@ -344,9 +393,11 @@
       box.append(
         h('h2', { text: '按年级整体诊断' }),
         h('p', { class: 'muted' }, '不选具体知识点，在一个年级（或一册）里抽查：每个知识点最多问 2 题，答错只在所选范围内回溯先修，最后按章汇总出哪几章薄弱。适合期初摸底、学期末复习。'),
-        tabs('年级', GRADES.map(function (x) { return [x, x + '年级']; }).concat([
-          ['高一', '高一'], ['高二', '高二'], ['选必一', '选必一'], ['选必二', '选必二'], ['选必三', '选必三']
-        ]), gradeSel, function (v) {
+        tabs('年级', subject === 'english'
+          ? '三四五六'.split('').map(function (x) { return [x, x + '年级']; })
+          : GRADES.map(function (x) { return [x, x + '年级']; }).concat([
+            ['高一', '高一'], ['高二', '高二'], ['选必一', '选必一'], ['选必二', '选必二'], ['选必三', '选必三']
+          ]), gradeSel, function (v) {
           gradeSel = v;
           if (seniorGrade(v)) volSel = '';
         }),
@@ -392,7 +443,8 @@
       if (!chapters.length) return;
       const count = chapters.reduce(function (n, c) { return n + c.rows.length; }, 0);
       shown += count;
-      const det = h('details', { class: 'vol', open: !!q || (startStage === 'j' ? vv[0] === '七上' : startStage === 'h' ? vv[0] === '高一' : vv[0] === '一上') },
+      const openVol = subject === 'english' ? '三上' : '一上';
+      const det = h('details', { class: 'vol', open: !!q || (startStage === 'j' ? vv[0] === '七上' : startStage === 'h' ? vv[0] === '高一' : vv[0] === openVol) },
         h('summary', null, vv[1] + '（' + count + ' 个知识点）'));
       chapters.forEach(function (c) {
         const ch = c.ch;
@@ -739,7 +791,9 @@
     const keys = Object.keys(by).sort();
     return h('div', { class: 'card', id: 'standards' },
       h('h2', { text: '相关课标条目' }),
-      h('p', { class: 'muted small' }, '目标与学习路径上的知识点对应的《义务教育数学课程标准（2022年版）》内容要求（第一至第四学段；映射由 AI 生成，未经专家审核）。'),
+      h('p', { class: 'muted small' }, subject === 'english'
+        ? '目标与学习路径上的知识点对应的《义务教育英语课程标准（2022年版）》一级、二级公开转述（未经逐页核对；映射由 AI 生成，未经专家审核）。'
+        : '目标与学习路径上的知识点对应的《义务教育数学课程标准（2022年版）》内容要求（第一至第四学段；映射由 AI 生成，未经专家审核）。'),
       keys.length ? keys.map(function (k) {
         const item = D.stdById[k];
         return h('div', { class: 'std' }, h('code', { text: k }),
@@ -1014,7 +1068,7 @@
         if (scope.charAt(0) !== gch) throw new Error('URL 参数 grade 与 volume 不一致：' + grade + ' / ' + volume);
       }
       if (/^[一二三四五六七八九]$/.test(scope)) scope += '年级';
-      const g = E.gradeTargets(D.graph, scope);
+      const g = E.gradeTargets(D.graph, scope, subject);
       if (!g) throw new Error('URL 参数 grade / volume 无法识别：' + (volume || grade) + '（写法如 grade=七年级、volume=七上）');
       return { ids: g.ids, label: g.label + '（整体筛查）', mode: 'screen' };
     }
@@ -1022,6 +1076,8 @@
   }
 
   async function init() {
+    subject = detectSubject();
+    applySubjectChrome();
     try { await loadData(); } catch (e) {
       clearRoot();
       root.append(h('div', { class: 'card' }, h('h2', { class: 'err', text: '数据加载失败' }),
@@ -1048,7 +1104,7 @@
       return;
     }
     if (resolved) {
-      const saved = lsGet(LS_SESSION);
+      const saved = lsGet(sessionKey());
       const same = saved && JSON.stringify(saved.targets) === JSON.stringify(Array.from(new Set(resolved.ids))) &&
         (saved.mode || 'target') === (resolved.mode || 'target') && (seedParam == null || saved.seed === seedParam);
       if (same && restoreSession(saved)) { render(); return; }

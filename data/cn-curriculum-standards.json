@@ -3053,6 +3053,363 @@
       "page_or_ref": "待核",
       "verbatim": false,
       "text_status": "公开转述整理，未与教育部 PDF 逐页核对，待核"
+    },
+    {
+      "id": "ces-2022:1.PH.01",
+      "domain": "语音",
+      "section": "一级 · 语音",
+      "clause": "(1)",
+      "text": "能按顺序认读英语字母表中的 26 个字母，并能区分同一个字母的大写和小写。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对"
+    },
+    {
+      "id": "ces-2022:1.PH.02",
+      "domain": "语音",
+      "section": "一级 · 语音",
+      "clause": "(2)",
+      "text": "能区分元音字母 a、e、i、o、u 和常见辅音字母。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对"
+    },
+    {
+      "id": "ces-2022:1.PH.03",
+      "domain": "语音",
+      "section": "一级 · 语音",
+      "clause": "(3)",
+      "text": "能感知元音字母在重读闭音节中的常见短元音，并用来拼读简单单词。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对"
+    },
+    {
+      "id": "ces-2022:1.PH.04",
+      "domain": "语音",
+      "section": "一级 · 语音",
+      "clause": "(4)",
+      "text": "能把常见辅音字母和它在单词开头的读音初步对应起来。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对"
+    },
+    {
+      "id": "ces-2022:1.PH.05",
+      "domain": "语音",
+      "section": "一级 · 语音",
+      "clause": "(5)",
+      "text": "能感知元音字母在开音节中的常见读音，如 a-e、i-e、o-e、u-e。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对"
+    },
+    {
+      "id": "ces-2022:2.PH.01",
+      "domain": "语音",
+      "section": "二级 · 语音",
+      "clause": "(1)",
+      "text": "能根据已学字母组合和常见开头辅音连缀拼读单词。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对"
+    },
+    {
+      "id": "ces-2022:2.PH.02",
+      "domain": "语音",
+      "section": "二级 · 语音",
+      "clause": "(2)",
+      "text": "能在朗读中注意句子重音，并区分陈述句和一般疑问句的基本语调。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对"
+    },
+    {
+      "id": "ces-2022:1.VO.01",
+      "domain": "词汇",
+      "section": "一级 · 词汇",
+      "clause": "(1)",
+      "text": "能在图片和简短语境中认读与问候、颜色、身体、动物、食物、学校、家庭等主题有关的核心单词。一级词表的具体词目以课标附录为准，本条为转述。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对"
+    },
+    {
+      "id": "ces-2022:2.VO.01",
+      "domain": "词汇",
+      "section": "二级 · 词汇",
+      "clause": "(1)",
+      "text": "能在语境中理解并运用与星期、月份、季节、运动、场所、交通、职业、情绪和计划有关的词汇。二级词表以课标附录为准，本条为转述。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对"
+    },
+    {
+      "id": "ces-2022:2.VO.02",
+      "domain": "词汇",
+      "section": "二级 · 词汇",
+      "clause": "(2)",
+      "text": "能在句子中区分部分易混词的意义和用法，如 there 与 their、its 与 it's、too 与 two。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对"
+    },
+    {
+      "id": "ces-2022:1.GR.01",
+      "domain": "语法",
+      "section": "一级 · 语法",
+      "clause": "(1)",
+      "text": "能在句子中运用 am、is、are，构成简单的肯定句，并与 I、you、he、she、it、they 搭配。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对"
+    },
+    {
+      "id": "ces-2022:1.GR.02",
+      "domain": "语法",
+      "section": "一级 · 语法",
+      "clause": "(2)",
+      "text": "能识别可数名词的单数和复数，并正确使用词尾 -s 或 -es 的常见形式。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对"
+    },
+    {
+      "id": "ces-2022:1.GR.03",
+      "domain": "语法",
+      "section": "一级 · 语法",
+      "clause": "(3)",
+      "text": "能在句子中运用人称代词主格和常见形容词性物主代词，如 I、you、he、she、my、your、his、her。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对"
+    },
+    {
+      "id": "ces-2022:1.GR.04",
+      "domain": "语法",
+      "section": "一级 · 语法",
+      "clause": "(4)",
+      "text": "能运用 this、that、these、those 以及方位介词 in、on、under 表示近指、远指和位置。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对"
+    },
+    {
+      "id": "ces-2022:1.GR.05",
+      "domain": "语法",
+      "section": "一级 · 语法",
+      "clause": "(5)",
+      "text": "能用一般现在时的常见句式表达喜好和拥有，如 I like、Do you like、He has。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对"
+    },
+    {
+      "id": "ces-2022:1.GR.06",
+      "domain": "语法",
+      "section": "一级 · 语法",
+      "clause": "(6)",
+      "text": "能运用基数词，并用 How many、How old、What time、How much 询问数量、年龄、时刻和价格。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对"
+    },
+    {
+      "id": "ces-2022:1.GR.07",
+      "domain": "语法",
+      "section": "一级 · 语法",
+      "clause": "(7)",
+      "text": "能理解 Let's 开头的建议句，以及 whose 和名词所有格 's 询问、说明物品属于谁。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对"
+    },
+    {
+      "id": "ces-2022:2.GR.01",
+      "domain": "语法",
+      "section": "二级 · 语法",
+      "clause": "(1)",
+      "text": "能运用一般现在时描述习惯，包括第三人称单数的动词形式，以及 do、does 引导的疑问句。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对"
+    },
+    {
+      "id": "ces-2022:2.GR.02",
+      "domain": "语法",
+      "section": "二级 · 语法",
+      "clause": "(2)",
+      "text": "能运用现在进行时描述正在发生的动作，结构是 am、is、are 加动词的 -ing 形式。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对"
+    },
+    {
+      "id": "ces-2022:2.GR.03",
+      "domain": "语法",
+      "section": "二级 · 语法",
+      "clause": "(3)",
+      "text": "能运用 can 谈论能力，并用 There is、There are 及其疑问形式描述某处有什么。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对"
+    },
+    {
+      "id": "ces-2022:2.GR.04",
+      "domain": "语法",
+      "section": "二级 · 语法",
+      "clause": "(4)",
+      "text": "能运用频度副词、序数词和 in、on、at 表达作息、日期和月份。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对"
+    },
+    {
+      "id": "ces-2022:2.GR.05",
+      "domain": "语法",
+      "section": "二级 · 语法",
+      "clause": "(5)",
+      "text": "能运用名词性物主代词 mine、yours、his、hers、ours、theirs 说明物品属于谁。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对"
+    },
+    {
+      "id": "ces-2022:2.GR.06",
+      "domain": "语法",
+      "section": "二级 · 语法",
+      "clause": "(6)",
+      "text": "能运用 be going to 表达打算或将要做的事。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对"
+    },
+    {
+      "id": "ces-2022:2.GR.07",
+      "domain": "语法",
+      "section": "二级 · 语法",
+      "clause": "(7)",
+      "text": "能运用祈使句以及 should、must 提出建议或说明规则。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对"
+    },
+    {
+      "id": "ces-2022:2.GR.08",
+      "domain": "语法",
+      "section": "二级 · 语法",
+      "clause": "(8)",
+      "text": "能运用一般过去时谈论已经发生的事情，包括规则动词 -ed 和常见不规则动词。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对"
+    },
+    {
+      "id": "ces-2022:2.GR.09",
+      "domain": "语法",
+      "section": "二级 · 语法",
+      "clause": "(9)",
+      "text": "能运用形容词比较级，并用 than 对两者进行比较。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对"
+    },
+    {
+      "id": "ces-2022:1.FU.01",
+      "domain": "日常表达",
+      "section": "一级 · 日常表达",
+      "clause": "(1)",
+      "text": "能用简单英语问候、告别、致谢，并介绍自己的姓名、年龄和来自哪里。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对"
+    },
+    {
+      "id": "ces-2022:1.FU.02",
+      "domain": "日常表达",
+      "section": "一级 · 日常表达",
+      "clause": "(2)",
+      "text": "能用简单句型询问和表达颜色、位置、喜好、家庭、时间和价格。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对"
+    },
+    {
+      "id": "ces-2022:1.FU.03",
+      "domain": "日常表达",
+      "section": "一级 · 日常表达",
+      "clause": "(3)",
+      "text": "能在学校、家里、餐桌和商店等情境中使用常见功能句。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对"
+    },
+    {
+      "id": "ces-2022:2.FU.01",
+      "domain": "日常表达",
+      "section": "二级 · 日常表达",
+      "clause": "(1)",
+      "text": "能询问和说明课程、作息、日期、季节、能力和正在做的事情。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对"
+    },
+    {
+      "id": "ces-2022:2.FU.02",
+      "domain": "日常表达",
+      "section": "二级 · 日常表达",
+      "clause": "(2)",
+      "text": "能问路指路、说明出行方式、谈论计划和感受，并给出简单建议。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对"
+    },
+    {
+      "id": "ces-2022:1.RW.01",
+      "domain": "读写",
+      "section": "一级 · 读写",
+      "clause": "(1)",
+      "text": "能借助文字描述的图片信息认读单词和句子，并选出与图意相符的一句英文。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对"
+    },
+    {
+      "id": "ces-2022:1.RW.02",
+      "domain": "读写",
+      "section": "一级 · 读写",
+      "clause": "(2)",
+      "text": "能读懂配有明确信息的简短对话或短文，找出人物、颜色、数量或位置。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对"
+    },
+    {
+      "id": "ces-2022:2.RW.01",
+      "domain": "读写",
+      "section": "二级 · 读写",
+      "clause": "(1)",
+      "text": "能读懂与教材话题有关的简短日记、通知或信件，抓住时间、地点、人物和事件。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对"
+    },
+    {
+      "id": "ces-2022:2.RW.02",
+      "domain": "读写",
+      "section": "二级 · 读写",
+      "clause": "(2)",
+      "text": "能根据提示选择意思连贯的英文句子，描述人物、计划或过去的一天。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对"
     }
-  ]
+  ],
+  "english": {
+    "title": "义务教育英语课程标准（2022年版）",
+    "issuer": "中华人民共和国教育部",
+    "year": 2022,
+    "stage": "义务教育三级（3～4年级，一级）与四级（5～6年级，二级）",
+    "note": "条目是对一级、二级语言技能的公开转述，不是逐页核对的原文。verbatim 为 false，page_or_ref 为「待核」。编号 ces-2022 是本图谱编的，不是教育部原编号。教材按人教 PEP 三年级起点的常见目录编排，没有写入页码。"
+  }
 }

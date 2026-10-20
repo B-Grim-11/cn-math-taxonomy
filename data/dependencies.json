@@ -7792,5 +7792,1421 @@
     "prerequisiteId": "cnm_h269",
     "strength": "soft",
     "reason": "同一册的统计建模也会碰到分类变量是否有关联。"
+  },
+  {
+    "topicId": "cne_p003",
+    "prerequisiteId": "cne_p002",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「字母的大写和小写」，再学「元音字母」。"
+  },
+  {
+    "topicId": "cne_p004",
+    "prerequisiteId": "cne_p003",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「元音字母」，再学「辅音字母 b 的开头音」。"
+  },
+  {
+    "topicId": "cne_p005",
+    "prerequisiteId": "cne_p004",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「辅音字母 b 的开头音」，再学「问候用语」。"
+  },
+  {
+    "topicId": "cne_p006",
+    "prerequisiteId": "cne_p005",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「问候用语」，再学「be 动词 am」。"
+  },
+  {
+    "topicId": "cne_p007",
+    "prerequisiteId": "cne_p006",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「be 动词 am」，再学「问候、告别和致谢」。"
+  },
+  {
+    "topicId": "cne_p008",
+    "prerequisiteId": "cne_p007",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「问候、告别和致谢」，再学「读懂自我介绍」。"
+  },
+  {
+    "topicId": "cne_p009",
+    "prerequisiteId": "cne_p008",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「读懂自我介绍」，再学「颜色」。"
+  },
+  {
+    "topicId": "cne_p011",
+    "prerequisiteId": "cne_p010",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「It is 说明颜色」，再学「询问颜色」。"
+  },
+  {
+    "topicId": "cne_p012",
+    "prerequisiteId": "cne_p011",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「询问颜色」，再学「看图认颜色」。"
+  },
+  {
+    "topicId": "cne_p013",
+    "prerequisiteId": "cne_p012",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「看图认颜色」，再学「身体部位」。"
+  },
+  {
+    "topicId": "cne_p014",
+    "prerequisiteId": "cne_p013",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「身体部位」，再学「This is 与 That is」。"
+  },
+  {
+    "topicId": "cne_p015",
+    "prerequisiteId": "cne_p014",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「This is 与 That is」，再学「介绍身体部位」。"
+  },
+  {
+    "topicId": "cne_p016",
+    "prerequisiteId": "cne_p015",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「介绍身体部位」，再学「读懂五官介绍」。"
+  },
+  {
+    "topicId": "cne_p017",
+    "prerequisiteId": "cne_p016",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「读懂五官介绍」，再学「动物」。"
+  },
+  {
+    "topicId": "cne_p018",
+    "prerequisiteId": "cne_p017",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「动物」，再学「用 This is a 介绍动物」。"
+  },
+  {
+    "topicId": "cne_p019",
+    "prerequisiteId": "cne_p018",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「用 This is a 介绍动物」，再学「读懂动物句子」。"
+  },
+  {
+    "topicId": "cne_p020",
+    "prerequisiteId": "cne_p019",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「读懂动物句子」，再学「食物」。"
+  },
+  {
+    "topicId": "cne_p022",
+    "prerequisiteId": "cne_p021",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「I like 表达喜好」，再学「表达想吃什么」。"
+  },
+  {
+    "topicId": "cne_p023",
+    "prerequisiteId": "cne_p022",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「表达想吃什么」，再学「读懂喜好短文」。"
+  },
+  {
+    "topicId": "cne_p024",
+    "prerequisiteId": "cne_p023",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「读懂喜好短文」，再学「1 到 10」。"
+  },
+  {
+    "topicId": "cne_p025",
+    "prerequisiteId": "cne_p024",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「1 到 10」，再学「玩具和礼物」。"
+  },
+  {
+    "topicId": "cne_p026",
+    "prerequisiteId": "cne_p025",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「玩具和礼物」，再学「How many 问数量」。"
+  },
+  {
+    "topicId": "cne_p027",
+    "prerequisiteId": "cne_p026",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「How many 问数量」，再学「询问年龄」。"
+  },
+  {
+    "topicId": "cne_p028",
+    "prerequisiteId": "cne_p027",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「询问年龄」，再学「读懂数量」。"
+  },
+  {
+    "topicId": "cne_p029",
+    "prerequisiteId": "cne_p028",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「读懂数量」，再学「短元音 a」。"
+  },
+  {
+    "topicId": "cne_p030",
+    "prerequisiteId": "cne_p029",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「短元音 a」，再学「国家和来自哪里」。"
+  },
+  {
+    "topicId": "cne_p031",
+    "prerequisiteId": "cne_p030",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「国家和来自哪里」，再学「I am from 说明来自哪里」。"
+  },
+  {
+    "topicId": "cne_p032",
+    "prerequisiteId": "cne_p031",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「I am from 说明来自哪里」，再学「询问来自哪里」。"
+  },
+  {
+    "topicId": "cne_p033",
+    "prerequisiteId": "cne_p032",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「询问来自哪里」，再学「读懂来自哪里」。"
+  },
+  {
+    "topicId": "cne_p034",
+    "prerequisiteId": "cne_p033",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「读懂来自哪里」，再学「短元音 e」。"
+  },
+  {
+    "topicId": "cne_p035",
+    "prerequisiteId": "cne_p034",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「短元音 e」，再学「家庭成员」。"
+  },
+  {
+    "topicId": "cne_p036",
+    "prerequisiteId": "cne_p035",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「家庭成员」，再学「Who is 询问是谁」。"
+  },
+  {
+    "topicId": "cne_p037",
+    "prerequisiteId": "cne_p036",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「Who is 询问是谁」，再学「介绍家人」。"
+  },
+  {
+    "topicId": "cne_p038",
+    "prerequisiteId": "cne_p037",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「介绍家人」，再学「读懂家人介绍」。"
+  },
+  {
+    "topicId": "cne_p039",
+    "prerequisiteId": "cne_p038",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「读懂家人介绍」，再学「短元音 i」。"
+  },
+  {
+    "topicId": "cne_p040",
+    "prerequisiteId": "cne_p039",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「短元音 i」，再学「大小和高矮」。"
+  },
+  {
+    "topicId": "cne_p042",
+    "prerequisiteId": "cne_p041",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「用形容词说大小高矮」，再学「读懂动物园的句子」。"
+  },
+  {
+    "topicId": "cne_p043",
+    "prerequisiteId": "cne_p042",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「读懂动物园的句子」，再学「短元音 o」。"
+  },
+  {
+    "topicId": "cne_p044",
+    "prerequisiteId": "cne_p043",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「短元音 o」，再学「房间里的物品」。"
+  },
+  {
+    "topicId": "cne_p046",
+    "prerequisiteId": "cne_p045",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「in、on、under」，再学「询问位置」。"
+  },
+  {
+    "topicId": "cne_p047",
+    "prerequisiteId": "cne_p046",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「询问位置」，再学「读懂位置」。"
+  },
+  {
+    "topicId": "cne_p048",
+    "prerequisiteId": "cne_p047",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「读懂位置」，再学「短元音 u」。"
+  },
+  {
+    "topicId": "cne_p050",
+    "prerequisiteId": "cne_p049",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「五个短元音复习」，再学「水果」。"
+  },
+  {
+    "topicId": "cne_p051",
+    "prerequisiteId": "cne_p050",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「水果」，再学「Do you like 一般疑问句」。"
+  },
+  {
+    "topicId": "cne_p052",
+    "prerequisiteId": "cne_p051",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「Do you like 一般疑问句」，再学「可数名词复数」。"
+  },
+  {
+    "topicId": "cne_p053",
+    "prerequisiteId": "cne_p052",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「可数名词复数」，再学「读懂水果喜好」。"
+  },
+  {
+    "topicId": "cne_p054",
+    "prerequisiteId": "cne_p053",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「读懂水果喜好」，再学「11 到 20」。"
+  },
+  {
+    "topicId": "cne_p055",
+    "prerequisiteId": "cne_p054",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「11 到 20」，再学「How many 与 11 到 20」。"
+  },
+  {
+    "topicId": "cne_p056",
+    "prerequisiteId": "cne_p055",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「How many 与 11 到 20」，再学「读懂 11 到 20 的数量」。"
+  },
+  {
+    "topicId": "cne_p057",
+    "prerequisiteId": "cne_p056",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「读懂 11 到 20 的数量」，再学「a-e 的读音」。"
+  },
+  {
+    "topicId": "cne_p058",
+    "prerequisiteId": "cne_p057",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「a-e 的读音」，再学「教室物品」。"
+  },
+  {
+    "topicId": "cne_p059",
+    "prerequisiteId": "cne_p058",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「教室物品」，再学「Let's 建议句」。"
+  },
+  {
+    "topicId": "cne_p060",
+    "prerequisiteId": "cne_p059",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「Let's 建议句」，再学「教室里的建议」。"
+  },
+  {
+    "topicId": "cne_p061",
+    "prerequisiteId": "cne_p060",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「教室里的建议」，再学「读懂教室短文」。"
+  },
+  {
+    "topicId": "cne_p062",
+    "prerequisiteId": "cne_p061",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「读懂教室短文」，再学「i-e 的读音」。"
+  },
+  {
+    "topicId": "cne_p063",
+    "prerequisiteId": "cne_p062",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「i-e 的读音」，再学「书包里的文具」。"
+  },
+  {
+    "topicId": "cne_p064",
+    "prerequisiteId": "cne_p063",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「书包里的文具」，再学「谈论书包里有什么」。"
+  },
+  {
+    "topicId": "cne_p065",
+    "prerequisiteId": "cne_p064",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「谈论书包里有什么」，再学「读懂书包里的物品」。"
+  },
+  {
+    "topicId": "cne_p066",
+    "prerequisiteId": "cne_p065",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「读懂书包里的物品」，再学「o-e 的读音」。"
+  },
+  {
+    "topicId": "cne_p067",
+    "prerequisiteId": "cne_p066",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「o-e 的读音」，再学「描述朋友」。"
+  },
+  {
+    "topicId": "cne_p068",
+    "prerequisiteId": "cne_p067",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「描述朋友」，再学「He has 与 I have」。"
+  },
+  {
+    "topicId": "cne_p069",
+    "prerequisiteId": "cne_p068",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「He has 与 I have」，再学「介绍朋友」。"
+  },
+  {
+    "topicId": "cne_p070",
+    "prerequisiteId": "cne_p069",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「介绍朋友」，再学「读懂朋友介绍」。"
+  },
+  {
+    "topicId": "cne_p071",
+    "prerequisiteId": "cne_p070",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「读懂朋友介绍」，再学「u-e 的读音」。"
+  },
+  {
+    "topicId": "cne_p072",
+    "prerequisiteId": "cne_p071",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「u-e 的读音」，再学「家里的房间」。"
+  },
+  {
+    "topicId": "cne_p073",
+    "prerequisiteId": "cne_p072",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「家里的房间」，再学「is 和 are 说明人在哪里」。"
+  },
+  {
+    "topicId": "cne_p074",
+    "prerequisiteId": "cne_p073",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「is 和 are 说明人在哪里」，再学「询问家人在哪个房间」。"
+  },
+  {
+    "topicId": "cne_p075",
+    "prerequisiteId": "cne_p074",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「询问家人在哪个房间」，再学「读懂家里的位置」。"
+  },
+  {
+    "topicId": "cne_p076",
+    "prerequisiteId": "cne_p075",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「读懂家里的位置」，再学「长元音 e」。"
+  },
+  {
+    "topicId": "cne_p077",
+    "prerequisiteId": "cne_p076",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「长元音 e」，再学「晚餐食物」。"
+  },
+  {
+    "topicId": "cne_p078",
+    "prerequisiteId": "cne_p077",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「晚餐食物」，再学「Would you like 用餐」。"
+  },
+  {
+    "topicId": "cne_p079",
+    "prerequisiteId": "cne_p078",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「Would you like 用餐」，再学「读懂晚餐对话」。"
+  },
+  {
+    "topicId": "cne_p080",
+    "prerequisiteId": "cne_p079",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「读懂晚餐对话」，再学「职业」。"
+  },
+  {
+    "topicId": "cne_p081",
+    "prerequisiteId": "cne_p080",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「职业」，再学「询问职业与 his、her」。"
+  },
+  {
+    "topicId": "cne_p082",
+    "prerequisiteId": "cne_p081",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「询问职业与 his、her」，再学「介绍家人的职业」。"
+  },
+  {
+    "topicId": "cne_p083",
+    "prerequisiteId": "cne_p082",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「介绍家人的职业」，再学「读懂家人职业」。"
+  },
+  {
+    "topicId": "cne_p084",
+    "prerequisiteId": "cne_p083",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「读懂家人职业」，再学「学校场所」。"
+  },
+  {
+    "topicId": "cne_p085",
+    "prerequisiteId": "cne_p084",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「学校场所」，再学「楼层与 first、second」。"
+  },
+  {
+    "topicId": "cne_p086",
+    "prerequisiteId": "cne_p085",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「楼层与 first、second」，再学「问路：学校里的场所」。"
+  },
+  {
+    "topicId": "cne_p087",
+    "prerequisiteId": "cne_p086",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「问路：学校里的场所」，再学「读懂学校平面说明」。"
+  },
+  {
+    "topicId": "cne_p088",
+    "prerequisiteId": "cne_p087",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「读懂学校平面说明」，再学「一天中的活动」。"
+  },
+  {
+    "topicId": "cne_p089",
+    "prerequisiteId": "cne_p088",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「一天中的活动」，再学「What time is it」。"
+  },
+  {
+    "topicId": "cne_p090",
+    "prerequisiteId": "cne_p089",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「What time is it」，再学「说时刻和该做的事」。"
+  },
+  {
+    "topicId": "cne_p091",
+    "prerequisiteId": "cne_p090",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「说时刻和该做的事」，再学「读懂作息时刻」。"
+  },
+  {
+    "topicId": "cne_p092",
+    "prerequisiteId": "cne_p091",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「读懂作息时刻」，再学「天气」。"
+  },
+  {
+    "topicId": "cne_p094",
+    "prerequisiteId": "cne_p093",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「It is 描述天气」，再学「谈论天气并给建议」。"
+  },
+  {
+    "topicId": "cne_p095",
+    "prerequisiteId": "cne_p094",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「谈论天气并给建议」，再学「读懂天气预报」。"
+  },
+  {
+    "topicId": "cne_p096",
+    "prerequisiteId": "cne_p095",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「读懂天气预报」，再学「农场」。"
+  },
+  {
+    "topicId": "cne_p097",
+    "prerequisiteId": "cne_p096",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「农场」，再学「These are 与 Those are」。"
+  },
+  {
+    "topicId": "cne_p098",
+    "prerequisiteId": "cne_p097",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「These are 与 Those are」，再学「在农场谈论动物和蔬菜」。"
+  },
+  {
+    "topicId": "cne_p099",
+    "prerequisiteId": "cne_p098",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「在农场谈论动物和蔬菜」，再学「读懂农场短文」。"
+  },
+  {
+    "topicId": "cne_p100",
+    "prerequisiteId": "cne_p099",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「读懂农场短文」，再学「衣服」。"
+  },
+  {
+    "topicId": "cne_p101",
+    "prerequisiteId": "cne_p100",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「衣服」，再学「Whose 与名词所有格」。"
+  },
+  {
+    "topicId": "cne_p102",
+    "prerequisiteId": "cne_p101",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「Whose 与名词所有格」，再学「谈论穿着」。"
+  },
+  {
+    "topicId": "cne_p103",
+    "prerequisiteId": "cne_p102",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「谈论穿着」，再学「读懂衣服是谁的」。"
+  },
+  {
+    "topicId": "cne_p104",
+    "prerequisiteId": "cne_p103",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「读懂衣服是谁的」，再学「商店物品」。"
+  },
+  {
+    "topicId": "cne_p105",
+    "prerequisiteId": "cne_p104",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「商店物品」，再学「How much 询问价格」。"
+  },
+  {
+    "topicId": "cne_p106",
+    "prerequisiteId": "cne_p105",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「How much 询问价格」，再学「在商店购物」。"
+  },
+  {
+    "topicId": "cne_p107",
+    "prerequisiteId": "cne_p106",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「在商店购物」，再学「读懂价签」。"
+  },
+  {
+    "topicId": "cne_p108",
+    "prerequisiteId": "cne_p107",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「读懂价签」，再学「开头辅音连缀 bl、cl、fl」。"
+  },
+  {
+    "topicId": "cne_p109",
+    "prerequisiteId": "cne_p108",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「开头辅音连缀 bl、cl、fl」，再学「性格和外貌」。"
+  },
+  {
+    "topicId": "cne_p110",
+    "prerequisiteId": "cne_p109",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「性格和外貌」，再学「What is he like」。"
+  },
+  {
+    "topicId": "cne_p111",
+    "prerequisiteId": "cne_p110",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「What is he like」，再学「描述老师」。"
+  },
+  {
+    "topicId": "cne_p112",
+    "prerequisiteId": "cne_p111",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「描述老师」，再学「读懂老师介绍」。"
+  },
+  {
+    "topicId": "cne_p113",
+    "prerequisiteId": "cne_p112",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「读懂老师介绍」，再学「星期」。"
+  },
+  {
+    "topicId": "cne_p114",
+    "prerequisiteId": "cne_p113",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「星期」，再学「have 与 on Mondays」。"
+  },
+  {
+    "topicId": "cne_p115",
+    "prerequisiteId": "cne_p114",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「have 与 on Mondays」，再学「周末活动」。"
+  },
+  {
+    "topicId": "cne_p116",
+    "prerequisiteId": "cne_p115",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「周末活动」，再学「用 often 谈论日常」。"
+  },
+  {
+    "topicId": "cne_p117",
+    "prerequisiteId": "cne_p116",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「用 often 谈论日常」，再学「读懂一周课程」。"
+  },
+  {
+    "topicId": "cne_p118",
+    "prerequisiteId": "cne_p117",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「读懂一周课程」，再学「餐食」。"
+  },
+  {
+    "topicId": "cne_p119",
+    "prerequisiteId": "cne_p118",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「餐食」，再学「What would you like to eat」。"
+  },
+  {
+    "topicId": "cne_p120",
+    "prerequisiteId": "cne_p119",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「What would you like to eat」，再学「读懂点餐」。"
+  },
+  {
+    "topicId": "cne_p121",
+    "prerequisiteId": "cne_p120",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「读懂点餐」，再学「能力动词」。"
+  },
+  {
+    "topicId": "cne_p122",
+    "prerequisiteId": "cne_p121",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「能力动词」，再学「can 表示能力」。"
+  },
+  {
+    "topicId": "cne_p123",
+    "prerequisiteId": "cne_p122",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「can 表示能力」，再学「谈论会做的事」。"
+  },
+  {
+    "topicId": "cne_p124",
+    "prerequisiteId": "cne_p123",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「谈论会做的事」，再学「读懂能力短文」。"
+  },
+  {
+    "topicId": "cne_p125",
+    "prerequisiteId": "cne_p124",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「读懂能力短文」，再学「房间里的东西」。"
+  },
+  {
+    "topicId": "cne_p126",
+    "prerequisiteId": "cne_p125",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「房间里的东西」，再学「There is 与 There are」。"
+  },
+  {
+    "topicId": "cne_p127",
+    "prerequisiteId": "cne_p126",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「There is 与 There are」，再学「描述自己的房间」。"
+  },
+  {
+    "topicId": "cne_p128",
+    "prerequisiteId": "cne_p127",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「描述自己的房间」，再学「读懂房间短文」。"
+  },
+  {
+    "topicId": "cne_p129",
+    "prerequisiteId": "cne_p128",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「读懂房间短文」，再学「自然公园」。"
+  },
+  {
+    "topicId": "cne_p130",
+    "prerequisiteId": "cne_p129",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「自然公园」，再学「Is there 与 Are there」。"
+  },
+  {
+    "topicId": "cne_p131",
+    "prerequisiteId": "cne_p130",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「Is there 与 Are there」，再学「谈论公园里有什么」。"
+  },
+  {
+    "topicId": "cne_p132",
+    "prerequisiteId": "cne_p131",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「谈论公园里有什么」，再学「读懂自然公园」。"
+  },
+  {
+    "topicId": "cne_p133",
+    "prerequisiteId": "cne_p132",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「读懂自然公园」，再学「一天的活动」。"
+  },
+  {
+    "topicId": "cne_p134",
+    "prerequisiteId": "cne_p133",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「一天的活动」，再学「When do you 询问时间」。"
+  },
+  {
+    "topicId": "cne_p135",
+    "prerequisiteId": "cne_p134",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「When do you 询问时间」，再学「谈论作息」。"
+  },
+  {
+    "topicId": "cne_p136",
+    "prerequisiteId": "cne_p135",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「谈论作息」，再学「读懂一天的作息」。"
+  },
+  {
+    "topicId": "cne_p137",
+    "prerequisiteId": "cne_p136",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「读懂一天的作息」，再学「季节」。"
+  },
+  {
+    "topicId": "cne_p138",
+    "prerequisiteId": "cne_p137",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「季节」，再学「谈论最喜欢的季节」。"
+  },
+  {
+    "topicId": "cne_p139",
+    "prerequisiteId": "cne_p138",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「谈论最喜欢的季节」，再学「读懂季节短文」。"
+  },
+  {
+    "topicId": "cne_p140",
+    "prerequisiteId": "cne_p139",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「读懂季节短文」，再学「月份」。"
+  },
+  {
+    "topicId": "cne_p141",
+    "prerequisiteId": "cne_p140",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「月份」，再学「in 加月份」。"
+  },
+  {
+    "topicId": "cne_p142",
+    "prerequisiteId": "cne_p141",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「in 加月份」，再学「谈论节日在几月」。"
+  },
+  {
+    "topicId": "cne_p143",
+    "prerequisiteId": "cne_p142",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「谈论节日在几月」，再学「读懂校历」。"
+  },
+  {
+    "topicId": "cne_p144",
+    "prerequisiteId": "cne_p143",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「读懂校历」，再学「序数词」。"
+  },
+  {
+    "topicId": "cne_p146",
+    "prerequisiteId": "cne_p145",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「说出日期」，再学「读懂日期通知」。"
+  },
+  {
+    "topicId": "cne_p147",
+    "prerequisiteId": "cne_p146",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「读懂日期通知」，再学「名词性物主代词」。"
+  },
+  {
+    "topicId": "cne_p148",
+    "prerequisiteId": "cne_p147",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「名词性物主代词」，再学「现在进行时」。"
+  },
+  {
+    "topicId": "cne_p149",
+    "prerequisiteId": "cne_p148",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「现在进行时」，再学「Whose 与正在做的事」。"
+  },
+  {
+    "topicId": "cne_p150",
+    "prerequisiteId": "cne_p149",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「Whose 与正在做的事」，再学「读懂正在做的事」。"
+  },
+  {
+    "topicId": "cne_p151",
+    "prerequisiteId": "cne_p150",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「读懂正在做的事」，再学「规则用词」。"
+  },
+  {
+    "topicId": "cne_p152",
+    "prerequisiteId": "cne_p151",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「规则用词」，再学「祈使句」。"
+  },
+  {
+    "topicId": "cne_p153",
+    "prerequisiteId": "cne_p152",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「祈使句」，再学「说规则」。"
+  },
+  {
+    "topicId": "cne_p154",
+    "prerequisiteId": "cne_p153",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「说规则」，再学「读懂规则」。"
+  },
+  {
+    "topicId": "cne_p155",
+    "prerequisiteId": "cne_p154",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「读懂规则」，再学「城市场所」。"
+  },
+  {
+    "topicId": "cne_p156",
+    "prerequisiteId": "cne_p155",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「城市场所」，再学「左转、右转和直行」。"
+  },
+  {
+    "topicId": "cne_p157",
+    "prerequisiteId": "cne_p156",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「左转、右转和直行」，再学「问路和指路」。"
+  },
+  {
+    "topicId": "cne_p158",
+    "prerequisiteId": "cne_p157",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「问路和指路」，再学「读懂指路」。"
+  },
+  {
+    "topicId": "cne_p159",
+    "prerequisiteId": "cne_p158",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「读懂指路」，再学「交通工具」。"
+  },
+  {
+    "topicId": "cne_p160",
+    "prerequisiteId": "cne_p159",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「交通工具」，再学「must 与交通规则」。"
+  },
+  {
+    "topicId": "cne_p161",
+    "prerequisiteId": "cne_p160",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「must 与交通规则」，再学「说明出行方式」。"
+  },
+  {
+    "topicId": "cne_p162",
+    "prerequisiteId": "cne_p161",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「说明出行方式」，再学「读懂交通规则」。"
+  },
+  {
+    "topicId": "cne_p163",
+    "prerequisiteId": "cne_p162",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「读懂交通规则」，再学「周末计划」。"
+  },
+  {
+    "topicId": "cne_p164",
+    "prerequisiteId": "cne_p163",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「周末计划」，再学「be going to 一般将来时」。"
+  },
+  {
+    "topicId": "cne_p165",
+    "prerequisiteId": "cne_p164",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「be going to 一般将来时」，再学「谈论计划」。"
+  },
+  {
+    "topicId": "cne_p166",
+    "prerequisiteId": "cne_p165",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「谈论计划」，再学「读懂周末计划」。"
+  },
+  {
+    "topicId": "cne_p167",
+    "prerequisiteId": "cne_p166",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「读懂周末计划」，再学「爱好」。"
+  },
+  {
+    "topicId": "cne_p168",
+    "prerequisiteId": "cne_p167",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「爱好」，再学「does 与第三人称单数」。"
+  },
+  {
+    "topicId": "cne_p169",
+    "prerequisiteId": "cne_p168",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「does 与第三人称单数」，再学「谈论笔友和爱好」。"
+  },
+  {
+    "topicId": "cne_p170",
+    "prerequisiteId": "cne_p169",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「谈论笔友和爱好」，再学「读懂笔友介绍」。"
+  },
+  {
+    "topicId": "cne_p171",
+    "prerequisiteId": "cne_p170",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「读懂笔友介绍」，再学「更多职业」。"
+  },
+  {
+    "topicId": "cne_p172",
+    "prerequisiteId": "cne_p171",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「更多职业」，再学「What does he do」。"
+  },
+  {
+    "topicId": "cne_p173",
+    "prerequisiteId": "cne_p172",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「What does he do」，再学「介绍职业和工作地点」。"
+  },
+  {
+    "topicId": "cne_p174",
+    "prerequisiteId": "cne_p173",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「介绍职业和工作地点」，再学「读懂职业短文」。"
+  },
+  {
+    "topicId": "cne_p175",
+    "prerequisiteId": "cne_p174",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「读懂职业短文」，再学「感受」。"
+  },
+  {
+    "topicId": "cne_p176",
+    "prerequisiteId": "cne_p175",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「感受」，再学「should 提建议」。"
+  },
+  {
+    "topicId": "cne_p177",
+    "prerequisiteId": "cne_p176",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「should 提建议」，再学「询问感受并建议」。"
+  },
+  {
+    "topicId": "cne_p178",
+    "prerequisiteId": "cne_p177",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「询问感受并建议」，再学「读懂感受和建议」。"
+  },
+  {
+    "topicId": "cne_p179",
+    "prerequisiteId": "cne_p178",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「读懂感受和建议」，再学「陈述句和疑问句的语调」。"
+  },
+  {
+    "topicId": "cne_p180",
+    "prerequisiteId": "cne_p179",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「陈述句和疑问句的语调」，再学「身高和体重」。"
+  },
+  {
+    "topicId": "cne_p181",
+    "prerequisiteId": "cne_p180",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「身高和体重」，再学「形容词比较级」。"
+  },
+  {
+    "topicId": "cne_p183",
+    "prerequisiteId": "cne_p182",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「用 than 比较」，再学「询问身高」。"
+  },
+  {
+    "topicId": "cne_p184",
+    "prerequisiteId": "cne_p183",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「询问身高」，再学「读懂比较短文」。"
+  },
+  {
+    "topicId": "cne_p185",
+    "prerequisiteId": "cne_p184",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「读懂比较短文」，再学「规则动词过去式」。"
+  },
+  {
+    "topicId": "cne_p187",
+    "prerequisiteId": "cne_p186",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「Did 提问」，再学「谈论上周末」。"
+  },
+  {
+    "topicId": "cne_p188",
+    "prerequisiteId": "cne_p187",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「谈论上周末」，再学「读懂上周末日记」。"
+  },
+  {
+    "topicId": "cne_p189",
+    "prerequisiteId": "cne_p188",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「读懂上周末日记」，再学「不规则动词过去式」。"
+  },
+  {
+    "topicId": "cne_p190",
+    "prerequisiteId": "cne_p189",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「不规则动词过去式」，再学「谈论去过哪里」。"
+  },
+  {
+    "topicId": "cne_p191",
+    "prerequisiteId": "cne_p190",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「谈论去过哪里」，再学「读懂旅行日记」。"
+  },
+  {
+    "topicId": "cne_p192",
+    "prerequisiteId": "cne_p191",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「读懂旅行日记」，再学「过去和现在」。"
+  },
+  {
+    "topicId": "cne_p193",
+    "prerequisiteId": "cne_p192",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「过去和现在」，再学「was 与 were」。"
+  },
+  {
+    "topicId": "cne_p194",
+    "prerequisiteId": "cne_p193",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「was 与 were」，再学「比较过去和现在」。"
+  },
+  {
+    "topicId": "cne_p195",
+    "prerequisiteId": "cne_p194",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「比较过去和现在」，再学「读懂今昔对比」。"
+  },
+  {
+    "topicId": "cne_p196",
+    "prerequisiteId": "cne_p195",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「读懂今昔对比」，再学「易混词 there、its、too」。"
+  },
+  {
+    "topicId": "cne_p197",
+    "prerequisiteId": "cne_p196",
+    "strength": "soft",
+    "reason": "按三年级起点的常见教学顺序，先学「易混词 there、its、too」，再学「读懂一封短信」。"
+  },
+  {
+    "topicId": "cne_p002",
+    "prerequisiteId": "cne_p001",
+    "strength": "hard",
+    "reason": "区分大小写之前，要先认识字母表里的字母。"
+  },
+  {
+    "topicId": "cne_p003",
+    "prerequisiteId": "cne_p001",
+    "strength": "hard",
+    "reason": "指出元音字母之前，要先认识字母表。"
+  },
+  {
+    "topicId": "cne_p004",
+    "prerequisiteId": "cne_p001",
+    "strength": "hard",
+    "reason": "把辅音字母和开头读音对应之前，要先认识字母。"
+  },
+  {
+    "topicId": "cne_p029",
+    "prerequisiteId": "cne_p001",
+    "strength": "hard",
+    "reason": "拼读短元音 a 之前，要先认识字母 a。"
+  },
+  {
+    "topicId": "cne_p034",
+    "prerequisiteId": "cne_p001",
+    "strength": "hard",
+    "reason": "拼读短元音 e 之前，要先认识字母 e。"
+  },
+  {
+    "topicId": "cne_p039",
+    "prerequisiteId": "cne_p001",
+    "strength": "hard",
+    "reason": "拼读短元音 i 之前，要先认识字母 i。"
+  },
+  {
+    "topicId": "cne_p043",
+    "prerequisiteId": "cne_p001",
+    "strength": "hard",
+    "reason": "拼读短元音 o 之前，要先认识字母 o。"
+  },
+  {
+    "topicId": "cne_p048",
+    "prerequisiteId": "cne_p001",
+    "strength": "hard",
+    "reason": "拼读短元音 u 之前，要先认识字母 u。"
+  },
+  {
+    "topicId": "cne_p057",
+    "prerequisiteId": "cne_p001",
+    "strength": "hard",
+    "reason": "拼读 a-e 之前，要先认识字母 a 和 e。"
+  },
+  {
+    "topicId": "cne_p062",
+    "prerequisiteId": "cne_p001",
+    "strength": "hard",
+    "reason": "拼读 i-e 之前，要先认识字母 i 和 e。"
+  },
+  {
+    "topicId": "cne_p066",
+    "prerequisiteId": "cne_p001",
+    "strength": "hard",
+    "reason": "拼读 o-e 之前，要先认识字母 o 和 e。"
+  },
+  {
+    "topicId": "cne_p071",
+    "prerequisiteId": "cne_p001",
+    "strength": "hard",
+    "reason": "拼读 u-e 之前，要先认识字母 u 和 e。"
+  },
+  {
+    "topicId": "cne_p076",
+    "prerequisiteId": "cne_p001",
+    "strength": "hard",
+    "reason": "拼读长元音 e 之前，要先认识字母 e。"
+  },
+  {
+    "topicId": "cne_p108",
+    "prerequisiteId": "cne_p001",
+    "strength": "hard",
+    "reason": "拼读辅音连缀之前，要先认识组成它的字母。"
+  },
+  {
+    "topicId": "cne_p049",
+    "prerequisiteId": "cne_p048",
+    "strength": "hard",
+    "reason": "复习五个短元音之前，要先学过短元音 u。"
+  },
+  {
+    "topicId": "cne_p054",
+    "prerequisiteId": "cne_p024",
+    "strength": "hard",
+    "reason": "认读 11 到 20 之前，要先会 1 到 10。"
+  },
+  {
+    "topicId": "cne_p010",
+    "prerequisiteId": "cne_p006",
+    "strength": "hard",
+    "reason": "用 is 说明物品之前，要先会用 am 说自己。"
+  },
+  {
+    "topicId": "cne_p010",
+    "prerequisiteId": "cne_p009",
+    "strength": "hard",
+    "reason": "用 It is 说颜色之前，要先认识颜色单词。"
+  },
+  {
+    "topicId": "cne_p014",
+    "prerequisiteId": "cne_p010",
+    "strength": "hard",
+    "reason": "用 This is 介绍物品之前，要先会 It is。"
+  },
+  {
+    "topicId": "cne_p036",
+    "prerequisiteId": "cne_p006",
+    "strength": "hard",
+    "reason": "用 is 介绍他人之前，要先会 be 动词的 am。"
+  },
+  {
+    "topicId": "cne_p031",
+    "prerequisiteId": "cne_p006",
+    "strength": "hard",
+    "reason": "说 I am from 之前，要先会 I am。"
+  },
+  {
+    "topicId": "cne_p052",
+    "prerequisiteId": "cne_p017",
+    "strength": "hard",
+    "reason": "把动物名词变成复数之前，要先认识这些可数名词。"
+  },
+  {
+    "topicId": "cne_p055",
+    "prerequisiteId": "cne_p052",
+    "strength": "hard",
+    "reason": "用 How many 问可数名词之前，要先会名词复数。"
+  },
+  {
+    "topicId": "cne_p097",
+    "prerequisiteId": "cne_p052",
+    "strength": "hard",
+    "reason": "用 these 和 those 之前，要先会名词复数。"
+  },
+  {
+    "topicId": "cne_p073",
+    "prerequisiteId": "cne_p036",
+    "strength": "hard",
+    "reason": "用 is 和 are 说人在哪里之前，要先会 He is 和 She is。"
+  },
+  {
+    "topicId": "cne_p051",
+    "prerequisiteId": "cne_p021",
+    "strength": "hard",
+    "reason": "用 Do you like 提问之前，要先会 I like。"
+  },
+  {
+    "topicId": "cne_p021",
+    "prerequisiteId": "cne_p020",
+    "strength": "hard",
+    "reason": "用 I like 说喜好之前，要先认识食物单词。"
+  },
+  {
+    "topicId": "cne_p026",
+    "prerequisiteId": "cne_p024",
+    "strength": "hard",
+    "reason": "用 How many 问数量之前，要先会基数词。"
+  },
+  {
+    "topicId": "cne_p045",
+    "prerequisiteId": "cne_p044",
+    "strength": "hard",
+    "reason": "用 in、on、under 说位置之前，要先认识房间里的物品。"
+  },
+  {
+    "topicId": "cne_p041",
+    "prerequisiteId": "cne_p040",
+    "strength": "hard",
+    "reason": "用句子说大小高矮之前，要先认识这些形容词。"
+  },
+  {
+    "topicId": "cne_p114",
+    "prerequisiteId": "cne_p051",
+    "strength": "hard",
+    "reason": "用 Do you 问日常活动之前，要先会 Do you like。"
+  },
+  {
+    "topicId": "cne_p126",
+    "prerequisiteId": "cne_p036",
+    "strength": "hard",
+    "reason": "There is 里的 is 和 He is 是同一个 be 动词，要先会 He is。"
+  },
+  {
+    "topicId": "cne_p130",
+    "prerequisiteId": "cne_p126",
+    "strength": "hard",
+    "reason": "把 There is 改成疑问句之前，要先会它的肯定句。"
+  },
+  {
+    "topicId": "cne_p144",
+    "prerequisiteId": "cne_p054",
+    "strength": "hard",
+    "reason": "学习序数词之前，要先会基数词。"
+  },
+  {
+    "topicId": "cne_p145",
+    "prerequisiteId": "cne_p144",
+    "strength": "hard",
+    "reason": "说 April 1st 这种日期之前，要先会序数词。"
+  },
+  {
+    "topicId": "cne_p147",
+    "prerequisiteId": "cne_p081",
+    "strength": "hard",
+    "reason": "学习 mine 和 yours 之前，要先会 his 和 her。"
+  },
+  {
+    "topicId": "cne_p148",
+    "prerequisiteId": "cne_p036",
+    "strength": "hard",
+    "reason": "现在进行时要用 is 或 are，先要会 He is 和 She is。"
+  },
+  {
+    "topicId": "cne_p164",
+    "prerequisiteId": "cne_p036",
+    "strength": "hard",
+    "reason": "be going to 里的 am、is、are，要先会用来介绍人物。"
+  },
+  {
+    "topicId": "cne_p168",
+    "prerequisiteId": "cne_p114",
+    "strength": "hard",
+    "reason": "用 does 提问之前，要先会 do 引导的疑问句。"
+  },
+  {
+    "topicId": "cne_p172",
+    "prerequisiteId": "cne_p168",
+    "strength": "hard",
+    "reason": "用 works 描述职业之前，要先会第三人称单数。"
+  },
+  {
+    "topicId": "cne_p181",
+    "prerequisiteId": "cne_p040",
+    "strength": "hard",
+    "reason": "比较级 taller 和 bigger 建立在大小、高矮这些词之上。"
+  },
+  {
+    "topicId": "cne_p182",
+    "prerequisiteId": "cne_p181",
+    "strength": "hard",
+    "reason": "用 than 比较两者之前，要先会形容词比较级。"
+  },
+  {
+    "topicId": "cne_p186",
+    "prerequisiteId": "cne_p185",
+    "strength": "hard",
+    "reason": "用 Did 提问之前，要先会规则动词的过去式。"
+  },
+  {
+    "topicId": "cne_p193",
+    "prerequisiteId": "cne_p126",
+    "strength": "hard",
+    "reason": "There was 是 There is 的过去式，要先会 There is。"
+  },
+  {
+    "topicId": "cne_p093",
+    "prerequisiteId": "cne_p092",
+    "strength": "hard",
+    "reason": "用 It is cold 描述天气之前，要先认识天气单词。"
+  },
+  {
+    "topicId": "cne_p150",
+    "prerequisiteId": "cne_p148",
+    "strength": "hard",
+    "reason": "读现在进行时的短文之前，要先会 am、is、are 加 -ing。"
+  },
+  {
+    "topicId": "cne_p184",
+    "prerequisiteId": "cne_p182",
+    "strength": "hard",
+    "reason": "读比较句之前，要先会 than。"
+  },
+  {
+    "topicId": "cne_p188",
+    "prerequisiteId": "cne_p186",
+    "strength": "hard",
+    "reason": "读过去时问答之前，要先会 Did 和过去式。"
+  },
+  {
+    "topicId": "cne_p191",
+    "prerequisiteId": "cne_p189",
+    "strength": "hard",
+    "reason": "读 went、saw 和 ate 之前，要先会这些不规则过去式。"
+  },
+  {
+    "topicId": "cne_p195",
+    "prerequisiteId": "cne_p193",
+    "strength": "hard",
+    "reason": "读 There was 和 I was 的短文之前，要先会 was 和 were。"
   }
 ]

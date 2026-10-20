@@ -20776,5 +20776,5273 @@
         "note": "好多电子课本写成「数学模型 建立统计模型进行预测」，教师之家目录未单列。活动类型标为数学建模。待核。"
       }
     ]
+  },
+  {
+    "id": "cne_p001",
+    "name": "英语字母表",
+    "domain": "语音",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第1单元 Hello",
+    "type": "procedural",
+    "description": "按顺序认读英语字母表中的 26 个字母。",
+    "mastery_criteria": [
+      "能根据字母或读音选出正确的一项",
+      "能把字母、发音和例词对上"
+    ],
+    "diagnostic_question": {
+      "question": "英语字母表一共有多少个字母？",
+      "answer": "26"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.PH.01",
+        "confidence": "exact"
+      }
+    ],
+    "root_reason": "三年级英语从认读字母表开始，前面没有更早的小学英语知识点。"
+  },
+  {
+    "id": "cne_p002",
+    "name": "字母的大写和小写",
+    "domain": "语音",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第1单元 Hello",
+    "type": "procedural",
+    "description": "能把同一个字母的大写和小写配成一对。",
+    "mastery_criteria": [
+      "能根据字母或读音选出正确的一项",
+      "能把字母、发音和例词对上"
+    ],
+    "diagnostic_question": {
+      "question": "哪一组是同一个字母的大写和小写？",
+      "answer": "Gg"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.PH.01",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p003",
+    "name": "元音字母",
+    "domain": "语音",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第1单元 Hello",
+    "type": "procedural",
+    "description": "能指出元音字母 a、e、i、o、u。",
+    "mastery_criteria": [
+      "能根据字母或读音选出正确的一项",
+      "能把字母、发音和例词对上"
+    ],
+    "diagnostic_question": {
+      "question": "哪个是元音字母？",
+      "answer": "the letter A"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.PH.02",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p004",
+    "name": "辅音字母 b 的开头音",
+    "domain": "语音",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第1单元 Hello",
+    "type": "procedural",
+    "description": "能把辅音字母 b 和单词开头的读音对上，例如 bag、bed、bus、box。",
+    "mastery_criteria": [
+      "能根据字母或读音选出正确的一项",
+      "能把字母、发音和例词对上"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词含有字母 b 的开头音？",
+      "answer": "bag"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.PH.04",
+        "confidence": "inferred",
+        "note": "拼读项目按三年级起点常见 Let's spell 编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p005",
+    "name": "问候用语",
+    "domain": "词汇",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第1单元 Hello",
+    "type": "conceptual",
+    "description": "认读 hello、hi、goodbye 和 thanks。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「你好」？",
+      "answer": "hello"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.01",
+        "confidence": "inferred",
+        "note": "人教 PEP 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p006",
+    "name": "be 动词 am",
+    "domain": "语法",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第1单元 Hello",
+    "type": "procedural",
+    "description": "用 am 和 I 搭配，介绍自己的名字或年龄。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "I ____ ten. 横线上应填哪个词？",
+      "answer": "am"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.GR.01",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p007",
+    "name": "问候、告别和致谢",
+    "domain": "日常表达",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第1单元 Hello",
+    "type": "application",
+    "description": "用 Hello、Goodbye 和 Thank you 完成问候、告别和致谢。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "见到老师，应说哪一句？",
+      "answer": "Hello!"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.FU.01",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p008",
+    "name": "读懂自我介绍",
+    "domain": "读写",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第1单元 Hello",
+    "type": "application",
+    "description": "读一句自我介绍，找出名字。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：Hello! I am Sarah. 这个人叫什么？",
+      "answer": "Sarah"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.RW.02",
+        "confidence": "inferred",
+        "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p009",
+    "name": "颜色",
+    "domain": "词汇",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第2单元 Colours",
+    "type": "conceptual",
+    "description": "认读 red、yellow、green 和 blue。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「红色」？",
+      "answer": "red"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.01",
+        "confidence": "inferred",
+        "note": "人教 PEP 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p010",
+    "name": "It is 说明颜色",
+    "domain": "语法",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第2单元 Colours",
+    "type": "procedural",
+    "description": "用 It is 加上颜色词说明物品的颜色。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "It ____ red. 横线上应填哪个词？",
+      "answer": "is"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.GR.01",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p011",
+    "name": "询问颜色",
+    "domain": "日常表达",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第2单元 Colours",
+    "type": "application",
+    "description": "用 What colour is it? 询问颜色，并用 It is 回答。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想问「它是什么颜色」，应说哪一句？",
+      "answer": "What colour is it?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p012",
+    "name": "看图认颜色",
+    "domain": "读写",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第2单元 Colours",
+    "type": "application",
+    "description": "根据写明的颜色选出与文字一致的一项。图的颜色以文字为准。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "文字：Look at the apple. It is blue. 苹果是什么颜色？",
+      "answer": "蓝色"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.RW.01",
+        "confidence": "inferred",
+        "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p013",
+    "name": "身体部位",
+    "domain": "词汇",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第3单元 Look at me",
+    "type": "conceptual",
+    "description": "认读 face、eye、nose 和 mouth。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「脸」？",
+      "answer": "face"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.01",
+        "confidence": "inferred",
+        "note": "人教 PEP 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p014",
+    "name": "This is 与 That is",
+    "domain": "语法",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第3单元 Look at me",
+    "type": "procedural",
+    "description": "用 This is 指近处，用 That is 指远处。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "指着近处的钢笔，哪一句是对的？",
+      "answer": "This is a pen."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.GR.04",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p015",
+    "name": "介绍身体部位",
+    "domain": "日常表达",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第3单元 Look at me",
+    "type": "application",
+    "description": "用 This is my 介绍自己的五官。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "指着自己的眼睛，应说哪一句？",
+      "answer": "This is my eye."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p016",
+    "name": "读懂五官介绍",
+    "domain": "读写",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第3单元 Look at me",
+    "type": "application",
+    "description": "读介绍五官的句子，找出说到的部位。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "文字：This is my face. It is red. 脸是什么颜色？",
+      "answer": "红色"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.RW.01",
+        "confidence": "inferred",
+        "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p017",
+    "name": "动物",
+    "domain": "词汇",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第4单元 We love animals",
+    "type": "conceptual",
+    "description": "认读 cat、dog、bird 和 duck。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「猫」？",
+      "answer": "cat"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.01",
+        "confidence": "inferred",
+        "note": "人教 PEP 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p018",
+    "name": "用 This is a 介绍动物",
+    "domain": "日常表达",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第4单元 We love animals",
+    "type": "application",
+    "description": "用 This is a 加上动物名词介绍一只动物。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "介绍一只猫，应说哪一句？",
+      "answer": "This is a cat."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p019",
+    "name": "读懂动物句子",
+    "domain": "读写",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第4单元 We love animals",
+    "type": "application",
+    "description": "读介绍动物的句子，找出动物和颜色。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：This is a cat. It is black. 这是什么？",
+      "answer": "猫"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.RW.02",
+        "confidence": "inferred",
+        "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p020",
+    "name": "食物",
+    "domain": "词汇",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第5单元 Let's eat",
+    "type": "conceptual",
+    "description": "认读 bread、egg、rice 和 milk。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「面包」？",
+      "answer": "bread"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.01",
+        "confidence": "inferred",
+        "note": "人教 PEP 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p021",
+    "name": "I like 表达喜好",
+    "domain": "语法",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第5单元 Let's eat",
+    "type": "procedural",
+    "description": "用 I like 和 I do not like 表达喜欢或不喜欢。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "哪一句表示「我喜欢面包」？",
+      "answer": "I like bread."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.GR.05",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p022",
+    "name": "表达想吃什么",
+    "domain": "日常表达",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第5单元 Let's eat",
+    "type": "application",
+    "description": "用 I like 和 Have some 谈论食物。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想说自己喜欢鸡蛋，应说哪一句？",
+      "answer": "I like eggs."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p023",
+    "name": "读懂喜好短文",
+    "domain": "读写",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第5单元 Let's eat",
+    "type": "application",
+    "description": "读人物自己说的喜好，找出喜欢的食物。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：Sarah says, \"I like bananas.\" Sarah 喜欢什么？",
+      "answer": "香蕉"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.RW.02",
+        "confidence": "inferred",
+        "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p024",
+    "name": "1 到 10",
+    "domain": "词汇",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第6单元 Happy birthday",
+    "type": "conceptual",
+    "description": "认读 one、two、three 和 ten。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「一」？",
+      "answer": "one"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.01",
+        "confidence": "inferred",
+        "note": "人教 PEP 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p025",
+    "name": "玩具和礼物",
+    "domain": "词汇",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第6单元 Happy birthday",
+    "type": "conceptual",
+    "description": "认读 ball、doll、kite 和 boat。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「球」？",
+      "answer": "ball"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.01",
+        "confidence": "inferred",
+        "note": "人教 PEP 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p026",
+    "name": "How many 问数量",
+    "domain": "语法",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第6单元 Happy birthday",
+    "type": "procedural",
+    "description": "用 1 到 10 和 How many 询问数量。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "想问「你有多少个气球」，应选哪一句？",
+      "answer": "How many balloons?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.GR.06",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p027",
+    "name": "询问年龄",
+    "domain": "日常表达",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第6单元 Happy birthday",
+    "type": "application",
+    "description": "用 How old are you? 询问年龄，并用 I am 回答。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想问对方几岁，应说哪一句？",
+      "answer": "How old are you?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.FU.01",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p028",
+    "name": "读懂数量",
+    "domain": "读写",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第6单元 Happy birthday",
+    "type": "application",
+    "description": "从句子里找出物品的数量。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：I have three balls. 有几个球？",
+      "answer": "3 个"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.RW.02",
+        "confidence": "inferred",
+        "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p029",
+    "name": "短元音 a",
+    "domain": "语音",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下册 第1单元 Welcome back to school",
+    "type": "procedural",
+    "description": "能认出重读闭音节里的短元音 a，例如 cat、bag、map、hat。",
+    "mastery_criteria": [
+      "能根据字母或读音选出正确的一项",
+      "能把字母、发音和例词对上"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词含有短元音 a？",
+      "answer": "cat"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.PH.03",
+        "confidence": "inferred",
+        "note": "拼读项目按三年级起点常见 Let's spell 编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p030",
+    "name": "国家和来自哪里",
+    "domain": "词汇",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下册 第1单元 Welcome back to school",
+    "type": "conceptual",
+    "description": "认读 China、Canada、UK 和 USA。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「中国」？",
+      "answer": "China"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.01",
+        "confidence": "inferred",
+        "note": "人教 PEP 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p031",
+    "name": "I am from 说明来自哪里",
+    "domain": "语法",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下册 第1单元 Welcome back to school",
+    "type": "procedural",
+    "description": "用 am 或 is 加上 from 说明自己或他人来自哪里。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "I ____ from China. 横线上应填哪个词？",
+      "answer": "am"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.GR.01",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p032",
+    "name": "询问来自哪里",
+    "domain": "日常表达",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下册 第1单元 Welcome back to school",
+    "type": "application",
+    "description": "用 Where are you from? 询问，并用 I am from 回答。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想问对方来自哪里，应说哪一句？",
+      "answer": "Where are you from?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.FU.01",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p033",
+    "name": "读懂来自哪里",
+    "domain": "读写",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下册 第1单元 Welcome back to school",
+    "type": "application",
+    "description": "读自我介绍，找出来自哪个国家。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：Hello! I am Amy. I am from the UK. Amy 来自哪里？",
+      "answer": "英国"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.RW.02",
+        "confidence": "inferred",
+        "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p034",
+    "name": "短元音 e",
+    "domain": "语音",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下册 第2单元 My family",
+    "type": "procedural",
+    "description": "能认出短元音 e，例如 ten、pen、red、leg。",
+    "mastery_criteria": [
+      "能根据字母或读音选出正确的一项",
+      "能把字母、发音和例词对上"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词含有短元音 e？",
+      "answer": "ten"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.PH.03",
+        "confidence": "inferred",
+        "note": "拼读项目按三年级起点常见 Let's spell 编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p035",
+    "name": "家庭成员",
+    "domain": "词汇",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下册 第2单元 My family",
+    "type": "conceptual",
+    "description": "认读 father、mother、brother 和 sister。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「爸爸」？",
+      "answer": "father"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.01",
+        "confidence": "inferred",
+        "note": "人教 PEP 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p036",
+    "name": "Who is 询问是谁",
+    "domain": "语法",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下册 第2单元 My family",
+    "type": "procedural",
+    "description": "用 Who is he 或 Who is she 询问，并用 He is、She is 介绍家人。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "问「他是谁」，应选哪一句？",
+      "answer": "Who is he?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.GR.03",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p037",
+    "name": "介绍家人",
+    "domain": "日常表达",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下册 第2单元 My family",
+    "type": "application",
+    "description": "用 This is my 介绍家人。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "介绍自己的爸爸，应说哪一句？",
+      "answer": "This is my father."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p038",
+    "name": "读懂家人介绍",
+    "domain": "读写",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下册 第2单元 My family",
+    "type": "application",
+    "description": "读介绍家人的句子，找出是谁。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：This is my father. He is from China. 这是谁？",
+      "answer": "爸爸"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.RW.02",
+        "confidence": "inferred",
+        "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p039",
+    "name": "短元音 i",
+    "domain": "语音",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下册 第3单元 At the zoo",
+    "type": "procedural",
+    "description": "能认出短元音 i，例如 big、pig、sit、fish。",
+    "mastery_criteria": [
+      "能根据字母或读音选出正确的一项",
+      "能把字母、发音和例词对上"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词含有短元音 i？",
+      "answer": "big"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.PH.03",
+        "confidence": "inferred",
+        "note": "拼读项目按三年级起点常见 Let's spell 编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p040",
+    "name": "大小和高矮",
+    "domain": "词汇",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下册 第3单元 At the zoo",
+    "type": "conceptual",
+    "description": "认读 big、small、tall 和 short。这里的 short 是矮的。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「大的」？",
+      "answer": "big"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.01",
+        "confidence": "inferred",
+        "note": "人教 PEP 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p041",
+    "name": "用形容词说大小高矮",
+    "domain": "语法",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下册 第3单元 At the zoo",
+    "type": "procedural",
+    "description": "用 It is 加上 big、small、tall 或 short 描述动物。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "哪一句表示「它很小」？",
+      "answer": "It is small."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.GR.01",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p042",
+    "name": "读懂动物园的句子",
+    "domain": "读写",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下册 第3单元 At the zoo",
+    "type": "application",
+    "description": "读描述动物大小的句子，按文字判断。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "文字：Look at the bear. It is big. 熊怎么样？",
+      "answer": "很大"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.RW.01",
+        "confidence": "inferred",
+        "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p043",
+    "name": "短元音 o",
+    "domain": "语音",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下册 第4单元 Where is my car",
+    "type": "procedural",
+    "description": "能认出短元音 o，例如 dog、box、hot、not。",
+    "mastery_criteria": [
+      "能根据字母或读音选出正确的一项",
+      "能把字母、发音和例词对上"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词含有短元音 o？",
+      "answer": "dog"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.PH.03",
+        "confidence": "inferred",
+        "note": "拼读项目按三年级起点常见 Let's spell 编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p044",
+    "name": "房间里的物品",
+    "domain": "词汇",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下册 第4单元 Where is my car",
+    "type": "conceptual",
+    "description": "认读 desk、chair、bag 和 book。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「书桌」？",
+      "answer": "desk"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.01",
+        "confidence": "inferred",
+        "note": "人教 PEP 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p045",
+    "name": "in、on、under",
+    "domain": "语法",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下册 第4单元 Where is my car",
+    "type": "procedural",
+    "description": "用 in、on、under 说明物品在里面、上面或下面。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "书在书桌里面，应选哪一句？",
+      "answer": "The book is in the desk."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.GR.04",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p046",
+    "name": "询问位置",
+    "domain": "日常表达",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下册 第4单元 Where is my car",
+    "type": "application",
+    "description": "用 Where is 询问物品在哪里。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想问书包在哪里，应说哪一句？",
+      "answer": "Where is my bag?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p047",
+    "name": "读懂位置",
+    "domain": "读写",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下册 第4单元 Where is my car",
+    "type": "application",
+    "description": "读位置句子，找出物品在哪里。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "文字：The book is on the desk. 书在哪里？",
+      "answer": "在书桌上面"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.RW.01",
+        "confidence": "inferred",
+        "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p048",
+    "name": "短元音 u",
+    "domain": "语音",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下册 第5单元 Do you like pears",
+    "type": "procedural",
+    "description": "能认出短元音 u，例如 fun、run、cup、sun。",
+    "mastery_criteria": [
+      "能根据字母或读音选出正确的一项",
+      "能把字母、发音和例词对上"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词含有短元音 u？",
+      "answer": "fun"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.PH.03",
+        "confidence": "inferred",
+        "note": "拼读项目按三年级起点常见 Let's spell 编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p049",
+    "name": "五个短元音复习",
+    "domain": "语音",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下册 第5单元 Do you like pears",
+    "type": "procedural",
+    "description": "能区分 cat 一类的短元音和 cake 一类的长元音。",
+    "mastery_criteria": [
+      "能根据字母或读音选出正确的一项",
+      "能把字母、发音和例词对上"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词里的 a 和 cat 里的 a 读音相同？",
+      "answer": "bag"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.PH.03",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p050",
+    "name": "水果",
+    "domain": "词汇",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下册 第5单元 Do you like pears",
+    "type": "conceptual",
+    "description": "认读 pear、apple、banana 和 orange。这里的 orange 是橙子。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「梨」？",
+      "answer": "pear"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.01",
+        "confidence": "inferred",
+        "note": "人教 PEP 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p051",
+    "name": "Do you like 一般疑问句",
+    "domain": "语法",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下册 第5单元 Do you like pears",
+    "type": "procedural",
+    "description": "用 Do you like 询问喜好，并用 Yes, I do. 或 No, I do not. 回答。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "问对方喜不喜欢梨，应选哪一句？",
+      "answer": "Do you like pears?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.GR.05",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p052",
+    "name": "可数名词复数",
+    "domain": "语法",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下册 第5单元 Do you like pears",
+    "type": "procedural",
+    "description": "能把 cat、box 这类名词变成常见的复数形式。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "cat 的复数是哪一个？",
+      "answer": "cats"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.GR.02",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p053",
+    "name": "读懂水果喜好",
+    "domain": "读写",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下册 第5单元 Do you like pears",
+    "type": "application",
+    "description": "读 Do you like 的小对话，找出喜欢的水果。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：Do you like pears? Yes, I do. 这个人喜欢梨吗？",
+      "answer": "喜欢"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.RW.02",
+        "confidence": "inferred",
+        "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p054",
+    "name": "11 到 20",
+    "domain": "词汇",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下册 第6单元 How many",
+    "type": "conceptual",
+    "description": "认读 eleven、twelve、thirteen 和 twenty。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「十一」？",
+      "answer": "eleven"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.01",
+        "confidence": "inferred",
+        "note": "人教 PEP 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p055",
+    "name": "How many 与 11 到 20",
+    "domain": "语法",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下册 第6单元 How many",
+    "type": "procedural",
+    "description": "用 How many 和 11 到 20 的数词说出看到的数量。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "How many apples do you see? 这句是在问什么？",
+      "answer": "你看见多少个苹果"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.GR.06",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p056",
+    "name": "读懂 11 到 20 的数量",
+    "domain": "读写",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下册 第6单元 How many",
+    "type": "application",
+    "description": "从句子里读出 11 到 20 的数量。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：I see eleven birds. 有几只鸟？",
+      "answer": "11 只"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.RW.02",
+        "confidence": "inferred",
+        "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p057",
+    "name": "a-e 的读音",
+    "domain": "语音",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第1单元 My classroom",
+    "type": "procedural",
+    "description": "能认出 a-e 的读音，例如 cake、name、face、make。",
+    "mastery_criteria": [
+      "能根据字母或读音选出正确的一项",
+      "能把字母、发音和例词对上"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词含有a-e 的读音？",
+      "answer": "cake"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.PH.05",
+        "confidence": "inferred",
+        "note": "拼读项目按三年级起点常见 Let's spell 编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p058",
+    "name": "教室物品",
+    "domain": "词汇",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第1单元 My classroom",
+    "type": "conceptual",
+    "description": "认读 classroom、window、door 和 blackboard。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「教室」？",
+      "answer": "classroom"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.01",
+        "confidence": "inferred",
+        "note": "人教 PEP 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p059",
+    "name": "Let's 建议句",
+    "domain": "语法",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第1单元 My classroom",
+    "type": "procedural",
+    "description": "能读懂并用 Let's 提出一起做某事的建议。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "建议一起打开书，应选哪一句？",
+      "answer": "Let's open the book."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.GR.07",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p060",
+    "name": "教室里的建议",
+    "domain": "日常表达",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第1单元 My classroom",
+    "type": "application",
+    "description": "在教室里用 Let's 提出开灯、关门、擦黑板等建议。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "建议一起擦黑板，应说哪一句？",
+      "answer": "Let's clean the blackboard."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.FU.03",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p061",
+    "name": "读懂教室短文",
+    "domain": "读写",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第1单元 My classroom",
+    "type": "application",
+    "description": "读教室里的短通知，找出要做的事。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：Let's clean the classroom. Open the door, please. 建议先提到的是什么？",
+      "answer": "打扫教室"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.RW.02",
+        "confidence": "inferred",
+        "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p062",
+    "name": "i-e 的读音",
+    "domain": "语音",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第2单元 My schoolbag",
+    "type": "procedural",
+    "description": "能认出 i-e 的读音，例如 like、kite、five、bike。",
+    "mastery_criteria": [
+      "能根据字母或读音选出正确的一项",
+      "能把字母、发音和例词对上"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词含有i-e 的读音？",
+      "answer": "like"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.PH.05",
+        "confidence": "inferred",
+        "note": "拼读项目按三年级起点常见 Let's spell 编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p063",
+    "name": "书包里的文具",
+    "domain": "词汇",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第2单元 My schoolbag",
+    "type": "conceptual",
+    "description": "认读 schoolbag、pencil、ruler 和 eraser。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「书包」？",
+      "answer": "schoolbag"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.01",
+        "confidence": "inferred",
+        "note": "人教 PEP 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p064",
+    "name": "谈论书包里有什么",
+    "domain": "日常表达",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第2单元 My schoolbag",
+    "type": "application",
+    "description": "用 I have 和 What is in your schoolbag? 谈论文具。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想问书包里有什么，应说哪一句？",
+      "answer": "What is in your schoolbag?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.FU.03",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p065",
+    "name": "读懂书包里的物品",
+    "domain": "读写",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第2单元 My schoolbag",
+    "type": "application",
+    "description": "读书包物品的句子，找出文具和颜色。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：I have a new schoolbag. It is black. 书包是什么颜色？",
+      "answer": "黑色"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.RW.02",
+        "confidence": "inferred",
+        "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p066",
+    "name": "o-e 的读音",
+    "domain": "语音",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第3单元 My friends",
+    "type": "procedural",
+    "description": "能认出 o-e 的读音，例如 nose、note、home、rose。",
+    "mastery_criteria": [
+      "能根据字母或读音选出正确的一项",
+      "能把字母、发音和例词对上"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词含有o-e 的读音？",
+      "answer": "nose"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.PH.05",
+        "confidence": "inferred",
+        "note": "拼读项目按三年级起点常见 Let's spell 编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p067",
+    "name": "描述朋友",
+    "domain": "词汇",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第3单元 My friends",
+    "type": "conceptual",
+    "description": "认读 friend、strong、quiet 和 friendly。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「朋友」？",
+      "answer": "friend"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.01",
+        "confidence": "inferred",
+        "note": "人教 PEP 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p068",
+    "name": "He has 与 I have",
+    "domain": "语法",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第3单元 My friends",
+    "type": "procedural",
+    "description": "用 I have 说自己有什么，用 He has 或 She has 说他人有什么。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "He ____ a new pen. 横线上应填哪个词？",
+      "answer": "has"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.GR.05",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p069",
+    "name": "介绍朋友",
+    "domain": "日常表达",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第3单元 My friends",
+    "type": "application",
+    "description": "用 He is 和 He has 介绍朋友长什么样。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "介绍一个强壮的朋友，应说哪一句？",
+      "answer": "He is strong."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p070",
+    "name": "读懂朋友介绍",
+    "domain": "读写",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第3单元 My friends",
+    "type": "application",
+    "description": "读介绍朋友的短文，找出名字和特点。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：I have a friend. He is strong. His name is John. 朋友叫什么？",
+      "answer": "John"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.RW.02",
+        "confidence": "inferred",
+        "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p071",
+    "name": "u-e 的读音",
+    "domain": "语音",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第4单元 My home",
+    "type": "procedural",
+    "description": "能认出 u-e 的读音，例如 use、cute、tube、huge。",
+    "mastery_criteria": [
+      "能根据字母或读音选出正确的一项",
+      "能把字母、发音和例词对上"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词含有u-e 的读音？",
+      "answer": "use"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.PH.05",
+        "confidence": "inferred",
+        "note": "拼读项目按三年级起点常见 Let's spell 编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p072",
+    "name": "家里的房间",
+    "domain": "词汇",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第4单元 My home",
+    "type": "conceptual",
+    "description": "认读 bedroom、kitchen、bathroom 和 study。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「卧室」？",
+      "answer": "bedroom"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.01",
+        "confidence": "inferred",
+        "note": "人教 PEP 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p073",
+    "name": "is 和 are 说明人在哪里",
+    "domain": "语法",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第4单元 My home",
+    "type": "procedural",
+    "description": "用 is 或 are 加上 in 说明一个人或几个人在哪个房间。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "She ____ in the kitchen. 横线上应填哪个词？",
+      "answer": "is"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.GR.01",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p074",
+    "name": "询问家人在哪个房间",
+    "domain": "日常表达",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第4单元 My home",
+    "type": "application",
+    "description": "用 Where is 询问家人在家的哪个房间。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想问妈妈在哪里，应说哪一句？",
+      "answer": "Where is my mother?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.FU.03",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p075",
+    "name": "读懂家里的位置",
+    "domain": "读写",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第4单元 My home",
+    "type": "application",
+    "description": "读短文，找出人在哪个房间。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：My father is in the study. My mother is in the kitchen. 爸爸在哪里？",
+      "answer": "书房"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.RW.02",
+        "confidence": "inferred",
+        "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p076",
+    "name": "长元音 e",
+    "domain": "语音",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第5单元 Dinner's ready",
+    "type": "procedural",
+    "description": "能认出 he、she、me、we 里的长元音 e。",
+    "mastery_criteria": [
+      "能根据字母或读音选出正确的一项",
+      "能把字母、发音和例词对上"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词含有长元音 e？",
+      "answer": "he"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.PH.05",
+        "confidence": "inferred",
+        "note": "拼读项目按三年级起点常见 Let's spell 编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p077",
+    "name": "晚餐食物",
+    "domain": "词汇",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第5单元 Dinner's ready",
+    "type": "conceptual",
+    "description": "认读 beef、chicken、noodles 和 soup。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「牛肉」？",
+      "answer": "beef"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.01",
+        "confidence": "inferred",
+        "note": "人教 PEP 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p078",
+    "name": "Would you like 用餐",
+    "domain": "日常表达",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第5单元 Dinner's ready",
+    "type": "application",
+    "description": "用餐时用 Would you like some 邀请，并用 Yes, please. 回答。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想问对方要不要一些汤，应说哪一句？",
+      "answer": "Would you like some soup?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.FU.03",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p079",
+    "name": "读懂晚餐对话",
+    "domain": "读写",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第5单元 Dinner's ready",
+    "type": "application",
+    "description": "读晚餐对话，找出想吃的食物。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：Would you like some soup? Yes, please. 这个人想要汤吗？",
+      "answer": "想要"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.RW.02",
+        "confidence": "inferred",
+        "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p080",
+    "name": "职业",
+    "domain": "词汇",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第6单元 Meet my family",
+    "type": "conceptual",
+    "description": "认读 doctor、nurse、driver 和 farmer。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「医生」？",
+      "answer": "doctor"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.01",
+        "confidence": "inferred",
+        "note": "人教 PEP 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p081",
+    "name": "询问职业与 his、her",
+    "domain": "语法",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第6单元 Meet my family",
+    "type": "procedural",
+    "description": "用 What is his job? 询问职业，并用 his、her 说明是谁的家人。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "问「他的职业是什么」，应选哪一句？",
+      "answer": "What is his job?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.GR.03",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p082",
+    "name": "介绍家人的职业",
+    "domain": "日常表达",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第6单元 Meet my family",
+    "type": "application",
+    "description": "用 My father is a 介绍家人的职业。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想说叔叔是农民，应说哪一句？",
+      "answer": "My uncle is a farmer."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p083",
+    "name": "读懂家人职业",
+    "domain": "读写",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第6单元 Meet my family",
+    "type": "application",
+    "description": "读介绍家人职业的短文，找出谁做什么工作。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：This is my father. He is a doctor. 爸爸的职业是？",
+      "answer": "医生"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.RW.02",
+        "confidence": "inferred",
+        "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p084",
+    "name": "学校场所",
+    "domain": "词汇",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第1单元 My school",
+    "type": "conceptual",
+    "description": "认读 school、playground、library 和 computer。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「学校」？",
+      "answer": "school"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.01",
+        "confidence": "inferred",
+        "note": "人教 PEP 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p085",
+    "name": "楼层与 first、second",
+    "domain": "语法",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第1单元 My school",
+    "type": "procedural",
+    "description": "用 on the first floor 和 on the second floor 说明场所在第几层。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "The library is on the second floor. 图书馆在第几层？",
+      "answer": "2"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.GR.04",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p086",
+    "name": "问路：学校里的场所",
+    "domain": "日常表达",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第1单元 My school",
+    "type": "application",
+    "description": "用 Where is 询问学校里的操场、图书馆在哪里。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想问图书馆在哪里，应说哪一句？",
+      "answer": "Where is the library?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.FU.03",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p087",
+    "name": "读懂学校平面说明",
+    "domain": "读写",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第1单元 My school",
+    "type": "application",
+    "description": "读学校场所的说明，找出地点和楼层。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：The library is on the second floor. 图书馆在第几层？",
+      "answer": "第 2 层"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.RW.02",
+        "confidence": "inferred",
+        "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p088",
+    "name": "一天中的活动",
+    "domain": "词汇",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第2单元 What time is it",
+    "type": "conceptual",
+    "description": "认读 breakfast、lunch、dinner 和 music。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「早餐」？",
+      "answer": "breakfast"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.01",
+        "confidence": "inferred",
+        "note": "人教 PEP 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p089",
+    "name": "What time is it",
+    "domain": "语法",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第2单元 What time is it",
+    "type": "procedural",
+    "description": "用 What time is it? 询问时刻，并用 It is 6 o'clock. 回答。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "想问「现在几点」，应选哪一句？",
+      "answer": "What time is it?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.GR.06",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p090",
+    "name": "说时刻和该做的事",
+    "domain": "日常表达",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第2单元 What time is it",
+    "type": "application",
+    "description": "用 It is time for 说出该吃饭或上课了。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "现在 9 点，该上音乐课了，应说哪一句？",
+      "answer": "It is 9 o'clock. It is time for music."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p091",
+    "name": "读懂作息时刻",
+    "domain": "读写",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第2单元 What time is it",
+    "type": "application",
+    "description": "从短文里读出几点做什么。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：It is 7 o'clock. It is time for breakfast. 7 点该做什么？",
+      "answer": "吃早饭"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.RW.02",
+        "confidence": "inferred",
+        "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p092",
+    "name": "天气",
+    "domain": "词汇",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第3单元 Weather",
+    "type": "conceptual",
+    "description": "认读 warm、cold、cool 和 hot。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「温暖的」？",
+      "answer": "warm"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.01",
+        "confidence": "inferred",
+        "note": "人教 PEP 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p093",
+    "name": "It is 描述天气",
+    "domain": "语法",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第3单元 Weather",
+    "type": "procedural",
+    "description": "用 What is the weather like? 询问天气，并用 It is 加上天气词回答。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "想问天气，应选哪一句？",
+      "answer": "What is the weather like?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.GR.01",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p094",
+    "name": "谈论天气并给建议",
+    "domain": "日常表达",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第3单元 Weather",
+    "type": "application",
+    "description": "根据天气说出可以做的事，例如 It is warm. We can fly a kite.",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "外面很冷，应说哪一句？",
+      "answer": "It is cold outside."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p095",
+    "name": "读懂天气预报",
+    "domain": "读写",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第3单元 Weather",
+    "type": "application",
+    "description": "读一则写明城市和天气的短文，按文字判断。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：It is cold and snowy in Harbin. 哈尔滨的天气怎么样？",
+      "answer": "又冷又下雪"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.RW.02",
+        "confidence": "inferred",
+        "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p096",
+    "name": "农场",
+    "domain": "词汇",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第4单元 At the farm",
+    "type": "conceptual",
+    "description": "认读 tomato、potato、horse 和 cow。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「西红柿」？",
+      "answer": "tomato"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.01",
+        "confidence": "inferred",
+        "note": "人教 PEP 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p097",
+    "name": "These are 与 Those are",
+    "domain": "语法",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第4单元 At the farm",
+    "type": "procedural",
+    "description": "用 These are 指近处的多个事物，用 Those are 指远处的多个事物。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "指着近处的几只鸭子，应选哪一句？",
+      "answer": "These are ducks."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.GR.04",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p098",
+    "name": "在农场谈论动物和蔬菜",
+    "domain": "日常表达",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第4单元 At the farm",
+    "type": "application",
+    "description": "用 Are these 询问近处的这些是不是某种蔬菜或动物。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "指着近处的西红柿问，应说哪一句？",
+      "answer": "Are these tomatoes?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.FU.03",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p099",
+    "name": "读懂农场短文",
+    "domain": "读写",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第4单元 At the farm",
+    "type": "application",
+    "description": "读农场短文，按文字找出动物或蔬菜的数量。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：These are tomatoes. They are red. 近处这些是什么？",
+      "answer": "西红柿"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.RW.02",
+        "confidence": "inferred",
+        "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p100",
+    "name": "衣服",
+    "domain": "词汇",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第5单元 My clothes",
+    "type": "conceptual",
+    "description": "认读 shirt、dress、skirt 和 pants。pants 表示裤子，用复数。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「衬衫」？",
+      "answer": "shirt"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.01",
+        "confidence": "inferred",
+        "note": "人教 PEP 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p101",
+    "name": "Whose 与名词所有格",
+    "domain": "语法",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第5单元 My clothes",
+    "type": "procedural",
+    "description": "用 Whose 和名词所有格 's 询问、说明衣服是谁的。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "问「这是谁的帽子」，应选哪一句？",
+      "answer": "Whose hat is this?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.GR.07",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p102",
+    "name": "谈论穿着",
+    "domain": "日常表达",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第5单元 My clothes",
+    "type": "application",
+    "description": "用 Whose 和 I like 谈论衣服。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想说自己喜欢这条裙子，应说哪一句？",
+      "answer": "I like this skirt."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p103",
+    "name": "读懂衣服是谁的",
+    "domain": "读写",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第5单元 My clothes",
+    "type": "application",
+    "description": "读衣服的句子，找出主人。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：This is Amy's dress. It is red. 连衣裙是谁的？",
+      "answer": "Amy 的"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.RW.02",
+        "confidence": "inferred",
+        "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p104",
+    "name": "商店物品",
+    "domain": "词汇",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第6单元 Shopping",
+    "type": "conceptual",
+    "description": "认读 glove、scarf、umbrella 和 sunglasses。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「手套」？",
+      "answer": "glove"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.01",
+        "confidence": "inferred",
+        "note": "人教 PEP 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p105",
+    "name": "How much 询问价格",
+    "domain": "语法",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第6单元 Shopping",
+    "type": "procedural",
+    "description": "用 How much is 或 How much are 询问价格。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "想问「这件衬衫多少钱」，应选哪一句？",
+      "answer": "How much is this shirt?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.GR.06",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p106",
+    "name": "在商店购物",
+    "domain": "日常表达",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第6单元 Shopping",
+    "type": "application",
+    "description": "用 Can I help you? 和 How much 完成简单购物对话。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "售货员招呼顾客，常说哪一句？",
+      "answer": "Can I help you?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.FU.03",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p107",
+    "name": "读懂价签",
+    "domain": "读写",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第6单元 Shopping",
+    "type": "application",
+    "description": "读商店里的价格句子，找出物品和价钱。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：The scarf is 20 yuan. The umbrella is 15 yuan. 围巾多少钱？",
+      "answer": "20 元"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.RW.02",
+        "confidence": "inferred",
+        "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p108",
+    "name": "开头辅音连缀 bl、cl、fl",
+    "domain": "语音",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "五年级上册 第1单元 What's he like",
+    "type": "procedural",
+    "description": "能分辨 black、class、floor、blue 开头的辅音连缀。",
+    "mastery_criteria": [
+      "能根据字母或读音选出正确的一项",
+      "能把字母、发音和例词对上"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词以 bl 开头？",
+      "answer": "black"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.PH.01",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p109",
+    "name": "性格和外貌",
+    "domain": "词汇",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "五年级上册 第1单元 What's he like",
+    "type": "conceptual",
+    "description": "认读 old、young、kind 和 strict。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「年老的」？",
+      "answer": "old"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.VO.01",
+        "confidence": "inferred",
+        "note": "人教 PEP 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p110",
+    "name": "What is he like",
+    "domain": "语法",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "五年级上册 第1单元 What's he like",
+    "type": "procedural",
+    "description": "用 What is he like? 询问人的性格，而不是询问他喜欢什么。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "What is he like? 这句是在问什么？",
+      "answer": "他是什么样的人"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.GR.05",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p111",
+    "name": "描述老师",
+    "domain": "日常表达",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "五年级上册 第1单元 What's he like",
+    "type": "application",
+    "description": "用 He is 或 She is 描述老师的性格。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想说音乐老师很和蔼，应说哪一句？",
+      "answer": "The music teacher is kind."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.FU.01",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p112",
+    "name": "读懂老师介绍",
+    "domain": "读写",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "五年级上册 第1单元 What's he like",
+    "type": "application",
+    "description": "读介绍老师的短文，找出性格。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：Mr Li is our maths teacher. He is tall and strict. 李老师怎么样？",
+      "answer": "又高又严格"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.RW.01",
+        "confidence": "inferred",
+        "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p113",
+    "name": "星期",
+    "domain": "词汇",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "五年级上册 第2单元 My week",
+    "type": "conceptual",
+    "description": "认读 Monday、Tuesday、Wednesday 和 Friday。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「星期一」？",
+      "answer": "Monday"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.VO.01",
+        "confidence": "inferred",
+        "note": "人教 PEP 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p114",
+    "name": "have 与 on Mondays",
+    "domain": "语法",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "五年级上册 第2单元 My week",
+    "type": "procedural",
+    "description": "用 I have 加课程，并用 on Mondays 表示在星期一。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "I ____ Chinese on Mondays. 横线上应填哪个词？",
+      "answer": "have"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.GR.04",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p115",
+    "name": "周末活动",
+    "domain": "词汇",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "五年级上册 第2单元 My week",
+    "type": "conceptual",
+    "description": "认读 wash、watch、read 和 play。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「洗」？",
+      "answer": "wash"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.VO.01",
+        "confidence": "inferred",
+        "note": "人教 PEP 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p116",
+    "name": "用 often 谈论日常",
+    "domain": "日常表达",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "五年级上册 第2单元 My week",
+    "type": "application",
+    "description": "用 often 和 on the weekend 谈论经常做的事。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想说自己星期六经常看书，应说哪一句？",
+      "answer": "I often read books on Saturdays."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.FU.01",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p117",
+    "name": "读懂一周课程",
+    "domain": "读写",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "五年级上册 第2单元 My week",
+    "type": "application",
+    "description": "读课程句子，找出哪一天有什么课。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：I have Chinese, English and maths on Mondays. 星期一有英语课吗？",
+      "answer": "有"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.RW.01",
+        "confidence": "inferred",
+        "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p118",
+    "name": "餐食",
+    "domain": "词汇",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "五年级上册 第3单元 What would you like",
+    "type": "conceptual",
+    "description": "认读 tea、sandwich、salad 和 hamburger。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「茶」？",
+      "answer": "tea"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.VO.01",
+        "confidence": "inferred",
+        "note": "人教 PEP 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p119",
+    "name": "What would you like to eat",
+    "domain": "日常表达",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "五年级上册 第3单元 What would you like",
+    "type": "application",
+    "description": "用 What would you like to eat? 点餐。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想问对方想吃什么，应说哪一句？",
+      "answer": "What would you like to eat?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.FU.01",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p120",
+    "name": "读懂点餐",
+    "domain": "读写",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "五年级上册 第3单元 What would you like",
+    "type": "application",
+    "description": "读点餐短文，找出每个人想吃什么。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：Sarah would like a sandwich. Mike would like a hamburger. Sarah 想要什么？",
+      "answer": "三明治"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.RW.02",
+        "confidence": "inferred",
+        "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p121",
+    "name": "能力动词",
+    "domain": "词汇",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "五年级上册 第4单元 What can you do",
+    "type": "conceptual",
+    "description": "认读 sing、dance、draw 和 swim。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「唱歌」？",
+      "answer": "sing"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.VO.01",
+        "confidence": "inferred",
+        "note": "人教 PEP 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p122",
+    "name": "can 表示能力",
+    "domain": "语法",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "五年级上册 第4单元 What can you do",
+    "type": "procedural",
+    "description": "用 can 加动词原形表示会做某事。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "I ____ swim. 横线上应填哪个词？",
+      "answer": "can"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.GR.03",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p123",
+    "name": "谈论会做的事",
+    "domain": "日常表达",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "五年级上册 第4单元 What can you do",
+    "type": "application",
+    "description": "用 What can you do? 询问对方会做什么。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想问对方会做什么，应说哪一句？",
+      "answer": "What can you do?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.FU.01",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p124",
+    "name": "读懂能力短文",
+    "domain": "读写",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "五年级上册 第4单元 What can you do",
+    "type": "application",
+    "description": "读短文，找出谁会做什么。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：John can swim. Amy can draw. 谁会游泳？",
+      "answer": "John"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.RW.01",
+        "confidence": "inferred",
+        "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p125",
+    "name": "房间里的东西",
+    "domain": "词汇",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "五年级上册 第5单元 There is a big bed",
+    "type": "conceptual",
+    "description": "认读 bed、photo、plant 和 clock。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「床」？",
+      "answer": "bed"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.VO.01",
+        "confidence": "inferred",
+        "note": "人教 PEP 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p126",
+    "name": "There is 与 There are",
+    "domain": "语法",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "五年级上册 第5单元 There is a big bed",
+    "type": "procedural",
+    "description": "用 There is 接单数，用 There are 接复数，表示某处有什么。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "房间里有一张床，应选哪一句？",
+      "answer": "There is a bed."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.GR.03",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p127",
+    "name": "描述自己的房间",
+    "domain": "日常表达",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "五年级上册 第5单元 There is a big bed",
+    "type": "application",
+    "description": "用 There is 和 There are 描述房间里有什么。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想说房间里有一张大床，应说哪一句？",
+      "answer": "There is a big bed."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.FU.01",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p128",
+    "name": "读懂房间短文",
+    "domain": "读写",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "五年级上册 第5单元 There is a big bed",
+    "type": "application",
+    "description": "读房间短文，找出有什么。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：There is a big bed and a clock. There are two plants. 床有几张？",
+      "answer": "1 张"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.RW.01",
+        "confidence": "inferred",
+        "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p129",
+    "name": "自然公园",
+    "domain": "词汇",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "五年级上册 第6单元 In a nature park",
+    "type": "conceptual",
+    "description": "认读 river、lake、mountain 和 forest。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「河」？",
+      "answer": "river"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.VO.01",
+        "confidence": "inferred",
+        "note": "人教 PEP 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p130",
+    "name": "Is there 与 Are there",
+    "domain": "语法",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "五年级上册 第6单元 In a nature park",
+    "type": "procedural",
+    "description": "把 There is 和 There are 改成疑问句，询问某处有没有。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "问「河里有鱼吗」，应选哪一句？",
+      "answer": "Are there any fish in the river?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.GR.03",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p131",
+    "name": "谈论公园里有什么",
+    "domain": "日常表达",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "五年级上册 第6单元 In a nature park",
+    "type": "application",
+    "description": "用 Is there 和 Are there 谈论自然公园。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想问公园里有没有湖，应说哪一句？",
+      "answer": "Is there a lake in the park?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.FU.01",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p132",
+    "name": "读懂自然公园",
+    "domain": "读写",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "五年级上册 第6单元 In a nature park",
+    "type": "application",
+    "description": "读公园短文，按文字判断有什么。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：There is a lake in the park. There are some ducks on the lake. 湖上有什么？",
+      "answer": "一些鸭子"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.RW.01",
+        "confidence": "inferred",
+        "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p133",
+    "name": "一天的活动",
+    "domain": "词汇",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第1单元 My day",
+    "type": "conceptual",
+    "description": "认读 get up、go to school、eat dinner 和 go to bed 这四件日常的事。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「起床」？",
+      "answer": "get up"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.VO.01",
+        "confidence": "inferred",
+        "note": "人教 PEP 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p134",
+    "name": "When do you 询问时间",
+    "domain": "语法",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第1单元 My day",
+    "type": "procedural",
+    "description": "用 When do you 询问做某事的时间，并用 at 6 o'clock 回答。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "想问「你什么时候起床」，应选哪一句？",
+      "answer": "When do you get up?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.GR.04",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p135",
+    "name": "谈论作息",
+    "domain": "日常表达",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第1单元 My day",
+    "type": "application",
+    "description": "用 I ... at ... 说出自己的作息。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想说自己 7 点去上学，应说哪一句？",
+      "answer": "I go to school at 7 o'clock."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.FU.01",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p136",
+    "name": "读懂一天的作息",
+    "domain": "读写",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第1单元 My day",
+    "type": "application",
+    "description": "读作息短文，找出几点做什么。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：I get up at 6 o'clock. I go to school at 7 o'clock. 几点去上学？",
+      "answer": "7 点"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.RW.01",
+        "confidence": "inferred",
+        "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p137",
+    "name": "季节",
+    "domain": "词汇",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第2单元 My favourite season",
+    "type": "conceptual",
+    "description": "认读 spring、summer、autumn 和 winter。秋天用 autumn。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「春天」？",
+      "answer": "spring"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.VO.01",
+        "confidence": "inferred",
+        "note": "人教 PEP 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p138",
+    "name": "谈论最喜欢的季节",
+    "domain": "日常表达",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第2单元 My favourite season",
+    "type": "application",
+    "description": "用 Which season do you like best? 谈论季节。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想问最喜欢哪个季节，应说哪一句？",
+      "answer": "Which season do you like best?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.FU.01",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p139",
+    "name": "读懂季节短文",
+    "domain": "读写",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第2单元 My favourite season",
+    "type": "application",
+    "description": "读季节短文，找出喜欢的季节和原因。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：I like spring best. There are many flowers. 最喜欢哪个季节？",
+      "answer": "春天"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.RW.01",
+        "confidence": "inferred",
+        "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p140",
+    "name": "月份",
+    "domain": "词汇",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第3单元 My school calendar",
+    "type": "conceptual",
+    "description": "认读 March、May、October 和 December，并知道一年有 12 个月。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「三月」？",
+      "answer": "March"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.VO.01",
+        "confidence": "inferred",
+        "note": "人教 PEP 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p141",
+    "name": "in 加月份",
+    "domain": "语法",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第3单元 My school calendar",
+    "type": "procedural",
+    "description": "用 in March 表示在某个月，而不是 on March。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "in March 表示什么？",
+      "answer": "在三月"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.GR.04",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p142",
+    "name": "谈论节日在几月",
+    "domain": "日常表达",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第3单元 My school calendar",
+    "type": "application",
+    "description": "用 is in 说出节日所在的月份。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想说教师节在九月，应说哪一句？",
+      "answer": "Teachers' Day is in September."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.FU.01",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p143",
+    "name": "读懂校历",
+    "domain": "读写",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第3单元 My school calendar",
+    "type": "application",
+    "description": "读校历短文，找出活动在哪个月。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：The school trip is in May. The party is in December. 旅行在几月？",
+      "answer": "五月"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.RW.01",
+        "confidence": "inferred",
+        "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p144",
+    "name": "序数词",
+    "domain": "语法",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第4单元 When is the art show",
+    "type": "procedural",
+    "description": "能认出 first、second、third 等序数词，并知道它们和基数词不同。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "1st 怎么读？",
+      "answer": "first"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.GR.04",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p145",
+    "name": "说出日期",
+    "domain": "日常表达",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第4单元 When is the art show",
+    "type": "application",
+    "description": "用 on April 1st 这样的说法说出日期。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想说艺术节在 4 月 1 日，应说哪一句？",
+      "answer": "The art show is on April 1st."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.FU.01",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p146",
+    "name": "读懂日期通知",
+    "domain": "读写",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第4单元 When is the art show",
+    "type": "application",
+    "description": "读通知，找出活动的日期。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：The art show is on April 1st. 艺术节是哪一天？",
+      "answer": "4 月 1 日"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.RW.01",
+        "confidence": "inferred",
+        "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p147",
+    "name": "名词性物主代词",
+    "domain": "语法",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第5单元 Whose dog is it",
+    "type": "procedural",
+    "description": "用 mine、yours、his、hers 说明物品是谁的，不再重复名词。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "这支钢笔是我的，应选哪一句？",
+      "answer": "The pen is mine."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.GR.05",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p148",
+    "name": "现在进行时",
+    "domain": "语法",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第5单元 Whose dog is it",
+    "type": "procedural",
+    "description": "用 am、is、are 加动词的 -ing 形式说明正在做的事。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "He ____ reading. 横线上应填哪个词？",
+      "answer": "is"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.GR.02",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p149",
+    "name": "Whose 与正在做的事",
+    "domain": "日常表达",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第5单元 Whose dog is it",
+    "type": "application",
+    "description": "用 Whose dog is it? 和 It is mine. 说明正在提到的东西是谁的。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "问「这是谁的狗」，应说哪一句？",
+      "answer": "Whose dog is it?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.FU.01",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p150",
+    "name": "读懂正在做的事",
+    "domain": "读写",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第5单元 Whose dog is it",
+    "type": "application",
+    "description": "读现在进行时的短文，找出谁正在做什么。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：John is eating lunch. Amy is reading a book. John 正在做什么？",
+      "answer": "吃午饭"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.RW.01",
+        "confidence": "inferred",
+        "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p151",
+    "name": "规则用词",
+    "domain": "词汇",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第6单元 Work quietly",
+    "type": "conceptual",
+    "description": "认读 quietly、talk、keep 和 desk。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「安静地」？",
+      "answer": "quietly"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.VO.01",
+        "confidence": "inferred",
+        "note": "人教 PEP 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p152",
+    "name": "祈使句",
+    "domain": "语法",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第6单元 Work quietly",
+    "type": "procedural",
+    "description": "用动词原形开头的祈使句提出要求，并用 Do not 表示禁止。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "哪一句是祈使句？",
+      "answer": "Talk quietly."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.GR.07",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p153",
+    "name": "说规则",
+    "domain": "日常表达",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第6单元 Work quietly",
+    "type": "application",
+    "description": "用祈使句说出图书馆或教室里的规则。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "图书馆里要小声说话，应说哪一句？",
+      "answer": "Talk quietly."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.FU.01",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p154",
+    "name": "读懂规则",
+    "domain": "读写",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第6单元 Work quietly",
+    "type": "application",
+    "description": "读规则短文，找出可以做和不可以做的事。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：Talk quietly. Do not eat. Keep your desk clean. 不可以做什么？",
+      "answer": "吃东西"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.RW.01",
+        "confidence": "inferred",
+        "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p155",
+    "name": "城市场所",
+    "domain": "词汇",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第1单元 How can I get there",
+    "type": "conceptual",
+    "description": "认读 hospital、cinema、bookstore 和 post office。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「医院」？",
+      "answer": "hospital"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.VO.01",
+        "confidence": "inferred",
+        "note": "人教 PEP 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p156",
+    "name": "左转、右转和直行",
+    "domain": "语法",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第1单元 How can I get there",
+    "type": "procedural",
+    "description": "用 Turn left、Turn right 和 Go straight 指路。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "想说「在书店左转」，应选哪一句？",
+      "answer": "Turn left at the bookstore."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.FU.02",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p157",
+    "name": "问路和指路",
+    "domain": "日常表达",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第1单元 How can I get there",
+    "type": "application",
+    "description": "用 How can I get to 问路，并用 next to 说明在旁边。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想问怎么去医院，应说哪一句？",
+      "answer": "How can I get to the hospital?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p158",
+    "name": "读懂指路",
+    "domain": "读写",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第1单元 How can I get there",
+    "type": "application",
+    "description": "读指路短文，找出怎么走。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：Go straight. Turn left at the bookstore. The hospital is on the right. 在书店怎样走？",
+      "answer": "左转"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.RW.01",
+        "confidence": "inferred",
+        "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p159",
+    "name": "交通工具",
+    "domain": "词汇",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第2单元 Ways to go to school",
+    "type": "conceptual",
+    "description": "认读 bus、plane、ship 和 train。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「公共汽车」？",
+      "answer": "bus"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.VO.01",
+        "confidence": "inferred",
+        "note": "人教 PEP 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p160",
+    "name": "must 与交通规则",
+    "domain": "语法",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第2单元 Ways to go to school",
+    "type": "procedural",
+    "description": "用 must 和 Do not 说明交通规则。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "哪一句表示「你必须停」？",
+      "answer": "You must stop."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.GR.07",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p161",
+    "name": "说明出行方式",
+    "domain": "日常表达",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第2单元 Ways to go to school",
+    "type": "application",
+    "description": "用 I come to school by 说明怎么来学校。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想说自己骑自行车来学校，应说哪一句？",
+      "answer": "I come to school by bike."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p162",
+    "name": "读懂交通规则",
+    "domain": "读写",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第2单元 Ways to go to school",
+    "type": "application",
+    "description": "读交通短文，按文字找出规则。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：I come to school by bus. Amy says, \"I come by bike.\" Amy 怎么来学校？",
+      "answer": "骑自行车"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.RW.01",
+        "confidence": "inferred",
+        "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p163",
+    "name": "周末计划",
+    "domain": "词汇",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第3单元 My weekend plan",
+    "type": "conceptual",
+    "description": "认读 film、trip、supermarket 和 dictionary。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「电影」？",
+      "answer": "film"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.VO.01",
+        "confidence": "inferred",
+        "note": "人教 PEP 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p164",
+    "name": "be going to 一般将来时",
+    "domain": "语法",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第3单元 My weekend plan",
+    "type": "procedural",
+    "description": "用 am、is、are going to 表达打算或将要做的事。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "哪一句表示「我打算去旅行」？",
+      "answer": "I am going to take a trip."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.GR.06",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p165",
+    "name": "谈论计划",
+    "domain": "日常表达",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第3单元 My weekend plan",
+    "type": "application",
+    "description": "用 be going to 说出周末计划。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想说自己明天打算去旅行，应说哪一句？",
+      "answer": "I am going to take a trip tomorrow."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p166",
+    "name": "读懂周末计划",
+    "domain": "读写",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第3单元 My weekend plan",
+    "type": "application",
+    "description": "读计划短文，找出谁打算做什么。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：I am going to see a film. Amy is going to the supermarket. Amy 打算去哪里？",
+      "answer": "超市"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.RW.01",
+        "confidence": "inferred",
+        "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p167",
+    "name": "爱好",
+    "domain": "词汇",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第4单元 I have a pen pal",
+    "type": "conceptual",
+    "description": "认读 hobby、hiking、puzzle 和 dancing。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「爱好」？",
+      "answer": "hobby"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.VO.01",
+        "confidence": "inferred",
+        "note": "人教 PEP 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p168",
+    "name": "does 与第三人称单数",
+    "domain": "语法",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第4单元 I have a pen pal",
+    "type": "procedural",
+    "description": "用 does 提问，并在第三人称单数陈述句里给动词加 s 或 es。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "____ he live in China? 横线上应填哪个词？",
+      "answer": "Does"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.GR.01",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p169",
+    "name": "谈论笔友和爱好",
+    "domain": "日常表达",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第4单元 I have a pen pal",
+    "type": "application",
+    "description": "用 I have a pen pal 和 He likes 介绍笔友。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想说自己有一个笔友，应说哪一句？",
+      "answer": "I have a pen pal."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p170",
+    "name": "读懂笔友介绍",
+    "domain": "读写",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第4单元 I have a pen pal",
+    "type": "application",
+    "description": "读笔友短文，找出住在哪里、爱好是什么。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：I have a pen pal. He lives in Canada. He likes hiking. 笔友住在哪里？",
+      "answer": "加拿大"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.RW.01",
+        "confidence": "inferred",
+        "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p171",
+    "name": "更多职业",
+    "domain": "词汇",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第5单元 What does he do",
+    "type": "conceptual",
+    "description": "认读 factory、worker、postman 和 businessman。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「工厂」？",
+      "answer": "factory"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.VO.01",
+        "confidence": "inferred",
+        "note": "人教 PEP 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p172",
+    "name": "What does he do",
+    "domain": "语法",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第5单元 What does he do",
+    "type": "procedural",
+    "description": "用 What does he do? 询问职业，并用 works 描述在哪里工作。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "What does he do? 这句是在问什么？",
+      "answer": "他是做什么工作的"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.GR.01",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p173",
+    "name": "介绍职业和工作地点",
+    "domain": "日常表达",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第5单元 What does he do",
+    "type": "application",
+    "description": "用 He is a 和 He works 介绍家人的工作。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想说妈妈是商人，应说哪一句？",
+      "answer": "My mother is a businesswoman."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p174",
+    "name": "读懂职业短文",
+    "domain": "读写",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第5单元 What does he do",
+    "type": "application",
+    "description": "读职业短文，找出谁做什么、在哪里工作。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：My father is a worker. He works in a factory. 爸爸在哪里工作？",
+      "answer": "工厂"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.RW.01",
+        "confidence": "inferred",
+        "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p175",
+    "name": "感受",
+    "domain": "词汇",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第6单元 How do you feel",
+    "type": "conceptual",
+    "description": "认读 angry、afraid、sad 和 happy。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「生气的」？",
+      "answer": "angry"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.VO.01",
+        "confidence": "inferred",
+        "note": "人教 PEP 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p176",
+    "name": "should 提建议",
+    "domain": "语法",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第6单元 How do you feel",
+    "type": "procedural",
+    "description": "用 should 加动词原形提出建议。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "哪一句表示「你应该去看医生」？",
+      "answer": "You should see a doctor."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.GR.07",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p177",
+    "name": "询问感受并建议",
+    "domain": "日常表达",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第6单元 How do you feel",
+    "type": "application",
+    "description": "用 How do you feel? 询问感受，并用 should 给出建议。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想问对方感觉怎么样，应说哪一句？",
+      "answer": "How do you feel?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p178",
+    "name": "读懂感受和建议",
+    "domain": "读写",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第6单元 How do you feel",
+    "type": "application",
+    "description": "读短文，找出人物的感受和建议。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：Sarah is sad. She should talk to her friends. Sarah 感觉怎样？",
+      "answer": "难过"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.RW.01",
+        "confidence": "inferred",
+        "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p179",
+    "name": "陈述句和疑问句的语调",
+    "domain": "语音",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第1单元 How tall are you",
+    "type": "procedural",
+    "description": "一般疑问句通常用升调，陈述句、祈使句和特殊疑问句通常用降调。",
+    "mastery_criteria": [
+      "能根据字母或读音选出正确的一项",
+      "能把字母、发音和例词对上"
+    ],
+    "diagnostic_question": {
+      "question": "一般疑问句通常用什么语调？",
+      "answer": "升调"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.PH.02",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p180",
+    "name": "身高和体重",
+    "domain": "词汇",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第1单元 How tall are you",
+    "type": "conceptual",
+    "description": "认读 metre、kilogram、size 和 heavy。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「米」？",
+      "answer": "metre"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.VO.01",
+        "confidence": "inferred",
+        "note": "人教 PEP 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p181",
+    "name": "形容词比较级",
+    "domain": "语法",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第1单元 How tall are you",
+    "type": "procedural",
+    "description": "能写出 tall、long、heavy 的比较级 taller、longer、heavier。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "tall 的比较级是哪一个？",
+      "answer": "taller"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.GR.09",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p182",
+    "name": "用 than 比较",
+    "domain": "语法",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第1单元 How tall are you",
+    "type": "procedural",
+    "description": "用比较级加 than 对两者进行比较。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "哪一句是正确的比较？",
+      "answer": "I am taller than you."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.GR.09",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p183",
+    "name": "询问身高",
+    "domain": "日常表达",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第1单元 How tall are you",
+    "type": "application",
+    "description": "用 How tall are you? 和 How heavy are you? 询问身高、体重。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想问对方多高，应说哪一句？",
+      "answer": "How tall are you?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p184",
+    "name": "读懂比较短文",
+    "domain": "读写",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第1单元 How tall are you",
+    "type": "application",
+    "description": "读比较短文，按数字判断谁更高或更重。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：Amy is 1.5 metres. John is 1.6 metres. John is taller than Amy. 谁更高？",
+      "answer": "John"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.RW.01",
+        "confidence": "inferred",
+        "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p185",
+    "name": "规则动词过去式",
+    "domain": "语法",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第2单元 Last weekend",
+    "type": "procedural",
+    "description": "能把 clean、watch、stay 变成过去式 cleaned、watched、stayed。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "clean 的过去式是哪一个？",
+      "answer": "cleaned"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.GR.08",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p186",
+    "name": "Did 提问",
+    "domain": "语法",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第2单元 Last weekend",
+    "type": "procedural",
+    "description": "用 Did 加动词原形询问过去的事。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "____ you clean your room? 问过去的事，横线上应填哪个词？",
+      "answer": "Did"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.GR.08",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p187",
+    "name": "谈论上周末",
+    "domain": "日常表达",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第2单元 Last weekend",
+    "type": "application",
+    "description": "用 What did you do last weekend? 谈论已经发生的周末。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想问上周末做了什么，应说哪一句？",
+      "answer": "What did you do last weekend?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p188",
+    "name": "读懂上周末日记",
+    "domain": "读写",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第2单元 Last weekend",
+    "type": "application",
+    "description": "读过去时日记，找出做了什么。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：Last weekend I cleaned my room. I did not watch TV. 这个人看电视了吗？",
+      "answer": "没有"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.RW.01",
+        "confidence": "inferred",
+        "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p189",
+    "name": "不规则动词过去式",
+    "domain": "语法",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第3单元 Where did you go",
+    "type": "procedural",
+    "description": "能认出 go、see、eat 的过去式 went、saw、ate。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "go 的过去式是哪一个？",
+      "answer": "went"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.GR.08",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p190",
+    "name": "谈论去过哪里",
+    "domain": "日常表达",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第3单元 Where did you go",
+    "type": "application",
+    "description": "用 Where did you go? 询问过去去了哪里。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想问对方去了哪里，应说哪一句？",
+      "answer": "Where did you go?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p191",
+    "name": "读懂旅行日记",
+    "domain": "读写",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第3单元 Where did you go",
+    "type": "application",
+    "description": "读旅行日记，找出去了哪里、看见了什么。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：I went to Hainan. I saw the beach. 去了哪里？",
+      "answer": "海南"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.RW.01",
+        "confidence": "inferred",
+        "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p192",
+    "name": "过去和现在",
+    "domain": "词汇",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第4单元 Then and now",
+    "type": "conceptual",
+    "description": "认读 ago、different、active 和 Internet。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「以前」？",
+      "answer": "ago"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.VO.01",
+        "confidence": "inferred",
+        "note": "人教 PEP 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p193",
+    "name": "was 与 were",
+    "domain": "语法",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第4单元 Then and now",
+    "type": "procedural",
+    "description": "用 was 和 were 表示过去的状态，用 There was 表示过去有。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "There ____ no library in my school ten years ago. 横线上应填哪个词？",
+      "answer": "was"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.GR.08",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p194",
+    "name": "比较过去和现在",
+    "domain": "日常表达",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第4单元 Then and now",
+    "type": "application",
+    "description": "用 Before, I was ... Now, I am ... 比较过去和现在。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想说以前很安静，现在很活跃，应说哪一句？",
+      "answer": "Before, I was quiet. Now, I am active."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p195",
+    "name": "读懂今昔对比",
+    "domain": "读写",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第4单元 Then and now",
+    "type": "application",
+    "description": "读今昔短文，分清过去和现在。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：Before, there was no library. Now, there is a big library. 现在有图书馆吗？",
+      "answer": "有"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.RW.01",
+        "confidence": "inferred",
+        "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p196",
+    "name": "易混词 there、its、too",
+    "domain": "词汇",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第4单元 Then and now",
+    "type": "conceptual",
+    "description": "在句子里区分 there 与 their、its 与 it's、too 与 two。挂在本册是便于复习，册次待核。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "____ is a book on the desk. 横线上应填哪个词？",
+      "answer": "There"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.VO.02",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cne_p197",
+    "name": "读懂一封短信",
+    "domain": "读写",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第4单元 Then and now",
+    "type": "application",
+    "description": "读一封写明时间、地点和事件的短信，抓住这三项。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读短信：Dear Amy, I went to the park last Sunday. I saw a lake. Love, Mike. Mike 上星期日去了哪里？",
+      "answer": "公园"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.RW.02",
+        "confidence": "inferred",
+        "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
   }
 ]
