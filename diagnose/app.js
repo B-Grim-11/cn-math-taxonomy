@@ -6,6 +6,8 @@
   const LS_SETTINGS = 'cnmDiagnose.settings.v2';
   const LS_SEEN = 'cnmDiagnose.seen.v1';
   const LIMIT_MIN = 8, LIMIT_MAX = 30;
+  const SCREEN_MIN = 20, SCREEN_MAX = 60;
+  const GRADES = '一二三四五六七八九'.split('');
   const VOLUMES = [
     ['一上', '一年级上册'], ['一下', '一年级下册'], ['二上', '二年级上册'], ['二下', '二年级下册'],
     ['三上', '三年级上册'], ['三下', '三年级下册'], ['四上', '四年级上册'], ['四下', '四年级下册'],
@@ -27,6 +29,8 @@
   let startQuery = '';
   let startStage = '';
   let chapterOpen = false;
+  let gradeSel = '七';     // 开始页「按年级整体诊断」：年级
+  let volSel = '';         // '' 整年级 / '上' / '下'
   let seedParam = null;    // URL 参数 seed：固定选题的随机种子
   let pathCy = null;
   let pathToken = 0;
@@ -61,8 +65,11 @@
     const st = lsGet(LS_SETTINGS) || {};
     let limit = parseInt(st.limit, 10);
     if (!(limit >= LIMIT_MIN && limit <= LIMIT_MAX)) limit = E.DEFAULT_LIMIT;
-    return { limit: limit };
+    let screenLimit = parseInt(st.screenLimit, 10);
+    if (!(screenLimit >= SCREEN_MIN && screenLimit <= SCREEN_MAX)) screenLimit = E.SCREEN_LIMIT;
+    return { limit: limit, screenLimit: screenLimit };
   }
+  function setSetting(k, v) { const o = getSettings(); o[k] = v; lsSet(LS_SETTINGS, o); }
   function seenList() { const v = lsGet(LS_SEEN); return Array.isArray(v) ? v : []; }
   function markSeen(qid) {
     if (!qid || demo) return;
@@ -135,13 +142,16 @@
   function save() {
     if (demo || !session) return;
     lsSet(LS_SESSION, {
-      v: 2, targets: session.targets, limit: session.limit, label: sessionMeta.label, answers: session.answers,
+      v: 2, mode: session.mode, targets: session.targets, limit: session.limit, label: sessionMeta.label, answers: session.answers,
       seed: session.seed, avoid: session.avoid, savedAt: new Date().toISOString()
     });
   }
 
-  function startSession(targets, label, limit) {
-    session = E.createSession(D.graph, targets, { limit: limit || getSettings().limit, seed: newSeed(), avoid: seenList() });
+  function startSession(targets, label, limit, mode) {
+    const screen = mode === 'screen';
+    session = E.createSession(D.graph, targets, {
+      mode: mode, limit: limit || (screen ? getSettings().screenLimit : getSettings().limit), seed: newSeed(), avoid: seenList()
+    });
     sessionMeta = { label: label };
     resetUi();
     save();
@@ -150,7 +160,7 @@
 
   function restoreSession(saved) {
     try {
-      session = E.replay(D.graph, saved.targets, saved.answers, { limit: saved.limit, seed: saved.seed, avoid: saved.avoid });
+      session = E.replay(D.graph, saved.targets, saved.answers, { mode: saved.mode, limit: saved.limit, seed: saved.seed, avoid: saved.avoid });
       sessionMeta = { label: saved.label || saved.targets.map(nameOf).join('、') };
       return true;
     } catch (e) { return false; }
@@ -174,7 +184,7 @@
 
   function rebuild(answers, limit) {
     session = E.replay(D.graph, session.targets, answers, {
-      limit: limit == null ? session.limit : limit, seed: session.seed, avoid: session.avoid
+      mode: session.mode, limit: limit == null ? session.limit : limit, seed: session.seed, avoid: session.avoid
     });
     resetUi();
     save();
@@ -183,8 +193,17 @@
 
   /* ------------------------------------------------------------ 演示模式 */
   // 演示用的“学生”：目标不会（错、错 -> 薄弱）；它的第一个可测先修也不会；再往前（或另一个先修）答错一次、第二题答对 -> 不稳；其余都会
-  function makeOracle(targets) {
+  function makeOracle(targets, mode) {
     const G = D.graph;
+    if (mode === 'screen') {
+      // 整体筛查：按知识点序号，约 1/6 不会、1/6 不稳，其余都会（与 scripts/demo_grade.js 相同）
+      return function (id, attempt) {
+        const i = G.index[id];
+        if (i % 6 === 0) return 'wrong';
+        if (i % 6 === 3) return attempt === 1 ? 'wrong' : 'correct';
+        return 'correct';
+      };
+    }
     const t0 = E.createSession(G, targets).stack[0];
     const testablePre = function (id) { return G.prereqs[id].filter(function (x) { return E.isTestable(G, x.id); }).map(function (x) { return x.id; }); };
     const weak = new Set([t0]);
@@ -250,7 +269,7 @@
       if (!(v >= LIMIT_MIN)) v = LIMIT_MIN;
       if (v > LIMIT_MAX) v = LIMIT_MAX;
       limitInput.value = String(v);
-      lsSet(LS_SETTINGS, { limit: v });
+      setSetting('limit', v);
     });
     const listBox = h('div', { id: 'target-list' });
     const browser = h('details', { class: 'chapter-browser', id: 'chapter-browser', open: chapterOpen || !!startQuery },
@@ -274,14 +293,60 @@
       }),
       h('p', { class: 'muted small', id: 'match-count' }),
       h('div', { class: 'row' },
-        h('label', null, '题量上限（' + LIMIT_MIN + '–' + LIMIT_MAX + '）', limitInput),
+        h('label', null, '单点 / 整章题量上限（' + LIMIT_MIN + '–' + LIMIT_MAX + '）', limitInput),
         h('span', { class: 'muted small' }, '每个知识点最多问 2 题。到上限后，没测到的标为「未测」。'))));
+    page.append(gradeCard());
     page.append(h('div', { class: 'card' }, browser));
     page.append(h('p', { class: 'muted small' },
       '可以诊断的知识点：' + D.topics.length + ' 个。进度和出过的题只保存在这台浏览器里。'));
     show(page);
     fillList(listBox);
     if (startQuery) { const el = document.getElementById('search'); if (el) el.focus(); }
+  }
+
+  function gradeScope() { return gradeSel + (volSel ? volSel : '年级'); }
+
+  function gradeCard() {
+    const box = h('div', { class: 'card', id: 'grade-card' });
+    const fill = function () {
+      while (box.firstChild) box.removeChild(box.firstChild);
+      const g = E.gradeTargets(D.graph, gradeScope());
+      const tabs = function (label, items, current, set) {
+        return h('div', { class: 'stage-tabs', role: 'tablist', 'aria-label': label }, items.map(function (it) {
+          return h('button', {
+            type: 'button', class: 'stage-tab' + (current === it[0] ? ' on' : ''), role: 'tab',
+            'aria-selected': current === it[0] ? 'true' : 'false', 'data-value': it[0],
+            onclick: function () { set(it[0]); fill(); }
+          }, it[1]);
+        }));
+      };
+      const limitInput = h('input', {
+        type: 'number', min: SCREEN_MIN, max: SCREEN_MAX, step: 1, value: String(getSettings().screenLimit), id: 'screen-limit-input', 'aria-label': '整体诊断题量上限'
+      });
+      limitInput.addEventListener('change', function () {
+        let v = parseInt(limitInput.value, 10);
+        if (!(v >= SCREEN_MIN)) v = SCREEN_MIN;
+        if (v > SCREEN_MAX) v = SCREEN_MAX;
+        limitInput.value = String(v);
+        setSetting('screenLimit', v);
+      });
+      box.append(
+        h('h2', { text: '按年级整体诊断' }),
+        h('p', { class: 'muted' }, '不选具体知识点，在一个年级（或一册）里抽查：每个知识点最多问 2 题，答错只在所选范围内回溯先修，最后按章汇总出哪几章薄弱。适合期初摸底、学期末复习。'),
+        tabs('年级', GRADES.map(function (x) { return [x, x + '年级']; }), gradeSel, function (v) { gradeSel = v; }),
+        h('div', { style: 'margin-top:8px' }),
+        tabs('范围', [['', '整年级'], ['上', '上册'], ['下', '下册']], volSel, function (v) { volSel = v; }),
+        h('p', { class: 'muted', id: 'grade-info' }, g ? g.label + '：' + g.ids.length + ' 个知识点。' : '这个范围没有知识点。'),
+        h('div', { class: 'row' },
+          h('label', null, '题量上限（' + SCREEN_MIN + '–' + SCREEN_MAX + '）', limitInput),
+          h('button', {
+            class: 'primary', id: 'btn-grade-start', disabled: !g,
+            onclick: function () { if (g) startSession(g.ids, g.label + '（整体筛查）', null, 'screen'); }
+          }, '开始整体诊断')),
+        h('p', { class: 'muted small' }, '知识点多、题量有限，到上限后没测到的标为「未测」；结果页可以再加题。默认 ' + E.SCREEN_LIMIT + ' 题。'));
+    };
+    fill();
+    return box;
   }
 
   function fillList(box) {
@@ -343,6 +408,7 @@
       const p = D.graph.prereqs[a.id].find(function (x) { return x.id === id; });
       if (p && E.statusOf(session, a.id) === 'weak') return '因为「' + nameOf(a.id) + '」两题都没通过，现在检查它的' + (p.strength === 'hard' ? '硬' : '软') + '先修知识点。';
     }
+    if (session.mode === 'screen') return '整体诊断：在所选范围内抽查知识点（离章末近的先测，答对会连带跳过它的先修）。';
     if (session.targets.length > 1) return '这是所选章节的知识点（离章末最近的先测，答对会连带跳过它的先修）。';
     return session.targets.indexOf(id) >= 0 ? '这是你选择的目标知识点，先从它开始测。' : '检查目标的先修知识点。';
   }
@@ -515,17 +581,28 @@
   function renderResult() {
     const sum = E.summarize(D.graph, session);
     const rootSet = new Set(sum.roots.map(function (r) { return r.id; }));
-    const targetSet = new Set(session.targets);
+    const screen = session.mode === 'screen';
+    const targetSet = new Set(screen ? [] : session.targets);
     const page = h('div');
     if (demo) page.append(demoBanner());
 
     const targetsMastered = session.targets.every(function (id) { return E.statusOf(session, id) === 'mastered'; });
+    const chapters = screen ? E.chapterSummary(D.graph, session) : null;
+    const outOfScope = screen ? sum.roots.filter(function (r) { return r.outOfScopePrereqs.length; }) : [];
     let headline;
-    if (!sum.roots.length && !sum.shaky.length && targetsMastered) headline = '目标知识点已掌握，没有发现需要补的先修。';
+    if (screen) {
+      if (!sum.weak.length && !sum.shaky.length) headline = sum.untested.length
+        ? '已测到的知识点没有发现薄弱点，另有 ' + sum.untested.length + ' 个没测到。'
+        : '范围内的知识点都已掌握，没有发现薄弱点。';
+      else headline = '范围内共 ' + session.targets.length + ' 个知识点：薄弱 ' + sum.weak.length + '、不稳 ' + sum.shaky.length + '、未测 ' + sum.untested.length +
+        '。先看下面的「按章汇总」，薄弱的章排在前面。';
+    }
+    else if (!sum.roots.length && !sum.shaky.length && targetsMastered) headline = '目标知识点已掌握，没有发现需要补的先修。';
     else if (!sum.roots.length && !sum.shaky.length) headline = '没有判出薄弱点，但目标尚未全部测到。';
     else if (!sum.roots.length) headline = '没有判出薄弱点，但有 ' + sum.shaky.length + ' 个知识点「不稳」（第一题没答对、第二题答对），建议巩固。';
     else headline = '共发现 ' + sum.roots.length + ' 个薄弱根因' + (sum.shaky.length ? '、' + sum.shaky.length + ' 个不稳的知识点' : '') + '，按下面的学习路径从前往后补。';
 
+    const more = screen ? 10 : 4;
     const summaryCard = h('div', { class: 'card', id: 'summary' },
       h('h2', { text: '诊断结果：' + sessionMeta.label }),
       h('p', null, headline),
@@ -537,7 +614,7 @@
         stat('unk', sum.untested.length, '未测')),
       sum.unconfirmed.length ? h('p', { class: 'notice' }, '「' + sum.unconfirmed.map(nameOf).join('」「') + '」只答了第一题（答错）就到了题量上限，没来得及复测，暂按薄弱处理。') : null,
       sum.limitReached ? h('p', { class: 'notice' }, '已达到题量上限（' + sum.limit + '），剩余没测到的知识点标为「未测」。薄弱根因的先修里若有未测点，真正的根因可能更靠前。',
-        h('button', { class: 'no-print', style: 'margin-left:8px', onclick: function () { rebuild(session.answers, Math.min(session.limit + 4, 60)); } }, '再多答 4 题')) : null,
+        session.limit >= 60 ? null : h('button', { class: 'no-print', style: 'margin-left:8px', onclick: function () { rebuild(session.answers, Math.min(session.limit + more, 60)); } }, '再多答 ' + Math.min(more, 60 - session.limit) + ' 题')) : null,
       h('p', { class: 'muted small' }, '自动判题只是近似的，答题记录里可以更正任何一题。生成时间：' + new Date().toLocaleString('zh-CN')),
       h('div', { class: 'row no-print' },
         h('button', { class: 'primary', id: 'btn-export', onclick: exportJson }, '导出 JSON'),
@@ -545,6 +622,7 @@
         h('button', { onclick: function () { if (confirm('重新开始会清除当前进度，确定吗？')) restart(); } }, '重新开始'),
         session.answers.length ? h('button', { onclick: function () { rebuild(session.answers.slice(0, -1)); } }, '撤销上一题') : null));
     page.append(summaryCard);
+    if (screen) page.append(chaptersCard(chapters, outOfScope));
 
     page.append(h('div', { class: 'card', id: 'roots' },
       h('h2', { text: '薄弱的先修知识点（根因）' }),
@@ -552,6 +630,7 @@
       sum.roots.length ? sum.roots.map(function (r) {
         const notes = h('div');
         if (r.pendingPrereqs.length) notes.append(h('div', { class: 'notice', text: '它的先修「' + r.pendingPrereqs.map(nameOf).join('」「') + '」没来得及测（题量用完），真正的根因可能更靠前。' }));
+        if (r.outOfScopePrereqs.length) notes.append(h('div', { class: 'notice', text: '它的先修「' + r.outOfScopePrereqs.map(nameOf).join('」「') + '」不在所选范围内，没有检查。' }));
         if (r.externalPrereqs.length) notes.append(h('div', { class: 'muted small', text: '小学先修（无诊断题，未测）：' + r.externalPrereqs.map(nameOf).join('、') }));
         return topicItem(r.id, statusTags(r.id, rootSet, targetSet), notes);
       }) : h('p', { text: targetsMastered ? '没有。' : '暂未发现。' })));
@@ -601,10 +680,35 @@
     mountPathGraph(sum);
   }
 
+  function nameList(ids) { return ids.map(nameOf).join('、'); }
+
+  function chaptersCard(chapters, outOfScope) {
+    const seg = function (cls, n, total) { return n ? h('i', { class: cls, style: 'width:' + (n / total * 100) + '%' }) : null; };
+    return h('div', { class: 'card', id: 'chapters' },
+      h('h2', { text: '按章汇总' }),
+      h('p', { class: 'muted small' }, '每章的知识点掌握情况，薄弱多的章排在前面；点开看具体是哪几个知识点。色条从左到右：掌握、不稳、薄弱、未测。'),
+      outOfScope.length ? h('p', { class: 'notice', id: 'out-of-scope' }, '部分薄弱点的先修在所选范围之外，未检查（涉及 ' + outOfScope.length + ' 个薄弱点，如「' +
+        outOfScope.slice(0, 3).map(function (r) { return nameOf(r.id); }).join('」「') + '」）。可对这些知识点单独做诊断，沿先修继续往前查。') : null,
+      chapters.map(function (c) {
+        return h('details', { class: 'topic chap-sum', open: c.weak > 0 || c.shaky > 0 },
+          h('summary', null,
+            h('span', { class: 'chap-name', text: c.label }),
+            h('span', { class: 'chap-counts' },
+              tag('mastered', '掌握 ' + c.mastered), tag('shaky', '不稳 ' + c.shaky), tag('weak', '薄弱 ' + c.weak), tag('unknown', '未测 ' + c.untested)),
+            h('span', { class: 'chap-bar', 'aria-hidden': 'true' },
+              seg('m', c.mastered, c.total), seg('s', c.shaky, c.total), seg('w', c.weak, c.total), seg('u', c.untested, c.total))),
+          h('div', { class: 'body' },
+            h('div', { class: 'muted small', text: '共 ' + c.total + ' 个知识点' }),
+            c.weakIds.length ? h('div', { class: 'chap-names' }, tag('weak', '薄弱'), nameList(c.weakIds)) : null,
+            c.shakyIds.length ? h('div', { class: 'chap-names' }, tag('shaky', '不稳'), nameList(c.shakyIds)) : null,
+            !c.weakIds.length && !c.shakyIds.length ? h('div', { class: 'muted small', text: c.untested ? '没有发现薄弱或不稳的点，另有 ' + c.untested + ' 个没测到。' : '没有发现薄弱或不稳的点。' }) : null));
+      }));
+  }
+
   function stat(cls, n, label) { return h('div', { class: 'stat ' + cls }, h('b', { text: String(n) }), label); }
 
   function standardsCard(sum) {
-    const ids = new Set(session.targets);
+    const ids = new Set(session.mode === 'screen' ? [] : session.targets);
     sum.path.forEach(function (p) { ids.add(p.id); });
     const by = {};
     ids.forEach(function (id) {
@@ -786,11 +890,12 @@
     const sum = E.summarize(D.graph, session);
     const stdIds = new Set();
     const brief = function (id) { return { id: id, name: nameOf(id) }; };
-    sum.path.concat(session.targets.map(function (id) { return { id: id }; })).forEach(function (p) {
+    sum.path.concat(session.mode === 'screen' ? [] : session.targets.map(function (id) { return { id: id }; })).forEach(function (p) {
       (D.graph.byId[p.id].standards || []).forEach(function (sd) { stdIds.add(sd.id); });
     });
+    const chapters = session.mode === 'screen' ? E.chapterSummary(D.graph, session) : null;
     const out = {
-      tool: 'cn-math-taxonomy/diagnose', version: 2, generatedAt: new Date().toISOString(),
+      tool: 'cn-math-taxonomy/diagnose', version: 2, mode: session.mode || 'target', generatedAt: new Date().toISOString(),
       note: '自动判题是近似的，以参考答案为准；数据为 AI 生成的初稿，未经教师审核。',
       label: sessionMeta.label,
       targets: session.targets.map(brief),
@@ -803,9 +908,15 @@
           referenceAnswer: q.answer, explanation: q.explanation || ''
         };
       }),
+      chapters: chapters ? chapters.map(function (c) {
+        return {
+          label: c.label, total: c.total, mastered: c.mastered, shaky: c.shaky, weak: c.weak, untested: c.untested,
+          weakTopics: c.weakIds.map(brief), shakyTopics: c.shakyIds.map(brief), untestedTopics: c.untestedIds.map(brief)
+        };
+      }) : undefined,
       weakRoots: sum.roots.map(function (r) {
         return Object.assign(brief(r.id), {
-          pendingPrereqs: r.pendingPrereqs, externalPrereqs: r.externalPrereqs,
+          pendingPrereqs: r.pendingPrereqs, outOfScopePrereqs: r.outOfScopePrereqs, externalPrereqs: r.externalPrereqs,
           masteryCriteria: D.graph.byId[r.id].mastery_criteria || [],
           standards: (D.graph.byId[r.id].standards || []).map(function (sd) { return sd.id; })
         });
@@ -859,6 +970,20 @@
       if (!hit.length) throw new Error('URL 参数 chapter 没有匹配的章节：' + c + '（格式如 “七上 第一章”）');
       return { ids: hit[0].topics.map(function (x) { return x.t.id; }), label: hit[0].volume + ' ' + hit[0].label + '（整章）' };
     }
+    const grade = (params.get('grade') || '').trim();
+    const volume = (params.get('volume') || '').trim();
+    if (grade || volume) {
+      let scope = volume || grade;
+      if (grade && volume) {
+        const gch = /^[一二三四五六七八九]$/.test(grade) ? grade : grade.charAt(0);
+        scope = /^[上下]$/.test(volume) ? gch + volume : volume;
+        if (scope.charAt(0) !== gch) throw new Error('URL 参数 grade 与 volume 不一致：' + grade + ' / ' + volume);
+      }
+      if (/^[一二三四五六七八九]$/.test(scope)) scope += '年级';
+      const g = E.gradeTargets(D.graph, scope);
+      if (!g) throw new Error('URL 参数 grade / volume 无法识别：' + (volume || grade) + '（写法如 grade=七年级、volume=七上）');
+      return { ids: g.ids, label: g.label + '（整体筛查）', mode: 'screen' };
+    }
     return null;
   }
 
@@ -877,8 +1002,11 @@
     const paramLimit = parseInt(params.get('limit'), 10);
     const limit = paramLimit > 0 ? paramLimit : undefined;
     if (resolved && params.get('demo')) {
-      demo = { oracle: makeOracle(resolved.ids) };
-      session = E.createSession(D.graph, resolved.ids, { limit: limit || getSettings().limit, seed: seedParam == null ? 'demo' : seedParam });
+      demo = { oracle: makeOracle(resolved.ids, resolved.mode) };
+      session = E.createSession(D.graph, resolved.ids, {
+        mode: resolved.mode, limit: limit || (resolved.mode === 'screen' ? getSettings().screenLimit : getSettings().limit),
+        seed: seedParam == null ? 'demo' : seedParam
+      });
       sessionMeta = { label: resolved.label };
       const step = parseInt(params.get('step'), 10);
       runDemo(step >= 0 ? step : Infinity);
@@ -888,9 +1016,9 @@
     if (resolved) {
       const saved = lsGet(LS_SESSION);
       const same = saved && JSON.stringify(saved.targets) === JSON.stringify(Array.from(new Set(resolved.ids))) &&
-        (seedParam == null || saved.seed === seedParam);
+        (saved.mode || 'target') === (resolved.mode || 'target') && (seedParam == null || saved.seed === seedParam);
       if (same && restoreSession(saved)) { render(); return; }
-      startSession(resolved.ids, resolved.label, limit);
+      startSession(resolved.ids, resolved.label, limit, resolved.mode);
       return;
     }
     renderStart();

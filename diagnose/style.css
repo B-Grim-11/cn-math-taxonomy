@@ -99,6 +99,17 @@ ol.path > li::before {
   font-size: 0.85rem;
   font-weight: 800;
 }
+details.chap-sum > summary { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; }
+.chap-name { flex: 1 1 200px; min-width: 0; font-weight: 800; }
+.chap-counts { display: inline-flex; flex-wrap: wrap; gap: 4px 0; }
+.chap-bar { flex: 1 1 100%; display: flex; height: 8px; border-radius: 999px; overflow: hidden; background: var(--bg-muted); }
+.chap-bar i { display: block; height: 100%; }
+.chap-bar .m { background: var(--ok); }
+.chap-bar .s { background: var(--diagram-shaky); }
+.chap-bar .w { background: var(--bad); }
+.chap-bar .u { background: var(--unk); opacity: .45; }
+.chap-names { margin: 6px 0; overflow-wrap: anywhere; }
+#out-of-scope { margin-top: 4px; }
 #log { overflow-x: auto; max-width: 100%; }
 table.log { border-collapse: collapse; width: 100%; min-width: 520px; font-size: 0.95rem; }
 table.log th, table.log td { border-bottom: 1px solid var(--line); padding: 8px; text-align: left; vertical-align: top; }
