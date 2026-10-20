@@ -113,6 +113,50 @@ details.chap-sum > summary { display: flex; flex-wrap: wrap; align-items: center
 #log { overflow-x: auto; max-width: 100%; }
 .iq-line { margin: 8px 0 0; overflow-wrap: anywhere; }
 .iq-line a { color: var(--brand-strong); font-weight: 700; }
+body.share-open { overflow: hidden; }
+.share-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 80;
+  background: rgba(15, 23, 42, 0.55);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 0;
+}
+.share-panel {
+  width: min(440px, 100%);
+  max-height: 100%;
+  background: var(--bg-elev);
+  color: var(--text);
+  border-radius: 16px 16px 0 0;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.share-bar { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 12px 12px 0; }
+.share-bar h2 { margin: 0; font-size: 1.15rem; }
+.share-hint { margin: 8px 12px 0; text-align: center; font-weight: 800; color: var(--brand-strong); }
+.share-scroll { overflow: auto; padding: 10px 12px 12px; min-height: 0; flex: 1 1 auto; }
+.share-scroll img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+  background: #f3f7fb;
+  -webkit-touch-callout: default;
+}
+.share-actions { padding: 0 12px 12px; }
+.share-actions .btn { width: 100%; }
+@media (min-width: 701px) {
+  .share-modal { align-items: center; padding: 24px; }
+  .share-panel { border-radius: 16px; max-height: calc(100% - 48px); }
+  #share-hint { display: none !important; }
+}
+@media (max-width: 700px) {
+  .share-actions { display: none; }
+}
 table.log { border-collapse: collapse; width: 100%; min-width: 520px; font-size: 0.95rem; }
 table.log th, table.log td { border-bottom: 1px solid var(--line); padding: 8px; text-align: left; vertical-align: top; }
 table.log select { min-height: 44px; }

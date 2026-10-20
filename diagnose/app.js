@@ -40,6 +40,8 @@
   let pathCy = null;
   let pathToken = 0;
   let pathTipLock = false;
+  let shareBlobUrl = null;
+  let shareToken = 0;
 
   /* ------------------------------------------------------------ 小工具 */
   function h(tag, attrs) {
@@ -126,7 +128,7 @@
     pathTipLock = false;
     if (pathCy) { pathCy.destroy(); pathCy = null; window.__pathCy = null; }
   }
-  function show(node) { teardownPath(); clearRoot(); root.append(node); window.scrollTo(0, 0); }
+  function show(node) { teardownPath(); closeShare(); clearRoot(); root.append(node); window.scrollTo(0, 0); }
   function cssVar(name) { return getComputedStyle(document.documentElement).getPropertyValue(name).trim(); }
   function theme() {
     return {
@@ -606,6 +608,118 @@
       h('a', { href: location.pathname }, '退出演示'));
   }
 
+  /* ------------------------------------------------------------ 分享图 */
+  function onShareKey(e) { if (e.key === 'Escape') closeShare(); }
+  function closeShare() {
+    shareToken++;
+    document.removeEventListener('keydown', onShareKey);
+    var modal = document.getElementById('share-modal');
+    if (modal) modal.remove();
+    document.body.classList.remove('share-open');
+    if (shareBlobUrl) { URL.revokeObjectURL(shareBlobUrl); shareBlobUrl = null; }
+  }
+  function shareScopeText() {
+    var raw = sessionMeta && sessionMeta.label ? String(sessionMeta.label) : '本次诊断';
+    raw = raw.replace(/（整体筛查）/g, '').replace(/（整章）/g, '').replace(/（旧编号已对应到小学知识点）/g, '');
+    raw = raw.replace(/\s+/g, ' ').trim();
+    return raw || '本次诊断';
+  }
+  function buildShareModel(sum, chapters) {
+    var subjectName = subject === 'english' ? '英语' : '数学';
+    var spots = [];
+    var spotKind = 'topic';
+    if (chapters && chapters.length) {
+      spotKind = 'chapter';
+      var hot = chapters.filter(function (c) { return c.weak > 0 || c.shaky > 0; });
+      if (!hot.length) hot = chapters.slice(0, 3);
+      spots = hot.slice(0, 3).map(function (c) {
+        return { title: c.label, detail: '薄弱 ' + c.weak + ' · 不稳 ' + c.shaky + ' · 未测 ' + c.untested };
+      });
+    } else {
+      var seen = Object.create(null);
+      var ids = [];
+      var pushId = function (id) {
+        if (!id || seen[id] || ids.length >= 3) return;
+        seen[id] = true;
+        ids.push(id);
+      };
+      sum.roots.forEach(function (r) { pushId(r.id); });
+      sum.weak.forEach(pushId);
+      sum.shaky.forEach(pushId);
+      spots = ids.map(function (id) {
+        return { title: nameOf(id), detail: STATUS_LABEL[E.statusOf(session, id)] || '' };
+      });
+    }
+    var now = new Date();
+    return {
+      siteName: '中小学知识图谱',
+      subject: subjectName,
+      scope: shareScopeText(),
+      mastered: sum.mastered.length,
+      shaky: sum.shaky.length,
+      weak: sum.weak.length,
+      untested: sum.untested.length,
+      spotKind: spotKind,
+      spots: spots,
+      roots: sum.roots.slice(0, 2).map(function (r) { return nameOf(r.id); }),
+      date: now.getFullYear() + '年' + (now.getMonth() + 1) + '月' + now.getDate() + '日'
+    };
+  }
+  function mountShareModal(url) {
+    var old = document.getElementById('share-modal');
+    if (old) old.remove();
+    var img = h('img', { id: 'share-preview', alt: '诊断分享图', src: url });
+    var modal = h('div', {
+      id: 'share-modal', class: 'share-modal no-print', role: 'dialog', 'aria-modal': 'true', 'aria-labelledby': 'share-title',
+      onclick: function (e) { if (e.target === modal) closeShare(); }
+    }, h('div', { class: 'share-panel', onclick: function (e) { e.stopPropagation(); } },
+      h('div', { class: 'share-bar' },
+        h('h2', { id: 'share-title', text: '分享图' }),
+        h('button', { type: 'button', id: 'share-close', onclick: closeShare }, '关闭')),
+      h('p', { id: 'share-hint', class: 'share-hint', text: '长按图片保存' }),
+      h('div', { class: 'share-scroll' }, img),
+      h('div', { class: 'share-actions' },
+        h('a', { id: 'share-download', class: 'btn btn-primary', href: url, download: '知识图谱诊断分享.png' }, '下载图片'))));
+    document.body.classList.add('share-open');
+    document.body.append(modal);
+    document.addEventListener('keydown', onShareKey);
+  }
+  function openShare() {
+    if (!window.ShareCard) {
+      var host0 = document.getElementById('summary');
+      if (host0) host0.append(h('p', { id: 'share-error', class: 'err', text: '分享图没有生成：组件没有加载' }));
+      return;
+    }
+    var token = ++shareToken;
+    var sum = E.summarize(D.graph, session);
+    var chapters = session.mode === 'screen' ? E.chapterSummary(D.graph, session) : null;
+    var model = buildShareModel(sum, chapters);
+    window.__shareModel = model;
+    var canvas = document.createElement('canvas');
+    try { window.ShareCard.draw(canvas, model); }
+    catch (err) {
+      var host = document.getElementById('summary');
+      if (host) host.append(h('p', { id: 'share-error', class: 'err', text: '分享图没有生成：' + (err && err.message ? err.message : err) }));
+      return;
+    }
+    var finish = function (url) {
+      if (token !== shareToken) {
+        if (String(url).indexOf('blob:') === 0) URL.revokeObjectURL(url);
+        return;
+      }
+      if (shareBlobUrl && shareBlobUrl !== url) URL.revokeObjectURL(shareBlobUrl);
+      shareBlobUrl = String(url).indexOf('blob:') === 0 ? url : null;
+      mountShareModal(url);
+    };
+    if (canvas.toBlob) {
+      canvas.toBlob(function (blob) {
+        if (token !== shareToken) return;
+        if (!blob) { finish(canvas.toDataURL('image/png')); return; }
+        finish(URL.createObjectURL(blob));
+      }, 'image/png');
+    } else finish(canvas.toDataURL('image/png'));
+  }
+
   /* ------------------------------------------------------------ 结果页 */
   function standardsBlock(id) {
     const t = D.graph.byId[id];
@@ -690,7 +804,8 @@
         session.limit >= 60 ? null : h('button', { class: 'no-print', style: 'margin-left:8px', onclick: function () { rebuild(session.answers, Math.min(session.limit + more, 60)); } }, '再多答 ' + Math.min(more, 60 - session.limit) + ' 题')) : null,
       h('p', { class: 'muted small' }, '自动判题只是近似的，答题记录里可以更正任何一题。生成时间：' + new Date().toLocaleString('zh-CN')),
       h('div', { class: 'row no-print' },
-        h('button', { class: 'primary', id: 'btn-export', onclick: exportJson }, '导出 JSON'),
+        h('button', { class: 'primary', id: 'btn-share', onclick: openShare }, '生成分享图'),
+        h('button', { id: 'btn-export', onclick: exportJson }, '导出 JSON'),
         h('button', { id: 'btn-print', onclick: printPage }, '打印 / 另存为 PDF'),
         h('button', { onclick: function () { if (confirm('重新开始会清除当前进度，确定吗？')) restart(); } }, '重新开始'),
         session.answers.length ? h('button', { onclick: function () { rebuild(session.answers.slice(0, -1)); } }, '撤销上一题') : null));

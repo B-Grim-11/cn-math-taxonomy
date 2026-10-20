@@ -14,6 +14,8 @@
  *   4) 知识图谱「全部」祖先（cnm_234：默认按年级收起，再展开并对准当前点）、375 宽长名称（cnm_124）
  *      以及 375 宽诊断路径图，截 17–20。
  *      首页儿童智商测试卡片截 36，诊断结果页底部入口截 37。
+ *      诊断分享图：数学（五年级上册）存 38-share-math.png，英语（现在进行时）存 39-share-en.png，
+ *      375 宽弹层存 40-share-modal-375.png，并用 jsQR 解码图中二维码。
  * 环境变量：CHROME=/path/to/chrome  PORT=8765  DEBUG_PORT=9333
  */
 'use strict';
@@ -25,6 +27,8 @@ const path = require('path');
 const http = require('http');
 const zlib = require('zlib');
 const E = require('../diagnose/engine.js');
+const jsQR = require('./vendor/jsQR.js');
+const SHARE_URL = 'https://math.pansgo.com/?from=share';
 
 const ROOT = path.join(__dirname, '..');
 const OUT = path.join(ROOT, 'screenshots');
@@ -148,6 +152,97 @@ function pngInk(file, box) {
   }
   return { width, height, orange, blue };
 }
+
+function pngDecode(file) {
+  const buf = fs.readFileSync(file);
+  if (buf.toString('ascii', 1, 4) !== 'PNG') throw new Error('不是 PNG：' + file);
+  let off = 8, width = 0, height = 0, bitDepth = 0, colorType = 0, interlace = 0;
+  const idats = [];
+  while (off + 8 <= buf.length) {
+    const len = buf.readUInt32BE(off);
+    const type = buf.toString('ascii', off + 4, off + 8);
+    const data = buf.subarray(off + 8, off + 8 + len);
+    if (type === 'IHDR') {
+      width = data.readUInt32BE(0);
+      height = data.readUInt32BE(4);
+      bitDepth = data[8];
+      colorType = data[9];
+      interlace = data[12];
+    } else if (type === 'IDAT') idats.push(data);
+    else if (type === 'IEND') break;
+    off += 12 + len;
+  }
+  if (bitDepth !== 8 || interlace !== 0 || (colorType !== 2 && colorType !== 6)) {
+    throw new Error('无法解码 PNG：' + file + ' depth=' + bitDepth + ' color=' + colorType + ' interlace=' + interlace);
+  }
+  const bpp = colorType === 6 ? 4 : 3;
+  const raw = zlib.inflateSync(Buffer.concat(idats));
+  const stride = width * bpp;
+  const rgba = new Uint8ClampedArray(width * height * 4);
+  let pos = 0;
+  let prev = Buffer.alloc(stride);
+  for (let y = 0; y < height; y++) {
+    const filter = raw[pos++];
+    const row = Buffer.alloc(stride);
+    for (let i = 0; i < stride; i++) {
+      const x = raw[pos++];
+      const a = i >= bpp ? row[i - bpp] : 0;
+      const b = prev[i];
+      const c = i >= bpp ? prev[i - bpp] : 0;
+      let v = x;
+      if (filter === 1) v = (x + a) & 255;
+      else if (filter === 2) v = (x + b) & 255;
+      else if (filter === 3) v = (x + ((a + b) >> 1)) & 255;
+      else if (filter === 4) {
+        const p = a + b - c;
+        const pa = Math.abs(p - a), pb = Math.abs(p - b), pc = Math.abs(p - c);
+        const pr = pa <= pb && pa <= pc ? a : pb <= pc ? b : c;
+        v = (x + pr) & 255;
+      }
+      row[i] = v;
+    }
+    prev = row;
+    for (let x = 0; x < width; x++) {
+      const s = x * bpp;
+      const d = (y * width + x) * 4;
+      rgba[d] = row[s];
+      rgba[d + 1] = row[s + 1];
+      rgba[d + 2] = row[s + 2];
+      rgba[d + 3] = bpp === 4 ? row[s + 3] : 255;
+    }
+  }
+  return { width, height, data: rgba };
+}
+function pngRgba(file) { return pngDecode(file); }
+function pngPixel(img, x, y) {
+  const i = (y * img.width + x) * 4;
+  return [img.data[i], img.data[i + 1], img.data[i + 2], img.data[i + 3]];
+}
+function cropRgba(img, box) {
+  const x0 = Math.max(0, box.x), y0 = Math.max(0, box.y);
+  const x1 = Math.min(img.width, box.x + box.w), y1 = Math.min(img.height, box.y + box.h);
+  const w = x1 - x0, h = y1 - y0;
+  const out = new Uint8ClampedArray(w * h * 4);
+  for (let y = 0; y < h; y++) {
+    const src = ((y0 + y) * img.width + x0) * 4;
+    out.set(img.data.subarray(src, src + w * 4), y * w * 4);
+  }
+  return { width: w, height: h, data: out };
+}
+function decodeQr(img) {
+  const boxes = [
+    { x: 48, y: 1500, w: 400, h: 400 },
+    { x: 0, y: img.height - 480, w: 560, h: 480 },
+    { x: 0, y: 0, w: img.width, h: img.height }
+  ];
+  for (let i = 0; i < boxes.length; i++) {
+    const crop = cropRgba(img, boxes[i]);
+    const code = jsQR(crop.data, crop.width, crop.height, { inversionAttempts: 'dontInvert' });
+    if (code && code.data) return code.data;
+  }
+  return null;
+}
+
 function getJson(url) {
   return new Promise((resolve, reject) => {
     http.get(url, (res) => { let b = ''; res.on('data', (c) => (b += c)); res.on('end', () => { try { resolve(JSON.parse(b)); } catch (e) { reject(e); } }); }).on('error', reject);
@@ -703,6 +798,100 @@ async function main() {
     check((await evalJs('document.querySelector("#summary h2").textContent')).indexOf('四年级上册') >= 0, '375 四年级上册英语整体诊断');
     await checkPage('四年级上册英语 375');
     await shot('35-diagnose-en-g4-375.png', null, 1100);
+
+    console.log('分享图');
+    const shareUi = () => evalJs(`(() => {
+      const img = document.getElementById('share-preview');
+      const dl = document.getElementById('share-download');
+      const hint = document.getElementById('share-hint');
+      const visible = (el) => !!(el && el.getClientRects().length);
+      return {
+        tag: img ? img.tagName : '',
+        src: img && img.src ? img.src.slice(0, 5) : '',
+        w: img ? img.naturalWidth : 0,
+        h: img ? img.naturalHeight : 0,
+        download: visible(dl),
+        downloadName: dl ? (dl.getAttribute('download') || '') : '',
+        hint: visible(hint),
+        hintText: hint ? (hint.textContent || '').trim() : ''
+      };
+    })()`);
+    const saveShareImage = async (file) => {
+      await waitFor(() => evalJs('(() => { const img = document.getElementById("share-preview"); return !!(img && img.complete && img.naturalWidth === 1080 && img.naturalHeight === 1920); })()'), '分享图尺寸 ' + file, 10000);
+      const b64 = await evalJs(`(async () => {
+        const img = document.getElementById('share-preview');
+        const blob = await (await fetch(img.src)).blob();
+        const bytes = new Uint8Array(await blob.arrayBuffer());
+        let binary = '';
+        const chunk = 0x4000;
+        for (let i = 0; i < bytes.length; i += chunk) {
+          binary += String.fromCharCode.apply(null, bytes.subarray(i, Math.min(i + chunk, bytes.length)));
+        }
+        return btoa(binary);
+      })()`);
+      fs.writeFileSync(path.join(OUT, file), Buffer.from(b64, 'base64'));
+      console.log('  分享图 screenshots/' + file);
+    };
+    const assertSharePng = (file) => {
+      const img = pngRgba(path.join(OUT, file));
+      check(img.width === 1080 && img.height === 1920, file + ' 是 1080×1920');
+      const px = pngPixel(img, 80, 40);
+      check(px[0] < 80 && px[1] > 80 && px[1] < 170 && px[2] > 70 && px[2] < 160, file + ' 页头是站点青色');
+      const decoded = decodeQr(img);
+      check(decoded === SHARE_URL, file + ' 二维码内容是分享链接（' + decoded + '）');
+    };
+
+    await setView(1280, 900);
+    await goto(BASE + '/diagnose/?grade=' + encodeURIComponent('五上') + '&demo=1');
+    await waitFor(() => exists('#btn-share'), '数学结果页分享按钮', 20000);
+    check((await evalJs('document.getElementById("btn-share").textContent')) === '生成分享图', '按钮文案是生成分享图');
+    const qrSrc = await evalJs(`document.querySelector('script[src$="qrcode.js"]').getAttribute('src')`);
+    check(qrSrc === '../assets/vendor/qrcode.js', '二维码脚本是本地相对路径（' + qrSrc + '）');
+    await checkPage('数学分享结果页 1280');
+    await click('#btn-share');
+    await waitFor(() => exists('#share-preview'), '数学分享弹层', 10000);
+    const mathUi = await shareUi();
+    check(mathUi.tag === 'IMG', '桌面预览是 img');
+    check(mathUi.src === 'blob:' || mathUi.src === 'data:', '桌面预览地址可长按保存（' + mathUi.src + '）');
+    check(mathUi.download && mathUi.downloadName === '知识图谱诊断分享.png', '1280 宽显示下载图片');
+    check(!mathUi.hint, '1280 宽不提示长按保存');
+    const mathModel = await evalJs('window.__shareModel');
+    check(mathModel && mathModel.siteName === '中小学知识图谱' && mathModel.subject === '数学' && String(mathModel.scope).indexOf('五年级上册') >= 0 && mathModel.spotKind === 'chapter', '数学分享范围是五年级上册（' + JSON.stringify(mathModel && { scope: mathModel.scope, subject: mathModel.subject, spotKind: mathModel.spotKind }) + '）');
+    check(mathModel && mathModel.spots.length >= 1 && mathModel.spots.length <= 3, '数学分享列出 1–3 个章节');
+    check(mathModel && mathModel.roots.length >= 1 && mathModel.roots.length <= 2, '数学分享有 1–2 个根因');
+    check(JSON.stringify(mathModel).indexOf('付费') < 0 && JSON.stringify(mathModel).indexOf('姓名') < 0, '分享内容不含付费或姓名');
+    await saveShareImage('38-share-math.png');
+    assertSharePng('38-share-math.png');
+
+    await setView(375, 812);
+    await sleep(200);
+    const phoneUi = await shareUi();
+    check(phoneUi.tag === 'IMG' && (phoneUi.src === 'blob:' || phoneUi.src === 'data:'), '375 预览仍是可保存的 img');
+    check(!phoneUi.download, '375 宽隐藏下载图片');
+    check(phoneUi.hint && phoneUi.hintText === '长按图片保存', '375 宽提示长按图片保存（' + phoneUi.hintText + '）');
+    await checkPage('分享弹层 375');
+    await shot('40-share-modal-375.png', null, 812, { beyond: false });
+
+    await setView(1280, 900);
+    await goto(BASE + '/diagnose/?subject=english&target=cne_p148&demo=1');
+    await waitFor(() => exists('#btn-share'), '英语结果页分享按钮', 20000);
+    check((await evalJs('document.querySelector("#summary h2").textContent')).indexOf('现在进行时') >= 0, '英语现在进行时结果页');
+    await checkPage('英语分享结果页 1280');
+    await click('#btn-share');
+    await waitFor(() => exists('#share-preview'), '英语分享弹层', 10000);
+    const enModel = await evalJs('window.__shareModel');
+    check(enModel && enModel.subject === '英语' && String(enModel.scope).indexOf('现在进行时') >= 0 && enModel.spotKind === 'topic', '英语分享范围是现在进行时（' + JSON.stringify(enModel && { scope: enModel.scope, subject: enModel.subject, spotKind: enModel.spotKind, spots: (enModel.spots || []).length, roots: (enModel.roots || []).length }) + '）');
+    check(enModel && enModel.spots.length >= 1 && enModel.spots.length <= 3 && enModel.roots.length >= 1 && enModel.roots.length <= 2, '英语分享薄弱项 1–3 个、根因 1–2 个');
+    const enDesk = await shareUi();
+    check(enDesk.download && !enDesk.hint, '英语分享弹层在 1280 宽可下载');
+    await saveShareImage('39-share-en.png');
+    assertSharePng('39-share-en.png');
+    await setView(375, 812);
+    await sleep(120);
+    const enPhone = await shareUi();
+    check(!enPhone.download && enPhone.hintText === '长按图片保存', '英语分享弹层在 375 宽改为长按保存');
+    await checkPage('英语分享弹层 375');
+    await setView(1280, 900);
 
     check(externalReqs.length === 0, '运行时没有页面发起的外网资源请求' + (externalReqs.length ? '：\n       ' + externalReqs.slice(0, 8).join('\n       ') : ''));
     check(errors.length === 0, 'console / 网络无错误' + (errors.length ? '：\n       ' + errors.join('\n       ') : ''));
