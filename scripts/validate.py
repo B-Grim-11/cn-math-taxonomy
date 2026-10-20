@@ -39,7 +39,8 @@ CORE_FIELDS = ["id", "name", "domain", "grade", "semester", "chapter", "type",
 EXT_FIELDS = ["id", "name", "domain", "grade", "description", "external"]
 # cnm_001 初中正式；cnm_p001 小学正式；cnm_h001 高中正式。cnm_ext_* 已迁到 data/id-aliases.json。
 ID_RE = re.compile(r"^cnm_(p|h)?\d{3,}$")
-GRADES = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11)
+# 10、11 是必修第一、二册；12、13、14 是选择性必修第一、二、三册，不是教学年份。
+GRADES = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14)
 ALIASES_PATH = os.path.join(ROOT, "data", "id-aliases.json")
 ALIAS_ID_RE = re.compile(r"^cnm_ext_\d{3,}$")
 
@@ -106,7 +107,7 @@ def check_topics(topics):
                 err("%s 外部节点 grade 必须为 \"小学\"" % where)
             continue
         if t.get("grade") not in GRADES:
-            err("%s grade 必须是 1–11 的整数（10 必修第一册，11 必修第二册）" % where)
+            err("%s grade 必须是 1–14 的整数（10、11 为必修两册，12–14 为选择性必修三册）" % where)
         if t.get("semester") not in ("上", "下"):
             err("%s semester 必须是 上/下" % where)
         if t.get("type") not in TYPES:
@@ -215,18 +216,26 @@ def report(ids, prereqs, dependents, n_hard, n_soft):
             return "高一必修一"
         if t["grade"] == 11:
             return "高二必修二"
+        if t["grade"] == 12:
+            return "选必一"
+        if t["grade"] == 13:
+            return "选必二"
+        if t["grade"] == 14:
+            return "选必三"
         return "%s%s" % (zh.get(t["grade"], t["grade"]), t["semester"])
 
     c = Counter(vol_label(t) for t in core)
     order = ["一上", "一下", "二上", "二下", "三上", "三下", "四上", "四下", "五上", "五下", "六上", "六下",
-             "七上", "七下", "八上", "八下", "九上", "九下", "高一必修一", "高二必修二"]
+             "七上", "七下", "八上", "八下", "九上", "九下", "高一必修一", "高二必修二", "选必一", "选必二", "选必三"]
     for k in order:
-        if c.get(k, 0) or k[0] in "七八九" or k.startswith("高"):
+        if c.get(k, 0) or k[0] in "七八九" or k.startswith("高") or k.startswith("选必"):
             print("  %-8s %d" % (k, c.get(k, 0)))
     n_pri = sum(1 for t in core if isinstance(t.get("grade"), int) and t["grade"] <= 6)
     n_jun = sum(1 for t in core if isinstance(t.get("grade"), int) and 7 <= t["grade"] <= 9)
-    n_sen = sum(1 for t in core if isinstance(t.get("grade"), int) and t["grade"] >= 10)
-    print("其中小学（1–6 年级）%d，初中（7–9 年级）%d，高中（10–11，必修）%d" % (n_pri, n_jun, n_sen))
+    n_req = sum(1 for t in core if t.get("grade") in (10, 11))
+    n_sel = sum(1 for t in core if isinstance(t.get("grade"), int) and t["grade"] >= 12)
+    print("其中小学（1–6 年级）%d，初中（7–9 年级）%d，高中必修（10–11）%d，选择性必修（12–14）%d" % (
+        n_pri, n_jun, n_req, n_sel))
     print("\n按 type（正式知识点）：")
     for k, v in sorted(Counter(t["type"] for t in core).items(), key=lambda x: -x[1]):
         print("  %-12s %d" % (k, v))

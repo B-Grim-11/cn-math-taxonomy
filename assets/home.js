@@ -74,6 +74,9 @@
     }
     addCard(10, '高中', '高一', 'is-senior', '必修第一册');
     addCard(11, '高中', '高二', 'is-senior', '必修第二册');
+    addCard(12, '高中', '选必一', 'is-senior', '选择性必修第一册');
+    addCard(13, '高中', '选必二', 'is-senior', '选择性必修第二册');
+    addCard(14, '高中', '选必三', 'is-senior', '选择性必修第三册');
   }).catch(function (error) {
     fail('数据没有加载成功（' + (error && error.message ? error.message : error) + '）。请在项目根目录运行 python3 -m http.server 8000，再用浏览器打开，不要直接双击 html 文件。');
   });

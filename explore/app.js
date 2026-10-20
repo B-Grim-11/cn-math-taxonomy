@@ -67,11 +67,17 @@
   function gradeWord(grade) {
     if (grade === 10) return '高一';
     if (grade === 11) return '高二';
+    if (grade === 12) return '选必一';
+    if (grade === 13) return '选必二';
+    if (grade === 14) return '选必三';
     return CN[grade] + '年级';
   }
   function gradeLabel(topic) {
     if (topic.grade === 10) return '高一 · 必修第一册';
     if (topic.grade === 11) return '高二 · 必修第二册';
+    if (topic.grade === 12) return '选必一 · 选择性必修第一册';
+    if (topic.grade === 13) return '选必二 · 选择性必修第二册';
+    if (topic.grade === 14) return '选必三 · 选择性必修第三册';
     return CN[topic.grade] + '年级' + topic.semester + '册';
   }
   function paint(grade, colors) {
@@ -84,7 +90,7 @@
     var text = topic.chapter || '未分章';
     var primary = /^[一二三四五六]年级[上下]册\s+(.+)$/.exec(text);
     if (primary) return primary[1];
-    var model = /^(高[一二]) (数学建模|数学探究) (\S+)$/.exec(text);
+    var model = /^(高[一二]|选必[一二三]) (数学建模|数学探究) (\S+)$/.exec(text);
     if (model) return model[2] + ' ' + model[3];
     var junior = /^\S+\s+(第\S+章)\s+(.+)$/.exec(text);
     if (junior) return junior[1] + ' ' + junior[2].replace(/\s+\d+(?:\.\d+)*$/, '');
@@ -766,7 +772,7 @@
   function applyQuery() {
     var params = new URLSearchParams(location.search);
     var gradeValue = params.get('grade') || '';
-    if (/^(?:[1-9]|10|11)$/.test(gradeValue)) grade = gradeValue;
+    if (/^(?:[1-9]|1[0-4])$/.test(gradeValue)) grade = gradeValue;
     var stageValue = params.get('stage') || '';
     if (stageValue === 'p' || stageValue === 'j' || stageValue === 'h') stage = stageValue;
     domain = params.get('domain') || '';

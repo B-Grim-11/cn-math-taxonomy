@@ -39,6 +39,13 @@
       "questions": 572,
       "note": "答案由同一条 verify 表达式求值后写入，再被核验脚本比对，所以 mismatch 反映的是格式而不是另一遍独立解题。没有做初中 A/B 轮那种盲解。概念题的选项文字与 verify 返回的字符串相同。",
       "disagreements": 0
+    },
+    {
+      "name": "E：高中选择性必修题由生成脚本写 verify，再经 verify_questions.py 核对表达式与答案",
+      "solver": "scripts/hs_sel_build.py + scripts/verify_questions.py",
+      "questions": 512,
+      "note": "答案由同一条 verify 表达式求值后写入，再被核验脚本比对，所以 mismatch 反映的是格式而不是另一遍独立解题。没有做初中 A/B 轮那种盲解。概念题的选项文字与 verify 返回的字符串相同。",
+      "disagreements": 0
     }
   ],
   "checked": 1401,
@@ -108,5 +115,6 @@
   "doubtful_notes_reviewed": "解题者标出的 16 条存疑（分隔符格式、需要“同一平面内”、小数取舍、边界归属、口径等）逐条看过：除上面 4 处改题干外，其余题干条件已足以唯一确定答案（如 cnm_228_q4 已写明“要让顾客得到更多实惠”、cnm_293_q4 已写明“11~20（含 20）”、cnm_290_q1 已写明保留一位小数与 √3≈1.73），不改。",
   "primary_checked": 864,
   "primary_disagreements": [],
-  "high_school_checked_by_verify": 572
+  "high_school_checked_by_verify": 572,
+  "high_school_selective_checked_by_verify": 512
 }

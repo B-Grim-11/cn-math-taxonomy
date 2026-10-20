@@ -17508,5 +17508,3273 @@
         "note": "用频率估计概率是频率稳定性的用途。待核。"
       }
     ]
+  },
+  {
+    "id": "cnm_h144",
+    "name": "空间向量的概念",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第一章 空间向量与立体几何 1.1",
+    "type": "conceptual",
+    "description": "空间向量是空间中既有大小又有方向的量，可以由平面向量推广得到。",
+    "mastery_criteria": [
+      "能说出空间向量与有向线段的关系",
+      "能判断方向相同但长度不同的向量不相等"
+    ],
+    "diagnostic_question": {
+      "question": "下面哪一项符合空间向量的含义？",
+      "answer": "既有大小又有方向的量"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.13",
+        "confidence": "inferred",
+        "note": "概念写在空间向量运算要求的开头。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h145",
+    "name": "空间向量的线性运算",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第一章 空间向量与立体几何 1.1",
+    "type": "procedural",
+    "description": "会做空间向量的加法、减法和数乘，法则与平面向量相同。",
+    "mastery_criteria": [
+      "能计算两个空间向量的和与差",
+      "能计算空间向量的数乘"
+    ],
+    "diagnostic_question": {
+      "question": "a=(1，0，2)，b=(3，4，−1)。a+b 的横坐标是多少？",
+      "answer": "4"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.13",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h146",
+    "name": "空间向量的数量积",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第一章 空间向量与立体几何 1.1",
+    "type": "procedural",
+    "description": "空间向量的数量积等于对应坐标的乘积之和，也等于模与夹角余弦的乘积。",
+    "mastery_criteria": [
+      "能用坐标计算数量积",
+      "知道数量积为 0 时两个非零向量垂直"
+    ],
+    "diagnostic_question": {
+      "question": "a=(1，2，2)，b=(2，0，1)。a·b 等于多少？",
+      "answer": "4"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.13",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h147",
+    "name": "空间向量的模与夹角",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第一章 空间向量与立体几何 1.1",
+    "type": "procedural",
+    "description": "空间向量的模用坐标的平方和开方计算，夹角由数量积和两个模决定。",
+    "mastery_criteria": [
+      "能用坐标求向量的模",
+      "能根据数量积判断夹角是锐角、直角还是钝角"
+    ],
+    "diagnostic_question": {
+      "question": "a=(2，3，6)。|a| 等于多少？",
+      "answer": "7"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.13",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h148",
+    "name": "空间向量共线",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第一章 空间向量与立体几何 1.1",
+    "type": "reasoning",
+    "description": "存在实数 λ 使 b=λa 时，a 与 b 共线；坐标成比例也可以判断。",
+    "mastery_criteria": [
+      "能判断两个空间向量是否共线",
+      "能由共线条件求参数"
+    ],
+    "diagnostic_question": {
+      "question": "b=(2，4，−6)，a=(1，2，−3)。若 b=λa，λ 等于多少？",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.13",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h149",
+    "name": "空间向量基本定理",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第一章 空间向量与立体几何 1.2",
+    "type": "conceptual",
+    "description": "空间中任一向量都可以由三个不共面的向量唯一线性表示。",
+    "mastery_criteria": [
+      "能说出基底需要三个不共面的向量",
+      "能判断一组向量能不能作为基底"
+    ],
+    "diagnostic_question": {
+      "question": "空间向量基本定理里，基底通常要有几个不共面的向量？",
+      "answer": "3 个"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.14",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h150",
+    "name": "空间向量的正交分解",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第一章 空间向量与立体几何 1.2",
+    "type": "reasoning",
+    "description": "若三个基底两两垂直，向量可以沿这三个方向做正交分解。",
+    "mastery_criteria": [
+      "能说出正交分解要求基底两两垂直",
+      "能在两两垂直的方向上读出分量"
+    ],
+    "diagnostic_question": {
+      "question": "正交分解所用的三个方向需要满足什么？",
+      "answer": "两两垂直"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.14",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h151",
+    "name": "空间直角坐标系",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第一章 空间向量与立体几何 1.3",
+    "type": "conceptual",
+    "description": "空间直角坐标系由原点发出三条两两垂直的数轴，点用有序三元数 (x，y，z) 表示。",
+    "mastery_criteria": [
+      "能说出三条坐标轴两两垂直",
+      "能读出点的三个坐标"
+    ],
+    "diagnostic_question": {
+      "question": "点 P(3，−1，5) 的竖坐标是多少？",
+      "answer": "5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.14",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h152",
+    "name": "空间向量的坐标",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第一章 空间向量与立体几何 1.3",
+    "type": "procedural",
+    "description": "起点为 A、终点为 B 的向量坐标等于终点坐标减去起点坐标。",
+    "mastery_criteria": [
+      "能由两点写出向量坐标",
+      "能把向量坐标写成分量形式"
+    ],
+    "diagnostic_question": {
+      "question": "A(1，2，0)，B(4，2，5)。向量 AB 的横坐标是多少？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.14",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h153",
+    "name": "坐标下的向量运算",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第一章 空间向量与立体几何 1.3",
+    "type": "procedural",
+    "description": "在坐标下，线性运算按分量计算，数量积是对应分量乘积之和。",
+    "mastery_criteria": [
+      "能在坐标下做加法和数乘",
+      "能在坐标下计算数量积"
+    ],
+    "diagnostic_question": {
+      "question": "a=(1，0，2)，b=(3，4，−1)。2a+b 的横坐标是多少？",
+      "answer": "5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.14",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h154",
+    "name": "空间两点间的距离",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第一章 空间向量与立体几何 1.3",
+    "type": "procedural",
+    "description": "空间两点的距离等于这两点所连向量的模，用三个坐标差的平方和开方。",
+    "mastery_criteria": [
+      "能用坐标差计算两点距离",
+      "知道距离公式来自勾股定理"
+    ],
+    "diagnostic_question": {
+      "question": "A(0，0，0)，B(2，3，6)。AB 的长度是多少？",
+      "answer": "7"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.14",
+        "confidence": "inferred",
+        "note": "距离是坐标运算的直接应用。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h155",
+    "name": "直线的方向向量",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第一章 空间向量与立体几何 1.4",
+    "type": "conceptual",
+    "description": "与直线平行的非零向量叫做这条直线的方向向量，一条直线的方向向量不唯一。",
+    "mastery_criteria": [
+      "能由直线上两点写出一个方向向量",
+      "知道方向向量乘非零实数后仍是方向向量"
+    ],
+    "diagnostic_question": {
+      "question": "直线过 A(1，2，3) 和 B(4，6，3)。一个方向向量的横坐标是多少？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.15",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h156",
+    "name": "平面的法向量",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第一章 空间向量与立体几何 1.4",
+    "type": "conceptual",
+    "description": "垂直于一个平面的非零向量叫做这个平面的法向量。",
+    "mastery_criteria": [
+      "能说明法向量垂直于平面内的两条相交直线",
+      "知道法向量的非零倍数仍是法向量"
+    ],
+    "diagnostic_question": {
+      "question": "平面的法向量与这个平面是什么关系？",
+      "answer": "垂直"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.15",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h157",
+    "name": "用向量判断线面平行",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第一章 空间向量与立体几何 1.4",
+    "type": "reasoning",
+    "description": "直线的方向向量与平面的法向量垂直，且直线不在平面内时，直线与平面平行。",
+    "mastery_criteria": [
+      "能用方向向量和法向量的数量积判断线面平行",
+      "能区分平行和直线在平面内"
+    ],
+    "diagnostic_question": {
+      "question": "方向向量 d=(1，−1，0)，法向量 n=(1，1，1)。d·n 等于多少？",
+      "answer": "0"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.15",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h158",
+    "name": "用向量判断面面平行",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第一章 空间向量与立体几何 1.4",
+    "type": "reasoning",
+    "description": "两个平面的法向量共线时，这两个平面平行或重合。",
+    "mastery_criteria": [
+      "能用法向量是否共线判断面面平行",
+      "知道法向量共线还要排除两个平面重合"
+    ],
+    "diagnostic_question": {
+      "question": "n1=(1，−2，2)，n2=(2，−4，4)。n2 是 n1 的几倍？",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.15",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h159",
+    "name": "用向量判断线面垂直",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第一章 空间向量与立体几何 1.4",
+    "type": "reasoning",
+    "description": "直线的方向向量与平面的法向量共线时，直线与平面垂直。",
+    "mastery_criteria": [
+      "能比较方向向量和法向量是否共线",
+      "能由线面垂直写出方向向量与法向量的倍数关系"
+    ],
+    "diagnostic_question": {
+      "question": "直线方向向量 d=(2，−2，4)，平面法向量 n=(1，−1，2)。d 是 n 的几倍？",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.15",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h160",
+    "name": "用向量判断面面垂直",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第一章 空间向量与立体几何 1.4",
+    "type": "reasoning",
+    "description": "两个平面的法向量互相垂直时，这两个平面互相垂直。",
+    "mastery_criteria": [
+      "能用法向量的数量积判断面面垂直",
+      "能把面面垂直转化成法向量垂直"
+    ],
+    "diagnostic_question": {
+      "question": "n1=(1，0，1)，n2=(1，2，−1)。n1·n2 等于多少？",
+      "answer": "0"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.15",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h161",
+    "name": "空间角",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第一章 空间向量与立体几何 1.4",
+    "type": "procedural",
+    "description": "异面或相交直线的夹角、直线与平面所成的角，都可以化为方向向量、法向量的夹角。",
+    "mastery_criteria": [
+      "能用方向向量的数量积讨论线线角",
+      "知道线面角的正弦与方向向量、法向量有关"
+    ],
+    "diagnostic_question": {
+      "question": "两条直线的方向向量是 d1=(1，0，0) 和 d2=(0，1，0)。d1·d2 等于多少？",
+      "answer": "0"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.15",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h162",
+    "name": "二面角",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第一章 空间向量与立体几何 1.4",
+    "type": "procedural",
+    "description": "二面角的大小可以用法向量的夹角来表示，取法向量时要注意哪一侧是二面角的内部。",
+    "mastery_criteria": [
+      "能写出两个半平面的法向量",
+      "知道二面角的平面角与法向量夹角相等或互补"
+    ],
+    "diagnostic_question": {
+      "question": "两个半平面的法向量 n1=(1，0，0)，n2=(0，1，0)。n1·n2 等于多少？",
+      "answer": "0"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.15",
+        "confidence": "inferred",
+        "note": "必修不要求计算二面角，选择性必修用向量度量。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h163",
+    "name": "点到平面的距离",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第一章 空间向量与立体几何 1.4",
+    "type": "procedural",
+    "description": "点到平面 ax+by+cz+d=0 的距离等于把点代入后的绝对值除以法向量的模。",
+    "mastery_criteria": [
+      "能代入点到平面的距离公式",
+      "知道分子是绝对值、分母是法向量的模"
+    ],
+    "diagnostic_question": {
+      "question": "平面 x+2y+2z−6=0，点 (1，1，1) 到平面的距离是多少？",
+      "answer": "1/3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.15",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h164",
+    "name": "用向量解决简单立体几何问题",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第一章 空间向量与立体几何 1.4",
+    "type": "application",
+    "description": "把平行、垂直和距离都写成向量条件后，可以用坐标运算代替一部分几何证明。",
+    "mastery_criteria": [
+      "能把一个立体几何条件写成向量等式",
+      "能用坐标结果说明平行或垂直"
+    ],
+    "diagnostic_question": {
+      "question": "长方体中一条棱的方向向量是 (4，0，0)，另一条棱的方向向量是 (0，3，0)。它们的数量积是多少？",
+      "answer": "0"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.15",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h165",
+    "name": "直线的倾斜角",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第二章 直线和圆的方程 2.1",
+    "type": "conceptual",
+    "description": "直线向上方向与 x 轴正方向所成的最小正角叫做倾斜角，范围是 0 度到 180 度。",
+    "mastery_criteria": [
+      "能说出倾斜角的范围",
+      "能区分倾斜角和直线与 x 轴的另一个夹角"
+    ],
+    "diagnostic_question": {
+      "question": "直线倾斜角的取值范围是？",
+      "answer": "大于等于 0 度且小于 180 度"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.16",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h166",
+    "name": "直线的斜率",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第二章 直线和圆的方程 2.1",
+    "type": "conceptual",
+    "description": "斜率是倾斜角的正切。倾斜角为 90 度时直线与 x 轴垂直，斜率不存在。",
+    "mastery_criteria": [
+      "能说出斜率是倾斜角的正切",
+      "能判断垂直于 x 轴的直线没有斜率"
+    ],
+    "diagnostic_question": {
+      "question": "斜率存在时，它等于什么？",
+      "answer": "倾斜角的正切"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.16",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h167",
+    "name": "过两点的斜率公式",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第二章 直线和圆的方程 2.1",
+    "type": "procedural",
+    "description": "过不同两点 (x1，y1)、(x2，y2) 的直线，在 x1≠x2 时斜率为 (y2−y1)/(x2−x1)。",
+    "mastery_criteria": [
+      "能用两点坐标求斜率",
+      "知道横坐标相同的两点连线没有斜率"
+    ],
+    "diagnostic_question": {
+      "question": "直线过 (1，1) 和 (4，7)。斜率是多少？",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.16",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h168",
+    "name": "用斜率判断平行与垂直",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第二章 直线和圆的方程 2.1",
+    "type": "reasoning",
+    "description": "两条斜率都存在的直线：斜率相等则平行，斜率乘积为 −1 则垂直。",
+    "mastery_criteria": [
+      "能用斜率判断平行",
+      "能用斜率乘积判断垂直"
+    ],
+    "diagnostic_question": {
+      "question": "两条直线斜率都是 3。它们的位置关系是？",
+      "answer": "平行"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.16",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h169",
+    "name": "直线的点斜式",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第二章 直线和圆的方程 2.2",
+    "type": "procedural",
+    "description": "过点 (x0，y0)、斜率为 k 的直线可以写成 y−y0=k(x−x0)。",
+    "mastery_criteria": [
+      "能由一点和斜率写点斜式",
+      "能从点斜式读出斜率和经过的点"
+    ],
+    "diagnostic_question": {
+      "question": "直线过 (1，2)，斜率是 3。它在 y 轴上的截距是多少？",
+      "answer": "-1"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.17",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h170",
+    "name": "直线的截距式",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第二章 直线和圆的方程 2.2",
+    "type": "procedural",
+    "description": "与两条坐标轴分别交于 (a，0)、(0，b) 且 a、b 都不为 0 的直线，可以写成 x/a+y/b=1。",
+    "mastery_criteria": [
+      "能从截距式读出横截距和纵截距",
+      "知道过原点的直线不能写成截距式"
+    ],
+    "diagnostic_question": {
+      "question": "直线 x/2+y/3=1 的纵截距是多少？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.17",
+        "confidence": "inferred",
+        "note": "截距式是两点式的一种写法。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h171",
+    "name": "直线的一般式",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第二章 直线和圆的方程 2.2",
+    "type": "procedural",
+    "description": "平面内的直线都可以写成 Ax+By+C=0，其中 A、B 不全为 0。B≠0 时斜率为 −A/B。",
+    "mastery_criteria": [
+      "能把点斜式化成一般式",
+      "能从一般式求斜率"
+    ],
+    "diagnostic_question": {
+      "question": "直线 2x−y+4=0 的斜率是多少？",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.17",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h172",
+    "name": "两条直线的交点",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第二章 直线和圆的方程 2.3",
+    "type": "procedural",
+    "description": "两条直线的交点坐标是它们的方程联立后的公共解。",
+    "mastery_criteria": [
+      "能联立两个一次方程求交点",
+      "知道斜率相等时没有唯一交点"
+    ],
+    "diagnostic_question": {
+      "question": "直线 x+y=5 与 x−y=1 的交点横坐标是多少？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.18",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h173",
+    "name": "两点间的距离",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第二章 直线和圆的方程 2.3",
+    "type": "procedural",
+    "description": "平面上两点的距离等于横、纵坐标之差的平方和的算术平方根。",
+    "mastery_criteria": [
+      "能用两点距离公式计算",
+      "知道公式是勾股定理"
+    ],
+    "diagnostic_question": {
+      "question": "(1，2) 与 (4，6) 的距离是多少？",
+      "answer": "5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.18",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h174",
+    "name": "点到直线的距离",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第二章 直线和圆的方程 2.3",
+    "type": "procedural",
+    "description": "点 (x0，y0) 到直线 Ax+By+C=0 的距离是 |Ax0+By0+C| 除以 √(A²+B²)。",
+    "mastery_criteria": [
+      "能代入点到直线的距离公式",
+      "知道点在直线上时距离为 0"
+    ],
+    "diagnostic_question": {
+      "question": "原点到直线 3x+4y−10=0 的距离是多少？",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.18",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h175",
+    "name": "平行直线间的距离",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第二章 直线和圆的方程 2.3",
+    "type": "procedural",
+    "description": "两条平行直线 Ax+By+C1=0 与 Ax+By+C2=0 的距离是 |C1−C2| 除以 √(A²+B²)。",
+    "mastery_criteria": [
+      "能把平行直线写成 A、B 相同的一般式",
+      "能计算平行线间的距离"
+    ],
+    "diagnostic_question": {
+      "question": "平行直线 3x+4y−1=0 与 3x+4y−11=0 的距离是多少？",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.18",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h176",
+    "name": "圆的标准方程",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第二章 直线和圆的方程 2.4",
+    "type": "procedural",
+    "description": "圆心为 (a，b)、半径为 r 的圆，方程是 (x−a)²+(y−b)²=r²。",
+    "mastery_criteria": [
+      "能由圆心和半径写标准方程",
+      "能从标准方程读出圆心和半径"
+    ],
+    "diagnostic_question": {
+      "question": "圆 (x−2)²+(y+1)²=25 的半径是多少？",
+      "answer": "5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.19",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h177",
+    "name": "圆的一般方程",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第二章 直线和圆的方程 2.4",
+    "type": "procedural",
+    "description": "x²+y²+Dx+Ey+F=0 在 D²+E²−4F>0 时表示圆，圆心是 (−D/2，−E/2)。",
+    "mastery_criteria": [
+      "能配方求出圆心和半径",
+      "能判断一般方程是否表示圆"
+    ],
+    "diagnostic_question": {
+      "question": "圆 x²+y²−4x+2y−4=0 的半径是多少？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.19",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h178",
+    "name": "由条件确定圆的方程",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第二章 直线和圆的方程 2.4",
+    "type": "reasoning",
+    "description": "圆心、半径或圆上的点可以确定圆的方程，常用待定系数。",
+    "mastery_criteria": [
+      "能由圆心和半径写方程",
+      "能用圆上的点求待定系数"
+    ],
+    "diagnostic_question": {
+      "question": "圆心在原点，圆经过 (3，4)。半径是多少？",
+      "answer": "5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.19",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h179",
+    "name": "直线与圆的位置关系",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第二章 直线和圆的方程 2.5",
+    "type": "reasoning",
+    "description": "圆心到直线的距离 d 与半径 r 比较：d<r 相交，d=r 相切，d>r 相离。",
+    "mastery_criteria": [
+      "能计算圆心到直线的距离",
+      "能根据 d 与 r 判断位置关系"
+    ],
+    "diagnostic_question": {
+      "question": "圆 x²+y²=25，直线 x=3。圆心到直线的距离是多少？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.20",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h180",
+    "name": "直线被圆截得的弦",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第二章 直线和圆的方程 2.5",
+    "type": "procedural",
+    "description": "弦心距为 d、半径为 r 时，半弦长是 √(r²−d²)，弦长是它的 2 倍。",
+    "mastery_criteria": [
+      "能由弦心距和半径求弦长",
+      "知道相切时弦长为 0"
+    ],
+    "diagnostic_question": {
+      "question": "圆 x²+y²=25，直线 x=3。弦长是多少？",
+      "answer": "8"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.20",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h181",
+    "name": "圆与圆的位置关系",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第二章 直线和圆的方程 2.5",
+    "type": "reasoning",
+    "description": "设两圆半径为 r1、r2，圆心距为 d。d=r1+r2 外切，d=|r1−r2| 内切，介于两者之间则相交。",
+    "mastery_criteria": [
+      "能计算圆心距",
+      "能用圆心距和半径判断位置关系"
+    ],
+    "diagnostic_question": {
+      "question": "两圆圆心距是 5，半径是 3 和 4。公共点有几个？",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.20",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h182",
+    "name": "直线与圆的简单应用",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第二章 直线和圆的方程 2.5",
+    "type": "application",
+    "description": "航线、管道是否与圆形区域相交，可以化成直线与圆的位置关系。",
+    "mastery_criteria": [
+      "能把圆形区域写成圆的方程",
+      "能用距离与半径比较得出结论"
+    ],
+    "diagnostic_question": {
+      "question": "圆形喷灌区圆心在原点，半径 10。笔直管道沿直线 x=6。圆心到管道的距离是多少？",
+      "answer": "6"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.20",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h183",
+    "name": "椭圆的定义",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第三章 圆锥曲线的方程 3.1",
+    "type": "conceptual",
+    "description": "平面内到两个定点的距离之和等于常数（大于两定点间距离）的点的轨迹是椭圆。",
+    "mastery_criteria": [
+      "能说出椭圆定义中的距离之和",
+      "知道这个常数必须大于两焦点间的距离"
+    ],
+    "diagnostic_question": {
+      "question": "椭圆定义里，动点到两个焦点的距离有什么关系？",
+      "answer": "和等于一个大于焦距的常数"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.21",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h184",
+    "name": "椭圆的标准方程",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第三章 圆锥曲线的方程 3.1",
+    "type": "procedural",
+    "description": "焦点在 x 轴上时，椭圆标准方程是 x²/a²+y²/b²=1，其中 a>b>0。",
+    "mastery_criteria": [
+      "能写出焦点在 x 轴上的标准方程",
+      "能从标准方程读出 a 和 b"
+    ],
+    "diagnostic_question": {
+      "question": "椭圆 x²/25+y²/16=1 中，a 等于多少？",
+      "answer": "5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.21",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h185",
+    "name": "椭圆的 a、b、c 关系",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第三章 圆锥曲线的方程 3.1",
+    "type": "reasoning",
+    "description": "椭圆中 a、b、c 满足 c²=a²−b²，焦距是 2c，离心率是 c/a。",
+    "mastery_criteria": [
+      "能由 a、b 求 c",
+      "能计算离心率"
+    ],
+    "diagnostic_question": {
+      "question": "椭圆 a=5，b=4。c 等于多少？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.21",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h186",
+    "name": "椭圆的简单几何性质",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第三章 圆锥曲线的方程 3.1",
+    "type": "conceptual",
+    "description": "焦点在 x 轴上的椭圆，长轴长 2a，短轴长 2b，范围是 −a≤x≤a、−b≤y≤b。",
+    "mastery_criteria": [
+      "能说出长轴和短轴的长",
+      "能写出椭圆的范围"
+    ],
+    "diagnostic_question": {
+      "question": "椭圆 x²/25+y²/9=1 的长轴长是多少？",
+      "answer": "10"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.21",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h187",
+    "name": "椭圆的简单应用",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第三章 圆锥曲线的方程 3.1",
+    "type": "application",
+    "description": "行星轨道、椭圆形场地可以用椭圆的长半轴、短半轴和距离之和描述。",
+    "mastery_criteria": [
+      "能把距离之和解释成 2a",
+      "能由 a、b 求焦点到中心的距离"
+    ],
+    "diagnostic_question": {
+      "question": "椭圆形跑道可看成椭圆，长半轴 5，短半轴 4。轨道上一点到两个焦点的距离之和是多少？",
+      "answer": "10"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.21",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h188",
+    "name": "双曲线的定义",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第三章 圆锥曲线的方程 3.2",
+    "type": "conceptual",
+    "description": "平面内到两个定点的距离之差的绝对值等于常数（小于两定点间距离）的点的轨迹是双曲线。",
+    "mastery_criteria": [
+      "能说出双曲线用的是距离之差",
+      "知道常数要小于焦距"
+    ],
+    "diagnostic_question": {
+      "question": "双曲线定义比较的是动点到两焦点距离的什么？",
+      "answer": "差的绝对值"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.22",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h189",
+    "name": "双曲线的标准方程",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第三章 圆锥曲线的方程 3.2",
+    "type": "procedural",
+    "description": "焦点在 x 轴上时，双曲线标准方程是 x²/a²−y²/b²=1。",
+    "mastery_criteria": [
+      "能写出焦点在 x 轴上的标准方程",
+      "能从方程区分椭圆和双曲线"
+    ],
+    "diagnostic_question": {
+      "question": "双曲线 x²/9−y²/16=1 中，a 等于多少？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.22",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h190",
+    "name": "双曲线的简单几何性质",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第三章 圆锥曲线的方程 3.2",
+    "type": "conceptual",
+    "description": "焦点在 x 轴上时，实轴长 2a，虚轴长 2b，并且 c²=a²+b²。",
+    "mastery_criteria": [
+      "能由 a、b 求 c",
+      "能说出实轴和虚轴的长"
+    ],
+    "diagnostic_question": {
+      "question": "双曲线 a=3，b=4。c 等于多少？",
+      "answer": "5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.22",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h191",
+    "name": "双曲线的渐近线",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第三章 圆锥曲线的方程 3.2",
+    "type": "conceptual",
+    "description": "双曲线 x²/a²−y²/b²=1 的渐近线是 y=(b/a)x 和 y=−(b/a)x。",
+    "mastery_criteria": [
+      "能写出渐近线方程",
+      "能由 a、b 求渐近线的斜率"
+    ],
+    "diagnostic_question": {
+      "question": "双曲线 x²/9−y²/16=1 的一条渐近线斜率的绝对值是多少？",
+      "answer": "4/3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.22",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h192",
+    "name": "抛物线的定义",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第三章 圆锥曲线的方程 3.3",
+    "type": "conceptual",
+    "description": "平面内到一个定点和一条定直线的距离相等的点的轨迹是抛物线。定点是焦点，定直线是准线。",
+    "mastery_criteria": [
+      "能说出抛物线定义中的距离相等",
+      "能区分焦点和准线"
+    ],
+    "diagnostic_question": {
+      "question": "抛物线定义比较的是哪两个距离？",
+      "answer": "到焦点的距离和到准线的距离"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.23",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h193",
+    "name": "抛物线的标准方程",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第三章 圆锥曲线的方程 3.3",
+    "type": "procedural",
+    "description": "顶点在原点、焦点在 x 轴正半轴的抛物线是 y²=2px（p>0），焦点是 (p/2，0)。",
+    "mastery_criteria": [
+      "能由 2p 写出焦点坐标",
+      "能判断抛物线的开口方向"
+    ],
+    "diagnostic_question": {
+      "question": "抛物线 y²=8x。焦点的横坐标是多少？",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.23",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h194",
+    "name": "抛物线的简单几何性质",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第三章 圆锥曲线的方程 3.3",
+    "type": "conceptual",
+    "description": "y²=2px（p>0）的范围是 x≥0，对称轴是 x 轴，准线是 x=−p/2。",
+    "mastery_criteria": [
+      "能写出准线方程",
+      "能说出对称轴和范围"
+    ],
+    "diagnostic_question": {
+      "question": "抛物线 y²=8x 的准线方程中，x 等于多少？",
+      "answer": "-2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.23",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h195",
+    "name": "抛物线的简单应用",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第三章 圆锥曲线的方程 3.3",
+    "type": "application",
+    "description": "探照灯、卫星天线的截面常用抛物线，光线平行于轴时会汇到焦点。",
+    "mastery_criteria": [
+      "能由截面方程求出焦点位置",
+      "能用定义比较到焦点和到准线的距离"
+    ],
+    "diagnostic_question": {
+      "question": "天线截面是 y²=16x，单位为米。焦点到顶点的距离是多少？",
+      "answer": "4"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.23",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h196",
+    "name": "直线与椭圆的交点个数",
+    "domain": "图形与几何",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选必一 第三章 圆锥曲线的方程 3.3",
+    "type": "reasoning",
+    "description": "把直线代入椭圆方程，得到的二次方程有几个实根，直线与椭圆就有几个交点。",
+    "mastery_criteria": [
+      "能把直线代入椭圆方程",
+      "能根据实根个数判断交点个数"
+    ],
+    "diagnostic_question": {
+      "question": "椭圆 x²/4+y²/3=1 与直线 y=x 的交点有几个？",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.GA.21",
+        "confidence": "inferred",
+        "note": "课标要求用方程研究椭圆并做简单应用。直线与椭圆的交点个数是这一要求的基本形式，更难的弦长问题没有单列。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h197",
+    "name": "数列的概念",
+    "domain": "数与代数",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选必二 第四章 数列 4.1",
+    "type": "conceptual",
+    "description": "数列是按一定顺序排成的一列数，每一项都有确定的序号。",
+    "mastery_criteria": [
+      "能说出数列是有序的",
+      "能根据序号指出某一项"
+    ],
+    "diagnostic_question": {
+      "question": "下面哪一项最能说明数列和数集的差别？",
+      "answer": "数列讲究顺序，数集不讲究顺序"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.18",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h198",
+    "name": "数列的表示",
+    "domain": "数与代数",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选必二 第四章 数列 4.1",
+    "type": "conceptual",
+    "description": "数列可以用列举、通项公式或图象表示。图象是一串孤立的点。",
+    "mastery_criteria": [
+      "能从列举中读出指定的项",
+      "知道数列图象不是连续曲线"
+    ],
+    "diagnostic_question": {
+      "question": "通项公式 a_n=2n+1。第 4 项是多少？",
+      "answer": "9"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.18",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h199",
+    "name": "通项公式",
+    "domain": "数与代数",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选必二 第四章 数列 4.1",
+    "type": "procedural",
+    "description": "通项公式用序号 n 表示第 n 项。知道通项就可以求出指定的一项。",
+    "mastery_criteria": [
+      "能把序号代入通项公式",
+      "能由前几项写出简单的通项"
+    ],
+    "diagnostic_question": {
+      "question": "a_n=3n−1。a_4 等于多少？",
+      "answer": "11"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.18",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h200",
+    "name": "简单递推关系",
+    "domain": "数与代数",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选必二 第四章 数列 4.1",
+    "type": "procedural",
+    "description": "递推公式用前面的项表示后面的项。知道首项和递推，就可以逐项算下去。",
+    "mastery_criteria": [
+      "能由首项和递推算出下一项",
+      "能区分通项公式和递推公式"
+    ],
+    "diagnostic_question": {
+      "question": "a_1=3，a_{n+1}=a_n+4。a_2 等于多少？",
+      "answer": "7"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.18",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h201",
+    "name": "等差数列的概念",
+    "domain": "数与代数",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选必二 第四章 数列 4.2",
+    "type": "conceptual",
+    "description": "从第 2 项起，每一项与前一项的差都等于同一个常数，这个数列就是等差数列，常数叫做公差。",
+    "mastery_criteria": [
+      "能判断一个数列是不是等差数列",
+      "能求出公差"
+    ],
+    "diagnostic_question": {
+      "question": "等差数列 3，7，11，15 的公差是多少？",
+      "answer": "4"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.19",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h202",
+    "name": "等差数列的通项",
+    "domain": "数与代数",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选必二 第四章 数列 4.2",
+    "type": "procedural",
+    "description": "首项 a1、公差 d 的等差数列，通项是 a_n=a1+(n−1)d。",
+    "mastery_criteria": [
+      "能用首项和公差求指定项",
+      "能由两项求公差"
+    ],
+    "diagnostic_question": {
+      "question": "等差数列 a_1=3，d=4。a_6 等于多少？",
+      "answer": "23"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.19",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h203",
+    "name": "等差中项",
+    "domain": "数与代数",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选必二 第四章 数列 4.2",
+    "type": "procedural",
+    "description": "若 a、b、c 成等差数列，则 2b=a+c，b 是 a 与 c 的等差中项。",
+    "mastery_criteria": [
+      "能用两端求等差中项",
+      "能判断三个数是否成等差"
+    ],
+    "diagnostic_question": {
+      "question": "5 和 11 的等差中项是多少？",
+      "answer": "8"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.19",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h204",
+    "name": "等差数列的前 n 项和",
+    "domain": "数与代数",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选必二 第四章 数列 4.2",
+    "type": "procedural",
+    "description": "前 n 项和 S_n=n(a1+a_n)/2，也可以写成 S_n=na1+n(n−1)d/2。",
+    "mastery_criteria": [
+      "能用首末两项求前 n 项和",
+      "能用首项和公差求前 n 项和"
+    ],
+    "diagnostic_question": {
+      "question": "等差数列 a_1=3，a_6=23。前 6 项和是多少？",
+      "answer": "78"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.19",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h205",
+    "name": "等差数列与一次函数",
+    "domain": "数与代数",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选必二 第四章 数列 4.2",
+    "type": "reasoning",
+    "description": "等差数列的通项 a_n=dn+(a1−d) 是 n 的一次函数，公差就是一次项系数。",
+    "mastery_criteria": [
+      "能把通项写成一次函数",
+      "能从一次项系数读出公差"
+    ],
+    "diagnostic_question": {
+      "question": "通项 a_n=4n−1。公差是多少？",
+      "answer": "4"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.19",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h206",
+    "name": "等差数列的应用",
+    "domain": "数与代数",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选必二 第四章 数列 4.2",
+    "type": "application",
+    "description": "分期等额增加的存款、座位排数等，常常可以看成等差数列。",
+    "mastery_criteria": [
+      "能把逐期增加的常数认成公差",
+      "能求指定一期或前若干期的和"
+    ],
+    "diagnostic_question": {
+      "question": "剧场第 1 排 20 个座位，往后每排多 2 个。第 6 排有多少个座位？",
+      "answer": "30"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.19",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h207",
+    "name": "等比数列的概念",
+    "domain": "数与代数",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选必二 第四章 数列 4.3",
+    "type": "conceptual",
+    "description": "从第 2 项起，每一项与前一项的比都等于同一个非零常数，这个数列就是等比数列，常数叫做公比。",
+    "mastery_criteria": [
+      "能判断一个数列是不是等比数列",
+      "能求出公比"
+    ],
+    "diagnostic_question": {
+      "question": "等比数列 2，6，18，54 的公比是多少？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.20",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h208",
+    "name": "等比数列的通项",
+    "domain": "数与代数",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选必二 第四章 数列 4.3",
+    "type": "procedural",
+    "description": "首项 a1、公比 q 的等比数列，通项是 a_n=a1·q^(n−1)。",
+    "mastery_criteria": [
+      "能用首项和公比求指定项",
+      "能由两项求公比"
+    ],
+    "diagnostic_question": {
+      "question": "等比数列 a_1=2，q=3。a_4 等于多少？",
+      "answer": "54"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.20",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h209",
+    "name": "等比中项",
+    "domain": "数与代数",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选必二 第四章 数列 4.3",
+    "type": "procedural",
+    "description": "若 a、G、b 成等比数列且各项同号，则 G²=ab。G 是 a 与 b 的等比中项。",
+    "mastery_criteria": [
+      "能求两个正数的等比中项",
+      "能区分等差中项和等比中项"
+    ],
+    "diagnostic_question": {
+      "question": "2 和 8 的正等比中项是多少？",
+      "answer": "4"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.20",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h210",
+    "name": "等比数列的前 n 项和",
+    "domain": "数与代数",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选必二 第四章 数列 4.3",
+    "type": "procedural",
+    "description": "公比 q≠1 时，S_n=a1(q^n−1)/(q−1)。q=1 时，S_n=na1。",
+    "mastery_criteria": [
+      "能用公比不等于 1 的求和公式",
+      "知道公比为 1 时要单独求和"
+    ],
+    "diagnostic_question": {
+      "question": "等比数列 a_1=2，q=3。前 4 项和是多少？",
+      "answer": "80"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.20",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h211",
+    "name": "等比数列与指数函数",
+    "domain": "数与代数",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选必二 第四章 数列 4.3",
+    "type": "reasoning",
+    "description": "等比数列的通项 a_n=a1·q^(n−1) 是指数型的，底数是公比。",
+    "mastery_criteria": [
+      "能指出公比就是指数的底",
+      "能比较等比数列和指数函数的定义域"
+    ],
+    "diagnostic_question": {
+      "question": "a_n=3×2^(n−1)。公比是多少？",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.20",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h212",
+    "name": "等比数列的应用",
+    "domain": "数与代数",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选必二 第四章 数列 4.3",
+    "type": "application",
+    "description": "按同一比率增长或衰减的量，可以用等比数列表示。",
+    "mastery_criteria": [
+      "能把固定增长率认成公比",
+      "能求若干期后的数量"
+    ],
+    "diagnostic_question": {
+      "question": "一种细菌每小时数量变为原来的 2 倍，开始有 3 个。3 小时后有多少个？",
+      "answer": "24"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.20",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h213",
+    "name": "数学归纳法的原理",
+    "domain": "数与代数",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选必二 第四章 数列 4.4",
+    "type": "conceptual",
+    "description": "数学归纳法先验证起点成立，再证明「若 n=k 成立则 n=k+1 成立」，从而对全体正整数成立。",
+    "mastery_criteria": [
+      "能说出归纳法的两步",
+      "知道只验证若干个具体数不算证明"
+    ],
+    "diagnostic_question": {
+      "question": "数学归纳法的第一步通常做什么？",
+      "answer": "验证起始的正整数成立"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.21",
+        "confidence": "inferred",
+        "note": "教师之家目录写「4.4 数学归纳法*」，星号常表示选学；课标要求了解原理。是否必学待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h214",
+    "name": "用数学归纳法证明简单命题",
+    "domain": "数与代数",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选必二 第四章 数列 4.4",
+    "type": "reasoning",
+    "description": "证明与正整数有关的等式时，要写清起点和从 k 到 k+1 的推导。",
+    "mastery_criteria": [
+      "能完成起点验证",
+      "能在归纳步骤里使用归纳假设"
+    ],
+    "diagnostic_question": {
+      "question": "前 n 个正整数的和是 n(n+1)/2。n=5 时，这个和是多少？",
+      "answer": "15"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.21",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h215",
+    "name": "平均变化率",
+    "domain": "数与代数",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选必二 第五章 一元函数的导数及其应用 5.1",
+    "type": "procedural",
+    "description": "函数在区间上的平均变化率是函数值的增量除以自变量的增量。",
+    "mastery_criteria": [
+      "能计算给定区间上的平均变化率",
+      "能说出平均变化率对应割线的斜率"
+    ],
+    "diagnostic_question": {
+      "question": "f(x)=x²。从 x=1 到 x=3 的平均变化率是多少？",
+      "answer": "4"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.22",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h216",
+    "name": "瞬时变化率与极限思想",
+    "domain": "数与代数",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选必二 第五章 一元函数的导数及其应用 5.1",
+    "type": "conceptual",
+    "description": "让自变量的增量趋于 0，平均变化率的极限就是瞬时变化率。这里只用具体的有理结果认识这个过程。",
+    "mastery_criteria": [
+      "能说出瞬时变化率是平均变化率的极限",
+      "能把增量取得更小并观察平均变化率"
+    ],
+    "diagnostic_question": {
+      "question": "f(x)=x²。从 2 到 2.5 的平均变化率是多少？",
+      "answer": "9/2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.22",
+        "confidence": "inferred",
+        "note": "极限思想写在导数概念的形成过程里，不单列极限运算。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h217",
+    "name": "导数的概念",
+    "domain": "数与代数",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选必二 第五章 一元函数的导数及其应用 5.1",
+    "type": "conceptual",
+    "description": "函数在一点的导数就是这一点的瞬时变化率。导数仍是自变量的函数，记为 f'(x)。",
+    "mastery_criteria": [
+      "能说出导数是瞬时变化率",
+      "能计算基本幂函数在一点的导数值"
+    ],
+    "diagnostic_question": {
+      "question": "f(x)=x²，则 f'(x)=2x。f'(3) 等于多少？",
+      "answer": "6"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.22",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h218",
+    "name": "导函数",
+    "domain": "数与代数",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选必二 第五章 一元函数的导数及其应用 5.1",
+    "type": "conceptual",
+    "description": "把每一点的导数值合在一起，就得到导函数。原函数和导函数的定义域可能不同。",
+    "mastery_criteria": [
+      "能由导函数求某一点的导数",
+      "能区分 f(x) 和 f'(x)"
+    ],
+    "diagnostic_question": {
+      "question": "f'(x)=3x²−3。f'(2) 等于多少？",
+      "answer": "9"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.22",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h219",
+    "name": "导数的几何意义",
+    "domain": "数与代数",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选必二 第五章 一元函数的导数及其应用 5.1",
+    "type": "conceptual",
+    "description": "函数在一点的导数，是曲线在这一点处切线的斜率。",
+    "mastery_criteria": [
+      "能把导数值解释成切线斜率",
+      "能判断导数为正时切线上升"
+    ],
+    "diagnostic_question": {
+      "question": "曲线 y=x² 在 x=1 处的导数是 2。切线斜率是多少？",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.22",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h220",
+    "name": "切线方程",
+    "domain": "数与代数",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选必二 第五章 一元函数的导数及其应用 5.1",
+    "type": "procedural",
+    "description": "曲线在 (x0，y0) 处的切线，斜率是 f'(x0)，方程用点斜式书写。",
+    "mastery_criteria": [
+      "能求切点处的斜率",
+      "能写出切线的点斜式并求截距"
+    ],
+    "diagnostic_question": {
+      "question": "曲线 y=x² 在点 (1，1) 处的切线斜率是 2。切线在 y 轴上的截距是多少？",
+      "answer": "-1"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.22",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h221",
+    "name": "基本初等函数的导数",
+    "domain": "数与代数",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选必二 第五章 一元函数的导数及其应用 5.2",
+    "type": "procedural",
+    "description": "常函数导数为 0，(x^n)'=nx^(n−1)。正整数次幂可以据此直接求导。",
+    "mastery_criteria": [
+      "能求幂函数的导数",
+      "知道常函数的导数是 0"
+    ],
+    "diagnostic_question": {
+      "question": "f(x)=x³ 的导函数在 x=2 的值是多少？",
+      "answer": "12"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.23",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h222",
+    "name": "导数的四则运算",
+    "domain": "数与代数",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选必二 第五章 一元函数的导数及其应用 5.2",
+    "type": "procedural",
+    "description": "和的导数是导数的和，差也一样。常数倍可以提到导数符号外面。",
+    "mastery_criteria": [
+      "能对多项式逐项求导",
+      "能求常数倍的导数"
+    ],
+    "diagnostic_question": {
+      "question": "f(x)=x²+3x。f'(1) 等于多少？",
+      "answer": "5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.23",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h223",
+    "name": "简单复合函数的导数",
+    "domain": "数与代数",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选必二 第五章 一元函数的导数及其应用 5.2",
+    "type": "procedural",
+    "description": "形如 f(ax+b) 的导数，等于外层导数乘内层的系数 a。",
+    "mastery_criteria": [
+      "能对 f(ax+b) 求导",
+      "能把系数 a 乘到外层导数上"
+    ],
+    "diagnostic_question": {
+      "question": "y=(2x+1)²。在 x=1 处的导数是多少？",
+      "answer": "12"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.23",
+        "confidence": "inferred",
+        "note": "课标只要求形如 f(ax+b) 的复合。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h224",
+    "name": "导数与单调性",
+    "domain": "数与代数",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选必二 第五章 一元函数的导数及其应用 5.3",
+    "type": "reasoning",
+    "description": "在一个区间上 f'(x)>0 时函数递增，f'(x)<0 时函数递减。",
+    "mastery_criteria": [
+      "能由导数符号判断增减",
+      "知道导数为 0 的个别点不改变整个区间的单调性"
+    ],
+    "diagnostic_question": {
+      "question": "f(x)=x²，f'(x)=2x。f'(−1) 等于多少？",
+      "answer": "-2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.24",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h225",
+    "name": "用导数求单调区间",
+    "domain": "数与代数",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选必二 第五章 一元函数的导数及其应用 5.3",
+    "type": "procedural",
+    "description": "先求导，再解 f'(x)>0 与 f'(x)<0，得到不超过三次的多项式函数的单调区间。",
+    "mastery_criteria": [
+      "能求多项式的导函数",
+      "能把导数为正的解集写成递增区间"
+    ],
+    "diagnostic_question": {
+      "question": "f(x)=x²−4x。f'(x)=0 时，x 等于多少？",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.24",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h226",
+    "name": "极值的条件",
+    "domain": "数与代数",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选必二 第五章 一元函数的导数及其应用 5.3",
+    "type": "reasoning",
+    "description": "导数为 0 是可导函数取极值的必要条件。两侧导数变号，才是极值的充分条件。",
+    "mastery_criteria": [
+      "能求导数为 0 的点",
+      "能用两侧符号区分极大和极小"
+    ],
+    "diagnostic_question": {
+      "question": "f(x)=x²−4x+1。可能的极值点横坐标是多少？",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.24",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h227",
+    "name": "闭区间上的最值",
+    "domain": "数与代数",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选必二 第五章 一元函数的导数及其应用 5.3",
+    "type": "procedural",
+    "description": "闭区间上的连续函数，最值在极值点或端点取得。比较这些点的函数值即可。",
+    "mastery_criteria": [
+      "能列出极值点和端点",
+      "能比较函数值得到最大或最小"
+    ],
+    "diagnostic_question": {
+      "question": "f(x)=x²−2x 在 [0，3] 上的最大值是多少？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.24",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h228",
+    "name": "用导数解决优化问题",
+    "domain": "数与代数",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选必二 第五章 一元函数的导数及其应用 5.3",
+    "type": "application",
+    "description": "把面积、利润写成函数后，用导数求定义域内的最大或最小值。",
+    "mastery_criteria": [
+      "能把实际限制写成函数和定义域",
+      "能用导数求出最优值"
+    ],
+    "diagnostic_question": {
+      "question": "矩形周长是 20。当长和宽相等时面积最大。这个最大面积是多少？",
+      "answer": "25"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.25",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h229",
+    "name": "不超过三次的多项式函数",
+    "domain": "数与代数",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选必二 第五章 一元函数的导数及其应用 5.3",
+    "type": "procedural",
+    "description": "课标要求用导数研究不超过三次的多项式。三次多项式的导数是二次函数。",
+    "mastery_criteria": [
+      "能对三次多项式求导",
+      "能求导数为 0 的点"
+    ],
+    "diagnostic_question": {
+      "question": "f(x)=x³−3x+1。f'(0) 等于多少？",
+      "answer": "-3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.FUN.24",
+        "confidence": "inferred",
+        "note": "课标把单调区间和极值限制在不超过三次的多项式。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h230",
+    "name": "分类加法计数原理",
+    "domain": "统计与概率",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必三 第六章 计数原理 6.1",
+    "type": "conceptual",
+    "description": "完成一件事有若干类办法，类与类互斥，总办法数等于各类办法数相加。",
+    "mastery_criteria": [
+      "能判断情形是否要分类相加",
+      "能计算互斥类别的办法总数"
+    ],
+    "diagnostic_question": {
+      "question": "从甲地到乙地，汽车有 3 班，火车有 2 班，两类不能同时乘坐。一共有多少种走法？",
+      "answer": "5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.09",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h231",
+    "name": "分步乘法计数原理",
+    "domain": "统计与概率",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必三 第六章 计数原理 6.1",
+    "type": "conceptual",
+    "description": "完成一件事要依次做若干步，每步的办法数相乘就是总办法数。",
+    "mastery_criteria": [
+      "能判断情形是否要分步相乘",
+      "能计算各步办法数的乘积"
+    ],
+    "diagnostic_question": {
+      "question": "有 3 件上衣、4 条裤子。上衣和裤子各选 1 件，有多少种搭配？",
+      "answer": "12"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.09",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h232",
+    "name": "分类与分步综合计数",
+    "domain": "统计与概率",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必三 第六章 计数原理 6.1",
+    "type": "procedural",
+    "description": "一件事里既有分类又有分步时，先分清哪一段相加、哪一段相乘，再合并。",
+    "mastery_criteria": [
+      "能在同一问题里分别使用加法和乘法",
+      "能按步骤写出算式"
+    ],
+    "diagnostic_question": {
+      "question": "从 3 名男生和 2 名女生中选 1 人做代表，再从 4 本笔记本中选 1 本发给代表。一共有多少种做法？",
+      "answer": "20"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.09",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h233",
+    "name": "排列的概念",
+    "domain": "统计与概率",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必三 第六章 计数原理 6.2",
+    "type": "conceptual",
+    "description": "从 n 个不同元素中取出 k 个排成一列，顺序不同算不同的排列。",
+    "mastery_criteria": [
+      "能说出排列与顺序有关",
+      "能计算很小的排列个数"
+    ],
+    "diagnostic_question": {
+      "question": "下面哪一项是排列？",
+      "answer": "从 4 名同学中选 2 名排成先后顺序"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.10",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h234",
+    "name": "排列数公式",
+    "domain": "统计与概率",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必三 第六章 计数原理 6.2",
+    "type": "procedural",
+    "description": "排列数 A(n,k)=n!/(n−k)!，也就是从 n 起连乘 k 个递减的正整数。",
+    "mastery_criteria": [
+      "能计算排列数",
+      "能说出排列数公式的含义"
+    ],
+    "diagnostic_question": {
+      "question": "A(6,2) 等于多少？",
+      "answer": "30"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.10",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h235",
+    "name": "排列的简单应用",
+    "domain": "统计与概率",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必三 第六章 计数原理 6.2",
+    "type": "application",
+    "description": "排队、分配不同职务、组成无重复数字，都要按有顺序的选取来计数。",
+    "mastery_criteria": [
+      "能判断实际问题是不是排列",
+      "能用排列数写出结果"
+    ],
+    "diagnostic_question": {
+      "question": "5 名同学站成一排拍照，每人都要站。有多少种站法？",
+      "answer": "120"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.10",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h236",
+    "name": "组合的概念",
+    "domain": "统计与概率",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必三 第六章 计数原理 6.2",
+    "type": "conceptual",
+    "description": "从 n 个不同元素中取出 k 个成一组，只看元素、不看顺序，叫做组合。",
+    "mastery_criteria": [
+      "能区分组合和排列",
+      "能计算很小的组合个数"
+    ],
+    "diagnostic_question": {
+      "question": "下面哪一项是组合？",
+      "answer": "从 4 名同学中选 2 名参加会议，不计先后"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.10",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h237",
+    "name": "组合数公式",
+    "domain": "统计与概率",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必三 第六章 计数原理 6.2",
+    "type": "procedural",
+    "description": "组合数 C(n,k)=n!/(k!(n−k)!)，也等于排列数除以 k 的阶乘。",
+    "mastery_criteria": [
+      "能计算组合数",
+      "知道 C(n,0)=1"
+    ],
+    "diagnostic_question": {
+      "question": "C(6,2) 等于多少？",
+      "answer": "15"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.10",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h238",
+    "name": "组合数的性质",
+    "domain": "统计与概率",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必三 第六章 计数原理 6.2",
+    "type": "reasoning",
+    "description": "C(n,k)=C(n,n−k)。相邻组合数还有 C(n,k)+C(n,k−1)=C(n+1,k)。",
+    "mastery_criteria": [
+      "能用对称性计算组合数",
+      "能用加法公式核对组合数"
+    ],
+    "diagnostic_question": {
+      "question": "已知 C(8,3)=C(8,5)。C(8,5) 等于多少？",
+      "answer": "56"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.10",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h239",
+    "name": "组合的简单应用",
+    "domain": "统计与概率",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必三 第六章 计数原理 6.2",
+    "type": "application",
+    "description": "选人、选物且不计顺序时用组合；若还要按类别分别选取，再把组合数相乘。",
+    "mastery_criteria": [
+      "能判断实际问题用组合而不是排列",
+      "能计算分类选取的组合数"
+    ],
+    "diagnostic_question": {
+      "question": "从 6 名同学中选 3 人参加活动，不计顺序。有多少种选法？",
+      "answer": "20"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.10",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h240",
+    "name": "二项式定理",
+    "domain": "统计与概率",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必三 第六章 计数原理 6.3",
+    "type": "conceptual",
+    "description": "(a+b)^n 的展开式是 C(n,k) a^(n−k) b^k 各项的和，k 从 0 取到 n。",
+    "mastery_criteria": [
+      "能说出展开式的项数",
+      "能求出指定项的二项式系数"
+    ],
+    "diagnostic_question": {
+      "question": "(1+x)^3 的展开式中，x² 的系数是多少？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.11",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h241",
+    "name": "二项展开式的指定项",
+    "domain": "统计与概率",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必三 第六章 计数原理 6.3",
+    "type": "procedural",
+    "description": "按 a 的降幂排列时，第 k+1 项是 C(n,k) a^(n−k) b^k。可由指数确定 k。",
+    "mastery_criteria": [
+      "能由指数求出 k",
+      "能计算含系数在内的指定项系数"
+    ],
+    "diagnostic_question": {
+      "question": "(a+b)^5 按 a 的降幂排列，第 3 项的二项式系数是多少？",
+      "answer": "10"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.11",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h242",
+    "name": "二项式系数的和",
+    "domain": "统计与概率",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必三 第六章 计数原理 6.3",
+    "type": "reasoning",
+    "description": "令 a=b=1，可得二项式系数之和等于 2^n。",
+    "mastery_criteria": [
+      "能计算一行二项式系数的和",
+      "能说明这个和为什么是 2 的 n 次方"
+    ],
+    "diagnostic_question": {
+      "question": "(a+b)^4 的全部二项式系数之和是多少？",
+      "answer": "16"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.11",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h243",
+    "name": "杨辉三角的性质",
+    "domain": "综合与实践",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必三 数学探究 杨辉三角的性质与应用",
+    "type": "modeling",
+    "description": "杨辉三角的第 n 行（n 从 0 数）就是 (a+b)^n 的二项式系数。左右对称，相邻两数之和等于下一行的数。",
+    "mastery_criteria": [
+      "能按约定读出杨辉三角中的一个数",
+      "能用组合数解释相邻两数之和"
+    ],
+    "diagnostic_question": {
+      "question": "把 (a+b)^n 的二项式系数排成一行，n 从 0 开始。n=5 这一行、从左数第 3 个数（对应 k=2）是多少？",
+      "answer": "10"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.MI.04",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h244",
+    "name": "条件概率",
+    "domain": "统计与概率",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必三 第七章 随机变量及其分布 7.1",
+    "type": "conceptual",
+    "description": "在事件 B 已经发生的条件下事件 A 的概率记为 P(A|B)，等于 P(A∩B)/P(B)。",
+    "mastery_criteria": [
+      "能在缩小后的结果里计算条件概率",
+      "能说出条件概率的定义"
+    ],
+    "diagnostic_question": {
+      "question": "袋中有 5 个红球、3 个蓝球。已经取出 1 个红球并且不放回。再取 1 个球，取到红球的概率是多少？",
+      "answer": "1/2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.12",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h245",
+    "name": "概率的乘法公式",
+    "domain": "统计与概率",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必三 第七章 随机变量及其分布 7.1",
+    "type": "procedural",
+    "description": "P(A∩B)=P(A)P(B|A)。可以按事件发生的顺序把概率相乘。",
+    "mastery_criteria": [
+      "能用乘法公式计算两个事件同时发生的概率",
+      "能按先后顺序写出条件概率"
+    ],
+    "diagnostic_question": {
+      "question": "P(A)=1/2，P(B|A)=1/3。P(A 与 B 同时发生) 是多少？",
+      "answer": "1/6"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.12",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h246",
+    "name": "全概率公式",
+    "domain": "统计与概率",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必三 第七章 随机变量及其分布 7.1",
+    "type": "procedural",
+    "description": "若几种原因互斥且覆盖全部可能，事件的概率等于各原因的概率乘以相应条件概率后再相加。",
+    "mastery_criteria": [
+      "能把样本分成互斥的几类",
+      "能计算全概率"
+    ],
+    "diagnostic_question": {
+      "question": "甲箱有 2 个红球、1 个白球，乙箱有 1 个红球、2 个白球。等可能地先选一箱，再从该箱抽 1 球。抽到红球的概率是多少？",
+      "answer": "1/2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.12",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h247",
+    "name": "贝叶斯公式",
+    "domain": "统计与概率",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必三 第七章 随机变量及其分布 7.1",
+    "type": "procedural",
+    "description": "已知结果已经发生，可以用全概率作分母，求这个结果来自某一原因的概率。",
+    "mastery_criteria": [
+      "能计算由结果反推原因的概率",
+      "能说出分母是这个结果的全概率"
+    ],
+    "diagnostic_question": {
+      "question": "机器 A 生产 3/5，次品率 1/10；机器 B 生产 2/5，次品率 1/5。已知取出的 1 件是次品，它来自 A 的概率是多少？",
+      "answer": "3/7"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.12",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h248",
+    "name": "条件概率与独立性",
+    "domain": "统计与概率",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必三 第七章 随机变量及其分布 7.1",
+    "type": "reasoning",
+    "description": "若 P(B|A)=P(B)，则 A 发生不改变 B 的概率，A 与 B 相互独立。独立不是互斥。",
+    "mastery_criteria": [
+      "能用条件概率判断独立",
+      "能区分独立和互斥"
+    ],
+    "diagnostic_question": {
+      "question": "A 与 B 相互独立，P(B)=1/3。P(B|A) 是多少？",
+      "answer": "1/3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.12",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h249",
+    "name": "离散型随机变量",
+    "domain": "统计与概率",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必三 第七章 随机变量及其分布 7.2",
+    "type": "conceptual",
+    "description": "把试验结果对应到实数，得到随机变量。只取有限个或可列个值时，称为离散型。",
+    "mastery_criteria": [
+      "能指出一个试验中的随机变量取哪些值",
+      "能说出离散型是按取值个数来区分的"
+    ],
+    "diagnostic_question": {
+      "question": "掷一枚均匀骰子，用 X 表示点数。X 有多少个不同的可能取值？",
+      "answer": "6"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.13",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h250",
+    "name": "分布列",
+    "domain": "统计与概率",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必三 第七章 随机变量及其分布 7.2",
+    "type": "procedural",
+    "description": "分布列列出随机变量的每个取值和对应概率。所有概率非负，且总和为 1。",
+    "mastery_criteria": [
+      "能由概率之和为 1 补出缺少的概率",
+      "能检查分布列是否合法"
+    ],
+    "diagnostic_question": {
+      "question": "X 的取值是 1、2、3。P(X=1)=1/2，P(X=2)=1/3。P(X=3) 是多少？",
+      "answer": "1/6"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.13",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h251",
+    "name": "两点分布",
+    "domain": "统计与概率",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必三 第七章 随机变量及其分布 7.2",
+    "type": "conceptual",
+    "description": "只取 0 和 1 的随机变量：P(X=1)=p，P(X=0)=1−p。它描述一次试验成功或失败。",
+    "mastery_criteria": [
+      "能由成功概率写出失败概率",
+      "能说出两点分布的均值是 p"
+    ],
+    "diagnostic_question": {
+      "question": "X 服从两点分布，P(X=1)=1/4。P(X=0) 是多少？",
+      "answer": "3/4"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.13",
+        "confidence": "inferred",
+        "note": "两点分布是分布列的一个例子。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h252",
+    "name": "离散型随机变量的均值",
+    "domain": "统计与概率",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必三 第七章 随机变量及其分布 7.3",
+    "type": "procedural",
+    "description": "均值是取值乘对应概率后的和，也叫数学期望。它是概率意义下的加权平均。",
+    "mastery_criteria": [
+      "能按分布列计算均值",
+      "能说出均值是加权平均"
+    ],
+    "diagnostic_question": {
+      "question": "X 取值 1、2、3，概率分别是 1/2、1/3、1/6。X 的均值是多少？",
+      "answer": "5/3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.14",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h253",
+    "name": "离散型随机变量的方差",
+    "domain": "统计与概率",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必三 第七章 随机变量及其分布 7.3",
+    "type": "procedural",
+    "description": "方差是 (取值−均值) 的平方再按概率加权的和。标准差是方差的算术平方根。",
+    "mastery_criteria": [
+      "能计算简单分布的方差",
+      "知道常数随机变量的方差是 0"
+    ],
+    "diagnostic_question": {
+      "question": "X 取值 0 和 1，概率都是 1/2。方差是多少？",
+      "answer": "1/4"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.14",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h254",
+    "name": "伯努利试验",
+    "domain": "统计与概率",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必三 第七章 随机变量及其分布 7.4",
+    "type": "conceptual",
+    "description": "每次试验只有两个结果，成功概率保持为 p，各次相互独立。重复 n 次就是 n 重伯努利试验。",
+    "mastery_criteria": [
+      "能判断一组试验是不是伯努利试验",
+      "能指出试验次数和成功概率"
+    ],
+    "diagnostic_question": {
+      "question": "每次成功概率都是 1/5，而且各次独立。失败概率是多少？",
+      "answer": "4/5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.15",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h255",
+    "name": "二项分布",
+    "domain": "统计与概率",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必三 第七章 随机变量及其分布 7.4",
+    "type": "procedural",
+    "description": "n 重伯努利试验中，成功次数 X 服从二项分布。P(X=k)=C(n,k) p^k (1−p)^(n−k)。",
+    "mastery_criteria": [
+      "能计算二项分布的一个概率",
+      "能说出 X 表示成功次数"
+    ],
+    "diagnostic_question": {
+      "question": "X 服从 B(4,1/2)。P(X=2) 是多少？",
+      "answer": "3/8"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.15",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h256",
+    "name": "二项分布的均值与方差",
+    "domain": "统计与概率",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必三 第七章 随机变量及其分布 7.4",
+    "type": "procedural",
+    "description": "若 X 服从 B(n,p)，则均值是 np，方差是 np(1−p)。",
+    "mastery_criteria": [
+      "能计算二项分布的均值",
+      "能计算二项分布的方差"
+    ],
+    "diagnostic_question": {
+      "question": "X 服从 B(10,1/5)。均值是多少？",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.15",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h257",
+    "name": "超几何分布",
+    "domain": "统计与概率",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必三 第七章 随机变量及其分布 7.4",
+    "type": "procedural",
+    "description": "从 N 个产品里含 K 件次品，不放回地抽 n 件。抽到的次品数服从超几何分布。",
+    "mastery_criteria": [
+      "能计算不放回抽取的一个概率",
+      "能区分超几何分布和有放回的二项分布"
+    ],
+    "diagnostic_question": {
+      "question": "10 件产品中有 4 件次品，不放回地抽 3 件。恰有 1 件次品的概率是多少？",
+      "answer": "1/2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.15",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h258",
+    "name": "超几何分布的均值",
+    "domain": "统计与概率",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必三 第七章 随机变量及其分布 7.4",
+    "type": "procedural",
+    "description": "不放回抽取 n 件时，抽到的指定类件数的均值是 nK/N。",
+    "mastery_criteria": [
+      "能计算超几何分布的均值",
+      "能说出公式里 N、K、n 的含义"
+    ],
+    "diagnostic_question": {
+      "question": "总体 10 件，其中指定类 4 件，不放回地抽 3 件。抽到的指定类件数的均值是多少？",
+      "answer": "6/5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.15",
+        "confidence": "inferred",
+        "note": "教材把这一要求拆开练习。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h259",
+    "name": "正态分布的特征",
+    "domain": "统计与概率",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必三 第七章 随机变量及其分布 7.5",
+    "type": "conceptual",
+    "description": "正态曲线是单峰、关于均值对称的钟形曲线。均值决定对称轴，方差决定胖瘦。",
+    "mastery_criteria": [
+      "能说出正态曲线关于均值对称",
+      "能说出方差越大曲线越平坦"
+    ],
+    "diagnostic_question": {
+      "question": "一个正态分布的均值是 5。正态曲线对称轴对应的横坐标是多少？",
+      "answer": "5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.16",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h260",
+    "name": "正态曲线的经验规则",
+    "domain": "统计与概率",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必三 第七章 随机变量及其分布 7.5",
+    "type": "conceptual",
+    "description": "教材常用近似说法：约 68% 的取值落在均值左右 1 个标准差内，约 95% 落在 2 个标准差内。",
+    "mastery_criteria": [
+      "能指出左右 1 个标准差对应的区间",
+      "知道这些百分比是近似的经验规则"
+    ],
+    "diagnostic_question": {
+      "question": "正态分布的均值是 10，标准差是 2。均值左右 1 个标准差的区间，半宽是几个标准差？",
+      "answer": "1"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.16",
+        "confidence": "inferred",
+        "note": "68%、95% 是教材常用的近似说法，不是精确计算。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h261",
+    "name": "成对数据的统计相关性",
+    "domain": "统计与概率",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必三 第八章 成对数据的统计分析 8.1",
+    "type": "conceptual",
+    "description": "把成对数据画成散点。点大致沿直线上升是正相关，沿直线下降是负相关。",
+    "mastery_criteria": [
+      "能根据散点的走向判断正负相关",
+      "知道相关不是严格的函数关系"
+    ],
+    "diagnostic_question": {
+      "question": "散点大致从左下到右上，这表示什么？",
+      "answer": "正相关"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.17",
+        "confidence": "inferred",
+        "note": "8.1 节名采用好多电子课本的「成对数据的统计相关性」。教师之家和学习力写成「成对数据的相关关系」。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h262",
+    "name": "样本相关系数",
+    "domain": "统计与概率",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必三 第八章 成对数据的统计分析 8.1",
+    "type": "procedural",
+    "description": "样本相关系数 r 用离差乘积来衡量线性相关的方向和强弱，取值在 −1 到 1 之间。",
+    "mastery_criteria": [
+      "能计算很小数列的离差乘积和",
+      "知道 r 接近 1 或 −1 时线性相关强"
+    ],
+    "diagnostic_question": {
+      "question": "数据 (1，2)、(2，4)、(3，6)。x 的平均数是 2，y 的平均数是 4。离差乘积之和是多少？",
+      "answer": "4"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.17",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h263",
+    "name": "比较相关性的强弱",
+    "domain": "统计与概率",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必三 第八章 成对数据的统计分析 8.1",
+    "type": "reasoning",
+    "description": "比较线性相关的强弱时看 |r|。绝对值更大，线性相关更强；符号只表示方向。",
+    "mastery_criteria": [
+      "能用绝对值比较两组相关系数",
+      "能区分方向和强弱"
+    ],
+    "diagnostic_question": {
+      "question": "两个样本相关系数是 −3/5 和 1/5。表示线性相关更强的那个绝对值是多少？",
+      "answer": "3/5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.17",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h264",
+    "name": "一元线性回归模型",
+    "domain": "统计与概率",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必三 第八章 成对数据的统计分析 8.2",
+    "type": "conceptual",
+    "description": "一元线性回归把响应变量写成解释变量的一次函数再加上随机误差。",
+    "mastery_criteria": [
+      "能说出模型里有解释变量和响应变量",
+      "能在没有误差时由直线算出函数值"
+    ],
+    "diagnostic_question": {
+      "question": "一元线性回归模型的基本形式是什么？",
+      "answer": "响应变量等于一次函数再加上随机误差"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.18",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h265",
+    "name": "最小二乘原理",
+    "domain": "统计与概率",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必三 第八章 成对数据的统计分析 8.2",
+    "type": "conceptual",
+    "description": "最小二乘法选择使残差平方和最小的直线。残差是观测值减去预测值。",
+    "mastery_criteria": [
+      "能计算一个残差",
+      "能说出最小二乘是让残差平方和最小"
+    ],
+    "diagnostic_question": {
+      "question": "某个点的观测值是 5，直线给出的预测值是 3。残差是多少？",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.18",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h266",
+    "name": "回归系数的最小二乘估计",
+    "domain": "统计与概率",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必三 第八章 成对数据的统计分析 8.2",
+    "type": "procedural",
+    "description": "对点 (x_i,y_i)，斜率 b=(n∑xy−∑x∑y)/(n∑x²−(∑x)²)，截距 a=ȳ−b x̄。",
+    "mastery_criteria": [
+      "能对很少的点算出斜率",
+      "能随后算出截距"
+    ],
+    "diagnostic_question": {
+      "question": "点 (1，1)、(2，3)、(3，5)。用最小二乘公式，斜率 b 是多少？",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.18",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h267",
+    "name": "用回归直线做预测",
+    "domain": "统计与概率",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必三 第八章 成对数据的统计分析 8.2",
+    "type": "application",
+    "description": "把新的 x 代入回归直线，得到 y 的预测值。预测是估计，不是确定的观测。",
+    "mastery_criteria": [
+      "能把 x 代入直线得到预测值",
+      "知道预测和实测可以不同"
+    ],
+    "diagnostic_question": {
+      "question": "回归直线是 y=2x−1。x=4 时，y 的预测值是多少？",
+      "answer": "7"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.18",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h268",
+    "name": "2×2 列联表",
+    "domain": "统计与概率",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必三 第八章 成对数据的统计分析 8.3",
+    "type": "procedural",
+    "description": "两个分类变量各有两类时，可以排成 2×2 列联表，并计算行合计、列合计和总数。",
+    "mastery_criteria": [
+      "能计算列联表的总数",
+      "能计算一行的合计"
+    ],
+    "diagnostic_question": {
+      "question": "列联表四格人数是 10、6、4、10。总人数是多少？",
+      "answer": "30"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.19",
+        "confidence": "inferred",
+        "note": "8.3 节名采用好多电子课本和临汾目录的「列联表与独立性检验」。教师之家写成「分类变量与列联表」。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h269",
+    "name": "独立性检验的思想",
+    "domain": "统计与概率",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必三 第八章 成对数据的统计分析 8.3",
+    "type": "conceptual",
+    "description": "独立性检验先假设两个分类变量独立，再看观测到的列联表是否偏离这个假设太远。",
+    "mastery_criteria": [
+      "能说出先假设独立再看偏离",
+      "知道 ad−bc 为 0 时四格很均衡"
+    ],
+    "diagnostic_question": {
+      "question": "独立性检验开始时先做什么假设？",
+      "answer": "假设两个分类变量相互独立"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.19",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h270",
+    "name": "独立性检验的统计量",
+    "domain": "统计与概率",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必三 第八章 成对数据的统计分析 8.3",
+    "type": "procedural",
+    "description": "2×2 表可用 χ²=n(ad−bc)²/((a+b)(c+d)(a+c)(b+d))。数值越大，越倾向认为有关联。",
+    "mastery_criteria": [
+      "能把四格人数代入这个公式",
+      "知道公式等于 0 时交叉乘积平衡"
+    ],
+    "diagnostic_question": {
+      "question": "列联表 a=20，b=5，c=5，d=20。按 χ²=n(ad−bc)²/((a+b)(c+d)(a+c)(b+d)) 计算，结果是多少？",
+      "answer": "18"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.PS.19",
+        "confidence": "inferred",
+        "note": "公式是 2×2 独立性检验的常用统计量。临界值表未逐本核对。待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_h271",
+    "name": "建立统计模型进行预测",
+    "domain": "综合与实践",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必三 数学建模 建立统计模型进行预测",
+    "type": "modeling",
+    "description": "用成对数据建立回归模型：提出问题、整理数据、估计直线，再用残差或新数据检验预测。",
+    "mastery_criteria": [
+      "能用已给直线做一次预测",
+      "能比较两个模型的残差平方和"
+    ],
+    "diagnostic_question": {
+      "question": "已经建立的直线是 y=3x+2。x=5 时，预测值是多少？",
+      "answer": "17"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2017:H.MI.03",
+        "confidence": "inferred",
+        "note": "好多电子课本写成「数学模型 建立统计模型进行预测」，教师之家目录未单列。活动类型标为数学建模。待核。"
+      }
+    ]
   }
 ]

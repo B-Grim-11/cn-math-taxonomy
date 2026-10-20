@@ -34,6 +34,13 @@ const BASE = 'http://127.0.0.1:' + PORT;
 // 引擎是确定性的：在 Node 里用同一个 seed 预先算出浏览器里会出现哪道题
 const DATA = path.join(ROOT, 'data');
 const readJson = (f) => JSON.parse(fs.readFileSync(path.join(DATA, f), 'utf8'));
+const TOPIC_ROWS = readJson('topics.json');
+const N_TOPICS = String(TOPIC_ROWS.length);
+const N_EDGES = String(readJson('dependencies.json').length);
+const N_QUESTIONS = String(readJson('questions.json').length);
+const N_STANDARDS = String(readJson('cn-curriculum-standards.json').items.length);
+const N_GRADE_CARDS = 14;
+const DERIVE = TOPIC_ROWS.find((t) => t.name === '导数的概念' && t.grade === 13);
 const GRAPH = E.buildGraph(readJson('topics.json'), readJson('dependencies.json'), readJson('questions.json'));
 function seedFor(topicId, pred) {
   for (let i = 0; i < 60; i++) {
@@ -443,9 +450,9 @@ async function main() {
     console.log('首页 / 知识图谱');
     await setView(1280, 900);
     await goto(BASE + '/');
-    await waitFor(() => evalJs('document.getElementById("n-topics") && document.getElementById("n-topics").textContent !== "…" && document.querySelectorAll("a.grade-card").length === 11'), '首页统计');
+    await waitFor(() => evalJs('document.getElementById("n-topics") && document.getElementById("n-topics").textContent !== "…" && document.querySelectorAll("a.grade-card").length === ' + N_GRADE_CARDS), '首页统计');
     const stats = await evalJs('[document.getElementById("n-topics").textContent, document.getElementById("n-edges").textContent, document.getElementById("n-questions").textContent, document.getElementById("n-standards").textContent].join(",")');
-    check(stats === '674,1105,2843,278', '首页统计来自数据文件（' + stats + '）');
+    check(stats === [N_TOPICS, N_EDGES, N_QUESTIONS, N_STANDARDS].join(','), '首页统计来自数据文件（' + stats + '）');
     check((await evalJs('document.body.innerText')).includes('AI 生成初稿，未经教师审核') && !(await evalJs('document.title')).includes('草稿'), '首页有初稿声明，标题不含「草稿」');
     check((await evalJs('document.querySelector("a.grade-card").getAttribute("href")')) === 'explore/?grade=1', '一年级卡片指向知识图谱');
     await checkPage('首页 1280');
@@ -455,7 +462,7 @@ async function main() {
       await goto(BASE + '/explore/#' + encodeURIComponent(id));
       await waitFor(() => evalJs('document.getElementById("cy") && document.getElementById("cy").dataset.ready === "1"'), '局部图 ' + id, 20000);
       const info = await evalJs(EXPLORE_GRAPH_EXPR);
-      check(info.ready !== 'err' && info.nodes > 1 && info.nodes < 80, id + ' 局部图渲染了 ' + info.nodes + ' 个节点（不是全图 674）');
+      check(info.ready !== 'err' && info.nodes > 1 && info.nodes < 80, id + ' 局部图渲染了 ' + info.nodes + ' 个节点（不是全图 ' + N_TOPICS + '）');
       check(info.primary + info.junior + info.senior === info.nodes, id + ' 节点按学段着色（小学 ' + info.primary + '，初中 ' + info.junior + '，高中 ' + info.senior + '）');
       check(info.meta.indexOf('向上 2 层') >= 0, id + ' 图注含「向上 2 层」（' + info.meta + '）');
       check(info.hash === '#' + id, id + ' 地址栏哈希保持为 ' + info.hash);
@@ -527,7 +534,7 @@ async function main() {
     console.log('窄屏 375');
     await setView(375, 812);
     await goto(BASE + '/');
-    await waitFor(() => evalJs('document.getElementById("n-topics") && document.getElementById("n-topics").textContent === "674"'), '首页 375');
+    await waitFor(() => evalJs('document.getElementById("n-topics") && document.getElementById("n-topics").textContent === ' + JSON.stringify(N_TOPICS)), '首页 375');
     await checkPage('首页 375');
     await shot('10-home-375.png', null, 2900);
     await checkExplore('cnm_221', { title: '配方法', idCode: 'cnm_221', diag: 'cnm_221' });
@@ -597,6 +604,37 @@ async function main() {
     check(await evalJs('!Array.from(document.querySelectorAll("#grade-card .stage-tab")).some((b) => b.textContent === "上册" || b.textContent === "下册")'), '高中整体诊断不提供上下册');
     await checkPage('高二诊断开始 375');
     await shot('27-diagnose-gaoer-375.png', '#grade-card', 520);
+
+    console.log('选择性必修');
+    if (!DERIVE) throw new Error('找不到「导数的概念」');
+    await setView(1280, 900);
+    const derInfo = await checkExplore(DERIVE.id, { title: '导数的概念', idCode: DERIVE.id, diag: DERIVE.id });
+    check(derInfo.senior > 0, '「导数的概念」局部图含高中节点');
+    check((await evalJs('document.body.innerText')).indexOf('选必二 · 选择性必修第二册') >= 0, '导数页标明选择性必修第二册');
+    await shot('28-explore-der.png');
+    await goto(BASE + '/diagnose/?grade=' + encodeURIComponent('选必二') + '&demo=1&limit=12');
+    await waitFor(() => exists('#chapters'), '选必二整体诊断', 20000);
+    check((await evalJs('document.querySelector("#summary h2").textContent')).indexOf('选必二') >= 0, '选必二（选择性必修第二册）整体诊断');
+    check(await exists('#chapters .chap-sum'), '选必二整体诊断有按章汇总');
+    await checkPage('选必二整体诊断 1280');
+    await shot('30-diagnose-xuanbi2.png', '#summary', 900);
+    await setView(375, 812);
+    await checkExplore(DERIVE.id, { title: '导数的概念', idCode: DERIVE.id, diag: DERIVE.id });
+    check((await evalJs('document.body.innerText')).indexOf('选择性必修第二册') >= 0, '375 导数页仍标明选必二');
+    await checkPage('导数概念 375');
+    await shot('29-explore-der-375.png', null, 1100);
+    await goto(BASE + '/diagnose/?grade=' + encodeURIComponent('选必二') + '&demo=1&limit=12');
+    await waitFor(() => exists('#chapters'), '选必二整体诊断 375', 20000);
+    check((await evalJs('document.querySelector("#summary h2").textContent')).indexOf('选择性必修第二册') >= 0, '375 选必二整体诊断');
+    await checkPage('选必二整体诊断 375');
+    await shot('31-diagnose-xuanbi2-375.png', null, 1100);
+    await evalJs('localStorage.clear()');
+    await goto(BASE + '/diagnose/');
+    await waitFor(() => exists('#grade-card'), '诊断开始页选必二');
+    await evalJs('(() => { const b = Array.from(document.querySelectorAll("#grade-card .stage-tab")).find((x) => x.textContent === "选必二"); if (!b) throw new Error("没有选必二"); b.click(); })()');
+    check((await evalJs('document.getElementById("grade-info").textContent')).indexOf('选必二（选择性必修第二册）') >= 0, '选必二卡片显示选择性必修第二册');
+    check(await evalJs('!Array.from(document.querySelectorAll("#grade-card .stage-tab")).some((b) => b.textContent === "上册" || b.textContent === "下册")'), '选必二整体诊断不提供上下册');
+    check(await evalJs('Array.from(document.querySelectorAll("#grade-card .stage-tab")).some((b) => b.textContent === "整册")'), '选必二范围是整册');
 
     check(externalReqs.length === 0, '运行时没有页面发起的外网资源请求' + (externalReqs.length ? '：\n       ' + externalReqs.slice(0, 8).join('\n       ') : ''));
     check(errors.length === 0, 'console / 网络无错误' + (errors.length ? '：\n       ' + errors.join('\n       ') : ''));

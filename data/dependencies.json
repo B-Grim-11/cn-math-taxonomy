@@ -6628,5 +6628,1169 @@
     "prerequisiteId": "cnm_h142",
     "strength": "hard",
     "reason": "估计是否可信，要看频率是在多少次试验里得到的。"
+  },
+  {
+    "topicId": "cnm_h144",
+    "prerequisiteId": "cnm_h079",
+    "strength": "hard",
+    "reason": "空间向量是平面向量的推广，要先认识向量既有大小又有方向。"
+  },
+  {
+    "topicId": "cnm_h144",
+    "prerequisiteId": "cnm_h113",
+    "strength": "hard",
+    "reason": "用空间向量讨论立体图形之前，要先知道平面的基本事实。"
+  },
+  {
+    "topicId": "cnm_h145",
+    "prerequisiteId": "cnm_h144",
+    "strength": "hard",
+    "reason": "做空间向量的加减和数乘，要先知道空间向量是什么。"
+  },
+  {
+    "topicId": "cnm_h145",
+    "prerequisiteId": "cnm_h081",
+    "strength": "soft",
+    "reason": "空间向量的加法法则与平面向量加法相同，平面里的加法可以对照。"
+  },
+  {
+    "topicId": "cnm_h146",
+    "prerequisiteId": "cnm_h145",
+    "strength": "hard",
+    "reason": "数量积建立在向量已经能做线性运算的基础上。"
+  },
+  {
+    "topicId": "cnm_h146",
+    "prerequisiteId": "cnm_h088",
+    "strength": "hard",
+    "reason": "空间数量积是平面向量数量积的推广，坐标仍是对应分量相乘再相加。"
+  },
+  {
+    "topicId": "cnm_h147",
+    "prerequisiteId": "cnm_h146",
+    "strength": "hard",
+    "reason": "夹角余弦由数量积和两个模决定，要先会算数量积。"
+  },
+  {
+    "topicId": "cnm_h147",
+    "prerequisiteId": "cnm_h090",
+    "strength": "soft",
+    "reason": "空间向量的模和夹角，算法与平面向量的模和夹角相同。"
+  },
+  {
+    "topicId": "cnm_h147",
+    "prerequisiteId": "cnm_174",
+    "strength": "hard",
+    "reason": "用坐标求模要开平方和，直接用到勾股定理。"
+  },
+  {
+    "topicId": "cnm_h148",
+    "prerequisiteId": "cnm_h145",
+    "strength": "hard",
+    "reason": "判断空间向量共线，要先会把向量写成另一个向量的数乘。"
+  },
+  {
+    "topicId": "cnm_h148",
+    "prerequisiteId": "cnm_h084",
+    "strength": "soft",
+    "reason": "空间里的共线仍对照平面向量共线定理来看。"
+  },
+  {
+    "topicId": "cnm_h149",
+    "prerequisiteId": "cnm_h148",
+    "strength": "hard",
+    "reason": "基本定理说任一向量可由三个不共面向量线性表示，要先会看共线。"
+  },
+  {
+    "topicId": "cnm_h149",
+    "prerequisiteId": "cnm_h085",
+    "strength": "hard",
+    "reason": "空间向量基本定理是平面向量基本定理增加一个方向之后的推广。"
+  },
+  {
+    "topicId": "cnm_h150",
+    "prerequisiteId": "cnm_h149",
+    "strength": "hard",
+    "reason": "正交分解是在一组两两垂直的基下表示向量，要先有基本定理。"
+  },
+  {
+    "topicId": "cnm_h150",
+    "prerequisiteId": "cnm_h146",
+    "strength": "hard",
+    "reason": "判断基向量是否垂直，要用数量积是否为 0。"
+  },
+  {
+    "topicId": "cnm_h151",
+    "prerequisiteId": "cnm_h149",
+    "strength": "hard",
+    "reason": "空间直角坐标系就是选定原点和三个两两垂直的单位向量。"
+  },
+  {
+    "topicId": "cnm_h151",
+    "prerequisiteId": "cnm_082",
+    "strength": "hard",
+    "reason": "空间坐标由平面直角坐标系再加一条竖轴得到。"
+  },
+  {
+    "topicId": "cnm_h152",
+    "prerequisiteId": "cnm_h151",
+    "strength": "hard",
+    "reason": "写出空间向量的坐标，要先建立空间直角坐标系。"
+  },
+  {
+    "topicId": "cnm_h152",
+    "prerequisiteId": "cnm_h086",
+    "strength": "soft",
+    "reason": "空间坐标的写法沿用平面向量用起点和终点表示的方法。"
+  },
+  {
+    "topicId": "cnm_h153",
+    "prerequisiteId": "cnm_h152",
+    "strength": "hard",
+    "reason": "在坐标里做加法、减法和数乘，要先会写空间向量的坐标。"
+  },
+  {
+    "topicId": "cnm_h154",
+    "prerequisiteId": "cnm_h152",
+    "strength": "hard",
+    "reason": "两点间距离是这两点所成向量的模，要先有坐标。"
+  },
+  {
+    "topicId": "cnm_h154",
+    "prerequisiteId": "cnm_174",
+    "strength": "hard",
+    "reason": "距离公式是勾股定理在三个坐标差上的使用。"
+  },
+  {
+    "topicId": "cnm_h155",
+    "prerequisiteId": "cnm_h152",
+    "strength": "hard",
+    "reason": "直线的方向向量用直线上两点的坐标差来写。"
+  },
+  {
+    "topicId": "cnm_h155",
+    "prerequisiteId": "cnm_h114",
+    "strength": "soft",
+    "reason": "方向向量描述的是必修里已经讨论过的空间直线。"
+  },
+  {
+    "topicId": "cnm_h156",
+    "prerequisiteId": "cnm_h155",
+    "strength": "hard",
+    "reason": "法向量要垂直于平面内的方向向量，先要会写方向向量。"
+  },
+  {
+    "topicId": "cnm_h156",
+    "prerequisiteId": "cnm_h146",
+    "strength": "hard",
+    "reason": "法向量与平面内向量的数量积为 0，这是垂直的坐标条件。"
+  },
+  {
+    "topicId": "cnm_h157",
+    "prerequisiteId": "cnm_h155",
+    "strength": "hard",
+    "reason": "线面平行可以看成直线的方向向量与平面内两个不共线方向共面。"
+  },
+  {
+    "topicId": "cnm_h157",
+    "prerequisiteId": "cnm_h116",
+    "strength": "hard",
+    "reason": "向量判断和必修里直线与平面平行的判定说的是同一件几何事实。"
+  },
+  {
+    "topicId": "cnm_h158",
+    "prerequisiteId": "cnm_h156",
+    "strength": "hard",
+    "reason": "两个平面平行时，它们的法向量共线，要先会作法向量。"
+  },
+  {
+    "topicId": "cnm_h158",
+    "prerequisiteId": "cnm_h118",
+    "strength": "soft",
+    "reason": "面面平行的向量条件对应必修里平面与平面平行的判定。"
+  },
+  {
+    "topicId": "cnm_h159",
+    "prerequisiteId": "cnm_h156",
+    "strength": "hard",
+    "reason": "直线垂直平面时，方向向量与法向量共线。"
+  },
+  {
+    "topicId": "cnm_h159",
+    "prerequisiteId": "cnm_h120",
+    "strength": "hard",
+    "reason": "这一条是用向量重写直线与平面垂直的判定。"
+  },
+  {
+    "topicId": "cnm_h160",
+    "prerequisiteId": "cnm_h156",
+    "strength": "hard",
+    "reason": "两个平面垂直时，它们的法向量垂直，数量积为 0。"
+  },
+  {
+    "topicId": "cnm_h160",
+    "prerequisiteId": "cnm_h122",
+    "strength": "soft",
+    "reason": "面面垂直的向量条件对应必修里平面与平面垂直。"
+  },
+  {
+    "topicId": "cnm_h161",
+    "prerequisiteId": "cnm_h146",
+    "strength": "hard",
+    "reason": "空间角的余弦由方向向量的数量积和模求出。"
+  },
+  {
+    "topicId": "cnm_h161",
+    "prerequisiteId": "cnm_h155",
+    "strength": "hard",
+    "reason": "线线角、线面角都要先为直线写出方向向量。"
+  },
+  {
+    "topicId": "cnm_h162",
+    "prerequisiteId": "cnm_h156",
+    "strength": "hard",
+    "reason": "二面角可以转化为两个法向量的夹角。"
+  },
+  {
+    "topicId": "cnm_h162",
+    "prerequisiteId": "cnm_h161",
+    "strength": "hard",
+    "reason": "求出法向量之后，仍要用空间角的算法得到度数或余弦。"
+  },
+  {
+    "topicId": "cnm_h163",
+    "prerequisiteId": "cnm_h156",
+    "strength": "hard",
+    "reason": "点到平面的距离用法向量和平面上一点的坐标来算。"
+  },
+  {
+    "topicId": "cnm_h163",
+    "prerequisiteId": "cnm_h154",
+    "strength": "hard",
+    "reason": "距离公式的分子是向量投影，分母仍是向量的模。"
+  },
+  {
+    "topicId": "cnm_h164",
+    "prerequisiteId": "cnm_h163",
+    "strength": "hard",
+    "reason": "用向量做简单立体几何题时，平行、垂直和距离都要会算。"
+  },
+  {
+    "topicId": "cnm_h164",
+    "prerequisiteId": "cnm_h157",
+    "strength": "soft",
+    "reason": "综合题经常先判断线面是否平行，再计算长度或角。"
+  },
+  {
+    "topicId": "cnm_h165",
+    "prerequisiteId": "cnm_082",
+    "strength": "hard",
+    "reason": "倾斜角是直线与 x 轴正方向所成的角，要先有平面直角坐标系。"
+  },
+  {
+    "topicId": "cnm_h166",
+    "prerequisiteId": "cnm_h165",
+    "strength": "hard",
+    "reason": "斜率是倾斜角的正切，要先知道倾斜角。"
+  },
+  {
+    "topicId": "cnm_h166",
+    "prerequisiteId": "cnm_201",
+    "strength": "soft",
+    "reason": "一次函数 y=kx+b 的 k 就是直线的斜率。"
+  },
+  {
+    "topicId": "cnm_h167",
+    "prerequisiteId": "cnm_h166",
+    "strength": "hard",
+    "reason": "过两点的斜率公式是用坐标差表示斜率。"
+  },
+  {
+    "topicId": "cnm_h168",
+    "prerequisiteId": "cnm_h167",
+    "strength": "hard",
+    "reason": "用斜率判断平行或垂直，要先能求出两条直线的斜率。"
+  },
+  {
+    "topicId": "cnm_h168",
+    "prerequisiteId": "cnm_067",
+    "strength": "soft",
+    "reason": "直线平行仍以平行线的基本事实为几何背景。"
+  },
+  {
+    "topicId": "cnm_h169",
+    "prerequisiteId": "cnm_h166",
+    "strength": "hard",
+    "reason": "点斜式用已知点和斜率写出直线方程。"
+  },
+  {
+    "topicId": "cnm_h170",
+    "prerequisiteId": "cnm_h169",
+    "strength": "hard",
+    "reason": "截距式是点斜式在已知两个截距时的特殊写法。"
+  },
+  {
+    "topicId": "cnm_h171",
+    "prerequisiteId": "cnm_h170",
+    "strength": "hard",
+    "reason": "把点斜式或截距式去分母、移项，就得到一般式。"
+  },
+  {
+    "topicId": "cnm_h172",
+    "prerequisiteId": "cnm_h171",
+    "strength": "hard",
+    "reason": "求两条直线的交点，就是把它们的一般式联立成方程组。"
+  },
+  {
+    "topicId": "cnm_h172",
+    "prerequisiteId": "cnm_219",
+    "strength": "soft",
+    "reason": "联立之后可能出现二次方程，需要认识一元二次方程。"
+  },
+  {
+    "topicId": "cnm_h173",
+    "prerequisiteId": "cnm_h167",
+    "strength": "hard",
+    "reason": "两点距离和过两点的斜率用的是同一对坐标差。"
+  },
+  {
+    "topicId": "cnm_h173",
+    "prerequisiteId": "cnm_174",
+    "strength": "hard",
+    "reason": "平面上两点距离是勾股定理：横向差和纵向差组成直角三角形。"
+  },
+  {
+    "topicId": "cnm_h174",
+    "prerequisiteId": "cnm_h171",
+    "strength": "hard",
+    "reason": "点到直线的距离公式针对直线的一般式 Ax+By+C=0。"
+  },
+  {
+    "topicId": "cnm_h174",
+    "prerequisiteId": "cnm_065",
+    "strength": "hard",
+    "reason": "点到直线的距离就是这条垂线段的长度。"
+  },
+  {
+    "topicId": "cnm_h175",
+    "prerequisiteId": "cnm_h174",
+    "strength": "hard",
+    "reason": "两条平行直线的距离可以看成一条上的点到另一条的距离。"
+  },
+  {
+    "topicId": "cnm_h175",
+    "prerequisiteId": "cnm_h168",
+    "strength": "hard",
+    "reason": "只有已经判定两条直线平行，才谈它们之间的距离。"
+  },
+  {
+    "topicId": "cnm_h176",
+    "prerequisiteId": "cnm_h173",
+    "strength": "hard",
+    "reason": "圆的标准方程来自定义：圆上的点到圆心的距离等于半径。"
+  },
+  {
+    "topicId": "cnm_h176",
+    "prerequisiteId": "cnm_250",
+    "strength": "hard",
+    "reason": "写圆的方程之前，要先认识圆心、半径和圆上的点。"
+  },
+  {
+    "topicId": "cnm_h177",
+    "prerequisiteId": "cnm_h176",
+    "strength": "hard",
+    "reason": "一般方程由标准方程展开得到，也能配方后回到圆心和半径。"
+  },
+  {
+    "topicId": "cnm_h178",
+    "prerequisiteId": "cnm_h176",
+    "strength": "hard",
+    "reason": "由几何条件求圆的方程，通常先设标准方程再定圆心和半径。"
+  },
+  {
+    "topicId": "cnm_h178",
+    "prerequisiteId": "cnm_h171",
+    "strength": "soft",
+    "reason": "有的条件是圆心在某条直线上，这时要用直线方程。"
+  },
+  {
+    "topicId": "cnm_h179",
+    "prerequisiteId": "cnm_h176",
+    "strength": "hard",
+    "reason": "判断直线与圆的位置，要先有圆的方程。"
+  },
+  {
+    "topicId": "cnm_h179",
+    "prerequisiteId": "cnm_h174",
+    "strength": "hard",
+    "reason": "比较圆心到直线的距离和半径，就能判断相交、相切或相离。"
+  },
+  {
+    "topicId": "cnm_h180",
+    "prerequisiteId": "cnm_h179",
+    "strength": "hard",
+    "reason": "只有直线与圆相交时，才有一条弦可以求长度。"
+  },
+  {
+    "topicId": "cnm_h181",
+    "prerequisiteId": "cnm_h176",
+    "strength": "hard",
+    "reason": "判断两个圆的位置，要知道每个圆的圆心和半径。"
+  },
+  {
+    "topicId": "cnm_h182",
+    "prerequisiteId": "cnm_h179",
+    "strength": "hard",
+    "reason": "直线与圆的应用题先判断位置，再求弦长或切线长。"
+  },
+  {
+    "topicId": "cnm_h182",
+    "prerequisiteId": "cnm_h180",
+    "strength": "soft",
+    "reason": "许多应用最后要落到弦长。"
+  },
+  {
+    "topicId": "cnm_h183",
+    "prerequisiteId": "cnm_h173",
+    "strength": "hard",
+    "reason": "椭圆定义用到平面上的两点距离，要先会算距离。"
+  },
+  {
+    "topicId": "cnm_h183",
+    "prerequisiteId": "cnm_h176",
+    "strength": "soft",
+    "reason": "椭圆可以看成把圆在一个方向上拉伸，圆的方程是对照。"
+  },
+  {
+    "topicId": "cnm_h183",
+    "prerequisiteId": "cnm_h171",
+    "strength": "soft",
+    "reason": "用坐标研究椭圆时，平面上的直线方程是后面求交点的基础。"
+  },
+  {
+    "topicId": "cnm_h184",
+    "prerequisiteId": "cnm_h183",
+    "strength": "hard",
+    "reason": "椭圆的标准方程由定义里的距离之和推导出来。"
+  },
+  {
+    "topicId": "cnm_h185",
+    "prerequisiteId": "cnm_h184",
+    "strength": "hard",
+    "reason": "a、b、c 的关系 a²=b²+c² 是标准方程里的参数关系。"
+  },
+  {
+    "topicId": "cnm_h186",
+    "prerequisiteId": "cnm_h184",
+    "strength": "hard",
+    "reason": "范围、对称性和顶点都从标准方程读出。"
+  },
+  {
+    "topicId": "cnm_h187",
+    "prerequisiteId": "cnm_h186",
+    "strength": "hard",
+    "reason": "简单应用要先会用椭圆的顶点和 a、b、c。"
+  },
+  {
+    "topicId": "cnm_h188",
+    "prerequisiteId": "cnm_h183",
+    "strength": "hard",
+    "reason": "双曲线把椭圆定义里的距离之和改成距离之差的绝对值。"
+  },
+  {
+    "topicId": "cnm_h189",
+    "prerequisiteId": "cnm_h188",
+    "strength": "hard",
+    "reason": "双曲线的标准方程由距离之差的定义推出。"
+  },
+  {
+    "topicId": "cnm_h189",
+    "prerequisiteId": "cnm_h184",
+    "strength": "soft",
+    "reason": "标准方程的写法与椭圆类似，只是符号和 a、b 的关系不同。"
+  },
+  {
+    "topicId": "cnm_h190",
+    "prerequisiteId": "cnm_h189",
+    "strength": "hard",
+    "reason": "双曲线的顶点、范围和对称性由标准方程读出。"
+  },
+  {
+    "topicId": "cnm_h191",
+    "prerequisiteId": "cnm_h189",
+    "strength": "hard",
+    "reason": "渐近线的方程由双曲线的标准方程确定。"
+  },
+  {
+    "topicId": "cnm_h192",
+    "prerequisiteId": "cnm_h183",
+    "strength": "hard",
+    "reason": "抛物线仍用距离定义，只是一边改成到焦点、一边改成到准线。"
+  },
+  {
+    "topicId": "cnm_h192",
+    "prerequisiteId": "cnm_065",
+    "strength": "soft",
+    "reason": "点到准线的距离是点到直线的距离。"
+  },
+  {
+    "topicId": "cnm_h193",
+    "prerequisiteId": "cnm_h192",
+    "strength": "hard",
+    "reason": "抛物线的标准方程由焦点和准线的定义推导。"
+  },
+  {
+    "topicId": "cnm_h194",
+    "prerequisiteId": "cnm_h193",
+    "strength": "hard",
+    "reason": "抛物线的顶点、对称轴和开口由标准方程读出。"
+  },
+  {
+    "topicId": "cnm_h195",
+    "prerequisiteId": "cnm_h194",
+    "strength": "hard",
+    "reason": "抛物线的简单应用要先会用它的标准方程和焦点。"
+  },
+  {
+    "topicId": "cnm_h196",
+    "prerequisiteId": "cnm_h184",
+    "strength": "hard",
+    "reason": "把直线代入椭圆方程后看交点个数，要先有椭圆方程。"
+  },
+  {
+    "topicId": "cnm_h196",
+    "prerequisiteId": "cnm_h171",
+    "strength": "hard",
+    "reason": "直线要写成可以代入的方程，一般式或斜截式都可以。"
+  },
+  {
+    "topicId": "cnm_h197",
+    "prerequisiteId": "cnm_h027",
+    "strength": "hard",
+    "reason": "数列是定义在正整数集上的函数，要先有函数的概念。"
+  },
+  {
+    "topicId": "cnm_h198",
+    "prerequisiteId": "cnm_h197",
+    "strength": "hard",
+    "reason": "列举、通项和图象都是在表示同一个数列。"
+  },
+  {
+    "topicId": "cnm_h198",
+    "prerequisiteId": "cnm_h028",
+    "strength": "soft",
+    "reason": "通项公式里的 n 有取值范围，这和函数的定义域是同一件事。"
+  },
+  {
+    "topicId": "cnm_h199",
+    "prerequisiteId": "cnm_h198",
+    "strength": "hard",
+    "reason": "用通项求指定的一项，要先知道通项是数列的一种表示。"
+  },
+  {
+    "topicId": "cnm_h200",
+    "prerequisiteId": "cnm_h199",
+    "strength": "hard",
+    "reason": "简单递推用前一项表示后一项，要先分清每一项的序号。"
+  },
+  {
+    "topicId": "cnm_h201",
+    "prerequisiteId": "cnm_h197",
+    "strength": "hard",
+    "reason": "等差数列是特殊的数列，从第二项起差为同一个常数。"
+  },
+  {
+    "topicId": "cnm_h202",
+    "prerequisiteId": "cnm_h201",
+    "strength": "hard",
+    "reason": "通项 a_n=a_1+(n−1)d 直接来自等差的定义。"
+  },
+  {
+    "topicId": "cnm_h202",
+    "prerequisiteId": "cnm_h199",
+    "strength": "hard",
+    "reason": "等差通项仍是数列的通项，要先会把序号代入通项。"
+  },
+  {
+    "topicId": "cnm_h203",
+    "prerequisiteId": "cnm_h202",
+    "strength": "hard",
+    "reason": "等差中项由相邻项的关系得到，和通项用的是同一个公差。"
+  },
+  {
+    "topicId": "cnm_h204",
+    "prerequisiteId": "cnm_h202",
+    "strength": "hard",
+    "reason": "前 n 项和公式由通项逐项相加或倒序相加得到。"
+  },
+  {
+    "topicId": "cnm_h205",
+    "prerequisiteId": "cnm_h202",
+    "strength": "hard",
+    "reason": "把通项 a_n 看成 n 的一次函数，要先有通项。"
+  },
+  {
+    "topicId": "cnm_h206",
+    "prerequisiteId": "cnm_h204",
+    "strength": "hard",
+    "reason": "等差数列的实际问题通常既要用通项，也要用求和。"
+  },
+  {
+    "topicId": "cnm_h207",
+    "prerequisiteId": "cnm_h197",
+    "strength": "hard",
+    "reason": "等比数列是特殊的数列，从第二项起相邻项的比是同一个常数。"
+  },
+  {
+    "topicId": "cnm_h208",
+    "prerequisiteId": "cnm_h207",
+    "strength": "hard",
+    "reason": "通项 a_n=a_1 q^(n−1) 来自等比的定义。"
+  },
+  {
+    "topicId": "cnm_h208",
+    "prerequisiteId": "cnm_h199",
+    "strength": "hard",
+    "reason": "代入序号求某一项，仍然是通项公式的用法。"
+  },
+  {
+    "topicId": "cnm_h209",
+    "prerequisiteId": "cnm_h208",
+    "strength": "hard",
+    "reason": "等比中项满足平方关系，这个关系由公比不变得到。"
+  },
+  {
+    "topicId": "cnm_h210",
+    "prerequisiteId": "cnm_h208",
+    "strength": "hard",
+    "reason": "前 n 项和由通项组成的等比求和公式得到。"
+  },
+  {
+    "topicId": "cnm_h211",
+    "prerequisiteId": "cnm_h208",
+    "strength": "hard",
+    "reason": "把通项看成指数型函数，要先有等比通项。"
+  },
+  {
+    "topicId": "cnm_h211",
+    "prerequisiteId": "cnm_h041",
+    "strength": "hard",
+    "reason": "等比通项和指数函数是同一类增长，只是定义域一个离散、一个连续。"
+  },
+  {
+    "topicId": "cnm_h212",
+    "prerequisiteId": "cnm_h210",
+    "strength": "hard",
+    "reason": "分期增长、衰减一类问题要用等比通项或求和。"
+  },
+  {
+    "topicId": "cnm_h213",
+    "prerequisiteId": "cnm_h200",
+    "strength": "hard",
+    "reason": "数学归纳法讨论与正整数 n 有关的命题，递推是它最直接的背景。"
+  },
+  {
+    "topicId": "cnm_h213",
+    "prerequisiteId": "cnm_071",
+    "strength": "soft",
+    "reason": "归纳法证明的是命题，要先知道命题和证明是什么。"
+  },
+  {
+    "topicId": "cnm_h214",
+    "prerequisiteId": "cnm_h213",
+    "strength": "hard",
+    "reason": "用归纳法证明时，要先会写奠基和归纳递推这两步。"
+  },
+  {
+    "topicId": "cnm_h214",
+    "prerequisiteId": "cnm_h202",
+    "strength": "soft",
+    "reason": "教材里较早的归纳法例题经常是等差通项这一类等式。"
+  },
+  {
+    "topicId": "cnm_h215",
+    "prerequisiteId": "cnm_h032",
+    "strength": "hard",
+    "reason": "平均变化率比较的是函数值怎样随自变量变化，要先会看单调性。"
+  },
+  {
+    "topicId": "cnm_h216",
+    "prerequisiteId": "cnm_h215",
+    "strength": "hard",
+    "reason": "瞬时变化率是平均变化率在增量趋于 0 时的极限，先要会算平均变化率。"
+  },
+  {
+    "topicId": "cnm_h217",
+    "prerequisiteId": "cnm_h216",
+    "strength": "hard",
+    "reason": "导数就是这一点的瞬时变化率，形成过程用到极限思想。"
+  },
+  {
+    "topicId": "cnm_h218",
+    "prerequisiteId": "cnm_h217",
+    "strength": "hard",
+    "reason": "把每一点的导数再看成自变量的函数，就得到导函数。"
+  },
+  {
+    "topicId": "cnm_h219",
+    "prerequisiteId": "cnm_h217",
+    "strength": "hard",
+    "reason": "导数的几何意义是切线斜率，数值仍是这一点的导数。"
+  },
+  {
+    "topicId": "cnm_h219",
+    "prerequisiteId": "cnm_h166",
+    "strength": "soft",
+    "reason": "切线斜率就是直线斜率，斜率和倾斜角已经在直线方程里学过。"
+  },
+  {
+    "topicId": "cnm_h220",
+    "prerequisiteId": "cnm_h219",
+    "strength": "hard",
+    "reason": "写切线方程要先知道切线斜率等于该点的导数值。"
+  },
+  {
+    "topicId": "cnm_h220",
+    "prerequisiteId": "cnm_h169",
+    "strength": "hard",
+    "reason": "有了切点和斜率之后，用直线的点斜式写出切线。"
+  },
+  {
+    "topicId": "cnm_h221",
+    "prerequisiteId": "cnm_h217",
+    "strength": "hard",
+    "reason": "基本函数的导数公式来自导数定义下的计算。"
+  },
+  {
+    "topicId": "cnm_h221",
+    "prerequisiteId": "cnm_h037",
+    "strength": "soft",
+    "reason": "幂函数的导数是最先由定义推出的一批基本公式。"
+  },
+  {
+    "topicId": "cnm_h222",
+    "prerequisiteId": "cnm_h221",
+    "strength": "hard",
+    "reason": "四则运算的求导法则作用在基本导数上，得到更复杂的函数。"
+  },
+  {
+    "topicId": "cnm_h223",
+    "prerequisiteId": "cnm_h222",
+    "strength": "hard",
+    "reason": "f(ax+b) 的导数是链式法则的最简单情形，要先会四则运算求导。"
+  },
+  {
+    "topicId": "cnm_h223",
+    "prerequisiteId": "cnm_h042",
+    "strength": "soft",
+    "reason": "指数、对数一类函数套上 ax+b 时，就要用这种简单复合。"
+  },
+  {
+    "topicId": "cnm_h224",
+    "prerequisiteId": "cnm_h222",
+    "strength": "hard",
+    "reason": "用导数判断单调性，要先能把导数求出来。"
+  },
+  {
+    "topicId": "cnm_h225",
+    "prerequisiteId": "cnm_h224",
+    "strength": "hard",
+    "reason": "求单调区间就是解导数大于 0 或小于 0 的不等式。"
+  },
+  {
+    "topicId": "cnm_h226",
+    "prerequisiteId": "cnm_h224",
+    "strength": "hard",
+    "reason": "极值出现在单调性发生改变的地方，必要条件和充分条件都由此而来。"
+  },
+  {
+    "topicId": "cnm_h227",
+    "prerequisiteId": "cnm_h226",
+    "strength": "hard",
+    "reason": "闭区间上的最值要比较端点值和区间内的极值。"
+  },
+  {
+    "topicId": "cnm_h227",
+    "prerequisiteId": "cnm_h034",
+    "strength": "soft",
+    "reason": "最值的含义在函数性质里已经定义，这里改用导数来求。"
+  },
+  {
+    "topicId": "cnm_h228",
+    "prerequisiteId": "cnm_h227",
+    "strength": "hard",
+    "reason": "利润最大、用料最省，都是把实际问题化成闭区间或开区间上的最值。"
+  },
+  {
+    "topicId": "cnm_h229",
+    "prerequisiteId": "cnm_h225",
+    "strength": "hard",
+    "reason": "不超过三次的多项式，单调区间由它的导数这个不超过二次的多项式决定。"
+  },
+  {
+    "topicId": "cnm_h229",
+    "prerequisiteId": "cnm_h227",
+    "strength": "hard",
+    "reason": "同一类多项式的极值和闭区间最值，用导数的符号和端点一起判断。"
+  },
+  {
+    "topicId": "cnm_h230",
+    "prerequisiteId": "cnm_p095",
+    "strength": "hard",
+    "reason": "分类加法是小学里简单搭配继续发展后的计数原理。"
+  },
+  {
+    "topicId": "cnm_h230",
+    "prerequisiteId": "cnm_286",
+    "strength": "soft",
+    "reason": "用列举法数清互斥的几类结果，就是分类加法的具体做法。"
+  },
+  {
+    "topicId": "cnm_h231",
+    "prerequisiteId": "cnm_h230",
+    "strength": "hard",
+    "reason": "分步乘法常和分类加法一起用，要先分清什么时候该相加。"
+  },
+  {
+    "topicId": "cnm_h232",
+    "prerequisiteId": "cnm_h231",
+    "strength": "hard",
+    "reason": "综合计数先判断哪一段分步相乘，再处理其中的分类。"
+  },
+  {
+    "topicId": "cnm_h233",
+    "prerequisiteId": "cnm_h231",
+    "strength": "hard",
+    "reason": "排列的个数由分步选取每个位置得到，顺序不同算不同。"
+  },
+  {
+    "topicId": "cnm_h234",
+    "prerequisiteId": "cnm_h233",
+    "strength": "hard",
+    "reason": "排列数公式是排列定义的计数结果。"
+  },
+  {
+    "topicId": "cnm_h235",
+    "prerequisiteId": "cnm_h234",
+    "strength": "hard",
+    "reason": "排队、分配职务要用排列数，而不是只选人。"
+  },
+  {
+    "topicId": "cnm_h236",
+    "prerequisiteId": "cnm_h233",
+    "strength": "hard",
+    "reason": "组合与排列的差别就是不计顺序，要先知道排列计顺序。"
+  },
+  {
+    "topicId": "cnm_h237",
+    "prerequisiteId": "cnm_h236",
+    "strength": "hard",
+    "reason": "组合数公式由排列数除掉内部顺序得到。"
+  },
+  {
+    "topicId": "cnm_h237",
+    "prerequisiteId": "cnm_h234",
+    "strength": "soft",
+    "reason": "组合数等于排列数除以 k 的阶乘，计算时要先会排列数。"
+  },
+  {
+    "topicId": "cnm_h238",
+    "prerequisiteId": "cnm_h237",
+    "strength": "hard",
+    "reason": "组合数的对称性和加法公式都是组合数的性质。"
+  },
+  {
+    "topicId": "cnm_h239",
+    "prerequisiteId": "cnm_h237",
+    "strength": "hard",
+    "reason": "选人、抽样这类不计顺序的问题直接使用组合数。"
+  },
+  {
+    "topicId": "cnm_h240",
+    "prerequisiteId": "cnm_h237",
+    "strength": "hard",
+    "reason": "二项式系数就是组合数，展开式的每一项都用 C(n,k)。"
+  },
+  {
+    "topicId": "cnm_h241",
+    "prerequisiteId": "cnm_h240",
+    "strength": "hard",
+    "reason": "指定项和它的系数都从二项式定理的一般项读出。"
+  },
+  {
+    "topicId": "cnm_h242",
+    "prerequisiteId": "cnm_h240",
+    "strength": "hard",
+    "reason": "全部二项式系数之和由定理令 a=b=1 得到。"
+  },
+  {
+    "topicId": "cnm_h242",
+    "prerequisiteId": "cnm_h238",
+    "strength": "soft",
+    "reason": "系数的对称来自组合数 C(n,k)=C(n,n−k)。"
+  },
+  {
+    "topicId": "cnm_h243",
+    "prerequisiteId": "cnm_h242",
+    "strength": "hard",
+    "reason": "杨辉三角的每一行就是二项式系数，行和等于 2 的 n 次方。"
+  },
+  {
+    "topicId": "cnm_h244",
+    "prerequisiteId": "cnm_h137",
+    "strength": "hard",
+    "reason": "在等可能的结果里计算条件概率，先要会古典概型。"
+  },
+  {
+    "topicId": "cnm_h245",
+    "prerequisiteId": "cnm_h244",
+    "strength": "hard",
+    "reason": "乘法公式把同时发生写成先发生一个再乘条件概率。"
+  },
+  {
+    "topicId": "cnm_h245",
+    "prerequisiteId": "cnm_h141",
+    "strength": "soft",
+    "reason": "独立事件相乘是乘法公式在条件概率等于自身概率时的特例。"
+  },
+  {
+    "topicId": "cnm_h246",
+    "prerequisiteId": "cnm_h245",
+    "strength": "hard",
+    "reason": "全概率把每一类原因下的路径概率相加，每一类都用乘法公式。"
+  },
+  {
+    "topicId": "cnm_h247",
+    "prerequisiteId": "cnm_h246",
+    "strength": "hard",
+    "reason": "贝叶斯公式的分母就是结果的全概率。"
+  },
+  {
+    "topicId": "cnm_h248",
+    "prerequisiteId": "cnm_h244",
+    "strength": "hard",
+    "reason": "用 P(B|A) 是否等于 P(B) 来认识独立，要先会条件概率。"
+  },
+  {
+    "topicId": "cnm_h248",
+    "prerequisiteId": "cnm_h140",
+    "strength": "hard",
+    "reason": "这里把必修里的相互独立改写成条件概率的语言。"
+  },
+  {
+    "topicId": "cnm_h249",
+    "prerequisiteId": "cnm_h134",
+    "strength": "hard",
+    "reason": "随机变量把每个样本点对应到一个实数，要先有样本空间。"
+  },
+  {
+    "topicId": "cnm_h249",
+    "prerequisiteId": "cnm_h245",
+    "strength": "soft",
+    "reason": "后面用分布列算概率时，仍会用到事件同时发生的乘法。"
+  },
+  {
+    "topicId": "cnm_h250",
+    "prerequisiteId": "cnm_h249",
+    "strength": "hard",
+    "reason": "分布列是离散型随机变量每个取值的概率表。"
+  },
+  {
+    "topicId": "cnm_h251",
+    "prerequisiteId": "cnm_h250",
+    "strength": "hard",
+    "reason": "两点分布是只取 0 和 1 的一种分布列。"
+  },
+  {
+    "topicId": "cnm_h252",
+    "prerequisiteId": "cnm_h250",
+    "strength": "hard",
+    "reason": "均值用分布列里的取值和概率加权相加。"
+  },
+  {
+    "topicId": "cnm_h252",
+    "prerequisiteId": "cnm_211",
+    "strength": "hard",
+    "reason": "均值是概率意义下的加权平均数，平均数的含义要先有。"
+  },
+  {
+    "topicId": "cnm_h253",
+    "prerequisiteId": "cnm_h252",
+    "strength": "hard",
+    "reason": "方差用取值偏离均值的平方来定义，要先算出均值。"
+  },
+  {
+    "topicId": "cnm_h253",
+    "prerequisiteId": "cnm_215",
+    "strength": "hard",
+    "reason": "随机变量的方差和样本方差都是在衡量离散程度。"
+  },
+  {
+    "topicId": "cnm_h254",
+    "prerequisiteId": "cnm_h251",
+    "strength": "hard",
+    "reason": "一次伯努利试验的结果可以用两点分布表示。"
+  },
+  {
+    "topicId": "cnm_h255",
+    "prerequisiteId": "cnm_h254",
+    "strength": "hard",
+    "reason": "二项分布记录 n 次伯努利试验的成功次数。"
+  },
+  {
+    "topicId": "cnm_h255",
+    "prerequisiteId": "cnm_h240",
+    "strength": "hard",
+    "reason": "成功次数的概率里出现组合数，和二项式系数是同一个数。"
+  },
+  {
+    "topicId": "cnm_h256",
+    "prerequisiteId": "cnm_h255",
+    "strength": "hard",
+    "reason": "均值 np 和方差 np(1−p) 是二项分布的数字特征。"
+  },
+  {
+    "topicId": "cnm_h256",
+    "prerequisiteId": "cnm_h252",
+    "strength": "hard",
+    "reason": "这两个公式是均值和方差在二项分布上的结果。"
+  },
+  {
+    "topicId": "cnm_h257",
+    "prerequisiteId": "cnm_h237",
+    "strength": "hard",
+    "reason": "不放回抽取的概率用组合数计算分子和分母。"
+  },
+  {
+    "topicId": "cnm_h257",
+    "prerequisiteId": "cnm_h250",
+    "strength": "hard",
+    "reason": "超几何分布也要写成每个取值对应一个概率的分布列。"
+  },
+  {
+    "topicId": "cnm_h258",
+    "prerequisiteId": "cnm_h257",
+    "strength": "hard",
+    "reason": "超几何分布的均值 nK/N 针对的就是这个分布。"
+  },
+  {
+    "topicId": "cnm_h258",
+    "prerequisiteId": "cnm_h252",
+    "strength": "soft",
+    "reason": "它仍是分布列均值的一个封闭公式。"
+  },
+  {
+    "topicId": "cnm_h259",
+    "prerequisiteId": "cnm_h127",
+    "strength": "hard",
+    "reason": "正态曲线的形状是从频率分布直方图的外轮廓看出来的。"
+  },
+  {
+    "topicId": "cnm_h259",
+    "prerequisiteId": "cnm_h252",
+    "strength": "soft",
+    "reason": "正态曲线的对称轴就是这个分布的均值。"
+  },
+  {
+    "topicId": "cnm_h260",
+    "prerequisiteId": "cnm_h259",
+    "strength": "hard",
+    "reason": "经验规则说的是正态曲线在均值两侧若干个标准差内的比例。"
+  },
+  {
+    "topicId": "cnm_h261",
+    "prerequisiteId": "cnm_h130",
+    "strength": "hard",
+    "reason": "看成对数据之前，要会用样本的数字特征认识一组数据。"
+  },
+  {
+    "topicId": "cnm_h262",
+    "prerequisiteId": "cnm_h261",
+    "strength": "hard",
+    "reason": "相关系数把散点图上的线性趋势量化。"
+  },
+  {
+    "topicId": "cnm_h263",
+    "prerequisiteId": "cnm_h262",
+    "strength": "hard",
+    "reason": "比较相关性强弱，就是比较样本相关系数的绝对值。"
+  },
+  {
+    "topicId": "cnm_h264",
+    "prerequisiteId": "cnm_h261",
+    "strength": "hard",
+    "reason": "只有先看到线性相关，才用一条直线去拟合。"
+  },
+  {
+    "topicId": "cnm_h264",
+    "prerequisiteId": "cnm_201",
+    "strength": "hard",
+    "reason": "回归直线的主体是一次函数。"
+  },
+  {
+    "topicId": "cnm_h265",
+    "prerequisiteId": "cnm_h264",
+    "strength": "hard",
+    "reason": "最小二乘是为这条带误差的直线选择具体参数。"
+  },
+  {
+    "topicId": "cnm_h266",
+    "prerequisiteId": "cnm_h265",
+    "strength": "hard",
+    "reason": "斜率和截距的公式是最小二乘原理算出来的估计。"
+  },
+  {
+    "topicId": "cnm_h266",
+    "prerequisiteId": "cnm_219",
+    "strength": "soft",
+    "reason": "推导斜率时会出现二次式的和，一元二次方程是代数背景。"
+  },
+  {
+    "topicId": "cnm_h267",
+    "prerequisiteId": "cnm_h266",
+    "strength": "hard",
+    "reason": "把新的 x 代入已经估计出的直线，才得到预测值。"
+  },
+  {
+    "topicId": "cnm_h268",
+    "prerequisiteId": "cnm_h142",
+    "strength": "hard",
+    "reason": "列联表里的每一格都是一类结果的频数，频数和频率在必修里已经用过。"
+  },
+  {
+    "topicId": "cnm_h268",
+    "prerequisiteId": "cnm_h230",
+    "strength": "soft",
+    "reason": "表格的行合计、列合计是把互斥的格子相加。"
+  },
+  {
+    "topicId": "cnm_h269",
+    "prerequisiteId": "cnm_h268",
+    "strength": "hard",
+    "reason": "独立性检验看的就是这张列联表偏离独立假设有多远。"
+  },
+  {
+    "topicId": "cnm_h269",
+    "prerequisiteId": "cnm_h140",
+    "strength": "soft",
+    "reason": "这里的独立和事件相互独立是同一种想法，用在分类变量上。"
+  },
+  {
+    "topicId": "cnm_h270",
+    "prerequisiteId": "cnm_h269",
+    "strength": "hard",
+    "reason": "统计量是把独立性检验的偏离程度算成一个数。"
+  },
+  {
+    "topicId": "cnm_h271",
+    "prerequisiteId": "cnm_h267",
+    "strength": "hard",
+    "reason": "建立统计模型进行预测，核心的一步是用回归直线做预测并回头检验。"
+  },
+  {
+    "topicId": "cnm_h271",
+    "prerequisiteId": "cnm_h269",
+    "strength": "soft",
+    "reason": "同一册的统计建模也会碰到分类变量是否有关联。"
   }
 ]
