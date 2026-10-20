@@ -6,6 +6,9 @@
  *         nextItem(graph, session) -> {topicId, question, attempt} | null   （要出的具体题目；attempt 为 1 或 2）
  *         applyAnswer(graph, session, id, 'correct'|'wrong'|'skip', {text}) -> 新 session（不修改入参）
  *         summarize(graph, session) -> 结果（根因、学习路径、掌握/不稳/薄弱/未测）
+ *         gradeTargets(graph, '一年级'|'七上') -> {ids, volumes, label} | null   （整年级 / 整册的知识点）
+ *         createSession(graph, ids, {mode:'screen'}) -> 筛查会话：范围 = 目标本身，回溯不出范围，默认题量上限 SCREEN_LIMIT
+ *         chapterSummary(graph, session) -> 按章汇总（薄弱章节在前）
  *         layout(graph, session, summary) -> 路径图的分层布局
  *         judgeQuestion(question, userText) -> {verdict:'correct'|'wrong'|'manual', reason}
  *         judgeAnswer(user, reference) -> 同上（只按参考答案文本判，旧接口）
@@ -139,14 +142,17 @@
 
   const RESULTS = { correct: 1, wrong: 1, skip: 1 };
   const DEFAULT_LIMIT = 16;
+  const SCREEN_LIMIT = 40;
 
   function createSession(graph, targets, opts) {
     opts = opts || {};
     const ts = Array.from(new Set(targets));
     if (!ts.length) throw new Error('至少需要一个目标知识点');
     ts.forEach(function (id) { if (!graph.byId[id]) throw new Error('未知知识点：' + id); });
-    const limit = Math.max(1, Math.floor(opts.limit == null ? DEFAULT_LIMIT : opts.limit));
-    const sub = subgraph(graph, ts);
+    const screen = opts.mode === 'screen';
+    const limit = Math.max(1, Math.floor(opts.limit == null ? (screen ? SCREEN_LIMIT : DEFAULT_LIMIT) : opts.limit));
+    // 筛查模式：诊断范围就是目标集合本身（不把先修祖先并进来），回溯只在范围内进行
+    const sub = screen ? { nodes: topoSort(graph, ts) } : subgraph(graph, ts);
     const pos = Object.create(null);
     sub.nodes.forEach(function (id, i) { pos[id] = i; });
     // 离目标最近（拓扑序最靠后）的目标先问；其余目标作为后备留在栈里
@@ -154,6 +160,7 @@
       .sort(function (a, b) { return pos[b] - pos[a]; });
     return {
       targets: ts, limit: limit, order: sub.nodes, status: {}, stack: stack, answers: [], attempts: {},
+      mode: screen ? 'screen' : 'target', scope: screen ? ts.slice() : null,
       seed: opts.seed == null ? 'default' : String(opts.seed),
       avoid: Array.from(new Set(opts.avoid || []))
     };
@@ -165,7 +172,7 @@
     return {
       targets: s.targets.slice(), limit: s.limit, order: s.order, stack: s.stack.slice(),
       status: Object.assign({}, s.status), answers: s.answers.slice(), attempts: attempts,
-      seed: s.seed, avoid: s.avoid
+      seed: s.seed, avoid: s.avoid, mode: s.mode, scope: s.scope ? s.scope.slice() : null
     };
   }
 
@@ -268,9 +275,10 @@
       // 第一题没过：等第二题再下结论
     } else {
       s.status[id] = { s: 'weak', src: 'direct' };
+      const scope = s.scope ? new Set(s.scope) : null;
       const push = graph.prereqs[id]
         .map(function (p) { return p.id; })
-        .filter(function (p) { return isTestable(graph, p) && !s.status[p]; });
+        .filter(function (p) { return isTestable(graph, p) && !s.status[p] && (!scope || scope.has(p)); });
       const pushed = new Set(push);
       s.stack = push.concat(s.stack.filter(function (x) { return !pushed.has(x); }));
     }
@@ -324,15 +332,20 @@
     const weak = nodes.filter(function (id) { return st(id) === 'weak'; });
     const unconfirmed = weak.filter(function (id) { return isUnconfirmed(session, id); });
     const untested = nodes.filter(function (id) { return st(id) === 'unknown'; });
+    const scope = session.scope ? new Set(session.scope) : null;
+    const inScope = function (id) { return !scope || scope.has(id); };
 
     const roots = weak.filter(function (id) {
       return !graph.prereqs[id].some(function (p) { return st(p.id) === 'weak'; });
     }).map(function (id) {
       const unk = graph.prereqs[id].filter(function (p) { return st(p.id) === 'unknown'; });
+      const testableUnk = unk.filter(function (p) { return isTestable(graph, p.id); });
       return {
         id: id,
         // 先修里还没测到的（题量用完）——此时它未必是真正的根因
-        pendingPrereqs: unk.filter(function (p) { return isTestable(graph, p.id); }).map(function (p) { return p.id; }),
+        pendingPrereqs: testableUnk.filter(function (p) { return inScope(p.id); }).map(function (p) { return p.id; }),
+        // 筛查模式下范围之外的先修（不在本次范围内，没有检查）
+        outOfScopePrereqs: testableUnk.filter(function (p) { return !inScope(p.id); }).map(function (p) { return p.id; }),
         // 小学外部节点（无诊断题，不测）
         externalPrereqs: unk.filter(function (p) { return !isTestable(graph, p.id); }).map(function (p) { return p.id; })
       };
@@ -350,7 +363,7 @@
       });
     }
     const rootSet = new Set(roots.map(function (r) { return r.id; }));
-    const targetSet = new Set(session.targets);
+    const targetSet = new Set(scope ? [] : session.targets); // 筛查模式下“全部知识点都是目标”没有意义，不标目标
     const topoPos = Object.create(null);
     nodes.forEach(function (id, i) { topoPos[id] = i; });
     const path = nodes.filter(function (id) { return reach.has(id) && st(id) !== 'mastered'; })
@@ -365,6 +378,7 @@
     const pending = session.stack.filter(function (id) { return !session.status[id] && isTestable(graph, id); });
     const next = nextQuestion(graph, session);
     return {
+      mode: session.mode || 'target',
       targets: session.targets.slice(),
       asked: session.answers.length,
       limit: session.limit,
@@ -384,11 +398,12 @@
    */
   function layout(graph, session, summary) {
     const S = new Set();
+    const screen = !!session.scope;
     summary.path.forEach(function (p) { S.add(p.id); });
-    session.targets.forEach(function (id) { S.add(id); });
+    if (!screen) session.targets.forEach(function (id) { S.add(id); });
     summary.roots.forEach(function (r) { S.add(r.id); });
     session.answers.forEach(function (a) { S.add(a.id); });
-    if (S.size < 3) {
+    if (S.size < 3 && !screen) {
       session.targets.forEach(function (id) {
         graph.prereqs[id].slice(0, 6).forEach(function (p) { S.add(p.id); });
       });
@@ -441,7 +456,7 @@
       }
     }
     const rootSet = new Set(summary.roots.map(function (r) { return r.id; }));
-    const targetSet = new Set(session.targets);
+    const targetSet = new Set(screen ? [] : session.targets);
     const nodes = [];
     rows.forEach(function (r, l) {
       r.forEach(function (id, i) {
@@ -476,6 +491,58 @@
     const m = /^(\S+) (第\S+章) (\S+?)(?: (\S+))?$/.exec(s);
     if (!m) return { volume: '', chapterNo: '', chapterName: s, section: '' };
     return { volume: m[1], chapterNo: m[2], chapterName: m[3], section: m[4] || '' };
+  }
+
+  /**
+   * 整年级 / 整册的知识点：'一年级' = 一上 + 一下，'七上' = 七年级上册。
+   * 返回 {ids, volumes, label}（ids 按 topics 文件顺序，只含正式知识点）；不认识的写法返回 null。
+   */
+  function gradeTargets(graph, scope) {
+    const key = String(scope == null ? '' : scope).trim();
+    let volumes = null;
+    let label = '';
+    const g = /^([一二三四五六七八九])年级$/.exec(key);
+    const v = /^([一二三四五六七八九])([上下])$/.exec(key);
+    if (g) { volumes = [g[1] + '上', g[1] + '下']; label = g[1] + '年级'; }
+    else if (v) { volumes = [key]; label = v[1] + '年级' + (v[2] === '上' ? '上册' : '下册'); }
+    if (!volumes) return null;
+    const ids = graph.topics.filter(function (t) {
+      return !t.external && volumes.indexOf(parseChapter(t.chapter).volume) >= 0;
+    }).map(function (t) { return t.id; });
+    return ids.length ? { ids: ids, volumes: volumes, label: label } : null;
+  }
+
+  /**
+   * 按章汇总：范围内每章的 掌握 / 不稳 / 薄弱 / 未测 数量和薄弱、不稳的知识点 id。
+   * 章按教材顺序给出，再按「薄弱数多、不稳数多」稳定排序，薄弱的章排前面。
+   */
+  function chapterSummary(graph, session) {
+    const inOrder = new Set(session.order);
+    const byKey = Object.create(null);
+    const list = [];
+    graph.topics.forEach(function (t) {
+      if (t.external || !inOrder.has(t.id)) return;
+      const c = parseChapter(t.chapter);
+      const key = c.volume + ' ' + c.chapterNo + ' ' + c.chapterName;
+      let ch = byKey[key];
+      if (!ch) {
+        ch = byKey[key] = {
+          key: key, volume: c.volume, chapterNo: c.chapterNo, chapterName: c.chapterName,
+          label: (c.volume ? c.volume + ' ' : '') + c.chapterNo + ' ' + c.chapterName,
+          total: 0, mastered: 0, shaky: 0, weak: 0, untested: 0, weakIds: [], shakyIds: [], untestedIds: [], _i: list.length
+        };
+        list.push(ch);
+      }
+      const st = statusOf(session, t.id);
+      ch.total++;
+      if (st === 'mastered') ch.mastered++;
+      else if (st === 'shaky') { ch.shaky++; ch.shakyIds.push(t.id); }
+      else if (st === 'weak') { ch.weak++; ch.weakIds.push(t.id); }
+      else { ch.untested++; ch.untestedIds.push(t.id); }
+    });
+    list.sort(function (a, b) { return b.weak - a.weak || b.shaky - a.shaky || a._i - b._i; });
+    list.forEach(function (ch) { delete ch._i; });
+    return list;
   }
 
   /**
@@ -802,6 +869,9 @@
 
   return {
     DEFAULT_LIMIT: DEFAULT_LIMIT,
+    SCREEN_LIMIT: SCREEN_LIMIT,
+    gradeTargets: gradeTargets,
+    chapterSummary: chapterSummary,
     buildGraph: buildGraph,
     questionById: questionById,
     pickQuestion: pickQuestion,

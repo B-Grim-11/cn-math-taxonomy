@@ -1076,5 +1076,208 @@ test('带题库：重测时避开已出过的题（avoid 里的题尽量不再�
   assert.ok(total > 0);
 });
 
+console.log('整年级 / 整册筛查');
+
+function screenRun(spec, student, limit, seed) {
+  let s = E.createSession(RGQ, spec.ids, { mode: 'screen', limit: limit, seed: seed == null ? 'scr' : seed });
+  for (let guard = 0; guard < 2000; guard++) {
+    const it = E.nextItem(RGQ, s);
+    if (!it) break;
+    s = E.applyAnswer(RGQ, s, it.topicId, student(it.topicId, it.attempt));
+  }
+  return s;
+}
+const allWrong = () => 'wrong';
+const allRight = () => 'correct';
+const indexStudent = (id, attempt) => {
+  const i = RGQ.index[id];
+  if (i % 6 === 0) return 'wrong';
+  if (i % 6 === 3) return attempt === 1 ? 'wrong' : 'correct';
+  return 'correct';
+};
+
+test('gradeTargets：一年级 = 一上 + 一下，七上只含七上；写法不对返回 null', () => {
+  const g1 = E.gradeTargets(RGQ, '一年级');
+  const up = E.gradeTargets(RGQ, '一上');
+  const down = E.gradeTargets(RGQ, '一下');
+  assert.deepStrictEqual(g1.volumes, ['一上', '一下']);
+  assert.strictEqual(g1.ids.length, up.ids.length + down.ids.length);
+  assert.deepStrictEqual(sorted(g1.ids), sorted(up.ids.concat(down.ids)));
+  const want = formal.filter((t) => t.grade === 1).length;
+  assert.strictEqual(g1.ids.length, want);
+  const g7 = E.gradeTargets(RGQ, '七年级');
+  assert.strictEqual(g7.ids.length, formal.filter((t) => t.grade === 7).length);
+  E.gradeTargets(RGQ, '七上').ids.forEach((id) => {
+    const t = RGQ.byId[id];
+    assert.ok(t.grade === 7 && t.semester === '上' && !t.external, id);
+  });
+  assert.strictEqual(E.gradeTargets(RGQ, '十年级'), null);
+  assert.strictEqual(E.gradeTargets(RGQ, '七'), null);
+  assert.strictEqual(E.gradeTargets(RGQ, ''), null);
+});
+
+test('筛查会话：范围 = 目标本身，默认题量上限 SCREEN_LIMIT；普通会话不受影响', () => {
+  const g = E.gradeTargets(RGQ, '七年级');
+  const s = E.createSession(RGQ, g.ids, { mode: 'screen' });
+  assert.strictEqual(s.limit, E.SCREEN_LIMIT);
+  assert.ok(E.SCREEN_LIMIT > E.DEFAULT_LIMIT);
+  assert.deepStrictEqual(sorted(s.order), sorted(g.ids));
+  assert.strictEqual(s.mode, 'screen');
+  const n = E.createSession(RGQ, g.ids);
+  assert.strictEqual(n.limit, E.DEFAULT_LIMIT);
+  assert.strictEqual(n.mode, 'target');
+  assert.strictEqual(n.scope, null);
+  assert.ok(n.order.length > s.order.length, '普通会话的子图包含更早年级的先修');
+  assert.strictEqual(E.createSession(RGQ, g.ids, { mode: 'screen', limit: 60 }).limit, 60);
+});
+
+test('筛查：题量不超过上限（一年级 / 七年级 / 七上；全错、全对、混合的学生）', () => {
+  ['一年级', '七年级', '七上'].forEach((scope) => {
+    const g = E.gradeTargets(RGQ, scope);
+    [[allWrong, 40], [allRight, 40], [indexStudent, 40], [indexStudent, 25], [indexStudent, 60]].forEach(([stu, limit]) => {
+      const s = screenRun(g, stu, limit);
+      assert.ok(s.answers.length <= limit, scope + ' ' + s.answers.length + ' > ' + limit);
+      const ids = new Set(g.ids);
+      s.answers.forEach((a) => assert.ok(ids.has(a.id), '问到了范围之外的知识点 ' + a.id));
+      const sum = E.summarize(RGQ, s);
+      assert.strictEqual(sum.mastered.length + sum.shaky.length + sum.weak.length + sum.untested.length, g.ids.length);
+      assert.strictEqual(sum.asked, s.answers.length);
+    });
+  });
+});
+
+test('筛查：全对的学生只需很少几题（答对即推断先修）；一年级默认上限内能问完', () => {
+  const g7 = E.gradeTargets(RGQ, '七年级');
+  const s = screenRun(g7, allRight, 40);
+  const sum = E.summarize(RGQ, s);
+  assert.ok(sum.asked < g7.ids.length / 2, '全对却问了 ' + sum.asked);
+  assert.strictEqual(sum.mastered.length, g7.ids.length);
+  const g1 = E.gradeTargets(RGQ, '一年级');
+  const s1 = screenRun(g1, indexStudent, E.SCREEN_LIMIT);
+  assert.strictEqual(E.summarize(RGQ, s1).finished, true);
+  assert.strictEqual(E.summarize(RGQ, s1).untested.length, 0);
+});
+
+test('筛查：到上限没测到的点标「未测」，且题量 = 上限', () => {
+  const g = E.gradeTargets(RGQ, '七年级');
+  const s = screenRun(g, allWrong, 20);
+  const sum = E.summarize(RGQ, s);
+  assert.strictEqual(sum.asked, 20);
+  assert.strictEqual(sum.limitReached, true);
+  assert.ok(sum.untested.length > 0);
+});
+
+test('筛查：回溯只在本范围内——薄弱点范围外的先修不被问，且列在 outOfScopePrereqs', () => {
+  const g = E.gradeTargets(RGQ, '七上');
+  const s = screenRun(g, allWrong, 60);
+  const inScope = new Set(g.ids);
+  assert.ok(s.answers.every((a) => inScope.has(a.id)));
+  const sum = E.summarize(RGQ, s);
+  assert.ok(sum.roots.length > 0);
+  const outside = new Set();
+  sum.roots.forEach((r) => {
+    r.pendingPrereqs.forEach((p) => assert.ok(inScope.has(p)));
+    r.outOfScopePrereqs.forEach((p) => { assert.ok(!inScope.has(p)); outside.add(p); });
+  });
+  assert.ok(outside.size > 0, '七上的根因应该有七年级之前的先修');
+  // 范围外的点不会出现在汇总里
+  sum.mastered.concat(sum.shaky, sum.weak, sum.untested).forEach((id) => assert.ok(inScope.has(id)));
+  assert.ok(sum.path.every((p) => inScope.has(p.id) && p.isTarget === false));
+});
+
+test('筛查：一致的学生、题量不限 => 薄弱集合恰好等于他不会的点（范围内）', () => {
+  const g = E.gradeTargets(RGQ, '七上');
+  const inScope = new Set(g.ids);
+  [0.3, 0.6, 0.9].forEach((p, k) => {
+    const known = makeStudent(rng(100 + k), p);
+    const s = screenRun(g, (id) => (known.has(id) ? 'correct' : 'wrong'), 1000);
+    const sum = E.summarize(RGQ, s);
+    assert.deepStrictEqual(sorted(sum.weak), sorted(g.ids.filter((id) => !known.has(id))));
+    assert.strictEqual(sum.untested.length, 0);
+    // 根因 = 自己不会、范围内先修都会（范围外的先修不判）
+    const wantRoots = g.ids.filter((id) => !known.has(id) &&
+      !RGQ.prereqs[id].some((x) => inScope.has(x.id) && !known.has(x.id)));
+    assert.deepStrictEqual(sorted(sum.roots.map((r) => r.id)), sorted(wantRoots));
+  });
+});
+
+test('筛查：同一种子 => 出题序列完全相同；replay 重建一致；换种子序列会变', () => {
+  const g = E.gradeTargets(RGQ, '七年级');
+  const a = screenRun(g, indexStudent, 40, 'fixed');
+  const b = screenRun(g, indexStudent, 40, 'fixed');
+  assert.deepStrictEqual(a.answers.map((x) => x.qid), b.answers.map((x) => x.qid));
+  const r = E.replay(RGQ, g.ids, a.answers, { mode: 'screen', limit: 40, seed: 'fixed' });
+  assert.deepStrictEqual(r, a);
+  const c = screenRun(g, indexStudent, 40, 'other');
+  assert.notDeepStrictEqual(a.answers.map((x) => x.qid), c.answers.map((x) => x.qid));
+  // 会话可 JSON 往返
+  assert.deepStrictEqual(JSON.parse(JSON.stringify(a)), a);
+});
+
+test('按章汇总：分组正确、数量与汇总一致、薄弱章在前、可复现', () => {
+  ['一年级', '七年级', '八上'].forEach((scope) => {
+    const g = E.gradeTargets(RGQ, scope);
+    const s = screenRun(g, indexStudent, 40);
+    const sum = E.summarize(RGQ, s);
+    const chs = E.chapterSummary(RGQ, s);
+    // 每个知识点恰好在一章里，章总数 = 范围内知识点数
+    assert.strictEqual(chs.reduce((n, c) => n + c.total, 0), g.ids.length);
+    const seen = new Set();
+    chs.forEach((c) => {
+      assert.strictEqual(c.mastered + c.shaky + c.weak + c.untested, c.total, c.label);
+      assert.strictEqual(c.weakIds.length, c.weak);
+      assert.strictEqual(c.shakyIds.length, c.shaky);
+      c.weakIds.concat(c.shakyIds, c.untestedIds).forEach((id) => {
+        assert.ok(!seen.has(id)); seen.add(id);
+        const p = E.parseChapter(RGQ.byId[id].chapter);
+        assert.strictEqual(c.volume + ' ' + c.chapterNo + ' ' + c.chapterName, p.volume + ' ' + p.chapterNo + ' ' + p.chapterName);
+        assert.ok(g.volumes.includes(p.volume));
+      });
+      c.weakIds.forEach((id) => assert.strictEqual(E.statusOf(s, id), 'weak'));
+      c.shakyIds.forEach((id) => assert.strictEqual(E.statusOf(s, id), 'shaky'));
+    });
+    assert.strictEqual(chs.reduce((n, c) => n + c.weak, 0), sum.weak.length);
+    assert.strictEqual(chs.reduce((n, c) => n + c.shaky, 0), sum.shaky.length);
+    assert.strictEqual(chs.reduce((n, c) => n + c.mastered, 0), sum.mastered.length);
+    assert.strictEqual(chs.reduce((n, c) => n + c.untested, 0), sum.untested.length);
+    for (let i = 1; i < chs.length; i++) {
+      const a = chs[i - 1], b = chs[i];
+      assert.ok(a.weak > b.weak || (a.weak === b.weak && a.shaky >= b.shaky), '排序：' + a.label + ' / ' + b.label);
+    }
+    assert.ok(chs[0].weak >= 1, scope + ' 最前面的章应有薄弱点');
+    assert.deepStrictEqual(chs, E.chapterSummary(RGQ, screenRun(g, indexStudent, 40)));
+  });
+});
+
+test('按章汇总：七上共 6 章；还没作答的会话所有点都算未测，章按教材顺序', () => {
+  const g = E.gradeTargets(RGQ, '七上');
+  const s = screenRun(g, allWrong, 60);
+  const chs = E.chapterSummary(RGQ, s);
+  assert.strictEqual(chs.length, 6);
+  const tiny = E.chapterSummary(RGQ, E.createSession(RGQ, g.ids, { mode: 'screen' }));
+  assert.ok(tiny.every((c) => c.untested === c.total && c.weak === 0));
+  assert.deepStrictEqual(tiny.map((c) => c.label).slice(0, 2), ['七上 第一章 有理数', '七上 第二章 有理数的运算']);
+});
+
+test('筛查：路径图只画有问题的点（不把整个年级都画上）', () => {
+  const g = E.gradeTargets(RGQ, '七年级');
+  const s = screenRun(g, indexStudent, 40);
+  const sum = E.summarize(RGQ, s);
+  const lay = E.layout(RGQ, s, sum);
+  assert.ok(lay.nodes.length < g.ids.length);
+  assert.ok(lay.nodes.every((n) => n.isTarget === false));
+  const allOk = E.summarize(RGQ, screenRun(g, allRight, 40));
+  assert.strictEqual(allOk.path.length, 0);
+});
+
+test('普通整章 / 单点诊断不受影响：不带 mode 的会话仍回溯到小学', () => {
+  const s = E.createSession(RGQ, ['cnm_232'], { limit: 16 });
+  assert.strictEqual(s.mode, 'target');
+  assert.ok(s.order.length > 1);
+  const sum = E.summarize(RGQ, s);
+  assert.strictEqual(sum.mode, 'target');
+  sum.roots.forEach((r) => assert.deepStrictEqual(r.outOfScopePrereqs, []));
+});
+
 console.log('\n' + passed + ' passed, ' + failed + ' failed');
 process.exit(failed ? 1 : 0);
