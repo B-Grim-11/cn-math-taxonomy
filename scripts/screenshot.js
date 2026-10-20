@@ -13,6 +13,7 @@
  *      检查局部图、无横向溢出、无外网脚本/样式/字体/图片请求，并截 06–16；
  *   4) 知识图谱「全部」祖先（cnm_234：默认按年级收起，再展开并对准当前点）、375 宽长名称（cnm_124）
  *      以及 375 宽诊断路径图，截 17–20。
+ *      首页儿童智商测试卡片截 36，诊断结果页底部入口截 37。
  * 环境变量：CHROME=/path/to/chrome  PORT=8765  DEBUG_PORT=9333
  */
 'use strict';
@@ -43,6 +44,31 @@ const N_EDGES = String(DEP_ROWS.filter((d) => String(d.topicId).startsWith('cnm_
 const N_QUESTIONS = String(QUESTION_ROWS.filter((q) => String(q.topicId).startsWith('cnm_')).length);
 const N_STANDARDS = String(STD_ITEMS.filter((it) => String(it.id).startsWith('cms-')).length);
 const N_GRADE_CARDS = 14;
+const IQ_HOME_EXPR = `(() => {
+  const a = document.querySelector('a.iq-card');
+  if (!a) return 'missing';
+  const rel = (a.getAttribute('rel') || '').split(/\\s+/);
+  const text = a.textContent || '';
+  if (a.getAttribute('href') !== 'https://test.pansgo.com/?from=math-home') return 'href';
+  if (a.target !== '_blank') return 'target';
+  if (rel.indexOf('noopener') < 0) return 'rel';
+  if (text.indexOf('儿童智商测试') < 0 || text.indexOf('找规律 · 补图案 · 空间想象，约 12–15 分钟，免费') < 0 || text.indexOf('趣味测评，与数学诊断无关') < 0) return 'text';
+  return 'ok';
+})()`;
+const IQ_RESULT_EXPR = `(() => {
+  const line = document.getElementById('iq-line');
+  const a = line && line.querySelector('a');
+  if (!line || !a) return 'missing';
+  const page = document.getElementById('root') && document.getElementById('root').lastElementChild;
+  if (!page || page.lastElementChild !== line) return 'not-last';
+  if (a.getAttribute('href') !== 'https://test.pansgo.com/?from=math-result') return 'href';
+  if (a.target !== '_blank') return 'target';
+  if ((a.getAttribute('rel') || '').split(/\\s+/).indexOf('noopener') < 0) return 'rel';
+  const compact = (line.textContent || '').replace(/\\s+/g, '');
+  if (compact !== '做完数学诊断，再测测思维能力？→儿童智商测试') return 'text:' + compact;
+  if (a.textContent !== '儿童智商测试') return 'link-text';
+  return 'ok';
+})()`;
 const DERIVE = TOPIC_ROWS.find((t) => t.name === '导数的概念' && t.grade === 13);
 const GRAPH = E.buildGraph(readJson('topics.json'), readJson('dependencies.json'), readJson('questions.json'));
 function seedFor(topicId, pred) {
@@ -441,6 +467,9 @@ async function main() {
       '演示模式同时出现 掌握（' + await stat('ok') + '）/ 不稳（' + await stat('shaky') + '）/ 薄弱（' + await stat('bad') + '）三种状态');
     check(await exists('#shaky details.topic') && await exists('#path .tag.shaky'), '「不稳」的点单独列出，并出现在学习路径里');
     await shot('03-result.png');
+    const iqResult = await evalJs(IQ_RESULT_EXPR);
+    check(iqResult === 'ok', '诊断结果页底部有儿童智商测试入口（' + iqResult + '）');
+    await shot('37-result-iq.png', '#iq-line', 160);
     await checkPathGraph('演示结果页');
     // 路径图单独存一张便于检查
     await shot('04-graph.png', '#graph', 720);
@@ -458,8 +487,11 @@ async function main() {
     check(stats === [N_TOPICS, N_EDGES, N_QUESTIONS, N_STANDARDS].join(','), '首页统计来自数据文件（' + stats + '）');
     check((await evalJs('document.body.innerText')).includes('AI 生成初稿，未经教师审核') && !(await evalJs('document.title')).includes('草稿'), '首页有初稿声明，标题不含「草稿」');
     check((await evalJs('document.querySelector("a.grade-card").getAttribute("href")')) === 'explore/?grade=1', '一年级卡片指向知识图谱');
+    const iqHome = await evalJs(IQ_HOME_EXPR);
+    check(iqHome === 'ok', '首页儿童智商测试卡片（' + iqHome + '）');
     await checkPage('首页 1280');
     await shot('06-home.png', null, 1900);
+    await shot('36-home-iq.png', 'a.iq-card', 280);
 
     const checkExplore = async (id, expect) => {
       await goto(BASE + '/explore/#' + encodeURIComponent(id));
@@ -538,6 +570,7 @@ async function main() {
     await setView(375, 812);
     await goto(BASE + '/');
     await waitFor(() => evalJs('document.getElementById("n-topics") && document.getElementById("n-topics").textContent === ' + JSON.stringify(N_TOPICS)), '首页 375');
+    check((await evalJs(IQ_HOME_EXPR)) === 'ok', '375 首页儿童智商测试卡片');
     await checkPage('首页 375');
     await shot('10-home-375.png', null, 2900);
     await checkExplore('cnm_221', { title: '配方法', idCode: 'cnm_221', diag: 'cnm_221' });
@@ -558,6 +591,7 @@ async function main() {
     await shot('19-longname-375.png', '.graph-pane', 760);
     await goto(BASE + '/diagnose/?target=cnm_221&demo=1');
     await waitFor(() => exists('#summary'), '诊断结果页 375');
+    check((await evalJs(IQ_RESULT_EXPR)) === 'ok', '375 诊断结果页底部有儿童智商测试入口');
     await checkPathGraph('375 结果页');
     const choiceH = await evalJs('(() => { const b = document.querySelector("button"); return b ? b.getBoundingClientRect().height : 0; })()');
     check(choiceH >= 44, '按钮触控高度 ≥ 44px（' + Math.round(choiceH) + '）');
@@ -658,6 +692,7 @@ async function main() {
     await goto(BASE + '/diagnose/?subject=english&grade=' + encodeURIComponent('四上') + '&demo=1&limit=12');
     await waitFor(() => exists('#chapters'), '四年级上册英语整体诊断', 20000);
     check((await evalJs('document.querySelector("#summary h2").textContent')).indexOf('四年级上册') >= 0, '四年级上册英语整体诊断标题');
+    check((await evalJs(IQ_RESULT_EXPR)) === 'ok', '英语诊断结果页也有儿童智商测试入口');
     check(await exists('#chapters .chap-sum'), '四年级上册英语整体诊断有按章汇总');
     check((await evalJs('document.body.innerText')).indexOf('配方法') < 0, '英语整册诊断不混入数学知识点');
     await checkPage('四年级上册英语 1280');

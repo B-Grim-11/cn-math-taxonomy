@@ -337,7 +337,7 @@ textarea { min-height: 96px; }
 }
 .stat-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .grade-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.stat-card, a.grade-card {
+.stat-card, a.grade-card, a.iq-card {
   background: var(--bg-elev);
   border: 1px solid var(--line);
   border-radius: var(--radius);
@@ -348,7 +348,7 @@ textarea { min-height: 96px; }
 .stat-num { font-size: 2rem; font-weight: 800; line-height: 1.1; color: var(--brand-strong); }
 .stat-label { color: var(--muted); font-weight: 700; }
 .stat-note { color: var(--muted); margin: 8px 0 0; }
-a.grade-card {
+a.grade-card, a.iq-card {
   display: flex;
   flex-direction: column;
   gap: 2px;
@@ -360,8 +360,11 @@ a.grade-card {
 }
 a.grade-card.is-junior { box-shadow: inset 0 4px 0 var(--node-junior), var(--shadow); }
 a.grade-card.is-senior { box-shadow: inset 0 4px 0 var(--node-senior), var(--shadow); }
-a.grade-card:hover { border-color: var(--brand); }
-a.grade-card strong { font-size: 1.15rem; }
+a.grade-card:hover, a.iq-card:hover { border-color: var(--brand); }
+a.grade-card strong, a.iq-card strong { font-size: 1.15rem; }
+a.iq-card { margin-top: 28px; gap: 4px; max-width: 100%; }
+a.iq-card .iq-sub { font-weight: 800; overflow-wrap: anywhere; }
+a.iq-card .iq-note { color: var(--muted); font-size: 0.82rem; font-weight: 700; overflow-wrap: anywhere; }
 .grade-stage { color: var(--muted); font-size: 0.88rem; font-weight: 700; }
 .grade-count { font-weight: 800; }
 .load-error {
