@@ -57,7 +57,7 @@ const TOP_BANNER_EXPR = `(() => {
   if (a.getAttribute('href') !== 'https://test.pansgo.com/?from=math-top') return 'href';
   if (a.target !== '_blank') return 'target';
   if (rel.indexOf('noopener') < 0) return 'rel';
-  if (text !== '🧠 儿童智商测试 · 免费 · 约12–15分钟') return 'text:' + text;
+  if (text !== '🧠 儿童智商测试') return 'text:' + text;
   const header = document.querySelector('.site-header');
   if (!header || (a.compareDocumentPosition(header) & Node.DOCUMENT_POSITION_PRECEDING)) return 'order';
   const ar = a.getBoundingClientRect();
