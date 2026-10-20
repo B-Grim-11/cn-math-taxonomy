@@ -127,6 +127,21 @@ body {
   background: var(--bg);
 }
 img { max-width: 100%; height: auto; }
+.node-tip {
+  position: absolute;
+  z-index: 6;
+  max-width: min(280px, calc(100% - 16px));
+  padding: 6px 10px;
+  border-radius: 10px;
+  background: var(--text);
+  color: var(--bg);
+  font-size: 0.92rem;
+  font-weight: 700;
+  line-height: 1.45;
+  pointer-events: none;
+  box-shadow: var(--shadow);
+  overflow-wrap: anywhere;
+}
 code { overflow-wrap: anywhere; }
 :focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
 @media (prefers-reduced-motion: reduce) {

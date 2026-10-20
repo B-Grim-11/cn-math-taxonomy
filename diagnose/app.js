@@ -28,6 +28,9 @@
   let startStage = '';
   let chapterOpen = false;
   let seedParam = null;    // URL 参数 seed：固定选题的随机种子
+  let pathCy = null;
+  let pathToken = 0;
+  let pathTipLock = false;
 
   /* ------------------------------------------------------------ 小工具 */
   function h(tag, attrs) {
@@ -50,14 +53,6 @@
     if (Array.isArray(c)) { c.forEach(function (x) { append(el, x); }); return; }
     el.append(c.nodeType ? c : document.createTextNode(String(c)));
   }
-  const SVGNS = 'http://www.w3.org/2000/svg';
-  function s(tag, attrs) {
-    const el = document.createElementNS(SVGNS, tag);
-    const a = attrs || {};
-    Object.keys(a).forEach(function (k) { if (a[k] != null) el.setAttribute(k, a[k]); });
-    for (let i = 2; i < arguments.length; i++) append(el, arguments[i]);
-    return el;
-  }
   function lsGet(k) { try { return JSON.parse(localStorage.getItem(k)); } catch (e) { return null; } }
   function lsSet(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) { /* 隐私模式等 */ } }
   function lsDel(k) { try { localStorage.removeItem(k); } catch (e) { /* ignore */ } }
@@ -77,7 +72,29 @@
   function newSeed() { return seedParam != null ? seedParam : Math.random().toString(36).slice(2, 10); }
   function resetUi() { ui = { key: null, phase: 'ask', answer: '', verdict: null, picked: null }; }
   function clearRoot() { while (root.firstChild) root.removeChild(root.firstChild); }
-  function show(node) { clearRoot(); root.append(node); window.scrollTo(0, 0); }
+  function teardownPath() {
+    pathToken++;
+    pathTipLock = false;
+    if (pathCy) { pathCy.destroy(); pathCy = null; window.__pathCy = null; }
+  }
+  function show(node) { teardownPath(); clearRoot(); root.append(node); window.scrollTo(0, 0); }
+  function cssVar(name) { return getComputedStyle(document.documentElement).getPropertyValue(name).trim(); }
+  function theme() {
+    return {
+      primary: cssVar('--node-primary'), primaryBg: cssVar('--node-primary-bg'),
+      junior: cssVar('--node-junior'), juniorBg: cssVar('--node-junior-bg'),
+      currentBg: cssVar('--node-current-bg'), currentBorder: cssVar('--node-current-border'),
+      text: cssVar('--node-text'), edge: cssVar('--edge'), edgeSoft: cssVar('--edge-soft'),
+      bad: cssVar('--diagram-bad'), badBg: cssVar('--diagram-bad-bg')
+    };
+  }
+  function labelLimit() { return window.matchMedia('(max-width: 700px)').matches ? 8 : 10; }
+  function clipLabel(name) {
+    const chars = Array.from(name || '');
+    const limit = labelLimit();
+    if (chars.length <= limit) return name || '';
+    return chars.slice(0, limit - 1).join('') + '…';
+  }
 
   /* ------------------------------------------------------------ 数据 */
   async function loadData() {
@@ -553,11 +570,18 @@
 
     page.append(h('div', { class: 'card', id: 'graph' },
       h('h2', { text: '路径图' }),
-      h('div', { class: 'legend' },
-        h('span', null, h('i', { class: 'm' }), '已掌握'), h('span', null, h('i', { class: 's' }), '不稳'), h('span', null, h('i', { class: 'w' }), '薄弱'),
-        h('span', null, h('i', { class: 'u' }), '未测'), h('span', null, h('i', { class: 't' }), '目标（蓝色粗框）'),
-        h('span', { class: 'muted' }, '箭头：先修 → 后续；虚线表示中间省略了未画出的知识点；浅色为软先修')),
-      h('div', { class: 'svgwrap' }, renderGraph(sum))));
+      h('p', { class: 'muted small' }, '小学和初中用不同颜色。硬先修是实线，软先修是虚线，点线表示中间省略了没画出来的知识点。红框是薄弱根因，橙框是目标。名称太长会省略，悬停或点按可看全名。上面的列表是完整学习顺序。'),
+      h('ul', { class: 'legend' },
+        h('li', null, h('i', { class: 'swatch sw-p' }), '小学'),
+        h('li', null, h('i', { class: 'swatch sw-j' }), '初中'),
+        h('li', null, h('i', { class: 'swatch sw-root' }), '薄弱根因'),
+        h('li', null, h('i', { class: 'swatch sw-target' }), '目标'),
+        h('li', null, h('i', { class: 'swatch line-hard' }), '硬先修（实线）'),
+        h('li', null, h('i', { class: 'swatch line-soft' }), '软先修（虚线）'),
+        h('li', null, h('i', { class: 'swatch line-skip' }), '中间省略（点线）')),
+      h('div', { class: 'path-graph' },
+        h('div', { id: 'path-cy', role: 'img', 'aria-label': '先修路径图' }),
+        h('div', { id: 'node-tip', class: 'node-tip', role: 'tooltip', hidden: true }))));
 
     page.append(h('details', { class: 'card', id: 'mastered' },
       h('summary', null, h('b', null, '已掌握的知识点（' + sum.mastered.length + '）')),
@@ -574,6 +598,7 @@
     page.append(standardsCard(sum));
     page.append(logCard());
     show(page);
+    mountPathGraph(sum);
   }
 
   function stat(cls, n, label) { return h('div', { class: 'stat ' + cls }, h('b', { text: String(n) }), label); }
@@ -619,45 +644,141 @@
         h('tbody', null, rows)) : h('p', { class: 'muted', text: '还没有答题。' }));
   }
 
-  /* ------------------------------------------------------------ 路径图（SVG） */
-  function renderGraph(sum) {
+  /* ------------------------------------------------------------ 路径图（Cytoscape + dagre） */
+  function hidePathTip() {
+    const tip = document.getElementById('node-tip');
+    if (tip) tip.hidden = true;
+  }
+  function showPathTip(node) {
+    const tip = document.getElementById('node-tip');
+    const stage = document.querySelector('.path-graph');
+    if (!tip || !stage || !pathCy || !node || node.empty()) return;
+    const text = node.data('full') || node.data('label') || '';
+    if (!text) { tip.hidden = true; return; }
+    tip.textContent = text;
+    tip.hidden = false;
+    const stageRect = stage.getBoundingClientRect();
+    const cyRect = pathCy.container().getBoundingClientRect();
+    const bb = node.renderedBoundingBox({ includeLabels: true });
+    const tipW = tip.offsetWidth;
+    const tipH = tip.offsetHeight;
+    const cx = cyRect.left - stageRect.left + (bb.x1 + bb.x2) / 2;
+    const top = cyRect.top - stageRect.top + bb.y1;
+    let left = Math.max(8, Math.min(cx - tipW / 2, Math.max(8, stageRect.width - tipW - 8)));
+    let y = top - tipH - 8;
+    if (y < 4) y = cyRect.top - stageRect.top + bb.y2 + 8;
+    if (y + tipH > stageRect.height - 4) y = Math.max(4, stageRect.height - tipH - 4);
+    tip.style.left = left + 'px';
+    tip.style.top = y + 'px';
+  }
+  function ensureDagre() {
+    if (!window.cytoscape || !window.dagre || !window.cytoscapeDagre) throw new Error('图形库没有加载');
+    if (!ensureDagre.ready) { window.cytoscape.use(window.cytoscapeDagre); ensureDagre.ready = true; }
+  }
+  function mountPathGraph(sum) {
+    const token = ++pathToken;
+    if (pathCy) { pathCy.destroy(); pathCy = null; window.__pathCy = null; }
+    const cyEl = document.getElementById('path-cy');
+    if (!cyEl) return;
+    cyEl.dataset.ready = '0';
+    hidePathTip();
     const lay = E.layout(D.graph, session, sum);
-    const W = 176, H = 40, GX = 22, GY = 54, PAD = 18;
-    const width = lay.maxCols * (W + GX) - GX + PAD * 2;
-    const height = lay.layers * (H + GY) - GY + PAD * 2;
-    const pos = {};
-    lay.nodes.forEach(function (n) {
-      const rowW = n.cols * (W + GX) - GX;
-      pos[n.id] = { x: PAD + (width - PAD * 2 - rowW) / 2 + n.col * (W + GX), y: PAD + n.layer * (H + GY) };
-    });
-    const svg = s('svg', { class: 'graph', width: width, height: height, viewBox: '0 0 ' + width + ' ' + height, role: 'img', 'aria-label': '先修路径图' });
-    svg.append(s('defs', null, s('marker', { id: 'arr', viewBox: '0 0 10 10', refX: 9, refY: 5, markerWidth: 7, markerHeight: 7, orient: 'auto' },
-      s('path', { d: 'M0,0 L10,5 L0,10 z', fill: '#64748b' }))));
-    lay.edges.forEach(function (e) {
-      const a = pos[e.from], b = pos[e.to];
-      const x1 = a.x + W / 2, y1 = a.y + H, x2 = b.x + W / 2, y2 = b.y;
-      const k = Math.max(20, (y2 - y1) / 2);
-      svg.append(s('path', {
-        class: 'e' + (e.strength === 'soft' ? ' soft' : '') + (e.direct ? '' : ' indirect'),
-        d: 'M' + x1 + ',' + y1 + ' C' + x1 + ',' + (y1 + k) + ' ' + x2 + ',' + (y2 - k) + ' ' + x2 + ',' + (y2 - 2), 'marker-end': 'url(#arr)'
-      }));
-    });
-    lay.nodes.forEach(function (n) {
-      const p = pos[n.id];
-      const name = nameOf(n.id);
-      const g = s('g', { class: 'n ' + n.status + (n.isTarget ? ' target' : ''), transform: 'translate(' + p.x + ',' + p.y + ')' },
-        s('title', null, name + '（' + STATUS_LABEL[n.status] + (n.isTarget ? '，目标' : '') + (n.isRoot ? '，根因' : '') + '）'),
-        s('rect', { class: 'body', width: W, height: H, rx: 7 }),
-        s('text', { x: W / 2, y: H / 2 + 5, 'text-anchor': 'middle' }, name.length > 12 ? name.slice(0, 11) + '…' : name));
-      if (n.isRoot) {
-        g.append(s('rect', { x: -8, y: -10, width: 38, height: 19, rx: 9.5, fill: '#dc2626' }), s('text', { class: 'mark', x: 11, y: 4, 'text-anchor': 'middle' }, '根因'));
+    requestAnimationFrame(function () {
+      if (token !== pathToken || !document.body.contains(cyEl)) return;
+      try {
+        ensureDagre();
+        const colors = theme();
+        const narrow = labelLimit() <= 8;
+        const textMax = narrow ? 104 : 126;
+        const boxW = narrow ? 118 : 142;
+        const FONT = '"PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", "Noto Sans SC", sans-serif';
+        const elements = [];
+        lay.nodes.forEach(function (n) {
+          const topic = D.graph.byId[n.id];
+          const primary = !!(topic && topic.grade <= 6);
+          const name = nameOf(n.id);
+          const bits = [name];
+          if (n.isRoot) bits.push('薄弱根因');
+          if (n.isTarget) bits.push('目标');
+          bits.push(STATUS_LABEL[n.status] || n.status);
+          let bg = primary ? colors.primaryBg : colors.juniorBg;
+          let border = primary ? colors.primary : colors.junior;
+          if (n.isTarget) { bg = colors.currentBg; border = colors.currentBorder; }
+          if (n.isRoot) { bg = colors.badBg; border = colors.bad; }
+          const classes = [primary ? 'primary' : 'junior'];
+          if (n.isRoot) classes.push('root');
+          if (n.isTarget) classes.push('target', 'current');
+          elements.push({
+            data: { id: n.id, name: name, full: bits.join(' · '), label: clipLabel(name), bg: bg, border: border, color: colors.text },
+            classes: classes.join(' ')
+          });
+        });
+        lay.edges.forEach(function (e, i) {
+          const soft = e.direct && e.strength === 'soft';
+          const kind = !e.direct ? 'indirect' : (soft ? 'soft' : 'hard');
+          const color = kind === 'hard' ? colors.edge : colors.edgeSoft;
+          elements.push({
+            data: { id: 'e' + i, source: e.from, target: e.to, color: color },
+            classes: kind
+          });
+        });
+        pathCy = window.cytoscape({
+          container: cyEl,
+          elements: elements,
+          minZoom: 0.2,
+          maxZoom: 2.8,
+          wheelSensitivity: 0.28,
+          boxSelectionEnabled: false,
+          autoungrabify: true,
+          userPanningEnabled: true,
+          userZoomingEnabled: true,
+          style: [
+            { selector: 'node', style: {
+              label: 'data(label)', 'text-wrap': 'ellipsis', 'text-max-width': textMax + 'px',
+              'text-overflow-wrap': 'anywhere',
+              'text-valign': 'center', 'text-halign': 'center',
+              'font-size': 13, 'font-family': FONT, color: 'data(color)',
+              'background-color': 'data(bg)', 'border-width': 2, 'border-color': 'data(border)',
+              shape: 'round-rectangle', width: boxW, height: 34, padding: 0, 'corner-radius': 8
+            } },
+            { selector: 'node.current', style: { 'border-width': 4, 'z-index': 8 } },
+            { selector: 'node.root', style: {
+              'background-color': colors.badBg, 'border-color': colors.bad, 'border-width': 4, 'z-index': 11
+            } },
+            { selector: 'edge', style: {
+              width: 1.6, 'line-color': 'data(color)', 'target-arrow-color': 'data(color)',
+              'target-arrow-shape': 'triangle', 'curve-style': 'bezier', 'arrow-scale': 0.8, 'line-style': 'solid'
+            } },
+            { selector: 'edge.soft', style: { 'line-style': 'dashed', width: 1.5 } },
+            { selector: 'edge.indirect', style: { 'line-style': 'dotted', width: 1.4 } }
+          ]
+        });
+        window.__pathCy = pathCy;
+        pathCy.on('mouseover', 'node', function (event) { showPathTip(event.target); });
+        pathCy.on('mouseout', 'node', function () { if (!pathTipLock) hidePathTip(); });
+        pathCy.on('tap', 'node', function (event) { pathTipLock = true; showPathTip(event.target); });
+        pathCy.on('tap', function (event) {
+          if (event.target === pathCy) { pathTipLock = false; hidePathTip(); }
+        });
+        const layout = pathCy.layout({
+          name: 'dagre', rankDir: 'TB', rankSep: 64, nodeSep: 22, edgeSep: 10,
+          padding: 16, animate: false, fit: true, nodeDimensionsIncludeLabels: false, spacingFactor: 1.05
+        });
+        layout.one('layoutstop', function () {
+          if (token !== pathToken || !pathCy) return;
+          requestAnimationFrame(function () {
+            if (token !== pathToken || !pathCy) return;
+            pathCy.resize();
+            pathCy.fit(undefined, 24);
+            cyEl.dataset.ready = '1';
+          });
+        });
+        layout.run();
+      } catch (error) {
+        cyEl.dataset.ready = 'err';
+        cyEl.append(h('p', { class: 'muted', text: '图没有画出来：' + (error && error.message ? error.message : error) }));
       }
-      if (n.isTarget) {
-        g.append(s('rect', { x: W - 30, y: -10, width: 38, height: 19, rx: 9.5, fill: '#2563eb' }), s('text', { class: 'mark', x: W - 11, y: 4, 'text-anchor': 'middle' }, '目标'));
-      }
-      svg.append(g);
     });
-    return svg;
   }
 
   /* ------------------------------------------------------------ 导出 / 打印 */
@@ -707,6 +828,7 @@
   function printPage() { window.print(); }
   window.addEventListener('beforeprint', function () {
     document.querySelectorAll('details:not([open])').forEach(function (d) { d.setAttribute('open', ''); d.dataset.autoOpen = '1'; });
+    if (pathCy) { pathCy.resize(); pathCy.fit(undefined, 20); }
   });
   window.addEventListener('afterprint', function () {
     document.querySelectorAll('details[data-auto-open]').forEach(function (d) { d.removeAttribute('open'); delete d.dataset.autoOpen; });
@@ -772,6 +894,17 @@
       return;
     }
     renderStart();
+  }
+
+  if (window.matchMedia) {
+    const scheme = window.matchMedia('(prefers-color-scheme: dark)');
+    const relayout = function () {
+      if (!session || !document.getElementById('path-cy')) return;
+      mountPathGraph(E.summarize(D.graph, session));
+    };
+    if (scheme.addEventListener) scheme.addEventListener('change', relayout);
+    const narrow = window.matchMedia('(max-width: 700px)');
+    if (narrow.addEventListener) narrow.addEventListener('change', relayout);
   }
 
   init();

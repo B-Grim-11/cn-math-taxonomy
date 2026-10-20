@@ -61,11 +61,15 @@
         <button type="button" id="btn-fit">适配画面</button>
       </div>
     </div>
-    <div id="cy" hidden role="img" aria-label="选中知识点的局部先修图"></div>
-    <div id="graph-empty" class="graph-empty">
-      <p>选一个知识点后，这里只画它附近的先修，以及后面一层会用到它的知识点。</p>
-      <p class="muted">不会一次铺开全部知识点。点节点可以换选中项，滚轮或拖动可以缩放、平移。</p>
-      <button type="button" id="pick-sample" class="btn btn-primary">先看看「配方法」</button>
+    <p id="graph-fold" class="graph-fold" hidden></p>
+    <div id="graph-stage" class="graph-stage">
+      <div id="cy" hidden role="img" aria-label="选中知识点的局部先修图"></div>
+      <div id="graph-empty" class="graph-empty">
+        <p>选一个知识点后，这里只画它附近的先修，以及后面一层会用到它的知识点。</p>
+        <p class="muted">不会一次铺开全部知识点。点节点可以换选中项，滚轮或拖动可以缩放、平移。名称太长会省略，悬停或点按可看全名。</p>
+        <button type="button" id="pick-sample" class="btn btn-primary">先看看「配方法」</button>
+      </div>
+      <div id="node-tip" class="node-tip" role="tooltip" hidden></div>
     </div>
     <ul class="legend">
       <li><i class="swatch sw-p"></i>小学</li>

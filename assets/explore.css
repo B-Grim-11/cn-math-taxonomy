@@ -83,6 +83,20 @@ body.page-explore .site-footer { flex: none; }
 .depth, .zoom-tools { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
 .depth-label { color: var(--muted); font-weight: 800; font-size: 0.92rem; }
 .depth button.on { background: var(--brand); color: var(--on-brand); border-color: transparent; }
+.graph-fold {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  margin: 0;
+  padding: 8px 12px;
+  background: var(--warn-bg);
+  color: var(--text);
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+.graph-fold button { white-space: normal; max-width: 100%; }
+.graph-stage { position: relative; flex: 1; min-width: 0; min-height: 280px; display: flex; flex-direction: column; }
 #cy { flex: 1; min-height: 280px; width: 100%; }
 .graph-empty {
   flex: 1;
@@ -187,6 +201,7 @@ body.page-explore .site-footer { flex: none; }
   .list-toggle { width: 100%; }
   .side { display: none; border-right: none; }
   .side.open { display: flex; max-height: 62vh; border-bottom: 1px solid var(--line); }
+  .graph-stage { flex: none; min-height: 0; }
   #cy { height: 420px; flex: none; }
   .detail { border-left: none; border-top: 1px solid var(--line); }
 }

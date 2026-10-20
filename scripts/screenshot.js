@@ -10,7 +10,9 @@
  *      screenshots/01-start.png、02-question.png、03-result.png、04-graph.png，
  *      并截答题后显示解析的 05-explanation.png（1280×900）；
  *   3) 首页、知识图谱（cnm_221 / cnm_p001 / cnm_ext_002，以及根路径 #cnm_219）在 1280 与 375 宽下
- *      检查局部图、无横向溢出、无外网脚本/样式/字体/图片请求，并截 06–16。
+ *      检查局部图、无横向溢出、无外网脚本/样式/字体/图片请求，并截 06–16；
+ *   4) 知识图谱「全部」祖先（cnm_234：默认按年级收起，再展开并对准当前点）、375 宽长名称（cnm_124）
+ *      以及 375 宽诊断路径图，截 17–20。
  * 环境变量：CHROME=/path/to/chrome  PORT=8765  DEBUG_PORT=9333
  */
 'use strict';
@@ -20,6 +22,7 @@ const fs = require('fs');
 const os = require('os');
 const path = require('path');
 const http = require('http');
+const zlib = require('zlib');
 const E = require('../diagnose/engine.js');
 
 const ROOT = path.join(__dirname, '..');
@@ -51,6 +54,64 @@ function findChrome() {
   return hit;
 }
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+function pngInk(file, box) {
+  const buf = fs.readFileSync(file);
+  let off = 8, width = 0, height = 0, colorType = 0;
+  const chunks = [];
+  while (off + 8 <= buf.length) {
+    const len = buf.readUInt32BE(off);
+    const type = buf.toString('ascii', off + 4, off + 8);
+    const data = buf.subarray(off + 8, off + 8 + len);
+    if (type === 'IHDR') {
+      width = data.readUInt32BE(0);
+      height = data.readUInt32BE(4);
+      colorType = data[9];
+    } else if (type === 'IDAT') chunks.push(data);
+    else if (type === 'IEND') break;
+    off += 12 + len;
+  }
+  const bpp = colorType === 6 ? 4 : colorType === 2 ? 3 : 0;
+  if (!bpp) throw new Error('无法解析截图颜色：' + file);
+  const raw = zlib.inflateSync(Buffer.concat(chunks));
+  const stride = width * bpp;
+  const x0 = box ? Math.max(0, box.x) : 0;
+  const y0 = box ? Math.max(0, box.y) : 0;
+  const x1 = box ? Math.min(width, box.x + box.w) : width;
+  const y1 = box ? Math.min(height, box.y + box.h) : height;
+  let pos = 0, orange = 0, blue = 0;
+  let prev = Buffer.alloc(stride);
+  for (let y = 0; y < height; y++) {
+    const filter = raw[pos++];
+    const row = Buffer.alloc(stride);
+    for (let i = 0; i < stride; i++) {
+      const x = raw[pos++];
+      const a = i >= bpp ? row[i - bpp] : 0;
+      const b = prev[i];
+      const c = i >= bpp ? prev[i - bpp] : 0;
+      let v = x;
+      if (filter === 1) v = (x + a) & 255;
+      else if (filter === 2) v = (x + b) & 255;
+      else if (filter === 3) v = (x + ((a + b) >> 1)) & 255;
+      else if (filter === 4) {
+        const p = a + b - c;
+        const pa = Math.abs(p - a), pb = Math.abs(p - b), pc = Math.abs(p - c);
+        const pr = pa <= pb && pa <= pc ? a : pb <= pc ? b : c;
+        v = (x + pr) & 255;
+      }
+      row[i] = v;
+    }
+    prev = row;
+    if (y < y0 || y >= y1 || (y % 2)) continue;
+    for (let x = x0; x < x1; x += 2) {
+      const i = x * bpp;
+      const r = row[i], g = row[i + 1], bch = row[i + 2];
+      if (r > 180 && g > 60 && g < 190 && bch < 100) orange++;
+      if (bch > 140 && bch > r + 40 && bch > g) blue++;
+    }
+  }
+  return { width, height, orange, blue };
+}
 function getJson(url) {
   return new Promise((resolve, reject) => {
     http.get(url, (res) => { let b = ''; res.on('data', (c) => (b += c)); res.on('end', () => { try { resolve(JSON.parse(b)); } catch (e) { reject(e); } }); }).on('error', reject);
@@ -144,11 +205,13 @@ async function main() {
     dumpPage = () => evalJs('document.body.innerText.slice(0, 1500)');
     const exists = (sel) => evalJs('!!document.querySelector(' + JSON.stringify(sel) + ')');
     const click = (sel) => evalJs('(() => { const e = document.querySelector(' + JSON.stringify(sel) + '); if (!e) throw new Error("no " + ' + JSON.stringify(sel) + '); e.click(); return true; })()');
-    const shot = async (file, selector, clipH) => {
+    const shot = async (file, selector, clipH, opts) => {
       await sleep(300);
-      // 默认截当前视口宽度、从页面顶部起；给 selector 则从该元素上沿起截（可超出当前视口）
+      // 默认截当前视口宽度、从页面顶部起；给 selector 则从该元素上沿起截（可超出当前视口）。
+      // 大图的 canvas 在 captureBeyondViewport 下会拍成空白，视口内的图改用视口截图。
+      const beyond = !opts || opts.beyond !== false;
       const y = selector ? await evalJs('Math.max(0, document.querySelector(' + JSON.stringify(selector) + ').getBoundingClientRect().top + window.scrollY - 12)') : 0;
-      const r = await cdp.send('Page.captureScreenshot', { format: 'png', captureBeyondViewport: true, clip: { x: 0, y: y, width: viewW, height: clipH || viewH, scale: 1 } });
+      const r = await cdp.send('Page.captureScreenshot', { format: 'png', captureBeyondViewport: beyond, clip: { x: 0, y: beyond ? y : 0, width: viewW, height: clipH || viewH, scale: 1 } });
       fs.writeFileSync(path.join(OUT, file), Buffer.from(r.data, 'base64'));
       console.log('  截图 screenshots/' + file);
     };
@@ -159,6 +222,85 @@ async function main() {
       check(ov.ok, label + ' 无横向溢出（scrollWidth ' + ov.sw + ' / clientWidth ' + ov.cw + '）');
       const bad = await assetsOf();
       check(bad.length === 0, label + ' 没有外网 script/link/font/img' + (bad.length ? '：' + bad.join('；') : ''));
+    };
+    const NODE_METRICS_JS = `
+      let tall = 0, spill = 0, uncut = 0, overlap = 0, primary = 0, junior = 0, grades = 0;
+      const limit = window.matchMedia('(max-width: 700px)').matches ? 8 : 10;
+      const boxes = [];
+      cy.nodes().forEach(function (n) {
+        if (n.hasClass('primary')) primary++;
+        if (n.hasClass('junior')) junior++;
+        if (n.hasClass('grade')) grades++;
+        if (n.height() > 40) tall++;
+        const body = n.boundingBox({ includeLabels: false });
+        const withL = n.boundingBox({ includeLabels: true });
+        if (withL.w > body.w + 4 || withL.h > body.h + 4) spill++;
+        const name = n.data('name') || '';
+        const label = n.data('label') || '';
+        if (Array.from(name).length > limit && !String(label).endsWith('…')) uncut++;
+        if (Array.from(label).length > limit) uncut++;
+        boxes.push(withL);
+      });
+      for (let i = 0; i < boxes.length; i++) {
+        for (let j = i + 1; j < boxes.length; j++) {
+          const a = boxes[i], b = boxes[j];
+          if (a.x1 < b.x2 - 2 && a.x2 > b.x1 + 2 && a.y1 < b.y2 - 2 && a.y2 > b.y1 + 2) overlap++;
+        }
+      }
+    `;
+    const EXPLORE_GRAPH_EXPR = `(() => {
+      const cy = window.__cy;
+      const hard = cy.edges('.hard');
+      const soft = cy.edges('.soft');
+      ${NODE_METRICS_JS}
+      return {
+        nodes: cy.nodes().length, hash: location.hash,
+        title: (document.querySelector('.detail-title') || {}).textContent || '',
+        idCode: (document.querySelector('.id-code') || {}).textContent || '',
+        meta: document.getElementById('graph-meta').textContent,
+        diag: (document.querySelector('a.diag-btn') || {}).getAttribute ? document.querySelector('a.diag-btn').getAttribute('href') : '',
+        alias: (document.querySelector('.alias-note') || {}).textContent || '',
+        hard: hard.length ? hard[0].style('line-style') : '',
+        soft: soft.length ? soft[0].style('line-style') : '',
+        hardN: hard.length, softN: soft.length,
+        current: cy.nodes('.current').length,
+        primary, junior, grades, tall, spill, uncut, overlap,
+        wrap: cy.nodes().length ? cy.nodes()[0].style('text-wrap') : ''
+      };
+    })()`;
+    const PATH_GRAPH_EXPR = `(() => {
+      const cy = window.__pathCy;
+      if (!cy) return null;
+      ${NODE_METRICS_JS}
+      const hard = cy.edges('.hard');
+      const soft = cy.edges('.soft');
+      const indirect = cy.edges('.indirect');
+      return {
+        nodes: cy.nodes().length, primary, junior, grades, tall, spill, uncut, overlap,
+        root: cy.nodes('.root').length,
+        target: cy.nodes('.target').length,
+        rootBorder: cy.nodes('.root').length ? cy.nodes('.root')[0].style('border-width') : '',
+        hard: hard.length ? hard[0].style('line-style') : '',
+        soft: soft.length ? soft[0].style('line-style') : '',
+        indirect: indirect.length ? indirect[0].style('line-style') : '',
+        hardN: hard.length, softN: soft.length, indirectN: indirect.length,
+        pathItems: document.querySelectorAll('#path ol.path > li').length,
+        svg: !!document.querySelector('svg.graph')
+      };
+    })()`;
+    const checkPathGraph = async (label) => {
+      await waitFor(() => evalJs('document.getElementById("path-cy") && document.getElementById("path-cy").dataset.ready === "1"'), label + ' 路径图', 15000);
+      const g = await evalJs(PATH_GRAPH_EXPR);
+      check(!g.svg && g.nodes > 0 && g.pathItems > 0, label + ' 有 Cytoscape 路径图和文字路径（' + g.nodes + ' 个点，' + g.pathItems + ' 步）');
+      check(g.primary + g.junior === g.nodes, label + ' 节点按小学/初中区分（小学 ' + g.primary + '，初中 ' + g.junior + '）');
+      check(g.root >= 1 && parseFloat(g.rootBorder) >= 4, label + ' 薄弱根因已高亮');
+      check(g.target >= 1, label + ' 标出了目标');
+      check(g.hardN === 0 || g.hard === 'solid', label + ' 硬先修实线');
+      check(g.softN === 0 || g.soft === 'dashed', label + ' 软先修虚线');
+      check(g.indirectN === 0 || g.indirect === 'dotted', label + ' 省略边为点线');
+      check(g.tall === 0 && g.spill === 0 && g.uncut === 0, label + ' 标签单行截断（高 ' + g.tall + '，溢出 ' + g.spill + '，未截 ' + g.uncut + '）');
+      check(g.overlap === 0, label + ' 节点不重叠（' + g.overlap + '）');
+      return g;
     };
 
     console.log('冒烟测试');
@@ -218,7 +360,8 @@ async function main() {
       await sleep(30);
     }
     await waitFor(() => exists('#summary'), '结果页');
-    check(await exists('#roots') && await exists('#path') && await exists('svg.graph') && await exists('#shaky'), '结果页含 根因 / 不稳 / 学习路径 / SVG 路径图');
+    check(await exists('#roots') && await exists('#path') && await exists('#shaky') && await exists('ol.path'), '结果页含 根因 / 不稳 / 文字版学习路径');
+    await checkPathGraph('结果页');
     const asked = await evalJs('document.querySelectorAll("#log tbody tr").length');
     check(asked > 2 && asked <= 16, '答题数不超过上限 16（实际 ' + asked + '）');
     check((await evalJs('document.querySelectorAll("#roots details.topic").length')) >= 1, '至少有一个薄弱根因可展开');
@@ -287,8 +430,9 @@ async function main() {
       '演示模式同时出现 掌握（' + await stat('ok') + '）/ 不稳（' + await stat('shaky') + '）/ 薄弱（' + await stat('bad') + '）三种状态');
     check(await exists('#shaky details.topic') && await exists('#path .tag.shaky'), '「不稳」的点单独列出，并出现在学习路径里');
     await shot('03-result.png');
+    await checkPathGraph('演示结果页');
     // 路径图单独存一张便于检查
-    await shot('04-graph.png', '#graph');
+    await shot('04-graph.png', '#graph', 720);
 
     // 整章目标（URL 参数 chapter）+ 数值题自动判题
     await goto(BASE + '/diagnose/?chapter=' + encodeURIComponent('七上 第一章') + '&demo=1');
@@ -309,7 +453,7 @@ async function main() {
     const checkExplore = async (id, expect) => {
       await goto(BASE + '/explore/#' + encodeURIComponent(id));
       await waitFor(() => evalJs('document.getElementById("cy") && document.getElementById("cy").dataset.ready === "1"'), '局部图 ' + id, 20000);
-      const info = await evalJs('(() => { const cy = window.__cy; const hard = cy.edges(".hard"); const soft = cy.edges(".soft"); return { nodes: cy.nodes().length, hash: location.hash, title: (document.querySelector(".detail-title") || {}).textContent || "", idCode: (document.querySelector(".id-code") || {}).textContent || "", meta: document.getElementById("graph-meta").textContent, diag: (document.querySelector("a.diag-btn") || {}).getAttribute ? document.querySelector("a.diag-btn").getAttribute("href") : "", alias: (document.querySelector(".alias-note") || {}).textContent || "", hard: hard.length ? hard[0].style("line-style") : "", soft: soft.length ? soft[0].style("line-style") : "", hardN: hard.length, softN: soft.length, current: cy.nodes(".current").length }; })()');
+      const info = await evalJs(EXPLORE_GRAPH_EXPR);
       check(info.ready !== 'err' && info.nodes > 1 && info.nodes < 80, id + ' 局部图渲染了 ' + info.nodes + ' 个节点（不是全图 531）');
       check(info.meta.indexOf('向上 2 层') >= 0, id + ' 图注含「向上 2 层」（' + info.meta + '）');
       check(info.hash === '#' + id, id + ' 地址栏哈希保持为 ' + info.hash);
@@ -319,6 +463,8 @@ async function main() {
       if (expect.alias) check(info.alias.indexOf(expect.alias) >= 0 && info.alias.indexOf(id) >= 0, id + ' 显示旧编号说明');
       if (info.hardN) check(info.hard === 'solid', id + ' 硬先修为实线');
       if (info.softN) check(info.soft === 'dashed', id + ' 软先修为虚线（' + info.softN + ' 条）');
+      check(info.wrap === 'ellipsis' && info.tall === 0 && info.spill === 0 && info.uncut === 0 && info.overlap === 0,
+        id + ' 标签单行省略且不重叠（未截断 ' + info.uncut + '，溢出 ' + info.spill + '，重叠 ' + info.overlap + '，过高 ' + info.tall + '）');
       await checkPage('图谱 ' + id + ' ' + viewW);
       return info;
     };
@@ -336,6 +482,46 @@ async function main() {
     await checkPage('根路径 #cnm_219');
     await shot('16-explore-219.png');
 
+    console.log('全部祖先');
+    await goto(BASE + '/explore/#cnm_234');
+    await waitFor(() => evalJs('document.getElementById("cy") && document.getElementById("cy").dataset.ready === "1"'), 'cnm_234 局部图', 20000);
+    await click('#depth-switch [data-depth="all"]');
+    await waitFor(() => evalJs('document.getElementById("cy") && document.getElementById("cy").dataset.ready === "1" && document.getElementById("cy").dataset.mode === "grade"'), '全部祖先收起', 20000);
+    const folded = await evalJs(EXPLORE_GRAPH_EXPR);
+    const foldTotal = await evalJs('document.getElementById("cy").dataset.total');
+    const foldBtn = await evalJs('(document.getElementById("btn-expand-all") || {}).textContent || ""');
+    check(Number(foldTotal) > 40 && folded.nodes <= 40 && folded.nodes > 1, '全部祖先默认收起（画出 ' + folded.nodes + ' / 共 ' + foldTotal + '）');
+    check(folded.grades >= 2 && folded.primary > 0 && folded.junior > 0, '收起后按年级分组，小学和初中都在（年级节点 ' + folded.grades + '）');
+    check(foldBtn === '共 ' + foldTotal + ' 个，点此展开全部', '收起提示为「' + foldBtn + '」');
+    check(folded.wrap === 'ellipsis' && folded.overlap === 0 && folded.spill === 0, '收起图标签不重叠');
+    if (folded.hardN) check(folded.hard === 'solid', '收起图硬先修为实线');
+    if (folded.softN) check(folded.soft === 'dashed', '收起图软先修为虚线');
+    await checkPage('全部祖先收起');
+    await shot('17-explore-all.png');
+    const expandStarted = Date.now();
+    await click('#btn-expand-all');
+    await waitFor(() => evalJs('document.getElementById("cy") && document.getElementById("cy").dataset.ready === "1" && document.getElementById("cy").dataset.mode === "full"'), '全部祖先展开', 20000);
+    const expandMs = Date.now() - expandStarted;
+    const opened = await evalJs(EXPLORE_GRAPH_EXPR);
+    check(opened.nodes === Number(foldTotal) && opened.nodes > 40, '展开后画出全部 ' + opened.nodes + ' 个知识点');
+    check(expandMs < 8000, '展开布局耗时 ' + expandMs + ' ms');
+    check(opened.overlap === 0 && opened.spill === 0 && opened.tall === 0, '展开后节点不重叠、标签不溢出');
+    check((opened.meta || '').indexOf('已对准当前知识点') >= 0, '大图展开后说明已对准当前知识点');
+    const visible = await evalJs('(() => { const cy = window.__cy; const node = cy.getElementById("cnm_234"); const r = node.renderedBoundingBox(); const w = cy.width(), h = cy.height(); let colored = 0; document.querySelectorAll("#cy canvas").forEach(function (c) { const ctx = c.getContext("2d"); if (!ctx || !c.width || !c.height) return; const data = ctx.getImageData(0, 0, c.width, c.height).data; const step = 4; for (let y = 0; y < c.height; y += step) { for (let x = 0; x < c.width; x += step) { const i = (y * c.width + x) * 4; const R = data[i], G = data[i + 1], B = data[i + 2], A = data[i + 3]; if (A > 20 && (R < 240 || G < 240 || B < 240)) colored++; } } }); return { h: Math.round(r.h), w: Math.round(r.w), colored: colored, zoom: cy.zoom(), inside: r.x2 > 8 && r.x1 < w - 8 && r.y2 > 8 && r.y1 < h - 8 }; })()');
+    check(visible.inside && visible.h >= 24 && visible.colored > 80, '展开后当前节点可读且画布有内容（高 ' + visible.h + '，着色采样 ' + visible.colored + '，缩放 ' + visible.zoom.toFixed(2) + '）');
+    const cyBox = await evalJs('(() => { const r = document.getElementById("cy").getBoundingClientRect(); return { x: Math.max(0, Math.floor(r.x)), y: Math.max(0, Math.floor(r.y)), w: Math.round(r.width), h: Math.round(r.height) }; })()');
+    await shot('18-explore-all-open.png', null, null, { beyond: false });
+    const ink = pngInk(path.join(OUT, '18-explore-all-open.png'), cyBox);
+    check(ink.orange > 40 && ink.blue > 40, '展开截图画布里能看见节点（蓝 ' + ink.blue + '，橙 ' + ink.orange + '，区域 ' + cyBox.x + ',' + cyBox.y + ' ' + cyBox.w + '×' + cyBox.h + '）');
+    const zoomBefore = await evalJs('window.__cy.zoom()');
+    await click('#btn-zoom-in');
+    const zoomAfter = await evalJs('window.__cy.zoom()');
+    check(zoomAfter > zoomBefore, '展开后仍可缩放（' + zoomBefore.toFixed(3) + ' → ' + zoomAfter.toFixed(3) + '）');
+    await click('#btn-fit');
+    const fitted = await evalJs('(() => { const cy = window.__cy; const r = cy.getElementById("cnm_234").renderedBoundingBox(); return { zoom: cy.zoom(), h: r.h }; })()');
+    check(fitted.zoom >= 0.45 && fitted.h >= 12, '适配画面后节点不缩成点（缩放 ' + fitted.zoom.toFixed(3) + '，高 ' + Math.round(fitted.h) + '）');
+    await evalJs('sessionStorage.setItem("cnmExplore.depth","2")');
+
     console.log('窄屏 375');
     await setView(375, 812);
     await goto(BASE + '/');
@@ -348,13 +534,24 @@ async function main() {
     await shot('12-explore-p001-375.png', null, 1100);
     await checkExplore('cnm_ext_002', { title: '分数的意义', idCode: 'cnm_p165', diag: 'cnm_p165', alias: '分数的意义与四则运算' });
     await shot('13-explore-ext002-375.png', null, 1100);
+    await evalJs('sessionStorage.setItem("cnmExplore.depth","2")');
+    await goto(BASE + '/explore/#cnm_124');
+    await waitFor(() => evalJs('document.getElementById("cy") && document.getElementById("cy").dataset.ready === "1" && document.querySelector(".id-code") && document.querySelector(".id-code").textContent === "cnm_124"'), '长名称 375', 20000);
+    const longName = '全等判定：角边角（ASA）与角角边（AAS）';
+    const longInfo = await evalJs('(() => { const cy = window.__cy; const node = cy.getElementById("cnm_124"); node.emit("mouseover"); const tip = document.getElementById("node-tip"); const base = ' + EXPLORE_GRAPH_EXPR + '; return Object.assign(base, { tip: tip && !tip.hidden ? tip.textContent : "", label: node.data("label"), name: node.data("name"), hidden: !tip || tip.hidden }); })()');
+    check(longInfo.name === longName && longInfo.tip === longName, '375 宽悬停显示全名（' + longInfo.tip + '）');
+    check(Array.from(longInfo.label).length <= 8 && longInfo.label.endsWith('…'), '375 宽长名称已省略（' + longInfo.label + '）');
+    check(longInfo.spill === 0 && longInfo.overlap === 0 && longInfo.tall === 0, '375 宽长名称不折行、不溢出、不重叠');
+    await checkPage('长名称 375');
+    await shot('19-longname-375.png', '.graph-pane', 760);
     await goto(BASE + '/diagnose/?target=cnm_221&demo=1');
     await waitFor(() => exists('#summary'), '诊断结果页 375');
-    check(await exists('svg.graph'), '375 宽结果页仍有 SVG 路径图');
+    await checkPathGraph('375 结果页');
     const choiceH = await evalJs('(() => { const b = document.querySelector("button"); return b ? b.getBoundingClientRect().height : 0; })()');
     check(choiceH >= 44, '按钮触控高度 ≥ 44px（' + Math.round(choiceH) + '）');
     await checkPage('诊断结果 375');
     await shot('14-diagnose-375.png', null, 1100);
+    await shot('20-diagnose-graph-375.png', '#graph', 720);
     await goto(BASE + '/diagnose/');
     await evalJs('localStorage.clear()');
     await goto(BASE + '/diagnose/');

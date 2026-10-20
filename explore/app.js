@@ -26,9 +26,12 @@
   var query = '';
   var aliasHitIds = new Set();
   var upDepth = 2;
+  var ancestorsOpen = false;
+  var tipFromTap = false;
   var cy = null;
   var graphToken = 0;
   var dagreReady = false;
+  var FOLD_AT = 40;
 
   function $(id) { return document.getElementById(id); }
 
@@ -340,7 +343,7 @@
     var pres = pre.get(topic.id) || [];
     parts.push(el('section', null,
       el('h2', { text: '先修' }),
-      el('p', { class: 'muted', text: '直接 ' + pres.length + ' 个，全部上游 ' + countReach(pre, topic.id) + ' 个。图上默认只画向上 2 层。' }),
+      el('p', { class: 'muted', text: '直接 ' + pres.length + ' 个，全部上游 ' + countReach(pre, topic.id) + ' 个。图上默认只画向上 2 层；选「全部」且超过 ' + FOLD_AT + ' 个时先按年级收起。' }),
       pres.length ? pres.map(relButton) : el('p', { text: '这是起点，没有更早的先修。' })));
 
     var posts = post.get(topic.id) || [];
@@ -370,6 +373,45 @@
     return seen;
   }
 
+  function labelLimit() {
+    return window.matchMedia('(max-width: 700px)').matches ? 8 : 10;
+  }
+
+  function clipLabel(name) {
+    var chars = Array.from(name || '');
+    var limit = labelLimit();
+    if (chars.length <= limit) return name || '';
+    return chars.slice(0, limit - 1).join('') + '…';
+  }
+
+  function hideTip() {
+    var tip = $('node-tip');
+    if (tip) tip.hidden = true;
+  }
+
+  function showTip(node) {
+    var tip = $('node-tip');
+    var stage = $('graph-stage');
+    if (!tip || !stage || !cy || !node || node.empty()) return;
+    var text = node.data('full') || node.data('label') || '';
+    if (!text) { tip.hidden = true; return; }
+    tip.textContent = text;
+    tip.hidden = false;
+    var stageRect = stage.getBoundingClientRect();
+    var cyRect = cy.container().getBoundingClientRect();
+    var bb = node.renderedBoundingBox({ includeLabels: true });
+    var tipW = tip.offsetWidth;
+    var tipH = tip.offsetHeight;
+    var cx = cyRect.left - stageRect.left + (bb.x1 + bb.x2) / 2;
+    var top = cyRect.top - stageRect.top + bb.y1;
+    var left = Math.max(8, Math.min(cx - tipW / 2, Math.max(8, stageRect.width - tipW - 8)));
+    var y = top - tipH - 8;
+    if (y < 4) y = cyRect.top - stageRect.top + bb.y2 + 8;
+    if (y + tipH > stageRect.height - 4) y = Math.max(4, stageRect.height - tipH - 4);
+    tip.style.left = left + 'px';
+    tip.style.top = y + 'px';
+  }
+
   function ensureDagre() {
     if (dagreReady) return;
     if (!window.cytoscape || !window.dagre || !window.cytoscapeDagre) {
@@ -379,8 +421,135 @@
     dagreReady = true;
   }
 
+  function topicElement(id, colors) {
+    var topic = byId.get(id);
+    var primary = topic.grade <= 6;
+    var current = id === selected;
+    var name = topic.name;
+    return {
+      data: {
+        id: id,
+        name: name,
+        full: name,
+        label: clipLabel(name),
+        bg: current ? colors.currentBg : (primary ? colors.primaryBg : colors.juniorBg),
+        border: current ? colors.currentBorder : (primary ? colors.primary : colors.junior),
+        color: colors.text
+      },
+      classes: (primary ? 'primary' : 'junior') + (current ? ' current' : '')
+    };
+  }
+
+  function edgeElement(id, source, target, soft, colors) {
+    return {
+      data: {
+        id: id,
+        source: source,
+        target: target,
+        color: soft ? colors.edgeSoft : colors.edge
+      },
+      classes: soft ? 'soft' : 'hard'
+    };
+  }
+
+  function updateFold(total, folded) {
+    var box = $('graph-fold');
+    if (upDepth !== 'all' || total <= FOLD_AT) {
+      box.hidden = true;
+      box.replaceChildren();
+      return;
+    }
+    box.hidden = false;
+    if (folded) {
+      box.replaceChildren(
+        document.createTextNode('祖先较多，已按年级收起。'),
+        el('button', { type: 'button', id: 'btn-expand-all', 'data-total': String(total), text: '共 ' + total + ' 个，点此展开全部' })
+      );
+    } else {
+      box.replaceChildren(
+        document.createTextNode('已展开全部 ' + total + ' 个知识点。'),
+        el('button', { type: 'button', id: 'btn-collapse-all', text: '按年级收起' })
+      );
+    }
+  }
+
+  function buildFoldedElements(nodeSet, colors) {
+    var downIds = {};
+    (post.get(selected) || []).forEach(function (edge) { downIds[edge.id] = edge.strength; });
+    var gradeMembers = new Map();
+    nodeSet.forEach(function (id) {
+      if (id === selected || downIds[id]) return;
+      var grade = byId.get(id).grade;
+      if (!gradeMembers.has(grade)) gradeMembers.set(grade, []);
+      gradeMembers.get(grade).push(id);
+    });
+    var gradeOf = new Map();
+    var elements = [];
+    gradeMembers.forEach(function (ids, grade) {
+      var primary = grade <= 6;
+      var name = CN[grade] + '年级·' + ids.length + '个';
+      ids.forEach(function (id) { gradeOf.set(id, grade); });
+      elements.push({
+        data: {
+          id: 'grade-' + grade,
+          name: name,
+          full: CN[grade] + '年级的 ' + ids.length + ' 个先修',
+          label: clipLabel(name),
+          bg: primary ? colors.primaryBg : colors.juniorBg,
+          border: primary ? colors.primary : colors.junior,
+          color: colors.text
+        },
+        classes: (primary ? 'primary' : 'junior') + ' grade'
+      });
+    });
+    elements.push(topicElement(selected, colors));
+    Object.keys(downIds).forEach(function (id) {
+      if (nodeSet.has(id)) elements.push(topicElement(id, colors));
+    });
+    var between = new Map();
+    deps.forEach(function (edge) {
+      var fromG = gradeOf.get(edge.prerequisiteId);
+      var toG = gradeOf.get(edge.topicId);
+      if (fromG == null || toG == null || fromG === toG) return;
+      var key = fromG + '>' + toG;
+      if (edge.strength !== 'soft') between.set(key, 'hard');
+      else if (!between.has(key)) between.set(key, 'soft');
+    });
+    between.forEach(function (kind, key) {
+      var parts = key.split('>');
+      elements.push(edgeElement('g-' + parts[0] + '-' + parts[1], 'grade-' + parts[0], 'grade-' + parts[1], kind === 'soft', colors));
+    });
+    var into = new Map();
+    (pre.get(selected) || []).forEach(function (edge) {
+      var grade = gradeOf.get(edge.id);
+      if (grade == null) return;
+      if (edge.strength !== 'soft') into.set(grade, 'hard');
+      else if (!into.has(grade)) into.set(grade, 'soft');
+    });
+    into.forEach(function (kind, grade) {
+      elements.push(edgeElement('gs' + grade, 'grade-' + grade, selected, kind === 'soft', colors));
+    });
+    Object.keys(downIds).forEach(function (id) {
+      if (!nodeSet.has(id)) return;
+      elements.push(edgeElement('sd-' + id, selected, id, downIds[id] === 'soft', colors));
+    });
+    return elements;
+  }
+
+  function buildFullElements(nodeSet, colors) {
+    var elements = [];
+    nodeSet.forEach(function (id) { elements.push(topicElement(id, colors)); });
+    deps.forEach(function (edge, edgeIndex) {
+      if (!nodeSet.has(edge.topicId) || !nodeSet.has(edge.prerequisiteId)) return;
+      elements.push(edgeElement('e' + edgeIndex, edge.prerequisiteId, edge.topicId, edge.strength === 'soft', colors));
+    });
+    return elements;
+  }
+
   function renderGraph() {
     var token = ++graphToken;
+    tipFromTap = false;
+    hideTip();
     if (cy) { cy.destroy(); cy = null; window.__cy = null; }
     var cyEl = $('cy');
     var emptyEl = $('graph-empty');
@@ -388,100 +557,120 @@
     if (!selected || !byId.has(selected)) {
       cyEl.hidden = true;
       cyEl.dataset.ready = '0';
+      cyEl.dataset.mode = '';
+      cyEl.dataset.total = '';
       emptyEl.hidden = false;
       meta.textContent = '';
+      updateFold(0, false);
       return;
     }
     var depth = upDepth === 'all' ? Infinity : upDepth;
     var upSet = upstream(selected, depth);
     var nodeSet = new Set(upSet);
     (post.get(selected) || []).forEach(function (edge) { nodeSet.add(edge.id); });
+    var total = nodeSet.size;
+    var folded = upDepth === 'all' && total > FOLD_AT && !ancestorsOpen;
     var edgeCount = 0;
-    deps.forEach(function (edge) {
-      if (nodeSet.has(edge.topicId) && nodeSet.has(edge.prerequisiteId)) edgeCount++;
-    });
+    if (!folded) {
+      deps.forEach(function (edge) {
+        if (nodeSet.has(edge.topicId) && nodeSet.has(edge.prerequisiteId)) edgeCount++;
+      });
+    }
     var depthLabel = upDepth === 'all' ? '全部祖先' : (upDepth + ' 层');
-    meta.textContent = '局部图 ' + nodeSet.size + ' 个知识点、' + edgeCount + ' 条先修。向上 ' + depthLabel + '，向下 1 层。';
+    var note = '长名称会省略，悬停或点按可看全名。';
+    if (folded) meta.textContent = '已按年级收起，全部 ' + total + ' 个知识点。向上 ' + depthLabel + '，向下 1 层。' + note;
+    else meta.textContent = '局部图 ' + total + ' 个知识点、' + edgeCount + ' 条先修。向上 ' + depthLabel + '，向下 1 层。' + note;
+    updateFold(total, folded);
     cyEl.hidden = false;
     emptyEl.hidden = true;
     cyEl.dataset.ready = '0';
+    cyEl.dataset.mode = folded ? 'grade' : 'full';
+    cyEl.dataset.total = String(total);
+    var heavy = !folded && total > 80;
+    if (heavy) meta.textContent = '正在排列全部 ' + total + ' 个知识点…';
 
-    requestAnimationFrame(function () {
+    var kick = heavy ? function (fn) { setTimeout(fn, 40); } : requestAnimationFrame;
+    kick(function () {
       if (token !== graphToken) return;
       try {
         ensureDagre();
         if (cyEl.clientHeight < 40) cyEl.style.minHeight = '420px';
         var colors = theme();
-        var elements = [];
-        nodeSet.forEach(function (id) {
-          var topic = byId.get(id);
-          var primary = topic.grade <= 6;
-          var current = id === selected;
-          elements.push({
-            data: {
-              id: id,
-              label: topic.name,
-              bg: current ? colors.currentBg : (primary ? colors.primaryBg : colors.juniorBg),
-              border: current ? colors.currentBorder : (primary ? colors.primary : colors.junior),
-              color: colors.text
-            },
-            classes: (primary ? 'primary' : 'junior') + (current ? ' current' : '')
-          });
-        });
-        deps.forEach(function (edge, edgeIndex) {
-          if (!nodeSet.has(edge.topicId) || !nodeSet.has(edge.prerequisiteId)) return;
-          var soft = edge.strength === 'soft';
-          elements.push({
-            data: {
-              id: 'e' + edgeIndex,
-              source: edge.prerequisiteId,
-              target: edge.topicId,
-              color: soft ? colors.edgeSoft : colors.edge
-            },
-            classes: soft ? 'soft' : 'hard'
-          });
-        });
-        cy = window.cytoscape({
+        var narrow = labelLimit() <= 8;
+        var textMax = narrow ? 104 : 126;
+        var boxW = narrow ? 118 : 142;
+        var elements = folded ? buildFoldedElements(nodeSet, colors) : buildFullElements(nodeSet, colors);
+        var dense = heavy;
+        var cyOptions = {
           container: cyEl,
           elements: elements,
-          minZoom: 0.25,
-          maxZoom: 2.6,
+          // 大图若缩到能塞进一屏，节点只剩几个像素，Cytoscape 会改画整图贴图，画面基本是空的。
+          minZoom: heavy ? 0.5 : 0.05,
+          maxZoom: 2.8,
           wheelSensitivity: 0.28,
           boxSelectionEnabled: false,
           autoungrabify: true,
           userPanningEnabled: true,
-          userZoomingEnabled: true,
-          style: [
-            { selector: 'node', style: {
-              label: 'data(label)', 'text-wrap': 'wrap', 'text-max-width': '140px',
-              'text-valign': 'center', 'text-halign': 'center', 'text-justification': 'center',
-              'font-size': 14, 'font-family': FONT, color: 'data(color)',
-              'background-color': 'data(bg)', 'border-width': 2, 'border-color': 'data(border)',
-              shape: 'round-rectangle', width: 'label', height: 'label', padding: '8px', 'corner-radius': 10
-            } },
-            { selector: 'node.current', style: { 'border-width': 4, 'font-size': 15, 'z-index': 10 } },
-            { selector: 'edge', style: {
-              width: 1.8, 'line-color': 'data(color)', 'target-arrow-color': 'data(color)',
-              'target-arrow-shape': 'triangle', 'curve-style': 'bezier', 'arrow-scale': 0.85, 'line-style': 'solid'
-            } },
-            { selector: 'edge.soft', style: { 'line-style': 'dashed', width: 1.6 } }
-          ]
-        });
+          userZoomingEnabled: true
+        };
+        cyOptions.style = [
+          { selector: 'node', style: {
+            label: 'data(label)', 'text-wrap': 'ellipsis', 'text-max-width': textMax + 'px',
+            'text-overflow-wrap': 'anywhere',
+            'text-valign': 'center', 'text-halign': 'center',
+            'font-size': 13, 'font-family': FONT, color: 'data(color)',
+            'background-color': 'data(bg)', 'border-width': 2, 'border-color': 'data(border)',
+            shape: 'round-rectangle', width: boxW, height: 34, padding: 0, 'corner-radius': 8
+          } },
+          { selector: 'node.current', style: { 'border-width': 4, 'z-index': 10 } },
+          { selector: 'edge', style: {
+            width: 1.6, 'line-color': 'data(color)', 'target-arrow-color': 'data(color)',
+            'target-arrow-shape': 'triangle', 'curve-style': dense ? 'straight' : 'bezier',
+            'arrow-scale': 0.8, 'line-style': 'solid'
+          } },
+          { selector: 'edge.soft', style: { 'line-style': 'dashed', width: 1.5 } }
+        ];
+        cy = window.cytoscape(cyOptions);
         window.__cy = cy;
+        cy.on('mouseover', 'node', function (event) { showTip(event.target); });
+        cy.on('mouseout', 'node', function () { if (!tipFromTap) hideTip(); });
         cy.on('tap', 'node', function (event) {
           var id = event.target.id();
-          if (id && id !== selected) select(id, 'user');
+          tipFromTap = true;
+          showTip(event.target);
+          if (!id || String(id).indexOf('grade-') === 0 || id === selected) return;
+          select(id, 'user');
+        });
+        cy.on('tap', function (event) {
+          if (event.target === cy) { tipFromTap = false; hideTip(); }
         });
         var layout = cy.layout({
-          name: 'dagre', rankDir: 'TB', rankSep: 72, nodeSep: 28, edgeSep: 12,
-          padding: 16, animate: false, fit: true, nodeDimensionsIncludeLabels: true, spacingFactor: 1.05
+          name: 'dagre', rankDir: 'TB',
+          rankSep: dense ? 48 : 64,
+          nodeSep: dense ? 18 : 26,
+          edgeSep: dense ? 8 : 12,
+          ranker: dense ? 'longest-path' : 'network-simplex',
+          padding: 16, animate: false, fit: true,
+          nodeDimensionsIncludeLabels: false, spacingFactor: dense ? 1.02 : 1.05
         });
         layout.one('layoutstop', function () {
           if (token !== graphToken) return;
           requestAnimationFrame(function () {
             if (token !== graphToken || !cy) return;
             cy.resize();
-            cy.fit(undefined, 36);
+            cy.fit(undefined, dense ? 24 : 28);
+            var framed = false;
+            if (heavy && cy.zoom() < 0.72) {
+              cy.zoom(0.85);
+              var focus = cy.getElementById(selected);
+              if (focus && !focus.empty()) cy.center(focus);
+              framed = true;
+            }
+            if (!folded) {
+              meta.textContent = '局部图 ' + total + ' 个知识点、' + edgeCount + ' 条先修。向上 ' + depthLabel + '，向下 1 层。'
+                + (framed ? '已对准当前知识点，可拖动查看其余节点。' : '')
+                + note;
+            }
             cyEl.dataset.ready = '1';
           });
         });
@@ -504,6 +693,7 @@
       return;
     }
     var same = hit.id === selected && !currentAlias && !hit.alias;
+    if (hit.id !== selected) ancestorsOpen = false;
     selected = hit.id;
     currentAlias = source === 'user' ? null : hit.alias;
     if (source === 'user') {
@@ -599,8 +789,15 @@
       if (!button) return;
       var value = button.getAttribute('data-depth');
       upDepth = value === 'all' ? 'all' : parseInt(value, 10);
+      ancestorsOpen = false;
       try { sessionStorage.setItem('cnmExplore.depth', value); } catch (error) { /* 忽略 */ }
       syncDepthButtons();
+      renderGraph();
+    });
+    $('graph-fold').addEventListener('click', function (event) {
+      if (event.target.closest('#btn-expand-all')) ancestorsOpen = true;
+      else if (event.target.closest('#btn-collapse-all')) ancestorsOpen = false;
+      else return;
       renderGraph();
     });
     $('list-toggle').addEventListener('click', function () {
@@ -611,7 +808,13 @@
     $('btn-fit').addEventListener('click', function () {
       if (!cy) return;
       cy.resize();
+      var many = cy.nodes().length > 80;
+      if (many) cy.minZoom(0.5);
       cy.fit(undefined, 36);
+      if (many && cy.zoom() < 0.5) {
+        cy.zoom(0.5);
+        cy.center();
+      }
     });
     $('btn-zoom-in').addEventListener('click', function () { zoomBy(1.25); });
     $('btn-zoom-out').addEventListener('click', function () { zoomBy(0.8); });
@@ -631,6 +834,10 @@
     var colorScheme = window.matchMedia('(prefers-color-scheme: dark)');
     if (colorScheme.addEventListener) {
       colorScheme.addEventListener('change', function () { if (selected) renderGraph(); });
+    }
+    var narrow = window.matchMedia('(max-width: 700px)');
+    if (narrow.addEventListener) {
+      narrow.addEventListener('change', function () { if (selected) renderGraph(); });
     }
   }
 
