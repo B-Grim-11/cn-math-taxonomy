@@ -13,7 +13,8 @@
     ['三上', '三年级上册'], ['三下', '三年级下册'], ['四上', '四年级上册'], ['四下', '四年级下册'],
     ['五上', '五年级上册'], ['五下', '五年级下册'], ['六上', '六年级上册'], ['六下', '六年级下册'],
     ['七上', '七年级上册'], ['七下', '七年级下册'], ['八上', '八年级上册'], ['八下', '八年级下册'],
-    ['九上', '九年级上册'], ['九下', '九年级下册']
+    ['九上', '九年级上册'], ['九下', '九年级下册'],
+    ['高一', '高一 · 必修第一册'], ['高二', '高二 · 必修第二册']
   ];
   const RESULT_LABEL = { correct: '对', wrong: '错', skip: '不会' };
   const STATUS_LABEL = { mastered: '已掌握', shaky: '不稳', weak: '薄弱', unknown: '未测' };
@@ -90,6 +91,7 @@
     return {
       primary: cssVar('--node-primary'), primaryBg: cssVar('--node-primary-bg'),
       junior: cssVar('--node-junior'), juniorBg: cssVar('--node-junior-bg'),
+      senior: cssVar('--node-senior'), seniorBg: cssVar('--node-senior-bg'),
       currentBg: cssVar('--node-current-bg'), currentBorder: cssVar('--node-current-border'),
       text: cssVar('--node-text'), edge: cssVar('--edge'), edgeSoft: cssVar('--edge-soft'),
       bad: cssVar('--diagram-bad'), badBg: cssVar('--diagram-bad-bg')
@@ -281,7 +283,7 @@
       h('h1', { text: '选择诊断目标' }),
       h('p', { class: 'muted' }, '选一个想学会或想检查的知识点。第一题答对就算掌握；答错会再出一道同级或更容易的题——第二题也错才算薄弱，并回溯到先修；第二题答对则标为「不稳」。'),
       h('div', { class: 'stage-tabs', role: 'tablist', 'aria-label': '学段' },
-        stageButton('', '全部'), stageButton('p', '小学'), stageButton('j', '初中')),
+        stageButton('', '全部'), stageButton('p', '小学'), stageButton('j', '初中'), stageButton('h', '高中')),
       h('input', {
         type: 'search', class: 'search-lg', id: 'search', placeholder: '搜索知识点，例如：配方法、20 以内加法、一次函数',
         value: startQuery, autocomplete: 'off', 'aria-label': '搜索知识点',
@@ -304,7 +306,11 @@
     if (startQuery) { const el = document.getElementById('search'); if (el) el.focus(); }
   }
 
-  function gradeScope() { return gradeSel + (volSel ? volSel : '年级'); }
+  function seniorGrade(sel) { return sel === '高一' || sel === '高二'; }
+  function gradeScope() {
+    if (seniorGrade(gradeSel)) return gradeSel;
+    return gradeSel + (volSel ? volSel : '年级');
+  }
 
   function gradeCard() {
     const box = h('div', { class: 'card', id: 'grade-card' });
@@ -333,9 +339,14 @@
       box.append(
         h('h2', { text: '按年级整体诊断' }),
         h('p', { class: 'muted' }, '不选具体知识点，在一个年级（或一册）里抽查：每个知识点最多问 2 题，答错只在所选范围内回溯先修，最后按章汇总出哪几章薄弱。适合期初摸底、学期末复习。'),
-        tabs('年级', GRADES.map(function (x) { return [x, x + '年级']; }), gradeSel, function (v) { gradeSel = v; }),
+        tabs('年级', GRADES.map(function (x) { return [x, x + '年级']; }).concat([['高一', '高一'], ['高二', '高二']]), gradeSel, function (v) {
+          gradeSel = v;
+          if (seniorGrade(v)) volSel = '';
+        }),
         h('div', { style: 'margin-top:8px' }),
-        tabs('范围', [['', '整年级'], ['上', '上册'], ['下', '下册']], volSel, function (v) { volSel = v; }),
+        seniorGrade(gradeSel)
+          ? tabs('范围', [['', '必修整册']], '', function () { volSel = ''; })
+          : tabs('范围', [['', '整年级'], ['上', '上册'], ['下', '下册']], volSel, function (v) { volSel = v; }),
         h('p', { class: 'muted', id: 'grade-info' }, g ? g.label + '：' + g.ids.length + ' 个知识点。' : '这个范围没有知识点。'),
         h('div', { class: 'row' },
           h('label', null, '题量上限（' + SCREEN_MIN + '–' + SCREEN_MAX + '）', limitInput),
@@ -353,10 +364,13 @@
     while (box.firstChild) box.removeChild(box.firstChild);
     const q = startQuery.trim().toLowerCase();
     let shown = 0;
-    const primaryGrade = '一二三四五六';
+    function volumeStage(key) {
+      if (key === '高一' || key === '高二') return 'h';
+      if ('一二三四五六'.indexOf(key.charAt(0)) >= 0) return 'p';
+      return 'j';
+    }
     VOLUMES.forEach(function (vv) {
-      if (startStage === 'p' && primaryGrade.indexOf(vv[0].charAt(0)) < 0) return;
-      if (startStage === 'j' && primaryGrade.indexOf(vv[0].charAt(0)) >= 0) return;
+      if (startStage && volumeStage(vv[0]) !== startStage) return;
       const v = D.tree[vv[0]];
       if (!v) return;
       const chapters = [];
@@ -371,7 +385,7 @@
       if (!chapters.length) return;
       const count = chapters.reduce(function (n, c) { return n + c.rows.length; }, 0);
       shown += count;
-      const det = h('details', { class: 'vol', open: !!q || (startStage === 'j' ? vv[0] === '七上' : vv[0] === '一上') },
+      const det = h('details', { class: 'vol', open: !!q || (startStage === 'j' ? vv[0] === '七上' : startStage === 'h' ? vv[0] === '高一' : vv[0] === '一上') },
         h('summary', null, vv[1] + '（' + count + ' 个知识点）'));
       chapters.forEach(function (c) {
         const ch = c.ch;
@@ -649,10 +663,11 @@
 
     page.append(h('div', { class: 'card', id: 'graph' },
       h('h2', { text: '路径图' }),
-      h('p', { class: 'muted small' }, '小学和初中用不同颜色。硬先修是实线，软先修是虚线，点线表示中间省略了没画出来的知识点。红框是薄弱根因，橙框是目标。名称太长会省略，悬停或点按可看全名。上面的列表是完整学习顺序。'),
+      h('p', { class: 'muted small' }, '小学、初中和高中用不同颜色。硬先修是实线，软先修是虚线，点线表示中间省略了没画出来的知识点。红框是薄弱根因，橙框是目标。名称太长会省略，悬停或点按可看全名。上面的列表是完整学习顺序。'),
       h('ul', { class: 'legend' },
         h('li', null, h('i', { class: 'swatch sw-p' }), '小学'),
         h('li', null, h('i', { class: 'swatch sw-j' }), '初中'),
+        h('li', null, h('i', { class: 'swatch sw-h' }), '高中'),
         h('li', null, h('i', { class: 'swatch sw-root' }), '薄弱根因'),
         h('li', null, h('i', { class: 'swatch sw-target' }), '目标'),
         h('li', null, h('i', { class: 'swatch line-hard' }), '硬先修（实线）'),
@@ -799,17 +814,18 @@
         const elements = [];
         lay.nodes.forEach(function (n) {
           const topic = D.graph.byId[n.id];
-          const primary = !!(topic && topic.grade <= 6);
+          const grade = topic && typeof topic.grade === 'number' ? topic.grade : 7;
+          const kind = grade <= 6 ? 'primary' : grade <= 9 ? 'junior' : 'senior';
           const name = nameOf(n.id);
           const bits = [name];
           if (n.isRoot) bits.push('薄弱根因');
           if (n.isTarget) bits.push('目标');
           bits.push(STATUS_LABEL[n.status] || n.status);
-          let bg = primary ? colors.primaryBg : colors.juniorBg;
-          let border = primary ? colors.primary : colors.junior;
+          let bg = kind === 'primary' ? colors.primaryBg : kind === 'junior' ? colors.juniorBg : colors.seniorBg;
+          let border = kind === 'primary' ? colors.primary : kind === 'junior' ? colors.junior : colors.senior;
           if (n.isTarget) { bg = colors.currentBg; border = colors.currentBorder; }
           if (n.isRoot) { bg = colors.badBg; border = colors.bad; }
-          const classes = [primary ? 'primary' : 'junior'];
+          const classes = [kind];
           if (n.isRoot) classes.push('root');
           if (n.isTarget) classes.push('target', 'current');
           elements.push({
@@ -974,7 +990,12 @@
     const volume = (params.get('volume') || '').trim();
     if (grade || volume) {
       let scope = volume || grade;
-      if (grade && volume) {
+      if (grade === '高一' || grade === '高二' || grade === '高一必修' || grade === '高二必修') {
+        if (volume && volume !== '必修') {
+          throw new Error('高中必修不拆上下册：' + grade + ' / ' + volume + '（用 grade=高一 或 grade=高二）');
+        }
+        scope = grade.indexOf('高二') >= 0 ? '高二' : '高一';
+      } else if (grade && volume) {
         const gch = /^[一二三四五六七八九]$/.test(grade) ? grade : grade.charAt(0);
         scope = /^[上下]$/.test(volume) ? gch + volume : volume;
         if (scope.charAt(0) !== gch) throw new Error('URL 参数 grade 与 volume 不一致：' + grade + ' / ' + volume);

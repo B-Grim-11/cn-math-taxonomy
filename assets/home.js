@@ -47,27 +47,33 @@
     if (!grades) return;
     grades.replaceChildren();
     grades.removeAttribute('aria-busy');
-    for (var g = 1; g <= 9; g++) {
+    function addCard(g, stageName, title, klass, splitText) {
       var list = topics.filter(function (topic) { return topic.grade === g; });
-      var up = list.filter(function (topic) { return topic.semester === '上'; }).length;
-      var down = list.filter(function (topic) { return topic.semester === '下'; }).length;
       var link = document.createElement('a');
-      link.className = 'grade-card' + (g <= 6 ? ' is-primary' : ' is-junior');
+      link.className = 'grade-card ' + klass;
       link.href = 'explore/?grade=' + g;
       var stage = document.createElement('span');
       stage.className = 'grade-stage';
-      stage.textContent = g <= 6 ? '小学' : '初中';
+      stage.textContent = stageName;
       var name = document.createElement('strong');
-      name.textContent = CN[g] + '年级';
+      name.textContent = title;
       var count = document.createElement('span');
       count.className = 'grade-count';
       count.textContent = list.length + ' 个知识点';
       var split = document.createElement('span');
       split.className = 'grade-stage';
-      split.textContent = '上 ' + up + ' · 下 ' + down;
+      split.textContent = splitText;
       link.append(stage, name, count, split);
       grades.append(link);
     }
+    for (var g = 1; g <= 9; g++) {
+      var list = topics.filter(function (topic) { return topic.grade === g; });
+      var up = list.filter(function (topic) { return topic.semester === '上'; }).length;
+      var down = list.filter(function (topic) { return topic.semester === '下'; }).length;
+      addCard(g, g <= 6 ? '小学' : '初中', CN[g] + '年级', g <= 6 ? 'is-primary' : 'is-junior', '上 ' + up + ' · 下 ' + down);
+    }
+    addCard(10, '高中', '高一', 'is-senior', '必修第一册');
+    addCard(11, '高中', '高二', 'is-senior', '必修第二册');
   }).catch(function (error) {
     fail('数据没有加载成功（' + (error && error.message ? error.message : error) + '）。请在项目根目录运行 python3 -m http.server 8000，再用浏览器打开，不要直接双击 html 文件。');
   });

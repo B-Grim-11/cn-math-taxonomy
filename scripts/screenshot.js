@@ -224,12 +224,13 @@ async function main() {
       check(bad.length === 0, label + ' 没有外网 script/link/font/img' + (bad.length ? '：' + bad.join('；') : ''));
     };
     const NODE_METRICS_JS = `
-      let tall = 0, spill = 0, uncut = 0, overlap = 0, primary = 0, junior = 0, grades = 0;
+      let tall = 0, spill = 0, uncut = 0, overlap = 0, primary = 0, junior = 0, senior = 0, grades = 0;
       const limit = window.matchMedia('(max-width: 700px)').matches ? 8 : 10;
       const boxes = [];
       cy.nodes().forEach(function (n) {
         if (n.hasClass('primary')) primary++;
         if (n.hasClass('junior')) junior++;
+        if (n.hasClass('senior')) senior++;
         if (n.hasClass('grade')) grades++;
         if (n.height() > 40) tall++;
         const body = n.boundingBox({ includeLabels: false });
@@ -264,7 +265,7 @@ async function main() {
         soft: soft.length ? soft[0].style('line-style') : '',
         hardN: hard.length, softN: soft.length,
         current: cy.nodes('.current').length,
-        primary, junior, grades, tall, spill, uncut, overlap,
+        primary, junior, senior, grades, tall, spill, uncut, overlap,
         wrap: cy.nodes().length ? cy.nodes()[0].style('text-wrap') : ''
       };
     })()`;
@@ -276,7 +277,7 @@ async function main() {
       const soft = cy.edges('.soft');
       const indirect = cy.edges('.indirect');
       return {
-        nodes: cy.nodes().length, primary, junior, grades, tall, spill, uncut, overlap,
+        nodes: cy.nodes().length, primary, junior, senior, grades, tall, spill, uncut, overlap,
         root: cy.nodes('.root').length,
         target: cy.nodes('.target').length,
         rootBorder: cy.nodes('.root').length ? cy.nodes('.root')[0].style('border-width') : '',
@@ -292,7 +293,7 @@ async function main() {
       await waitFor(() => evalJs('document.getElementById("path-cy") && document.getElementById("path-cy").dataset.ready === "1"'), label + ' 路径图', 15000);
       const g = await evalJs(PATH_GRAPH_EXPR);
       check(!g.svg && g.nodes > 0 && g.pathItems > 0, label + ' 有 Cytoscape 路径图和文字路径（' + g.nodes + ' 个点，' + g.pathItems + ' 步）');
-      check(g.primary + g.junior === g.nodes, label + ' 节点按小学/初中区分（小学 ' + g.primary + '，初中 ' + g.junior + '）');
+      check(g.primary + g.junior + g.senior === g.nodes, label + ' 节点按小学/初中/高中区分（小学 ' + g.primary + '，初中 ' + g.junior + '，高中 ' + g.senior + '）');
       check(g.root >= 1 && parseFloat(g.rootBorder) >= 4, label + ' 薄弱根因已高亮');
       check(g.target >= 1, label + ' 标出了目标');
       check(g.hardN === 0 || g.hard === 'solid', label + ' 硬先修实线');
@@ -442,19 +443,20 @@ async function main() {
     console.log('首页 / 知识图谱');
     await setView(1280, 900);
     await goto(BASE + '/');
-    await waitFor(() => evalJs('document.getElementById("n-topics") && document.getElementById("n-topics").textContent !== "…" && document.querySelectorAll("a.grade-card").length === 9'), '首页统计');
+    await waitFor(() => evalJs('document.getElementById("n-topics") && document.getElementById("n-topics").textContent !== "…" && document.querySelectorAll("a.grade-card").length === 11'), '首页统计');
     const stats = await evalJs('[document.getElementById("n-topics").textContent, document.getElementById("n-edges").textContent, document.getElementById("n-questions").textContent, document.getElementById("n-standards").textContent].join(",")');
-    check(stats === '531,909,2271,230', '首页统计来自数据文件（' + stats + '）');
+    check(stats === '674,1105,2843,278', '首页统计来自数据文件（' + stats + '）');
     check((await evalJs('document.body.innerText')).includes('AI 生成初稿，未经教师审核') && !(await evalJs('document.title')).includes('草稿'), '首页有初稿声明，标题不含「草稿」');
     check((await evalJs('document.querySelector("a.grade-card").getAttribute("href")')) === 'explore/?grade=1', '一年级卡片指向知识图谱');
     await checkPage('首页 1280');
-    await shot('06-home.png', null, 1400);
+    await shot('06-home.png', null, 1900);
 
     const checkExplore = async (id, expect) => {
       await goto(BASE + '/explore/#' + encodeURIComponent(id));
       await waitFor(() => evalJs('document.getElementById("cy") && document.getElementById("cy").dataset.ready === "1"'), '局部图 ' + id, 20000);
       const info = await evalJs(EXPLORE_GRAPH_EXPR);
-      check(info.ready !== 'err' && info.nodes > 1 && info.nodes < 80, id + ' 局部图渲染了 ' + info.nodes + ' 个节点（不是全图 531）');
+      check(info.ready !== 'err' && info.nodes > 1 && info.nodes < 80, id + ' 局部图渲染了 ' + info.nodes + ' 个节点（不是全图 674）');
+      check(info.primary + info.junior + info.senior === info.nodes, id + ' 节点按学段着色（小学 ' + info.primary + '，初中 ' + info.junior + '，高中 ' + info.senior + '）');
       check(info.meta.indexOf('向上 2 层') >= 0, id + ' 图注含「向上 2 层」（' + info.meta + '）');
       check(info.hash === '#' + id, id + ' 地址栏哈希保持为 ' + info.hash);
       check(info.title.indexOf(expect.title) >= 0 && info.idCode === expect.idCode, id + ' 详情是「' + info.title + '」' + info.idCode);
@@ -525,9 +527,9 @@ async function main() {
     console.log('窄屏 375');
     await setView(375, 812);
     await goto(BASE + '/');
-    await waitFor(() => evalJs('document.getElementById("n-topics") && document.getElementById("n-topics").textContent === "531"'), '首页 375');
+    await waitFor(() => evalJs('document.getElementById("n-topics") && document.getElementById("n-topics").textContent === "674"'), '首页 375');
     await checkPage('首页 375');
-    await shot('10-home-375.png', null, 1500);
+    await shot('10-home-375.png', null, 2900);
     await checkExplore('cnm_221', { title: '配方法', idCode: 'cnm_221', diag: 'cnm_221' });
     await shot('11-explore-221-375.png', null, 1100);
     await checkExplore('cnm_p001', { title: '1到5', idCode: 'cnm_p001', diag: 'cnm_p001' });
@@ -558,6 +560,43 @@ async function main() {
     await waitFor(() => exists('#search'), '诊断开始页 375');
     await checkPage('诊断开始页 375');
     await shot('15-start-375.png', null, 900);
+
+    console.log('高中');
+    await setView(1280, 900);
+    const hsInfo = await checkExplore('cnm_h027', { title: '函数的概念', idCode: 'cnm_h027', diag: 'cnm_h027' });
+    check(hsInfo.senior > 0 && hsInfo.junior > 0, '高中「函数的概念」局部图同时有高中和初中节点');
+    check(await evalJs('!!document.querySelector(".legend .sw-h")'), '知识图谱图例有高中');
+    check((await evalJs('document.querySelector(".pill").textContent')) === '高中', '详情学段标为高中');
+    await shot('21-explore-h027.png');
+    await goto(BASE + '/diagnose/?target=cnm_h027&demo=1');
+    await waitFor(() => exists('#summary'), '高中函数概念诊断结果');
+    const hsPath = await checkPathGraph('高中函数概念');
+    check(hsPath.senior > 0 && hsPath.junior > 0, '高中诊断路径图含高中和初中节点');
+    check(await evalJs('!!document.querySelector(".legend .sw-h")'), '诊断图例有高中');
+    await shot('23-diagnose-h027.png', null, 1400);
+    await shot('24-diagnose-h027-graph.png', '#graph', 720);
+    await goto(BASE + '/diagnose/?grade=' + encodeURIComponent('高一') + '&demo=1&limit=12');
+    await waitFor(() => exists('#chapters'), '高一整体诊断', 20000);
+    check((await evalJs('document.querySelector("#summary h2").textContent')).includes('高一'), '高一（必修第一册）整体诊断');
+    check(await exists('#chapters .chap-sum'), '高一整体诊断有按章汇总');
+    await checkPage('高一整体诊断 1280');
+    await shot('25-diagnose-gaoyi.png', '#summary', 900);
+    await setView(375, 812);
+    await checkExplore('cnm_h027', { title: '函数的概念', idCode: 'cnm_h027', diag: 'cnm_h027' });
+    await shot('22-explore-h027-375.png', null, 1100);
+    await goto(BASE + '/diagnose/?target=cnm_h027&demo=1');
+    await waitFor(() => exists('#summary'), '高中诊断结果 375');
+    await checkPathGraph('高中函数概念 375');
+    await checkPage('高中诊断 375');
+    await shot('26-diagnose-h027-375.png', null, 1100);
+    await evalJs('localStorage.clear()');
+    await goto(BASE + '/diagnose/');
+    await waitFor(() => exists('#grade-card'), '诊断开始页年级卡');
+    await evalJs('(() => { const b = Array.from(document.querySelectorAll("#grade-card .stage-tab")).find((x) => x.textContent === "高二"); if (!b) throw new Error("没有高二"); b.click(); })()');
+    check((await evalJs('document.getElementById("grade-info").textContent')).indexOf('高二（必修第二册）') >= 0, '高二卡片显示必修第二册');
+    check(await evalJs('!Array.from(document.querySelectorAll("#grade-card .stage-tab")).some((b) => b.textContent === "上册" || b.textContent === "下册")'), '高中整体诊断不提供上下册');
+    await checkPage('高二诊断开始 375');
+    await shot('27-diagnose-gaoer-375.png', '#grade-card', 520);
 
     check(externalReqs.length === 0, '运行时没有页面发起的外网资源请求' + (externalReqs.length ? '：\n       ' + externalReqs.slice(0, 8).join('\n       ') : ''));
     check(errors.length === 0, 'console / 网络无错误' + (errors.length ? '：\n       ' + errors.join('\n       ') : ''));

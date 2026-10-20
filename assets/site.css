@@ -36,6 +36,8 @@
   --node-primary-bg: #d5f3ee;
   --node-junior: #1d4ed8;
   --node-junior-bg: #dbe7ff;
+  --node-senior: #a21caf;
+  --node-senior-bg: #fae8ff;
   --node-current-bg: #fff4e5;
   --node-current-border: #ea580c;
   --node-text: #162033;
@@ -90,6 +92,8 @@
     --node-primary-bg: #115e59;
     --node-junior: #93c5fd;
     --node-junior-bg: #1e3a8a;
+    --node-senior: #f0abfc;
+    --node-senior-bg: #4a044e;
     --node-current-bg: #7c2d12;
     --node-current-border: #fdba74;
     --node-text: #f8fafc;
@@ -349,6 +353,7 @@ a.grade-card {
   box-shadow: inset 0 4px 0 var(--node-primary), var(--shadow);
 }
 a.grade-card.is-junior { box-shadow: inset 0 4px 0 var(--node-junior), var(--shadow); }
+a.grade-card.is-senior { box-shadow: inset 0 4px 0 var(--node-senior), var(--shadow); }
 a.grade-card:hover { border-color: var(--brand); }
 a.grade-card strong { font-size: 1.15rem; }
 .grade-stage { color: var(--muted); font-size: 0.88rem; font-weight: 700; }

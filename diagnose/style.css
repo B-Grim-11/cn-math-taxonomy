@@ -127,6 +127,7 @@ table.log select { min-height: 44px; }
 .swatch { width: 14px; height: 14px; border-radius: 4px; border: 2px solid transparent; display: inline-block; }
 .sw-p { background: var(--node-primary-bg); border-color: var(--node-primary); }
 .sw-j { background: var(--node-junior-bg); border-color: var(--node-junior); }
+.sw-h { background: var(--node-senior-bg); border-color: var(--node-senior); }
 .sw-root { background: var(--diagram-bad-bg); border-color: var(--diagram-bad); }
 .sw-target { background: var(--node-current-bg); border-color: var(--node-current-border); }
 .line-hard, .line-soft, .line-skip { width: 22px; height: 0; border-radius: 0; border: none; border-top: 2px solid var(--edge); background: none; }

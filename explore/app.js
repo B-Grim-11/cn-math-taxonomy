@@ -54,12 +54,38 @@
     node.append(child.nodeType ? child : document.createTextNode(String(child)));
   }
 
-  function gradeLabel(topic) { return CN[topic.grade] + '年级' + topic.semester + '册'; }
+  function stageKind(grade) {
+    if (grade <= 6) return 'primary';
+    if (grade <= 9) return 'junior';
+    return 'senior';
+  }
+  function stageLabel(grade) {
+    if (grade <= 6) return '小学';
+    if (grade <= 9) return '初中';
+    return '高中';
+  }
+  function gradeWord(grade) {
+    if (grade === 10) return '高一';
+    if (grade === 11) return '高二';
+    return CN[grade] + '年级';
+  }
+  function gradeLabel(topic) {
+    if (topic.grade === 10) return '高一 · 必修第一册';
+    if (topic.grade === 11) return '高二 · 必修第二册';
+    return CN[topic.grade] + '年级' + topic.semester + '册';
+  }
+  function paint(grade, colors) {
+    if (grade <= 6) return { bg: colors.primaryBg, border: colors.primary, cls: 'primary' };
+    if (grade <= 9) return { bg: colors.juniorBg, border: colors.junior, cls: 'junior' };
+    return { bg: colors.seniorBg, border: colors.senior, cls: 'senior' };
+  }
 
   function chapterOf(topic) {
     var text = topic.chapter || '未分章';
     var primary = /^[一二三四五六]年级[上下]册\s+(.+)$/.exec(text);
     if (primary) return primary[1];
+    var model = /^(高[一二]) (数学建模|数学探究) (\S+)$/.exec(text);
+    if (model) return model[2] + ' ' + model[3];
     var junior = /^\S+\s+(第\S+章)\s+(.+)$/.exec(text);
     if (junior) return junior[1] + ' ' + junior[2].replace(/\s+\d+(?:\.\d+)*$/, '');
     return text;
@@ -99,6 +125,8 @@
       primaryBg: cssVar('--node-primary-bg'),
       junior: cssVar('--node-junior'),
       juniorBg: cssVar('--node-junior-bg'),
+      senior: cssVar('--node-senior'),
+      seniorBg: cssVar('--node-senior-bg'),
       currentBg: cssVar('--node-current-bg'),
       currentBorder: cssVar('--node-current-border'),
       text: cssVar('--node-text'),
@@ -160,7 +188,8 @@
 
   function passFilter(topic) {
     if (stage === 'p' && topic.grade > 6) return false;
-    if (stage === 'j' && topic.grade < 7) return false;
+    if (stage === 'j' && (topic.grade < 7 || topic.grade > 9)) return false;
+    if (stage === 'h' && topic.grade < 10) return false;
     if (grade && String(topic.grade) !== grade) return false;
     if (domain && topic.domain !== domain) return false;
     if (query) {
@@ -291,7 +320,7 @@
       return;
     }
     var topic = byId.get(selected);
-    var primary = topic.grade <= 6;
+    var kind = stageKind(topic.grade);
     var parts = [];
     if (currentAlias) {
       parts.push(el('div', { class: 'alias-note' },
@@ -301,7 +330,7 @@
     }
     parts.push(el('h1', { class: 'detail-title', text: topic.name }));
     parts.push(el('div', { class: 'pills' },
-      el('span', { class: 'pill ' + (primary ? 'pill-p' : 'pill-j'), text: primary ? '小学' : '初中' }),
+      el('span', { class: 'pill pill-' + (kind === 'primary' ? 'p' : kind === 'junior' ? 'j' : 'h'), text: stageLabel(topic.grade) }),
       el('code', { class: 'id-code', text: topic.id })));
     parts.push(el('a', {
       class: 'btn btn-primary btn-lg diag-btn',
@@ -423,7 +452,7 @@
 
   function topicElement(id, colors) {
     var topic = byId.get(id);
-    var primary = topic.grade <= 6;
+    var tone = paint(topic.grade, colors);
     var current = id === selected;
     var name = topic.name;
     return {
@@ -432,11 +461,11 @@
         name: name,
         full: name,
         label: clipLabel(name),
-        bg: current ? colors.currentBg : (primary ? colors.primaryBg : colors.juniorBg),
-        border: current ? colors.currentBorder : (primary ? colors.primary : colors.junior),
+        bg: current ? colors.currentBg : tone.bg,
+        border: current ? colors.currentBorder : tone.border,
         color: colors.text
       },
-      classes: (primary ? 'primary' : 'junior') + (current ? ' current' : '')
+      classes: tone.cls + (current ? ' current' : '')
     };
   }
 
@@ -486,20 +515,21 @@
     var gradeOf = new Map();
     var elements = [];
     gradeMembers.forEach(function (ids, grade) {
-      var primary = grade <= 6;
-      var name = CN[grade] + '年级·' + ids.length + '个';
+      var tone = paint(grade, colors);
+      var word = gradeWord(grade);
+      var name = word + '·' + ids.length + '个';
       ids.forEach(function (id) { gradeOf.set(id, grade); });
       elements.push({
         data: {
           id: 'grade-' + grade,
           name: name,
-          full: CN[grade] + '年级的 ' + ids.length + ' 个先修',
+          full: word + '的 ' + ids.length + ' 个先修',
           label: clipLabel(name),
-          bg: primary ? colors.primaryBg : colors.juniorBg,
-          border: primary ? colors.primary : colors.junior,
+          bg: tone.bg,
+          border: tone.border,
           color: colors.text
         },
-        classes: (primary ? 'primary' : 'junior') + ' grade'
+        classes: tone.cls + ' grade'
       });
     });
     elements.push(topicElement(selected, colors));
@@ -736,9 +766,9 @@
   function applyQuery() {
     var params = new URLSearchParams(location.search);
     var gradeValue = params.get('grade') || '';
-    if (/^[1-9]$/.test(gradeValue)) grade = gradeValue;
+    if (/^(?:[1-9]|10|11)$/.test(gradeValue)) grade = gradeValue;
     var stageValue = params.get('stage') || '';
-    if (stageValue === 'p' || stageValue === 'j') stage = stageValue;
+    if (stageValue === 'p' || stageValue === 'j' || stageValue === 'h') stage = stageValue;
     domain = params.get('domain') || '';
   }
 
@@ -765,7 +795,8 @@
       stage = button.getAttribute('data-stage');
       var gradeNumber = parseInt(grade, 10);
       if (stage === 'p' && gradeNumber >= 7) grade = '';
-      if (stage === 'j' && gradeNumber >= 1 && gradeNumber <= 6) grade = '';
+      if (stage === 'j' && (gradeNumber <= 6 || gradeNumber >= 10)) grade = '';
+      if (stage === 'h' && gradeNumber <= 9) grade = '';
       syncControls();
       renderList();
       highlight(false);
@@ -773,8 +804,9 @@
     $('fGrade').addEventListener('change', function () {
       grade = $('fGrade').value;
       var gradeNumber = parseInt(grade, 10);
-      if (gradeNumber >= 1 && gradeNumber <= 6 && stage === 'j') stage = 'p';
-      if (gradeNumber >= 7 && stage === 'p') stage = 'j';
+      if (gradeNumber >= 1 && gradeNumber <= 6 && (stage === 'j' || stage === 'h')) stage = 'p';
+      if (gradeNumber >= 7 && gradeNumber <= 9 && (stage === 'p' || stage === 'h')) stage = 'j';
+      if (gradeNumber >= 10 && (stage === 'p' || stage === 'j')) stage = 'h';
       syncControls();
       renderList();
       highlight(false);
