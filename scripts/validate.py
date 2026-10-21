@@ -41,13 +41,15 @@ HS_STD_ID_RE = re.compile(r"^cms-2017:H\.(PRE|FUN|GA|PS|MI)\.(\d{2,})$")
 HS_STD_MODULES = ("PRE", "FUN", "GA", "PS", "MI")
 EN_STD_CODES = {"PH": "语音", "VO": "词汇", "GR": "语法", "FU": "日常表达", "RW": "读写"}
 EN_STD_ID_RE = re.compile(r"^ces-2022:([123])\.(PH|VO|GR|FU|RW)\.(\d{2,})$")
+# 高中英语：ces-2017:H.B 必修，ces-2017:H.S 选择性必修。编号是本图谱编的。
+EN_HS_STD_ID_RE = re.compile(r"^ces-2017:H\.(B|S)\.(PH|VO|GR|FU|RW)\.(\d{2,})$")
 EN_PROMPT_START_RE = re.compile(r"^(同一|上题|该题|同上)")
 EN_PROMPT_BAN_RE = re.compile(r"本知识点|课标|是否要求")
 CORE_FIELDS = ["id", "name", "domain", "grade", "semester", "chapter", "type",
                "description", "mastery_criteria", "diagnostic_question", "external"]
 EXT_FIELDS = ["id", "name", "domain", "grade", "description", "external"]
-# cnm_001 初中正式；cnm_p001 小学正式；cnm_h001 高中正式。cne_p001 小学英语，cne_j001 初中英语。
-ID_RE = re.compile(r"^(?:cnm_(?:p|h)?|cne_[pj])\d{3,}$")
+# cnm_001 初中正式；cnm_p001 小学正式；cnm_h001 高中正式。cne_p001 小学英语，cne_j001 初中英语，cne_h001 高中英语。
+ID_RE = re.compile(r"^(?:cnm_(?:p|h)?|cne_[pjh])\d{3,}$")
 # 10、11 是必修第一、二册；12、13、14 是选择性必修第一、二、三册，不是教学年份。
 GRADES = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14)
 ALIASES_PATH = os.path.join(ROOT, "data", "id-aliases.json")
@@ -153,14 +155,19 @@ def check_topics(topics):
             if t.get("grade") != "小学":
                 err("%s 外部节点 grade 必须为 \"小学\"" % where)
             continue
-        if t.get("grade") not in GRADES:
+        g = t.get("grade")
+        if subj == "english" and str(tid).startswith("cne_h"):
+            if g not in (10, 11, 12, 13, 14, 15, 16):
+                err("%s 高中英语 grade 必须是 10–16（10–12 必修三册，13–16 选择性必修四册）" % where)
+        elif g not in GRADES:
             err("%s grade 必须是 1–14 的整数（10、11 为必修两册，12–14 为选择性必修三册）" % where)
         if subj == "english":
-            g = t.get("grade")
             if str(tid).startswith("cne_p") and g not in (3, 4, 5, 6):
                 err("%s 小学英语 grade 必须是 3–6" % where)
             elif str(tid).startswith("cne_j") and g not in (7, 8, 9):
                 err("%s 初中英语 grade 必须是 7–9" % where)
+            elif str(tid).startswith("cne_h") and t.get("semester") != "上":
+                err("%s 高中英语 semester 必须是 上" % where)
         sem = t.get("semester")
         if subj == "english" and t.get("grade") == 9:
             if sem != "全":
@@ -288,6 +295,8 @@ def report(ids, prereqs, dependents, n_hard, n_soft, n_en_hard, n_en_soft):
     zh = {1: "一", 2: "二", 3: "三", 4: "四", 5: "五", 6: "六", 7: "七", 8: "八", 9: "九"}
 
     def vol_label(t):
+        if is_english_id(t.get("id")) and isinstance(t.get("grade"), int) and t["grade"] >= 10:
+            return {10: "必修一", 11: "必修二", 12: "必修三", 13: "选必一", 14: "选必二", 15: "选必三", 16: "选必四"}.get(t["grade"], str(t["grade"]))
         if t["grade"] == 10:
             return "高一必修一"
         if t["grade"] == 11:
@@ -318,8 +327,10 @@ def report(ids, prereqs, dependents, n_hard, n_soft, n_en_hard, n_en_soft):
             print("  %-8s %d" % (k, v))
         print("英语按册：")
         ec = Counter(vol_label(t) for t in en_core)
-        for k in ["三上", "三下", "四上", "四下", "五上", "五下", "六上", "六下", "七上", "七下", "八上", "八下", "九全"]:
-            print("  %-8s %d" % (k, ec.get(k, 0)))
+        for k in ["三上", "三下", "四上", "四下", "五上", "五下", "六上", "六下", "七上", "七下", "八上", "八下", "九全",
+                  "必修一", "必修二", "必修三", "选必一", "选必二", "选必三", "选必四"]:
+            if ec.get(k, 0) or k in ("必修一", "必修二", "必修三", "选必一", "选必二", "选必三", "选必四"):
+                print("  %-8s %d" % (k, ec.get(k, 0)))
     print("\n按 type（正式知识点）：")
     for k, v in sorted(Counter(t["type"] for t in core).items(), key=lambda x: -x[1]):
         print("  %-12s %d" % (k, v))
@@ -374,6 +385,7 @@ def check_standards_file(std):
         m = STD_ID_RE.match(sid)
         hm = HS_STD_ID_RE.match(sid)
         em = EN_STD_ID_RE.match(sid)
+        ehm = EN_HS_STD_ID_RE.match(sid)
         if m:
             stage, code, num = m.group(1), m.group(2), int(m.group(3))
             if it.get("domain") != STD_DOMAIN_CODES[code]:
@@ -407,8 +419,21 @@ def check_standards_file(std):
                 err("%s 英语课标必须显式标 verbatim:false（原文未逐页核对）" % where)
             if it.get("page_or_ref") != "待核":
                 err("%s 英语课标 page_or_ref 必须是「待核」，不能编页码" % where)
+        elif ehm:
+            saw_english = True
+            band, code, num = ehm.group(1), ehm.group(2), int(ehm.group(3))
+            if it.get("domain") != EN_STD_CODES[code]:
+                err("%s domain 与 id 中的领域代码不一致：%r" % (where, it.get("domain")))
+            key = ("ces2017", band, code)
+            if num != last.get(key, 0) + 1:
+                err("%s 编号在级别和领域内不连续（上一条为 %02d）" % (where, last.get(key, 0)))
+            last[key] = num
+            if it.get("verbatim") is not False:
+                err("%s 高中英语课标必须显式标 verbatim:false（原文未逐页核对）" % where)
+            if it.get("page_or_ref") != "待核":
+                err("%s 高中英语课标 page_or_ref 必须是「待核」，不能编页码" % where)
         else:
-            err("%s id 格式不合法（应为 cms-2022:<学段>.<NA|GG|SP|IP>.<NN>、cms-2017:H.<PRE|FUN|GA|PS|MI>.<NN> 或 ces-2022:<1|2|3>.<PH|VO|GR|FU|RW>.<NN>）" % where)
+            err("%s id 格式不合法（应为 cms-2022:<学段>.<NA|GG|SP|IP>.<NN>、cms-2017:H.<PRE|FUN|GA|PS|MI>.<NN>、ces-2022:<1|2|3>.<PH|VO|GR|FU|RW>.<NN> 或 ces-2017:H.<B|S>.<PH|VO|GR|FU|RW>.<NN>）" % where)
         for f in ("domain", "section", "text"):
             if not nonempty_str(it.get(f)):
                 err("%s 字段 %s 缺失或为空" % (where, f))
@@ -426,6 +451,16 @@ def check_standards_file(std):
                     err("english.%s 缺失或为空" % f)
             if not isinstance(eng.get("year"), int):
                 err("english.year 必须是整数")
+            if any(str(sid).startswith("ces-2017:H.") for sid in items_by_id):
+                senior = eng.get("senior")
+                if not isinstance(senior, dict):
+                    err("有高中英语课标条目，但缺少 english.senior")
+                else:
+                    for f in ("title", "issuer", "url", "note"):
+                        if not nonempty_str(senior.get(f)):
+                            err("english.senior.%s 缺失或为空" % f)
+                    if senior.get("year") != 2020:
+                        err("english.senior.year 必须是 2020")
     return items_by_id
 
 
@@ -506,7 +541,7 @@ Q_DIFFICULTIES = ("basic", "standard", "advanced")
 Q_TYPES = ("numeric", "choice", "short", "self")
 Q_FIELDS = {"id", "topicId", "difficulty", "type", "prompt", "answer", "choices", "accept",
             "explanation", "verify", "unordered", "fixed_from_source", "figure", "hideChoiceText"}
-Q_ID_RE = re.compile(r"^((?:cnm_(?:p|h)?|cne_[pj])\d{3,})_q([1-9]\d*)$")
+Q_ID_RE = re.compile(r"^((?:cnm_(?:p|h)?|cne_[pjh])\d{3,})_q([1-9]\d*)$")
 NUM_RE = re.compile(r"^-?\d+(?:\.\d+)?(?:/\d+(?:\.\d+)?)?$")
 MIN_QUESTIONS_PER_TOPIC = 3
 MIN_AUTO_SHARE = 0.60

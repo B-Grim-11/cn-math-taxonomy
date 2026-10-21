@@ -15,9 +15,10 @@
     ['五上', '五年级上册'], ['五下', '五年级下册'], ['六上', '六年级上册'], ['六下', '六年级下册'],
     ['七上', '七年级上册'], ['七下', '七年级下册'], ['八上', '八年级上册'], ['八下', '八年级下册'],
     ['九上', '九年级上册'], ['九下', '九年级下册'], ['九全', '九年级全一册'],
+    ['必修一', '必修一 · 必修第一册'], ['必修二', '必修二 · 必修第二册'], ['必修三', '必修三 · 必修第三册'],
     ['高一', '高一 · 必修第一册'], ['高二', '高二 · 必修第二册'],
     ['选必一', '选必一 · 选择性必修第一册'], ['选必二', '选必二 · 选择性必修第二册'],
-    ['选必三', '选必三 · 选择性必修第三册']
+    ['选必三', '选必三 · 选择性必修第三册'], ['选必四', '选必四 · 选择性必修第四册']
   ];
   const RESULT_LABEL = { correct: '对', wrong: '错', skip: '不会' };
   const STATUS_LABEL = { mastered: '已掌握', shaky: '不稳', weak: '薄弱', unknown: '未测' };
@@ -110,7 +111,9 @@
     });
     if (subject === 'english') {
       document.title = '诊断 · 英语';
-      if ('三四五六七八九'.indexOf(gradeSel) < 0) gradeSel = '四';
+      var juniorOk = '三四五六七八九'.indexOf(gradeSel) >= 0;
+      var seniorOk = gradeSel.indexOf('必修') === 0 || gradeSel.indexOf('选必') === 0;
+      if (!juniorOk && !seniorOk) gradeSel = '四';
     }
   }
   function lsGet(k) { try { return JSON.parse(localStorage.getItem(k)); } catch (e) { return null; } }
@@ -345,12 +348,10 @@
         ? '选一个想学会或想检查的英语知识点。第一题答对就算掌握；答错会再出一道同级或更容易的题——第二题也错才算薄弱，并回溯到先修；第二题答对则标为「不稳」。'
         : '选一个想学会或想检查的知识点。第一题答对就算掌握；答错会再出一道同级或更容易的题——第二题也错才算薄弱，并回溯到先修；第二题答对则标为「不稳」。'),
       h('div', { class: 'stage-tabs', role: 'tablist', 'aria-label': '学段' },
-        subject === 'english'
-          ? [stageButton('', '全部'), stageButton('p', '小学'), stageButton('j', '初中')]
-          : [stageButton('', '全部'), stageButton('p', '小学'), stageButton('j', '初中'), stageButton('h', '高中')]),
+        [stageButton('', '全部'), stageButton('p', '小学'), stageButton('j', '初中'), stageButton('h', '高中')]),
       h('input', {
         type: 'search', class: 'search-lg', id: 'search',
-        placeholder: subject === 'english' ? '搜索知识点，例如：现在进行时、现在完成时、there is' : '搜索知识点，例如：配方法、20 以内加法、一次函数',
+        placeholder: subject === 'english' ? '搜索知识点，例如：现在进行时、虚拟语气、there is' : '搜索知识点，例如：配方法、20 以内加法、一次函数',
         value: startQuery, autocomplete: 'off', 'aria-label': '搜索知识点',
         oninput: function (e) {
           startQuery = e.target.value;
@@ -372,7 +373,7 @@
   }
 
   function seniorGrade(sel) {
-    return sel === '高一' || sel === '高二' || sel === '选必一' || sel === '选必二' || sel === '选必三';
+    return sel === '高一' || sel === '高二' || String(sel).indexOf('选必') === 0 || String(sel).indexOf('必修') === 0;
   }
   function seniorRangeLabel(sel) { return String(sel).indexOf('选必') === 0 ? '整册' : '必修整册'; }
   function gradeScope() {
@@ -409,7 +410,10 @@
         h('h2', { text: '按年级整体诊断' }),
         h('p', { class: 'muted' }, '不选具体知识点，在一个年级（或一册）里抽查：每个知识点最多问 2 题，答错只在所选范围内回溯先修，最后按章汇总出哪几章薄弱。适合期初摸底、学期末复习。'),
         tabs('年级', subject === 'english'
-          ? '三四五六七八九'.split('').map(function (x) { return [x, x + '年级']; })
+          ? '三四五六七八九'.split('').map(function (x) { return [x, x + '年级']; }).concat([
+            ['必修一', '必修一'], ['必修二', '必修二'], ['必修三', '必修三'],
+            ['选必一', '选必一'], ['选必二', '选必二'], ['选必三', '选必三'], ['选必四', '选必四']
+          ])
           : GRADES.map(function (x) { return [x, x + '年级']; }).concat([
             ['高一', '高一'], ['高二', '高二'], ['选必一', '选必一'], ['选必二', '选必二'], ['选必三', '选必三']
           ]), gradeSel, function (v) {
@@ -442,7 +446,7 @@
     const q = startQuery.trim().toLowerCase();
     let shown = 0;
     function volumeStage(key) {
-      if (key === '高一' || key === '高二' || key.indexOf('选必') === 0) return 'h';
+      if (key === '高一' || key === '高二' || key.indexOf('选必') === 0 || key.indexOf('必修') === 0) return 'h';
       if ('一二三四五六'.indexOf(key.charAt(0)) >= 0) return 'p';
       return 'j';
     }
@@ -463,7 +467,8 @@
       const count = chapters.reduce(function (n, c) { return n + c.rows.length; }, 0);
       shown += count;
       const openVol = subject === 'english' ? '三上' : '一上';
-      const det = h('details', { class: 'vol', open: !!q || (startStage === 'j' ? vv[0] === '七上' : startStage === 'h' ? vv[0] === '高一' : vv[0] === openVol) },
+      const seniorOpen = subject === 'english' ? '必修一' : '高一';
+      const det = h('details', { class: 'vol', open: !!q || (startStage === 'j' ? vv[0] === '七上' : startStage === 'h' ? vv[0] === seniorOpen : vv[0] === openVol) },
         h('summary', null, vv[1] + '（' + count + ' 个知识点）'));
       chapters.forEach(function (c) {
         const ch = c.ch;
@@ -866,9 +871,7 @@
 
     page.append(h('div', { class: 'card', id: 'graph' },
       h('h2', { text: '路径图' }),
-      h('p', { class: 'muted small' }, (subject === 'english'
-        ? '小学和初中用不同颜色。'
-        : '小学、初中和高中用不同颜色。') + '硬先修是实线，软先修是虚线，点线表示中间省略了没画出来的知识点。红框是薄弱根因，橙框是目标。名称太长会省略，悬停或点按可看全名。上面的列表是完整学习顺序。'),
+      h('p', { class: 'muted small' }, '小学、初中和高中用不同颜色。硬先修是实线，软先修是虚线，点线表示中间省略了没画出来的知识点。红框是薄弱根因，橙框是目标。名称太长会省略，悬停或点按可看全名。上面的列表是完整学习顺序。'),
       h('ul', { class: 'legend' },
         h('li', null, h('i', { class: 'swatch sw-p' }), '小学'),
         h('li', null, h('i', { class: 'swatch sw-j' }), '初中'),
@@ -946,7 +949,7 @@
     return h('div', { class: 'card', id: 'standards' },
       h('h2', { text: '相关课标条目' }),
       h('p', { class: 'muted small' }, subject === 'english'
-        ? '目标与学习路径上的知识点对应的《义务教育英语课程标准（2022年版）》一级、二级公开转述（未经逐页核对；映射由 AI 生成，未经专家审核）。'
+        ? '目标与学习路径上的知识点对应的《义务教育英语课程标准（2022年版）》和《普通高中英语课程标准（2017年版2020年修订）》公开转述（一级、二级、三级，以及高中必修、选择性必修；未经逐页核对；映射由 AI 生成，未经专家审核）。'
         : '目标与学习路径上的知识点对应的《义务教育数学课程标准（2022年版）》内容要求（第一至第四学段；映射由 AI 生成，未经专家审核）。'),
       keys.length ? keys.map(function (k) {
         const item = D.stdById[k];
@@ -1209,11 +1212,17 @@
         '高一': '高一', '高一必修': '高一', '高二': '高二', '高二必修': '高二',
         '选必一': '选必一', '选择性必修第一册': '选必一',
         '选必二': '选必二', '选择性必修第二册': '选必二',
-        '选必三': '选必三', '选择性必修第三册': '选必三'
+        '选必三': '选必三', '选择性必修第三册': '选必三',
+        '选必四': '选必四', '选择性必修第四册': '选必四',
+        '必修一': '必修一', '必修第一册': '必修一',
+        '必修二': '必修二', '必修第二册': '必修二',
+        '必修三': '必修三', '必修第三册': '必修三'
       };
       if (seniorUrl[grade]) {
-        if (volume && volume !== '必修' && volume !== '整册') {
-          throw new Error('高中不拆上下册：' + grade + ' / ' + volume + '（用 grade=高一、grade=高二 或 grade=选必二）');
+        if (volume && volume !== '必修' && volume !== '整册' && volume !== '必修整册') {
+          throw new Error(subject === 'english'
+            ? '高中英语不拆上下册：' + grade + ' / ' + volume + '（用 grade=必修一 或 grade=选必一）'
+            : '高中不拆上下册：' + grade + ' / ' + volume + '（用 grade=高一、grade=高二 或 grade=选必二）');
         }
         scope = seniorUrl[grade];
       } else if (grade && volume) {

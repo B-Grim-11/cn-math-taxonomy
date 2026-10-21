@@ -11260,5 +11260,1799 @@
     "prerequisiteId": "cne_j243",
     "strength": "hard",
     "reason": "确认日期的要点里用到反意疑问句。"
+  },
+  {
+    "topicId": "cne_h002",
+    "prerequisiteId": "cne_h001",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「句子成分」，再学「五种基本句型」。册次待核。"
+  },
+  {
+    "topicId": "cne_h003",
+    "prerequisiteId": "cne_h002",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「五种基本句型」，再学「宾语补足语」。册次待核。"
+  },
+  {
+    "topicId": "cne_h004",
+    "prerequisiteId": "cne_h003",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「宾语补足语」，再学「校园设施」。册次待核。"
+  },
+  {
+    "topicId": "cne_h005",
+    "prerequisiteId": "cne_h004",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「校园设施」，再学「问候并介绍自己」。册次待核。"
+  },
+  {
+    "topicId": "cne_h006",
+    "prerequisiteId": "cne_h005",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「问候并介绍自己」，再学「读新生简介」。册次待核。"
+  },
+  {
+    "topicId": "cne_h007",
+    "prerequisiteId": "cne_h006",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「读新生简介」，再学「写自我介绍」。册次待核。"
+  },
+  {
+    "topicId": "cne_h008",
+    "prerequisiteId": "cne_h007",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「写自我介绍」，再学「句末升调和降调」。册次待核。"
+  },
+  {
+    "topicId": "cne_h009",
+    "prerequisiteId": "cne_h008",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「句末升调和降调」，再学「课程与作业」。册次待核。"
+  },
+  {
+    "topicId": "cne_h010",
+    "prerequisiteId": "cne_h009",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「课程与作业」，再学「挑战与社团」。册次待核。"
+  },
+  {
+    "topicId": "cne_h011",
+    "prerequisiteId": "cne_h010",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「挑战与社团」，再学「名词短语」。册次待核。"
+  },
+  {
+    "topicId": "cne_h012",
+    "prerequisiteId": "cne_h011",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「名词短语」，再学「形容词短语和副词短语」。册次待核。"
+  },
+  {
+    "topicId": "cne_h013",
+    "prerequisiteId": "cne_h012",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「形容词短语和副词短语」，再学「谈论课程和社团」。册次待核。"
+  },
+  {
+    "topicId": "cne_h014",
+    "prerequisiteId": "cne_h013",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「谈论课程和社团」，再学「读校园生活短文」。册次待核。"
+  },
+  {
+    "topicId": "cne_h015",
+    "prerequisiteId": "cne_h014",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「读校园生活短文」，再学「写社团申请句」。册次待核。"
+  },
+  {
+    "topicId": "cne_h016",
+    "prerequisiteId": "cne_h015",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「写社团申请句」，再学「旅行安排」。册次待核。"
+  },
+  {
+    "topicId": "cne_h017",
+    "prerequisiteId": "cne_h016",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「旅行安排」，再学「景点」。册次待核。"
+  },
+  {
+    "topicId": "cne_h018",
+    "prerequisiteId": "cne_h017",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「景点」，再学「现在进行时表将来」。册次待核。"
+  },
+  {
+    "topicId": "cne_h019",
+    "prerequisiteId": "cne_h018",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「现在进行时表将来」，再学「时间从句用现在时表将来」。册次待核。"
+  },
+  {
+    "topicId": "cne_h020",
+    "prerequisiteId": "cne_h019",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「时间从句用现在时表将来」，再学「谈论旅行计划」。册次待核。"
+  },
+  {
+    "topicId": "cne_h021",
+    "prerequisiteId": "cne_h020",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「谈论旅行计划」，再学「读行程短文」。册次待核。"
+  },
+  {
+    "topicId": "cne_h022",
+    "prerequisiteId": "cne_h021",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「读行程短文」，再学「写行程邮件」。册次待核。"
+  },
+  {
+    "topicId": "cne_h023",
+    "prerequisiteId": "cne_h022",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「写行程邮件」，再学「运动项目」。册次待核。"
+  },
+  {
+    "topicId": "cne_h024",
+    "prerequisiteId": "cne_h023",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「运动项目」，再学「健身与健康」。册次待核。"
+  },
+  {
+    "topicId": "cne_h025",
+    "prerequisiteId": "cne_h024",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「健身与健康」，再学「附加疑问句」。册次待核。"
+  },
+  {
+    "topicId": "cne_h026",
+    "prerequisiteId": "cne_h025",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「附加疑问句」，再学「副词短语作状语」。册次待核。"
+  },
+  {
+    "topicId": "cne_h027",
+    "prerequisiteId": "cne_h026",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「副词短语作状语」，再学「提出运动建议」。册次待核。"
+  },
+  {
+    "topicId": "cne_h028",
+    "prerequisiteId": "cne_h027",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「提出运动建议」，再学「读比赛短文」。册次待核。"
+  },
+  {
+    "topicId": "cne_h029",
+    "prerequisiteId": "cne_h028",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「读比赛短文」，再学「写运动简讯」。册次待核。"
+  },
+  {
+    "topicId": "cne_h030",
+    "prerequisiteId": "cne_h029",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「写运动简讯」，再学「自然灾害」。册次待核。"
+  },
+  {
+    "topicId": "cne_h031",
+    "prerequisiteId": "cne_h030",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「自然灾害」，再学「救援」。册次待核。"
+  },
+  {
+    "topicId": "cne_h032",
+    "prerequisiteId": "cne_h031",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「救援」，再学「关系代词定语从句」。册次待核。"
+  },
+  {
+    "topicId": "cne_h034",
+    "prerequisiteId": "cne_h033",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「whose 和 whom」，再学「说明灾情并请求帮助」。册次待核。"
+  },
+  {
+    "topicId": "cne_h035",
+    "prerequisiteId": "cne_h034",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「说明灾情并请求帮助」，再学「读灾害新闻」。册次待核。"
+  },
+  {
+    "topicId": "cne_h036",
+    "prerequisiteId": "cne_h035",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「读灾害新闻」，再学「写灾害报道句」。册次待核。"
+  },
+  {
+    "topicId": "cne_h037",
+    "prerequisiteId": "cne_h036",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「写灾害报道句」，再学「语言与文字」。册次待核。"
+  },
+  {
+    "topicId": "cne_h038",
+    "prerequisiteId": "cne_h037",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「语言与文字」，再学「前缀和后缀」。册次待核。"
+  },
+  {
+    "topicId": "cne_h039",
+    "prerequisiteId": "cne_h038",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「前缀和后缀」，再学「关系副词定语从句」。册次待核。"
+  },
+  {
+    "topicId": "cne_h041",
+    "prerequisiteId": "cne_h040",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「介词加关系代词」，再学「谈论语言」。册次待核。"
+  },
+  {
+    "topicId": "cne_h042",
+    "prerequisiteId": "cne_h041",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「谈论语言」，再学「读语言学习短文」。册次待核。"
+  },
+  {
+    "topicId": "cne_h043",
+    "prerequisiteId": "cne_h042",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「读语言学习短文」，再学「多音节词重音」。册次待核。"
+  },
+  {
+    "topicId": "cne_h044",
+    "prerequisiteId": "cne_h043",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「多音节词重音」，再学「写语言学习计划」。册次待核。"
+  },
+  {
+    "topicId": "cne_h045",
+    "prerequisiteId": "cne_h044",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「写语言学习计划」，再学「文化遗产」。册次待核。"
+  },
+  {
+    "topicId": "cne_h046",
+    "prerequisiteId": "cne_h045",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「文化遗产」，再学「保护文物」。册次待核。"
+  },
+  {
+    "topicId": "cne_h047",
+    "prerequisiteId": "cne_h046",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「保护文物」，再学「非限制性定语从句」。册次待核。"
+  },
+  {
+    "topicId": "cne_h048",
+    "prerequisiteId": "cne_h047",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「非限制性定语从句」，再学「which 指代整句」。册次待核。"
+  },
+  {
+    "topicId": "cne_h049",
+    "prerequisiteId": "cne_h048",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「which 指代整句」，再学「讨论保护遗产」。册次待核。"
+  },
+  {
+    "topicId": "cne_h050",
+    "prerequisiteId": "cne_h049",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「讨论保护遗产」，再学「读遗产说明」。册次待核。"
+  },
+  {
+    "topicId": "cne_h051",
+    "prerequisiteId": "cne_h050",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「读遗产说明」，再学「写保护建议」。册次待核。"
+  },
+  {
+    "topicId": "cne_h052",
+    "prerequisiteId": "cne_h051",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「写保护建议」，再学「野生动物」。册次待核。"
+  },
+  {
+    "topicId": "cne_h053",
+    "prerequisiteId": "cne_h052",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「野生动物」，再学「保护栖息地」。册次待核。"
+  },
+  {
+    "topicId": "cne_h054",
+    "prerequisiteId": "cne_h053",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「保护栖息地」，再学「现在进行时的被动语态」。册次待核。"
+  },
+  {
+    "topicId": "cne_h055",
+    "prerequisiteId": "cne_h054",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「现在进行时的被动语态」，再学「过去分词和动词 -ing」。册次待核。"
+  },
+  {
+    "topicId": "cne_h056",
+    "prerequisiteId": "cne_h055",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「过去分词和动词 -ing」，再学「讨论动物保护」。册次待核。"
+  },
+  {
+    "topicId": "cne_h057",
+    "prerequisiteId": "cne_h056",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「讨论动物保护」，再学「读动物保护短文」。册次待核。"
+  },
+  {
+    "topicId": "cne_h058",
+    "prerequisiteId": "cne_h057",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「读动物保护短文」，再学「写保护海报句」。册次待核。"
+  },
+  {
+    "topicId": "cne_h059",
+    "prerequisiteId": "cne_h058",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「写保护海报句」，再学「互联网」。册次待核。"
+  },
+  {
+    "topicId": "cne_h060",
+    "prerequisiteId": "cne_h059",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「互联网」，再学「在线行为」。册次待核。"
+  },
+  {
+    "topicId": "cne_h061",
+    "prerequisiteId": "cne_h060",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「在线行为」，再学「现在完成时的被动语态」。册次待核。"
+  },
+  {
+    "topicId": "cne_h062",
+    "prerequisiteId": "cne_h061",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「现在完成时的被动语态」，再学「since 与现在完成时」。册次待核。"
+  },
+  {
+    "topicId": "cne_h063",
+    "prerequisiteId": "cne_h062",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「since 与现在完成时」，再学「谈论网络安全」。册次待核。"
+  },
+  {
+    "topicId": "cne_h064",
+    "prerequisiteId": "cne_h063",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「谈论网络安全」，再学「读网络短文」。册次待核。"
+  },
+  {
+    "topicId": "cne_h065",
+    "prerequisiteId": "cne_h064",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「读网络短文」，再学「写网络提醒」。册次待核。"
+  },
+  {
+    "topicId": "cne_h066",
+    "prerequisiteId": "cne_h065",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「写网络提醒」，再学「历史传统」。册次待核。"
+  },
+  {
+    "topicId": "cne_h067",
+    "prerequisiteId": "cne_h066",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「历史传统」，再学「节日习俗」。册次待核。"
+  },
+  {
+    "topicId": "cne_h068",
+    "prerequisiteId": "cne_h067",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「节日习俗」，再学「过去分词作定语和表语」。册次待核。"
+  },
+  {
+    "topicId": "cne_h070",
+    "prerequisiteId": "cne_h069",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「过去分词作宾补」，再学「谈论传统」。册次待核。"
+  },
+  {
+    "topicId": "cne_h071",
+    "prerequisiteId": "cne_h070",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「谈论传统」，再学「读传统短文」。册次待核。"
+  },
+  {
+    "topicId": "cne_h072",
+    "prerequisiteId": "cne_h071",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「读传统短文」，再学「写传统介绍」。册次待核。"
+  },
+  {
+    "topicId": "cne_h073",
+    "prerequisiteId": "cne_h072",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「写传统介绍」，再学「音乐」。册次待核。"
+  },
+  {
+    "topicId": "cne_h074",
+    "prerequisiteId": "cne_h073",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「音乐」，再学「演奏」。册次待核。"
+  },
+  {
+    "topicId": "cne_h075",
+    "prerequisiteId": "cne_h074",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「演奏」，再学「动词 -ing 作定语和表语」。册次待核。"
+  },
+  {
+    "topicId": "cne_h077",
+    "prerequisiteId": "cne_h076",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「动词 -ing 作状语和宾补」，再学「意群中的连读」。册次待核。"
+  },
+  {
+    "topicId": "cne_h078",
+    "prerequisiteId": "cne_h077",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「意群中的连读」，再学「不完全爆破」。册次待核。"
+  },
+  {
+    "topicId": "cne_h079",
+    "prerequisiteId": "cne_h078",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「不完全爆破」，再学「谈论演出」。册次待核。"
+  },
+  {
+    "topicId": "cne_h080",
+    "prerequisiteId": "cne_h079",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「谈论演出」，再学「读演出短文」。册次待核。"
+  },
+  {
+    "topicId": "cne_h081",
+    "prerequisiteId": "cne_h080",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「读演出短文」，再学「写演出通知」。册次待核。"
+  },
+  {
+    "topicId": "cne_h082",
+    "prerequisiteId": "cne_h081",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「写演出通知」，再学「节日」。册次待核。"
+  },
+  {
+    "topicId": "cne_h083",
+    "prerequisiteId": "cne_h082",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「节日」，再学「庆祝方式」。册次待核。"
+  },
+  {
+    "topicId": "cne_h084",
+    "prerequisiteId": "cne_h083",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「庆祝方式」，再学「介词短语作状语」。册次待核。"
+  },
+  {
+    "topicId": "cne_h085",
+    "prerequisiteId": "cne_h084",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「介词短语作状语」，再学「used to 和 be used to」。册次待核。"
+  },
+  {
+    "topicId": "cne_h086",
+    "prerequisiteId": "cne_h085",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「used to 和 be used to」，再学「按意群停顿」。册次待核。"
+  },
+  {
+    "topicId": "cne_h087",
+    "prerequisiteId": "cne_h086",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「按意群停顿」，再学「谈论节日」。册次待核。"
+  },
+  {
+    "topicId": "cne_h088",
+    "prerequisiteId": "cne_h087",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「谈论节日」，再学「读节日短文」。册次待核。"
+  },
+  {
+    "topicId": "cne_h089",
+    "prerequisiteId": "cne_h088",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「读节日短文」，再学「写节日介绍」。册次待核。"
+  },
+  {
+    "topicId": "cne_h090",
+    "prerequisiteId": "cne_h089",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「写节日介绍」，再学「道德品质」。册次待核。"
+  },
+  {
+    "topicId": "cne_h091",
+    "prerequisiteId": "cne_h090",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「道德品质」，再学「善行」。册次待核。"
+  },
+  {
+    "topicId": "cne_h092",
+    "prerequisiteId": "cne_h091",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「善行」，再学「不定式作定语和宾语」。册次待核。"
+  },
+  {
+    "topicId": "cne_h093",
+    "prerequisiteId": "cne_h092",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「不定式作定语和宾语」，再学「不定式作目的状语」。册次待核。"
+  },
+  {
+    "topicId": "cne_h094",
+    "prerequisiteId": "cne_h093",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「不定式作目的状语」，再学「评价行为」。册次待核。"
+  },
+  {
+    "topicId": "cne_h095",
+    "prerequisiteId": "cne_h094",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「评价行为」，再学「读善行短文」。册次待核。"
+  },
+  {
+    "topicId": "cne_h096",
+    "prerequisiteId": "cne_h095",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「读善行短文」，再学「写评论句」。册次待核。"
+  },
+  {
+    "topicId": "cne_h097",
+    "prerequisiteId": "cne_h096",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「写评论句」，再学「多元文化」。册次待核。"
+  },
+  {
+    "topicId": "cne_h098",
+    "prerequisiteId": "cne_h097",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「多元文化」，再学「文化习俗」。册次待核。"
+  },
+  {
+    "topicId": "cne_h099",
+    "prerequisiteId": "cne_h098",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「文化习俗」，再学「间接引语」。册次待核。"
+  },
+  {
+    "topicId": "cne_h100",
+    "prerequisiteId": "cne_h099",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「间接引语」，再学「间接引语中的 that」。册次待核。"
+  },
+  {
+    "topicId": "cne_h101",
+    "prerequisiteId": "cne_h100",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「间接引语中的 that」，再学「比较文化差异」。册次待核。"
+  },
+  {
+    "topicId": "cne_h102",
+    "prerequisiteId": "cne_h101",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「比较文化差异」，再学「读文化短文」。册次待核。"
+  },
+  {
+    "topicId": "cne_h103",
+    "prerequisiteId": "cne_h102",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「读文化短文」，再学「写文化笔记」。册次待核。"
+  },
+  {
+    "topicId": "cne_h104",
+    "prerequisiteId": "cne_h103",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「写文化笔记」，再学「太空探索」。册次待核。"
+  },
+  {
+    "topicId": "cne_h105",
+    "prerequisiteId": "cne_h104",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「太空探索」，再学「航天」。册次待核。"
+  },
+  {
+    "topicId": "cne_h106",
+    "prerequisiteId": "cne_h105",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「航天」，再学「不定式作主语和表语」。册次待核。"
+  },
+  {
+    "topicId": "cne_h107",
+    "prerequisiteId": "cne_h106",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「不定式作主语和表语」，再学「省略 to 的不定式」。册次待核。"
+  },
+  {
+    "topicId": "cne_h108",
+    "prerequisiteId": "cne_h107",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「省略 to 的不定式」，再学「谈论航天计划」。册次待核。"
+  },
+  {
+    "topicId": "cne_h109",
+    "prerequisiteId": "cne_h108",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「谈论航天计划」，再学「读航天短文」。册次待核。"
+  },
+  {
+    "topicId": "cne_h110",
+    "prerequisiteId": "cne_h109",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「读航天短文」，再学「写航天笔记」。册次待核。"
+  },
+  {
+    "topicId": "cne_h111",
+    "prerequisiteId": "cne_h110",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「写航天笔记」，再学「金钱与价值」。册次待核。"
+  },
+  {
+    "topicId": "cne_h112",
+    "prerequisiteId": "cne_h111",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「金钱与价值」，再学「消费选择」。册次待核。"
+  },
+  {
+    "topicId": "cne_h113",
+    "prerequisiteId": "cne_h112",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「消费选择」，再学「情态动词加 have done」。册次待核。"
+  },
+  {
+    "topicId": "cne_h114",
+    "prerequisiteId": "cne_h113",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「情态动词加 have done」，再学「would rather 的虚拟」。册次待核。"
+  },
+  {
+    "topicId": "cne_h115",
+    "prerequisiteId": "cne_h114",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「would rather 的虚拟」，再学「谈论价值和消费」。册次待核。"
+  },
+  {
+    "topicId": "cne_h116",
+    "prerequisiteId": "cne_h115",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「谈论价值和消费」，再学「读消费短文」。册次待核。"
+  },
+  {
+    "topicId": "cne_h117",
+    "prerequisiteId": "cne_h116",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「读消费短文」，再学「写消费反思」。册次待核。"
+  },
+  {
+    "topicId": "cne_h118",
+    "prerequisiteId": "cne_h117",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「写消费反思」，再学「人物成就」。册次待核。"
+  },
+  {
+    "topicId": "cne_h119",
+    "prerequisiteId": "cne_h118",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「人物成就」，再学「科学家与贡献」。册次待核。"
+  },
+  {
+    "topicId": "cne_h120",
+    "prerequisiteId": "cne_h119",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「科学家与贡献」，再学「that 引导主语从句」。册次待核。"
+  },
+  {
+    "topicId": "cne_h121",
+    "prerequisiteId": "cne_h120",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「that 引导主语从句」，再学「whether 引导主语从句」。册次待核。"
+  },
+  {
+    "topicId": "cne_h122",
+    "prerequisiteId": "cne_h121",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「whether 引导主语从句」，再学「描述人物成就」。册次待核。"
+  },
+  {
+    "topicId": "cne_h123",
+    "prerequisiteId": "cne_h122",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「描述人物成就」，再学「读人物短文」。册次待核。"
+  },
+  {
+    "topicId": "cne_h124",
+    "prerequisiteId": "cne_h123",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「读人物短文」，再学「写人物简介」。册次待核。"
+  },
+  {
+    "topicId": "cne_h125",
+    "prerequisiteId": "cne_h124",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「写人物简介」，再学「未来生活」。册次待核。"
+  },
+  {
+    "topicId": "cne_h126",
+    "prerequisiteId": "cne_h125",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「未来生活」，再学「智能设备」。册次待核。"
+  },
+  {
+    "topicId": "cne_h127",
+    "prerequisiteId": "cne_h126",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「智能设备」，再学「表语从句」。册次待核。"
+  },
+  {
+    "topicId": "cne_h129",
+    "prerequisiteId": "cne_h128",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「同位语从句」，再学「描述未来设备」。册次待核。"
+  },
+  {
+    "topicId": "cne_h130",
+    "prerequisiteId": "cne_h129",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「描述未来设备」，再学「读未来生活短文」。册次待核。"
+  },
+  {
+    "topicId": "cne_h131",
+    "prerequisiteId": "cne_h130",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「读未来生活短文」，再学「写步骤说明」。册次待核。"
+  },
+  {
+    "topicId": "cne_h132",
+    "prerequisiteId": "cne_h131",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「写步骤说明」，再学「公园」。册次待核。"
+  },
+  {
+    "topicId": "cne_h133",
+    "prerequisiteId": "cne_h132",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「公园」，再学「自然保护」。册次待核。"
+  },
+  {
+    "topicId": "cne_h134",
+    "prerequisiteId": "cne_h133",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「自然保护」，再学「动词 -ing 的完成式」。册次待核。"
+  },
+  {
+    "topicId": "cne_h135",
+    "prerequisiteId": "cne_h134",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「动词 -ing 的完成式」，再学「with 复合结构」。册次待核。"
+  },
+  {
+    "topicId": "cne_h136",
+    "prerequisiteId": "cne_h135",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「with 复合结构」，再学「描述公园规则」。册次待核。"
+  },
+  {
+    "topicId": "cne_h137",
+    "prerequisiteId": "cne_h136",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「描述公园规则」，再学「读公园短文」。册次待核。"
+  },
+  {
+    "topicId": "cne_h138",
+    "prerequisiteId": "cne_h137",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「读公园短文」，再学「写参观说明」。册次待核。"
+  },
+  {
+    "topicId": "cne_h139",
+    "prerequisiteId": "cne_h138",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「写参观说明」，再学「肢体语言」。册次待核。"
+  },
+  {
+    "topicId": "cne_h140",
+    "prerequisiteId": "cne_h139",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「肢体语言」，再学「表情与距离」。册次待核。"
+  },
+  {
+    "topicId": "cne_h141",
+    "prerequisiteId": "cne_h140",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「表情与距离」，再学「非谓语的完成式和被动式」。册次待核。"
+  },
+  {
+    "topicId": "cne_h142",
+    "prerequisiteId": "cne_h141",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「非谓语的完成式和被动式」，再学「感官动词后的宾补」。册次待核。"
+  },
+  {
+    "topicId": "cne_h143",
+    "prerequisiteId": "cne_h142",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「感官动词后的宾补」，再学「描述肢体语言」。册次待核。"
+  },
+  {
+    "topicId": "cne_h144",
+    "prerequisiteId": "cne_h143",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「描述肢体语言」，再学「读肢体语言短文」。册次待核。"
+  },
+  {
+    "topicId": "cne_h145",
+    "prerequisiteId": "cne_h144",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「读肢体语言短文」，再学「写观察笔记」。册次待核。"
+  },
+  {
+    "topicId": "cne_h146",
+    "prerequisiteId": "cne_h145",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「写观察笔记」，再学「农业」。册次待核。"
+  },
+  {
+    "topicId": "cne_h147",
+    "prerequisiteId": "cne_h146",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「农业」，再学「耕作」。册次待核。"
+  },
+  {
+    "topicId": "cne_h148",
+    "prerequisiteId": "cne_h147",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「耕作」，再学「不定式的被动式」。册次待核。"
+  },
+  {
+    "topicId": "cne_h149",
+    "prerequisiteId": "cne_h148",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「不定式的被动式」，再学「独立主格」。册次待核。"
+  },
+  {
+    "topicId": "cne_h150",
+    "prerequisiteId": "cne_h149",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「独立主格」，再学「说明农事过程」。册次待核。"
+  },
+  {
+    "topicId": "cne_h151",
+    "prerequisiteId": "cne_h150",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「说明农事过程」，再学「读农业短文」。册次待核。"
+  },
+  {
+    "topicId": "cne_h152",
+    "prerequisiteId": "cne_h151",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「读农业短文」，再学「写农事安排」。册次待核。"
+  },
+  {
+    "topicId": "cne_h153",
+    "prerequisiteId": "cne_h152",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「写农事安排」，再学「科学研究」。册次待核。"
+  },
+  {
+    "topicId": "cne_h154",
+    "prerequisiteId": "cne_h153",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「科学研究」，再学「科学结论」。册次待核。"
+  },
+  {
+    "topicId": "cne_h155",
+    "prerequisiteId": "cne_h154",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「科学结论」，再学「虚拟语气」。册次待核。"
+  },
+  {
+    "topicId": "cne_h156",
+    "prerequisiteId": "cne_h155",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「虚拟语气」，再学「but for 与虚拟」。册次待核。"
+  },
+  {
+    "topicId": "cne_h157",
+    "prerequisiteId": "cne_h156",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「but for 与虚拟」，再学「说明科学假设」。册次待核。"
+  },
+  {
+    "topicId": "cne_h158",
+    "prerequisiteId": "cne_h157",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「说明科学假设」，再学「读科学短文」。册次待核。"
+  },
+  {
+    "topicId": "cne_h159",
+    "prerequisiteId": "cne_h158",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「读科学短文」，再学「写实验评论」。册次待核。"
+  },
+  {
+    "topicId": "cne_h160",
+    "prerequisiteId": "cne_h159",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「写实验评论」，再学「跨文化交流」。册次待核。"
+  },
+  {
+    "topicId": "cne_h161",
+    "prerequisiteId": "cne_h160",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「跨文化交流」，再学「寄宿家庭」。册次待核。"
+  },
+  {
+    "topicId": "cne_h162",
+    "prerequisiteId": "cne_h161",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「寄宿家庭」，再学「与过去事实相反的虚拟」。册次待核。"
+  },
+  {
+    "topicId": "cne_h163",
+    "prerequisiteId": "cne_h162",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「与过去事实相反的虚拟」，再学「错综时间虚拟」。册次待核。"
+  },
+  {
+    "topicId": "cne_h164",
+    "prerequisiteId": "cne_h163",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「错综时间虚拟」，再学「比较文化差异」。册次待核。"
+  },
+  {
+    "topicId": "cne_h165",
+    "prerequisiteId": "cne_h164",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「比较文化差异」，再学「读交流短文」。册次待核。"
+  },
+  {
+    "topicId": "cne_h166",
+    "prerequisiteId": "cne_h165",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「读交流短文」，再学「写交流反思」。册次待核。"
+  },
+  {
+    "topicId": "cne_h167",
+    "prerequisiteId": "cne_h166",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「写交流反思」，再学「饮食文化」。册次待核。"
+  },
+  {
+    "topicId": "cne_h168",
+    "prerequisiteId": "cne_h167",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「饮食文化」，再学「餐桌礼仪」。册次待核。"
+  },
+  {
+    "topicId": "cne_h169",
+    "prerequisiteId": "cne_h168",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「餐桌礼仪」，再学「与将来事实相反的虚拟」。册次待核。"
+  },
+  {
+    "topicId": "cne_h170",
+    "prerequisiteId": "cne_h169",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「与将来事实相反的虚拟」，再学「as if 虚拟」。册次待核。"
+  },
+  {
+    "topicId": "cne_h171",
+    "prerequisiteId": "cne_h170",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「as if 虚拟」，再学「比较饮食」。册次待核。"
+  },
+  {
+    "topicId": "cne_h172",
+    "prerequisiteId": "cne_h171",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「比较饮食」，再学「读饮食短文」。册次待核。"
+  },
+  {
+    "topicId": "cne_h173",
+    "prerequisiteId": "cne_h172",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「读饮食短文」，再学「写饮食说明」。册次待核。"
+  },
+  {
+    "topicId": "cne_h174",
+    "prerequisiteId": "cne_h173",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「写饮食说明」，再学「长途旅行」。册次待核。"
+  },
+  {
+    "topicId": "cne_h175",
+    "prerequisiteId": "cne_h174",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「长途旅行」，再学「旅途见闻」。册次待核。"
+  },
+  {
+    "topicId": "cne_h176",
+    "prerequisiteId": "cne_h175",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「旅途见闻」，再学「wish 虚拟」。册次待核。"
+  },
+  {
+    "topicId": "cne_h177",
+    "prerequisiteId": "cne_h176",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「wish 虚拟」，再学「if only 虚拟」。册次待核。"
+  },
+  {
+    "topicId": "cne_h178",
+    "prerequisiteId": "cne_h177",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「if only 虚拟」，再学「用语调表达态度」。册次待核。"
+  },
+  {
+    "topicId": "cne_h179",
+    "prerequisiteId": "cne_h178",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「用语调表达态度」，再学「描述旅途」。册次待核。"
+  },
+  {
+    "topicId": "cne_h180",
+    "prerequisiteId": "cne_h179",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「描述旅途」，再学「读旅途短文」。册次待核。"
+  },
+  {
+    "topicId": "cne_h181",
+    "prerequisiteId": "cne_h180",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「读旅途短文」，再学「写旅途邮件」。册次待核。"
+  },
+  {
+    "topicId": "cne_h182",
+    "prerequisiteId": "cne_h181",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「写旅途邮件」，再学「急救」。册次待核。"
+  },
+  {
+    "topicId": "cne_h183",
+    "prerequisiteId": "cne_h182",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「急救」，再学「伤情处理」。册次待核。"
+  },
+  {
+    "topicId": "cne_h184",
+    "prerequisiteId": "cne_h183",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「伤情处理」，再学「建议命令的虚拟」。册次待核。"
+  },
+  {
+    "topicId": "cne_h185",
+    "prerequisiteId": "cne_h184",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「建议命令的虚拟」，再学「otherwise 虚拟」。册次待核。"
+  },
+  {
+    "topicId": "cne_h186",
+    "prerequisiteId": "cne_h185",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「otherwise 虚拟」，再学「说明急救步骤」。册次待核。"
+  },
+  {
+    "topicId": "cne_h187",
+    "prerequisiteId": "cne_h186",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「说明急救步骤」，再学「读急救短文」。册次待核。"
+  },
+  {
+    "topicId": "cne_h188",
+    "prerequisiteId": "cne_h187",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「读急救短文」，再学「写急救步骤」。册次待核。"
+  },
+  {
+    "topicId": "cne_h189",
+    "prerequisiteId": "cne_h188",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「写急救步骤」，再学「艺术」。册次待核。"
+  },
+  {
+    "topicId": "cne_h190",
+    "prerequisiteId": "cne_h189",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「艺术」，再学「艺术评论」。册次待核。"
+  },
+  {
+    "topicId": "cne_h191",
+    "prerequisiteId": "cne_h190",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「艺术评论」，再学「否定副词倒装」。册次待核。"
+  },
+  {
+    "topicId": "cne_h192",
+    "prerequisiteId": "cne_h191",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「否定副词倒装」，再学「hardly 倒装」。册次待核。"
+  },
+  {
+    "topicId": "cne_h193",
+    "prerequisiteId": "cne_h192",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「hardly 倒装」，再学「描述艺术作品」。册次待核。"
+  },
+  {
+    "topicId": "cne_h194",
+    "prerequisiteId": "cne_h193",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「描述艺术作品」，再学「读艺术短文」。册次待核。"
+  },
+  {
+    "topicId": "cne_h195",
+    "prerequisiteId": "cne_h194",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「读艺术短文」，再学「写观展笔记」。册次待核。"
+  },
+  {
+    "topicId": "cne_h196",
+    "prerequisiteId": "cne_h195",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「写观展笔记」，再学「健康生活」。册次待核。"
+  },
+  {
+    "topicId": "cne_h197",
+    "prerequisiteId": "cne_h196",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「健康生活」，再学「身心习惯」。册次待核。"
+  },
+  {
+    "topicId": "cne_h198",
+    "prerequisiteId": "cne_h197",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「身心习惯」，再学「only 与 so、neither 倒装」。册次待核。"
+  },
+  {
+    "topicId": "cne_h199",
+    "prerequisiteId": "cne_h198",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「only 与 so、neither 倒装」，再学「there 与方位倒装」。册次待核。"
+  },
+  {
+    "topicId": "cne_h200",
+    "prerequisiteId": "cne_h199",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「there 与方位倒装」，再学「讨论健康习惯」。册次待核。"
+  },
+  {
+    "topicId": "cne_h201",
+    "prerequisiteId": "cne_h200",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「讨论健康习惯」，再学「读健康短文」。册次待核。"
+  },
+  {
+    "topicId": "cne_h202",
+    "prerequisiteId": "cne_h201",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「读健康短文」，再学「写健康建议」。册次待核。"
+  },
+  {
+    "topicId": "cne_h203",
+    "prerequisiteId": "cne_h202",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「写健康建议」，再学「环境保护」。册次待核。"
+  },
+  {
+    "topicId": "cne_h204",
+    "prerequisiteId": "cne_h203",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「环境保护」，再学「污染」。册次待核。"
+  },
+  {
+    "topicId": "cne_h205",
+    "prerequisiteId": "cne_h204",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「污染」，再学「强调句」。册次待核。"
+  },
+  {
+    "topicId": "cne_h206",
+    "prerequisiteId": "cne_h205",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「强调句」，再学「强调句和定语从句」。册次待核。"
+  },
+  {
+    "topicId": "cne_h207",
+    "prerequisiteId": "cne_h206",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「强调句和定语从句」，再学「讨论环境政策」。册次待核。"
+  },
+  {
+    "topicId": "cne_h208",
+    "prerequisiteId": "cne_h207",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「讨论环境政策」，再学「读环境短文」。册次待核。"
+  },
+  {
+    "topicId": "cne_h209",
+    "prerequisiteId": "cne_h208",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「读环境短文」，再学「写环境评论」。册次待核。"
+  },
+  {
+    "topicId": "cne_h210",
+    "prerequisiteId": "cne_h209",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「写环境评论」，再学「逆境」。册次待核。"
+  },
+  {
+    "topicId": "cne_h211",
+    "prerequisiteId": "cne_h210",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「逆境」，再学「坚持」。册次待核。"
+  },
+  {
+    "topicId": "cne_h212",
+    "prerequisiteId": "cne_h211",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「坚持」，再学「用 do 强调谓语」。册次待核。"
+  },
+  {
+    "topicId": "cne_h213",
+    "prerequisiteId": "cne_h212",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「用 do 强调谓语」，再学「省略 if 的倒装」。册次待核。"
+  },
+  {
+    "topicId": "cne_h214",
+    "prerequisiteId": "cne_h213",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「省略 if 的倒装」，再学「讨论逆境」。册次待核。"
+  },
+  {
+    "topicId": "cne_h215",
+    "prerequisiteId": "cne_h214",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「讨论逆境」，再学「读逆境短文」。册次待核。"
+  },
+  {
+    "topicId": "cne_h216",
+    "prerequisiteId": "cne_h215",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「读逆境短文」，再学「写读后感」。册次待核。"
+  },
+  {
+    "topicId": "cne_h217",
+    "prerequisiteId": "cne_h216",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「写读后感」，再学「诗歌」。册次待核。"
+  },
+  {
+    "topicId": "cne_h218",
+    "prerequisiteId": "cne_h217",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「诗歌」，再学「诗歌赏析」。册次待核。"
+  },
+  {
+    "topicId": "cne_h219",
+    "prerequisiteId": "cne_h218",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「诗歌赏析」，再学「省略」。册次待核。"
+  },
+  {
+    "topicId": "cne_h220",
+    "prerequisiteId": "cne_h219",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「省略」，再学「比较句中的省略」。册次待核。"
+  },
+  {
+    "topicId": "cne_h221",
+    "prerequisiteId": "cne_h220",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「比较句中的省略」，再学「谈论诗歌」。册次待核。"
+  },
+  {
+    "topicId": "cne_h222",
+    "prerequisiteId": "cne_h221",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「谈论诗歌」，再学「读诗歌短文」。册次待核。"
+  },
+  {
+    "topicId": "cne_h223",
+    "prerequisiteId": "cne_h222",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「读诗歌短文」，再学「写赏析句」。册次待核。"
+  },
+  {
+    "topicId": "cne_h224",
+    "prerequisiteId": "cne_h223",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「写赏析句」，再学「科幻作品」。册次待核。"
+  },
+  {
+    "topicId": "cne_h225",
+    "prerequisiteId": "cne_h224",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「科幻作品」，再学「未来科技」。册次待核。"
+  },
+  {
+    "topicId": "cne_h226",
+    "prerequisiteId": "cne_h225",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「未来科技」，再学「非谓语的选择」。册次待核。"
+  },
+  {
+    "topicId": "cne_h227",
+    "prerequisiteId": "cne_h226",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「非谓语的选择」，再学「非谓语完成式和被动式」。册次待核。"
+  },
+  {
+    "topicId": "cne_h228",
+    "prerequisiteId": "cne_h227",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「非谓语完成式和被动式」，再学「讨论科幻情节」。册次待核。"
+  },
+  {
+    "topicId": "cne_h229",
+    "prerequisiteId": "cne_h228",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「讨论科幻情节」，再学「读科幻短文」。册次待核。"
+  },
+  {
+    "topicId": "cne_h230",
+    "prerequisiteId": "cne_h229",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「读科幻短文」，再学「写科幻概要」。册次待核。"
+  },
+  {
+    "topicId": "cne_h231",
+    "prerequisiteId": "cne_h230",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「写科幻概要」，再学「地标」。册次待核。"
+  },
+  {
+    "topicId": "cne_h232",
+    "prerequisiteId": "cne_h231",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「地标」，再学「名胜」。册次待核。"
+  },
+  {
+    "topicId": "cne_h233",
+    "prerequisiteId": "cne_h232",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「名胜」，再学「no matter 与 -ever」。册次待核。"
+  },
+  {
+    "topicId": "cne_h234",
+    "prerequisiteId": "cne_h233",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「no matter 与 -ever」，再学「where 引导状语从句」。册次待核。"
+  },
+  {
+    "topicId": "cne_h235",
+    "prerequisiteId": "cne_h234",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「where 引导状语从句」，再学「介绍名胜」。册次待核。"
+  },
+  {
+    "topicId": "cne_h236",
+    "prerequisiteId": "cne_h235",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「介绍名胜」，再学「读名胜短文」。册次待核。"
+  },
+  {
+    "topicId": "cne_h237",
+    "prerequisiteId": "cne_h236",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「读名胜短文」，再学「写游览说明」。册次待核。"
+  },
+  {
+    "topicId": "cne_h238",
+    "prerequisiteId": "cne_h237",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「写游览说明」，再学「海洋」。册次待核。"
+  },
+  {
+    "topicId": "cne_h239",
+    "prerequisiteId": "cne_h238",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「海洋」，再学「航海」。册次待核。"
+  },
+  {
+    "topicId": "cne_h240",
+    "prerequisiteId": "cne_h239",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「航海」，再学「although 与 while 让步」。册次待核。"
+  },
+  {
+    "topicId": "cne_h241",
+    "prerequisiteId": "cne_h240",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「although 与 while 让步」，再学「so that 与 in case」。册次待核。"
+  },
+  {
+    "topicId": "cne_h242",
+    "prerequisiteId": "cne_h241",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「so that 与 in case」，再学「说明航海安排」。册次待核。"
+  },
+  {
+    "topicId": "cne_h243",
+    "prerequisiteId": "cne_h242",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「说明航海安排」，再学「读航海短文」。册次待核。"
+  },
+  {
+    "topicId": "cne_h244",
+    "prerequisiteId": "cne_h243",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「读航海短文」，再学「写航海备忘」。册次待核。"
+  },
+  {
+    "topicId": "cne_h245",
+    "prerequisiteId": "cne_h244",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「写航海备忘」，再学「公益分享」。册次待核。"
+  },
+  {
+    "topicId": "cne_h246",
+    "prerequisiteId": "cne_h245",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「公益分享」，再学「社区服务」。册次待核。"
+  },
+  {
+    "topicId": "cne_h247",
+    "prerequisiteId": "cne_h246",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「社区服务」，再学「同位语从句和定语从句」。册次待核。"
+  },
+  {
+    "topicId": "cne_h248",
+    "prerequisiteId": "cne_h247",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「同位语从句和定语从句」，再学「what 引导名词性从句」。册次待核。"
+  },
+  {
+    "topicId": "cne_h249",
+    "prerequisiteId": "cne_h248",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「what 引导名词性从句」，再学「安排公益活动」。册次待核。"
+  },
+  {
+    "topicId": "cne_h250",
+    "prerequisiteId": "cne_h249",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「安排公益活动」，再学「读公益短文」。册次待核。"
+  },
+  {
+    "topicId": "cne_h251",
+    "prerequisiteId": "cne_h250",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「读公益短文」，再学「写招募启事」。册次待核。"
+  },
+  {
+    "topicId": "cne_h252",
+    "prerequisiteId": "cne_h251",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「写招募启事」，再学「职业规划」。册次待核。"
+  },
+  {
+    "topicId": "cne_h253",
+    "prerequisiteId": "cne_h252",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「职业规划」，再学「申请材料」。册次待核。"
+  },
+  {
+    "topicId": "cne_h254",
+    "prerequisiteId": "cne_h253",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「申请材料」，再学「语篇中的时态选择」。册次待核。"
+  },
+  {
+    "topicId": "cne_h255",
+    "prerequisiteId": "cne_h254",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「语篇中的时态选择」，再学「provided that 条件」。册次待核。"
+  },
+  {
+    "topicId": "cne_h256",
+    "prerequisiteId": "cne_h255",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「provided that 条件」，再学「功能词弱读」。册次待核。"
+  },
+  {
+    "topicId": "cne_h257",
+    "prerequisiteId": "cne_h256",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「功能词弱读」，再学「谈论求职」。册次待核。"
+  },
+  {
+    "topicId": "cne_h258",
+    "prerequisiteId": "cne_h257",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「谈论求职」，再学「读招聘短文」。册次待核。"
+  },
+  {
+    "topicId": "cne_h259",
+    "prerequisiteId": "cne_h258",
+    "strength": "soft",
+    "reason": "按人教版（2019）的常见教学顺序，先学「读招聘短文」，再学「写申请邮件」。册次待核。"
+  },
+  {
+    "topicId": "cne_h001",
+    "prerequisiteId": "cne_j004",
+    "strength": "soft",
+    "reason": "分析句子成分之前，要先会用 am、is、are 组成句子。"
+  },
+  {
+    "topicId": "cne_h003",
+    "prerequisiteId": "cne_j229",
+    "strength": "soft",
+    "reason": "宾补结构里常见 make 加宾语加动词，先会这个初中句型。"
+  },
+  {
+    "topicId": "cne_h018",
+    "prerequisiteId": "cne_j068",
+    "strength": "hard",
+    "reason": "用现在进行时表示将来之前，要先会 am、is、are 加 -ing。"
+  },
+  {
+    "topicId": "cne_h025",
+    "prerequisiteId": "cne_j243",
+    "strength": "hard",
+    "reason": "高中附加疑问句承接初中已经学过的反意疑问句。"
+  },
+  {
+    "topicId": "cne_h032",
+    "prerequisiteId": "cne_j221",
+    "strength": "hard",
+    "reason": "关系代词引导的定语从句承接初中的 who、which、that。"
+  },
+  {
+    "topicId": "cne_h033",
+    "prerequisiteId": "cne_h032",
+    "strength": "hard",
+    "reason": "whose 和 whom 是在关系代词定语从句上的细分。"
+  },
+  {
+    "topicId": "cne_h039",
+    "prerequisiteId": "cne_h032",
+    "strength": "hard",
+    "reason": "关系副词定语从句要先会用关系代词修饰名词。"
+  },
+  {
+    "topicId": "cne_h040",
+    "prerequisiteId": "cne_h039",
+    "strength": "hard",
+    "reason": "介词加关系代词要先会关系副词和关系代词。"
+  },
+  {
+    "topicId": "cne_h047",
+    "prerequisiteId": "cne_h032",
+    "strength": "hard",
+    "reason": "非限制性定语从句要先会限制性定语从句。"
+  },
+  {
+    "topicId": "cne_h054",
+    "prerequisiteId": "cne_j205",
+    "strength": "hard",
+    "reason": "现在进行时的被动语态要先会 be 加过去分词。"
+  },
+  {
+    "topicId": "cne_h054",
+    "prerequisiteId": "cne_j068",
+    "strength": "hard",
+    "reason": "进行时被动仍要用 be 加 -ing 这一套助动词。"
+  },
+  {
+    "topicId": "cne_h061",
+    "prerequisiteId": "cne_j205",
+    "strength": "hard",
+    "reason": "完成时被动要先会被动语态的过去分词。"
+  },
+  {
+    "topicId": "cne_h061",
+    "prerequisiteId": "cne_j174",
+    "strength": "hard",
+    "reason": "现在完成时的被动要先会 have 加过去分词。"
+  },
+  {
+    "topicId": "cne_h068",
+    "prerequisiteId": "cne_j205",
+    "strength": "hard",
+    "reason": "过去分词作定语之前，要先在被动语态里见过过去分词。"
+  },
+  {
+    "topicId": "cne_h069",
+    "prerequisiteId": "cne_h068",
+    "strength": "hard",
+    "reason": "过去分词作宾补和作定语是同一种非谓语形式。"
+  },
+  {
+    "topicId": "cne_h075",
+    "prerequisiteId": "cne_j242",
+    "strength": "hard",
+    "reason": "动词 -ing 作定语承接初中对动名词和 -ing 的区分。"
+  },
+  {
+    "topicId": "cne_h076",
+    "prerequisiteId": "cne_h075",
+    "strength": "hard",
+    "reason": "动词 -ing 作状语要先会它作定语和表语。"
+  },
+  {
+    "topicId": "cne_h092",
+    "prerequisiteId": "cne_j118",
+    "strength": "hard",
+    "reason": "不定式作定语承接初中不定式作宾语。"
+  },
+  {
+    "topicId": "cne_h093",
+    "prerequisiteId": "cne_j147",
+    "strength": "hard",
+    "reason": "不定式作目的状语承接初中已经学过的 to do 表目的。"
+  },
+  {
+    "topicId": "cne_h106",
+    "prerequisiteId": "cne_h092",
+    "strength": "hard",
+    "reason": "it 作形式主语再接不定式，要先会不定式本身。"
+  },
+  {
+    "topicId": "cne_h113",
+    "prerequisiteId": "cne_j217",
+    "strength": "hard",
+    "reason": "情态动词加 have done 承接初中用 must 表示推测。"
+  },
+  {
+    "topicId": "cne_h099",
+    "prerequisiteId": "cne_j192",
+    "strength": "hard",
+    "reason": "间接引语里的宾语从句要先会 that 从句。"
+  },
+  {
+    "topicId": "cne_h120",
+    "prerequisiteId": "cne_j192",
+    "strength": "hard",
+    "reason": "主语从句里的 that 承接初中的宾语从句。"
+  },
+  {
+    "topicId": "cne_h127",
+    "prerequisiteId": "cne_h120",
+    "strength": "hard",
+    "reason": "表语从句和主语从句都是名词性从句，先会主语从句。"
+  },
+  {
+    "topicId": "cne_h128",
+    "prerequisiteId": "cne_h127",
+    "strength": "hard",
+    "reason": "同位语从句要先会 that 引导的名词性从句，才好和定语从句分开。"
+  },
+  {
+    "topicId": "cne_h121",
+    "prerequisiteId": "cne_j197",
+    "strength": "hard",
+    "reason": "whether 引导的主语从句承接初中疑问词宾语从句的陈述语序。"
+  },
+  {
+    "topicId": "cne_h134",
+    "prerequisiteId": "cne_h076",
+    "strength": "hard",
+    "reason": "having done 是动词 -ing 作状语的完成式。"
+  },
+  {
+    "topicId": "cne_h148",
+    "prerequisiteId": "cne_h106",
+    "strength": "hard",
+    "reason": "不定式的被动式要先会不定式作主语和表语。"
+  },
+  {
+    "topicId": "cne_h155",
+    "prerequisiteId": "cne_j139",
+    "strength": "hard",
+    "reason": "与现在事实相反的虚拟语气承接初中的 if 条件句。"
+  },
+  {
+    "topicId": "cne_h162",
+    "prerequisiteId": "cne_h155",
+    "strength": "hard",
+    "reason": "与过去事实相反的虚拟语气要先会与现在事实相反的形式。"
+  },
+  {
+    "topicId": "cne_h162",
+    "prerequisiteId": "cne_j233",
+    "strength": "hard",
+    "reason": "从句用 had done，要先会过去完成时。"
+  },
+  {
+    "topicId": "cne_h169",
+    "prerequisiteId": "cne_h155",
+    "strength": "hard",
+    "reason": "与将来事实相反的虚拟语气沿用 would 加原形的主句。"
+  },
+  {
+    "topicId": "cne_h176",
+    "prerequisiteId": "cne_h155",
+    "strength": "hard",
+    "reason": "wish 后面的虚拟语气和 if 虚拟用同一套时间错位。"
+  },
+  {
+    "topicId": "cne_h184",
+    "prerequisiteId": "cne_h176",
+    "strength": "hard",
+    "reason": "表示建议的虚拟语气要先会 wish 这类专门的虚拟从句。"
+  },
+  {
+    "topicId": "cne_h191",
+    "prerequisiteId": "cne_h155",
+    "strength": "hard",
+    "reason": "否定副词倒装常和虚拟、强调一起出现，先会虚拟语气的助动词。"
+  },
+  {
+    "topicId": "cne_h198",
+    "prerequisiteId": "cne_h191",
+    "strength": "hard",
+    "reason": "only 和 so、neither 的倒装与否定副词倒装是同一类部分倒装。"
+  },
+  {
+    "topicId": "cne_h213",
+    "prerequisiteId": "cne_h162",
+    "strength": "hard",
+    "reason": "省略 if 的倒装要先会与过去事实相反的 had done。"
+  },
+  {
+    "topicId": "cne_h205",
+    "prerequisiteId": "cne_h032",
+    "strength": "hard",
+    "reason": "强调句的 that 容易和定语从句混淆，要先会关系代词。"
+  },
+  {
+    "topicId": "cne_h212",
+    "prerequisiteId": "cne_h205",
+    "strength": "hard",
+    "reason": "用 do 强调谓语是在句式强调之后的另一种强调。"
+  },
+  {
+    "topicId": "cne_h219",
+    "prerequisiteId": "cne_h106",
+    "strength": "hard",
+    "reason": "省略不定式时要保留 to，先会不定式的完整形式。"
+  },
+  {
+    "topicId": "cne_h240",
+    "prerequisiteId": "cne_j155",
+    "strength": "hard",
+    "reason": "although 与 while 的让步用法承接初中的让步状语从句。"
+  },
+  {
+    "topicId": "cne_h241",
+    "prerequisiteId": "cne_j165",
+    "strength": "hard",
+    "reason": "so that 与 in case 承接初中的目的状语从句。"
+  },
+  {
+    "topicId": "cne_h226",
+    "prerequisiteId": "cne_h134",
+    "strength": "hard",
+    "reason": "比较 to do、doing 和 done 时，要先会 -ing 的完成式。"
+  },
+  {
+    "topicId": "cne_h226",
+    "prerequisiteId": "cne_h148",
+    "strength": "hard",
+    "reason": "非谓语综合选择也要会不定式的被动式。"
+  },
+  {
+    "topicId": "cne_h247",
+    "prerequisiteId": "cne_h128",
+    "strength": "hard",
+    "reason": "名词性从句综合要先能分开同位语从句和定语从句。"
+  },
+  {
+    "topicId": "cne_h254",
+    "prerequisiteId": "cne_j237",
+    "strength": "hard",
+    "reason": "语篇里选时态承接初中已经做过的时态选择。"
   }
 ]

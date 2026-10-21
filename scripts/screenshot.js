@@ -18,7 +18,8 @@
  *      诊断分享图：数学（五年级上册）存 38-share-math.png，英语（现在进行时）存 39-share-en.png，
  *      375 宽弹层存 40-share-modal-375.png，并用 jsQR 解码图中二维码。
  *      小学英语图谱与四年级上册诊断截 32–35。初中英语「现在完成时」截 43–44，
- *      八年级上册英语整册诊断截 45–46。
+ *      八年级上册英语整册诊断截 45–46。高中英语「虚拟语气」截 51–52，
+ *      选择性必修第一册英语整册诊断截 53–54。
  * 环境变量：CHROME=/path/to/chrome  PORT=8765  DEBUG_PORT=9333
  */
 'use strict';
@@ -861,14 +862,14 @@ async function main() {
     if (!perfect) throw new Error('找不到「现在完成时」');
     await setView(1280, 900);
     const perfInfo = await checkExplore(perfect.id, { title: '现在完成时', idCode: perfect.id, diag: perfect.id });
-    check(perfInfo.junior > 0 && perfInfo.senior === 0, '现在完成时局部图含初中节点、不含高中（初中 ' + perfInfo.junior + '，高中 ' + perfInfo.senior + '）');
+    check(perfInfo.junior > 0, '现在完成时局部图含初中节点（初中 ' + perfInfo.junior + '，高中 ' + perfInfo.senior + '）');
     const stageTabs = await evalJs('Array.from(document.querySelectorAll("#stage-tabs [data-stage]:not([hidden])")).map((b) => b.textContent).join(",")');
-    check(stageTabs === '全部,小学,初中', '英语图谱学段是全部/小学/初中（' + stageTabs + '）');
+    check(stageTabs === '全部,小学,初中,高中', '英语图谱学段是全部/小学/初中/高中（' + stageTabs + '）');
     const gradeOpts = await evalJs('Array.from(document.querySelectorAll("#fGrade option")).map((o) => o.textContent).join(",")');
-    check(gradeOpts.indexOf('九年级') >= 0 && gradeOpts.indexOf('高一') < 0 && gradeOpts.indexOf('一年级') < 0, '英语年级从三年级筛到九年级（' + gradeOpts + '）');
+    check(gradeOpts.indexOf('九年级') >= 0 && gradeOpts.indexOf('高一') < 0 && gradeOpts.indexOf('一年级') < 0 && gradeOpts.indexOf('必修第一册') >= 0 && gradeOpts.indexOf('选择性必修第四册') >= 0, '英语年级从三年级筛到高中，不用「高一」（' + gradeOpts + '）');
     const legendH = await evalJs('(() => { const li = document.querySelector(".legend li:has(.sw-h)"); if (!li) return "missing"; return getComputedStyle(li).display; })()');
     const legendJ = await evalJs('(() => { const li = document.querySelector(".legend li:has(.sw-j)"); if (!li) return "missing"; return getComputedStyle(li).display; })()');
-    check(legendH === 'none' && legendJ !== 'none', '英语图谱图例保留初中、隐藏高中（初中 ' + legendJ + '，高中 ' + legendH + '）');
+    check(legendH !== 'none' && legendH !== 'missing' && legendJ !== 'none', '英语图谱图例同时保留初中和高中（初中 ' + legendJ + '，高中 ' + legendH + '）');
     await shot('43-explore-perfect.png');
     await setView(375, 812);
     await checkExplore(perfect.id, { title: '现在完成时', idCode: perfect.id, diag: perfect.id });
@@ -882,7 +883,7 @@ async function main() {
     await checkBanner('初中英语诊断 1280');
     check(await exists('#chapters .chap-sum'), '八年级上册英语整体诊断有按章汇总');
     check((await evalJs('document.body.innerText')).indexOf('配方法') < 0, '初中英语整册诊断不混入数学知识点');
-    check((await evalJs('document.body.innerText')).indexOf('小学和初中用不同颜色') >= 0, '英语结果页图例说明含小学和初中');
+    check((await evalJs('document.body.innerText')).indexOf('小学、初中和高中用不同颜色') >= 0, '英语结果页图例说明含小学、初中和高中');
     await checkPage('八年级上册英语 1280');
     await shot('45-diagnose-en-g8.png', '#summary', 900);
     await setView(375, 812);
@@ -892,6 +893,36 @@ async function main() {
     await checkBanner('初中英语诊断 375');
     await checkPage('八年级上册英语 375');
     await shot('46-diagnose-en-g8-375.png', null, 1100);
+
+    console.log('高中英语');
+    const subj = TOPIC_ROWS.find((t) => t.name === '虚拟语气' && String(t.id).startsWith('cne_h'));
+    if (!subj) throw new Error('找不到「虚拟语气」');
+    await setView(1280, 900);
+    const subInfo = await checkExplore(subj.id, { title: '虚拟语气', idCode: subj.id, diag: subj.id });
+    check(subInfo.senior > 0 && subInfo.junior > 0, '虚拟语气局部图含高中和初中（高中 ' + subInfo.senior + '，初中 ' + subInfo.junior + '）');
+    check((await evalJs('document.body.innerText')).indexOf('高一') < 0, '虚拟语气页不把英语册次写成高一');
+    check((await evalJs('document.body.innerText')).indexOf('选择性必修第二册') >= 0, '虚拟语气页写明选择性必修第二册');
+    await checkPage('虚拟语气 1280');
+    await shot('51-explore-subjunctive.png');
+    await setView(375, 812);
+    await checkExplore(subj.id, { title: '虚拟语气', idCode: subj.id, diag: subj.id });
+    await checkPage('虚拟语气 375');
+    await shot('52-explore-subjunctive-375.png', null, 1100);
+    await setView(1280, 900);
+    await goto(BASE + '/diagnose/?subject=english&grade=' + encodeURIComponent('选必一') + '&demo=1&limit=12');
+    await waitFor(() => exists('#chapters'), '选择性必修第一册英语整体诊断', 20000);
+    check((await evalJs('document.querySelector("#summary h2").textContent')).indexOf('选必一') >= 0, '选必一英语整体诊断标题');
+    check((await evalJs('document.body.innerText')).indexOf('配方法') < 0, '高中英语整册诊断不混入数学知识点');
+    check((await evalJs('document.body.innerText')).indexOf('People of Achievement') >= 0, '选必一诊断按单元汇总');
+    check(await evalJs('!Array.from(document.querySelectorAll("#grade-card .stage-tab")).some((b) => b.textContent === "上册" || b.textContent === "下册")'), '选必一英语不提供上下册');
+    await checkPage('选必一英语 1280');
+    await shot('53-diagnose-en-xuanbi1.png', '#summary', 900);
+    await setView(375, 812);
+    await goto(BASE + '/diagnose/?subject=english&grade=' + encodeURIComponent('选必一') + '&demo=1&limit=12');
+    await waitFor(() => exists('#chapters'), '选择性必修第一册英语整体诊断 375', 20000);
+    check((await evalJs('document.querySelector("#summary h2").textContent')).indexOf('选必一') >= 0, '375 选必一英语整体诊断');
+    await checkPage('选必一英语 375');
+    await shot('54-diagnose-en-xuanbi1-375.png', null, 1100);
 
     console.log('分享图');
     const shareUi = () => evalJs(`(() => {

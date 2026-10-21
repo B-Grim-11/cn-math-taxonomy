@@ -28,7 +28,7 @@
   if (subject === 'english') {
     document.title = '英语 · 中小学知识图谱';
     var eye = document.querySelector('.eyebrow');
-    if (eye) eye.textContent = '英语：三年级到九年级';
+    if (eye) eye.textContent = '英语：三年级到高中';
     var primary = document.querySelector('.hero-actions a.btn-primary');
     var browse = document.querySelector('.hero-actions a.btn:not(.btn-primary)');
     if (primary) primary.setAttribute('href', 'diagnose/?subject=english');
@@ -118,7 +118,15 @@
       var href = wantEnglish ? 'explore/?subject=english&grade=' + g : 'explore/?grade=' + g;
       addCard(g, g <= 6 ? '小学' : '初中', CN[g] + '年级', g <= 6 ? 'is-primary' : 'is-junior', splitText, href);
     }
-    if (!wantEnglish) {
+    if (wantEnglish) {
+      addCard(10, '高中', '必修一', 'is-senior', '必修第一册', 'explore/?subject=english&grade=10');
+      addCard(11, '高中', '必修二', 'is-senior', '必修第二册', 'explore/?subject=english&grade=11');
+      addCard(12, '高中', '必修三', 'is-senior', '必修第三册', 'explore/?subject=english&grade=12');
+      addCard(13, '高中', '选必一', 'is-senior', '选择性必修第一册', 'explore/?subject=english&grade=13');
+      addCard(14, '高中', '选必二', 'is-senior', '选择性必修第二册', 'explore/?subject=english&grade=14');
+      addCard(15, '高中', '选必三', 'is-senior', '选择性必修第三册', 'explore/?subject=english&grade=15');
+      addCard(16, '高中', '选必四', 'is-senior', '选择性必修第四册', 'explore/?subject=english&grade=16');
+    } else {
       addCard(10, '高中', '高一', 'is-senior', '必修第一册', 'explore/?grade=10');
       addCard(11, '高中', '高二', 'is-senior', '必修第二册', 'explore/?grade=11');
       addCard(12, '高中', '选必一', 'is-senior', '选择性必修第一册', 'explore/?grade=12');

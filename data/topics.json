@@ -32659,5 +32659,6998 @@
         "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
       }
     ]
+  },
+  {
+    "id": "cne_h001",
+    "name": "句子成分",
+    "domain": "语法",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 欢迎单元 Welcome Unit",
+    "type": "procedural",
+    "description": "能指出简单句的主语、谓语和宾语。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "The boy likes music. 这句的主语是哪一个？",
+      "answer": "The boy"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.GR.01",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h002",
+    "name": "五种基本句型",
+    "domain": "语法",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 欢迎单元 Welcome Unit",
+    "type": "procedural",
+    "description": "能分辨主谓、主谓宾、主系表、双宾语和宾语补足语。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "Birds fly. 这句属于哪一种基本句型？",
+      "answer": "主谓"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.GR.01",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h003",
+    "name": "宾语补足语",
+    "domain": "语法",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 欢迎单元 Welcome Unit",
+    "type": "procedural",
+    "description": "能找出宾语补足语，并分辨它和双宾语。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "We call him Tom. 句中 Tom 是什么成分？",
+      "answer": "宾语补足语"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.GR.01",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h004",
+    "name": "校园设施",
+    "domain": "词汇",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 欢迎单元 Welcome Unit",
+    "type": "conceptual",
+    "description": "认读 campus、lecture、locker 和 freshman。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「校园」？",
+      "answer": "campus"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.VO.01",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h005",
+    "name": "问候并介绍自己",
+    "domain": "日常表达",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 欢迎单元 Welcome Unit",
+    "type": "application",
+    "description": "能向新同学问候，并说出自己的班级。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "开学第一天，想问好并说出自己的名字，哪一句合适？",
+      "answer": "Hi, my name is Lin"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.FU.01",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h006",
+    "name": "读新生简介",
+    "domain": "读写",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 欢迎单元 Welcome Unit",
+    "type": "application",
+    "description": "读一段新生简介，找出班级和第一堂课的时间。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "Lin is a new student. She is in Class 3. Her first lecture is on Monday. Lin 是什么身份？",
+      "answer": "新生"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h007",
+    "name": "写自我介绍",
+    "domain": "读写",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 欢迎单元 Welcome Unit",
+    "type": "application",
+    "description": "能按要点选出自我介绍里该写的句子。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "要点：姓名林晓、三班、喜欢音乐。哪一句三个要点都有？",
+      "answer": "I am Lin Xiao in Class 3, and I like music"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.RW.03",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h008",
+    "name": "句末升调和降调",
+    "domain": "语音",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 欢迎单元 Welcome Unit",
+    "type": "procedural",
+    "description": "能区分陈述句、特殊疑问句的降调和一般疑问句的升调。",
+    "mastery_criteria": [
+      "能根据重音、语调或音变选出正确的一项",
+      "能说明这个朗读规则用在什么地方"
+    ],
+    "diagnostic_question": {
+      "question": "一般疑问句 Are you in Class 3? 句末通常用什么语调？",
+      "answer": "升调"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.PH.02",
+        "confidence": "inferred",
+        "note": "语音项目按人教版（2019）常见教学顺序编排，没有核到人教社目录，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h009",
+    "name": "课程与作业",
+    "domain": "词汇",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第1单元 Teenage Life",
+    "type": "conceptual",
+    "description": "认读 course、homework、quiz 和 grade。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「课程」？",
+      "answer": "course"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.VO.01",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h010",
+    "name": "挑战与社团",
+    "domain": "词汇",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第1单元 Teenage Life",
+    "type": "conceptual",
+    "description": "认读 challenge、debate、volunteer 和 confident。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「挑战」？",
+      "answer": "challenge"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.VO.01",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h011",
+    "name": "名词短语",
+    "domain": "语法",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第1单元 Teenage Life",
+    "type": "procedural",
+    "description": "能识别名词短语，并判断它在句中作什么成分。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "The tall boy in blue 是什么短语？",
+      "answer": "名词短语"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.GR.02",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h012",
+    "name": "形容词短语和副词短语",
+    "domain": "语法",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第1单元 Teenage Life",
+    "type": "procedural",
+    "description": "能识别形容词短语和副词短语，并判断它们作表语还是状语。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "The question is very difficult. very difficult 是什么？",
+      "answer": "形容词短语作表语"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.GR.02",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h013",
+    "name": "谈论课程和社团",
+    "domain": "日常表达",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第1单元 Teenage Life",
+    "type": "application",
+    "description": "能说出自己喜欢的课程，并回应加入社团的建议。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想说自己最喜欢英语课，哪一句合适？",
+      "answer": "My favourite course is English"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.FU.01",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h014",
+    "name": "读校园生活短文",
+    "domain": "读写",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第1单元 Teenage Life",
+    "type": "application",
+    "description": "读一段校园生活短文，找出课程和社团。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "Chen likes his English course, but the maths quiz is a challenge. He also joins the debate club. Chen 喜欢哪一门课？",
+      "answer": "英语"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h015",
+    "name": "写社团申请句",
+    "domain": "读写",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第1单元 Teenage Life",
+    "type": "application",
+    "description": "能按要点选出申请加入社团的句子。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "要点：想加入辩论社、喜欢讨论、每周五有空。哪一句三个要点都有？",
+      "answer": "I want to join the debate club because I like discussion and I am free on Friday"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.RW.03",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h016",
+    "name": "旅行安排",
+    "domain": "词汇",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第2单元 Travelling Around",
+    "type": "conceptual",
+    "description": "认读 destination、brochure、accommodation 和 itinerary。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「目的地」？",
+      "answer": "destination"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.VO.02",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h017",
+    "name": "景点",
+    "domain": "词汇",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第2单元 Travelling Around",
+    "type": "conceptual",
+    "description": "认读 castle、waterfall、temple 和 scenery。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「城堡」？",
+      "answer": "castle"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.VO.02",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h018",
+    "name": "现在进行时表将来",
+    "domain": "语法",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第2单元 Travelling Around",
+    "type": "procedural",
+    "description": "能用现在进行时表示已经安排好的将来。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "I ___ Tom at the station tomorrow. 表示已经安排好的见面，横线处填哪一个？",
+      "answer": "am meeting"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.GR.03",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h019",
+    "name": "时间从句用现在时表将来",
+    "domain": "语法",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第2单元 Travelling Around",
+    "type": "procedural",
+    "description": "能在时间和条件状语从句中用一般现在时表示将来。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "I will call you when I ___ there. 横线处填哪一个？",
+      "answer": "arrive"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.GR.03",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h020",
+    "name": "谈论旅行计划",
+    "domain": "日常表达",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第2单元 Travelling Around",
+    "type": "application",
+    "description": "能说出已经安排的行程，并回应邀请。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想告诉同学周五已经订好去西安的机票，哪一句合适？",
+      "answer": "We are flying to Xi'an on Friday"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h021",
+    "name": "读行程短文",
+    "domain": "读写",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第2单元 Travelling Around",
+    "type": "application",
+    "description": "读一段行程，找出时间、住宿和景点，并判断作者是否只在列计划。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "Anna is travelling to Xi'an next Friday. She is staying in a small hotel. Her itinerary includes a temple and a museum. Anna 什么时候去西安？",
+      "answer": "下周五"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.RW.02",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h022",
+    "name": "写行程邮件",
+    "domain": "读写",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第2单元 Travelling Around",
+    "type": "application",
+    "description": "能按要点选出行程邮件里的句子。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "要点：周五出发、住小旅馆、去看兵马俑。哪一句三个要点都有？",
+      "answer": "We are leaving on Friday, staying in a small hotel and visiting the Terracotta Army"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.RW.03",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h023",
+    "name": "运动项目",
+    "domain": "词汇",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第3单元 Sports and Fitness",
+    "type": "conceptual",
+    "description": "认读 marathon、stadium、coach 和 medal。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「马拉松」？",
+      "answer": "marathon"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.VO.02",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h024",
+    "name": "健身与健康",
+    "domain": "词汇",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第3单元 Sports and Fitness",
+    "type": "conceptual",
+    "description": "认读 fitness、muscle、diet 和 injury。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「体能」？",
+      "answer": "fitness"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.VO.02",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h025",
+    "name": "附加疑问句",
+    "domain": "语法",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第3单元 Sports and Fitness",
+    "type": "procedural",
+    "description": "能让附加问句的人称、助动词和肯定否定与陈述部分一致。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "She can swim, ___? 横线处填哪一个？",
+      "answer": "can't she"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.GR.04",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h026",
+    "name": "副词短语作状语",
+    "domain": "语法",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第3单元 Sports and Fitness",
+    "type": "procedural",
+    "description": "能识别副词短语，并判断它修饰哪一个动词。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "She runs very quickly. very quickly 修饰哪一个？",
+      "answer": "runs"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.GR.02",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h027",
+    "name": "提出运动建议",
+    "domain": "日常表达",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第3单元 Sports and Fitness",
+    "type": "application",
+    "description": "能就运动和健康提出建议，并回应别人的建议。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "朋友很少运动，你建议他每天步行，哪一句合适？",
+      "answer": "You could walk for thirty minutes a day"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h028",
+    "name": "读比赛短文",
+    "domain": "读写",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第3单元 Sports and Fitness",
+    "type": "application",
+    "description": "读一段比赛短文，找出结果和教练的建议。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "Li ran a marathon last Sunday and won a medal. His coach says he should rest because of a small injury. Li 参加了什么？",
+      "answer": "马拉松"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h029",
+    "name": "写运动简讯",
+    "domain": "读写",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第3单元 Sports and Fitness",
+    "type": "application",
+    "description": "能按要点选出简讯里的句子。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "要点：上周日马拉松、获得奖牌、教练建议休息。哪一句三个要点都有？",
+      "answer": "Li ran a marathon last Sunday, won a medal, and his coach told him to rest"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.RW.03",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h030",
+    "name": "自然灾害",
+    "domain": "词汇",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第4单元 Natural Disasters",
+    "type": "conceptual",
+    "description": "认读 earthquake、flood、hurricane 和 drought。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「地震」？",
+      "answer": "earthquake"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.VO.03",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h031",
+    "name": "救援",
+    "domain": "词汇",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第4单元 Natural Disasters",
+    "type": "conceptual",
+    "description": "认读 rescue、shelter、survivor 和 warning。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「救援」？",
+      "answer": "rescue"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.VO.03",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h032",
+    "name": "关系代词定语从句",
+    "domain": "语法",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第4单元 Natural Disasters",
+    "type": "procedural",
+    "description": "能用 who、which 和 that 引导限制性定语从句。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "The girl ___ is singing is my classmate. 横线处填哪一个？",
+      "answer": "who"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.GR.05",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h033",
+    "name": "whose 和 whom",
+    "domain": "语法",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第4单元 Natural Disasters",
+    "type": "procedural",
+    "description": "能用 whose 表示所属，用 whom 作介词或动词的宾语。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "The student ___ mother is a doctor sits here. 横线处填哪一个？",
+      "answer": "whose"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.GR.05",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h034",
+    "name": "说明灾情并请求帮助",
+    "domain": "日常表达",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第4单元 Natural Disasters",
+    "type": "application",
+    "description": "能说明灾情、表达担心，并请求帮助。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想告诉同学洪水很严重，哪一句合适？",
+      "answer": "The flood is serious and many people need help"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.FU.03",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h035",
+    "name": "读灾害新闻",
+    "domain": "读写",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第4单元 Natural Disasters",
+    "type": "application",
+    "description": "读一则已经发生的灾害新闻，找出时间、人数和警报。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "A strong earthquake hit the town on Friday. Rescue teams found twenty survivors. The warning had been sent ten minutes earlier. 地震发生在哪一天？",
+      "answer": "星期五"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h036",
+    "name": "写灾害报道句",
+    "domain": "读写",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第4单元 Natural Disasters",
+    "type": "application",
+    "description": "能按要点选出报道中的句子，并保持过去时。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "要点：周五地震、找到二十名幸存者、警报提前十分钟。哪一句三个要点都有？",
+      "answer": "An earthquake hit on Friday, rescue teams found twenty survivors, and the warning had been sent ten minutes earlier"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.RW.03",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h037",
+    "name": "语言与文字",
+    "domain": "词汇",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第5单元 Languages Around the World",
+    "type": "conceptual",
+    "description": "认读 dialect、character、accent 和 vocabulary。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「方言」？",
+      "answer": "dialect"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.VO.02",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h038",
+    "name": "前缀和后缀",
+    "domain": "词汇",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第5单元 Languages Around the World",
+    "type": "conceptual",
+    "description": "能根据常见前后缀判断派生词的意思。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「不快乐的」？",
+      "answer": "unhappy"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.VO.04",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h039",
+    "name": "关系副词定语从句",
+    "domain": "语法",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第5单元 Languages Around the World",
+    "type": "procedural",
+    "description": "能用 when、where 和 why 引导限制性定语从句。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "I remember the day ___ we met. 横线处填哪一个？",
+      "answer": "when"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.GR.05",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h040",
+    "name": "介词加关系代词",
+    "domain": "语法",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第5单元 Languages Around the World",
+    "type": "procedural",
+    "description": "能把介词放在关系代词前面，并选择 whom 或 which。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "This is the man to ___ I spoke. 横线处填哪一个？",
+      "answer": "whom"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.GR.05",
+        "confidence": "inferred",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h041",
+    "name": "谈论语言",
+    "domain": "日常表达",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第5单元 Languages Around the World",
+    "type": "application",
+    "description": "能交换对语言、方言和汉字的看法，并说明理由。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想说汉字很有趣但难写，哪一句合适？",
+      "answer": "Chinese characters are interesting but hard to write"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.FU.03",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h042",
+    "name": "读语言学习短文",
+    "domain": "读写",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第5单元 Languages Around the World",
+    "type": "application",
+    "description": "读一段语言学习短文，概括她的困难和态度。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "Mei is learning Chinese characters. She thinks the writing is difficult, but she likes reading short stories. Her vocabulary grows every week. Mei 在学什么？",
+      "answer": "汉字"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.RW.02",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h043",
+    "name": "多音节词重音",
+    "domain": "语音",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第5单元 Languages Around the World",
+    "type": "procedural",
+    "description": "能判断多音节词的重音在哪一个音节。",
+    "mastery_criteria": [
+      "能根据重音、语调或音变选出正确的一项",
+      "能说明这个朗读规则用在什么地方"
+    ],
+    "diagnostic_question": {
+      "question": "vocabulary 的重音在第几个音节？",
+      "answer": "第二个音节"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.PH.01",
+        "confidence": "inferred",
+        "note": "语音项目按人教版（2019）常见教学顺序编排，没有核到人教社目录，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h044",
+    "name": "写语言学习计划",
+    "domain": "读写",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第5单元 Languages Around the World",
+    "type": "application",
+    "description": "能按要点选出学习计划里的句子。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "要点：每天认十个汉字、读短文、周末复习词汇。哪一句三个要点都有？",
+      "answer": "I will learn ten characters a day, read a short text and review vocabulary at the weekend"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.RW.03",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h045",
+    "name": "文化遗产",
+    "domain": "词汇",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第二册 第1单元 Cultural Heritage",
+    "type": "conceptual",
+    "description": "认读 heritage、temple、preserve 和 relic。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「遗产」？",
+      "answer": "heritage"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.VO.03",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h046",
+    "name": "保护文物",
+    "domain": "词汇",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第二册 第1单元 Cultural Heritage",
+    "type": "conceptual",
+    "description": "认读 restore、damage、ancient 和 site。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「修复」？",
+      "answer": "restore"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.VO.03",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h047",
+    "name": "非限制性定语从句",
+    "domain": "语法",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第二册 第1单元 Cultural Heritage",
+    "type": "procedural",
+    "description": "能用逗号加上 who 或 which 补充说明，而不用 that。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "My brother, ___ lives in Luoyang, is a guide. 横线处填哪一个？",
+      "answer": "who"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.GR.05",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h048",
+    "name": "which 指代整句",
+    "domain": "语法",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第二册 第1单元 Cultural Heritage",
+    "type": "procedural",
+    "description": "能用 which 指代前面整个句子，并和限制性定语从句区分。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "He missed the train, ___ made him late. 横线处填哪一个？",
+      "answer": "which"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.GR.05",
+        "confidence": "inferred",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h049",
+    "name": "讨论保护遗产",
+    "domain": "日常表达",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第二册 第1单元 Cultural Heritage",
+    "type": "application",
+    "description": "能就保护文化遗产交换看法并说明理由。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想说古庙应该被保护，哪一句合适？",
+      "answer": "I think the ancient temple should be preserved"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.FU.03",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h050",
+    "name": "读遗产说明",
+    "domain": "读写",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第二册 第1单元 Cultural Heritage",
+    "type": "application",
+    "description": "读一段遗产说明，概括作者是在介绍规则还是在反对保护。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "The old city wall is part of the local heritage. Workers are restoring a gate that was damaged by rain. Visitors may take photos but must not touch the relics. 城墙属于什么？",
+      "answer": "当地的遗产"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.RW.02",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h051",
+    "name": "写保护建议",
+    "domain": "读写",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第二册 第1单元 Cultural Heritage",
+    "type": "application",
+    "description": "能按要点选出建议短文中的句子。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "要点：城墙是遗产、雨水造成损坏、游客不要触摸。哪一句三个要点都有？",
+      "answer": "The wall is heritage, rain damaged it, and visitors must not touch the relics"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.RW.03",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h052",
+    "name": "野生动物",
+    "domain": "词汇",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第二册 第2单元 Wildlife Protection",
+    "type": "conceptual",
+    "description": "认读 wildlife、species、habitat 和 extinct。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「野生动物」？",
+      "answer": "wildlife"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.VO.03",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h053",
+    "name": "保护栖息地",
+    "domain": "词汇",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第二册 第2单元 Wildlife Protection",
+    "type": "conceptual",
+    "description": "认读 reserve、hunter、endangered 和 plain。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「保护区」？",
+      "answer": "reserve"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.VO.03",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h054",
+    "name": "现在进行时的被动语态",
+    "domain": "语法",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第二册 第2单元 Wildlife Protection",
+    "type": "procedural",
+    "description": "能用 am、is、are 加 being 加过去分词表示进行时被动。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "The reserve ___ now. 表示正在被清理，横线处填哪一个？",
+      "answer": "is being cleaned"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.GR.06",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h055",
+    "name": "过去分词和动词 -ing",
+    "domain": "语法",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第二册 第2单元 Wildlife Protection",
+    "type": "procedural",
+    "description": "能根据主动还是被动选择动词 -ing 或过去分词。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "The story is ___ (interest). 表示故事令人感兴趣，填哪一个？",
+      "answer": "interesting"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.GR.08",
+        "confidence": "inferred",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h056",
+    "name": "讨论动物保护",
+    "domain": "日常表达",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第二册 第2单元 Wildlife Protection",
+    "type": "application",
+    "description": "能说明保护野生动物的理由，并回应不同看法。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想说藏羚羊正在被保护，哪一句合适？",
+      "answer": "The antelopes are being protected in the reserve"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.FU.03",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h057",
+    "name": "读动物保护短文",
+    "domain": "读写",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第二册 第2单元 Wildlife Protection",
+    "type": "application",
+    "description": "读一段动物保护短文，找出过去的状况和现在的措施。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "The Tibetan antelope was once endangered. Now the animals are being protected on the plain. Visitors are interested in the reserve but must not feed the wildlife. 藏羚羊曾经处于什么状态？",
+      "answer": "濒危"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h058",
+    "name": "写保护海报句",
+    "domain": "读写",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第二册 第2单元 Wildlife Protection",
+    "type": "application",
+    "description": "能按要点选出保护海报上的句子。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "要点：物种曾经濒危、现在正在被保护、不要喂食。哪一句三个要点都有？",
+      "answer": "This species was endangered, it is being protected now, and please do not feed it"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.RW.03",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h059",
+    "name": "互联网",
+    "domain": "词汇",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第二册 第3单元 The Internet",
+    "type": "conceptual",
+    "description": "认读 Internet、blog、comment 和 identity。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「互联网」？",
+      "answer": "Internet"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.VO.02",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h060",
+    "name": "在线行为",
+    "domain": "词汇",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第二册 第3单元 The Internet",
+    "type": "conceptual",
+    "description": "认读 online、privacy、password 和 post。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「在线的」？",
+      "answer": "online"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.VO.02",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h061",
+    "name": "现在完成时的被动语态",
+    "domain": "语法",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第二册 第3单元 The Internet",
+    "type": "procedural",
+    "description": "能用 have 或 has 加 been 加过去分词。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "The password ___ . 表示已经被更改，横线处填哪一个？",
+      "answer": "has been changed"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.GR.06",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h062",
+    "name": "since 与现在完成时",
+    "domain": "语法",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第二册 第3单元 The Internet",
+    "type": "procedural",
+    "description": "能在 since 引出的时间后使用现在完成时。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "I ___ this blog since 2020. 横线处填哪一个？",
+      "answer": "have kept"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.GR.03",
+        "confidence": "inferred",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h063",
+    "name": "谈论网络安全",
+    "domain": "日常表达",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第二册 第3单元 The Internet",
+    "type": "application",
+    "description": "能就上网习惯提出建议，并说明隐私的理由。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想提醒同学不要公开密码，哪一句合适？",
+      "answer": "Never post your password online"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h064",
+    "name": "读网络短文",
+    "domain": "读写",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第二册 第3单元 The Internet",
+    "type": "application",
+    "description": "读一段网络使用短文，判断作者是在说明事实还是在赞美粗鲁评论。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "Since March, Lin's class blog has been read by students in three schools. One unkind comment has been deleted. Lin never posts his real name or password. 博客从什么时候开始被阅读？",
+      "answer": "三月以来"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.RW.02",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h065",
+    "name": "写网络提醒",
+    "domain": "读写",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第二册 第3单元 The Internet",
+    "type": "application",
+    "description": "能按要点选出网络提醒里的句子。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "要点：不发密码、保护隐私、粗鲁评论已删除。哪一句三个要点都有？",
+      "answer": "Do not post your password, protect your privacy, and the rude comment has been deleted"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.RW.03",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h066",
+    "name": "历史传统",
+    "domain": "词汇",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第二册 第4单元 History and Traditions",
+    "type": "conceptual",
+    "description": "认读 tradition、castle、battle 和 kingdom。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「传统」？",
+      "answer": "tradition"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.VO.03",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h067",
+    "name": "节日习俗",
+    "domain": "词汇",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第二册 第4单元 History and Traditions",
+    "type": "conceptual",
+    "description": "认读 ancestor、honour、gathering 和 poem。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「祖先」？",
+      "answer": "ancestor"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.VO.03",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h068",
+    "name": "过去分词作定语和表语",
+    "domain": "语法",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第二册 第4单元 History and Traditions",
+    "type": "procedural",
+    "description": "能用过去分词作定语或表语，表示被动或完成。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "a ___ castle 表示被毁坏的城堡，横线处填哪一个？",
+      "answer": "ruined"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.GR.08",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h069",
+    "name": "过去分词作宾补",
+    "domain": "语法",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第二册 第4单元 History and Traditions",
+    "type": "procedural",
+    "description": "能用过去分词作宾语补足语，表示宾语被怎样。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "I heard my name ___. 表示名字被叫到，横线处填哪一个？",
+      "answer": "called"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.GR.08",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h070",
+    "name": "谈论传统",
+    "domain": "日常表达",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第二册 第4单元 History and Traditions",
+    "type": "application",
+    "description": "能描述一项传统，并说明自己是否赞成保留它。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想介绍清明纪念祖先的习俗，哪一句合适？",
+      "answer": "On Qingming people honour their ancestors"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.FU.03",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h071",
+    "name": "读传统短文",
+    "domain": "读写",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第二册 第4单元 History and Traditions",
+    "type": "application",
+    "description": "读一段传统介绍，找出活动目的和大厅的装饰。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "During the festival, families hold a gathering to honour their ancestors. A poem written by a local teacher is read aloud. Last year the old hall was decorated with paper flowers. 聚会是为了什么？",
+      "answer": "纪念祖先"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h072",
+    "name": "写传统介绍",
+    "domain": "读写",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第二册 第4单元 History and Traditions",
+    "type": "application",
+    "description": "能按要点选出介绍传统的句子。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "要点：聚会纪念祖先、朗读当地老师的诗、大厅用纸花装饰。哪一句三个要点都有？",
+      "answer": "Families gather to honour ancestors, read a poem written by a local teacher, and the hall is decorated with paper flowers"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.RW.03",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h073",
+    "name": "音乐",
+    "domain": "词汇",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第二册 第5单元 Music",
+    "type": "conceptual",
+    "description": "认读 classical、band、perform 和 audience。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「古典的」？",
+      "answer": "classical"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.VO.02",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h074",
+    "name": "演奏",
+    "domain": "词汇",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第二册 第5单元 Music",
+    "type": "conceptual",
+    "description": "认读 instrument、stage、rhythm 和 composer。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「乐器」？",
+      "answer": "instrument"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.VO.02",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h075",
+    "name": "动词 -ing 作定语和表语",
+    "domain": "语法",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第二册 第5单元 Music",
+    "type": "procedural",
+    "description": "能用动词 -ing 作定语或表语，表示主动或事物的性质。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "a ___ band 表示正在表演的乐队，横线处填哪一个？",
+      "answer": "performing"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.GR.07",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h076",
+    "name": "动词 -ing 作状语和宾补",
+    "domain": "语法",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第二册 第5单元 Music",
+    "type": "procedural",
+    "description": "能用动词 -ing 作状语或宾语补足语，表示主动。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "___ the violin, she walked onto the stage. 横线处填哪一个？",
+      "answer": "Playing"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.GR.07",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h077",
+    "name": "意群中的连读",
+    "domain": "语音",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第二册 第5单元 Music",
+    "type": "procedural",
+    "description": "能识别辅音结尾和元音开头在短语里可以连读。",
+    "mastery_criteria": [
+      "能根据重音、语调或音变选出正确的一项",
+      "能说明这个朗读规则用在什么地方"
+    ],
+    "diagnostic_question": {
+      "question": "an old instrument 里，哪两个词更容易连读？",
+      "answer": "an 和 old"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.PH.03",
+        "confidence": "inferred",
+        "note": "语音项目按人教版（2019）常见教学顺序编排，没有核到人教社目录，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h078",
+    "name": "不完全爆破",
+    "domain": "语音",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第二册 第5单元 Music",
+    "type": "procedural",
+    "description": "能识别相邻爆破音中前一个音只做口型、不完全爆破。",
+    "mastery_criteria": [
+      "能根据重音、语调或音变选出正确的一项",
+      "能说明这个朗读规则用在什么地方"
+    ],
+    "diagnostic_question": {
+      "question": "a big band 里，哪个音常常不完全爆破？",
+      "answer": "big 末尾的 /g/"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.PH.03",
+        "confidence": "inferred",
+        "note": "语音项目按人教版（2019）常见教学顺序编排，没有核到人教社目录，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h079",
+    "name": "谈论演出",
+    "domain": "日常表达",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第二册 第5单元 Music",
+    "type": "application",
+    "description": "能描述一场演出，并提出一起去听的建议。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想说乐队正在舞台上表演，哪一句合适？",
+      "answer": "The band is performing on the stage"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h080",
+    "name": "读演出短文",
+    "domain": "读写",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第二册 第5单元 Music",
+    "type": "application",
+    "description": "读一段演出短文，概括听众在做什么以及作者是否只是在说明。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "A student band is performing on the stage. The audience is listening, clapping at the end of each song. The composer of the last piece is a teacher at the school. 谁在舞台上表演？",
+      "answer": "一支学生乐队"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.RW.02",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h081",
+    "name": "写演出通知",
+    "domain": "读写",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第二册 第5单元 Music",
+    "type": "application",
+    "description": "能按要点选出演出通知里的句子。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "要点：学生乐队、周五舞台演出、听众请准时。哪一句三个要点都有？",
+      "answer": "The student band is performing on the stage on Friday, and the audience should arrive on time"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.RW.03",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h082",
+    "name": "节日",
+    "domain": "词汇",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "必修第三册 第1单元 Festivals and Celebrations",
+    "type": "conceptual",
+    "description": "认读 festival、lantern、firework 和 feast。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「节日」？",
+      "answer": "festival"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.VO.03",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h083",
+    "name": "庆祝方式",
+    "domain": "词汇",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "必修第三册 第1单元 Festivals and Celebrations",
+    "type": "conceptual",
+    "description": "认读 celebrate、origin、lunar 和 decorate。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「庆祝」？",
+      "answer": "celebrate"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.VO.03",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h084",
+    "name": "介词短语作状语",
+    "domain": "语法",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "必修第三册 第1单元 Festivals and Celebrations",
+    "type": "procedural",
+    "description": "能识别介词短语，并判断它表示时间、地点还是方式。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "They meet on Lunar New Year's Eve. on Lunar New Year's Eve 是什么？",
+      "answer": "介词短语作时间状语"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.GR.01",
+        "confidence": "inferred",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h085",
+    "name": "used to 和 be used to",
+    "domain": "语法",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "必修第三册 第1单元 Festivals and Celebrations",
+    "type": "procedural",
+    "description": "能区分 used to do 表示过去习惯，be used to doing 表示习惯于。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "我过去常放烟花，现在不放了。哪一句正确？",
+      "answer": "I used to set off fireworks"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.GR.03",
+        "confidence": "inferred",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h086",
+    "name": "按意群停顿",
+    "domain": "语音",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "必修第三册 第1单元 Festivals and Celebrations",
+    "type": "procedural",
+    "description": "能在较长的句子里按意群停顿，而不是每个词都断开。",
+    "mastery_criteria": [
+      "能根据重音、语调或音变选出正确的一项",
+      "能说明这个朗读规则用在什么地方"
+    ],
+    "diagnostic_question": {
+      "question": "On New Year's Eve, families share a feast. 斜线停顿放在哪里更自然？",
+      "answer": "Eve 后面"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.PH.03",
+        "confidence": "inferred",
+        "note": "语音项目按人教版（2019）常见教学顺序编排，没有核到人教社目录，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h087",
+    "name": "谈论节日",
+    "domain": "日常表达",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "必修第三册 第1单元 Festivals and Celebrations",
+    "type": "application",
+    "description": "能介绍节日的起源和庆祝方式，并说明自己的看法。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想介绍元宵节看灯笼，哪一句合适？",
+      "answer": "During the Lantern Festival people watch lanterns"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.FU.03",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h088",
+    "name": "读节日短文",
+    "domain": "读写",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "必修第三册 第1单元 Festivals and Celebrations",
+    "type": "application",
+    "description": "读一段节日短文，找出过去和现在的庆祝方式。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "The Lantern Festival comes after the Lunar New Year. Families used to make lanterns at home. Now many people watch fireworks in the square and then share a small feast. 元宵节在什么时候？",
+      "answer": "农历新年之后"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h089",
+    "name": "写节日介绍",
+    "domain": "读写",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "必修第三册 第1单元 Festivals and Celebrations",
+    "type": "application",
+    "description": "能按要点选出节日介绍里的句子。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "要点：元宵节在新年后、过去做灯笼、现在看烟花。哪一句三个要点都有？",
+      "answer": "The Lantern Festival comes after the New Year, people used to make lanterns, and now they watch fireworks"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.RW.03",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h090",
+    "name": "道德品质",
+    "domain": "词汇",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "必修第三册 第2单元 Morals and Virtues",
+    "type": "conceptual",
+    "description": "认读 virtue、honest、generous 和 responsible。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「美德」？",
+      "answer": "virtue"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.VO.03",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h091",
+    "name": "善行",
+    "domain": "词汇",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "必修第三册 第2单元 Morals and Virtues",
+    "type": "conceptual",
+    "description": "认读 kindness、respect、duty 和 courage。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「善意」？",
+      "answer": "kindness"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.VO.03",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h092",
+    "name": "不定式作定语和宾语",
+    "domain": "语法",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "必修第三册 第2单元 Morals and Virtues",
+    "type": "procedural",
+    "description": "能用动词不定式作定语或宾语。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "I have a duty ___ the guests. 表示有责任去帮助，横线处填哪一个？",
+      "answer": "to help"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.GR.09",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h093",
+    "name": "不定式作目的状语",
+    "domain": "语法",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "必修第三册 第2单元 Morals and Virtues",
+    "type": "procedural",
+    "description": "能用 in order to 或 to do 表示目的。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "She stayed ___ the old man. 表示为了帮助，横线处填哪一个？",
+      "answer": "to help"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.GR.09",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h094",
+    "name": "评价行为",
+    "domain": "日常表达",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "必修第三册 第2单元 Morals and Virtues",
+    "type": "application",
+    "description": "能评价一个行为是否诚实、有责任心，并说明理由。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想表扬同学诚实地交还钱包，哪一句合适？",
+      "answer": "It was honest of you to return the wallet"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.FU.03",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h095",
+    "name": "读善行短文",
+    "domain": "读写",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "必修第三册 第2单元 Morals and Virtues",
+    "type": "application",
+    "description": "读一段叙述，判断人物做了什么以及老师的评价。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "After the trip, Mei found a wallet on the bus. She stayed there to wait for the owner. Her teacher said it was responsible of her to return it. Mei 在公交车上发现了什么？",
+      "answer": "一个钱包"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.RW.02",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h096",
+    "name": "写评论句",
+    "domain": "读写",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "必修第三册 第2单元 Morals and Virtues",
+    "type": "application",
+    "description": "能按要点选出评论里的句子。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "要点：捡到钱包、等失主、老师认为有责任心。哪一句三个要点都有？",
+      "answer": "Mei found a wallet, waited for the owner, and her teacher said she was responsible"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.RW.03",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h097",
+    "name": "多元文化",
+    "domain": "词汇",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "必修第三册 第3单元 Diverse Cultures",
+    "type": "conceptual",
+    "description": "认读 diversity、ethnic、region 和 minority。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「多样性」？",
+      "answer": "diversity"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.VO.03",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h098",
+    "name": "文化习俗",
+    "domain": "词汇",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "必修第三册 第3单元 Diverse Cultures",
+    "type": "conceptual",
+    "description": "认读 costume、cuisine、belief 和 greeting。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「服饰」？",
+      "answer": "costume"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.VO.03",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h099",
+    "name": "间接引语",
+    "domain": "语法",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "必修第三册 第3单元 Diverse Cultures",
+    "type": "procedural",
+    "description": "能把直接引语改为间接引语，并改变人称、时间和时态。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "He said, I am tired. 改成间接引语，哪一句正确？",
+      "answer": "He said that he was tired"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.GR.11",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h100",
+    "name": "间接引语中的 that",
+    "domain": "语法",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "必修第三册 第3单元 Diverse Cultures",
+    "type": "procedural",
+    "description": "能在 said 后面省略 that，并仍然保持陈述语序。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "哪一句省略 that 后仍然正确？",
+      "answer": "He said he was ready"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.GR.11",
+        "confidence": "inferred",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h101",
+    "name": "比较文化差异",
+    "domain": "日常表达",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "必修第三册 第3单元 Diverse Cultures",
+    "type": "application",
+    "description": "能比较不同地区的服饰、饮食和问候，并保持礼貌。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想说这个地区的服饰和自己家乡不同，哪一句合适？",
+      "answer": "The costumes in this region are different from those in my hometown"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.FU.03",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h102",
+    "name": "读文化短文",
+    "domain": "读写",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "必修第三册 第3单元 Diverse Cultures",
+    "type": "application",
+    "description": "读一段文化介绍，找出服饰的制作者和拍照规则。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "The guide said that the costumes were made by a local minority group. He also said they had learned the dance the year before. Visitors may watch, but they should ask before taking photos. 服饰是谁做的？",
+      "answer": "当地的一个少数民族群体"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h103",
+    "name": "写文化笔记",
+    "domain": "读写",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "必修第三册 第3单元 Diverse Cultures",
+    "type": "application",
+    "description": "能按要点选出文化笔记里的句子，并使用间接引语。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "要点：服饰由当地群体制作、舞蹈前一年学会、拍照前要问。哪一句三个要点都有？",
+      "answer": "The costumes were made by a local group, they had learned the dance the year before, and visitors should ask before taking photos"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.RW.03",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h104",
+    "name": "太空探索",
+    "domain": "词汇",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "必修第三册 第4单元 Space Exploration",
+    "type": "conceptual",
+    "description": "认读 astronaut、orbit、rocket 和 universe。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「宇航员」？",
+      "answer": "astronaut"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.VO.03",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h105",
+    "name": "航天",
+    "domain": "词汇",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "必修第三册 第4单元 Space Exploration",
+    "type": "conceptual",
+    "description": "认读 planet、satellite、gravity 和 mission。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「行星」？",
+      "answer": "planet"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.VO.03",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h106",
+    "name": "不定式作主语和表语",
+    "domain": "语法",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "必修第三册 第4单元 Space Exploration",
+    "type": "procedural",
+    "description": "能用不定式或 it 作形式主语，并让不定式作表语。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "___ a rocket is difficult. 用不定式作主语，横线处填哪一个？",
+      "answer": "To launch"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.GR.09",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h107",
+    "name": "省略 to 的不定式",
+    "domain": "语法",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "必修第三册 第4单元 Space Exploration",
+    "type": "procedural",
+    "description": "能在 make、let、see、hear 等后面省略 to，并知道被动时要还原。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "The teacher made us ___ the report. 横线处填哪一个？",
+      "answer": "rewrite"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.GR.09",
+        "confidence": "inferred",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h108",
+    "name": "谈论航天计划",
+    "domain": "日常表达",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "必修第三册 第4单元 Space Exploration",
+    "type": "application",
+    "description": "能说出已经安排或打算进行的航天任务。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想说成为宇航员很难，哪一句合适？",
+      "answer": "It is difficult to become an astronaut"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h109",
+    "name": "读航天短文",
+    "domain": "读写",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "必修第三册 第4单元 Space Exploration",
+    "type": "application",
+    "description": "读一段航天短文，概括任务和老师的要求。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "It is not easy to become an astronaut. The next mission is to test a new satellite. Our teacher made us read a short article about gravity. 成为宇航员容易吗？",
+      "answer": "不容易"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.RW.02",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h110",
+    "name": "写航天笔记",
+    "domain": "读写",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "必修第三册 第4单元 Space Exploration",
+    "type": "application",
+    "description": "能按要点选出笔记里的句子。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "要点：成为宇航员不容易、任务是测试卫星、老师让我们阅读。哪一句三个要点都有？",
+      "answer": "It is not easy to become an astronaut, the mission is to test a satellite, and the teacher made us read"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.RW.03",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h111",
+    "name": "金钱与价值",
+    "domain": "词汇",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "必修第三册 第5单元 The Value of Money",
+    "type": "conceptual",
+    "description": "认读 value、wealth、loan 和 bargain。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「价值」？",
+      "answer": "value"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.VO.03",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h112",
+    "name": "消费选择",
+    "domain": "词汇",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "必修第三册 第5单元 The Value of Money",
+    "type": "conceptual",
+    "description": "认读 worth、budget、debt 和 charity。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「值得的」？",
+      "answer": "worth"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.VO.03",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h113",
+    "name": "情态动词加 have done",
+    "domain": "语法",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "必修第三册 第5单元 The Value of Money",
+    "type": "procedural",
+    "description": "能用 must、could、should 加 have done 表示对过去的判断或后悔。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "包已经不在桌上。她当时一定是带走了。哪一句合适？",
+      "answer": "She must have taken it"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.GR.10",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h114",
+    "name": "would rather 的虚拟",
+    "domain": "语法",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "必修第三册 第5单元 The Value of Money",
+    "type": "procedural",
+    "description": "能用 would rather 加过去式表示与现在事实相反的愿望。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "我宁愿你现在把真相告诉我。哪一句正确？",
+      "answer": "I would rather you told me the truth now"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.GR.10",
+        "confidence": "inferred",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h115",
+    "name": "谈论价值和消费",
+    "domain": "日常表达",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "必修第三册 第5单元 The Value of Money",
+    "type": "application",
+    "description": "能就花钱、预算和慈善交换看法并说明理由。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想说这件便宜货不值得买，哪一句合适？",
+      "answer": "This bargain is not worth buying"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.FU.03",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h116",
+    "name": "读消费短文",
+    "domain": "读写",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "必修第三册 第5单元 The Value of Money",
+    "type": "application",
+    "description": "读一段消费经历，找出姐姐的建议和作者没有直接说出的教训。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "Tom bought a coat because it looked like a bargain. Later he found a hole in it. His sister said he should have checked the pockets and kept to his budget. Tom 为什么买那件外套？",
+      "answer": "它看起来像便宜货"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h117",
+    "name": "写消费反思",
+    "domain": "读写",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "必修第三册 第5单元 The Value of Money",
+    "type": "application",
+    "description": "能按要点选出反思里的句子。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "要点：看起来便宜、后来有洞、当时该检查。哪一句三个要点都有？",
+      "answer": "It looked like a bargain, but there was a hole, and I should have checked it"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.B.RW.03",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h118",
+    "name": "人物成就",
+    "domain": "词汇",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选择性必修第一册 第1单元 People of Achievement",
+    "type": "conceptual",
+    "description": "认读 achievement、genius、career 和 honour。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「成就」？",
+      "answer": "achievement"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.VO.01",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h119",
+    "name": "科学家与贡献",
+    "domain": "词汇",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选择性必修第一册 第1单元 People of Achievement",
+    "type": "conceptual",
+    "description": "认读 Nobel、discover、theory 和 devote。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「诺贝尔奖」？",
+      "answer": "Nobel"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.VO.01",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h120",
+    "name": "that 引导主语从句",
+    "domain": "语法",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选择性必修第一册 第1单元 People of Achievement",
+    "type": "procedural",
+    "description": "能用 that 引导主语从句，或用 it 作形式主语。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "___ he refused the prize surprised us. 横线处填哪一个？",
+      "answer": "That"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.GR.01",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h121",
+    "name": "whether 引导主语从句",
+    "domain": "语法",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选择性必修第一册 第1单元 People of Achievement",
+    "type": "procedural",
+    "description": "能用 whether 引导主语从句，并使用陈述语序。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "___ she will accept the honour is unknown. 横线处填哪一个？",
+      "answer": "Whether"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.GR.01",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h122",
+    "name": "描述人物成就",
+    "domain": "日常表达",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选择性必修第一册 第1单元 People of Achievement",
+    "type": "application",
+    "description": "能按时间说明人物做了什么，并给出评价。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想说她把一生献给了研究，哪一句合适？",
+      "answer": "She devoted her life to research"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.FU.01",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h123",
+    "name": "读人物短文",
+    "domain": "读写",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选择性必修第一册 第1单元 People of Achievement",
+    "type": "application",
+    "description": "根据短文推断作者没有直接说满的态度，并找出事实。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "Tu Youyou devoted many years to research. It is now clear that her discovery saved a great number of patients. Whether every student knows her story is another question. 她把许多年用在了什么上？",
+      "answer": "研究"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h124",
+    "name": "写人物简介",
+    "domain": "读写",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选择性必修第一册 第1单元 People of Achievement",
+    "type": "application",
+    "description": "能按要点选出人物简介中的句子。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "要点：多年研究、发现挽救病人、不是每个学生都知道。哪一句三个要点都有？",
+      "answer": "She devoted years to research, her discovery saved patients, and whether every student knows her is uncertain"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.RW.03",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h125",
+    "name": "未来生活",
+    "domain": "词汇",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选择性必修第一册 第2单元 Looking into the Future",
+    "type": "conceptual",
+    "description": "认读 robot、automatic、predict 和 innovation。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「机器人」？",
+      "answer": "robot"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.VO.01",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h126",
+    "name": "智能设备",
+    "domain": "词汇",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选择性必修第一册 第2单元 Looking into the Future",
+    "type": "conceptual",
+    "description": "认读 sensor、remote、appliance 和 warning。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「传感器」？",
+      "answer": "sensor"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.VO.01",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h127",
+    "name": "表语从句",
+    "domain": "语法",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选择性必修第一册 第2单元 Looking into the Future",
+    "type": "procedural",
+    "description": "能用 that、whether 或疑问词引导表语从句。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "The problem is ___ the sensor fails at night. 横线处填哪一个？",
+      "answer": "that"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.GR.01",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h128",
+    "name": "同位语从句",
+    "domain": "语法",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选择性必修第一册 第2单元 Looking into the Future",
+    "type": "procedural",
+    "description": "能用 that 引导同位语从句，并把它和定语从句分开。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "The news ___ the robot won a prize is true. that 在从句中不充当成分，横线处填哪一个？",
+      "answer": "that"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.GR.01",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h129",
+    "name": "描述未来设备",
+    "domain": "日常表达",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选择性必修第一册 第2单元 Looking into the Future",
+    "type": "application",
+    "description": "能按步骤说明一台设备如何工作。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想按步骤说明机器人如何做饭，哪一句适合作为第一步？",
+      "answer": "First, the sensor checks the food"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.FU.01",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h130",
+    "name": "读未来生活短文",
+    "domain": "读写",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选择性必修第一册 第2单元 Looking into the Future",
+    "type": "application",
+    "description": "根据上下文推断 sensor 出了什么问题，以及作者还不确定什么。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "The new robot cooks by itself. The fact that its sensor failed yesterday explains the delay. The question is whether the network can be repaired today. 机器人会做什么？",
+      "answer": "自己做饭"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h131",
+    "name": "写步骤说明",
+    "domain": "读写",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选择性必修第一册 第2单元 Looking into the Future",
+    "type": "application",
+    "description": "能按要点选出步骤说明中的句子。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "要点：机器人会做饭、传感器昨天失灵、网络能否修好还未知。哪一句三个要点都有？",
+      "answer": "The robot can cook, the sensor failed yesterday, and whether the network can be repaired is unknown"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.RW.03",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h132",
+    "name": "公园",
+    "domain": "词汇",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选择性必修第一册 第3单元 Fascinating Parks",
+    "type": "conceptual",
+    "description": "认读 park、wildlife、boundary 和 ranger。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「公园」？",
+      "answer": "park"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.VO.01",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h133",
+    "name": "自然保护",
+    "domain": "词汇",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选择性必修第一册 第3单元 Fascinating Parks",
+    "type": "conceptual",
+    "description": "认读 wetland、species、prohibit 和 ecology。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「湿地」？",
+      "answer": "wetland"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.VO.01",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h134",
+    "name": "动词 -ing 的完成式",
+    "domain": "语法",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选择性必修第一册 第3单元 Fascinating Parks",
+    "type": "procedural",
+    "description": "能用 having done 表示该动作先于主句动作。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "___ the trail, they entered the wetland. 表示先走完步道，横线处填哪一个？",
+      "answer": "Having walked"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.GR.02",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h135",
+    "name": "with 复合结构",
+    "domain": "语法",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选择性必修第一册 第3单元 Fascinating Parks",
+    "type": "procedural",
+    "description": "能用 with 加宾语再加补语，表示伴随的状态。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "He waited, with the lights ___. 表示灯亮着，横线处填哪一个？",
+      "answer": "on"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.GR.02",
+        "confidence": "inferred",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h136",
+    "name": "描述公园规则",
+    "domain": "日常表达",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选择性必修第一册 第3单元 Fascinating Parks",
+    "type": "application",
+    "description": "能按顺序说明参观公园的做法和禁止事项。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想按顺序说明先关门再进入湿地，哪一句合适？",
+      "answer": "Having closed the gate, enter the wetland quietly"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.FU.01",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h137",
+    "name": "读公园短文",
+    "domain": "读写",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选择性必修第一册 第3单元 Fascinating Parks",
+    "type": "application",
+    "description": "读短文，判断哪一条是规则，哪一条是已经做完的动作。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "Having checked the map, we followed the trail into the wetland. Feeding birds is prohibited. With the ranger leading us, we stayed inside the boundary. 他们进入湿地之前做了什么？",
+      "answer": "核对了地图"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.RW.02",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h138",
+    "name": "写参观说明",
+    "domain": "读写",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选择性必修第一册 第3单元 Fascinating Parks",
+    "type": "application",
+    "description": "能按要点选出参观说明中的句子。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "要点：先看地图、禁止投喂、护林员带路。哪一句三个要点都有？",
+      "answer": "Having checked the map, remember that feeding is prohibited, and follow the ranger"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.RW.03",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h139",
+    "name": "肢体语言",
+    "domain": "词汇",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选择性必修第一册 第4单元 Body Language",
+    "type": "conceptual",
+    "description": "认读 gesture、posture、expression 和 contact。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「手势」？",
+      "answer": "gesture"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.VO.01",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h140",
+    "name": "表情与距离",
+    "domain": "词汇",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选择性必修第一册 第4单元 Body Language",
+    "type": "conceptual",
+    "description": "认读 frown、nod、distance 和 interpret。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「皱眉」？",
+      "answer": "frown"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.VO.01",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h141",
+    "name": "非谓语的完成式和被动式",
+    "domain": "语法",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选择性必修第一册 第4单元 Body Language",
+    "type": "procedural",
+    "description": "能在语境中使用 having been done，表示先被完成。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "___ by the host, the guests sat down. 表示已经被迎接过，横线处填哪一个？",
+      "answer": "Having been greeted"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.GR.02",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h142",
+    "name": "感官动词后的宾补",
+    "domain": "语法",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选择性必修第一册 第4单元 Body Language",
+    "type": "procedural",
+    "description": "能在 see、hear、notice 后面选择省略 to 的不定式或 -ing。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "I saw her ___ . 表示看见她点头的全过程，横线处填哪一个？",
+      "answer": "nod"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.GR.02",
+        "confidence": "inferred",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h143",
+    "name": "描述肢体语言",
+    "domain": "日常表达",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选择性必修第一册 第4单元 Body Language",
+    "type": "application",
+    "description": "能描述一个手势或表情，并说明它可能表示什么。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想说点头常常表示同意，哪一句合适？",
+      "answer": "A nod often means agreement"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.FU.01",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h144",
+    "name": "读肢体语言短文",
+    "domain": "读写",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选择性必修第一册 第4单元 Body Language",
+    "type": "application",
+    "description": "根据上下文推断 nod 和 frown 分别暗示什么。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "Having been greeted, the guests sat down. I saw the host nod, which I interpreted as agreement. A frown, however, made the speaker keep a greater distance. 客人坐下之前发生了什么？",
+      "answer": "他们被问候了"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h145",
+    "name": "写观察笔记",
+    "domain": "读写",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选择性必修第一册 第4单元 Body Language",
+    "type": "application",
+    "description": "能按要点选出观察笔记中的句子。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "要点：先被问候、点头表示同意、皱眉后拉开距离。哪一句三个要点都有？",
+      "answer": "Having been greeted they sat down, a nod meant agreement, and a frown made the speaker keep a distance"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.RW.03",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h146",
+    "name": "农业",
+    "domain": "词汇",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选择性必修第一册 第5单元 Working the Land",
+    "type": "conceptual",
+    "description": "认读 agriculture、crop、soil 和 harvest。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「农业」？",
+      "answer": "agriculture"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.VO.01",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h147",
+    "name": "耕作",
+    "domain": "词汇",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选择性必修第一册 第5单元 Working the Land",
+    "type": "conceptual",
+    "description": "认读 fertilizer、irrigation、yield 和 organic。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「肥料」？",
+      "answer": "fertilizer"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.VO.01",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h148",
+    "name": "不定式的被动式",
+    "domain": "语法",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选择性必修第一册 第5单元 Working the Land",
+    "type": "procedural",
+    "description": "能用 to be done 表示将要被做或应该被做。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "The crops are ___ tomorrow. 表示明天将被收割，横线处填哪一个？",
+      "answer": "to be harvested"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.GR.02",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h149",
+    "name": "独立主格",
+    "domain": "语法",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选择性必修第一册 第5单元 Working the Land",
+    "type": "procedural",
+    "description": "能识别独立主格：名词加上分词，逻辑主语和主句主语不同。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "Weather ___, we will start the harvest. 表示如果天气允许，横线处填哪一个？",
+      "answer": "permitting"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.GR.02",
+        "confidence": "inferred",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h150",
+    "name": "说明农事过程",
+    "domain": "日常表达",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选择性必修第一册 第5单元 Working the Land",
+    "type": "application",
+    "description": "能说明耕作步骤，并就产量和土壤给出有依据的看法。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想说土壤需要被检测，哪一句合适？",
+      "answer": "The soil needs to be tested"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h151",
+    "name": "读农业短文",
+    "domain": "读写",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选择性必修第一册 第5单元 Working the Land",
+    "type": "application",
+    "description": "读短文，找出必须先做的事和仍然取决于天气的事。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "The wheat is to be harvested next week. Soil samples need to be tested first. Weather permitting, the farmers will finish the work in three days. 小麦什么时候将被收割？",
+      "answer": "下周"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.RW.02",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h152",
+    "name": "写农事安排",
+    "domain": "读写",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选择性必修第一册 第5单元 Working the Land",
+    "type": "application",
+    "description": "能按要点选出安排说明中的句子。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "要点：下周收割、先检测土壤、天气允许就三天做完。哪一句三个要点都有？",
+      "answer": "The wheat is to be harvested next week, the soil is to be tested first, and weather permitting they will finish in three days"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.RW.03",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h153",
+    "name": "科学研究",
+    "domain": "词汇",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选择性必修第二册 第1单元 Science and Scientists",
+    "type": "conceptual",
+    "description": "认读 hypothesis、experiment、data 和 evidence。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「假设」？",
+      "answer": "hypothesis"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.VO.02",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h154",
+    "name": "科学结论",
+    "domain": "词汇",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选择性必修第二册 第1单元 Science and Scientists",
+    "type": "conceptual",
+    "description": "认读 conclude、variable、sample 和 method。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「得出结论」？",
+      "answer": "conclude"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.VO.02",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h155",
+    "name": "虚拟语气",
+    "domain": "语法",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选择性必修第二册 第1单元 Science and Scientists",
+    "type": "procedural",
+    "description": "能用 If I were 和 would 加原形表达与现在事实相反的假设。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "与现在事实相反：如果我是你，我会先核对数据。哪一句正确？",
+      "answer": "If I were you, I would check the data"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.GR.03",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h156",
+    "name": "but for 与虚拟",
+    "domain": "语法",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选择性必修第二册 第1单元 Science and Scientists",
+    "type": "procedural",
+    "description": "能用 But for 表示“要不是”，并搭配 would have done 或 would do。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "要不是你的帮助，我当时就会失败。哪一句正确？",
+      "answer": "But for your help, I would have failed"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.GR.03",
+        "confidence": "inferred",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h157",
+    "name": "说明科学假设",
+    "domain": "日常表达",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选择性必修第二册 第1单元 Science and Scientists",
+    "type": "application",
+    "description": "能说明假设、证据和还不能确定的地方。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想说如果有更多证据就会更确定，哪一句合适？",
+      "answer": "If we had more evidence, we would be more certain"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h158",
+    "name": "读科学短文",
+    "domain": "读写",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选择性必修第二册 第1单元 Science and Scientists",
+    "type": "application",
+    "description": "找出论点、还缺少的证据，以及作者没有直接说满的限度。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "If the team had a larger sample, they would trust the result more. But for one failed experiment, they would have published the paper last month. The data are useful, but they do not prove the whole hypothesis. 样本更大的话，他们会怎样？",
+      "answer": "更信任这个结果"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.RW.02",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h159",
+    "name": "写实验评论",
+    "domain": "读写",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选择性必修第二册 第1单元 Science and Scientists",
+    "type": "application",
+    "description": "能按要点选出评论中的句子。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "要点：样本更大就会更信任、要不是失败实验上个月会发表、数据还不能证明全部假设。哪一句三个要点都有？",
+      "answer": "If they had a larger sample they would trust it more, but for the failed experiment they would have published, and the data do not prove the whole hypothesis"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.RW.03",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h160",
+    "name": "跨文化交流",
+    "domain": "词汇",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选择性必修第二册 第2单元 Bridging Cultures",
+    "type": "conceptual",
+    "description": "认读 exchange、abroad、adapt 和 homesick。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「交流」？",
+      "answer": "exchange"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.VO.02",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h161",
+    "name": "寄宿家庭",
+    "domain": "词汇",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选择性必修第二册 第2单元 Bridging Cultures",
+    "type": "conceptual",
+    "description": "认读 host、custom、misunderstand 和 fluent。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「主人」？",
+      "answer": "host"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.VO.02",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h162",
+    "name": "与过去事实相反的虚拟",
+    "domain": "语法",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选择性必修第二册 第2单元 Bridging Cultures",
+    "type": "procedural",
+    "description": "能在从句用 had done，在主句用 would have done。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "如果我当时更努力适应，我就会少一些误会。哪一句正确？",
+      "answer": "If I had adapted faster, I would have had fewer misunderstandings"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.GR.03",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h163",
+    "name": "错综时间虚拟",
+    "domain": "语法",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选择性必修第二册 第2单元 Bridging Cultures",
+    "type": "procedural",
+    "description": "能在从句指过去、主句指现在时，分别使用 had done 和 would do。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "如果当时听了主人的建议，我现在就会更流利。哪一句正确？",
+      "answer": "If I had followed the advice, I would be more fluent now"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.GR.03",
+        "confidence": "inferred",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h164",
+    "name": "比较文化差异",
+    "domain": "日常表达",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选择性必修第二册 第2单元 Bridging Cultures",
+    "type": "application",
+    "description": "能比较习俗差异，并说明如果当时知道就会怎样。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想说如果当时问了主人就不会误会，哪一句合适？",
+      "answer": "If I had asked my host, I would not have misunderstood the custom"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h165",
+    "name": "读交流短文",
+    "domain": "读写",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选择性必修第二册 第2单元 Bridging Cultures",
+    "type": "application",
+    "description": "推断当时发生了什么，以及现在还剩下什么感受。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "If Lin had asked her host, she would not have worn the wrong clothes to the dinner. If she had known that custom, she would feel less embarrassed now. She is still learning, and her host is patient. 如果当时问了主人，她就不会怎样？",
+      "answer": "穿错衣服去吃饭"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h166",
+    "name": "写交流反思",
+    "domain": "读写",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选择性必修第二册 第2单元 Bridging Cultures",
+    "type": "application",
+    "description": "能按要点选出反思中的句子。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "要点：当时问了就不会穿错、知道习俗现在会少些尴尬、主人有耐心。哪一句三个要点都有？",
+      "answer": "If I had asked I would not have worn the wrong clothes, if I had known the custom I would feel less embarrassed now, and my host is patient"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.RW.03",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h167",
+    "name": "饮食文化",
+    "domain": "词汇",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选择性必修第二册 第3单元 Food and Culture",
+    "type": "conceptual",
+    "description": "认读 recipe、ingredient、flavour 和 appetite。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「食谱」？",
+      "answer": "recipe"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.VO.02",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h168",
+    "name": "餐桌礼仪",
+    "domain": "词汇",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选择性必修第二册 第3单元 Food and Culture",
+    "type": "conceptual",
+    "description": "认读 spice、banquet、chopstick 和 manner。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「香料」？",
+      "answer": "spice"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.VO.02",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h169",
+    "name": "与将来事实相反的虚拟",
+    "domain": "语法",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选择性必修第二册 第3单元 Food and Culture",
+    "type": "procedural",
+    "description": "能用 should、were to 加原形表示与将来事实相反的假设。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "万一明天的宴会取消，我们就会在家吃。哪一句正确？",
+      "answer": "If the banquet should be cancelled, we would eat at home"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.GR.03",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h170",
+    "name": "as if 虚拟",
+    "domain": "语法",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选择性必修第二册 第3单元 Food and Culture",
+    "type": "procedural",
+    "description": "能在 as if 后面用过去式或 had done，表示好像并非事实。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "他谈起这道菜，好像自己是厨师。与现在不符，哪一句正确？",
+      "answer": "He talks as if he were a cook"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.GR.03",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h171",
+    "name": "比较饮食",
+    "domain": "日常表达",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选择性必修第二册 第3单元 Food and Culture",
+    "type": "application",
+    "description": "能比较不同菜肴，并说明自己的口味。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想说这道菜好像没有放盐，哪一句合适？",
+      "answer": "This dish tastes as if it had no salt"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.FU.01",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h172",
+    "name": "读饮食短文",
+    "domain": "读写",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选择性必修第二册 第3单元 Food and Culture",
+    "type": "application",
+    "description": "推断 as if 暗示的真实情况，以及还没发生的打算。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "The banquet included a mild soup and a spicy fish. Lin ate as if she had never tasted that spice. If the fish should be too hot, she would drink some soup. 宴会上有什么？",
+      "answer": "清淡的汤和辣鱼"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h173",
+    "name": "写饮食说明",
+    "domain": "读写",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选择性必修第二册 第3单元 Food and Culture",
+    "type": "application",
+    "description": "能按要点选出说明中的句子。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "要点：有汤和辣鱼、她好像没尝过这种香料、太辣就喝汤。哪一句三个要点都有？",
+      "answer": "There was soup and spicy fish, she ate as if she had never tasted the spice, and if it should be too hot she would drink soup"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.RW.03",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h174",
+    "name": "长途旅行",
+    "domain": "词汇",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选择性必修第二册 第4单元 Journey Across a Vast Land",
+    "type": "conceptual",
+    "description": "认读 rail、carriage、scenery 和 delay。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「铁路」？",
+      "answer": "rail"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.VO.02",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h175",
+    "name": "旅途见闻",
+    "domain": "词汇",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选择性必修第二册 第4单元 Journey Across a Vast Land",
+    "type": "conceptual",
+    "description": "认读 boundless、frost、awesome 和 cross。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「一望无际的」？",
+      "answer": "boundless"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.VO.02",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h176",
+    "name": "wish 虚拟",
+    "domain": "语法",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选择性必修第二册 第4单元 Journey Across a Vast Land",
+    "type": "procedural",
+    "description": "能在 wish 后面用过去式表示与现在相反，用 had done 表示与过去相反。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "我希望我现在就在那列火车上，但事实上不在。哪一句正确？",
+      "answer": "I wish I were on that train"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.GR.03",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h177",
+    "name": "if only 虚拟",
+    "domain": "语法",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选择性必修第二册 第4单元 Journey Across a Vast Land",
+    "type": "procedural",
+    "description": "能用 If only 加过去式或 had done 表示强烈愿望。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "要是现在能看见那片一望无际的平原就好了。哪一句正确？",
+      "answer": "If only I could see the boundless plain"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.GR.03",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h178",
+    "name": "用语调表达态度",
+    "domain": "语音",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选择性必修第二册 第4单元 Journey Across a Vast Land",
+    "type": "procedural",
+    "description": "能判断升调、降调或重读是在表示犹豫、惊讶还是强调。",
+    "mastery_criteria": [
+      "能根据重音、语调或音变选出正确的一项",
+      "能说明这个朗读规则用在什么地方"
+    ],
+    "diagnostic_question": {
+      "question": "Really? 用明显的升调，更可能表示什么？",
+      "answer": "惊讶"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.PH.01",
+        "confidence": "inferred",
+        "note": "语音项目按人教版（2019）常见教学顺序编排，没有核到人教社目录，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h179",
+    "name": "描述旅途",
+    "domain": "日常表达",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选择性必修第二册 第4单元 Journey Across a Vast Land",
+    "type": "application",
+    "description": "能描述沿途风景，并表达遗憾或愿望。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想说希望自己现在就在车上，哪一句合适？",
+      "answer": "I wish I were on the train"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.FU.01",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h180",
+    "name": "读旅途短文",
+    "domain": "读写",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选择性必修第二册 第4单元 Journey Across a Vast Land",
+    "type": "application",
+    "description": "推断 Lin 后悔的是什么，以及哪一句只是愿望。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "The train crossed a boundless plain at dawn. Lin wishes she had sat by the window, because she missed the frost. If only the delay had been shorter. 火车黎明时穿越了什么？",
+      "answer": "一望无际的平原"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h181",
+    "name": "写旅途邮件",
+    "domain": "读写",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选择性必修第二册 第4单元 Journey Across a Vast Land",
+    "type": "application",
+    "description": "能按要点选出邮件中的句子。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "要点：黎明穿越平原、后悔没坐窗边、希望延误更短。哪一句三个要点都有？",
+      "answer": "We crossed a plain at dawn, I wish I had sat by the window, and if only the delay had been shorter"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.RW.03",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h182",
+    "name": "急救",
+    "domain": "词汇",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选择性必修第二册 第5单元 First Aid",
+    "type": "conceptual",
+    "description": "认读 first aid、bleed、bandage 和 choke。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「急救」？",
+      "answer": "first aid"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.VO.02",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h183",
+    "name": "伤情处理",
+    "domain": "词汇",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选择性必修第二册 第5单元 First Aid",
+    "type": "conceptual",
+    "description": "认读 wound、swelling、pressure 和 ambulance。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「伤口」？",
+      "answer": "wound"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.VO.02",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h184",
+    "name": "建议命令的虚拟",
+    "domain": "语法",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选择性必修第二册 第5单元 First Aid",
+    "type": "procedural",
+    "description": "能在 suggest、insist、order 后面用 should 加原形，should 可以省略。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "医生建议她休息。哪一句正确？",
+      "answer": "The doctor suggested that she should rest"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.GR.03",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h185",
+    "name": "otherwise 虚拟",
+    "domain": "语法",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选择性必修第二册 第5单元 First Aid",
+    "type": "procedural",
+    "description": "能用 otherwise 表示如果不这样就，并搭配 would have done。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "他当时在流血，不然他就不会叫救护车。哪一句正确？",
+      "answer": "He was bleeding; otherwise he would not have called an ambulance"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.GR.03",
+        "confidence": "inferred",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h186",
+    "name": "说明急救步骤",
+    "domain": "日常表达",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选择性必修第二册 第5单元 First Aid",
+    "type": "application",
+    "description": "能按步骤说明止血，并建议何时叫救护车。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想按步骤说先按压伤口，哪一句合适？",
+      "answer": "First, put pressure on the wound"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h187",
+    "name": "读急救短文",
+    "domain": "读写",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选择性必修第二册 第5单元 First Aid",
+    "type": "application",
+    "description": "找出已经做的步骤、建议，以及 otherwise 排除的结果。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "The coach suggested that the student sit down. He put pressure on the wound and then used a bandage. Otherwise the bleeding would have become dangerous. An ambulance arrived ten minutes later. 教练建议学生做什么？",
+      "answer": "坐下"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.RW.02",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h188",
+    "name": "写急救步骤",
+    "domain": "读写",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选择性必修第二册 第5单元 First Aid",
+    "type": "application",
+    "description": "能按要点选出步骤说明中的句子。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "要点：建议坐下、按压并包扎、否则流血会危险。哪一句三个要点都有？",
+      "answer": "The coach suggested that he sit down, pressure and a bandage were used, and otherwise the bleeding would have become dangerous"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.RW.03",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h189",
+    "name": "艺术",
+    "domain": "词汇",
+    "grade": 15,
+    "semester": "上",
+    "chapter": "选择性必修第三册 第1单元 Art",
+    "type": "conceptual",
+    "description": "认读 sculpture、gallery、exhibition 和 visual。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「雕塑」？",
+      "answer": "sculpture"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.VO.03",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h190",
+    "name": "艺术评论",
+    "domain": "词汇",
+    "grade": 15,
+    "semester": "上",
+    "chapter": "选择性必修第三册 第1单元 Art",
+    "type": "conceptual",
+    "description": "认读 brush、canvas、realistic 和 abstract。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「画笔」？",
+      "answer": "brush"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.VO.03",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h191",
+    "name": "否定副词倒装",
+    "domain": "语法",
+    "grade": 15,
+    "semester": "上",
+    "chapter": "选择性必修第三册 第1单元 Art",
+    "type": "procedural",
+    "description": "能在否定副词放在句首时使用部分倒装。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "Never ___ such a sculpture. 表示我从未见过，横线处填哪一个？",
+      "answer": "have I seen"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.GR.04",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h192",
+    "name": "hardly 倒装",
+    "domain": "语法",
+    "grade": 15,
+    "semester": "上",
+    "chapter": "选择性必修第三册 第1单元 Art",
+    "type": "procedural",
+    "description": "能用 Hardly had ... when 表示一……就……。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "Hardly ___ the gallery when the talk began. 横线处填哪一个？",
+      "answer": "had we entered"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.GR.04",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h193",
+    "name": "描述艺术作品",
+    "domain": "日常表达",
+    "grade": 15,
+    "semester": "上",
+    "chapter": "选择性必修第三册 第1单元 Art",
+    "type": "application",
+    "description": "能描述一幅画或一座雕塑，并说明它是写实还是抽象。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想说从未见过这样的雕塑，并用倒装，哪一句合适？",
+      "answer": "Never have I seen such a sculpture"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.FU.01",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h194",
+    "name": "读艺术短文",
+    "domain": "读写",
+    "grade": 15,
+    "semester": "上",
+    "chapter": "选择性必修第三册 第1单元 Art",
+    "type": "application",
+    "description": "推断画和雕像的区别，以及哪一句使用了倒装。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "Never have I seen such bright colours. Hardly had we entered the gallery when a guide began to explain the sculpture. The painting is abstract, while the statue is realistic. 作者对颜色的感受是什么？",
+      "answer": "从未见过这么鲜艳的"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h195",
+    "name": "写观展笔记",
+    "domain": "读写",
+    "grade": 15,
+    "semester": "上",
+    "chapter": "选择性必修第三册 第1单元 Art",
+    "type": "application",
+    "description": "能按要点选出笔记中的句子。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "要点：从未见过这种颜色、一进馆就开始讲解、画抽象而雕像写实。哪一句三个要点都有？",
+      "answer": "Never have I seen such colours, hardly had we entered when the talk began, and the painting is abstract while the statue is realistic"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.RW.03",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h196",
+    "name": "健康生活",
+    "domain": "词汇",
+    "grade": 15,
+    "semester": "上",
+    "chapter": "选择性必修第三册 第2单元 Healthy Lifestyle",
+    "type": "conceptual",
+    "description": "认读 lifestyle、stress、routine 和 balance。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「生活方式」？",
+      "answer": "lifestyle"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.VO.03",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h197",
+    "name": "身心习惯",
+    "domain": "词汇",
+    "grade": 15,
+    "semester": "上",
+    "chapter": "选择性必修第三册 第2单元 Healthy Lifestyle",
+    "type": "conceptual",
+    "description": "认读 anxiety、nutrition、sufficient 和 refresh。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「焦虑」？",
+      "answer": "anxiety"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.VO.03",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h198",
+    "name": "only 与 so、neither 倒装",
+    "domain": "语法",
+    "grade": 15,
+    "semester": "上",
+    "chapter": "选择性必修第三册 第2单元 Healthy Lifestyle",
+    "type": "procedural",
+    "description": "能在 only 加状语、so 和 neither 开头时倒装。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "Only then ___ how tired he was. 横线处填哪一个？",
+      "answer": "did he realise"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.GR.04",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h199",
+    "name": "there 与方位倒装",
+    "domain": "语法",
+    "grade": 15,
+    "semester": "上",
+    "chapter": "选择性必修第三册 第2单元 Healthy Lifestyle",
+    "type": "procedural",
+    "description": "能用 There 或地点副词放在句首，把主语放到动词后面。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "There ___ a quiet garden behind the gym. 横线处填哪一个？",
+      "answer": "stands"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.GR.04",
+        "confidence": "inferred",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h200",
+    "name": "讨论健康习惯",
+    "domain": "日常表达",
+    "grade": 15,
+    "semester": "上",
+    "chapter": "选择性必修第三册 第2单元 Healthy Lifestyle",
+    "type": "application",
+    "description": "能说明压力、睡眠和营养，并给出有依据的建议。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想说直到那时他才意识到自己的压力，哪一句合适？",
+      "answer": "Only then did he realise his stress"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h201",
+    "name": "读健康短文",
+    "domain": "读写",
+    "grade": 15,
+    "semester": "上",
+    "chapter": "选择性必修第三册 第2单元 Healthy Lifestyle",
+    "type": "application",
+    "description": "找出改变习惯之后的结果，以及 so 倒装所指的人。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "Only after he changed his routine did Tom sleep well. He says he needs sufficient nutrition, and so does his sister. Behind the dormitory stands a garden where they walk. Tom 什么时候才睡得好？",
+      "answer": "改变日常安排之后"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.RW.02",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h202",
+    "name": "写健康建议",
+    "domain": "读写",
+    "grade": 15,
+    "semester": "上",
+    "chapter": "选择性必修第三册 第2单元 Healthy Lifestyle",
+    "type": "application",
+    "description": "能按要点选出建议中的句子。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "要点：改变安排后才睡好、妹妹也需要营养、宿舍后有花园。哪一句三个要点都有？",
+      "answer": "Only after he changed his routine did he sleep well, so does his sister need good nutrition, and behind the dormitory stands a garden"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.RW.03",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h203",
+    "name": "环境保护",
+    "domain": "词汇",
+    "grade": 15,
+    "semester": "上",
+    "chapter": "选择性必修第三册 第3单元 Environmental Protection",
+    "type": "conceptual",
+    "description": "认读 climate、carbon、emission 和 renewable。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「气候」？",
+      "answer": "climate"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.VO.03",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h204",
+    "name": "污染",
+    "domain": "词汇",
+    "grade": 15,
+    "semester": "上",
+    "chapter": "选择性必修第三册 第3单元 Environmental Protection",
+    "type": "conceptual",
+    "description": "认读 pollution、drought、policy 和 sustainable。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「污染」？",
+      "answer": "pollution"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.VO.03",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h205",
+    "name": "强调句",
+    "domain": "语法",
+    "grade": 15,
+    "semester": "上",
+    "chapter": "选择性必修第三册 第3单元 Environmental Protection",
+    "type": "procedural",
+    "description": "能用 It is 或 It was 加被强调部分加 that 或 who。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "是政策改变了排放，而不是口号。强调政策，哪一句正确？",
+      "answer": "It is the policy that changes the emissions"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.GR.05",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h206",
+    "name": "强调句和定语从句",
+    "domain": "语法",
+    "grade": 15,
+    "semester": "上",
+    "chapter": "选择性必修第三册 第3单元 Environmental Protection",
+    "type": "procedural",
+    "description": "能把 It is ... that 强调句和 It is ... that 容易混淆的定语从句分开。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "哪一句是强调句？",
+      "answer": "It was the drought that forced them to move"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.GR.05",
+        "confidence": "inferred",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h207",
+    "name": "讨论环境政策",
+    "domain": "日常表达",
+    "grade": 15,
+    "semester": "上",
+    "chapter": "选择性必修第三册 第3单元 Environmental Protection",
+    "type": "application",
+    "description": "能说明排放、干旱和政策，并强调真正起作用的因素。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想强调是可再生能源降低了排放，哪一句合适？",
+      "answer": "It is renewable energy that reduces the emissions"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h208",
+    "name": "读环境短文",
+    "domain": "读写",
+    "grade": 15,
+    "semester": "上",
+    "chapter": "选择性必修第三册 第3单元 Environmental Protection",
+    "type": "application",
+    "description": "找出作者认为真正起作用的因素，以及论点与依据。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "It is the new policy that cuts carbon emissions. It was the long drought that made the lake smaller. Renewable energy is useful, but the policy decides how fast it is used. 什么在削减碳排放？",
+      "answer": "新政策"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.RW.02",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h209",
+    "name": "写环境评论",
+    "domain": "读写",
+    "grade": 15,
+    "semester": "上",
+    "chapter": "选择性必修第三册 第3单元 Environmental Protection",
+    "type": "application",
+    "description": "能按要点选出评论中的句子。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "要点：政策削减排放、干旱让湖变小、政策决定推进速度。哪一句三个要点都有？",
+      "answer": "It is the policy that cuts emissions, it was the drought that made the lake smaller, and the policy decides the speed"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.RW.03",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h210",
+    "name": "逆境",
+    "domain": "词汇",
+    "grade": 15,
+    "semester": "上",
+    "chapter": "选择性必修第三册 第4单元 Adversity and Courage",
+    "type": "conceptual",
+    "description": "认读 adversity、courage、survive 和 despair。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「逆境」？",
+      "answer": "adversity"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.VO.03",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h211",
+    "name": "坚持",
+    "domain": "词汇",
+    "grade": 15,
+    "semester": "上",
+    "chapter": "选择性必修第三册 第4单元 Adversity and Courage",
+    "type": "conceptual",
+    "description": "认读 perseverance、crew、hope 和 ordeal。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「毅力」？",
+      "answer": "perseverance"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.VO.03",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h212",
+    "name": "用 do 强调谓语",
+    "domain": "语法",
+    "grade": 15,
+    "semester": "上",
+    "chapter": "选择性必修第三册 第4单元 Adversity and Courage",
+    "type": "procedural",
+    "description": "能用 do、does 或 did 强调谓语，表示确实如此。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "她当时确实活了下来。强调谓语，哪一句正确？",
+      "answer": "She did survive the ordeal"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.GR.05",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h213",
+    "name": "省略 if 的倒装",
+    "domain": "语法",
+    "grade": 15,
+    "semester": "上",
+    "chapter": "选择性必修第三册 第4单元 Adversity and Courage",
+    "type": "procedural",
+    "description": "能把虚拟条件句的 if 省去，把 had、were 或 should 放到句首。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "如果当时知道危险，他们就会改变航线。省略 if，哪一句正确？",
+      "answer": "Had they known the danger, they would have changed course"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.GR.04",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h214",
+    "name": "讨论逆境",
+    "domain": "日常表达",
+    "grade": 15,
+    "semester": "上",
+    "chapter": "选择性必修第三册 第4单元 Adversity and Courage",
+    "type": "application",
+    "description": "能说明人物如何面对磨难，并强调确实做到的事。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想强调船员确实到达了岛上，哪一句合适？",
+      "answer": "The crew did reach the island"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h215",
+    "name": "读逆境短文",
+    "domain": "读写",
+    "grade": 15,
+    "semester": "上",
+    "chapter": "选择性必修第三册 第4单元 Adversity and Courage",
+    "type": "application",
+    "description": "推断哪一句是假设，哪一句是作者强调的事实。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "Had the crew lost hope, they would not have survived. They did keep a small fire at night. It was perseverance that carried them through the ordeal. 如果船员失去希望，结果会怎样？",
+      "answer": "就不会幸存"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h216",
+    "name": "写读后感",
+    "domain": "读写",
+    "grade": 15,
+    "semester": "上",
+    "chapter": "选择性必修第三册 第4单元 Adversity and Courage",
+    "type": "application",
+    "description": "能按要点选出生后感中的句子。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "要点：失去希望就不会幸存、夜里确实留了火、毅力支撑他们。哪一句三个要点都有？",
+      "answer": "Had they lost hope they would not have survived, they did keep a fire, and it was perseverance that carried them"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.RW.03",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h217",
+    "name": "诗歌",
+    "domain": "词汇",
+    "grade": 15,
+    "semester": "上",
+    "chapter": "选择性必修第三册 第5单元 Poems",
+    "type": "conceptual",
+    "description": "认读 poem、rhyme、verse 和 imagery。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「诗」？",
+      "answer": "poem"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.VO.03",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h218",
+    "name": "诗歌赏析",
+    "domain": "词汇",
+    "grade": 15,
+    "semester": "上",
+    "chapter": "选择性必修第三册 第5单元 Poems",
+    "type": "conceptual",
+    "description": "认读 metaphor、rhythm、recite 和 emotion。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「比喻」？",
+      "answer": "metaphor"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.VO.03",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h219",
+    "name": "省略",
+    "domain": "语法",
+    "grade": 15,
+    "semester": "上",
+    "chapter": "选择性必修第三册 第5单元 Poems",
+    "type": "procedural",
+    "description": "能省略重复的动词，并在不定式里保留 to。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "I wanted to recite the poem, and he wanted ___. 横线处填哪一个？",
+      "answer": "to"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.GR.06",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h220",
+    "name": "比较句中的省略",
+    "domain": "语法",
+    "grade": 15,
+    "semester": "上",
+    "chapter": "选择性必修第三册 第5单元 Poems",
+    "type": "procedural",
+    "description": "能在比较结构里省略重复的谓语，避免把比较对象写错。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "这首诗比那首更难朗诵。哪一句正确？",
+      "answer": "This poem is harder to recite than that one is"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.GR.06",
+        "confidence": "inferred",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h221",
+    "name": "谈论诗歌",
+    "domain": "日常表达",
+    "grade": 15,
+    "semester": "上",
+    "chapter": "选择性必修第三册 第5单元 Poems",
+    "type": "application",
+    "description": "能描述一首诗的意象和节奏，并比较两首诗。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想说自己也想朗诵，并省略重复动词，哪一句合适？",
+      "answer": "She wants to recite, and I want to as well"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.FU.01",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h222",
+    "name": "读诗歌短文",
+    "domain": "读写",
+    "grade": 15,
+    "semester": "上",
+    "chapter": "选择性必修第三册 第5单元 Poems",
+    "type": "application",
+    "description": "推断哪一首更难，以及省略掉的动词是什么。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "The first poem is harder to recite than the second is. Lin wanted to try the long verse, and her friend wanted to as well. Its imagery is quiet, but the rhythm is strong. 哪一首更难朗诵？",
+      "answer": "第一首"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h223",
+    "name": "写赏析句",
+    "domain": "读写",
+    "grade": 15,
+    "semester": "上",
+    "chapter": "选择性必修第三册 第5单元 Poems",
+    "type": "application",
+    "description": "能按要点选出赏析中的句子。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "要点：第一首更难朗诵、朋友也想试长诗、意象安静但节奏强。哪一句三个要点都有？",
+      "answer": "The first is harder to recite than the second is, her friend wanted to try the long verse too, and the imagery is quiet but the rhythm is strong"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.RW.03",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h224",
+    "name": "科幻作品",
+    "domain": "词汇",
+    "grade": 16,
+    "semester": "上",
+    "chapter": "选择性必修第四册 第1单元 Science Fiction",
+    "type": "conceptual",
+    "description": "认读 fiction、android、clone 和 alien。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「小说」？",
+      "answer": "fiction"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.VO.04",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h225",
+    "name": "未来科技",
+    "domain": "词汇",
+    "grade": 16,
+    "semester": "上",
+    "chapter": "选择性必修第四册 第1单元 Science Fiction",
+    "type": "conceptual",
+    "description": "认读 spacecraft、gravity、dimension 和 experiment。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「宇宙飞船」？",
+      "answer": "spacecraft"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.VO.04",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h226",
+    "name": "非谓语的选择",
+    "domain": "语法",
+    "grade": 16,
+    "semester": "上",
+    "chapter": "选择性必修第四册 第1单元 Science Fiction",
+    "type": "procedural",
+    "description": "能在语境中选择 to do、doing 或 done。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "The android needs ___ before the next flight. 表示需要被检查，横线处填哪一个？",
+      "answer": "to be checked"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.GR.02",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h227",
+    "name": "非谓语完成式和被动式",
+    "domain": "语法",
+    "grade": 16,
+    "semester": "上",
+    "chapter": "选择性必修第四册 第1单元 Science Fiction",
+    "type": "procedural",
+    "description": "能区分 having done、having been done 和 being done。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "___ the experiment, the crew left the lab. 实验已经做完，横线处填哪一个？",
+      "answer": "Having finished"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.GR.02",
+        "confidence": "inferred",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h228",
+    "name": "讨论科幻情节",
+    "domain": "日常表达",
+    "grade": 16,
+    "semester": "上",
+    "chapter": "选择性必修第四册 第1单元 Science Fiction",
+    "type": "application",
+    "description": "能用一两句说明科幻故事里谁做了什么、什么已经被完成。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想说仿生人需要先被检查，哪一句合适？",
+      "answer": "The android needs to be checked first"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h229",
+    "name": "读科幻短文",
+    "domain": "读写",
+    "grade": 16,
+    "semester": "上",
+    "chapter": "选择性必修第四册 第1单元 Science Fiction",
+    "type": "application",
+    "description": "能分清谁做了实验、什么已经被藏起来、什么正在被修理。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "The fiction written in 2019 follows an android. Having finished a gravity experiment, the crew found the clone hidden in the lab. The spacecraft door being repaired cannot open yet. 这本小说写于哪一年？",
+      "answer": "2019 年"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h230",
+    "name": "写科幻概要",
+    "domain": "读写",
+    "grade": 16,
+    "semester": "上",
+    "chapter": "选择性必修第四册 第1单元 Science Fiction",
+    "type": "application",
+    "description": "能按要点选出概要中的句子。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "要点：2019 年写成的小说、船员做完重力实验、舱门正在被修理。哪一句三个要点都有？",
+      "answer": "The fiction written in 2019 shows a crew having finished a gravity experiment, while the door is being repaired"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.RW.03",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h231",
+    "name": "地标",
+    "domain": "词汇",
+    "grade": 16,
+    "semester": "上",
+    "chapter": "选择性必修第四册 第2单元 Iconic Attractions",
+    "type": "conceptual",
+    "description": "认读 landmark、statue、temple 和 tower。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「地标」？",
+      "answer": "landmark"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.VO.04",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h232",
+    "name": "名胜",
+    "domain": "词汇",
+    "grade": 16,
+    "semester": "上",
+    "chapter": "选择性必修第四册 第2单元 Iconic Attractions",
+    "type": "conceptual",
+    "description": "认读 attraction、scenery、guide 和 queue。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「景点」？",
+      "answer": "attraction"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.VO.04",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h233",
+    "name": "no matter 与 -ever",
+    "domain": "语法",
+    "grade": 16,
+    "semester": "上",
+    "chapter": "选择性必修第四册 第2单元 Iconic Attractions",
+    "type": "procedural",
+    "description": "能用 no matter who 或 whoever 引导让步状语从句。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "无论谁来当导游，我们都九点出发。哪一句正确？",
+      "answer": "No matter who the guide is, we leave at nine"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.GR.07",
+        "confidence": "inferred",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h234",
+    "name": "where 引导状语从句",
+    "domain": "语法",
+    "grade": 16,
+    "semester": "上",
+    "chapter": "选择性必修第四册 第2单元 Iconic Attractions",
+    "type": "procedural",
+    "description": "能判断 where 是在引导地点状语从句，还是在定语从句里修饰前面的名词。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "哪一句的 where 引导地点状语从句？",
+      "answer": "Where there is a tower, there is a queue"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.GR.07",
+        "confidence": "inferred",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h235",
+    "name": "介绍名胜",
+    "domain": "日常表达",
+    "grade": 16,
+    "semester": "上",
+    "chapter": "选择性必修第四册 第2单元 Iconic Attractions",
+    "type": "application",
+    "description": "能介绍地标，并说明无论谁来、把东西放在哪里。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想说无论谁当导游都九点集合，哪一句合适？",
+      "answer": "Whoever the guide is, we meet at nine"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.FU.01",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h236",
+    "name": "读名胜短文",
+    "domain": "读写",
+    "grade": 16,
+    "semester": "上",
+    "chapter": "选择性必修第四册 第2单元 Iconic Attractions",
+    "type": "application",
+    "description": "能分清地点状语从句和修饰名词的 where。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "Where there is a tower, visitors queue for photos. Whoever the guide is, the group meets at the statue. The temple where they prayed is older than the tower. 游客在什么地方排队拍照？",
+      "answer": "有塔的地方"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h237",
+    "name": "写游览说明",
+    "domain": "读写",
+    "grade": 16,
+    "semester": "上",
+    "chapter": "选择性必修第四册 第2单元 Iconic Attractions",
+    "type": "application",
+    "description": "能按要点选出说明中的句子。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "要点：有塔就排队、无论谁当导游都在雕像处集合、他们祈祷过的寺庙更古老。哪一句三个要点都有？",
+      "answer": "Where there is a tower people queue, whoever the guide is the group meets at the statue, and the temple where they prayed is older"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.RW.03",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h238",
+    "name": "海洋",
+    "domain": "词汇",
+    "grade": 16,
+    "semester": "上",
+    "chapter": "选择性必修第四册 第3单元 Sea Exploration",
+    "type": "conceptual",
+    "description": "认读 ocean、voyage、harbour 和 tide。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「海洋」？",
+      "answer": "ocean"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.VO.04",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h239",
+    "name": "航海",
+    "domain": "词汇",
+    "grade": 16,
+    "semester": "上",
+    "chapter": "选择性必修第四册 第3单元 Sea Exploration",
+    "type": "conceptual",
+    "description": "认读 sailor、compass、storm 和 anchor。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「水手」？",
+      "answer": "sailor"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.VO.04",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h240",
+    "name": "although 与 while 让步",
+    "domain": "语法",
+    "grade": 16,
+    "semester": "上",
+    "chapter": "选择性必修第四册 第3单元 Sea Exploration",
+    "type": "procedural",
+    "description": "能用 although 或 while 表示让步和对比。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "虽然有暴风雨，水手还是起航了。哪一句正确？",
+      "answer": "Although there was a storm, the sailors set out"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.GR.07",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h241",
+    "name": "so that 与 in case",
+    "domain": "语法",
+    "grade": 16,
+    "semester": "上",
+    "chapter": "选择性必修第四册 第3单元 Sea Exploration",
+    "type": "procedural",
+    "description": "能用 so that 表示目的，用 in case 表示以防万一。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "他们早起航，以便赶上潮水。哪一句正确？",
+      "answer": "They left early so that they could catch the tide"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.GR.07",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h242",
+    "name": "说明航海安排",
+    "domain": "日常表达",
+    "grade": 16,
+    "semester": "上",
+    "chapter": "选择性必修第四册 第3单元 Sea Exploration",
+    "type": "application",
+    "description": "能说明尽管有风浪仍出航，以及为了什么、以防什么。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想说虽然有暴风雨仍要起航，哪一句合适？",
+      "answer": "Although there is a storm, we will set out"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.FU.01",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h243",
+    "name": "读航海短文",
+    "domain": "读写",
+    "grade": 16,
+    "semester": "上",
+    "chapter": "选择性必修第四册 第3单元 Sea Exploration",
+    "type": "application",
+    "description": "能找出让步、目的和防备分别指什么。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "Although the storm was close, the sailors left harbour early so that they could catch the tide. They took a compass in case the radio failed. The anchor held, while the small boat did not. 暴风雨临近时，水手做了什么？",
+      "answer": "仍然早早离开港口"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h244",
+    "name": "写航海备忘",
+    "domain": "读写",
+    "grade": 16,
+    "semester": "上",
+    "chapter": "选择性必修第四册 第3单元 Sea Exploration",
+    "type": "application",
+    "description": "能按要点选出备忘中的句子。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "要点：尽管暴风雨仍离港、早走为了赶潮、带罗盘以防无线电失灵。哪一句三个要点都有？",
+      "answer": "Although a storm was close they left so that they could catch the tide, and they took a compass in case the radio failed"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.RW.03",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h245",
+    "name": "公益分享",
+    "domain": "词汇",
+    "grade": 16,
+    "semester": "上",
+    "chapter": "选择性必修第四册 第4单元 Sharing",
+    "type": "conceptual",
+    "description": "认读 donate、volunteer、charity 和 share。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「捐赠」？",
+      "answer": "donate"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.VO.04",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h246",
+    "name": "社区服务",
+    "domain": "词汇",
+    "grade": 16,
+    "semester": "上",
+    "chapter": "选择性必修第四册 第4单元 Sharing",
+    "type": "conceptual",
+    "description": "认读 community、shelter、fundraising 和 neighbour。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「社区」？",
+      "answer": "community"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.VO.04",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h247",
+    "name": "同位语从句和定语从句",
+    "domain": "语法",
+    "grade": 16,
+    "semester": "上",
+    "chapter": "选择性必修第四册 第4单元 Sharing",
+    "type": "procedural",
+    "description": "能区分 that 引导的同位语从句和定语从句。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "哪一句的 that 引导同位语从句？",
+      "answer": "The news that the shelter will open spread quickly"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.GR.01",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h248",
+    "name": "what 引导名词性从句",
+    "domain": "语法",
+    "grade": 16,
+    "semester": "上",
+    "chapter": "选择性必修第四册 第4单元 Sharing",
+    "type": "procedural",
+    "description": "能用 what 引导主语从句或宾语从句，并让 what 在从句中充当成分。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "___ the volunteers need is more blankets. 横线处填哪一个？",
+      "answer": "What"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.GR.01",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h249",
+    "name": "安排公益活动",
+    "domain": "日常表达",
+    "grade": 16,
+    "semester": "上",
+    "chapter": "选择性必修第四册 第4单元 Sharing",
+    "type": "application",
+    "description": "能说明一条消息的内容，并说出志愿者需要什么。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想转告庇护所将开放这个消息，哪一句合适？",
+      "answer": "The news that the shelter will open is true"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.FU.03",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h250",
+    "name": "读公益短文",
+    "domain": "读写",
+    "grade": 16,
+    "semester": "上",
+    "chapter": "选择性必修第四册 第4单元 Sharing",
+    "type": "application",
+    "description": "能分清哪一句在说明消息内容，哪一句在修饰名词。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "The news that the shelter will open on Saturday surprised the neighbours. What the volunteers need is blankets. The charity that organised the fundraising thanked every donor. 让邻居惊讶的消息是什么？",
+      "answer": "庇护所周六开放"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h251",
+    "name": "写招募启事",
+    "domain": "读写",
+    "grade": 16,
+    "semester": "上",
+    "chapter": "选择性必修第四册 第4单元 Sharing",
+    "type": "application",
+    "description": "能按要点选出启事中的句子。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "要点：庇护所周六开放、志愿者需要毯子、组织募捐的慈善机构表示感谢。哪一句三个要点都有？",
+      "answer": "The news is that the shelter opens on Saturday, what the volunteers need is blankets, and the charity that organised the fundraising says thank you"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.RW.03",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h252",
+    "name": "职业规划",
+    "domain": "词汇",
+    "grade": 16,
+    "semester": "上",
+    "chapter": "选择性必修第四册 第5单元 Launching Your Career",
+    "type": "conceptual",
+    "description": "认读 career、applicant、interview 和 qualification。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「职业」？",
+      "answer": "career"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.VO.04",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h253",
+    "name": "申请材料",
+    "domain": "词汇",
+    "grade": 16,
+    "semester": "上",
+    "chapter": "选择性必修第四册 第5单元 Launching Your Career",
+    "type": "conceptual",
+    "description": "认读 résumé、reference、deadline 和 employ。",
+    "mastery_criteria": [
+      "能选出单词或短语的中文意思",
+      "能根据中文选出英文单词或短语"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「简历」？",
+      "answer": "résumé"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.VO.04",
+        "confidence": "inferred",
+        "note": "人教版（2019）该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h254",
+    "name": "语篇中的时态选择",
+    "domain": "语法",
+    "grade": 16,
+    "semester": "上",
+    "chapter": "选择性必修第四册 第5单元 Launching Your Career",
+    "type": "procedural",
+    "description": "能在一段叙述里判断一般过去时、现在完成时和一般将来时。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "She ___ three interviews since Monday, and the next one is on Friday. 横线处填哪一个？",
+      "answer": "has had"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.GR.08",
+        "confidence": "exact",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h255",
+    "name": "provided that 条件",
+    "domain": "语法",
+    "grade": 16,
+    "semester": "上",
+    "chapter": "选择性必修第四册 第5单元 Launching Your Career",
+    "type": "procedural",
+    "description": "能用 provided that 表示“只要满足某个条件”。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能说明这个结构在句中做什么"
+    ],
+    "diagnostic_question": {
+      "question": "只要你在截止日期前交简历，他们就会看。哪一句正确？",
+      "answer": "They will read it provided that you send it before the deadline"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.GR.07",
+        "confidence": "inferred",
+        "note": "句型按人教版（2019）必修与选择性必修的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h256",
+    "name": "功能词弱读",
+    "domain": "语音",
+    "grade": 16,
+    "semester": "上",
+    "chapter": "选择性必修第四册 第5单元 Launching Your Career",
+    "type": "procedural",
+    "description": "能识别句子里冠词、介词和连词常常弱读。",
+    "mastery_criteria": [
+      "能根据重音、语调或音变选出正确的一项",
+      "能说明这个朗读规则用在什么地方"
+    ],
+    "diagnostic_question": {
+      "question": "bread and butter 里，and 在正常语流中常常怎样？",
+      "answer": "弱读，元音变得很轻"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.PH.02",
+        "confidence": "inferred",
+        "note": "语音项目按人教版（2019）常见教学顺序编排，没有核到人教社目录，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h257",
+    "name": "谈论求职",
+    "domain": "日常表达",
+    "grade": 16,
+    "semester": "上",
+    "chapter": "选择性必修第四册 第5单元 Launching Your Career",
+    "type": "application",
+    "description": "能说明已经完成的申请、下一步，以及对方开出的条件。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想说周一以来已经参加了三次面试，哪一句合适？",
+      "answer": "I have had three interviews since Monday"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.FU.03",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h258",
+    "name": "读招聘短文",
+    "domain": "读写",
+    "grade": 16,
+    "semester": "上",
+    "chapter": "选择性必修第四册 第5单元 Launching Your Career",
+    "type": "application",
+    "description": "能判断哪些申请步骤已经完成，哪一件还要满足条件。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "Lin has had two interviews since Monday. She had sent her résumé before the deadline arrived. The company will employ her provided that the references arrive this week. The next interview will take place on Friday. 自从周一起，Lin 参加了几次面试？",
+      "answer": "两次"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.RW.02",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_h259",
+    "name": "写申请邮件",
+    "domain": "读写",
+    "grade": 16,
+    "semester": "上",
+    "chapter": "选择性必修第四册 第5单元 Launching Your Career",
+    "type": "application",
+    "description": "能按要点选出邮件中的句子。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和写作要点一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "要点：周一起已有两次面试、截止日期前寄出了简历、只要推荐信本周到就会被雇用。哪一句三个要点都有？",
+      "answer": "She has had two interviews since Monday, she had sent the résumé before the deadline, and they will employ her provided that the references arrive this week"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2017:H.S.RW.03",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
   }
 ]
