@@ -64,6 +64,18 @@
     if (Array.isArray(c)) { c.forEach(function (x) { append(el, x); }); return; }
     el.append(c.nodeType ? c : document.createTextNode(String(c)));
   }
+  function figureEl(svg) {
+    if (typeof svg !== 'string' || svg.indexOf('<svg') !== 0) return null;
+    if (/<\s*script|foreignObject|<\s*image\b|https?:\/\//i.test(svg.replace('xmlns="http://www.w3.org/2000/svg"', ''))) return null;
+    const wrap = h('div', { class: 'q-figure' });
+    wrap.innerHTML = svg;
+    const node = wrap.querySelector('svg');
+    if (!node) return null;
+    node.setAttribute('role', 'img');
+    node.setAttribute('aria-hidden', 'true');
+    node.setAttribute('focusable', 'false');
+    return wrap;
+  }
   function sessionKey() { return subject === 'english' ? LS_SESSION_EN : LS_SESSION; }
   function withSubject(href) {
     if (subject !== 'english' || !href || href.indexOf('subject=') >= 0 || href.indexOf('http') === 0) return href;
@@ -538,14 +550,26 @@
         h('span', { class: 'tag', text: '本知识点第 ' + item.attempt + ' 题' })),
       h('div', { class: 'reason', text: reasonFor(item) }),
       h('div', { class: 'q-text', id: 'q-text', text: q.prompt }));
+    const stemFig = figureEl(q.figure);
+    if (stemFig) {
+      const qt = card.querySelector('#q-text');
+      if (qt) qt.insertAdjacentElement('afterend', stemFig);
+    }
 
     if (ui.phase === 'ask') {
       if (q.type === 'choice') {
-        card.append(h('div', { class: 'choices', id: 'choices' }, (q.choices || []).map(function (c) {
+        card.append(h('div', { class: 'choices' + (q.hideChoiceText ? ' fig-icons' : ''), id: 'choices' }, (q.choices || []).map(function (c) {
+          const hideName = !!(q.hideChoiceText && c.figure);
+          const kids = [h('b', { class: 'choice-key', text: hideName ? c.key : (c.key + '.') })];
+          if (!hideName) kids.push(document.createTextNode(' ' + c.text));
+          const fig = c.figure ? figureEl(c.figure) : null;
+          if (fig) kids.push(fig);
           return h('button', {
-            class: 'choice' + (ui.picked === c.key ? ' picked' : ''), id: 'choice-' + c.key, 'data-key': c.key,
+            class: 'choice' + (c.figure ? ' fig-choice' : '') + (ui.picked === c.key ? ' picked' : ''),
+            id: 'choice-' + c.key, 'data-key': c.key,
+            'aria-label': hideName ? ('选项 ' + c.key) : null,
             onclick: function () { ui.picked = c.key; ui.answer = c.key; renderQuestion(item); }
-          }, h('b', { text: c.key + '.' }), ' ', c.text);
+          }, kids);
         })));
       } else if (q.type === 'self') {
         card.append(h('textarea', {

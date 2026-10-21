@@ -16,6 +16,9 @@ import sys
 from collections import Counter, defaultdict
 from fractions import Fraction
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from check_figures import question_figure_problems  # noqa: E402
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TOPICS_PATH = os.path.join(ROOT, "data", "topics.json")
 DEPS_PATH = os.path.join(ROOT, "data", "dependencies.json")
@@ -502,7 +505,7 @@ def report_standards(ids, std_items, cited, empty_core):
 Q_DIFFICULTIES = ("basic", "standard", "advanced")
 Q_TYPES = ("numeric", "choice", "short", "self")
 Q_FIELDS = {"id", "topicId", "difficulty", "type", "prompt", "answer", "choices", "accept",
-            "explanation", "verify", "unordered", "fixed_from_source"}
+            "explanation", "verify", "unordered", "fixed_from_source", "figure", "hideChoiceText"}
 Q_ID_RE = re.compile(r"^((?:cnm_(?:p|h)?|cne_[pj])\d{3,})_q([1-9]\d*)$")
 NUM_RE = re.compile(r"^-?\d+(?:\.\d+)?(?:/\d+(?:\.\d+)?)?$")
 MIN_QUESTIONS_PER_TOPIC = 3
@@ -593,8 +596,8 @@ def question_errors(questions, topics_by_id, require_coverage=True):
                 texts = []
                 for c in ch:
                     if not (isinstance(c, dict) and nonempty_str(c.get("key")) and nonempty_str(c.get("text"))
-                            and set(c) <= {"key", "text"}):
-                        errs.append("%s 选项必须形如 {key, text} 且非空" % w)
+                            and set(c) <= {"key", "text", "figure"}):
+                        errs.append("%s 选项必须形如 {key, text} 且非空，图示放在可选的 figure" % w)
                         break
                     keys.append(c["key"])
                     texts.append(c["text"].strip())
@@ -615,6 +618,7 @@ def question_errors(questions, topics_by_id, require_coverage=True):
                 errs.append("%s numeric 题 answer 不是可解析的数：%r" % (w, ans))
             elif len(vals) == 1 and q.get("unordered") is True:
                 errs.append("%s 只有一个答案时不应写 unordered" % w)
+        errs.extend(question_figure_problems(q))
         if isinstance(tid, str):
             by_topic[tid].append(q)
         if nonempty_str(typ):

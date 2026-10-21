@@ -33,6 +33,7 @@
   var graphToken = 0;
   var dagreReady = false;
   var FOLD_AT = 40;
+  var questionsByTopic = new Map();
 
   function $(id) { return document.getElementById(id); }
 
@@ -53,6 +54,46 @@
     if (child == null || child === false) return;
     if (Array.isArray(child)) { child.forEach(function (item) { append(node, item); }); return; }
     node.append(child.nodeType ? child : document.createTextNode(String(child)));
+  }
+  function figureEl(svg) {
+    if (typeof svg !== 'string' || svg.indexOf('<svg') !== 0) return null;
+    if (/<\s*script|foreignObject|<\s*image\b|https?:\/\//i.test(svg.replace('xmlns="http://www.w3.org/2000/svg"', ''))) return null;
+    var wrap = el('div', { class: 'q-figure' });
+    wrap.innerHTML = svg;
+    var node = wrap.querySelector('svg');
+    if (!node) return null;
+    node.setAttribute('role', 'img');
+    node.setAttribute('aria-hidden', 'true');
+    node.setAttribute('focusable', 'false');
+    return wrap;
+  }
+  function sampleFigureNodes(topic) {
+    var list = questionsByTopic.get(topic.id) || [];
+    var q1 = null;
+    for (var i = 0; i < list.length; i++) {
+      if (list[i].id === topic.id + '_q1') q1 = list[i];
+    }
+    if (!q1) return [];
+    var nodes = [];
+    var stem = q1.figure ? figureEl(q1.figure) : null;
+    if (stem) nodes.push(stem);
+    var choices = q1.choices || [];
+    var anyFig = choices.some(function (c) { return c && c.figure; });
+    if (!anyFig) return nodes;
+    var box = el('div', { class: 'sample-choices' + (q1.hideChoiceText ? ' fig-icons' : '') });
+    choices.forEach(function (c) {
+      var hideName = !!(q1.hideChoiceText && c.figure);
+      var item = el('div', { class: 'sample-choice' });
+      item.append(el('b', { text: hideName ? c.key : (c.key + '.') }));
+      if (!hideName) item.append(document.createTextNode(' ' + c.text));
+      if (c.figure) {
+        var fig = figureEl(c.figure);
+        if (fig) item.append(fig);
+      }
+      box.append(item);
+    });
+    nodes.push(box);
+    return nodes;
   }
 
   function stageKind(grade) {
@@ -390,6 +431,7 @@
       parts.push(el('section', null,
         el('h2', { text: '样题' }),
         el('p', { class: 'sample-q', text: topic.diagnostic_question.question }),
+        sampleFigureNodes(topic),
         answer));
     }
 
@@ -975,6 +1017,22 @@
     }
   }
 
+  async function loadQuestions() {
+    questionsByTopic = new Map();
+    try {
+      var response = await fetch('../data/questions.json');
+      if (!response.ok) return;
+      var rows = await response.json();
+      if (!Array.isArray(rows)) return;
+      rows.forEach(function (q) {
+        if (!q || !q.topicId) return;
+        var bucket = questionsByTopic.get(q.topicId);
+        if (!bucket) questionsByTopic.set(q.topicId, bucket = []);
+        bucket.push(q);
+      });
+    } catch (e) { /* 题库读不到时，样题只显示原来的文字 */ }
+  }
+
   async function load() {
     var files = ['topics.json', 'dependencies.json', 'id-aliases.json', 'cn-curriculum-standards.json'];
     var responses = await Promise.all(files.map(function (file) { return fetch('../data/' + file); }));
@@ -1015,7 +1073,7 @@
   syncDepthButtons();
   applyQuery();
   bind();
-  load().then(function () {
+  load().then(function () { return loadQuestions(); }).then(function () {
     fillDomain();
     syncControls();
     renderList();

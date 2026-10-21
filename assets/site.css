@@ -266,6 +266,31 @@ button.primary, .btn-primary {
   color: var(--on-brand);
 }
 button.primary:hover, .btn-primary:hover { filter: brightness(0.96); }
+
+/* 题目图示：只用 currentColor，浅色和深色都看得见。宽度跟着容器走，不写死像素。 */
+.q-figure { color: inherit; max-width: 100%; min-width: 0; margin: 8px 0 2px; }
+.q-figure svg { width: 100%; max-width: 440px; height: auto; display: block; overflow: visible; }
+.choices.fig-icons, .sample-choices.fig-icons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(140px, 100%), 1fr));
+}
+.choices.fig-icons .q-figure svg, .sample-choices.fig-icons .q-figure svg { max-width: 100%; }
+button.choice.fig-choice {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 6px;
+  min-width: 0;
+}
+.sample-choices { display: flex; flex-direction: column; gap: 8px; margin-top: 8px; }
+.sample-choice {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--bg-elev);
+  color: var(--text);
+  padding: 8px 10px;
+  min-width: 0;
+}
 .btn {
   display: inline-flex;
   align-items: center;

@@ -933,6 +933,35 @@ test('题库：type / difficulty 合法；必填字段非空；numeric + choice 
   assert.ok(auto / questions.length >= 0.6, 'numeric+choice 占比 ' + (auto / questions.length));
 });
 
+test('题库：带 figure 的题是可解析的内联 SVG，不引用外网；图形选项不把名称写进图', () => {
+  let n = 0;
+  questions.forEach((q) => {
+    const blobs = [];
+    if (q.figure != null) blobs.push(['题干', q.figure]);
+    (q.choices || []).forEach((c) => { if (c.figure != null) blobs.push(['选项' + c.key, c.figure]); });
+    if (!blobs.length && q.hideChoiceText == null) return;
+    n++;
+    if (q.hideChoiceText != null) {
+      assert.strictEqual(q.hideChoiceText, true, q.id);
+      assert.strictEqual(q.type, 'choice', q.id);
+      q.choices.forEach((c) => {
+        assert.ok(c.figure, q.id + ' 选项 ' + c.key + ' 缺少图');
+        assert.ok(!c.text || c.figure.indexOf(c.text) < 0, q.id + ' 图中写出了名称 ' + c.text);
+      });
+    }
+    blobs.forEach((pair) => {
+      const svg = pair[1];
+      assert.strictEqual(typeof svg, 'string', q.id + pair[0]);
+      assert.ok(svg.indexOf('<svg') === 0 && svg.indexOf('viewBox=') > 0, q.id + ' ' + pair[0] + ' 不是带 viewBox 的 svg');
+      assert.ok(!/<\s*script|foreignObject|<\s*image\b/i.test(svg), q.id + ' 图含不允许的标签');
+      const probe = svg.replace('xmlns="http://www.w3.org/2000/svg"', '');
+      assert.ok(!/https?:\/\//i.test(probe), q.id + ' 图引用了外网');
+      assert.ok(!/url\(\s*(?!#)/i.test(svg), q.id + ' 图有外部 url()');
+    });
+  });
+  assert.ok(n >= 80, '带图的题太少：' + n);
+});
+
 test('题库：choice 题有 3–4 个选项、key 不重复、answer 是某个选项的 key', () => {
   let n = 0;
   questions.filter((q) => q.type === 'choice').forEach((q) => {

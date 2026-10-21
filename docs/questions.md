@@ -14,9 +14,11 @@
 | `topicId` | 是 | 知识点 id，必须是正式知识点 |
 | `difficulty` | 是 | `basic`（直接套定义 / 一步计算）、`standard`（课本例题水平，2–3 步）、`advanced`（综合、多步或易错点） |
 | `type` | 是 | `numeric` 数值题、`choice` 选择题、`short` 短答题、`self` 开放题（必须自评） |
-| `prompt` | 是 | 中文题干，自包含、纯文字（不依赖图形；几何条件用文字、长度、角度、坐标写全）。单位写在题干里，答案不带单位 |
+| `prompt` | 是 | 中文题干，自包含（几何条件用文字、长度、角度、坐标写全，不看图也能读懂条件）。单位写在题干里，答案不带单位。需要看形状时另有可选的 `figure` |
 | `answer` | 是 | 字符串。numeric：一个数（整数 / 小数 / 分数 `a/b` / 负数），多个答案用全角「，」分隔；choice：正确选项字母；short：标准短答案；self：参考答案 |
-| `choices` | choice 必填 | `[{"key":"A","text":"…"}, …]`，3–4 个选项，key 依次为 A、B、C、D，选项文字互不相同 |
+| `choices` | choice 必填 | `[{"key":"A","text":"…"}, …]`，3–4 个选项，key 依次为 A、B、C、D，选项文字互不相同。选项可以另有 `figure`（内联 SVG） |
+| `figure` | 否 | 题干配图，内联 SVG 字符串（只含 `viewBox`，用 `currentColor`，不引用外网）。诊断页和知识图谱样题会画在题干下面 |
+| `hideChoiceText` | 否 | 仅选择题，且为 `true`。每个选项都有 `figure` 时，页面只显示图形、不显示选项名称（名称仍留在 `text` 里，用来判分和显示参考答案）。用于「下面哪一个是长方体」这类题，避免名称直接泄题 |
 | `accept` | 否 | short（也可用于 numeric）的等价答案列表 |
 | `explanation` | 是 | 1–3 句中文解析，答题后显示 |
 | `verify` | 否 | 一个 Python 表达式字符串，用于机器核验 `answer`（见下） |
