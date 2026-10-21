@@ -17,6 +17,8 @@
  *      全站顶部横幅：1280 首页顶部截 41-top-banner.png，375 截 42-top-banner-375.png。
  *      诊断分享图：数学（五年级上册）存 38-share-math.png，英语（现在进行时）存 39-share-en.png，
  *      375 宽弹层存 40-share-modal-375.png，并用 jsQR 解码图中二维码。
+ *      小学英语图谱与四年级上册诊断截 32–35。初中英语「现在完成时」截 43–44，
+ *      八年级上册英语整册诊断截 45–46。
  * 环境变量：CHROME=/path/to/chrome  PORT=8765  DEBUG_PORT=9333
  */
 'use strict';
@@ -819,11 +821,12 @@ async function main() {
     check(await evalJs('Array.from(document.querySelectorAll("#grade-card .stage-tab")).some((b) => b.textContent === "整册")'), '选必二范围是整册');
 
     console.log('小学英语');
-    const ing = TOPIC_ROWS.find((t) => String(t.name).indexOf('现在进行时') >= 0 && String(t.id).startsWith('cne_'));
+    const ing = TOPIC_ROWS.find((t) => String(t.name).indexOf('现在进行时') >= 0 && String(t.id).startsWith('cne_p'));
     if (!ing) throw new Error('找不到「现在进行时」');
     await setView(1280, 900);
     const ingInfo = await checkExplore(ing.id, { title: '现在进行时', idCode: ing.id, diag: ing.id });
-    check(ingInfo.primary > 0 && ingInfo.junior === 0 && ingInfo.senior === 0, '现在进行时局部图只有小学节点');
+    check(String(ing.id).startsWith('cne_p'), '现在进行时示例仍是小学节点');
+    check(ingInfo.primary > 0 && ingInfo.junior >= 1 && ingInfo.senior === 0, '现在进行时局部图以小学为主，并连到初中后续（小学 ' + ingInfo.primary + '，初中 ' + ingInfo.junior + '）');
     check((await evalJs('location.search')).indexOf('subject=english') >= 0, '英语知识点自动带上 subject=english');
     check((await evalJs('document.querySelector("a.diag-btn").getAttribute("href")')).indexOf('subject=english') >= 0, '英语诊断按钮带上学科');
     await checkBanner('英语图谱 1280');
@@ -852,6 +855,43 @@ async function main() {
     await checkBanner('英语诊断 375');
     await checkPage('四年级上册英语 375');
     await shot('35-diagnose-en-g4-375.png', null, 1100);
+
+    console.log('初中英语');
+    const perfect = TOPIC_ROWS.find((t) => t.name === '现在完成时' && String(t.id).startsWith('cne_j'));
+    if (!perfect) throw new Error('找不到「现在完成时」');
+    await setView(1280, 900);
+    const perfInfo = await checkExplore(perfect.id, { title: '现在完成时', idCode: perfect.id, diag: perfect.id });
+    check(perfInfo.junior > 0 && perfInfo.senior === 0, '现在完成时局部图含初中节点、不含高中（初中 ' + perfInfo.junior + '，高中 ' + perfInfo.senior + '）');
+    const stageTabs = await evalJs('Array.from(document.querySelectorAll("#stage-tabs [data-stage]:not([hidden])")).map((b) => b.textContent).join(",")');
+    check(stageTabs === '全部,小学,初中', '英语图谱学段是全部/小学/初中（' + stageTabs + '）');
+    const gradeOpts = await evalJs('Array.from(document.querySelectorAll("#fGrade option")).map((o) => o.textContent).join(",")');
+    check(gradeOpts.indexOf('九年级') >= 0 && gradeOpts.indexOf('高一') < 0 && gradeOpts.indexOf('一年级') < 0, '英语年级从三年级筛到九年级（' + gradeOpts + '）');
+    const legendH = await evalJs('(() => { const li = document.querySelector(".legend li:has(.sw-h)"); if (!li) return "missing"; return getComputedStyle(li).display; })()');
+    const legendJ = await evalJs('(() => { const li = document.querySelector(".legend li:has(.sw-j)"); if (!li) return "missing"; return getComputedStyle(li).display; })()');
+    check(legendH === 'none' && legendJ !== 'none', '英语图谱图例保留初中、隐藏高中（初中 ' + legendJ + '，高中 ' + legendH + '）');
+    await shot('43-explore-perfect.png');
+    await setView(375, 812);
+    await checkExplore(perfect.id, { title: '现在完成时', idCode: perfect.id, diag: perfect.id });
+    await checkPage('现在完成时 375');
+    await shot('44-explore-perfect-375.png', null, 1100);
+    await setView(1280, 900);
+    await goto(BASE + '/diagnose/?subject=english&grade=' + encodeURIComponent('八上') + '&demo=1&limit=12');
+    await waitFor(() => exists('#chapters'), '八年级上册英语整体诊断', 20000);
+    check((await evalJs('document.querySelector("#summary h2").textContent')).indexOf('八年级上册') >= 0, '八年级上册英语整体诊断标题');
+    check((await evalJs(IQ_RESULT_EXPR)) === 'ok', '初中英语诊断结果页也有儿童智商测试入口');
+    await checkBanner('初中英语诊断 1280');
+    check(await exists('#chapters .chap-sum'), '八年级上册英语整体诊断有按章汇总');
+    check((await evalJs('document.body.innerText')).indexOf('配方法') < 0, '初中英语整册诊断不混入数学知识点');
+    check((await evalJs('document.body.innerText')).indexOf('小学和初中用不同颜色') >= 0, '英语结果页图例说明含小学和初中');
+    await checkPage('八年级上册英语 1280');
+    await shot('45-diagnose-en-g8.png', '#summary', 900);
+    await setView(375, 812);
+    await goto(BASE + '/diagnose/?subject=english&grade=' + encodeURIComponent('八上') + '&demo=1&limit=12');
+    await waitFor(() => exists('#chapters'), '八年级上册英语整体诊断 375', 20000);
+    check((await evalJs('document.querySelector("#summary h2").textContent')).indexOf('八年级上册') >= 0, '375 八年级上册英语整体诊断');
+    await checkBanner('初中英语诊断 375');
+    await checkPage('八年级上册英语 375');
+    await shot('46-diagnose-en-g8-375.png', null, 1100);
 
     console.log('分享图');
     const shareUi = () => evalJs(`(() => {

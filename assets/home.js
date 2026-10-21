@@ -26,9 +26,9 @@
     if (next && next !== href) link.setAttribute('href', next);
   });
   if (subject === 'english') {
-    document.title = '小学英语 · 中小学知识图谱';
+    document.title = '英语 · 中小学知识图谱';
     var eye = document.querySelector('.eyebrow');
-    if (eye) eye.textContent = '小学英语 · 人教 PEP（三年级起点）三上到六下';
+    if (eye) eye.textContent = '英语：三年级到九年级';
     var primary = document.querySelector('.hero-actions a.btn-primary');
     var browse = document.querySelector('.hero-actions a.btn:not(.btn-primary)');
     if (primary) primary.setAttribute('href', 'diagnose/?subject=english');
@@ -108,13 +108,15 @@
       grades.append(link);
     }
     var from = wantEnglish ? 3 : 1;
-    var to = wantEnglish ? 6 : 9;
+    var to = wantEnglish ? 9 : 9;
     for (var g = from; g <= to; g++) {
       var list = topics.filter(function (topic) { return topic.grade === g; });
       var up = list.filter(function (topic) { return topic.semester === '上'; }).length;
       var down = list.filter(function (topic) { return topic.semester === '下'; }).length;
+      var whole = list.filter(function (topic) { return topic.semester === '全'; }).length;
+      var splitText = whole ? '全一册 ' + whole : '上 ' + up + ' · 下 ' + down;
       var href = wantEnglish ? 'explore/?subject=english&grade=' + g : 'explore/?grade=' + g;
-      addCard(g, g <= 6 ? '小学' : '初中', CN[g] + '年级', g <= 6 ? 'is-primary' : 'is-junior', '上 ' + up + ' · 下 ' + down, href);
+      addCard(g, g <= 6 ? '小学' : '初中', CN[g] + '年级', g <= 6 ? 'is-primary' : 'is-junior', splitText, href);
     }
     if (!wantEnglish) {
       addCard(10, '高中', '高一', 'is-senior', '必修第一册', 'explore/?grade=10');

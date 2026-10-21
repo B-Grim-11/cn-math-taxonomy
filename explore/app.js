@@ -79,6 +79,7 @@
     if (topic.grade === 12) return '选必一 · 选择性必修第一册';
     if (topic.grade === 13) return '选必二 · 选择性必修第二册';
     if (topic.grade === 14) return '选必三 · 选择性必修第三册';
+    if (topic.semester === '全') return CN[topic.grade] + '年级全一册';
     return CN[topic.grade] + '年级' + topic.semester + '册';
   }
   function paint(grade, colors) {
@@ -89,7 +90,7 @@
 
   function chapterOf(topic) {
     var text = topic.chapter || '未分章';
-    var primary = /^[一二三四五六]年级[上下]册\s+(.+)$/.exec(text);
+    var primary = /^[一二三四五六七八九]年级[上下全]册\s+(.+)$/.exec(text);
     if (primary) return primary[1];
     var model = /^(高[一二]|选必[一二三]) (数学建模|数学探究) (\S+)$/.exec(text);
     if (model) return model[2] + ' ' + model[3];
@@ -204,8 +205,8 @@
 
   function passFilter(topic) {
     if (subject === 'english') {
-      if (stage === 'up' && topic.semester !== '上') return false;
-      if (stage === 'down' && topic.semester !== '下') return false;
+      if (stage === 'p' && topic.grade > 6) return false;
+      if (stage === 'j' && (topic.grade < 7 || topic.grade > 9)) return false;
     } else {
       if (stage === 'p' && topic.grade > 6) return false;
       if (stage === 'j' && (topic.grade < 7 || topic.grade > 9)) return false;
@@ -337,7 +338,7 @@
       box.replaceChildren(el('div', { class: 'detail-empty' },
         el('h1', { text: '选择一个知识点' }),
         el('p', { text: '可以搜索，也可以按年级、册、章展开。选中之后，中间只画它附近的先修，以及后面一层会用到它的知识点。' })));
-      document.title = subject === 'english' ? '知识图谱 · 小学英语' : '知识图谱 · 中小学知识图谱';
+      document.title = subject === 'english' ? '知识图谱 · 英语' : '知识图谱 · 中小学知识图谱';
       return;
     }
     var topic = byId.get(selected);
@@ -814,7 +815,7 @@
     });
     if (subject !== 'english') return;
     var tabs = document.querySelectorAll('#stage-tabs [data-stage]');
-    var spec = [['', '全部'], ['up', '上册'], ['down', '下册']];
+    var spec = [['', '全部'], ['p', '小学'], ['j', '初中']];
     tabs.forEach(function (button, index) {
       if (index < spec.length) {
         button.setAttribute('data-stage', spec[index][0]);
@@ -824,26 +825,26 @@
         button.hidden = true;
       }
     });
-    $('stage-tabs').setAttribute('aria-label', '册次');
+    $('stage-tabs').setAttribute('aria-label', '学段');
     var gradeSelect = $('fGrade');
     gradeSelect.replaceChildren();
     gradeSelect.append(el('option', { value: '', text: '全部年级' }));
-    [3, 4, 5, 6].forEach(function (g) {
+    [3, 4, 5, 6, 7, 8, 9].forEach(function (g) {
       gradeSelect.append(el('option', { value: String(g), text: CN[g] + '年级' }));
     });
     var sample = $('pick-sample');
     if (sample) sample.textContent = '先看看「现在进行时」';
-    document.title = '知识图谱 · 小学英语';
+    document.title = '知识图谱 · 英语';
   }
 
   function applyQuery() {
     var params = new URLSearchParams(location.search);
     var gradeValue = params.get('grade') || '';
-    var gradeOk = subject === 'english' ? /^[3-6]$/ : /^(?:[1-9]|1[0-4])$/;
+    var gradeOk = subject === 'english' ? /^[3-9]$/ : /^(?:[1-9]|1[0-4])$/;
     if (gradeOk.test(gradeValue)) grade = gradeValue;
     var stageValue = params.get('stage') || '';
     if (subject === 'english') {
-      if (stageValue === 'up' || stageValue === 'down') stage = stageValue;
+      if (stageValue === 'p' || stageValue === 'j') stage = stageValue;
     } else if (stageValue === 'p' || stageValue === 'j' || stageValue === 'h') stage = stageValue;
     domain = params.get('domain') || '';
   }
@@ -870,6 +871,9 @@
       if (!button || button.hidden) return;
       stage = button.getAttribute('data-stage');
       if (subject === 'english') {
+        var enGrade = parseInt(grade, 10);
+        if (stage === 'p' && enGrade >= 7) grade = '';
+        if (stage === 'j' && enGrade > 0 && enGrade <= 6) grade = '';
         syncControls();
         renderList();
         highlight(false);
@@ -886,6 +890,9 @@
     $('fGrade').addEventListener('change', function () {
       grade = $('fGrade').value;
       if (subject === 'english') {
+        var enGrade = parseInt(grade, 10);
+        if (enGrade >= 3 && enGrade <= 6 && stage === 'j') stage = 'p';
+        if (enGrade >= 7 && enGrade <= 9 && stage === 'p') stage = 'j';
         syncControls();
         renderList();
         highlight(false);

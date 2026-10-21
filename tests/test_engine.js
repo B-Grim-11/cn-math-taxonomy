@@ -627,13 +627,22 @@ test('数据可加载：小学 216 + 初中 315 + 高中必修 143 + 选择性�
   assert.deepStrictEqual(mathTopics.map((t) => t.id + '\t' + t.name), topics.filter((t) => String(t.id).startsWith('cnm_')).map((t) => t.id + '\t' + t.name));
 });
 
-test('小学英语：150–250 个点、不与数学连边、非起点都有先修；整册默认仍是数学', () => {
+test('英语：小学 197、初中 180–260，不与数学连边，非起点都有先修；整册按学科分开', () => {
   const enTopics = topics.filter((t) => String(t.id).startsWith('cne_'));
-  assert.ok(enTopics.length >= 150 && enTopics.length <= 250, '英语知识点 ' + enTopics.length);
-  assert.ok(enTopics.every((t) => t.subject === 'english' && t.grade >= 3 && t.grade <= 6 && !t.external));
+  const primary = enTopics.filter((t) => String(t.id).startsWith('cne_p'));
+  const junior = enTopics.filter((t) => String(t.id).startsWith('cne_j'));
+  assert.strictEqual(primary.length, 197);
+  assert.ok(junior.length >= 180 && junior.length <= 260, '初中英语知识点 ' + junior.length);
+  assert.strictEqual(enTopics.length, primary.length + junior.length);
+  assert.ok(primary.every((t) => t.subject === 'english' && t.grade >= 3 && t.grade <= 6 && !t.external && (t.semester === '上' || t.semester === '下')));
+  assert.ok(junior.every((t) => t.subject === 'english' && t.grade >= 7 && t.grade <= 9 && !t.external));
+  assert.ok(junior.every((t) => (t.grade === 9 ? t.semester === '全' : t.semester === '上' || t.semester === '下')));
   assert.ok(enTopics.every((t) => ['语音', '词汇', '语法', '日常表达', '读写'].includes(t.domain)));
   const enDeps = deps.filter((d) => String(d.topicId).startsWith('cne_'));
   assert.ok(deps.every((d) => String(d.topicId).startsWith('cne_') === String(d.prerequisiteId).startsWith('cne_')));
+  const cross = enDeps.filter((d) => String(d.topicId).startsWith('cne_j') && String(d.prerequisiteId).startsWith('cne_p'));
+  assert.ok(cross.length >= 1, '初中英语应链到小学英语');
+  assert.ok(!cross.some((d) => String(d.prerequisiteId).startsWith('cnm_')));
   const pre = new Map();
   enDeps.forEach((d) => { (pre.get(d.topicId) || pre.set(d.topicId, []).get(d.topicId)).push(d); });
   enTopics.forEach((t) => {
@@ -653,12 +662,28 @@ test('小学英语：150–250 个点、不与数学连边、非起点都有先�
   const math4 = E.gradeTargets(RG, '四上');
   const en4 = E.gradeTargets(RG, '四上', 'english');
   assert.ok(math4.ids.length > 0 && math4.ids.every((id) => id.startsWith('cnm_') && RG.byId[id].grade === 4 && RG.byId[id].semester === '上'));
-  assert.ok(en4.ids.length > 0 && en4.ids.every((id) => id.startsWith('cne_') && RG.byId[id].grade === 4 && RG.byId[id].semester === '上'));
+  assert.ok(en4.ids.length > 0 && en4.ids.every((id) => id.startsWith('cne_p') && RG.byId[id].grade === 4 && RG.byId[id].semester === '上'));
   assert.deepStrictEqual(E.gradeTargets(RG, '四上').ids, E.gradeTargets(RG, '四上', 'math').ids);
+  const en8 = E.gradeTargets(RG, '八上', 'english');
+  assert.strictEqual(en8.label, '八年级上册');
+  assert.ok(en8.ids.length > 0 && en8.ids.every((id) => id.startsWith('cne_j') && RG.byId[id].grade === 8 && RG.byId[id].semester === '上'));
+  assert.ok(E.gradeTargets(RG, '八上').ids.every((id) => id.startsWith('cnm_')));
+  const en9 = E.gradeTargets(RG, '九全', 'english');
+  assert.strictEqual(en9.label, '九年级全一册');
+  assert.ok(en9.ids.length > 0 && en9.ids.every((id) => id.startsWith('cne_j') && RG.byId[id].grade === 9 && RG.byId[id].semester === '全'));
+  const enGrade9 = E.gradeTargets(RG, '九年级', 'english');
+  assert.ok(enGrade9.volumes.indexOf('九全') >= 0 && enGrade9.ids.every((id) => id.startsWith('cne_')));
+  const mathGrade9 = E.gradeTargets(RG, '九年级');
+  assert.ok(mathGrade9.ids.length > 0 && mathGrade9.ids.every((id) => id.startsWith('cnm_') && RG.byId[id].semester !== '全'));
+  assert.deepStrictEqual(
+    E.parseChapter('八年级下册 第8单元 Have you read Treasure Island yet'),
+    { volume: '八下', chapterNo: '第8单元', chapterName: 'Have you read Treasure Island yet', section: '' }
+  );
   assert.strictEqual(E.subjectOf(enTopics[0]), 'english');
   assert.strictEqual(E.subjectOf(topics.find((t) => t.id === 'cnm_p001')), 'math');
   const ces = stdFile.items.filter((it) => String(it.id).startsWith('ces-2022:'));
-  assert.ok(ces.length >= 20);
+  const ces3 = ces.filter((it) => String(it.id).indexOf('ces-2022:3.') === 0);
+  assert.ok(ces.length >= 20 && ces3.length >= 20, '三级课标 ' + ces3.length);
   assert.ok(ces.every((it) => it.verbatim === false && it.page_or_ref === '待核'));
 });
 
@@ -932,9 +957,10 @@ test('题库：numeric 题的 answer 能被解析为数（整数/小数/分数/�
   assert.ok(n > 500);
 });
 
-test('小学英语题：自包含、不引用课标或上一题，答案能被判对', () => {
+test('英语题：自包含、不引用课标或上一题，答案能被判对', () => {
   const enQs = questions.filter((q) => String(q.topicId).startsWith('cne_'));
-  assert.ok(enQs.length >= 150 * 3);
+  const juniorTopics = topics.filter((t) => String(t.id).startsWith('cne_j')).length;
+  assert.ok(enQs.length >= 197 * 4 + juniorTopics * 3, '英语题 ' + enQs.length);
   enQs.forEach((q) => {
     assert.ok(!/^(同一|上题|该题|同上)/.test(String(q.prompt).trim()), q.id);
     assert.ok(!/本知识点|课标|是否要求/.test(q.prompt), q.id);
@@ -1165,10 +1191,11 @@ test('gradeTargets：一年级 = 一上 + 一下，七上只含七上；写法�
   const want = formal.filter((t) => t.grade === 1).length;
   assert.strictEqual(g1.ids.length, want);
   const g7 = E.gradeTargets(RGQ, '七年级');
-  assert.strictEqual(g7.ids.length, formal.filter((t) => t.grade === 7).length);
+  assert.strictEqual(g7.ids.length, formal.filter((t) => t.grade === 7 && String(t.id).startsWith('cnm_')).length);
+  assert.ok(g7.ids.every((id) => id.startsWith('cnm_')));
   E.gradeTargets(RGQ, '七上').ids.forEach((id) => {
     const t = RGQ.byId[id];
-    assert.ok(t.grade === 7 && t.semester === '上' && !t.external, id);
+    assert.ok(id.startsWith('cnm_') && t.grade === 7 && t.semester === '上' && !t.external, id);
   });
   assert.strictEqual(E.gradeTargets(RGQ, '十年级'), null);
   assert.strictEqual(E.gradeTargets(RGQ, '七'), null);

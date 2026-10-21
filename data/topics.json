@@ -26044,5 +26044,6620 @@
         "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
       }
     ]
+  },
+  {
+    "id": "cne_j001",
+    "name": "单词重音",
+    "domain": "语音",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第1单元 My name's Gina",
+    "type": "procedural",
+    "description": "能判断常见单词的重音在第几个音节。",
+    "mastery_criteria": [
+      "能根据字母或读音选出正确的一项",
+      "能把字母、发音和例词对上"
+    ],
+    "diagnostic_question": {
+      "question": "teacher 的重音在第几个音节？",
+      "answer": "第一个音节"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.PH.01",
+        "confidence": "exact",
+        "note": "语音项目按初中常见教学顺序编排，没有核到人教社目录，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j002",
+    "name": "句末升降调",
+    "domain": "语音",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第1单元 My name's Gina",
+    "type": "procedural",
+    "description": "能区分陈述句、特殊疑问句的降调和一般疑问句的升调。",
+    "mastery_criteria": [
+      "能根据字母或读音选出正确的一项",
+      "能把字母、发音和例词对上"
+    ],
+    "diagnostic_question": {
+      "question": "一般疑问句 Are you a student? 句末通常用什么语调？",
+      "answer": "升调"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.PH.02",
+        "confidence": "exact",
+        "note": "语音项目按初中常见教学顺序编排，没有核到人教社目录，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j003",
+    "name": "姓名与称呼",
+    "domain": "词汇",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第1单元 My name's Gina",
+    "type": "conceptual",
+    "description": "认读 name、friend、girl 和 boy。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「名字」？",
+      "answer": "name"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.01",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j004",
+    "name": "be 动词 am、is、are",
+    "domain": "语法",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第1单元 My name's Gina",
+    "type": "procedural",
+    "description": "能按主语选用 am、is 或 are。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "I ___ Gina. 横线处填哪一个？",
+      "answer": "am"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.01",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j005",
+    "name": "问候与自我介绍",
+    "domain": "日常表达",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第1单元 My name's Gina",
+    "type": "application",
+    "description": "能问候别人，并说出自己的名字。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "初次见面，对方说 Nice to meet you. 你应回答什么？",
+      "answer": "Nice to meet you, too."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.01",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j006",
+    "name": "读自我介绍",
+    "domain": "读写",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第1单元 My name's Gina",
+    "type": "application",
+    "description": "读一段自我介绍，找出姓名和身份。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "Hello. My name is Gina. I am 12. I am a student. 她叫什么？",
+      "answer": "Gina"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j007",
+    "name": "家庭成员",
+    "domain": "词汇",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第2单元 This is my sister",
+    "type": "conceptual",
+    "description": "认读 family、parent、sister 和 brother。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「家庭」？",
+      "answer": "family"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.01",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j008",
+    "name": "This is 与 These are",
+    "domain": "语法",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第2单元 This is my sister",
+    "type": "procedural",
+    "description": "能用 This is 介绍单数，用 These are 介绍复数。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "介绍一位姐姐，哪一句正确？",
+      "answer": "This is my sister."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.02",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j009",
+    "name": "名词复数",
+    "domain": "语法",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第2单元 This is my sister",
+    "type": "procedural",
+    "description": "能把常见可数名词变成复数。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "book 的复数是哪一个？",
+      "answer": "books"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.02",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j010",
+    "name": "词尾 s 的读音",
+    "domain": "语音",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第2单元 This is my sister",
+    "type": "procedural",
+    "description": "能分辨词尾 -s、-es 读 /s/、/z/ 还是 /ɪz/。",
+    "mastery_criteria": [
+      "能根据字母或读音选出正确的一项",
+      "能把字母、发音和例词对上"
+    ],
+    "diagnostic_question": {
+      "question": "books 词尾 s 的读音和哪一个同类？",
+      "answer": "maps"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.PH.03",
+        "confidence": "exact",
+        "note": "语音项目按初中常见教学顺序编排，没有核到人教社目录，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j011",
+    "name": "介绍家人",
+    "domain": "日常表达",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第2单元 This is my sister",
+    "type": "application",
+    "description": "能向别人介绍自己的家人。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想把姐姐介绍给同学，哪一句合适？",
+      "answer": "This is my sister."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.01",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j012",
+    "name": "读家庭介绍",
+    "domain": "读写",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第2单元 This is my sister",
+    "type": "application",
+    "description": "读一段家庭介绍，找出人物关系。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "This is my family. These are my parents. This is my sister, Gina. 说话人的姐姐是谁？",
+      "answer": "Gina"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j013",
+    "name": "学习用品",
+    "domain": "词汇",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第3单元 Is this your pencil",
+    "type": "conceptual",
+    "description": "认读 pencil、eraser、dictionary 和 ruler。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「铅笔」？",
+      "answer": "pencil"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.01",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j014",
+    "name": "形容词性物主代词",
+    "domain": "语法",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第3单元 Is this your pencil",
+    "type": "procedural",
+    "description": "能选用 my、your、his、her 修饰名词。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "这是她的橡皮。哪一句正确？",
+      "answer": "This is her eraser."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.02",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j015",
+    "name": "be 动词一般疑问句",
+    "domain": "语法",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第3单元 Is this your pencil",
+    "type": "procedural",
+    "description": "能把含 be 动词的句子改成一般疑问句并作简答。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "This is her pencil. 改成一般疑问句，哪一句正确？",
+      "answer": "Is this her pencil?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.01",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j016",
+    "name": "认领失物",
+    "domain": "日常表达",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第3单元 Is this your pencil",
+    "type": "application",
+    "description": "能询问物品是谁的，并回答是或不是。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "捡到一支铅笔，想问是不是对方的，哪一句合适？",
+      "answer": "Is this your pencil?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.01",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j017",
+    "name": "读失物招领",
+    "domain": "读写",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第3单元 Is this your pencil",
+    "type": "application",
+    "description": "读一则失物招领，找出物品和联系人。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "Found: a blue pencil. Is this your pencil? Call Mary at 622-6033. 捡到的是什么？",
+      "answer": "一支蓝色铅笔"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j018",
+    "name": "房间与家具",
+    "domain": "词汇",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第4单元 Where's my schoolbag",
+    "type": "conceptual",
+    "description": "认读 room、bed、table 和 chair。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「房间」？",
+      "answer": "room"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.01",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j019",
+    "name": "方位介词",
+    "domain": "语法",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第4单元 Where's my schoolbag",
+    "type": "procedural",
+    "description": "能用 in、on、under 表示物品的位置。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "书在桌子上。哪一句正确？",
+      "answer": "The book is on the table."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.19",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j020",
+    "name": "询问位置",
+    "domain": "日常表达",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第4单元 Where's my schoolbag",
+    "type": "application",
+    "description": "能询问东西在哪里，并说明位置。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "找不到书包，哪一句用来询问？",
+      "answer": "Where is my schoolbag?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j021",
+    "name": "读房间描述",
+    "domain": "读写",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第4单元 Where's my schoolbag",
+    "type": "application",
+    "description": "读一段房间描述，找出物品位置。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "This is my room. The book is on the table. The bag is under the chair. 书在哪里？",
+      "answer": "在桌子上"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j022",
+    "name": "球类运动",
+    "domain": "词汇",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第5单元 Do you have a soccer ball",
+    "type": "conceptual",
+    "description": "认读 basketball、soccer、tennis 和 volleyball。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「篮球」？",
+      "answer": "basketball"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.01",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j023",
+    "name": "have 与 has",
+    "domain": "语法",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第5单元 Do you have a soccer ball",
+    "type": "procedural",
+    "description": "能按主语选用 have 或 has。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "I ___ a soccer ball. 横线处填哪一个？",
+      "answer": "have"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.01",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j024",
+    "name": "do 与 does",
+    "domain": "语法",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第5单元 Do you have a soccer ball",
+    "type": "procedural",
+    "description": "能用 do 或 does 构成一般现在时的疑问句和否定句。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "___ you have a soccer ball? 横线处填哪一个？",
+      "answer": "Do"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.03",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j025",
+    "name": "谈论运动",
+    "domain": "日常表达",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第5单元 Do you have a soccer ball",
+    "type": "application",
+    "description": "能询问别人有没有球，并谈论运动。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想问对方有没有足球，哪一句合适？",
+      "answer": "Do you have a soccer ball?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.01",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j026",
+    "name": "读运动短文",
+    "domain": "读写",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第5单元 Do you have a soccer ball",
+    "type": "application",
+    "description": "读一段运动短文，判断谁有什么球。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "Tom has a basketball. He doesn't have a soccer ball. His sister has a tennis ball. Tom 有足球吗？",
+      "answer": "没有"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j027",
+    "name": "食物",
+    "domain": "词汇",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第6单元 Do you like bananas",
+    "type": "conceptual",
+    "description": "认读 banana、hamburger、salad 和 ice-cream。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「香蕉」？",
+      "answer": "banana"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.01",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j028",
+    "name": "可数与不可数名词",
+    "domain": "语法",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第6单元 Do you like bananas",
+    "type": "procedural",
+    "description": "能区分可数名词和不可数名词，并选用 a、an 或 some。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "banana 是可数名词。哪一句正确？",
+      "answer": "I like bananas."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.02",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j029",
+    "name": "like 的句型",
+    "domain": "语法",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第6单元 Do you like bananas",
+    "type": "procedural",
+    "description": "能用 like 的肯定句、否定句和疑问句谈论喜好。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "她喜欢香蕉。哪一句正确？",
+      "answer": "She likes bananas."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.03",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j030",
+    "name": "谈论食物",
+    "domain": "日常表达",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第6单元 Do you like bananas",
+    "type": "application",
+    "description": "能询问和表达对食物的喜好。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想问对方喜不喜欢沙拉，哪一句合适？",
+      "answer": "Do you like salad?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j031",
+    "name": "读饮食短文",
+    "domain": "读写",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第6单元 Do you like bananas",
+    "type": "application",
+    "description": "读一段饮食短文，找出人物的喜好。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "Gina likes bananas and milk. She doesn't like hamburgers. Gina 喜欢汉堡吗？",
+      "answer": "不喜欢"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j032",
+    "name": "衣物与颜色",
+    "domain": "词汇",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第7单元 How much are these socks",
+    "type": "conceptual",
+    "description": "认读 sock、shirt、skirt 和 sweater。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「短袜」？",
+      "answer": "sock"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.01",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j033",
+    "name": "How much 问价格",
+    "domain": "语法",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第7单元 How much are these socks",
+    "type": "procedural",
+    "description": "能用 How much 询问价格，并用美元表达价钱。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "询问这双袜子多少钱，哪一句正确？",
+      "answer": "How much are these socks?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.13",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j034",
+    "name": "购物用语",
+    "domain": "日常表达",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第7单元 How much are these socks",
+    "type": "application",
+    "description": "能询问价格、颜色，并决定买或不买。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "在商店想问毛衣的价格，哪一句合适？",
+      "answer": "How much is the sweater?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j035",
+    "name": "读购物对话",
+    "domain": "读写",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第7单元 How much are these socks",
+    "type": "application",
+    "description": "读一段购物对话，找出价格和决定。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "Woman: How much is this skirt? Clerk: It is 15 dollars. Woman: I'll take it. 短裙多少钱？",
+      "answer": "15 美元"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j036",
+    "name": "月份与序数词",
+    "domain": "词汇",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第8单元 When is your birthday",
+    "type": "conceptual",
+    "description": "认读 January、February、March 和 April。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「一月」？",
+      "answer": "January"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.01",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j037",
+    "name": "When 问日期",
+    "domain": "语法",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第8单元 When is your birthday",
+    "type": "procedural",
+    "description": "能用 When 询问日期，并用月份加序数词回答。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "询问生日是哪一天，哪一句正确？",
+      "answer": "When is your birthday?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.13",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j038",
+    "name": "谈论生日",
+    "domain": "日常表达",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第8单元 When is your birthday",
+    "type": "application",
+    "description": "能询问和说明生日、年龄。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想问对方的生日，哪一句合适？",
+      "answer": "When is your birthday?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.01",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j039",
+    "name": "读活动安排",
+    "domain": "读写",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第8单元 When is your birthday",
+    "type": "application",
+    "description": "读一则活动安排，找出日期和活动。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "School Day is on September 21st. The basketball game is on October 2nd. 校庆是哪一天？",
+      "answer": "9 月 21 日"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j040",
+    "name": "学科词汇",
+    "domain": "词汇",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第9单元 My favorite subject is science",
+    "type": "conceptual",
+    "description": "认读 subject、science、history 和 geography。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「学科」？",
+      "answer": "subject"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.01",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j041",
+    "name": "because 说明原因",
+    "domain": "语法",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第9单元 My favorite subject is science",
+    "type": "procedural",
+    "description": "能用 because 回答 why，说明原因。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "Why do you like science? 哪一句适合作为回答？",
+      "answer": "Because it is interesting."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.17",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j042",
+    "name": "谈论最喜欢的学科",
+    "domain": "日常表达",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第9单元 My favorite subject is science",
+    "type": "application",
+    "description": "能说出最喜欢的学科并说明原因。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想问对方最喜欢的学科，哪一句合适？",
+      "answer": "What's your favorite subject?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.01",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j043",
+    "name": "读课程介绍",
+    "domain": "读写",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第9单元 My favorite subject is science",
+    "type": "application",
+    "description": "读一段课程介绍，找出喜欢的学科和原因。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "My favorite subject is science. I have it on Monday. I like it because it is interesting. 最喜欢的学科是什么？",
+      "answer": "科学"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j044",
+    "name": "才艺与俱乐部",
+    "domain": "词汇",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第1单元 Can you play the guitar",
+    "type": "conceptual",
+    "description": "认读 guitar、chess、club 和 dance。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「吉他」？",
+      "answer": "guitar"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.01",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j045",
+    "name": "情态动词 can",
+    "domain": "语法",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第1单元 Can you play the guitar",
+    "type": "procedural",
+    "description": "能用 can 和 can't 谈论能力。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "我会弹吉他。哪一句正确？",
+      "answer": "I can play the guitar."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.10",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j046",
+    "name": "谈论才能与俱乐部",
+    "domain": "日常表达",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第1单元 Can you play the guitar",
+    "type": "application",
+    "description": "能询问才能，并说明想加入哪个俱乐部。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想问对方会不会画画，哪一句合适？",
+      "answer": "Can you draw?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.01",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j047",
+    "name": "读俱乐部广告",
+    "domain": "读写",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第1单元 Can you play the guitar",
+    "type": "application",
+    "description": "读一则俱乐部广告，找出需要的才能。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "Music Club. Can you sing or dance? Come and join us. Call Mr. Brown. 这个俱乐部需要什么才能？",
+      "answer": "唱歌或跳舞"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j048",
+    "name": "日常作息",
+    "domain": "词汇",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第2单元 What time do you go to school",
+    "type": "conceptual",
+    "description": "认读 shower、exercise、quarter 和 homework。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「淋浴」？",
+      "answer": "shower"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.01",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j049",
+    "name": "时刻表达",
+    "domain": "语法",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第2单元 What time do you go to school",
+    "type": "procedural",
+    "description": "能用 past、to 和数字读出时刻。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "6:15 用哪一种说法？",
+      "answer": "a quarter past six"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.13",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j050",
+    "name": "频度副词",
+    "domain": "语法",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第2单元 What time do you go to school",
+    "type": "procedural",
+    "description": "能按频率选用 always、usually、sometimes 和 never。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "他每天都锻炼。哪一个词最合适？",
+      "answer": "always"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.03",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j051",
+    "name": "谈论作息时间",
+    "domain": "日常表达",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第2单元 What time do you go to school",
+    "type": "application",
+    "description": "能询问和说明每天几点做什么。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想问对方几点上学，哪一句合适？",
+      "answer": "What time do you go to school?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.01",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j052",
+    "name": "读一天的安排",
+    "domain": "读写",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第2单元 What time do you go to school",
+    "type": "application",
+    "description": "读一段作息短文，找出时间。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "Scott gets up at 6:00. He exercises at 6:30. He goes to school at 7:15. 他几点锻炼？",
+      "answer": "6:30"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j053",
+    "name": "交通方式",
+    "domain": "词汇",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第3单元 How do you get to school",
+    "type": "conceptual",
+    "description": "认读 train、subway、bike 和 bus。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「火车」？",
+      "answer": "train"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.01",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j054",
+    "name": "How 问交通",
+    "domain": "语法",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第3单元 How do you get to school",
+    "type": "procedural",
+    "description": "能用 how、how long 和 how far 询问出行方式、时间和距离。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "询问对方怎么去学校，哪一句正确？",
+      "answer": "How do you get to school?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.13",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j055",
+    "name": "谈论怎么上学",
+    "domain": "日常表达",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第3单元 How do you get to school",
+    "type": "application",
+    "description": "能说明自己怎么上学、花多长时间。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想说你乘地铁上学，哪一句合适？",
+      "answer": "I take the subway to school."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j056",
+    "name": "读上学方式",
+    "domain": "读写",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第3单元 How do you get to school",
+    "type": "application",
+    "description": "读一段出行短文，找出方式和时间。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "Lisa lives 5 kilometers from school. She rides her bike. It takes her 15 minutes. 她怎么上学？",
+      "answer": "骑自行车"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j057",
+    "name": "校规词汇",
+    "domain": "词汇",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第4单元 Don't eat in class",
+    "type": "conceptual",
+    "description": "认读 rule、hallway、fight 和 uniform。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「规则」？",
+      "answer": "rule"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.01",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j058",
+    "name": "祈使句",
+    "domain": "语法",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第4单元 Don't eat in class",
+    "type": "procedural",
+    "description": "能用肯定和否定祈使句表达命令。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "不要在课堂上吃东西。哪一句正确？",
+      "answer": "Don't eat in class."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.12",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j059",
+    "name": "must 与 have to",
+    "domain": "语法",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第4单元 Don't eat in class",
+    "type": "procedural",
+    "description": "能用 must 和 have to 表示必须，用 can't 表示不准。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "我们在图书馆必须保持安静。哪一句正确？",
+      "answer": "We must be quiet in the library."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.10",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j060",
+    "name": "说明规则",
+    "domain": "日常表达",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第4单元 Don't eat in class",
+    "type": "application",
+    "description": "能说出学校里必须做和不能做的事。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想告诉新生不能在走廊打架，哪一句合适？",
+      "answer": "Don't fight in the hallways."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.01",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j061",
+    "name": "读校规",
+    "domain": "读写",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第4单元 Don't eat in class",
+    "type": "application",
+    "description": "读几条校规，判断能做和不能做的事。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "Rules: Don't arrive late. Don't run in the hallways. We must wear uniforms. 可以迟到吗？",
+      "answer": "不可以"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j062",
+    "name": "动物",
+    "domain": "词汇",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第5单元 Why do you like pandas",
+    "type": "conceptual",
+    "description": "认读 tiger、elephant、panda 和 koala。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「老虎」？",
+      "answer": "tiger"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.01",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j063",
+    "name": "Why 与 because",
+    "domain": "语法",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第5单元 Why do you like pandas",
+    "type": "procedural",
+    "description": "能用 Why 提问，并用 because 回答。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "为什么你喜欢熊猫？哪一句正确？",
+      "answer": "Why do you like pandas?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.17",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j064",
+    "name": "描述性形容词",
+    "domain": "语法",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第5单元 Why do you like pandas",
+    "type": "procedural",
+    "description": "能用形容词描述动物，并注意 be 动词。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "熊猫是黑白相间的。哪一句正确？",
+      "answer": "Pandas are black and white."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.03",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j065",
+    "name": "谈论动物",
+    "domain": "日常表达",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第5单元 Why do you like pandas",
+    "type": "application",
+    "description": "能询问来自哪里、喜欢什么动物并说明原因。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想问对方为什么喜欢大象，哪一句合适？",
+      "answer": "Why do you like elephants?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j066",
+    "name": "读动物介绍",
+    "domain": "读写",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第5单元 Why do you like pandas",
+    "type": "application",
+    "description": "读一段动物介绍，找出产地和特点。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "Pandas are from China. They are black and white. They are kind of shy. 熊猫来自哪里？",
+      "answer": "中国"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j067",
+    "name": "正在进行的活动",
+    "domain": "词汇",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第6单元 I'm watching TV",
+    "type": "conceptual",
+    "description": "认读 newspaper、soup、movie 和 just。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「报纸」？",
+      "answer": "newspaper"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.01",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j068",
+    "name": "现在进行时的构成",
+    "domain": "语法",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第6单元 I'm watching TV",
+    "type": "procedural",
+    "description": "能用 am、is、are 加动词 -ing 描述正在做的事。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "他正在看电视。哪一句正确？",
+      "answer": "He is watching TV."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.04",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j069",
+    "name": "询问正在做什么",
+    "domain": "日常表达",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第6单元 I'm watching TV",
+    "type": "application",
+    "description": "能打电话询问对方正在做什么。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想问对方正在做什么，哪一句合适？",
+      "answer": "What are you doing?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j070",
+    "name": "读正在发生的事",
+    "domain": "读写",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第6单元 I'm watching TV",
+    "type": "application",
+    "description": "读一段现在进行时短文，找出每个人正在做什么。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "It is Sunday morning. Tom is reading a newspaper. His mother is making soup. Tom 正在做什么？",
+      "answer": "读报纸"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j071",
+    "name": "天气",
+    "domain": "词汇",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第7单元 It's raining",
+    "type": "conceptual",
+    "description": "认读 rain、windy、cloudy 和 sunny。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「雨；下雨」？",
+      "answer": "rain"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.01",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j072",
+    "name": "感叹句",
+    "domain": "语法",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第7单元 It's raining",
+    "type": "procedural",
+    "description": "能用 What 和 How 构成感叹句。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "多么冷的一天。哪一句正确？",
+      "answer": "What a cold day it is!"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.12",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j073",
+    "name": "谈论天气",
+    "domain": "日常表达",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第7单元 It's raining",
+    "type": "application",
+    "description": "能询问天气，并描述正在下雨或出太阳。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想问北京的天气，哪一句合适？",
+      "answer": "How is the weather in Beijing?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j074",
+    "name": "读天气消息",
+    "domain": "读写",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第7单元 It's raining",
+    "type": "application",
+    "description": "读一段天气短文，找出各地天气。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "It is sunny in Shanghai. It is raining in Beijing. It is windy in Guangzhou. 北京的天气怎样？",
+      "answer": "正在下雨"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j075",
+    "name": "场所",
+    "domain": "词汇",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第8单元 Is there a post office near here",
+    "type": "conceptual",
+    "description": "认读 hospital、bank、hotel 和 street。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「医院」？",
+      "answer": "hospital"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.01",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j076",
+    "name": "There be 句型",
+    "domain": "语法",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第8单元 Is there a post office near here",
+    "type": "procedural",
+    "description": "能用 There is 和 There are 描述某处有什么。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "附近有一家银行。哪一句正确？",
+      "answer": "There is a bank near here."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.19",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j077",
+    "name": "问路与指路",
+    "domain": "日常表达",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第8单元 Is there a post office near here",
+    "type": "application",
+    "description": "能问路，并用 across from、next to 指路。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想问附近有没有医院，哪一句合适？",
+      "answer": "Is there a hospital near here?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j078",
+    "name": "读路线说明",
+    "domain": "读写",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第8单元 Is there a post office near here",
+    "type": "application",
+    "description": "读一段路线说明，找出场所的位置。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "The hotel is on Center Street. The bank is across from the hotel. The hospital is next to the bank. 银行在哪里？",
+      "answer": "在旅馆对面"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j079",
+    "name": "外貌",
+    "domain": "词汇",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第9单元 What does he look like",
+    "type": "conceptual",
+    "description": "认读 height、heavy、glasses 和 handsome。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「身高」？",
+      "answer": "height"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.01",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j080",
+    "name": "描述外貌",
+    "domain": "语法",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第9单元 What does he look like",
+    "type": "procedural",
+    "description": "能用 be、have 和 wear 描述外貌。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "他很高。哪一句正确？",
+      "answer": "He is tall."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.03",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j081",
+    "name": "询问长什么样",
+    "domain": "日常表达",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第9单元 What does he look like",
+    "type": "application",
+    "description": "能询问和描述一个人的外貌。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想问那位老师长什么样，哪一句合适？",
+      "answer": "What does your teacher look like?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j082",
+    "name": "读人物外貌",
+    "domain": "读写",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第9单元 What does he look like",
+    "type": "application",
+    "description": "读一段外貌描述，找出人物特征。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "My friend Jack is tall and thin. He has short black hair. He wears glasses. Jack 戴眼镜吗？",
+      "answer": "戴"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j083",
+    "name": "点餐食物",
+    "domain": "词汇",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第10单元 I'd like some noodles",
+    "type": "conceptual",
+    "description": "认读 noodle、mutton、cabbage 和 dumpling。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「面条」？",
+      "answer": "noodle"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.01",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j084",
+    "name": "would like",
+    "domain": "语法",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第10单元 I'd like some noodles",
+    "type": "procedural",
+    "description": "能用 would like 点餐，并区分 some 和 any。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "我想要一碗牛肉面。哪一句正确？",
+      "answer": "I would like a bowl of beef noodles."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.10",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j085",
+    "name": "点餐用语",
+    "domain": "日常表达",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第10单元 I'd like some noodles",
+    "type": "application",
+    "description": "能在餐馆点餐并询问种类。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "服务员问 May I take your order? 你想要面条，哪一句合适？",
+      "answer": "I'd like beef noodles, please."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j086",
+    "name": "读点餐对话",
+    "domain": "读写",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第10单元 I'd like some noodles",
+    "type": "application",
+    "description": "读一段点餐对话，找出食物和碗的大小。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "Waiter: What would you like? Tom: I'd like a large bowl of mutton noodles. Tom 要什么面？",
+      "answer": "羊肉面"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j087",
+    "name": "旅行活动",
+    "domain": "词汇",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第11单元 How was your school trip",
+    "type": "conceptual",
+    "description": "认读 museum、farm、fire 和 flower。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「博物馆」？",
+      "answer": "museum"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.01",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j088",
+    "name": "was 与 were",
+    "domain": "语法",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第11单元 How was your school trip",
+    "type": "procedural",
+    "description": "能用 was 和 were 谈论过去。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "昨天的郊游很棒。哪一句正确？",
+      "answer": "The school trip was great."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.05",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j089",
+    "name": "规则动词过去式",
+    "domain": "语法",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第11单元 How was your school trip",
+    "type": "procedural",
+    "description": "能写出规则动词的过去式。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "play 的过去式是哪一个？",
+      "answer": "played"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.05",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j090",
+    "name": "过去式 ed 的读音",
+    "domain": "语音",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第11单元 How was your school trip",
+    "type": "procedural",
+    "description": "能分辨 -ed 读 /t/、/d/ 还是 /ɪd/。",
+    "mastery_criteria": [
+      "能根据字母或读音选出正确的一项",
+      "能把字母、发音和例词对上"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的 -ed 读 /ɪd/？",
+      "answer": "visited"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.PH.04",
+        "confidence": "exact",
+        "note": "语音项目按初中常见教学顺序编排，没有核到人教社目录，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j091",
+    "name": "谈论一次旅行",
+    "domain": "日常表达",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第11单元 How was your school trip",
+    "type": "application",
+    "description": "能询问旅行怎么样，并说出做了什么。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想问对方的郊游怎么样，哪一句合适？",
+      "answer": "How was your school trip?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.03",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j092",
+    "name": "读旅行日记",
+    "domain": "读写",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第11单元 How was your school trip",
+    "type": "application",
+    "description": "读一篇旅行日记，找出活动和感受。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "June 5th. The trip was great. We visited a farm. We milked a cow and saw many flowers. 他们去了哪里？",
+      "answer": "农场"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j093",
+    "name": "周末活动",
+    "domain": "词汇",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第12单元 What did you do last weekend",
+    "type": "conceptual",
+    "description": "认读 lake、beach、badminton 和 visitor。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「湖」？",
+      "answer": "lake"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.01",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j094",
+    "name": "Did 提问",
+    "domain": "语法",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第12单元 What did you do last weekend",
+    "type": "procedural",
+    "description": "能用 Did 询问过去的事，动词用原形。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "你上周打羽毛球了吗？哪一句正确？",
+      "answer": "Did you play badminton last weekend?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.05",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j095",
+    "name": "不规则动词过去式",
+    "domain": "语法",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第12单元 What did you do last weekend",
+    "type": "procedural",
+    "description": "能写出 go、see、have、do 和 read 的过去式。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "go 的过去式是哪一个？",
+      "answer": "went"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.05",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j096",
+    "name": "谈论上周末",
+    "domain": "日常表达",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第12单元 What did you do last weekend",
+    "type": "application",
+    "description": "能询问和叙述上周末做的事。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想问对方上周末做了什么，哪一句合适？",
+      "answer": "What did you do last weekend?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.03",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j097",
+    "name": "读周末日记",
+    "domain": "读写",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第12单元 What did you do last weekend",
+    "type": "application",
+    "description": "读一篇周末日记，找出活动和同伴。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "On Saturday morning I went to the lake with my father. We went fishing. 星期六上午他和谁去的？",
+      "answer": "他的爸爸"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j098",
+    "name": "辅音与元音连读",
+    "domain": "语音",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第1单元 Where did you go on vacation",
+    "type": "procedural",
+    "description": "能判断辅音结尾的词和元音开头的词能否连读。",
+    "mastery_criteria": [
+      "能根据字母或读音选出正确的一项",
+      "能把字母、发音和例词对上"
+    ],
+    "diagnostic_question": {
+      "question": "an apple 里，哪个音可以和后面的元音连读？",
+      "answer": "n 和 a"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.PH.05",
+        "confidence": "exact",
+        "note": "语音项目按初中常见教学顺序编排，没有核到人教社目录，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j099",
+    "name": "假期地点",
+    "domain": "词汇",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第1单元 Where did you go on vacation",
+    "type": "conceptual",
+    "description": "认读 vacation、beach、museum 和 mountain。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「假期」？",
+      "answer": "vacation"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.02",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j100",
+    "name": "一般过去时叙述假期",
+    "domain": "语法",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第1单元 Where did you go on vacation",
+    "type": "procedural",
+    "description": "能用一般过去时说出假期去了哪里、做了什么。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "假期去了北京。哪一句正确？",
+      "answer": "I went to Beijing on vacation."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.05",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j101",
+    "name": "谈论假期去向",
+    "domain": "日常表达",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第1单元 Where did you go on vacation",
+    "type": "application",
+    "description": "能询问和回答假期去了哪里。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想问同学假期去了哪里，哪一句合适？",
+      "answer": "Where did you go on vacation?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.03",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j102",
+    "name": "读假期短文",
+    "domain": "读写",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第1单元 Where did you go on vacation",
+    "type": "application",
+    "description": "读一篇假期短文，找出地点和活动。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "Gina went to the beach on vacation. She swam and took photos. The food was great. 她去了哪里？",
+      "answer": "海滩"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j103",
+    "name": "运动习惯",
+    "domain": "词汇",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第2单元 How often do you exercise",
+    "type": "conceptual",
+    "description": "认读 exercise、hardly、twice 和 Internet。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「锻炼」？",
+      "answer": "exercise"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.02",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j104",
+    "name": "How often 问频率",
+    "domain": "语法",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第2单元 How often do you exercise",
+    "type": "procedural",
+    "description": "能用 How often 提问，并用 once、twice 或 hardly ever 回答。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "想问对方多久锻炼一次，哪一句正确？",
+      "answer": "How often do you exercise?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.13",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j105",
+    "name": "谈论锻炼频率",
+    "domain": "日常表达",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第2单元 How often do you exercise",
+    "type": "application",
+    "description": "能询问别人的习惯，并说出自己的频率。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "医生问你多久运动一次，哪一句是这个问题？",
+      "answer": "How often do you exercise?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j106",
+    "name": "读锻炼调查",
+    "domain": "读写",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第2单元 How often do you exercise",
+    "type": "application",
+    "description": "读一段调查，找出谁运动得多。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "Jack exercises every day. Mary exercises twice a week. Peter hardly ever exercises. 谁每天锻炼？",
+      "answer": "Jack"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j107",
+    "name": "不完全爆破",
+    "domain": "语音",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第3单元 I'm more outgoing than my sister",
+    "type": "procedural",
+    "description": "能识别两个爆破音相邻时，前一个音不完全爆破。",
+    "mastery_criteria": [
+      "能根据字母或读音选出正确的一项",
+      "能把字母、发音和例词对上"
+    ],
+    "diagnostic_question": {
+      "question": "sit down 里，哪一个音常常不完全发出来？",
+      "answer": "sit 里的 t"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.PH.06",
+        "confidence": "exact",
+        "note": "语音项目按初中常见教学顺序编排，没有核到人教社目录，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j108",
+    "name": "性格形容词",
+    "domain": "词汇",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第3单元 I'm more outgoing than my sister",
+    "type": "conceptual",
+    "description": "认读 outgoing、serious、loud 和 quiet。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「外向的」？",
+      "answer": "outgoing"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.02",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j109",
+    "name": "形容词比较级",
+    "domain": "语法",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第3单元 I'm more outgoing than my sister",
+    "type": "procedural",
+    "description": "能把形容词变成比较级，包括 -er 和 more。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "tall 的比较级是哪一个？",
+      "answer": "taller"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.11",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j110",
+    "name": "用 than 比较",
+    "domain": "语法",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第3单元 I'm more outgoing than my sister",
+    "type": "procedural",
+    "description": "能用 than 比较两个人或两件事。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "她比她姐姐外向。哪一句正确？",
+      "answer": "She is more outgoing than her sister."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.11",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j111",
+    "name": "比较两人",
+    "domain": "日常表达",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第3单元 I'm more outgoing than my sister",
+    "type": "application",
+    "description": "能说出两个人的不同性格或外貌。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想说朋友比你更严肃，哪一句合适？",
+      "answer": "My friend is more serious than me."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j112",
+    "name": "读人物比较",
+    "domain": "读写",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第3单元 I'm more outgoing than my sister",
+    "type": "application",
+    "description": "读一段比较，判断谁更高、谁更外向。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "Tara is taller than Tina. Tina is more outgoing than Tara. 谁更高？",
+      "answer": "Tara"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j113",
+    "name": "城镇设施",
+    "domain": "词汇",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第4单元 What's the best movie theater",
+    "type": "conceptual",
+    "description": "认读 theater、screen、seat 和 service。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「剧院」？",
+      "answer": "theater"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.02",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j114",
+    "name": "形容词最高级",
+    "domain": "语法",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第4单元 What's the best movie theater",
+    "type": "procedural",
+    "description": "能用最高级比较三个或三个以上的人或物。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "三个男孩中 Tom 最高。哪一句正确？",
+      "answer": "Tom is the tallest of the three boys."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.11",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j115",
+    "name": "谈论最好的地方",
+    "domain": "日常表达",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第4单元 What's the best movie theater",
+    "type": "application",
+    "description": "能询问和回答某个地方是不是最好的。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想问哪家影院最舒服，哪一句合适？",
+      "answer": "Which theater has the most comfortable seats?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j116",
+    "name": "读影院介绍",
+    "domain": "读写",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第4单元 What's the best movie theater",
+    "type": "application",
+    "description": "读一段城镇介绍，找出最好的设施。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "Town Cinema has the biggest screen. It has the most comfortable seats. 最大的屏幕在哪里？",
+      "answer": "Town Cinema"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j117",
+    "name": "电视节目",
+    "domain": "词汇",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第5单元 Do you want to watch a game show",
+    "type": "conceptual",
+    "description": "认读 sitcom、news、educational 和 cartoon。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「情景喜剧」？",
+      "answer": "sitcom"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.02",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j118",
+    "name": "不定式作宾语",
+    "domain": "语法",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第5单元 Do you want to watch a game show",
+    "type": "procedural",
+    "description": "能在 want、plan、hope 和 expect 后面使用 to 加动词原形。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "我想看新闻。哪一句正确？",
+      "answer": "I want to watch the news."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.14",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j119",
+    "name": "谈论想看的节目",
+    "domain": "日常表达",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第5单元 Do you want to watch a game show",
+    "type": "application",
+    "description": "能说出想看什么节目，并询问对方的看法。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想约对方看情景喜剧，哪一句合适？",
+      "answer": "Do you want to watch a sitcom?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.03",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j120",
+    "name": "读节目选择",
+    "domain": "读写",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第5单元 Do you want to watch a game show",
+    "type": "application",
+    "description": "读一段对话，找出谁想看什么。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "Lisa wants to watch a cartoon. Tom plans to watch the news. 谁想看动画片？",
+      "answer": "Lisa"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j121",
+    "name": "职业打算",
+    "domain": "词汇",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第6单元 I'm going to study computer science",
+    "type": "conceptual",
+    "description": "认读 scientist、engineer、pilot 和 college。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「科学家」？",
+      "answer": "scientist"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.02",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j122",
+    "name": "be going to 表示打算",
+    "domain": "语法",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第6单元 I'm going to study computer science",
+    "type": "procedural",
+    "description": "能用 be going to 说出已经决定的打算。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "我打算学计算机。哪一句正确？",
+      "answer": "I am going to study computer science."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.06",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j123",
+    "name": "谈论将来打算",
+    "domain": "日常表达",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第6单元 I'm going to study computer science",
+    "type": "application",
+    "description": "能询问别人长大后想做什么，并说出自己的打算。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想问对方长大后打算做什么，哪一句合适？",
+      "answer": "What are you going to be when you grow up?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.03",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j124",
+    "name": "读计划短文",
+    "domain": "读写",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第6单元 I'm going to study computer science",
+    "type": "application",
+    "description": "读一段计划，找出职业和行动。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "Ken is going to be a scientist. He is going to study hard. 他打算成为什么？",
+      "answer": "科学家"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j125",
+    "name": "未来生活",
+    "domain": "词汇",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第7单元 Will people have robots",
+    "type": "conceptual",
+    "description": "认读 robot、pollution、prediction 和 future。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「机器人」？",
+      "answer": "robot"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.02",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j126",
+    "name": "will 表示将来",
+    "domain": "语法",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第7单元 Will people have robots",
+    "type": "procedural",
+    "description": "能用 will 预测将来或表达临时决定。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "人们将会有机器人。哪一句正确？",
+      "answer": "People will have robots."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.06",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j127",
+    "name": "预测未来",
+    "domain": "日常表达",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第7单元 Will people have robots",
+    "type": "application",
+    "description": "能询问别人对未来的看法，并作出预测。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想问一百年后会有什么，哪一句合适？",
+      "answer": "What will the world be like in 100 years?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.03",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j128",
+    "name": "读未来预测",
+    "domain": "读写",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第7单元 Will people have robots",
+    "type": "application",
+    "description": "读一段预测，判断将会发生什么。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "In 50 years, people will have robots at home. There will be less pollution. 家里将会有什么？",
+      "answer": "机器人"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j129",
+    "name": "烹饪用词",
+    "domain": "词汇",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第8单元 How do you make a banana milk shake",
+    "type": "conceptual",
+    "description": "认读 yogurt、honey、spoon 和 blender。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「酸奶」？",
+      "answer": "yogurt"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.02",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j130",
+    "name": "顺序词 first、next、then",
+    "domain": "语法",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第8单元 How do you make a banana milk shake",
+    "type": "procedural",
+    "description": "能用顺序词和祈使句说明步骤。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "先把香蕉剥开。哪一句正确？",
+      "answer": "First, peel the bananas."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.12",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j131",
+    "name": "说明做法",
+    "domain": "日常表达",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第8单元 How do you make a banana milk shake",
+    "type": "application",
+    "description": "能询问食物怎么做，并按顺序回答。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想问香蕉奶昔怎么做，哪一句合适？",
+      "answer": "How do you make a banana milk shake?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j132",
+    "name": "读食谱",
+    "domain": "读写",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第8单元 How do you make a banana milk shake",
+    "type": "application",
+    "description": "读一份食谱，找出材料和顺序。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "First, peel two bananas. Next, put them into the blender. Then add honey. 第一步做什么？",
+      "answer": "剥香蕉"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j133",
+    "name": "聚会活动",
+    "domain": "词汇",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第9单元 Can you come to my party",
+    "type": "conceptual",
+    "description": "认读 invitation、preparation、concert 和 available。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「邀请」？",
+      "answer": "invitation"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.02",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j134",
+    "name": "用 can 发出邀请",
+    "domain": "语法",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第9单元 Can you come to my party",
+    "type": "procedural",
+    "description": "能用 Can you 邀请别人，并用情态动词回答。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "邀请对方来聚会，哪一句正确？",
+      "answer": "Can you come to my party?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.10",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j135",
+    "name": "接受或拒绝邀请",
+    "domain": "日常表达",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第9单元 Can you come to my party",
+    "type": "application",
+    "description": "能接受邀请，或说明为什么不能去。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "对方邀请你星期六来，你能来，应怎么说？",
+      "answer": "Sure. I am available on Saturday."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.03",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j136",
+    "name": "读邀请函",
+    "domain": "读写",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第9单元 Can you come to my party",
+    "type": "application",
+    "description": "读一封邀请，找出时间、地点和谁不能来。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "Please come to my party on Sunday at 7. It is at my house. 聚会在星期几？",
+      "answer": "星期日"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j137",
+    "name": "意群停顿",
+    "domain": "语音",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第10单元 If you go to the party, you'll have a great time",
+    "type": "procedural",
+    "description": "能按意群停顿，不把一个意思从中间拆开。",
+    "mastery_criteria": [
+      "能根据字母或读音选出正确的一项",
+      "能把字母、发音和例词对上"
+    ],
+    "diagnostic_question": {
+      "question": "I went to the park with my father. 哪一种停顿更好？",
+      "answer": "I went to the park / with my father."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.PH.07",
+        "confidence": "exact",
+        "note": "语音项目按初中常见教学顺序编排，没有核到人教社目录，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j138",
+    "name": "建议用词",
+    "domain": "词汇",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第10单元 If you go to the party, you'll have a great time",
+    "type": "conceptual",
+    "description": "认读 advice、organize、upset 和 careless。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「建议」？",
+      "answer": "advice"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.02",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j139",
+    "name": "if 条件状语从句",
+    "domain": "语法",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第10单元 If you go to the party, you'll have a great time",
+    "type": "procedural",
+    "description": "能用 if 引导条件从句，主句用 will，if 从句用一般现在时。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "如果明天下雨，我就待在家里。哪一句正确？",
+      "answer": "If it rains tomorrow, I will stay at home."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.17",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j140",
+    "name": "用条件句给建议",
+    "domain": "日常表达",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第10单元 If you go to the party, you'll have a great time",
+    "type": "application",
+    "description": "能用 if 提醒对方某种做法会带来什么结果。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想劝对方别吃太多，否则会不舒服，哪一句合适？",
+      "answer": "If you eat too much, you will feel sick."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.03",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j141",
+    "name": "读聚会建议",
+    "domain": "读写",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第10单元 If you go to the party, you'll have a great time",
+    "type": "application",
+    "description": "读一段建议，找出条件和结果。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "If you wear jeans, the teacher will not let you in. If you take a bus, you will be late. 穿牛仔裤会怎样？",
+      "answer": "老师不让进"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j142",
+    "name": "身体不适",
+    "domain": "词汇",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第1单元 What's the matter",
+    "type": "conceptual",
+    "description": "认读 headache、stomachache、fever 和 cough。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「头痛」？",
+      "answer": "headache"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.02",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j143",
+    "name": "should 表示建议",
+    "domain": "语法",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第1单元 What's the matter",
+    "type": "procedural",
+    "description": "能用 should 或 shouldn't 提出建议。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "你应该去看医生。哪一句正确？",
+      "answer": "You should see a doctor."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.10",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j144",
+    "name": "关心身体",
+    "domain": "日常表达",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第1单元 What's the matter",
+    "type": "application",
+    "description": "能询问别人怎么了，并给出简单建议。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "看到同学不舒服，哪一句合适？",
+      "answer": "What's the matter?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j145",
+    "name": "读健康建议",
+    "domain": "读写",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第1单元 What's the matter",
+    "type": "application",
+    "description": "读一段对话，找出症状和建议。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "Ben has a stomachache. The doctor says he should not eat cold food. 他怎么了？",
+      "answer": "胃痛"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j146",
+    "name": "志愿服务",
+    "domain": "词汇",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第2单元 I'll help to clean up the city parks",
+    "type": "conceptual",
+    "description": "认读 volunteer、lonely、sign 和 notice。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「志愿者」？",
+      "answer": "volunteer"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.02",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j147",
+    "name": "不定式表示目的",
+    "domain": "语法",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第2单元 I'll help to clean up the city parks",
+    "type": "procedural",
+    "description": "能用 to 加动词原形说明做某事的目的。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "我去公园是为了做志愿者。哪一句正确？",
+      "answer": "I went to the park to volunteer."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.14",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j148",
+    "name": "主动提供帮助",
+    "domain": "日常表达",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第2单元 I'll help to clean up the city parks",
+    "type": "application",
+    "description": "能提出帮忙，并说明能做什么。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想说自己可以发食物，哪一句合适？",
+      "answer": "I could give out food."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.03",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j149",
+    "name": "读志愿活动",
+    "domain": "读写",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第2单元 I'll help to clean up the city parks",
+    "type": "application",
+    "description": "读一则通知，找出时间和需要做的事。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "We need volunteers to clean up the city park on Saturday. Please call Mr. Li. 需要志愿者做什么？",
+      "answer": "打扫城市公园"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j150",
+    "name": "家务",
+    "domain": "词汇",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第3单元 Could you please clean your room",
+    "type": "conceptual",
+    "description": "认读 chore、rubbish、fold 和 sweep。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「家务」？",
+      "answer": "chore"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.02",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j151",
+    "name": "could 表示请求",
+    "domain": "语法",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第3单元 Could you please clean your room",
+    "type": "procedural",
+    "description": "能用 Could you please 礼貌地提出请求。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "请你打扫房间，好吗？哪一句正确？",
+      "answer": "Could you please clean your room?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.10",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j152",
+    "name": "礼貌提出请求",
+    "domain": "日常表达",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第3单元 Could you please clean your room",
+    "type": "application",
+    "description": "能请求别人做家务，并礼貌应答。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想请弟弟叠衣服，哪一句合适？",
+      "answer": "Could you please fold the clothes?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j153",
+    "name": "读家务对话",
+    "domain": "读写",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第3单元 Could you please clean your room",
+    "type": "application",
+    "description": "读一段对话，找出谁要做什么。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "Mom: Could you please sweep the floor? Peter: Sure. 妈妈请 Peter 做什么？",
+      "answer": "扫地"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j154",
+    "name": "情绪与压力",
+    "domain": "词汇",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第4单元 Why don't you talk to your parents",
+    "type": "conceptual",
+    "description": "认读 pressure、argue、nervous 和 proper。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「压力」？",
+      "answer": "pressure"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.02",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j155",
+    "name": "although 引导让步",
+    "domain": "语法",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第4单元 Why don't you talk to your parents",
+    "type": "procedural",
+    "description": "能用 although 连接相反的两层意思，并且不和 but 同时使用。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "虽然他很累，但是他做完了作业。哪一句正确？",
+      "answer": "Although he was tired, he finished his homework."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.17",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j156",
+    "name": "用 Why don't you 提建议",
+    "domain": "日常表达",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第4单元 Why don't you talk to your parents",
+    "type": "application",
+    "description": "能用 Why don't you 或 Why not 建议别人怎么做。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "建议对方和父母谈谈，哪一句合适？",
+      "answer": "Why don't you talk to your parents?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.03",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j157",
+    "name": "读建议信",
+    "domain": "读写",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第4单元 Why don't you talk to your parents",
+    "type": "application",
+    "description": "读一封短信，找出问题和建议。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "Dear Linda, I argued with my parents. I feel nervous. What should I do? 写信人怎么了？",
+      "answer": "和父母吵了架，感到紧张"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j158",
+    "name": "暴风雨",
+    "domain": "词汇",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第5单元 What were you doing when the rainstorm came",
+    "type": "conceptual",
+    "description": "认读 rainstorm、alarm、flashlight 和 wind。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「暴风雨」？",
+      "answer": "rainstorm"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.02",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j159",
+    "name": "过去进行时",
+    "domain": "语法",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第5单元 What were you doing when the rainstorm came",
+    "type": "procedural",
+    "description": "能用 was 或 were 加动词的 -ing 形式，描述过去某时正在做的事。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "昨晚八点我正在读书。哪一句正确？",
+      "answer": "I was reading at eight last night."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.07",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j160",
+    "name": "when 与 while",
+    "domain": "语法",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第5单元 What were you doing when the rainstorm came",
+    "type": "procedural",
+    "description": "能用 when 连接一个短暂动作，用 while 连接一段正在进行的动作。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "暴风雨来的时候，我正在读。哪一句正确？",
+      "answer": "I was reading when the rainstorm came."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.07",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j161",
+    "name": "描述当时的动作",
+    "domain": "日常表达",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第5单元 What were you doing when the rainstorm came",
+    "type": "application",
+    "description": "能询问过去某一时刻正在做什么。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想问暴风雨来时对方在做什么，哪一句合适？",
+      "answer": "What were you doing when the rainstorm came?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j162",
+    "name": "读暴风雨故事",
+    "domain": "读写",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第5单元 What were you doing when the rainstorm came",
+    "type": "application",
+    "description": "读一段故事，找出暴风雨来时人们正在做什么。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "When the rainstorm came, Ben was reading. His sister was sleeping. 暴风雨来时 Ben 在做什么？",
+      "answer": "在读书"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j163",
+    "name": "故事用词",
+    "domain": "词汇",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第6单元 An old man tried to move the mountains",
+    "type": "conceptual",
+    "description": "认读 emperor、stupid、stone 和 weak。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「皇帝」？",
+      "answer": "emperor"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.02",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j164",
+    "name": "unless 表示除非",
+    "domain": "语法",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第6单元 An old man tried to move the mountains",
+    "type": "procedural",
+    "description": "能用 unless 表示如果不，从句用一般现在时。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "除非你赶快，否则会迟到。哪一句正确？",
+      "answer": "You will be late unless you hurry."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.17",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j165",
+    "name": "so that 表示目的",
+    "domain": "语法",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第6单元 An old man tried to move the mountains",
+    "type": "procedural",
+    "description": "能用 so that 说明目的，从句里常用 can 或 could。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "他早起是为了赶上公共汽车。哪一句正确？",
+      "answer": "He got up early so that he could catch the bus."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.17",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j166",
+    "name": "复述故事",
+    "domain": "日常表达",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第6单元 An old man tried to move the mountains",
+    "type": "application",
+    "description": "能用简单过去时讲出故事里的人物和结果。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "故事开头，哪一句合适？",
+      "answer": "Once upon a time, there was an old man."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j167",
+    "name": "读神话故事",
+    "domain": "读写",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第6单元 An old man tried to move the mountains",
+    "type": "application",
+    "description": "读一段故事，找出人物做了什么。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "An old man tried to move the mountains. His family kept working every day. 老人想做什么？",
+      "answer": "移走大山"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j168",
+    "name": "地理名称",
+    "domain": "词汇",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第7单元 What's the highest mountain in the world",
+    "type": "conceptual",
+    "description": "认读 desert、ocean、ancient 和 protect。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「沙漠」？",
+      "answer": "desert"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.02",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j169",
+    "name": "比较级与最高级的选用",
+    "domain": "语法",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第7单元 What's the highest mountain in the world",
+    "type": "procedural",
+    "description": "能根据是两者还是三者以上，选用比较级或最高级。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "珠穆朗玛峰是世界上最高的山。哪一句正确？",
+      "answer": "Qomolangma is the highest mountain in the world."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.11",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j170",
+    "name": "陈述地理事实",
+    "domain": "日常表达",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第7单元 What's the highest mountain in the world",
+    "type": "application",
+    "description": "能用事实句说出地理事物有多大、多高。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想说这片沙漠很大，哪一句合适？",
+      "answer": "This desert is very large."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.04",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j171",
+    "name": "读地理短文",
+    "domain": "读写",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第7单元 What's the highest mountain in the world",
+    "type": "application",
+    "description": "读一段地理短文，找出最高或最长的事物。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "Qomolangma is the highest mountain in the world. It is higher than any other mountain. 它是什么？",
+      "answer": "世界上最高的山"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j172",
+    "name": "选词补全短文",
+    "domain": "读写",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第7单元 What's the highest mountain in the world",
+    "type": "application",
+    "description": "能根据上下文选择意思和语法都通顺的词。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "Tom ___ to the library yesterday. He read an old book about the ocean. 横线处选哪一个？",
+      "answer": "went"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.02",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j173",
+    "name": "书籍与阅读",
+    "domain": "词汇",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第8单元 Have you read Treasure Island yet",
+    "type": "conceptual",
+    "description": "认读 treasure、island、classic 和 page。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「宝藏」？",
+      "answer": "treasure"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.02",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j174",
+    "name": "现在完成时",
+    "domain": "语法",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第8单元 Have you read Treasure Island yet",
+    "type": "procedural",
+    "description": "能用 have 或 has 加过去分词，表示到现在为止已经发生的事。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "我已经读完了这本书。哪一句正确？",
+      "answer": "I have already read this book."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.08",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j175",
+    "name": "already 与 yet",
+    "domain": "语法",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第8单元 Have you read Treasure Island yet",
+    "type": "procedural",
+    "description": "能在肯定句中用 already，在疑问句和否定句中用 yet。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "我已经做完作业了。哪一句正确？",
+      "answer": "I have already finished my homework."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.08",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j176",
+    "name": "谈论读过的书",
+    "domain": "日常表达",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第8单元 Have you read Treasure Island yet",
+    "type": "application",
+    "description": "能询问别人是否已经读过某本书。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想问对方是否已经读过这本名著，哪一句合适？",
+      "answer": "Have you read this classic yet?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.03",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j177",
+    "name": "读阅读记录",
+    "domain": "读写",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第8单元 Have you read Treasure Island yet",
+    "type": "application",
+    "description": "读一段阅读记录，判断谁已经读完。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "Amy has already read Treasure Island. Pete has not finished it yet. 谁已经读完了？",
+      "answer": "Amy"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j178",
+    "name": "场馆经历",
+    "domain": "词汇",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第9单元 Have you ever been to a museum",
+    "type": "conceptual",
+    "description": "认读 camera、progress、unusual 和 collect。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「照相机」？",
+      "answer": "camera"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.02",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j179",
+    "name": "ever 与 never",
+    "domain": "语法",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第9单元 Have you ever been to a museum",
+    "type": "procedural",
+    "description": "能用 ever 询问是否曾经做过，用 never 表示从未做过。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "你曾经去过博物馆吗？哪一句正确？",
+      "answer": "Have you ever been to a museum?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.08",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j180",
+    "name": "been 与 gone",
+    "domain": "语法",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第9单元 Have you ever been to a museum",
+    "type": "procedural",
+    "description": "能区分 has been to（去过并已回来）和 has gone to（去了尚未回来）。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "她现在不在这里，去了图书馆。哪一句正确？",
+      "answer": "She has gone to the library."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.08",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j181",
+    "name": "询问去过哪里",
+    "domain": "日常表达",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第9单元 Have you ever been to a museum",
+    "type": "application",
+    "description": "能询问别人的经历，并说出自己去过哪里。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想问对方是否去过游乐园，哪一句合适？",
+      "answer": "Have you ever been to an amusement park?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.03",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j182",
+    "name": "读场馆经历",
+    "domain": "读写",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第9单元 Have you ever been to a museum",
+    "type": "application",
+    "description": "读一段经历，区分去过和正在那里。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "Kate has been to the science museum. She took photos there last month. 她现在还在馆里吗？",
+      "answer": "不在，她已经回来了"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j183",
+    "name": "旧物与回忆",
+    "domain": "词汇",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第10单元 I've had this bike for three years",
+    "type": "conceptual",
+    "description": "认读 scarf、soft、yard 和 honest。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「围巾」？",
+      "answer": "scarf"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.02",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j184",
+    "name": "for 与 since",
+    "domain": "语法",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第10单元 I've had this bike for three years",
+    "type": "procedural",
+    "description": "能用 for 加一段时间，用 since 加过去的起点。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "这辆自行车我买了三年了。哪一句正确？",
+      "answer": "I have had this bike for three years."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.08",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j185",
+    "name": "谈论拥有多久",
+    "domain": "日常表达",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第10单元 I've had this bike for three years",
+    "type": "application",
+    "description": "能询问一件物品拥有了多久，并回答。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想问对方拥有这条围巾多久了，哪一句合适？",
+      "answer": "How long have you had this scarf?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.03",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j186",
+    "name": "读旧物故事",
+    "domain": "读写",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第10单元 I've had this bike for three years",
+    "type": "application",
+    "description": "读一段回忆，找出拥有的时间和原因。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "I have had this scarf for three years. My grandma made it. 围巾是谁做的？",
+      "answer": "奶奶"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j187",
+    "name": "学习方法",
+    "domain": "词汇",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第1单元 How can we become good learners",
+    "type": "conceptual",
+    "description": "认读 pronunciation、expression、repeat 和 patient。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「发音」？",
+      "answer": "pronunciation"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.03",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j188",
+    "name": "by 加动名词",
+    "domain": "语法",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第1单元 How can we become good learners",
+    "type": "procedural",
+    "description": "能用 by 加动词的 -ing 形式说明做事方式。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "我靠读课文学英语。哪一句正确？",
+      "answer": "I study English by reading the text."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.14",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j189",
+    "name": "交流学习方法",
+    "domain": "日常表达",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第1单元 How can we become good learners",
+    "type": "application",
+    "description": "能询问别人怎么学，并介绍自己的方法。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想问对方怎样学英语，哪一句合适？",
+      "answer": "How do you study English?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.01",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j190",
+    "name": "读学习建议",
+    "domain": "读写",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第1单元 How can we become good learners",
+    "type": "application",
+    "description": "读一段学习建议，找出方法和结果。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "Wei Fen studies English by reading aloud. She also learns new words by making word cards. 她怎样学英语？",
+      "answer": "大声朗读"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j191",
+    "name": "节日食物",
+    "domain": "词汇",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第2单元 I think that mooncakes are delicious",
+    "type": "conceptual",
+    "description": "认读 mooncake、lantern、stranger 和 relative。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「月饼」？",
+      "answer": "mooncake"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.03",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j192",
+    "name": "that 引导宾语从句",
+    "domain": "语法",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第2单元 I think that mooncakes are delicious",
+    "type": "procedural",
+    "description": "能用 that 连接看法和后面的陈述句，that 可以省略。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "我认为月饼很好吃。哪一句正确？",
+      "answer": "I think that mooncakes are delicious."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.15",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j193",
+    "name": "if 与 whether 宾语从句",
+    "domain": "语法",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第2单元 I think that mooncakes are delicious",
+    "type": "procedural",
+    "description": "能用 if 或 whether 引导宾语从句，从句用陈述语序。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "我不知道他会不会来。哪一句正确？",
+      "answer": "I don't know if he will come."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.15",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j194",
+    "name": "谈论节日",
+    "domain": "日常表达",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第2单元 I think that mooncakes are delicious",
+    "type": "application",
+    "description": "能说出节日吃什么、做什么。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想说中秋节人们赏月，哪一句合适？",
+      "answer": "People admire the moon on Mid-Autumn Festival."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j195",
+    "name": "读中秋短文",
+    "domain": "读写",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第2单元 I think that mooncakes are delicious",
+    "type": "application",
+    "description": "读一段节日短文，找出食物和活动。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "Li Mei thinks that mooncakes are delicious. Her family admires the moon at night. 她觉得月饼怎么样？",
+      "answer": "很好吃"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j196",
+    "name": "公共场所",
+    "domain": "词汇",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第3单元 Could you please tell me where the restrooms are",
+    "type": "conceptual",
+    "description": "认读 restroom、stamp、postcard 和 politely。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「洗手间」？",
+      "answer": "restroom"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.03",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j197",
+    "name": "疑问词宾语从句",
+    "domain": "语法",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第3单元 Could you please tell me where the restrooms are",
+    "type": "procedural",
+    "description": "能把特殊疑问句改成陈述语序，放进宾语从句。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "请问洗手间在哪里。哪一句正确？",
+      "answer": "Could you tell me where the restroom is?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.15",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j198",
+    "name": "礼貌问路",
+    "domain": "日常表达",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第3单元 Could you please tell me where the restrooms are",
+    "type": "application",
+    "description": "能礼貌地问路，并听懂直接问句和间接问句。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想礼貌地问邮局在哪里，哪一句合适？",
+      "answer": "Could you please tell me where the post office is?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.04",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j199",
+    "name": "读问路对话",
+    "domain": "读写",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第3单元 Could you please tell me where the restrooms are",
+    "type": "application",
+    "description": "读一段问路对话，找出地点。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "A: Could you tell me where the restroom is? B: Go along the hall and turn left. 问路人要去哪里？",
+      "answer": "洗手间"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j200",
+    "name": "今昔变化",
+    "domain": "词汇",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第4单元 I used to be afraid of the dark",
+    "type": "conceptual",
+    "description": "认读 humorous、silent、score 和 background。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「幽默的」？",
+      "answer": "humorous"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.03",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j201",
+    "name": "used to 表示过去习惯",
+    "domain": "语法",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第4单元 I used to be afraid of the dark",
+    "type": "procedural",
+    "description": "能用 used to 加动词原形表示过去常常、现在不再如此。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "我以前怕黑。哪一句正确？",
+      "answer": "I used to be afraid of the dark."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.05",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j202",
+    "name": "比较过去和现在",
+    "domain": "日常表达",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第4单元 I used to be afraid of the dark",
+    "type": "application",
+    "description": "能说出自己或别人过去什么样、现在什么样。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想说以前怕黑，现在不怕了，哪一句合适？",
+      "answer": "I used to be afraid of the dark, but I am not now."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.04",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j203",
+    "name": "读变化短文",
+    "domain": "读写",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第4单元 I used to be afraid of the dark",
+    "type": "application",
+    "description": "读一段变化，对比过去和现在。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "Andy used to be silent. Now he is humorous and talks a lot. 他以前怎么样？",
+      "answer": "很沉默"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j204",
+    "name": "材料",
+    "domain": "词汇",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第5单元 What are the shirts made of",
+    "type": "conceptual",
+    "description": "认读 cotton、steel、produce 和 widely。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「棉」？",
+      "answer": "cotton"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.03",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j205",
+    "name": "一般现在时被动语态",
+    "domain": "语法",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第5单元 What are the shirts made of",
+    "type": "procedural",
+    "description": "能用 am、is、are 加过去分词表示现在的被动。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "这件衬衫是棉做的。哪一句正确？",
+      "answer": "This shirt is made of cotton."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.18",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j206",
+    "name": "询问由什么制成",
+    "domain": "日常表达",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第5单元 What are the shirts made of",
+    "type": "application",
+    "description": "能询问物品的材料和产地。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想问衬衫是什么做的，哪一句合适？",
+      "answer": "What is the shirt made of?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j207",
+    "name": "读产品介绍",
+    "domain": "读写",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第5单元 What are the shirts made of",
+    "type": "application",
+    "description": "读一段介绍，找出材料和产地。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "The shirt is made of cotton. It is produced in China. 衬衫是什么做的？",
+      "answer": "棉"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j208",
+    "name": "发明物",
+    "domain": "词汇",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第6单元 When was it invented",
+    "type": "conceptual",
+    "description": "认读 inventor、mention、website 和 daily。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「发明家」？",
+      "answer": "inventor"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.03",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j209",
+    "name": "一般过去时被动语态",
+    "domain": "语法",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第6单元 When was it invented",
+    "type": "procedural",
+    "description": "能用 was 或 were 加过去分词表示过去的被动。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "电话是贝尔发明的。哪一句正确？",
+      "answer": "The telephone was invented by Bell."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.18",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j210",
+    "name": "询问发明时间",
+    "domain": "日常表达",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第6单元 When was it invented",
+    "type": "application",
+    "description": "能询问某物是何时、被谁发明的。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想问拉链是何时发明的，哪一句合适？",
+      "answer": "When was the zipper invented?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.04",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j211",
+    "name": "读发明介绍",
+    "domain": "读写",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第6单元 When was it invented",
+    "type": "application",
+    "description": "读一段发明介绍，找出发明者和用途。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "The telephone was invented by Bell. It is used for talking to people far away. 谁发明了电话？",
+      "answer": "贝尔"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j212",
+    "name": "青少年规则",
+    "domain": "词汇",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第7单元 Teenagers should be allowed to choose their own clothes",
+    "type": "conceptual",
+    "description": "认读 license、safety、society 和 choice。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「执照」？",
+      "answer": "license"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.03",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j213",
+    "name": "be allowed to",
+    "domain": "语法",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第7单元 Teenagers should be allowed to choose their own clothes",
+    "type": "procedural",
+    "description": "能用 be allowed to 表示被允许做某事。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "青少年应该被允许选择自己的衣服。哪一句正确？",
+      "answer": "Teenagers should be allowed to choose their own clothes."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.18",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j214",
+    "name": "讨论是否允许",
+    "domain": "日常表达",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第7单元 Teenagers should be allowed to choose their own clothes",
+    "type": "application",
+    "description": "能对校规发表同意或不同意的看法。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "你不同意十六岁开车，哪一句合适？",
+      "answer": "I don't think sixteen-year-olds should be allowed to drive."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.04",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j215",
+    "name": "读规则意见",
+    "domain": "读写",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第7单元 Teenagers should be allowed to choose their own clothes",
+    "type": "application",
+    "description": "读一段讨论，找出谁被允许做什么。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "Students are not allowed to use phones in class. They are allowed to use them after school. 课上可以用手机吗？",
+      "answer": "不可以"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j216",
+    "name": "物品主人",
+    "domain": "词汇",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第8单元 It must belong to Carla",
+    "type": "conceptual",
+    "description": "认读 whose、attend、valuable 和 picnic。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「谁的」？",
+      "answer": "whose"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.03",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j217",
+    "name": "must 表示推测",
+    "domain": "语法",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第8单元 It must belong to Carla",
+    "type": "procedural",
+    "description": "能用 must 表示很有把握的肯定推测，用 can't 表示否定推测。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "吉他上面有 Carla 的名字，一定是她的。哪一句正确？",
+      "answer": "The guitar must be Carla's."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.10",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j218",
+    "name": "推测物品归属",
+    "domain": "日常表达",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第8单元 It must belong to Carla",
+    "type": "application",
+    "description": "能根据线索推测东西是谁的。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想问这是谁的书包，哪一句合适？",
+      "answer": "Whose backpack is this?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.04",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j219",
+    "name": "读推测短文",
+    "domain": "读写",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第8单元 It must belong to Carla",
+    "type": "application",
+    "description": "读一段推理，找出物品的主人。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "The notebook has Anna's name on it. It must be hers. 笔记本是谁的？",
+      "answer": "Anna 的"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j220",
+    "name": "音乐类型",
+    "domain": "词汇",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第9单元 I like music that I can dance to",
+    "type": "conceptual",
+    "description": "认读 prefer、lyrics、Australian 和 electronic。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「更喜欢」？",
+      "answer": "prefer"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.03",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j221",
+    "name": "定语从句",
+    "domain": "语法",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第9单元 I like music that I can dance to",
+    "type": "procedural",
+    "description": "能用 that、who 或 which 修饰前面的人或物。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "我喜欢能跟着跳舞的音乐。哪一句正确？",
+      "answer": "I like music that I can dance to."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.16",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j222",
+    "name": "说明喜欢的音乐",
+    "domain": "日常表达",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第9单元 I like music that I can dance to",
+    "type": "application",
+    "description": "能说出自己喜欢什么音乐，并说明原因。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想说你更喜欢歌词清楚的歌，哪一句合适？",
+      "answer": "I prefer songs that have clear lyrics."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.02",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j223",
+    "name": "读音乐偏好",
+    "domain": "读写",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第9单元 I like music that I can dance to",
+    "type": "application",
+    "description": "读一段偏好，找出谁喜欢什么音乐。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "Cindy likes music that she can dance to. She prefers songs with clear lyrics. 她喜欢什么样的音乐？",
+      "answer": "可以跟着跳舞、歌词清楚的"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j224",
+    "name": "社交习俗",
+    "domain": "词汇",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第10单元 You're supposed to shake hands",
+    "type": "conceptual",
+    "description": "认读 bow、kiss、greet 和 manner。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「鞠躬」？",
+      "answer": "bow"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.03",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j225",
+    "name": "be supposed to",
+    "domain": "语法",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第10单元 You're supposed to shake hands",
+    "type": "procedural",
+    "description": "能用 be supposed to 表示按习俗或规则应该做的事。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "你应该握手。哪一句正确？",
+      "answer": "You are supposed to shake hands."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.10",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j226",
+    "name": "说明该怎么做",
+    "domain": "日常表达",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第10单元 You're supposed to shake hands",
+    "type": "application",
+    "description": "能介绍一个地方见面时该怎么打招呼。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "在中国，朋友见面常常握手。哪一句合适？",
+      "answer": "In China, people are supposed to shake hands."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.04",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j227",
+    "name": "读习俗说明",
+    "domain": "读写",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第10单元 You're supposed to shake hands",
+    "type": "application",
+    "description": "读一段习俗说明，找出该做和不该做的事。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "In this country, you are supposed to bow when you meet someone. You are not supposed to kiss. 见面应该做什么？",
+      "answer": "鞠躬"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j228",
+    "name": "情绪反应",
+    "domain": "词汇",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第11单元 Sad movies make me cry",
+    "type": "conceptual",
+    "description": "认读 friendship、king、pale 和 queen。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「友谊」？",
+      "answer": "friendship"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.03",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j229",
+    "name": "make 加宾语加动词原形",
+    "domain": "语法",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第11单元 Sad movies make me cry",
+    "type": "procedural",
+    "description": "能用 make somebody do 或 make somebody 加形容词。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "悲伤的电影让我哭。哪一句正确？",
+      "answer": "Sad movies make me cry."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.14",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j230",
+    "name": "表达电影感受",
+    "domain": "日常表达",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第11单元 Sad movies make me cry",
+    "type": "application",
+    "description": "能说出一部电影让自己有什么感受。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想说这部电影让你想哭，哪一句合适？",
+      "answer": "The movie makes me want to cry."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.04",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j231",
+    "name": "读观后感",
+    "domain": "读写",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第11单元 Sad movies make me cry",
+    "type": "application",
+    "description": "读一段观后感，找出电影给人的感受。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "The sad movie made Amy cry. It also made her think about friendship. 电影让 Amy 怎样了？",
+      "answer": "哭了，并想到友谊"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j232",
+    "name": "意外事件",
+    "domain": "词汇",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第12单元 Life is full of the unexpected",
+    "type": "conceptual",
+    "description": "认读 unexpected、backpack、block 和 burn。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「出乎意料的」？",
+      "answer": "unexpected"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.03",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j233",
+    "name": "过去完成时",
+    "domain": "语法",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第12单元 Life is full of the unexpected",
+    "type": "procedural",
+    "description": "能用 had 加过去分词，表示在过去某一动作之前已经发生的事。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "我到达之前，火车已经离开了。哪一句正确？",
+      "answer": "The train had left when I arrived."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.09",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j234",
+    "name": "叙述意外经过",
+    "domain": "日常表达",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第12单元 Life is full of the unexpected",
+    "type": "application",
+    "description": "能按先后顺序说出一件意外。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想说你迟到是因为闹钟没响，哪一句合适？",
+      "answer": "I was late because my alarm had not gone off."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.04",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j235",
+    "name": "读意外故事",
+    "domain": "读写",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第12单元 Life is full of the unexpected",
+    "type": "application",
+    "description": "读一段意外，判断哪件事发生得更早。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "By the time Carl woke up, the bus had already left. He had forgotten to set the alarm. 哪件事更早？",
+      "answer": "他忘记设闹钟，公共汽车也先离开了"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j236",
+    "name": "环境保护",
+    "domain": "词汇",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第13单元 We're trying to save the earth",
+    "type": "conceptual",
+    "description": "认读 litter、bottom、coal 和 plastic。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「垃圾」？",
+      "answer": "litter"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.03",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j237",
+    "name": "时态选择",
+    "domain": "语法",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第13单元 We're trying to save the earth",
+    "type": "procedural",
+    "description": "能根据时间状语在现在、过去、将来、进行和完成时之间选择。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "我通常步行上学。哪一句正确？",
+      "answer": "I usually walk to school."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.20",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j238",
+    "name": "谈论环保做法",
+    "domain": "日常表达",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第13单元 We're trying to save the earth",
+    "type": "application",
+    "description": "能说出为保护环境可以做的事。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想说不该乱扔垃圾，哪一句合适？",
+      "answer": "We should not throw litter on the ground."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.04",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j239",
+    "name": "读环保倡议",
+    "domain": "读写",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第13单元 We're trying to save the earth",
+    "type": "application",
+    "description": "读一段倡议，找出问题和做法。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "Last year the river was clean. Now people throw plastic into it. 现在人们把什么扔进河里？",
+      "answer": "塑料"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.01",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j240",
+    "name": "完形填空",
+    "domain": "读写",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第13单元 We're trying to save the earth",
+    "type": "application",
+    "description": "能根据上下文补全短文中的词。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "The city ___ dirty ten years ago. People have planted trees since then. 横线处选哪一个？",
+      "answer": "was"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.02",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j241",
+    "name": "毕业回忆",
+    "domain": "词汇",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第14单元 I remember meeting all of you in Grade 7",
+    "type": "conceptual",
+    "description": "认读 survey、standard、graduate 和 ceremony。",
+    "mastery_criteria": [
+      "能选出单词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「调查」？",
+      "answer": "survey"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.03",
+        "confidence": "inferred",
+        "note": "人教版 Go for it! 该单元的主题词。课标不逐词列出，词表和册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j242",
+    "name": "动名词与不定式",
+    "domain": "语法",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第14单元 I remember meeting all of you in Grade 7",
+    "type": "procedural",
+    "description": "能区分动词后面接 to do 还是 doing。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "我记得见过你们。哪一句正确？",
+      "answer": "I remember meeting all of you."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.14",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j243",
+    "name": "反意疑问句",
+    "domain": "语法",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第14单元 I remember meeting all of you in Grade 7",
+    "type": "procedural",
+    "description": "能在陈述句后加上意思相反的简短问句。",
+    "mastery_criteria": [
+      "能选出语法正确的词或句子",
+      "能在句子里用对这个句型"
+    ],
+    "diagnostic_question": {
+      "question": "她是学生，不是吗？哪一句正确？",
+      "answer": "She is a student, isn't she?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.12",
+        "confidence": "exact",
+        "note": "句型按人教版 Go for it! 七上到九年级全一册的常见出现顺序编排，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j244",
+    "name": "回忆学校生活",
+    "domain": "日常表达",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第14单元 I remember meeting all of you in Grade 7",
+    "type": "application",
+    "description": "能在毕业时回顾学校生活。",
+    "mastery_criteria": [
+      "能选出符合情境的英文句子",
+      "能读懂这个功能句在问什么或在说什么"
+    ],
+    "diagnostic_question": {
+      "question": "想说你记得第一次见面，哪一句合适？",
+      "answer": "I remember meeting you on the first day."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.FU.01",
+        "confidence": "inferred",
+        "note": "教材中的功能句。课标没有逐句列出，册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_j245",
+    "name": "书面表达要点",
+    "domain": "读写",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九年级全册 第14单元 I remember meeting all of you in Grade 7",
+    "type": "application",
+    "description": "能选出涵盖全部要点、人称和时态都正确的句子。",
+    "mastery_criteria": [
+      "能根据短文选出与文字一致的信息",
+      "能选出和短文意思一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "要点：你上周末去了公园，和同学放了风筝，天气晴朗。哪一句符合全部要点？",
+      "answer": "Last weekend I went to the park with my classmates and flew a kite. It was sunny."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.RW.03",
+        "confidence": "inferred",
+        "note": "短文为诊断而写，考查阅读或书面表达要点。册次待核。"
+      }
+    ]
   }
 ]

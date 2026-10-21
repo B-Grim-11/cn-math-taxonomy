@@ -14,7 +14,7 @@
     ['三上', '三年级上册'], ['三下', '三年级下册'], ['四上', '四年级上册'], ['四下', '四年级下册'],
     ['五上', '五年级上册'], ['五下', '五年级下册'], ['六上', '六年级上册'], ['六下', '六年级下册'],
     ['七上', '七年级上册'], ['七下', '七年级下册'], ['八上', '八年级上册'], ['八下', '八年级下册'],
-    ['九上', '九年级上册'], ['九下', '九年级下册'],
+    ['九上', '九年级上册'], ['九下', '九年级下册'], ['九全', '九年级全一册'],
     ['高一', '高一 · 必修第一册'], ['高二', '高二 · 必修第二册'],
     ['选必一', '选必一 · 选择性必修第一册'], ['选必二', '选必二 · 选择性必修第二册'],
     ['选必三', '选必三 · 选择性必修第三册']
@@ -97,8 +97,8 @@
       else link.removeAttribute('aria-current');
     });
     if (subject === 'english') {
-      document.title = '诊断 · 小学英语';
-      if (gradeSel === '七') gradeSel = '四';
+      document.title = '诊断 · 英语';
+      if ('三四五六七八九'.indexOf(gradeSel) < 0) gradeSel = '四';
     }
   }
   function lsGet(k) { try { return JSON.parse(localStorage.getItem(k)); } catch (e) { return null; } }
@@ -334,11 +334,11 @@
         : '选一个想学会或想检查的知识点。第一题答对就算掌握；答错会再出一道同级或更容易的题——第二题也错才算薄弱，并回溯到先修；第二题答对则标为「不稳」。'),
       h('div', { class: 'stage-tabs', role: 'tablist', 'aria-label': '学段' },
         subject === 'english'
-          ? [stageButton('', '全部'), stageButton('p', '小学')]
+          ? [stageButton('', '全部'), stageButton('p', '小学'), stageButton('j', '初中')]
           : [stageButton('', '全部'), stageButton('p', '小学'), stageButton('j', '初中'), stageButton('h', '高中')]),
       h('input', {
         type: 'search', class: 'search-lg', id: 'search',
-        placeholder: subject === 'english' ? '搜索知识点，例如：现在进行时、颜色、there is' : '搜索知识点，例如：配方法、20 以内加法、一次函数',
+        placeholder: subject === 'english' ? '搜索知识点，例如：现在进行时、现在完成时、there is' : '搜索知识点，例如：配方法、20 以内加法、一次函数',
         value: startQuery, autocomplete: 'off', 'aria-label': '搜索知识点',
         oninput: function (e) {
           startQuery = e.target.value;
@@ -365,6 +365,7 @@
   function seniorRangeLabel(sel) { return String(sel).indexOf('选必') === 0 ? '整册' : '必修整册'; }
   function gradeScope() {
     if (seniorGrade(gradeSel)) return gradeSel;
+    if (subject === 'english' && gradeSel === '九') return '九全';
     return gradeSel + (volSel ? volSel : '年级');
   }
 
@@ -396,17 +397,21 @@
         h('h2', { text: '按年级整体诊断' }),
         h('p', { class: 'muted' }, '不选具体知识点，在一个年级（或一册）里抽查：每个知识点最多问 2 题，答错只在所选范围内回溯先修，最后按章汇总出哪几章薄弱。适合期初摸底、学期末复习。'),
         tabs('年级', subject === 'english'
-          ? '三四五六'.split('').map(function (x) { return [x, x + '年级']; })
+          ? '三四五六七八九'.split('').map(function (x) { return [x, x + '年级']; })
           : GRADES.map(function (x) { return [x, x + '年级']; }).concat([
             ['高一', '高一'], ['高二', '高二'], ['选必一', '选必一'], ['选必二', '选必二'], ['选必三', '选必三']
           ]), gradeSel, function (v) {
           gradeSel = v;
           if (seniorGrade(v)) volSel = '';
+          else if (subject === 'english' && v === '九') volSel = '全';
+          else if (volSel === '全') volSel = '';
         }),
         h('div', { style: 'margin-top:8px' }),
         seniorGrade(gradeSel)
           ? tabs('范围', [['', seniorRangeLabel(gradeSel)]], '', function () { volSel = ''; })
-          : tabs('范围', [['', '整年级'], ['上', '上册'], ['下', '下册']], volSel, function (v) { volSel = v; }),
+          : (subject === 'english' && gradeSel === '九')
+            ? tabs('范围', [['全', '全一册']], '全', function () { volSel = '全'; })
+            : tabs('范围', [['', '整年级'], ['上', '上册'], ['下', '下册']], volSel, function (v) { volSel = v; }),
         h('p', { class: 'muted', id: 'grade-info' }, g ? g.label + '：' + g.ids.length + ' 个知识点。' : '这个范围没有知识点。'),
         h('div', { class: 'row' },
           h('label', null, '题量上限（' + SCREEN_MIN + '–' + SCREEN_MAX + '）', limitInput),
@@ -837,7 +842,9 @@
 
     page.append(h('div', { class: 'card', id: 'graph' },
       h('h2', { text: '路径图' }),
-      h('p', { class: 'muted small' }, '小学、初中和高中用不同颜色。硬先修是实线，软先修是虚线，点线表示中间省略了没画出来的知识点。红框是薄弱根因，橙框是目标。名称太长会省略，悬停或点按可看全名。上面的列表是完整学习顺序。'),
+      h('p', { class: 'muted small' }, (subject === 'english'
+        ? '小学和初中用不同颜色。'
+        : '小学、初中和高中用不同颜色。') + '硬先修是实线，软先修是虚线，点线表示中间省略了没画出来的知识点。红框是薄弱根因，橙框是目标。名称太长会省略，悬停或点按可看全名。上面的列表是完整学习顺序。'),
       h('ul', { class: 'legend' },
         h('li', null, h('i', { class: 'swatch sw-p' }), '小学'),
         h('li', null, h('i', { class: 'swatch sw-j' }), '初中'),
@@ -1187,7 +1194,7 @@
         scope = seniorUrl[grade];
       } else if (grade && volume) {
         const gch = /^[一二三四五六七八九]$/.test(grade) ? grade : grade.charAt(0);
-        scope = /^[上下]$/.test(volume) ? gch + volume : volume;
+        scope = (volume === '全' || volume === '全一册') ? gch + '全' : (/^[上下]$/.test(volume) ? gch + volume : volume);
         if (scope.charAt(0) !== gch) throw new Error('URL 参数 grade 与 volume 不一致：' + grade + ' / ' + volume);
       }
       if (/^[一二三四五六七八九]$/.test(scope)) scope += '年级';

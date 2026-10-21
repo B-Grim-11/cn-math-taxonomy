@@ -7,7 +7,7 @@
  *         applyAnswer(graph, session, id, 'correct'|'wrong'|'skip', {text}) -> 新 session（不修改入参）
  *         summarize(graph, session) -> 结果（根因、学习路径、掌握/不稳/薄弱/未测）
  *         gradeTargets(graph, '一年级'|'七上'|'高一'|'选必二', subject?) -> {ids, volumes, label} | null
- *           默认 subject 为 math，不把小学英语卷进数学的整册；'english' 只取英语，'all' 不限学科
+ *           默认 subject 为 math，不把英语卷进数学的整册；'english' 只取英语（含九全），'all' 不限学科
  *         createSession(graph, ids, {mode:'screen'}) -> 筛查会话：范围 = 目标本身，回溯不出范围，默认题量上限 SCREEN_LIMIT
  *         chapterSummary(graph, session) -> 按章汇总（薄弱章节在前）
  *         layout(graph, session, summary) -> 路径图的分层布局
@@ -485,7 +485,7 @@
    */
   function parseChapter(chapter) {
     const s = chapter || '';
-    const pm = /^([一二三四五六])年级([上下])册 (第\d+单元) (.+)$/.exec(s);
+    const pm = /^([一二三四五六七八九])年级([上下全])册 (第\d+单元) (.+)$/.exec(s);
     if (pm) return { volume: pm[1] + pm[2], chapterNo: pm[3], chapterName: pm[4], section: '' };
     const pi = /^([一二三四五六])年级([上下])册 (综合与实践) (.+)$/.exec(s);
     if (pi) return { volume: pi[1] + pi[2], chapterNo: pi[3], chapterName: pi[4], section: '' };
@@ -535,8 +535,15 @@
     } else {
       const g = /^([一二三四五六七八九])年级$/.exec(key);
       const v = /^([一二三四五六七八九])([上下])$/.exec(key);
-      if (g) { volumes = [g[1] + '上', g[1] + '下']; label = g[1] + '年级'; }
-      else if (v) { volumes = [key]; label = v[1] + '年级' + (v[2] === '上' ? '上册' : '下册'); }
+      const whole = /^([一二三四五六七八九])全$/.exec(key);
+      if (g) {
+        volumes = [g[1] + '上', g[1] + '下'];
+        if (g[1] === '九') volumes.push('九全');
+        label = g[1] + '年级';
+      } else if (whole) {
+        volumes = [whole[1] + '全'];
+        label = whole[1] + '年级全一册';
+      } else if (v) { volumes = [key]; label = v[1] + '年级' + (v[2] === '上' ? '上册' : '下册'); }
     }
     if (!volumes) return null;
     const ids = graph.topics.filter(function (t) {

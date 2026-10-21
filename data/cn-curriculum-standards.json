@@ -3403,13 +3403,383 @@
       "page_or_ref": "待核",
       "verbatim": false,
       "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对"
+    },
+    {
+      "id": "ces-2022:3.PH.01",
+      "domain": "语音",
+      "section": "三级 · 语音",
+      "clause": "(1)",
+      "text": "能识别常见双音节和多音节单词的重音位置，并在朗读时把重音读出来。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》三级逐页核对"
+    },
+    {
+      "id": "ces-2022:3.PH.02",
+      "domain": "语音",
+      "section": "三级 · 语音",
+      "clause": "(2)",
+      "text": "能用降调朗读陈述句和特殊疑问句，用升调朗读一般疑问句。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》三级逐页核对"
+    },
+    {
+      "id": "ces-2022:3.PH.03",
+      "domain": "语音",
+      "section": "三级 · 语音",
+      "clause": "(3)",
+      "text": "能根据词尾音分辨名词复数和动词第三人称单数 -s、-es 的常见读音。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》三级逐页核对"
+    },
+    {
+      "id": "ces-2022:3.PH.04",
+      "domain": "语音",
+      "section": "三级 · 语音",
+      "clause": "(4)",
+      "text": "能根据动词词尾分辨规则动词过去式 -ed 的三种常见读音。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》三级逐页核对"
+    },
+    {
+      "id": "ces-2022:3.PH.05",
+      "domain": "语音",
+      "section": "三级 · 语音",
+      "clause": "(5)",
+      "text": "能感知辅音结尾的词与元音开头的词之间的连读，并在短语中初步朗读。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》三级逐页核对"
+    },
+    {
+      "id": "ces-2022:3.PH.06",
+      "domain": "语音",
+      "section": "三级 · 语音",
+      "clause": "(6)",
+      "text": "能感知爆破音相邻时的不完全爆破，如 sit down 中的 /t/。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》三级逐页核对"
+    },
+    {
+      "id": "ces-2022:3.PH.07",
+      "domain": "语音",
+      "section": "三级 · 语音",
+      "clause": "(7)",
+      "text": "能按意群停顿朗读句子，不把一个意群从中间拆开。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》三级逐页核对"
+    },
+    {
+      "id": "ces-2022:3.VO.01",
+      "domain": "词汇",
+      "section": "三级 · 词汇",
+      "clause": "(1)",
+      "text": "能在语境中理解与姓名、家庭、学校、食物、衣物、动物、天气和场所有关的核心词汇。三级词表以课标附录为准，本条为转述。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》三级逐页核对"
+    },
+    {
+      "id": "ces-2022:3.VO.02",
+      "domain": "词汇",
+      "section": "三级 · 词汇",
+      "clause": "(2)",
+      "text": "能在语境中理解与习惯、比较、计划、健康、家务、故事和旅行经历有关的词汇。三级词表以课标附录为准，本条为转述。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》三级逐页核对"
+    },
+    {
+      "id": "ces-2022:3.VO.03",
+      "domain": "词汇",
+      "section": "三级 · 词汇",
+      "clause": "(3)",
+      "text": "能在语境中理解并初步运用与学习、节日、发明、规则、习俗和环保有关的词汇。三级词表以课标附录为准，本条为转述。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》三级逐页核对"
+    },
+    {
+      "id": "ces-2022:3.GR.01",
+      "domain": "语法",
+      "section": "三级 · 语法",
+      "clause": "(1)",
+      "text": "能在句子中正确使用 am、is、are，并区分 have 和 has。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》三级逐页核对"
+    },
+    {
+      "id": "ces-2022:3.GR.02",
+      "domain": "语法",
+      "section": "三级 · 语法",
+      "clause": "(2)",
+      "text": "能区分可数名词与不可数名词，使用名词复数、指示代词和形容词性物主代词。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》三级逐页核对"
+    },
+    {
+      "id": "ces-2022:3.GR.03",
+      "domain": "语法",
+      "section": "三级 · 语法",
+      "clause": "(3)",
+      "text": "能用一般现在时描述习惯和事实，包括第三人称单数，以及 do、does 引导的疑问句和否定句。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》三级逐页核对"
+    },
+    {
+      "id": "ces-2022:3.GR.04",
+      "domain": "语法",
+      "section": "三级 · 语法",
+      "clause": "(4)",
+      "text": "能用现在进行时描述正在发生的动作，结构是 am、is、are 加动词的 -ing 形式。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》三级逐页核对"
+    },
+    {
+      "id": "ces-2022:3.GR.05",
+      "domain": "语法",
+      "section": "三级 · 语法",
+      "clause": "(5)",
+      "text": "能用一般过去时叙述过去的事情，包括 was、were、规则动词 -ed 和常见不规则动词，以及 Did 提问。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》三级逐页核对"
+    },
+    {
+      "id": "ces-2022:3.GR.06",
+      "domain": "语法",
+      "section": "三级 · 语法",
+      "clause": "(6)",
+      "text": "能用 be going to 表达打算，用 will 表达预测或临时决定。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》三级逐页核对"
+    },
+    {
+      "id": "ces-2022:3.GR.07",
+      "domain": "语法",
+      "section": "三级 · 语法",
+      "clause": "(7)",
+      "text": "能用过去进行时描述过去某一时刻正在做的事，并用 when、while 连接两个过去的动作。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》三级逐页核对"
+    },
+    {
+      "id": "ces-2022:3.GR.08",
+      "domain": "语法",
+      "section": "三级 · 语法",
+      "clause": "(8)",
+      "text": "能用现在完成时谈论经历和已经发生的事，并正确使用 already、yet、ever、never、been、gone、for 和 since。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》三级逐页核对"
+    },
+    {
+      "id": "ces-2022:3.GR.09",
+      "domain": "语法",
+      "section": "三级 · 语法",
+      "clause": "(9)",
+      "text": "能用过去完成时表示在过去某一动作之前已经发生的事，结构是 had 加过去分词。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》三级逐页核对"
+    },
+    {
+      "id": "ces-2022:3.GR.10",
+      "domain": "语法",
+      "section": "三级 · 语法",
+      "clause": "(10)",
+      "text": "能使用 can、could、must、should、have to、would 和 might，表示能力、义务、请求、建议或推测。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》三级逐页核对"
+    },
+    {
+      "id": "ces-2022:3.GR.11",
+      "domain": "语法",
+      "section": "三级 · 语法",
+      "clause": "(11)",
+      "text": "能使用形容词和副词的比较级、最高级，对两者或三者以上进行比较。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》三级逐页核对"
+    },
+    {
+      "id": "ces-2022:3.GR.12",
+      "domain": "语法",
+      "section": "三级 · 语法",
+      "clause": "(12)",
+      "text": "能使用祈使句、感叹句和反意疑问句。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》三级逐页核对"
+    },
+    {
+      "id": "ces-2022:3.GR.13",
+      "domain": "语法",
+      "section": "三级 · 语法",
+      "clause": "(13)",
+      "text": "能用 what、where、when、who、why、how、how much、how often 和 how far 获取信息。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》三级逐页核对"
+    },
+    {
+      "id": "ces-2022:3.GR.14",
+      "domain": "语法",
+      "section": "三级 · 语法",
+      "clause": "(14)",
+      "text": "能使用动词不定式作宾语、宾语补足语和目的状语，并区分部分动词后接不定式或动名词。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》三级逐页核对"
+    },
+    {
+      "id": "ces-2022:3.GR.15",
+      "domain": "语法",
+      "section": "三级 · 语法",
+      "clause": "(15)",
+      "text": "能使用 that、if、whether 和疑问词引导的宾语从句，从句使用陈述语序。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》三级逐页核对"
+    },
+    {
+      "id": "ces-2022:3.GR.16",
+      "domain": "语法",
+      "section": "三级 · 语法",
+      "clause": "(16)",
+      "text": "能使用 who、which、that 引导的限制性定语从句修饰人或物。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》三级逐页核对"
+    },
+    {
+      "id": "ces-2022:3.GR.17",
+      "domain": "语法",
+      "section": "三级 · 语法",
+      "clause": "(17)",
+      "text": "能使用 because、if、unless、when、although 和 so that 引导状语从句。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》三级逐页核对"
+    },
+    {
+      "id": "ces-2022:3.GR.18",
+      "domain": "语法",
+      "section": "三级 · 语法",
+      "clause": "(18)",
+      "text": "能使用一般现在时和一般过去时的被动语态，结构是 be 加过去分词。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》三级逐页核对"
+    },
+    {
+      "id": "ces-2022:3.GR.19",
+      "domain": "语法",
+      "section": "三级 · 语法",
+      "clause": "(19)",
+      "text": "能用 There be 和方位介词描述某处有什么、物品在哪里。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》三级逐页核对"
+    },
+    {
+      "id": "ces-2022:3.GR.20",
+      "domain": "语法",
+      "section": "三级 · 语法",
+      "clause": "(20)",
+      "text": "能根据时间状语和语境，在一般现在时、一般过去时、一般将来时、进行时和完成时之间作出选择。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》三级逐页核对"
+    },
+    {
+      "id": "ces-2022:3.FU.01",
+      "domain": "日常表达",
+      "section": "三级 · 日常表达",
+      "clause": "(1)",
+      "text": "能问候、介绍自己和家人，谈论学科、作息、规则和学校活动。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》三级逐页核对"
+    },
+    {
+      "id": "ces-2022:3.FU.02",
+      "domain": "日常表达",
+      "section": "三级 · 日常表达",
+      "clause": "(2)",
+      "text": "能购物、点餐、问路、谈论天气、外貌、动物和正在做的事。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》三级逐页核对"
+    },
+    {
+      "id": "ces-2022:3.FU.03",
+      "domain": "日常表达",
+      "section": "三级 · 日常表达",
+      "clause": "(3)",
+      "text": "能发出邀请、接受或拒绝，提出建议，谈论计划和已经发生的经历。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》三级逐页核对"
+    },
+    {
+      "id": "ces-2022:3.FU.04",
+      "domain": "日常表达",
+      "section": "三级 · 日常表达",
+      "clause": "(4)",
+      "text": "能表达观点，礼貌提问，说明习俗，并就规则、健康和环保交换看法。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》三级逐页核对"
+    },
+    {
+      "id": "ces-2022:3.RW.01",
+      "domain": "读写",
+      "section": "三级 · 读写",
+      "clause": "(1)",
+      "text": "能读懂与教材话题有关的简短文章，找出人物、时间、地点、事件和原因。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》三级逐页核对"
+    },
+    {
+      "id": "ces-2022:3.RW.02",
+      "domain": "读写",
+      "section": "三级 · 读写",
+      "clause": "(2)",
+      "text": "能根据上下文，为短文选择意思连贯的词或句子。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》三级逐页核对"
+    },
+    {
+      "id": "ces-2022:3.RW.03",
+      "domain": "读写",
+      "section": "三级 · 读写",
+      "clause": "(3)",
+      "text": "能根据要点选择或补全书面表达中的句子，使人称、时态和要点一致。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《义务教育英语课程标准（2022年版）》三级逐页核对"
     }
   ],
   "english": {
     "title": "义务教育英语课程标准（2022年版）",
     "issuer": "中华人民共和国教育部",
     "year": 2022,
-    "stage": "义务教育三级（3～4年级，一级）与四级（5～6年级，二级）",
-    "note": "条目是对一级、二级语言技能的公开转述，不是逐页核对的原文。verbatim 为 false，page_or_ref 为「待核」。编号 ces-2022 是本图谱编的，不是教育部原编号。教材按人教 PEP 三年级起点的常见目录编排，没有写入页码。"
+    "stage": "一级（3～4年级）、二级（5～6年级）与三级（7～9年级）",
+    "note": "条目是对一级（3–4年级）、二级（5–6年级）和三级（7–9年级）语言知识的公开转述，不是逐页核对的原文。verbatim 为 false，page_or_ref 为「待核」。编号 ces-2022 是本图谱编的，不是教育部原编号。小学按人教 PEP 三年级起点的常见目录；初中按人教版 Go for it! 七上到九年级全一册的通行目录，都没有写入页码。"
   }
 }

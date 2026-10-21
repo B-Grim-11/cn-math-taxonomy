@@ -233,7 +233,6 @@ code { overflow-wrap: anywhere; }
   background: var(--brand);
   color: var(--on-brand);
 }
-body.subject-english .legend li:has(.sw-j),
 body.subject-english .legend li:has(.sw-h) { display: none; }
 @media (max-width: 720px) {
   .site-nav { flex: 1 1 100%; margin-left: 0; }
