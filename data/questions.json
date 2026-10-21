@@ -73948,7 +73948,7 @@
       },
       {
         "key": "D",
-        "text": "I am a book."
+        "text": "Nice to meeting you, too."
       }
     ],
     "answer": "C",
@@ -73996,15 +73996,15 @@
       },
       {
         "key": "B",
-        "text": "Good evening is a book."
+        "text": "Good mornings."
       },
       {
         "key": "C",
-        "text": "What is your pen?"
+        "text": "Good moning."
       },
       {
         "key": "D",
-        "text": "Sit on the name."
+        "text": "Good monring."
       }
     ],
     "answer": "A",
@@ -74700,7 +74700,7 @@
       },
       {
         "key": "C",
-        "text": "I am a map."
+        "text": "This are my family."
       },
       {
         "key": "D",
@@ -101376,11 +101376,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "Good night, close the door"
+        "text": "Hi, my name are Lin"
       },
       {
         "key": "B",
-        "text": "I ate the classroom"
+        "text": "Hi, your name is Lin"
       },
       {
         "key": "C",
@@ -101388,7 +101388,7 @@
       },
       {
         "key": "D",
-        "text": "Please earthquake the book"
+        "text": "Hi, my name Lin is"
       }
     ],
     "answer": "C",
@@ -101408,11 +101408,11 @@
       },
       {
         "key": "B",
-        "text": "I am a locker"
+        "text": "Nice to meeting you too"
       },
       {
         "key": "C",
-        "text": "Good night is a book"
+        "text": "Nice to meets you too"
       },
       {
         "key": "D",
@@ -101436,15 +101436,15 @@
       },
       {
         "key": "B",
-        "text": "I am in a flood"
+        "text": "I am at Class 3"
       },
       {
         "key": "C",
-        "text": "Class 3 is eating"
+        "text": "I is in Class 3"
       },
       {
         "key": "D",
-        "text": "You are my locker"
+        "text": "He is in Class 3"
       }
     ],
     "answer": "A",
@@ -101460,7 +101460,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "Good earthquake"
+        "text": "Good mornings"
       },
       {
         "key": "B",
@@ -101468,11 +101468,11 @@
       },
       {
         "key": "C",
-        "text": "Sit on the name"
+        "text": "Good moning"
       },
       {
         "key": "D",
-        "text": "I have a hurricane"
+        "text": "Good monring"
       }
     ],
     "answer": "B",
@@ -101612,7 +101612,7 @@
       },
       {
         "key": "D",
-        "text": "Class 3 likes Monday"
+        "text": "I am Lin Xiao in Class 3, and I like football"
       }
     ],
     "answer": "A",
@@ -101628,7 +101628,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "You are a new earthquake"
+        "text": "I is a new student at this school"
       },
       {
         "key": "B",
@@ -101636,11 +101636,11 @@
       },
       {
         "key": "C",
-        "text": "The locker ate Monday"
+        "text": "I am an new student at this school"
       },
       {
         "key": "D",
-        "text": "Please flood the name"
+        "text": "I not am a new student at this school"
       }
     ],
     "answer": "B",
@@ -101684,15 +101684,15 @@
     "choices": [
       {
         "key": "A",
-        "text": "Therefore the flood ended"
+        "text": "Hello, let me itnroduce myself"
       },
       {
         "key": "B",
-        "text": "In conclusion, buy a locker"
+        "text": "Hello, let me introdcue myself"
       },
       {
         "key": "C",
-        "text": "However, the hurricane won"
+        "text": "Hello, let me inroduce myself"
       },
       {
         "key": "D",
@@ -102272,11 +102272,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "English is a flood"
+        "text": "Your favourite course is English"
       },
       {
         "key": "B",
-        "text": "I earthquake the quiz"
+        "text": "My fvaourite course is English"
       },
       {
         "key": "C",
@@ -102284,7 +102284,7 @@
       },
       {
         "key": "D",
-        "text": "The locker is a grade"
+        "text": "My favourtie course is English"
       }
     ],
     "answer": "C",
@@ -102300,15 +102300,15 @@
     "choices": [
       {
         "key": "A",
-        "text": "I am a drought"
+        "text": "That sounds good. I will joined"
       },
       {
         "key": "B",
-        "text": "Close the hurricane"
+        "text": "That sounds good. I will to join"
       },
       {
         "key": "C",
-        "text": "Yesterday is a volunteer"
+        "text": "That suonds good. I will join"
       },
       {
         "key": "D",
@@ -102332,15 +102332,15 @@
       },
       {
         "key": "B",
-        "text": "You joined a earthquake"
+        "text": "Have you joined an club"
       },
       {
         "key": "C",
-        "text": "Club is eating homework"
+        "text": "Have you jioned a club"
       },
       {
         "key": "D",
-        "text": "Please grade the flood"
+        "text": "Have you joiend a club"
       }
     ],
     "answer": "A",
@@ -102356,7 +102356,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "Confident is a locker"
+        "text": "Volunteering make me more confident"
       },
       {
         "key": "B",
@@ -102364,11 +102364,11 @@
       },
       {
         "key": "C",
-        "text": "The quiz ate the debate"
+        "text": "Vlounteering makes me more confident"
       },
       {
         "key": "D",
-        "text": "I flood the volunteer"
+        "text": "Volunteernig makes me more confident"
       }
     ],
     "answer": "B",
@@ -102552,11 +102552,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "In conclusion the flood won"
+        "text": "I would liked to join the debate club"
       },
       {
         "key": "B",
-        "text": "Therefore buy a locker"
+        "text": "I would like to joining the debate club"
       },
       {
         "key": "C",
@@ -102564,7 +102564,7 @@
       },
       {
         "key": "D",
-        "text": "However the quiz ate"
+        "text": "I would like to joins the debate club"
       }
     ],
     "answer": "C",
@@ -102588,7 +102588,7 @@
       },
       {
         "key": "C",
-        "text": "Free ate the Friday"
+        "text": "I am free in Friday afternoon"
       },
       {
         "key": "D",
@@ -103064,11 +103064,11 @@
       },
       {
         "key": "C",
-        "text": "Xi'an is eating Friday"
+        "text": "We is flying to Xi'an on Friday"
       },
       {
         "key": "D",
-        "text": "Please flood the ticket"
+        "text": "We are fly to Xi'an on Friday"
       }
     ],
     "answer": "B",
@@ -103084,11 +103084,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "No, I am a brochure"
+        "text": "Yes, I would loved to"
       },
       {
         "key": "B",
-        "text": "The temple ate me"
+        "text": "Yes, I would to love to"
       },
       {
         "key": "C",
@@ -103096,7 +103096,7 @@
       },
       {
         "key": "D",
-        "text": "Yesterday please"
+        "text": "Yes, I wuold love to"
       }
     ],
     "answer": "C",
@@ -103112,15 +103112,15 @@
     "choices": [
       {
         "key": "A",
-        "text": "Accommodation is a verb"
+        "text": "Where is your accommodatoin"
       },
       {
         "key": "B",
-        "text": "Where did the castle eat"
+        "text": "Where is your acommodation"
       },
       {
         "key": "C",
-        "text": "Please grade the waterfall"
+        "text": "Where is accommodation your"
       },
       {
         "key": "D",
@@ -103144,11 +103144,11 @@
       },
       {
         "key": "B",
-        "text": "Itinerary ate the bus"
+        "text": "Let's to check the itinerary before we leave"
       },
       {
         "key": "C",
-        "text": "Leave is a castle"
+        "text": "Let's check the iitnerary before we leave"
       },
       {
         "key": "D",
@@ -103312,15 +103312,15 @@
       },
       {
         "key": "B",
-        "text": "The ticket ate Friday"
+        "text": "I have already book the train ticket"
       },
       {
         "key": "C",
-        "text": "Book is a temple"
+        "text": "I not have already booked the train ticket"
       },
       {
         "key": "D",
-        "text": "I book yesterday tomorrow"
+        "text": "I have arleady booked the train ticket"
       }
     ],
     "answer": "A",
@@ -103336,7 +103336,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "In conclusion the flood won"
+        "text": "I am write to tell you about my trip"
       },
       {
         "key": "B",
@@ -103344,11 +103344,11 @@
       },
       {
         "key": "C",
-        "text": "Therefore close the castle"
+        "text": "I am writing to telling you about my trip"
       },
       {
         "key": "D",
-        "text": "However buy a brochure"
+        "text": "I am writing to tells you about my trip"
       }
     ],
     "answer": "B",
@@ -103844,15 +103844,15 @@
       },
       {
         "key": "B",
-        "text": "Walk ate the stadium"
+        "text": "You could walked for thirty minutes a day"
       },
       {
         "key": "C",
-        "text": "You are a medal"
+        "text": "You could walk for thirty minutes an day"
       },
       {
         "key": "D",
-        "text": "Please injury the diet"
+        "text": "You could to walk for thirty minutes a day"
       }
     ],
     "answer": "A",
@@ -103896,11 +103896,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "The stadium ran me"
+        "text": "Shall we run at the stadium in Saturday"
       },
       {
         "key": "B",
-        "text": "Saturday is eating"
+        "text": "Shall we run at the stadium on Staurday"
       },
       {
         "key": "C",
@@ -103924,15 +103924,15 @@
     "choices": [
       {
         "key": "A",
-        "text": "Diet is a marathon medal"
+        "text": "A balanced diet help your fitness"
       },
       {
         "key": "B",
-        "text": "Fitness ate the coach"
+        "text": "A blaanced diet helps your fitness"
       },
       {
         "key": "C",
-        "text": "Please flood the muscle"
+        "text": "A balanecd diet helps your fitness"
       },
       {
         "key": "D",
@@ -104124,15 +104124,15 @@
       },
       {
         "key": "B",
-        "text": "Injury is a medal"
+        "text": "Stop tarining if you feel an injury"
       },
       {
         "key": "C",
-        "text": "Please eat the stadium"
+        "text": "Stop trainnig if you feel an injury"
       },
       {
         "key": "D",
-        "text": "The coach is a diet"
+        "text": "Stop trining if you feel an injury"
       }
     ],
     "answer": "A",
@@ -104624,15 +104624,15 @@
     "choices": [
       {
         "key": "A",
-        "text": "The flood is a medal"
+        "text": "The flood are serious and many people need help"
       },
       {
         "key": "B",
-        "text": "Please eat the warning"
+        "text": "The flood is serious and many peoples need help"
       },
       {
         "key": "C",
-        "text": "I am a shelter"
+        "text": "The flood is sreious and many people need help"
       },
       {
         "key": "D",
@@ -104656,15 +104656,15 @@
       },
       {
         "key": "B",
-        "text": "Donate is a hurricane"
+        "text": "Could you please donate some balnkets"
       },
       {
         "key": "C",
-        "text": "You are an earthquake"
+        "text": "Could you please donate some blanktes"
       },
       {
         "key": "D",
-        "text": "Blankets ate the shelter"
+        "text": "Could you please donate some blnkets"
       }
     ],
     "answer": "A",
@@ -104680,7 +104680,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "Survivors are lockers"
+        "text": "I is worried about the survivors"
       },
       {
         "key": "B",
@@ -104688,11 +104688,11 @@
       },
       {
         "key": "C",
-        "text": "I earthquake the worry"
+        "text": "He is worried about the survivors"
       },
       {
         "key": "D",
-        "text": "Worry ate the drought"
+        "text": "I am worried about the sruvivors"
       }
     ],
     "answer": "B",
@@ -104712,7 +104712,7 @@
       },
       {
         "key": "B",
-        "text": "Glad is a flood"
+        "text": "I is glad the rescue team has left"
       },
       {
         "key": "C",
@@ -104720,7 +104720,7 @@
       },
       {
         "key": "D",
-        "text": "Please drought the team"
+        "text": "He is glad the rescue team has left"
       }
     ],
     "answer": "C",
@@ -104904,15 +104904,15 @@
     "choices": [
       {
         "key": "A",
-        "text": "Shelter is a medal"
+        "text": "Please go to the naerest shelter"
       },
       {
         "key": "B",
-        "text": "Eat the warning"
+        "text": "Please go to the nearset shelter"
       },
       {
         "key": "C",
-        "text": "The drought won a quiz"
+        "text": "Please go to the nerest shelter"
       },
       {
         "key": "D",
@@ -104936,7 +104936,7 @@
       },
       {
         "key": "B",
-        "text": "The station who sent the warning is a book"
+        "text": "The sattion that sent the warning is local"
       },
       {
         "key": "C",
@@ -105408,11 +105408,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "Characters ate the dialect"
+        "text": "Chinese characters are interest but hard to write"
       },
       {
         "key": "B",
-        "text": "I am a vocabulary"
+        "text": "Chinese characters are interesting but hard to writing"
       },
       {
         "key": "C",
@@ -105420,7 +105420,7 @@
       },
       {
         "key": "D",
-        "text": "Please flood the accent"
+        "text": "Chinese characters are interesting but hard to writes"
       }
     ],
     "answer": "C",
@@ -105436,15 +105436,15 @@
     "choices": [
       {
         "key": "A",
-        "text": "Dialect is a medal"
+        "text": "Can you speak your local dailect"
       },
       {
         "key": "B",
-        "text": "Speak ate the accent"
+        "text": "Can you speak your local dialcet"
       },
       {
         "key": "C",
-        "text": "You are a character"
+        "text": "Can you speak your local dilect"
       },
       {
         "key": "D",
@@ -105472,11 +105472,11 @@
       },
       {
         "key": "C",
-        "text": "Say ate the word"
+        "text": "Could you say that again more solwly"
       },
       {
         "key": "D",
-        "text": "I drought your dialect"
+        "text": "Could you say that again more slolwy"
       }
     ],
     "answer": "A",
@@ -105492,7 +105492,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "Vocabulary is a shelter"
+        "text": "Reading help you build your vocabulary"
       },
       {
         "key": "B",
@@ -105500,11 +105500,11 @@
       },
       {
         "key": "C",
-        "text": "Reading ate the dialect"
+        "text": "Reading helps you build your vcoabulary"
       },
       {
         "key": "D",
-        "text": "Please earthquake the word"
+        "text": "Reading helps you build your vocabulray"
       }
     ],
     "answer": "B",
@@ -105800,15 +105800,15 @@
     "choices": [
       {
         "key": "A",
-        "text": "In conclusion the dialect won"
+        "text": "My plan for learning Chinese are simple"
       },
       {
         "key": "B",
-        "text": "Therefore eat a character"
+        "text": "My plan for laerning Chinese is simple"
       },
       {
         "key": "C",
-        "text": "However the locker passed"
+        "text": "My plan for learnnig Chinese is simple"
       },
       {
         "key": "D",
@@ -106304,11 +106304,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "The temple ate the dynasty"
+        "text": "I thinks the ancient temple should be preserved"
       },
       {
         "key": "B",
-        "text": "Preserve is a medal"
+        "text": "I not think the ancient temple should be preserved"
       },
       {
         "key": "C",
@@ -106316,7 +106316,7 @@
       },
       {
         "key": "D",
-        "text": "Please flood the relic"
+        "text": "I think the ancient temple should be perserved"
       }
     ],
     "answer": "C",
@@ -106336,11 +106336,11 @@
       },
       {
         "key": "B",
-        "text": "Visitors are earthquakes"
+        "text": "The damage come from visitors cutting the walls"
       },
       {
         "key": "C",
-        "text": "Walls ate the site"
+        "text": "The damage comes from vsiitors cutting the walls"
       },
       {
         "key": "D",
@@ -106364,15 +106364,15 @@
       },
       {
         "key": "B",
-        "text": "Your point ate the relic"
+        "text": "I see your piont, but the site is worth it"
       },
       {
         "key": "C",
-        "text": "I am a dynasty"
+        "text": "I see your poit, but the site is worth it"
       },
       {
         "key": "D",
-        "text": "Worth is a locker"
+        "text": "I see your point, but the site is worh it"
       }
     ],
     "answer": "A",
@@ -106388,7 +106388,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "Rules ate the temple"
+        "text": "We could maked rules for visitors"
       },
       {
         "key": "B",
@@ -106396,11 +106396,11 @@
       },
       {
         "key": "C",
-        "text": "Could is a relic"
+        "text": "We could to make rules for visitors"
       },
       {
         "key": "D",
-        "text": "Visitors are droughts"
+        "text": "We could make rules for vsiitors"
       }
     ],
     "answer": "B",
@@ -106584,11 +106584,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "In conclusion the relic won"
+        "text": "I sgugest we protect the old city wall"
       },
       {
         "key": "B",
-        "text": "Therefore eat the site"
+        "text": "I suggset we protect the old city wall"
       },
       {
         "key": "C",
@@ -106596,7 +106596,7 @@
       },
       {
         "key": "D",
-        "text": "However the medal passed"
+        "text": "I sugest we protect the old city wall"
       }
     ],
     "answer": "C",
@@ -107096,11 +107096,11 @@
       },
       {
         "key": "C",
-        "text": "Protected is a hunter"
+        "text": "The atnelopes are being protected in the reserve"
       },
       {
         "key": "D",
-        "text": "Please extinct the plain"
+        "text": "The anteloeps are being protected in the reserve"
       }
     ],
     "answer": "B",
@@ -107116,11 +107116,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "Hunters are habitats"
+        "text": "Hunters is the main danger to this species"
       },
       {
         "key": "B",
-        "text": "Danger ate the plain"
+        "text": "Hnuters are the main danger to this species"
       },
       {
         "key": "C",
@@ -107128,7 +107128,7 @@
       },
       {
         "key": "D",
-        "text": "Species is a medal"
+        "text": "Huntres are the main danger to this species"
       }
     ],
     "answer": "C",
@@ -107144,15 +107144,15 @@
     "choices": [
       {
         "key": "A",
-        "text": "I don't agree the numbers ate"
+        "text": "I don't agree, because the numbers are rise"
       },
       {
         "key": "B",
-        "text": "Agree is extinct"
+        "text": "I don't agree, because the nmubers are rising"
       },
       {
         "key": "C",
-        "text": "Rising is a locker"
+        "text": "I don't agree, because the numbres are rising"
       },
       {
         "key": "D",
@@ -107176,15 +107176,15 @@
       },
       {
         "key": "B",
-        "text": "Buy is a reserve"
+        "text": "Please do not buy porducts made from wild animals"
       },
       {
         "key": "C",
-        "text": "Products ate the hunter"
+        "text": "Please do not buy produtcs made from wild animals"
       },
       {
         "key": "D",
-        "text": "Do not is a plain"
+        "text": "Please do not buy prducts made from wild animals"
       }
     ],
     "answer": "A",
@@ -107368,7 +107368,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "Antelope ate the hunter"
+        "text": "Protect the ednangered antelope"
       },
       {
         "key": "B",
@@ -107376,11 +107376,11 @@
       },
       {
         "key": "C",
-        "text": "In conclusion buy fur"
+        "text": "Protect the endangeerd antelope"
       },
       {
         "key": "D",
-        "text": "Therefore flood the plain"
+        "text": "Protect the enangered antelope"
       }
     ],
     "answer": "B",
@@ -107880,11 +107880,11 @@
       },
       {
         "key": "C",
-        "text": "Password is a blog"
+        "text": "Never post your psasword online"
       },
       {
         "key": "D",
-        "text": "Please privacy the comment"
+        "text": "Never post your passwrod online"
       }
     ],
     "answer": "A",
@@ -107908,11 +107908,11 @@
       },
       {
         "key": "C",
-        "text": "Deleted is an identity"
+        "text": "The rude cmoment has been deleted"
       },
       {
         "key": "D",
-        "text": "Comment ate the password"
+        "text": "The rude commnet has been deleted"
       }
     ],
     "answer": "B",
@@ -107928,11 +107928,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "Nickname ate my privacy"
+        "text": "I use a nickname to protecting my privacy"
       },
       {
         "key": "B",
-        "text": "Privacy is a stadium"
+        "text": "I use a nickname to protects my privacy"
       },
       {
         "key": "C",
@@ -107940,7 +107940,7 @@
       },
       {
         "key": "D",
-        "text": "I protect because password"
+        "text": "I use an nickname to protect my privacy"
       }
     ],
     "answer": "C",
@@ -107956,15 +107956,15 @@
     "choices": [
       {
         "key": "A",
-        "text": "Identity is online eating"
+        "text": "Check the person's iedntity before you add them"
       },
       {
         "key": "B",
-        "text": "Add them before never"
+        "text": "Check the person's identtiy before you add them"
       },
       {
         "key": "C",
-        "text": "Check ate the blog"
+        "text": "Check the person's idntity before you add them"
       },
       {
         "key": "D",
@@ -108156,15 +108156,15 @@
       },
       {
         "key": "B",
-        "text": "Identity ate the blog"
+        "text": "Keep your iedntity safe online"
       },
       {
         "key": "C",
-        "text": "In conclusion post the password"
+        "text": "Keep your identtiy safe online"
       },
       {
         "key": "D",
-        "text": "Therefore flood the comment"
+        "text": "Keep your idntity safe online"
       }
     ],
     "answer": "A",
@@ -108656,15 +108656,15 @@
     "choices": [
       {
         "key": "A",
-        "text": "Ancestors ate the kingdom"
+        "text": "On Qingming people honour their acnestors"
       },
       {
         "key": "B",
-        "text": "Honour is a battle"
+        "text": "On Qingming people honour their ancestros"
       },
       {
         "key": "C",
-        "text": "Please poem the gathering"
+        "text": "On Qingming people honour their anestors"
       },
       {
         "key": "D",
@@ -108720,11 +108720,11 @@
       },
       {
         "key": "C",
-        "text": "Gathering is a castle"
+        "text": "I support keeping this gtahering"
       },
       {
         "key": "D",
-        "text": "Support ate the custom"
+        "text": "I support keeping this gathernig"
       }
     ],
     "answer": "B",
@@ -108936,15 +108936,15 @@
     "choices": [
       {
         "key": "A",
-        "text": "In conclusion the battle won"
+        "text": "Let me tell you about an local tradition"
       },
       {
         "key": "B",
-        "text": "Therefore eat the poem"
+        "text": "Let me tell you about a local tardition"
       },
       {
         "key": "C",
-        "text": "However the kingdom passed the quiz"
+        "text": "Let me tell you about a local traditoin"
       },
       {
         "key": "D",
@@ -109672,11 +109672,11 @@
       },
       {
         "key": "C",
-        "text": "Performing ate the audience"
+        "text": "The band is perform on the stage"
       },
       {
         "key": "D",
-        "text": "Stage is a password"
+        "text": "The band is performnig on the stage"
       }
     ],
     "answer": "A",
@@ -109692,7 +109692,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "Concert ate the composer"
+        "text": "Shall we go to the calssical concert"
       },
       {
         "key": "B",
@@ -109700,7 +109700,7 @@
       },
       {
         "key": "C",
-        "text": "Shall is an instrument"
+        "text": "Shall we go to the classiacl concert"
       },
       {
         "key": "D",
@@ -109724,7 +109724,7 @@
       },
       {
         "key": "B",
-        "text": "Smiling sat the song"
+        "text": "The aduience sat there, smiling"
       },
       {
         "key": "C",
@@ -109732,7 +109732,7 @@
       },
       {
         "key": "D",
-        "text": "The audience smiling ate"
+        "text": "The audiecne sat there, smiling"
       }
     ],
     "answer": "C",
@@ -109948,15 +109948,15 @@
       },
       {
         "key": "B",
-        "text": "Band ate the rhythm"
+        "text": "Sutdent band on stage this Friday"
       },
       {
         "key": "C",
-        "text": "In conclusion buy a drum"
+        "text": "Studnet band on stage this Friday"
       },
       {
         "key": "D",
-        "text": "Therefore flood the audience"
+        "text": "Stdent band on stage this Friday"
       }
     ],
     "answer": "A",
@@ -110564,15 +110564,15 @@
       },
       {
         "key": "B",
-        "text": "Lanterns ate the lunar calendar"
+        "text": "During the Lantern Fsetival people watch lanterns"
       },
       {
         "key": "C",
-        "text": "Watch is a feast"
+        "text": "During the Lantern Festiavl people watch lanterns"
       },
       {
         "key": "D",
-        "text": "Please origin the firework"
+        "text": "During the Lantern Fetival people watch lanterns"
       }
     ],
     "answer": "A",
@@ -110616,11 +110616,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "Origin ate the moon"
+        "text": "The origin of the festival is cnonected with the moon"
       },
       {
         "key": "B",
-        "text": "Connected is a firework"
+        "text": "The origin of the festival is connecetd with the moon"
       },
       {
         "key": "C",
@@ -110628,7 +110628,7 @@
       },
       {
         "key": "D",
-        "text": "Moon is used to origin"
+        "text": "The origin of the festival is conected with the moon"
       }
     ],
     "answer": "C",
@@ -110644,7 +110644,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "Decorate ate the feast"
+        "text": "Let's to decorate the classroom with lanterns"
       },
       {
         "key": "B",
@@ -110652,7 +110652,7 @@
       },
       {
         "key": "C",
-        "text": "Classroom is a firework"
+        "text": "Let's decorate the calssroom with lanterns"
       },
       {
         "key": "D",
@@ -110844,15 +110844,15 @@
       },
       {
         "key": "B",
-        "text": "In conclusion the firework won"
+        "text": "Let me introduce an festival in my hometown"
       },
       {
         "key": "C",
-        "text": "Therefore eat the lantern"
+        "text": "Let me itnroduce a festival in my hometown"
       },
       {
         "key": "D",
-        "text": "However the feast passed"
+        "text": "Let me introdcue a festival in my hometown"
       }
     ],
     "answer": "A",
@@ -111344,15 +111344,15 @@
     "choices": [
       {
         "key": "A",
-        "text": "Honest ate the wallet"
+        "text": "It not was honest of you to return the wallet"
       },
       {
         "key": "B",
-        "text": "Return is a virtue only yesterday"
+        "text": "It was hnoest of you to return the wallet"
       },
       {
         "key": "C",
-        "text": "You are a duty"
+        "text": "It was honset of you to return the wallet"
       },
       {
         "key": "D",
@@ -111400,7 +111400,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "Respect ate the courage"
+        "text": "Respect for others is an virtue"
       },
       {
         "key": "B",
@@ -111408,11 +111408,11 @@
       },
       {
         "key": "C",
-        "text": "Virtue is a wallet"
+        "text": "Rsepect for others is a virtue"
       },
       {
         "key": "D",
-        "text": "Please duty the kindness"
+        "text": "Respcet for others is a virtue"
       }
     ],
     "answer": "B",
@@ -111428,11 +111428,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "That was a flood of you"
+        "text": "That was rseponsible of you"
       },
       {
         "key": "B",
-        "text": "Responsible ate the error"
+        "text": "That was responsilbe of you"
       },
       {
         "key": "C",
@@ -111440,7 +111440,7 @@
       },
       {
         "key": "D",
-        "text": "You are used to error"
+        "text": "That was reponsible of you"
       }
     ],
     "answer": "C",
@@ -111624,15 +111624,15 @@
     "choices": [
       {
         "key": "A",
-        "text": "In conclusion the wallet won"
+        "text": "Mei made a choice that show kindness"
       },
       {
         "key": "B",
-        "text": "Therefore eat the duty"
+        "text": "Mei made an choice that shows kindness"
       },
       {
         "key": "C",
-        "text": "However the courage passed"
+        "text": "Mei made a choice that shows knidness"
       },
       {
         "key": "D",
@@ -112128,11 +112128,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "Costumes ate my hometown"
+        "text": "The costumes in this region are different of those in my hometown"
       },
       {
         "key": "B",
-        "text": "Different is a belief"
+        "text": "The costumes in this region are dfiferent from those in my hometown"
       },
       {
         "key": "C",
@@ -112140,7 +112140,7 @@
       },
       {
         "key": "D",
-        "text": "Please minority the cuisine"
+        "text": "The costumes in this region are differnet from those in my hometown"
       }
     ],
     "answer": "C",
@@ -112188,15 +112188,15 @@
       },
       {
         "key": "B",
-        "text": "Tell me photo or not now"
+        "text": "Could you tell me if I may taked photos"
       },
       {
         "key": "C",
-        "text": "May is a costume"
+        "text": "Could you tell me if I may to take photos"
       },
       {
         "key": "D",
-        "text": "Photos ate the belief"
+        "text": "Could you tell me if I may take pohtos"
       }
     ],
     "answer": "A",
@@ -112212,7 +112212,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "Greeting means no person"
+        "text": "A different greeting doe not mean less respect"
       },
       {
         "key": "B",
@@ -112220,11 +112220,11 @@
       },
       {
         "key": "C",
-        "text": "Respect ate the region"
+        "text": "A dfiferent greeting does not mean less respect"
       },
       {
         "key": "D",
-        "text": "Different is rude always"
+        "text": "A differnet greeting does not mean less respect"
       }
     ],
     "answer": "B",
@@ -112408,11 +112408,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "In conclusion the costume won"
+        "text": "Today I learned about an local ethnic group"
       },
       {
         "key": "B",
-        "text": "Therefore eat the cuisine"
+        "text": "Today I laerned about a local ethnic group"
       },
       {
         "key": "C",
@@ -112420,7 +112420,7 @@
       },
       {
         "key": "D",
-        "text": "However the greeting passed"
+        "text": "Today I learend about a local ethnic group"
       }
     ],
     "answer": "C",
@@ -113000,11 +113000,11 @@
       },
       {
         "key": "B",
-        "text": "Watch ate the universe"
+        "text": "Shall we watch the rcoket launch"
       },
       {
         "key": "C",
-        "text": "Shall is gravity"
+        "text": "Shall we watch the rocekt launch"
       },
       {
         "key": "D",
@@ -113192,7 +113192,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "Mission ate the orbit"
+        "text": "What I laerned about the mission"
       },
       {
         "key": "B",
@@ -113200,11 +113200,11 @@
       },
       {
         "key": "C",
-        "text": "In conclusion buy a rocket"
+        "text": "What I learend about the mission"
       },
       {
         "key": "D",
-        "text": "Therefore flood the planet"
+        "text": "What I lerned about the mission"
       }
     ],
     "answer": "B",
@@ -113708,7 +113708,7 @@
       },
       {
         "key": "D",
-        "text": "Bargain ate the budget"
+        "text": "This bragain is not worth buying"
       }
     ],
     "answer": "A",
@@ -113756,7 +113756,7 @@
       },
       {
         "key": "B",
-        "text": "Budget ate the loan"
+        "text": "You should maked a budget before you take a loan"
       },
       {
         "key": "C",
@@ -113764,7 +113764,7 @@
       },
       {
         "key": "D",
-        "text": "Take a loan is charity"
+        "text": "You should to make a budget before you take a loan"
       }
     ],
     "answer": "C",
@@ -113780,15 +113780,15 @@
     "choices": [
       {
         "key": "A",
-        "text": "Charity ate the debt"
+        "text": "Giving some money to cahrity is of greater value"
       },
       {
         "key": "B",
-        "text": "Value is a bargain only"
+        "text": "Giving some money to chartiy is of greater value"
       },
       {
         "key": "C",
-        "text": "Greater money gives charity ate"
+        "text": "Giving some money to chrity is of greater value"
       },
       {
         "key": "D",
@@ -113980,15 +113980,15 @@
       },
       {
         "key": "B",
-        "text": "In conclusion the bargain won"
+        "text": "I learned an lesson about value"
       },
       {
         "key": "C",
-        "text": "Therefore eat the budget"
+        "text": "I laerned a lesson about value"
       },
       {
         "key": "D",
-        "text": "However the debt passed the quiz"
+        "text": "I learend a lesson about value"
       }
     ],
     "answer": "A",
@@ -114484,11 +114484,11 @@
       },
       {
         "key": "B",
-        "text": "Life ate the Nobel"
+        "text": "She not devoted her life to research"
       },
       {
         "key": "C",
-        "text": "Please theory the genius"
+        "text": "She devoted her life to rseearch"
       },
       {
         "key": "D",
@@ -114564,7 +114564,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "Next ate the career"
+        "text": "Next, he pbulished the theory"
       },
       {
         "key": "B",
@@ -114576,7 +114576,7 @@
       },
       {
         "key": "D",
-        "text": "Theory is a locker"
+        "text": "Next, he publisehd the theory"
       }
     ],
     "answer": "C",
@@ -114760,15 +114760,15 @@
     "choices": [
       {
         "key": "A",
-        "text": "In conclusion the Nobel ate"
+        "text": "This paragraph introduce a scientist"
       },
       {
         "key": "B",
-        "text": "Therefore flood the theory"
+        "text": "This paragraph introduces an scientist"
       },
       {
         "key": "C",
-        "text": "However the genius passed the quiz"
+        "text": "This paragraph itnroduces a scientist"
       },
       {
         "key": "D",
@@ -115264,11 +115264,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "First ate the robot"
+        "text": "First, the snesor checks the food"
       },
       {
         "key": "B",
-        "text": "Sensor is a prize"
+        "text": "First, the senosr checks the food"
       },
       {
         "key": "C",
@@ -115276,7 +115276,7 @@
       },
       {
         "key": "D",
-        "text": "Please predict the appliance"
+        "text": "First, the sesor checks the food"
       }
     ],
     "answer": "C",
@@ -115544,7 +115544,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "Second ate the robot"
+        "text": "Second, check wehther the network is on"
       },
       {
         "key": "B",
@@ -116080,7 +116080,7 @@
       },
       {
         "key": "B",
-        "text": "Feed is a wetland"
+        "text": "Feeding animals is porhibited"
       },
       {
         "key": "C",
@@ -116088,7 +116088,7 @@
       },
       {
         "key": "D",
-        "text": "Please ecology the trail"
+        "text": "Feeding animals is prohibietd"
       }
     ],
     "answer": "C",
@@ -116328,7 +116328,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "Wetland ate the ranger"
+        "text": "How to visiting the wetland"
       },
       {
         "key": "B",
@@ -116336,11 +116336,11 @@
       },
       {
         "key": "C",
-        "text": "In conclusion buy binoculars"
+        "text": "How to visits the wetland"
       },
       {
         "key": "D",
-        "text": "Therefore flood the boundary"
+        "text": "How to visit the wteland"
       }
     ],
     "answer": "B",
@@ -116836,15 +116836,15 @@
       },
       {
         "key": "B",
-        "text": "Nod ate the distance"
+        "text": "A nod often mean agreement"
       },
       {
         "key": "C",
-        "text": "Agreement is a frown"
+        "text": "A nod often means argeement"
       },
       {
         "key": "D",
-        "text": "Please posture the contact"
+        "text": "A nod often means agreemnet"
       }
     ],
     "answer": "A",
@@ -116916,7 +116916,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "Distance ate the gesture"
+        "text": "Please keep an comfortable distance"
       },
       {
         "key": "B",
@@ -116924,7 +116924,7 @@
       },
       {
         "key": "C",
-        "text": "Comfortable is a nod"
+        "text": "Please keep a cmofortable distance"
       },
       {
         "key": "D",
@@ -117116,15 +117116,15 @@
       },
       {
         "key": "B",
-        "text": "Gestures ate the frown"
+        "text": "I watched how people used gsetures"
       },
       {
         "key": "C",
-        "text": "In conclusion buy a nod"
+        "text": "I watched how people used gestuers"
       },
       {
         "key": "D",
-        "text": "Therefore flood the posture"
+        "text": "I watched how people used getures"
       }
     ],
     "answer": "A",
@@ -117672,7 +117672,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "Yield ate the irrigation"
+        "text": "Organic fertilizer may increased the yield"
       },
       {
         "key": "B",
@@ -117680,11 +117680,11 @@
       },
       {
         "key": "C",
-        "text": "Increase is a crop"
+        "text": "Organic fertilizer may to increase the yield"
       },
       {
         "key": "D",
-        "text": "Please soil the organic"
+        "text": "Organic fretilizer may increase the yield"
       }
     ],
     "answer": "B",
@@ -117896,15 +117896,15 @@
     "choices": [
       {
         "key": "A",
-        "text": "Harvest ate the yield"
+        "text": "Here are the plan for the harvest"
       },
       {
         "key": "B",
-        "text": "In conclusion buy fertilizer"
+        "text": "Here is the plan for the hravest"
       },
       {
         "key": "C",
-        "text": "Therefore flood the soil"
+        "text": "Here is the plan for the harvset"
       },
       {
         "key": "D",
@@ -118460,15 +118460,15 @@
       },
       {
         "key": "B",
-        "text": "Data ate the hypothesis"
+        "text": "The data are not enough to support the hpyothesis"
       },
       {
         "key": "C",
-        "text": "Enough is a variable"
+        "text": "The data are not enough to support the hypotheiss"
       },
       {
         "key": "D",
-        "text": "Please sample the method"
+        "text": "The data are not enough to support the hyothesis"
       }
     ],
     "answer": "A",
@@ -118492,11 +118492,11 @@
       },
       {
         "key": "C",
-        "text": "Variables ate the sample"
+        "text": "We should controlled the variables first"
       },
       {
         "key": "D",
-        "text": "First is a method only"
+        "text": "We should to control the variables first"
       }
     ],
     "answer": "B",
@@ -118680,11 +118680,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "Hypothesis ate the data"
+        "text": "The hypothesis is interest but not fully proved"
       },
       {
         "key": "B",
-        "text": "In conclusion buy a sample"
+        "text": "The hypothesis is itneresting but not fully proved"
       },
       {
         "key": "C",
@@ -118692,7 +118692,7 @@
       },
       {
         "key": "D",
-        "text": "Therefore flood the method"
+        "text": "The hypothesis is interestnig but not fully proved"
       }
     ],
     "answer": "C",
@@ -119240,15 +119240,15 @@
     "choices": [
       {
         "key": "A",
-        "text": "Fluent ate the custom"
+        "text": "I am not fluent yet, so I may misunderstanded"
       },
       {
         "key": "B",
-        "text": "Misunderstand is a host"
+        "text": "I am not fluent yet, so I may to misunderstand"
       },
       {
         "key": "C",
-        "text": "Please abroad the language"
+        "text": "I is not fluent yet, so I may misunderstand"
       },
       {
         "key": "D",
@@ -119276,11 +119276,11 @@
       },
       {
         "key": "C",
-        "text": "Customs ate the host"
+        "text": "Exchange students should learned local customs first"
       },
       {
         "key": "D",
-        "text": "First is homesick"
+        "text": "Exchange students should to learn local customs first"
       }
     ],
     "answer": "A",
@@ -119464,7 +119464,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "Custom ate the host"
+        "text": "I misunderstood an custom at dinner"
       },
       {
         "key": "B",
@@ -119472,11 +119472,11 @@
       },
       {
         "key": "C",
-        "text": "In conclusion buy clothes"
+        "text": "I msiunderstood a custom at dinner"
       },
       {
         "key": "D",
-        "text": "Therefore flood the exchange"
+        "text": "I miunderstood a custom at dinner"
       }
     ],
     "answer": "B",
@@ -120024,11 +120024,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "Manners ate the banquet"
+        "text": "It are good manners not to point with chopsticks"
       },
       {
         "key": "B",
-        "text": "Chopsticks are a flavour"
+        "text": "It is good manners not to point with cohpsticks"
       },
       {
         "key": "C",
@@ -120036,7 +120036,7 @@
       },
       {
         "key": "D",
-        "text": "Please appetite the spice"
+        "text": "It is good manners not to point with chopstikcs"
       }
     ],
     "answer": "C",
@@ -120052,7 +120052,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "Appetite ate the ingredient"
+        "text": "The flavour may improved your appetite"
       },
       {
         "key": "B",
@@ -120060,7 +120060,7 @@
       },
       {
         "key": "C",
-        "text": "Flavour is a chopstick"
+        "text": "The flavour may to improve your appetite"
       },
       {
         "key": "D",
@@ -120252,15 +120252,15 @@
       },
       {
         "key": "B",
-        "text": "Banquet ate the spice"
+        "text": "This paragraph describe one banquet"
       },
       {
         "key": "C",
-        "text": "In conclusion buy chopsticks"
+        "text": "This praagraph describes one banquet"
       },
       {
         "key": "D",
-        "text": "Therefore flood the recipe"
+        "text": "This paragrpah describes one banquet"
       }
     ],
     "answer": "A",
@@ -120920,11 +120920,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "Boundless ate the carriage"
+        "text": "The plain looked buondless"
       },
       {
         "key": "B",
-        "text": "Plain is a delay"
+        "text": "The plain looked boundlses"
       },
       {
         "key": "C",
@@ -120932,7 +120932,7 @@
       },
       {
         "key": "D",
-        "text": "Please awesome the rail"
+        "text": "The plain looked bondless"
       }
     ],
     "answer": "C",
@@ -120948,15 +120948,15 @@
     "choices": [
       {
         "key": "A",
-        "text": "Delay ate my ticket"
+        "text": "I is sorry the train is delayed"
       },
       {
         "key": "B",
-        "text": "Sorry is a carriage"
+        "text": "He is sorry the train is delayed"
       },
       {
         "key": "C",
-        "text": "The frost is your fault always"
+        "text": "I am sorry the train is dleayed"
       },
       {
         "key": "D",
@@ -121148,15 +121148,15 @@
       },
       {
         "key": "B",
-        "text": "Journey ate the frost"
+        "text": "I am write to tell you about the journey"
       },
       {
         "key": "C",
-        "text": "In conclusion buy a rail"
+        "text": "I am writing to telling you about the journey"
       },
       {
         "key": "D",
-        "text": "Therefore flood the carriage"
+        "text": "I am writing to tells you about the journey"
       }
     ],
     "answer": "A",
@@ -121648,15 +121648,15 @@
     "choices": [
       {
         "key": "A",
-        "text": "First ate the bandage"
+        "text": "First, put perssure on the wound"
       },
       {
         "key": "B",
-        "text": "Pressure is an ambulance"
+        "text": "First, put pressrue on the wound"
       },
       {
         "key": "C",
-        "text": "Please choke the swelling"
+        "text": "First, put prssure on the wound"
       },
       {
         "key": "D",
@@ -121736,7 +121736,7 @@
       },
       {
         "key": "B",
-        "text": "Ambulance ate the pressure"
+        "text": "If someone is choke, call an ambulance at once"
       },
       {
         "key": "C",
@@ -121744,7 +121744,7 @@
       },
       {
         "key": "D",
-        "text": "At once is a wound"
+        "text": "If someone is choking, call an abmulance at once"
       }
     ],
     "answer": "C",
@@ -121928,15 +121928,15 @@
     "choices": [
       {
         "key": "A",
-        "text": "Bleeding ate the bandage"
+        "text": "Follow these steps when someone is bleed"
       },
       {
         "key": "B",
-        "text": "In conclusion buy pressure"
+        "text": "Follow these steps when someone is beleding"
       },
       {
         "key": "C",
-        "text": "Therefore flood the ambulance"
+        "text": "Follow these steps when someone is bleednig"
       },
       {
         "key": "D",
@@ -122492,15 +122492,15 @@
       },
       {
         "key": "B",
-        "text": "Abstract ate the canvas"
+        "text": "The painting are abstract rather than realistic"
       },
       {
         "key": "C",
-        "text": "Rather is a brush"
+        "text": "The painting is abstract rather than raelistic"
       },
       {
         "key": "D",
-        "text": "Please gallery the visual"
+        "text": "The painting is abstract rather than realisitc"
       }
     ],
     "answer": "A",
@@ -122516,7 +122516,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "First ate the brush"
+        "text": "First, look at the whole cnavas"
       },
       {
         "key": "B",
@@ -122528,7 +122528,7 @@
       },
       {
         "key": "D",
-        "text": "Canvas is an exhibition"
+        "text": "First, look at the whole canavs"
       }
     ],
     "answer": "B",
@@ -122712,11 +122712,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "Gallery ate the canvas"
+        "text": "This note record one visit to a gallery"
       },
       {
         "key": "B",
-        "text": "In conclusion buy a sculpture"
+        "text": "This note records one visit to an gallery"
       },
       {
         "key": "C",
@@ -122724,7 +122724,7 @@
       },
       {
         "key": "D",
-        "text": "Therefore flood the exhibition"
+        "text": "This note rceords one visit to a gallery"
       }
     ],
     "answer": "C",
@@ -123304,15 +123304,15 @@
       },
       {
         "key": "B",
-        "text": "Anxiety ate the routine"
+        "text": "A short walk can refreshed you and reduce anxiety"
       },
       {
         "key": "C",
-        "text": "Refresh is nutrition"
+        "text": "A short walk can to refresh you and reduce anxiety"
       },
       {
         "key": "D",
-        "text": "Please balance the stress word"
+        "text": "A short walk can rferesh you and reduce anxiety"
       }
     ],
     "answer": "A",
@@ -123496,7 +123496,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "Stress ate the garden"
+        "text": "A balanced routine can reduced stress"
       },
       {
         "key": "B",
@@ -123504,11 +123504,11 @@
       },
       {
         "key": "C",
-        "text": "In conclusion buy anxiety"
+        "text": "A balanced routine can to reduce stress"
       },
       {
         "key": "D",
-        "text": "Therefore flood the nutrition"
+        "text": "A blaanced routine can reduce stress"
       }
     ],
     "answer": "B",
@@ -124056,11 +124056,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "Sustainable ate the carbon"
+        "text": "The policy should be ssutainable"
       },
       {
         "key": "B",
-        "text": "Policy is a melt"
+        "text": "The policy should be sustainalbe"
       },
       {
         "key": "C",
@@ -124068,7 +124068,7 @@
       },
       {
         "key": "D",
-        "text": "Please emission the drought"
+        "text": "The policy should be sutainable"
       }
     ],
     "answer": "C",
@@ -124284,15 +124284,15 @@
       },
       {
         "key": "B",
-        "text": "Evidence ate the carbon"
+        "text": "The evidence point to policy, not only to weather"
       },
       {
         "key": "C",
-        "text": "In conclusion buy emissions"
+        "text": "The eivdence points to policy, not only to weather"
       },
       {
         "key": "D",
-        "text": "Therefore flood the lake"
+        "text": "The evidecne points to policy, not only to weather"
       }
     ],
     "answer": "A",
@@ -124840,7 +124840,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "Hope ate the ordeal"
+        "text": "Preseverance gave them hope"
       },
       {
         "key": "B",
@@ -124852,7 +124852,7 @@
       },
       {
         "key": "D",
-        "text": "Please despair the crew"
+        "text": "Perseveracne gave them hope"
       }
     ],
     "answer": "B",
@@ -125064,15 +125064,15 @@
     "choices": [
       {
         "key": "A",
-        "text": "Adversity ate the crew"
+        "text": "The story show courage in adversity"
       },
       {
         "key": "B",
-        "text": "In conclusion buy hope"
+        "text": "The story shows courage in avdersity"
       },
       {
         "key": "C",
-        "text": "Therefore flood the island"
+        "text": "The story shows courage in adverstiy"
       },
       {
         "key": "D",
@@ -125628,15 +125628,15 @@
       },
       {
         "key": "B",
-        "text": "Metaphor ate the rhyme"
+        "text": "The metaphor carrie the emotion of the verse"
       },
       {
         "key": "C",
-        "text": "Emotion is a canvas"
+        "text": "The mteaphor carries the emotion of the verse"
       },
       {
         "key": "D",
-        "text": "Please recite the imagery word"
+        "text": "The metapohr carries the emotion of the verse"
       }
     ],
     "answer": "A",
@@ -125848,11 +125848,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "Imagery ate the rhyme"
+        "text": "The poem uses quiet imagery and an strong rhythm"
       },
       {
         "key": "B",
-        "text": "In conclusion buy a verse"
+        "text": "The poem uses quiet iamgery and a strong rhythm"
       },
       {
         "key": "C",
@@ -125860,7 +125860,7 @@
       },
       {
         "key": "D",
-        "text": "Therefore flood the metaphor"
+        "text": "The poem uses quiet imagrey and a strong rhythm"
       }
     ],
     "answer": "C",
@@ -126632,7 +126632,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "Android ate the gravity"
+        "text": "This science fiction follow an android on a spacecraft"
       },
       {
         "key": "B",
@@ -126640,11 +126640,11 @@
       },
       {
         "key": "C",
-        "text": "In conclusion buy a clone"
+        "text": "This science fiction follows an android on an spacecraft"
       },
       {
         "key": "D",
-        "text": "Therefore flood the dimension"
+        "text": "This science fiction follows an android on a sapcecraft"
       }
     ],
     "answer": "B",
@@ -127192,11 +127192,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "Landmark ate the queue"
+        "text": "The tower are a landmark of the city"
       },
       {
         "key": "B",
-        "text": "Tower is a guide"
+        "text": "The tower is an landmark of the city"
       },
       {
         "key": "C",
@@ -127204,7 +127204,7 @@
       },
       {
         "key": "D",
-        "text": "Please statue the temple"
+        "text": "The tower is a lnadmark of the city"
       }
     ],
     "answer": "C",
@@ -127420,15 +127420,15 @@
       },
       {
         "key": "B",
-        "text": "Landmark ate the queue"
+        "text": "This walk start at the city landmark"
       },
       {
         "key": "C",
-        "text": "In conclusion buy a statue"
+        "text": "This walk starts at the city lnadmark"
       },
       {
         "key": "D",
-        "text": "Therefore flood the temple"
+        "text": "This walk starts at the city landmrak"
       }
     ],
     "answer": "A",
@@ -128200,15 +128200,15 @@
     "choices": [
       {
         "key": "A",
-        "text": "Tide ate the compass"
+        "text": "Check the tide before the vyoage"
       },
       {
         "key": "B",
-        "text": "In conclusion buy an anchor"
+        "text": "Check the tide before the voygae"
       },
       {
         "key": "C",
-        "text": "Therefore flood the harbour"
+        "text": "Check the tide before the voage"
       },
       {
         "key": "D",
@@ -128764,15 +128764,15 @@
       },
       {
         "key": "B",
-        "text": "Volunteer ate the charity"
+        "text": "Could you volunteer in Saturday"
       },
       {
         "key": "C",
-        "text": "Saturday is a shelter"
+        "text": "Could you vlounteer on Saturday"
       },
       {
         "key": "D",
-        "text": "Please donate the neighbour word"
+        "text": "Could you vounteer on Saturday"
       }
     ],
     "answer": "A",
@@ -128984,11 +128984,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "Shelter ate the blankets"
+        "text": "We needs volunteers for the community shelter"
       },
       {
         "key": "B",
-        "text": "In conclusion buy a neighbour"
+        "text": "We need vlounteers for the community shelter"
       },
       {
         "key": "C",
@@ -128996,7 +128996,7 @@
       },
       {
         "key": "D",
-        "text": "Therefore flood the charity"
+        "text": "We need volunteres for the community shelter"
       }
     ],
     "answer": "C",
@@ -129660,15 +129660,15 @@
       },
       {
         "key": "B",
-        "text": "Interview ate the deadline"
+        "text": "Could I come for an itnerview before Friday"
       },
       {
         "key": "C",
-        "text": "Friday is a résumé"
+        "text": "Could I come for an interveiw before Friday"
       },
       {
         "key": "D",
-        "text": "Please employ the word applicant"
+        "text": "Could I come for an inerview before Friday"
       }
     ],
     "answer": "A",
@@ -129880,11 +129880,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "Post ate the deadline"
+        "text": "I am write to apply for the post"
       },
       {
         "key": "B",
-        "text": "In conclusion buy a résumé"
+        "text": "I am writing to applying for the post"
       },
       {
         "key": "C",
@@ -129892,7 +129892,7 @@
       },
       {
         "key": "D",
-        "text": "Therefore flood the interview"
+        "text": "I am writing to applys for the post"
       }
     ],
     "answer": "C",
