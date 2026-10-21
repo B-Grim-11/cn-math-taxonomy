@@ -41,6 +41,8 @@
   let pathCy = null;
   let pathToken = 0;
   let pathTipLock = false;
+  let pathExpanded = false;
+  const PATH_FOLD_AT = 40;
   let shareBlobUrl = null;
   let shareToken = 0;
 
@@ -213,6 +215,7 @@
   }
 
   function startSession(targets, label, limit, mode) {
+    pathExpanded = false;
     const screen = mode === 'screen';
     session = E.createSession(D.graph, targets, {
       mode: mode, limit: limit || (screen ? getSettings().screenLimit : getSettings().limit), seed: newSeed(), avoid: seenList()
@@ -232,6 +235,7 @@
   }
 
   function restart() {
+    pathExpanded = false;
     session = null; demo = null;
     lsDel(sessionKey());
     history.replaceState(null, '', location.pathname + (subject === 'english' ? '?subject=english' : ''));
@@ -871,7 +875,12 @@
 
     page.append(h('div', { class: 'card', id: 'graph' },
       h('h2', { text: '路径图' }),
-      h('p', { class: 'muted small' }, '小学、初中和高中用不同颜色。硬先修是实线，软先修是虚线，点线表示中间省略了没画出来的知识点。红框是薄弱根因，橙框是目标。名称太长会省略，悬停或点按可看全名。上面的列表是完整学习顺序。'),
+      h('p', { class: 'muted small' }, '小学、初中和高中用不同颜色。硬先修是实线，软先修是虚线，点线表示中间省略了没画出来的知识点。红框是薄弱根因，橙框是目标。节点较多时先按年级收起中间点，可再展开。名称太长会省略，悬停或点按可看全名。滚轮缩放，拖动平移。上面的列表是完整学习顺序。'),
+      h('div', { class: 'path-tools no-print' },
+        h('button', { type: 'button', id: 'path-zoom-out', onclick: function () { pathZoom(0.8); } }, '缩小'),
+        h('button', { type: 'button', id: 'path-zoom-in', onclick: function () { pathZoom(1.25); } }, '放大'),
+        h('button', { type: 'button', id: 'path-fit', onclick: pathFit }, '适配画面')),
+      h('p', { id: 'path-fold', class: 'graph-fold no-print', hidden: true }),
       h('ul', { class: 'legend' },
         h('li', null, h('i', { class: 'swatch sw-p' }), '小学'),
         h('li', null, h('i', { class: 'swatch sw-j' }), '初中'),
@@ -982,6 +991,136 @@
   }
 
   /* ------------------------------------------------------------ 路径图（Cytoscape + dagre） */
+  function stageKind(grade) { return grade <= 6 ? 'primary' : grade <= 9 ? 'junior' : 'senior'; }
+  function gradeWord(grade) {
+    const cn = ['', '一', '二', '三', '四', '五', '六', '七', '八', '九'];
+    if (subject === 'english') {
+      if (grade >= 1 && grade <= 9) return cn[grade] + '年级';
+      const en = { 10: '必修一', 11: '必修二', 12: '必修三', 13: '选必一', 14: '选必二', 15: '选必三', 16: '选必四' };
+      return en[grade] || ('册' + grade);
+    }
+    if (grade >= 1 && grade <= 9) return cn[grade] + '年级';
+    const math = { 10: '高一', 11: '高二', 12: '选必一', 13: '选必二', 14: '选必三' };
+    return math[grade] || ('年级' + grade);
+  }
+  function toneOf(kind, colors) {
+    if (kind === 'primary') return [colors.primaryBg, colors.primary];
+    if (kind === 'junior') return [colors.juniorBg, colors.junior];
+    return [colors.seniorBg, colors.senior];
+  }
+  function pathNodeElement(n, colors) {
+    const topic = D.graph.byId[n.id];
+    const grade = topic && typeof topic.grade === 'number' ? topic.grade : 7;
+    const kind = stageKind(grade);
+    const name = nameOf(n.id);
+    const bits = [name];
+    if (n.isRoot) bits.push('薄弱根因');
+    if (n.isTarget) bits.push('目标');
+    bits.push(STATUS_LABEL[n.status] || n.status);
+    const tone = toneOf(kind, colors);
+    let bg = tone[0];
+    let border = tone[1];
+    if (n.isTarget) { bg = colors.currentBg; border = colors.currentBorder; }
+    if (n.isRoot) { bg = colors.badBg; border = colors.bad; }
+    const classes = [kind];
+    if (n.isRoot) classes.push('root');
+    if (n.isTarget) classes.push('target', 'current');
+    return {
+      data: { id: n.id, name: name, full: bits.join(' · '), label: clipLabel(name), bg: bg, border: border, color: colors.text },
+      classes: classes.join(' ')
+    };
+  }
+  function buildPathElements(lay, colors, folded) {
+    const elements = [];
+    const bucket = new Map();
+    const gradeMembers = new Map();
+    lay.nodes.forEach(function (n) {
+      if (!folded || n.isRoot || n.isTarget) {
+        bucket.set(n.id, n.id);
+        elements.push(pathNodeElement(n, colors));
+        return;
+      }
+      const topic = D.graph.byId[n.id];
+      const grade = topic && typeof topic.grade === 'number' ? topic.grade : 0;
+      if (!gradeMembers.has(grade)) gradeMembers.set(grade, []);
+      gradeMembers.get(grade).push(n.id);
+    });
+    gradeMembers.forEach(function (ids, grade) {
+      const id = 'grade-' + grade;
+      const kind = stageKind(grade);
+      const tone = toneOf(kind, colors);
+      const name = gradeWord(grade) + '·' + ids.length + '个';
+      elements.push({
+        data: {
+          id: id, name: name, full: gradeWord(grade) + '的 ' + ids.length + ' 个知识点',
+          label: clipLabel(name), bg: tone[0], border: tone[1], color: colors.text
+        },
+        classes: kind + ' grade'
+      });
+      ids.forEach(function (topicId) { bucket.set(topicId, id); });
+    });
+    const seen = new Map();
+    lay.edges.forEach(function (e) {
+      const a = bucket.get(e.from);
+      const b = bucket.get(e.to);
+      if (!a || !b || a === b) return;
+      const key = a + '>' + b;
+      const kind = !e.direct ? 'indirect' : (e.strength === 'soft' ? 'soft' : 'hard');
+      const rank = kind === 'hard' ? 3 : kind === 'soft' ? 2 : 1;
+      const prev = seen.get(key);
+      if (!prev || rank > prev.rank) seen.set(key, { kind: kind, rank: rank });
+    });
+    let edgeIndex = 0;
+    seen.forEach(function (info, key) {
+      const parts = key.split('>');
+      const color = info.kind === 'hard' ? colors.edge : colors.edgeSoft;
+      elements.push({
+        data: { id: 'e' + (edgeIndex++), source: parts[0], target: parts[1], color: color },
+        classes: info.kind
+      });
+    });
+    return elements;
+  }
+  function updatePathFold(total, folded) {
+    const box = document.getElementById('path-fold');
+    if (!box) return;
+    if (total <= PATH_FOLD_AT) {
+      box.hidden = true;
+      box.replaceChildren();
+      return;
+    }
+    box.hidden = false;
+    if (folded) {
+      box.replaceChildren(
+        document.createTextNode('路径较长，已按年级收起中间知识点。根因和目标仍单独画出。'),
+        h('button', { type: 'button', id: 'btn-path-expand', text: '展开全部 ' + total + ' 个' })
+      );
+    } else {
+      box.replaceChildren(
+        document.createTextNode('已展开全部 ' + total + ' 个知识点。'),
+        h('button', { type: 'button', id: 'btn-path-collapse', text: '按年级收起' })
+      );
+    }
+  }
+  function pathZoom(factor) {
+    if (!pathCy) return;
+    const rect = pathCy.container().getBoundingClientRect();
+    pathCy.zoom({
+      level: Math.max(pathCy.minZoom(), Math.min(pathCy.maxZoom(), pathCy.zoom() * factor)),
+      renderedPosition: { x: rect.width / 2, y: rect.height / 2 }
+    });
+  }
+  function pathFit() {
+    if (!pathCy) return;
+    pathCy.resize();
+    const many = pathCy.nodes().length > 48;
+    if (many) pathCy.minZoom(0.45);
+    pathCy.fit(undefined, 28);
+    if (many && pathCy.zoom() < 0.45) {
+      pathCy.zoom(0.55);
+      pathCy.center();
+    }
+  }
   function hidePathTip() {
     const tip = document.getElementById('node-tip');
     if (tip) tip.hidden = true;
@@ -1029,41 +1168,17 @@
         const textMax = narrow ? 104 : 126;
         const boxW = narrow ? 118 : 142;
         const FONT = '"PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", "Noto Sans SC", sans-serif';
-        const elements = [];
-        lay.nodes.forEach(function (n) {
-          const topic = D.graph.byId[n.id];
-          const grade = topic && typeof topic.grade === 'number' ? topic.grade : 7;
-          const kind = grade <= 6 ? 'primary' : grade <= 9 ? 'junior' : 'senior';
-          const name = nameOf(n.id);
-          const bits = [name];
-          if (n.isRoot) bits.push('薄弱根因');
-          if (n.isTarget) bits.push('目标');
-          bits.push(STATUS_LABEL[n.status] || n.status);
-          let bg = kind === 'primary' ? colors.primaryBg : kind === 'junior' ? colors.juniorBg : colors.seniorBg;
-          let border = kind === 'primary' ? colors.primary : kind === 'junior' ? colors.junior : colors.senior;
-          if (n.isTarget) { bg = colors.currentBg; border = colors.currentBorder; }
-          if (n.isRoot) { bg = colors.badBg; border = colors.bad; }
-          const classes = [kind];
-          if (n.isRoot) classes.push('root');
-          if (n.isTarget) classes.push('target', 'current');
-          elements.push({
-            data: { id: n.id, name: name, full: bits.join(' · '), label: clipLabel(name), bg: bg, border: border, color: colors.text },
-            classes: classes.join(' ')
-          });
-        });
-        lay.edges.forEach(function (e, i) {
-          const soft = e.direct && e.strength === 'soft';
-          const kind = !e.direct ? 'indirect' : (soft ? 'soft' : 'hard');
-          const color = kind === 'hard' ? colors.edge : colors.edgeSoft;
-          elements.push({
-            data: { id: 'e' + i, source: e.from, target: e.to, color: color },
-            classes: kind
-          });
-        });
+        const total = lay.nodes.length;
+        const folded = total > PATH_FOLD_AT && !pathExpanded;
+        const heavy = !folded && total > 48;
+        updatePathFold(total, folded);
+        cyEl.dataset.mode = folded ? 'grade' : 'full';
+        cyEl.dataset.total = String(total);
+        const elements = buildPathElements(lay, colors, folded);
         pathCy = window.cytoscape({
           container: cyEl,
           elements: elements,
-          minZoom: 0.2,
+          minZoom: heavy ? 0.45 : 0.2,
           maxZoom: 2.8,
           wheelSensitivity: 0.28,
           boxSelectionEnabled: false,
@@ -1085,7 +1200,7 @@
             } },
             { selector: 'edge', style: {
               width: 1.6, 'line-color': 'data(color)', 'target-arrow-color': 'data(color)',
-              'target-arrow-shape': 'triangle', 'curve-style': 'bezier', 'arrow-scale': 0.8, 'line-style': 'solid'
+              'target-arrow-shape': 'triangle', 'curve-style': heavy ? 'straight' : 'bezier', 'arrow-scale': 0.8, 'line-style': 'solid'
             } },
             { selector: 'edge.soft', style: { 'line-style': 'dashed', width: 1.5 } },
             { selector: 'edge.indirect', style: { 'line-style': 'dotted', width: 1.4 } }
@@ -1099,15 +1214,25 @@
           if (event.target === pathCy) { pathTipLock = false; hidePathTip(); }
         });
         const layout = pathCy.layout({
-          name: 'dagre', rankDir: 'TB', rankSep: 64, nodeSep: 22, edgeSep: 10,
-          padding: 16, animate: false, fit: true, nodeDimensionsIncludeLabels: false, spacingFactor: 1.05
+          name: 'dagre', rankDir: 'TB',
+          rankSep: heavy ? 46 : 64,
+          nodeSep: heavy ? 16 : 22,
+          edgeSep: heavy ? 8 : 10,
+          ranker: heavy ? 'longest-path' : 'network-simplex',
+          padding: 16, animate: false, fit: true, nodeDimensionsIncludeLabels: false, spacingFactor: heavy ? 1.02 : 1.05
         });
         layout.one('layoutstop', function () {
           if (token !== pathToken || !pathCy) return;
           requestAnimationFrame(function () {
             if (token !== pathToken || !pathCy) return;
             pathCy.resize();
-            pathCy.fit(undefined, 24);
+            pathCy.fit(undefined, heavy ? 20 : 24);
+            if (heavy && pathCy.zoom() < 0.7) {
+              pathCy.zoom(0.8);
+              const focusNode = lay.nodes.find(function (n) { return n.isRoot; }) || lay.nodes.find(function (n) { return n.isTarget; }) || lay.nodes[0];
+              const focus = focusNode ? pathCy.getElementById(focusNode.id) : null;
+              if (focus && !focus.empty()) pathCy.center(focus);
+            }
             cyEl.dataset.ready = '1';
           });
         });
@@ -1276,6 +1401,14 @@
     }
     renderStart();
   }
+
+  document.addEventListener('click', function (event) {
+    const origin = event.target && event.target.closest ? event.target : (event.target && event.target.parentElement);
+    if (!origin || !origin.closest) return;
+    if (!origin.closest('#btn-path-expand') && !origin.closest('#btn-path-collapse')) return;
+    pathExpanded = !!origin.closest('#btn-path-expand');
+    if (session && D) mountPathGraph(E.summarize(D.graph, session));
+  });
 
   if (window.matchMedia) {
     const scheme = window.matchMedia('(prefers-color-scheme: dark)');

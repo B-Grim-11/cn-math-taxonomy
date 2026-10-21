@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>中小学知识图谱</title>
 <meta name="description" content="数学（小学到高中）和英语（三年级到高中）的知识图谱。沿先修关系自适应出题，从选中的知识点往回找到薄弱根因。">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230f766e'/%3E%3Ccircle cx='9' cy='21' r='2.5' fill='white'/%3E%3Ccircle cx='17' cy='11' r='2.5' fill='white'/%3E%3Ccircle cx='24' cy='20' r='2.5' fill='white'/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Cpath%20fill%3D%22%23dff3ef%22%20stroke%3D%22%230f6e62%22%20stroke-width%3D%221.7%22%20stroke-linejoin%3D%22round%22%20d%3D%22M6.6%204.8H17L27.4%2015.2V25Q27.4%2027.4%2025.2%2027.4H6.6Q4.4%2027.4%204.4%2025.2V7Q4.4%204.8%206.6%204.8Z%22%2F%3E%3Cpath%20fill%3D%22%23ffffff%22%20d%3D%22M17.7%206.3%2026.1%2014.7H17.7Z%22%2F%3E%3Cpath%20fill%3D%22none%22%20stroke%3D%22%230f6e62%22%20stroke-width%3D%221.35%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20d%3D%22M17.7%206.3V14.7H26.1%22%2F%3E%3Cpath%20fill%3D%22none%22%20stroke%3D%22%230f6e62%22%20stroke-width%3D%222.15%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20d%3D%22M8.3%2024.2H12.4Q14.2%2024.2%2014.2%2022.4V20.2Q14.2%2018.6%2016%2018.6H18.8%22%2F%3E%3Cpath%20fill%3D%22%230f6e62%22%20d%3D%22M18.5%2016.85%2023%2018.6%2018.5%2020.35Z%22%2F%3E%3C%2Fsvg%3E">
 <script>
 (function () {
   var id = location.hash.replace(/^#/, '');
@@ -25,16 +25,23 @@
 <a class="top-banner" href="https://test.pansgo.com/?from=math-top" target="_blank" rel="noopener">🧠 测评中心：儿童智商、情商，成人情商、人生四象限</a>
 <header class="site-header">
   <a class="brand" href="./">
-    <svg class="logo" viewBox="0 0 32 32" width="32" height="32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="currentColor"/><circle cx="9" cy="21" r="2.5" fill="#fff"/><circle cx="17" cy="11" r="2.5" fill="#fff"/><circle cx="24" cy="20" r="2.5" fill="#fff"/><path d="M11.2 19.2 15.2 12.8M18.6 12.6 22.2 18.2" stroke="#fff" stroke-width="1.7" stroke-linecap="round"/></svg>
-    <span class="brand-name">中小学知识图谱</span>
+    <svg class="logo" viewBox="0 0 32 32" aria-hidden="true"><path fill="var(--logo-sheet)" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" d="M6.6 4.8H17L27.4 15.2V25Q27.4 27.4 25.2 27.4H6.6Q4.4 27.4 4.4 25.2V7Q4.4 4.8 6.6 4.8Z"/><path fill="var(--logo-fold)" d="M17.7 6.3 26.1 14.7H17.7Z"/><path fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" d="M17.7 6.3V14.7H26.1"/><path fill="none" stroke="currentColor" stroke-width="2.15" stroke-linecap="round" stroke-linejoin="round" d="M8.3 24.2H12.4Q14.2 24.2 14.2 22.4V20.2Q14.2 18.6 16 18.6H18.8"/><path fill="currentColor" d="M18.5 16.85 23 18.6 18.5 20.35Z"/></svg>
+    <span class="brand-copy">
+      <span class="brand-name">中小学知识图谱</span>
+      <span class="brand-kicker">学习路径</span>
+    </span>
   </a>
   <nav class="site-nav" aria-label="主导航">
-    <a class="nav-link subject-link on" data-subject="math" href="./">数学</a>
-    <a class="nav-link subject-link" data-subject="english" href="./?subject=english">英语</a>
-    <a class="nav-link active" href="./" aria-current="page">首页</a>
-    <a class="nav-link" href="explore/">知识图谱</a>
-    <a class="nav-link" href="diagnose/">诊断</a>
-    <a class="nav-link" href="https://github.com/xiaoyang111222/cn-math-taxonomy" target="_blank" rel="noopener noreferrer">关于</a>
+    <div class="subject-switch" role="group" aria-label="学科">
+      <a class="nav-link subject-link on" data-subject="math" href="./">数学</a>
+      <a class="nav-link subject-link" data-subject="english" href="./?subject=english">英语</a>
+    </div>
+    <div class="page-links">
+      <a class="nav-link active" href="./" aria-current="page">首页</a>
+      <a class="nav-link" href="explore/">知识图谱</a>
+      <a class="nav-link" href="diagnose/">诊断</a>
+      <a class="nav-link" href="https://github.com/xiaoyang111222/cn-math-taxonomy" target="_blank" rel="noopener noreferrer">关于</a>
+    </div>
   </nav>
 </header>
 <main class="home">
@@ -82,7 +89,7 @@
   <div class="grade-grid" id="grades" aria-busy="true"></div>
   <a class="iq-card" href="https://test.pansgo.com/?from=math-home" target="_blank" rel="noopener">
     <strong>🧠 儿童智商测试</strong>
-    <span class="iq-sub">找规律 · 补图案 · 空间想象，约 12–15 分钟，免费</span>
+    <span class="iq-sub">找规律 · 补图案 · 空间想象</span>
     <span class="iq-note">趣味测评，与数学诊断无关</span>
   </a>
 </main>

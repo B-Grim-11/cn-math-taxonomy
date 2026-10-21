@@ -32,6 +32,7 @@ body.page-explore .site-footer { flex: none; }
   gap: 8px;
   padding: 12px;
   border-bottom: 1px solid var(--line);
+  background: var(--bg-elev);
 }
 .side-tools input, .side-tools select { width: 100%; }
 .filter-row { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
@@ -60,11 +61,12 @@ body.page-explore .site-footer { flex: none; }
   background: transparent;
   color: inherit;
   border-radius: 10px;
+  padding: 8px 10px;
 }
 .topic-item .nm { font-weight: 700; overflow-wrap: anywhere; }
 .topic-item .meta { color: var(--muted); font-size: 0.85rem; font-weight: 600; }
 .topic-item:hover { background: var(--bg-muted); }
-.topic-item.sel { background: var(--brand-soft); box-shadow: inset 3px 0 0 var(--brand); }
+.topic-item.sel { background: var(--brand-soft); box-shadow: inset 3px 0 0 var(--brand); color: var(--text); }
 
 .graph-pane {
   display: flex;
@@ -81,8 +83,11 @@ body.page-explore .site-footer { flex: none; }
   border-bottom: 1px solid var(--line);
   background: var(--bg-elev);
 }
-.depth, .zoom-tools { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.graph-toolbar button { background: var(--bg); }
+.depth, .zoom-tools, .seg { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
 .depth-label { color: var(--muted); font-weight: 800; font-size: 0.92rem; }
+.narrow-only, .zoom-ico { display: none; }
+.zoom-tools button { display: inline-flex; align-items: center; justify-content: center; }
 .depth button.on { background: var(--brand); color: var(--on-brand); border-color: transparent; }
 .graph-fold {
   display: flex;
@@ -136,7 +141,7 @@ body.page-explore .site-footer { flex: none; }
   border-left: 1px solid var(--line);
   padding: 16px 16px 24px;
 }
-.detail h1 { margin: 0 0 6px; font-size: 1.55rem; line-height: 1.3; overflow-wrap: anywhere; }
+.detail h1 { margin: 0 0 6px; font-size: 1.45rem; line-height: 1.28; letter-spacing: -0.02em; overflow-wrap: anywhere; }
 .detail h2 { margin: 18px 0 8px; font-size: 1.08rem; }
 .detail p { margin: 0.35em 0; overflow-wrap: anywhere; }
 .detail-empty h1 { font-size: 1.4rem; }
@@ -207,4 +212,59 @@ body.page-explore .site-footer { flex: none; }
   .graph-stage { flex: none; min-height: 0; }
   #cy { height: 420px; flex: none; }
   .detail { border-left: none; border-top: 1px solid var(--line); }
+  .graph-toolbar { padding: 8px; }
+}
+
+/* 手机宽度：层数和缩放并成一行，页面本身不横向溢出。放不下时可在工具条内横滑。 */
+@media (max-width: 640px) {
+  .graph-toolbar {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 6px;
+    padding: 6px 8px;
+    min-width: 0;
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: none;
+  }
+  .graph-toolbar::-webkit-scrollbar { height: 0; }
+  .depth, .zoom-tools, .seg { flex: none; flex-wrap: nowrap; gap: 0; }
+  .depth { gap: 6px; }
+  .zoom-tools { gap: 4px; margin-left: auto; }
+  .depth-label { font-size: 0.75rem; white-space: nowrap; }
+  .wide-only { display: none; }
+  .narrow-only { display: inline; }
+  .seg { background: transparent; }
+  .graph-toolbar .seg button {
+    position: relative;
+    min-height: 40px;
+    margin-left: -1px;
+    padding: 0 9px;
+    border: 1px solid var(--line);
+    border-radius: 0;
+    background: var(--bg);
+    font-size: 0.8rem;
+    line-height: 1;
+    white-space: nowrap;
+  }
+  .graph-toolbar .seg button:first-child { margin-left: 0; border-radius: 999px 0 0 999px; }
+  .graph-toolbar .seg button:last-child { border-radius: 0 999px 999px 0; }
+  .graph-toolbar .seg button.on,
+  .graph-toolbar .seg button.on:hover {
+    z-index: 1;
+    background: var(--brand);
+    color: var(--on-brand);
+    border-color: var(--brand);
+  }
+  .graph-toolbar .seg button:hover:not(.on) { background: var(--bg-muted); }
+  .zoom-label { display: none; }
+  .zoom-ico { display: block; width: 18px; height: 18px; }
+  .graph-toolbar .zoom-tools button {
+    width: 40px;
+    min-width: 40px;
+    min-height: 40px;
+    padding: 0;
+    border-radius: 999px;
+  }
 }

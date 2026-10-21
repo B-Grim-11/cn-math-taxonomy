@@ -252,7 +252,7 @@
     ctx.textBaseline = 'middle';
     ctx.fillStyle = '#0f766e';
     ctx.font = font(800, 48);
-    ctx.fillText('扫码免费诊断', qrX + qrSize + 48, qrY + qrSize / 2 - 8);
+    ctx.fillText('扫码打开本站', qrX + qrSize + 48, qrY + qrSize / 2 - 8);
     ctx.textBaseline = 'top';
     ctx.textAlign = 'center';
     ctx.fillStyle = '#5c6d82';
