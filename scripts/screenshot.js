@@ -626,7 +626,7 @@ async function main() {
     await waitFor(() => evalJs('document.getElementById("n-topics") && document.getElementById("n-topics").textContent !== "…" && document.querySelectorAll("a.grade-card").length === ' + N_GRADE_CARDS), '首页统计');
     const stats = await evalJs('[document.getElementById("n-topics").textContent, document.getElementById("n-edges").textContent, document.getElementById("n-questions").textContent, document.getElementById("n-standards").textContent].join(",")');
     check(stats === [N_TOPICS, N_EDGES, N_QUESTIONS, N_STANDARDS].join(','), '首页统计来自数据文件（' + stats + '）');
-    check((await evalJs('document.body.innerText')).includes('AI 生成初稿，未经教师审核') && !(await evalJs('document.title')).includes('草稿'), '首页有初稿声明，标题不含「草稿」');
+    check(!(await evalJs('document.body.innerText')).includes('未经教师审核') && !(await evalJs('document.title')).includes('草稿'), '页脚不含初稿声明，标题不含「草稿」');
     check((await evalJs('document.querySelector("a.grade-card").getAttribute("href")')) === 'explore/?grade=1', '一年级卡片指向知识图谱');
     const iqHome = await evalJs(IQ_HOME_EXPR);
     check(iqHome === 'ok', '首页儿童智商测试卡片（' + iqHome + '）');
