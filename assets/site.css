@@ -18,6 +18,9 @@
   --shadow: 0 1px 2px rgba(23, 25, 31, 0.04), 0 10px 28px rgba(23, 25, 31, 0.05);
   --radius: 14px;
   --radius-sm: 10px;
+  --header-bg: #f7faf9;
+  --logo-sheet: #dff3ef;
+  --logo-fold: #ffffff;
   --font: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", "Noto Sans SC", "Source Han Sans SC", sans-serif;
   --fs: 16px;
   --ok: #157a3a;
@@ -66,6 +69,8 @@ body.subject-english {
   --on-brand: #ffffff;
   --focus: #4338ca;
   --accent: #4338ca;
+  --logo-sheet: #e6e8fb;
+  --logo-fold: #ffffff;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -96,6 +101,9 @@ body.subject-english {
     --unk: #cbd5e1;
     --unk-bg: #223044;
     --accent: #2dd4bf;
+    --header-bg: #171e2a;
+    --logo-sheet: #123f3c;
+    --logo-fold: #1c5c56;
     --panel: #172232;
     --node-primary: #5eead4;
     --node-primary-bg: #115e59;
@@ -130,6 +138,8 @@ body.subject-english {
     --on-brand: #1e1b4b;
     --focus: #c7d2fe;
     --accent: #a5b4fc;
+    --logo-sheet: #2a2870;
+    --logo-fold: #3c3a96;
   }
 }
 
@@ -142,6 +152,9 @@ body.subject-english {
     --muted: #475569;
     --line: #d5dde6;
     --panel: #fff;
+    --header-bg: #fff;
+    --logo-sheet: #dff3ef;
+    --logo-fold: #ffffff;
     --shadow: none;
   }
 }
@@ -213,9 +226,10 @@ code { overflow-wrap: anywhere; }
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 6px 14px;
-  padding: 8px 16px;
-  background: var(--bg-elev);
+  justify-content: space-between;
+  gap: 8px 24px;
+  padding: 12px 28px;
+  background: var(--header-bg);
   border-bottom: 1px solid var(--line);
   max-width: 100%;
 }
@@ -227,52 +241,107 @@ body:not(.page-explore) .site-header {
 .brand {
   display: flex;
   align-items: center;
-  gap: 8px;
-  min-height: 44px;
+  gap: 12px;
+  min-height: 48px;
   min-width: 0;
   color: inherit;
   text-decoration: none;
-  font-weight: 800;
 }
-.logo { color: var(--brand); flex: none; display: block; }
-.brand-name { overflow-wrap: anywhere; letter-spacing: -0.01em; }
+.logo {
+  color: var(--brand);
+  width: 40px;
+  height: 40px;
+  flex: none;
+  display: block;
+}
+.brand-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 0;
+  gap: 1px;
+}
+.brand-name {
+  font-size: 1.08rem;
+  font-weight: 750;
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+  color: var(--text);
+  overflow-wrap: anywhere;
+}
+.brand-kicker {
+  font-size: 0.75rem;
+  font-weight: 650;
+  line-height: 1.2;
+  letter-spacing: 0.08em;
+  color: var(--brand);
+}
 .site-nav {
   display: flex;
   flex-wrap: wrap;
-  gap: 2px;
-  margin-left: auto;
+  align-items: center;
+  gap: 8px 18px;
   min-width: 0;
   max-width: 100%;
+}
+.subject-switch {
+  display: inline-flex;
   align-items: center;
+  gap: 2px;
+  padding: 3px;
+  border-radius: 999px;
+  background: var(--bg-muted);
+}
+.page-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2px;
+  min-width: 0;
 }
 .nav-link {
   display: inline-flex;
   align-items: center;
   min-height: 44px;
-  padding: 6px 12px;
+  padding: 0 12px;
   border-radius: 999px;
   color: var(--muted);
   text-decoration: none;
+  font-size: 0.94rem;
   font-weight: 650;
 }
 .nav-link:hover { background: var(--bg-muted); color: var(--text); }
 .nav-link.active, .nav-link[aria-current="page"] {
   background: var(--brand-soft);
   color: var(--brand-strong);
+  font-weight: 750;
+}
+.nav-link.active:hover, .nav-link[aria-current="page"]:hover {
+  background: var(--brand-soft);
+  color: var(--brand-strong);
 }
 .nav-link.subject-link {
-  color: var(--text);
-  border: 1px solid var(--line);
-  background: var(--bg-elev);
+  color: var(--muted);
+  border: 0;
+  background: transparent;
+  padding: 0 14px;
 }
-.nav-link.subject-link[data-subject="english"] { margin-right: 8px; }
+.nav-link.subject-link:hover { background: transparent; color: var(--text); }
 .nav-link.subject-link.on {
   background: var(--brand);
-  border-color: transparent;
   color: var(--on-brand);
+  font-weight: 750;
 }
+.nav-link.subject-link.on:hover { background: var(--brand); color: var(--on-brand); }
 @media (max-width: 720px) {
-  .site-nav { flex: 1 1 100%; margin-left: 0; }
+  .site-header { padding: 10px 14px 8px; gap: 4px 12px; }
+  .brand { gap: 10px; min-height: 44px; }
+  .logo { width: 34px; height: 34px; }
+  .brand-name { font-size: 1.02rem; }
+  .brand-kicker { font-size: 0.72rem; letter-spacing: 0.06em; }
+  .site-nav { flex: 1 1 100%; justify-content: space-between; gap: 4px 8px; }
+  .nav-link { padding: 0 8px; font-size: 0.9rem; }
+  .nav-link.subject-link { padding: 0 12px; }
 }
 
 .site-footer {
