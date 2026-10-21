@@ -51,11 +51,11 @@ G("gr_be7", "be 动词 am、is、are", 7, "上", 1,
 F("fu_intro", "问候与自我介绍", 7, "上", 1,
   "能问候别人，并说出自己的名字。", "func_school", [
     q("初次见面，对方说 Nice to meet you. 你应回答什么？", "Nice to meet you, too.",
-      ["Good night.", "See you yesterday.", "I am a book."], "回答 Nice to meet you 时加上 too。"),
+      ["Good night.", "See you yesterday.", "Nice to meeting you, too."], "回答 Nice to meet you 时加上 too。"),
     q("想告诉别人自己叫 Gina，哪一句合适？", "My name is Gina.",
       ["Your name is Gina.", "She name is Gina.", "My name are Gina."], "说自己的名字用 My name is。"),
     q("早上见面，哪一句是问候？", "Good morning.",
-      ["Good evening is a book.", "What is your pen?", "Sit on the name."], "Good morning 用来问候早晨。"),
+      ["Good mornings.", "Good moning.", "Good monring."], "Good morning 用来问候早晨。"),
     q("对方问 What's your name? 你叫 Tom，应回答什么？", "My name is Tom.",
       ["His name is Tom.", "I name Tom.", "You are Tom?"], "询问你的名字时，用 My name is 回答。"),
 ])
@@ -121,7 +121,7 @@ F("fu_family7", "介绍家人", 7, "上", 2,
     q("These are my parents. 说话人在介绍谁？", "父母",
       ["同学", "老师", "朋友的书"], "parents 是父母。"),
     q("哪一句能用来介绍照片里的一家人？", "This is my family.",
-      ["This is my schoolbag.", "These are my pens.", "I am a map."], "family 是家庭。"),
+      ["This is my schoolbag.", "These are my pens.", "This are my family."], "family 是家庭。"),
 ])
 
 R("rw_family7", "读家庭介绍", 7, "上", 2,
