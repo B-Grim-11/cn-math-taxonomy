@@ -97,7 +97,8 @@ const IQ_HOME_EXPR = `(() => {
   if (a.getAttribute('href') !== 'https://test.pansgo.com/?from=math-home') return 'href';
   if (a.target !== '_blank') return 'target';
   if (rel.indexOf('noopener') < 0) return 'rel';
-  if (text.indexOf('儿童智商测试') < 0 || text.indexOf('找规律 · 补图案 · 空间想象，约 12–15 分钟，免费') < 0 || text.indexOf('趣味测评，与数学诊断无关') < 0) return 'text';
+  if (text.indexOf('儿童智商测试') < 0 || text.indexOf('找规律 · 补图案 · 空间想象') < 0 || text.indexOf('趣味测评，与数学诊断无关') < 0) return 'text';
+  if (text.indexOf('免费') >= 0 || text.indexOf('分钟') >= 0) return 'promo';
   return 'ok';
 })()`;
 const IQ_RESULT_EXPR = `(() => {
