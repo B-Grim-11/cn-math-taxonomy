@@ -3627,11 +3627,11 @@
     "external": false,
     "standards": [
       {
-        "id": "cms-2022:3.SP.03",
+        "id": "cms-2022:3.SP.06",
         "confidence": "exact"
       },
       {
-        "id": "cms-2022:3.SP.04",
+        "id": "cms-2022:3.SP.07",
         "confidence": "exact"
       }
     ]
@@ -3656,7 +3656,7 @@
     "external": false,
     "standards": [
       {
-        "id": "cms-2022:3.SP.04",
+        "id": "cms-2022:3.SP.07",
         "confidence": "exact"
       }
     ]
