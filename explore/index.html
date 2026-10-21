@@ -63,15 +63,17 @@
     <div class="graph-toolbar">
       <div class="depth" id="depth-switch" role="group" aria-label="向上先修层数">
         <span class="depth-label">向上</span>
-        <button type="button" data-depth="1" aria-pressed="false">1 层</button>
-        <button type="button" data-depth="2" class="on" aria-pressed="true">2 层</button>
-        <button type="button" data-depth="3" aria-pressed="false">3 层</button>
-        <button type="button" data-depth="all" aria-pressed="false">全部</button>
+        <div class="seg">
+          <button type="button" data-depth="1" aria-pressed="false" aria-label="1 层"><span class="wide-only">1 层</span><span class="narrow-only">1层</span></button>
+          <button type="button" data-depth="2" class="on" aria-pressed="true" aria-label="2 层"><span class="wide-only">2 层</span><span class="narrow-only">2层</span></button>
+          <button type="button" data-depth="3" aria-pressed="false" aria-label="3 层"><span class="wide-only">3 层</span><span class="narrow-only">3层</span></button>
+          <button type="button" data-depth="all" aria-pressed="false" aria-label="全部">全部</button>
+        </div>
       </div>
-      <div class="zoom-tools">
-        <button type="button" id="btn-zoom-out">缩小</button>
-        <button type="button" id="btn-zoom-in">放大</button>
-        <button type="button" id="btn-fit">适配画面</button>
+      <div class="zoom-tools" role="group" aria-label="缩放">
+        <button type="button" id="btn-zoom-out" aria-label="缩小" title="缩小"><svg class="zoom-ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="10" cy="10" r="6" fill="none" stroke="currentColor" stroke-width="2"/><path d="M14.6 14.6 19.5 19.5M7.4 10h5.2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span class="zoom-label">缩小</span></button>
+        <button type="button" id="btn-zoom-in" aria-label="放大" title="放大"><svg class="zoom-ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="10" cy="10" r="6" fill="none" stroke="currentColor" stroke-width="2"/><path d="M14.6 14.6 19.5 19.5M7.4 10h5.2M10 7.4v5.2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span class="zoom-label">放大</span></button>
+        <button type="button" id="btn-fit" aria-label="适配画面" title="适配画面"><svg class="zoom-ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 9V5.5A1.5 1.5 0 0 1 5.5 4H9M15 4h3.5A1.5 1.5 0 0 1 20 5.5V9M20 15v3.5a1.5 1.5 0 0 1-1.5 1.5H15M9 20H5.5A1.5 1.5 0 0 1 4 18.5V15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span class="zoom-label">适配画面</span></button>
       </div>
     </div>
     <p id="graph-fold" class="graph-fold" hidden></p>
