@@ -123,6 +123,9 @@ scripts/verify_questions.py  题库答案自动核验（受限表达式求值）
 scripts/second_pass.py       独立第二遍复核的辅助脚本（出盲解题、比对答案）
 CHANGELOG.md             按日期记录的变更日志（含 id 变动说明）
 index.html               首页（实时统计、三步说明、按年级进入）
+manifest.webmanifest, sw.js, assets/pwa.*, assets/icons/   PWA：添加到桌面、离线缓存（说明见 docs/pwa.md）
+children/, assets/children.js     孩子档案、历史诊断记录与薄弱知识点（只存本机 localStorage）
+assets/stats-config.js, assets/stats.js   统计钩子（默认不发任何统计请求，配置见 docs/pwa.md）
 explore/                 知识图谱浏览（index.html、app.js；局部先修图）
 assets/site.css          全站配色、字号、导航（浏览页与诊断页共用）
 assets/explore.css       知识图谱三栏布局
@@ -466,7 +469,7 @@ python3 -m http.server 8000
 ./scripts/deploy-cf.sh
 ```
 
-脚本会打包 `index.html`、`assets/`（含图形库）、`explore/`、`diagnose/`、`data/` 中页面用到的文件，部署到 Cloudflare Pages 的 `main` 生产分支。不改动 VPS / Caddy。截图和出题批次不会打进部署包。
+脚本会打包 `index.html`、`sw.js`、`manifest.webmanifest`、`assets/`（含图形库和图标）、`explore/`、`diagnose/`、`children/`、`data/` 中页面用到的文件，部署到 Cloudflare Pages 的 `main` 生产分支。不改动 VPS / Caddy。截图和出题批次不会打进部署包。
 
 ## 许可证 / License
 

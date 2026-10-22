@@ -217,6 +217,72 @@
     return vols;
   }
 
+  /* ------------------------------------------------------------ 孩子档案 */
+  const CC = window.CnmChildren;
+  function childLabel(c) { return c.name + (c.grade ? '（' + c.grade + '）' : ''); }
+  function childrenHref(path) { return '../children/' + (path || ''); }
+  function fromQuery() { return '?from=diagnose' + (subject !== 'math' ? '&subject=' + subject : ''); }
+  function childSelect(onPick) {
+    const cur = CC.current();
+    const sel = h('select', { id: 'child-select', 'aria-label': '当前孩子' },
+      h('option', { value: '' }, '不保存到档案'),
+      CC.list().map(function (c) { return h('option', { value: c.id, selected: !!cur && cur.id === c.id }, childLabel(c)); }));
+    sel.value = cur ? cur.id : '';
+    sel.addEventListener('change', function () { onPick(sel.value || null); });
+    return sel;
+  }
+  function childBar(mode) {
+    if (demo) return null;
+    const kids = CC.list();
+    const cur = CC.current();
+    if (!kids.length) {
+      return h('div', { class: 'banner child-bar no-print', id: 'child-bar' },
+        h('b', { text: '还没有孩子档案。' }),
+        '添加后，诊断结果会按孩子保存，之后能回看每次的记录和薄弱知识点。', ' ',
+        h('a', { class: 'btn btn-primary', href: childrenHref(fromQuery()), text: '添加孩子' }));
+    }
+    if (mode === 'question') {
+      return h('div', { class: 'child-bar compact row no-print', id: 'child-bar' },
+        h('span', { class: 'muted small' }, '当前孩子'),
+        childSelect(function (id) { CC.setCurrent(id); }));
+    }
+    if (mode === 'result') {
+      const key = recordKey();
+      return h('div', { class: 'card child-bar no-print', id: 'child-bar' },
+        h('p', { style: 'margin:0 0 8px' }, cur
+          ? [h('b', { text: '已保存到「' + cur.name + '」的档案。' }), ' 换成别的孩子会把这条记录一起挪过去。']
+          : [h('b', { text: '这次结果还没有存入档案。' }), ' 选一个孩子，就会保存。']),
+        h('div', { class: 'row' },
+          h('label', { for: 'child-select' }, '保存到'),
+          childSelect(function (id) {
+            if (cur && id !== cur.id) { if (id) CC.moveRecord(key, cur.id, id); else CC.removeRecord(cur.id, key); }
+            CC.setCurrent(id);
+            renderResult();
+          }),
+          cur ? h('a', { class: 'btn', href: childrenHref('history.html?child=' + encodeURIComponent(cur.id)), text: '历史与薄弱点' }) : null));
+    }
+    return h('div', { class: 'card child-bar no-print', id: 'child-bar' },
+      h('div', { class: 'row' },
+        h('label', { for: 'child-select' }, '当前孩子'),
+        childSelect(function (id) { CC.setCurrent(id); renderStart(); }),
+        h('span', { class: 'grow' }),
+        cur ? h('a', { class: 'btn', href: childrenHref('history.html?child=' + encodeURIComponent(cur.id)), text: '历史与薄弱点' }) : null,
+        h('a', { class: 'btn', href: childrenHref(fromQuery()), text: '孩子档案' })),
+      h('p', { class: 'muted small', style: 'margin:8px 0 0' },
+        cur ? '诊断做完，结果会保存到「' + cur.name + '」的档案里。' : '选了“不保存到档案”时，诊断结果不会存下来。'));
+  }
+  function recordKey() { return [subject, session.seed, session.targets.join(',')].join('|'); }
+  function saveToChild(sum) {
+    const cur = CC.current();
+    if (demo || !cur || !sum.asked) return;
+    CC.saveRecord(cur.id, {
+      key: recordKey(), subject: subject, label: sessionMeta.label, mode: sum.mode, asked: sum.asked,
+      targets: sum.mode === 'screen' || sum.targets.length > 6 ? null : sum.targets,
+      counts: { weak: sum.weak.length, shaky: sum.shaky.length, mastered: sum.mastered.length, untested: sum.untested.length },
+      weak: sum.weak, roots: sum.roots.map(function (r) { return r.id; }), shaky: sum.shaky, mastered: sum.mastered
+    });
+  }
+
   /* ------------------------------------------------------------ 会话 */
   function save() {
     if (demo || !session) return;
@@ -342,6 +408,7 @@
         ' ', h('button', { onclick: function () { lsDel(sessionKey()); renderStart(); } }, '放弃存档')));
     }
     if (errMsg) page.append(h('p', { class: 'err', text: errMsg }));
+    page.append(childBar('start'));
 
     const st = getSettings();
     const limitInput = h('input', { type: 'number', min: LIMIT_MIN, max: LIMIT_MAX, step: 1, value: String(st.limit), id: 'limit-input', 'aria-label': '题量上限' });
@@ -650,6 +717,7 @@
       h('button', { class: 'small', onclick: function () { if (confirm('确定放弃当前诊断并回到开始页吗？')) restart(); } }, '重新开始')));
     const page = h('div');
     if (demo) page.append(demoBanner());
+    page.append(childBar('question'));
     page.append(card);
     show(page);
     const inp = document.getElementById('ans');
@@ -831,6 +899,8 @@
     const targetSet = new Set(screen ? [] : session.targets);
     const page = h('div');
     if (demo) page.append(demoBanner());
+    saveToChild(sum);
+    page.append(childBar('result'));
 
     const targetsMastered = session.targets.every(function (id) { return E.statusOf(session, id) === 'mastered'; });
     const chapters = screen ? E.chapterSummary(D.graph, session) : null;
