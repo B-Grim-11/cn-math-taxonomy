@@ -1806,30 +1806,80 @@
     ]
   },
   {
-    "id": "cnm_p056",
-    "name": "克和千克",
+    "id": "cnm_p221",
+    "name": "观察简单的立体积木",
+    "domain": "图形与几何",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第1单元 观察物体",
+    "type": "conceptual",
+    "description": "用小正方体搭简单的立体积木，能说出从正面、侧面、上面看到的形状，并数出所用小正方体的个数。",
+    "mastery_criteria": [
+      "能辨认从不同方向看到的形状",
+      "能根据看到的形状数出小正方体的个数"
+    ],
+    "standards": [
+      {
+        "id": "cms-2022:2.GG.06",
+        "confidence": "exact"
+      }
+    ],
+    "external": false,
+    "diagnostic_question": {
+      "question": "用 4 个同样的小正方体从左到右摆成一排，从正面看到的是什么样子？",
+      "answer": "4 个正方形连成一排"
+    }
+  },
+  {
+    "id": "cnm_p222",
+    "name": "长方体纸盒的展开图",
+    "domain": "图形与几何",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第1单元 观察物体",
+    "type": "conceptual",
+    "description": "知道把长方体、正方体纸盒沿棱剪开可以展成平面图形，展开图由 6 个面组成，相对的面完全一样。",
+    "mastery_criteria": [
+      "能说出纸盒有 6 个面",
+      "能指出展开图中相对的面"
+    ],
+    "standards": [
+      {
+        "id": "cms-2022:2.GG.06",
+        "confidence": "inferred",
+        "note": "新版三上「观察物体」单元的小节；课标第二学段没有同名条款，展开图在 3.GG.05 系统学习，待核。"
+      }
+    ],
+    "external": false,
+    "diagnostic_question": {
+      "question": "把一个长方体纸盒沿棱剪开、展平，展开图一共有几个面？",
+      "answer": "6"
+    }
+  },
+  {
+    "id": "cnm_p223",
+    "name": "同级运算与两级运算的运算顺序",
     "domain": "数与代数",
     "grade": 3,
     "semester": "上",
-    "chapter": "三年级上册 综合与实践 曹冲称象的故事",
+    "chapter": "三年级上册 第2单元 混合运算",
     "type": "procedural",
-    "description": "认识质量单位克和千克，知道 1 千克＝1000 克。",
+    "description": "知道只有加减或只有乘除的算式从左往右算；既有乘除又有加减时先算乘除再算加减。",
     "mastery_criteria": [
-      "能说出 1 千克等于 1000 克",
-      "能进行千克和克的简单换算"
+      "能说出同级运算从左往右算",
+      "能说出两级运算先乘除后加减"
     ],
-    "diagnostic_question": {
-      "question": "1 千克等于多少克？",
-      "answer": "1000克"
-    },
-    "external": false,
     "standards": [
       {
-        "id": "cms-2022:2.IP.02",
-        "confidence": "inferred",
-        "note": "课标把克、千克放在第二学段主题活动「曹冲称象」。2024 二年级下册官方目录未核到，本点暂放这里，待核。"
+        "id": "cms-2022:2.NA.03",
+        "confidence": "exact"
       }
-    ]
+    ],
+    "external": false,
+    "diagnostic_question": {
+      "question": "计算：36－8＋12＝？",
+      "answer": "40"
+    }
   },
   {
     "id": "cnm_p058",
@@ -1887,7 +1937,7 @@
     "domain": "图形与几何",
     "grade": 3,
     "semester": "上",
-    "chapter": "三年级上册 第3单元 测量",
+    "chapter": "三年级上册 第3单元 毫米、分米和千米",
     "type": "procedural",
     "description": "认识毫米，知道 1 厘米＝10 毫米。",
     "mastery_criteria": [
@@ -1912,7 +1962,7 @@
     "domain": "图形与几何",
     "grade": 3,
     "semester": "上",
-    "chapter": "三年级上册 第3单元 测量",
+    "chapter": "三年级上册 第3单元 毫米、分米和千米",
     "type": "procedural",
     "description": "认识分米，知道 1 分米＝10 厘米。",
     "mastery_criteria": [
@@ -1937,7 +1987,7 @@
     "domain": "图形与几何",
     "grade": 3,
     "semester": "上",
-    "chapter": "三年级上册 第3单元 测量",
+    "chapter": "三年级上册 第3单元 毫米、分米和千米",
     "type": "procedural",
     "description": "认识千米，知道 1 千米＝1000 米，适合表示较远的路程。",
     "mastery_criteria": [
@@ -1957,12 +2007,38 @@
     ]
   },
   {
+    "id": "cnm_p056",
+    "name": "克和千克",
+    "domain": "数与代数",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 综合与实践 曹冲称象的故事",
+    "type": "procedural",
+    "description": "认识质量单位克和千克，知道 1 千克＝1000 克。",
+    "mastery_criteria": [
+      "能说出 1 千克等于 1000 克",
+      "能进行千克和克的简单换算"
+    ],
+    "diagnostic_question": {
+      "question": "1 千克等于多少克？",
+      "answer": "1000克"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:2.IP.02",
+        "confidence": "inferred",
+        "note": "课标把克、千克放在第二学段主题活动「曹冲称象」。2024 二年级下册官方目录未核到，本点暂放这里，待核。"
+      }
+    ]
+  },
+  {
     "id": "cnm_p070",
     "name": "吨的认识",
     "domain": "数与代数",
     "grade": 3,
     "semester": "上",
-    "chapter": "三年级上册 第3单元 测量",
+    "chapter": "三年级上册 综合与实践 曹冲称象的故事",
     "type": "conceptual",
     "description": "认识质量单位吨，知道 1 吨＝1000 千克。",
     "mastery_criteria": [
@@ -1983,33 +2059,33 @@
     ]
   },
   {
-    "id": "cnm_p073",
-    "name": "倍的认识",
-    "domain": "数与代数",
+    "id": "cnm_p224",
+    "name": "等量代换（曹冲称象）",
+    "domain": "综合与实践",
     "grade": 3,
     "semester": "上",
-    "chapter": "三年级上册 第5单元 倍的认识",
-    "type": "conceptual",
-    "description": "知道「几倍」就是几个那么多，会求一个数的几倍。",
+    "chapter": "三年级上册 综合与实践 曹冲称象的故事",
+    "type": "reasoning",
+    "description": "借助曹冲称象的故事体会「等量的等量相等」，会用一个量代替和它相等的量来解决问题。",
     "mastery_criteria": [
-      "能说出一个数的几倍是多少",
-      "能用乘法表示倍"
+      "能说出曹冲称象为什么称石头就能知道象重",
+      "能用等量代换求出未知的量"
     ],
-    "diagnostic_question": {
-      "question": "计算：6×3＝？",
-      "answer": "18"
-    },
-    "external": false,
     "standards": [
       {
-        "id": "cms-2022:2.NA.08",
+        "id": "cms-2022:2.IP.02",
         "confidence": "exact"
       },
       {
-        "id": "cms-2022:1.NA.05",
+        "id": "cms-2022:2.NA.09",
         "confidence": "exact"
       }
-    ]
+    ],
+    "external": false,
+    "diagnostic_question": {
+      "question": "曹冲先让大象上船、记下水痕，再往船上装石头，直到船沉到同一条水痕。为什么称石头就能知道大象有多重？",
+      "answer": "石头和大象一样重"
+    }
   },
   {
     "id": "cnm_p074",
@@ -2017,7 +2093,7 @@
     "domain": "数与代数",
     "grade": 3,
     "semester": "上",
-    "chapter": "三年级上册 第6单元 多位数乘一位数",
+    "chapter": "三年级上册 第4单元 多位数乘一位数",
     "type": "procedural",
     "description": "会计算两、三位数乘一位数，从个位乘起，满几十就向前一位进几。",
     "mastery_criteria": [
@@ -2042,7 +2118,7 @@
     "domain": "数与代数",
     "grade": 3,
     "semester": "上",
-    "chapter": "三年级上册 第6单元 多位数乘一位数",
+    "chapter": "三年级上册 第4单元 多位数乘一位数",
     "type": "procedural",
     "description": "会计算中间或末尾有 0 的乘法，0 和任何数相乘得 0。",
     "mastery_criteria": [
@@ -2067,7 +2143,7 @@
     "domain": "综合与实践",
     "grade": 3,
     "semester": "上",
-    "chapter": "三年级上册 第6单元 多位数乘一位数",
+    "chapter": "三年级上册 综合与实践 数字编码",
     "type": "modeling",
     "description": "知道可以用数字给事物编码，编码里的每一位可以表示不同的意思。",
     "mastery_criteria": [
@@ -2088,55 +2164,80 @@
     ]
   },
   {
-    "id": "cnm_p077",
-    "name": "长方形和正方形的特征",
+    "id": "cnm_p099",
+    "name": "线段、直线和射线",
     "domain": "图形与几何",
     "grade": 3,
     "semester": "上",
-    "chapter": "三年级上册 第7单元 长方形和正方形",
+    "chapter": "三年级上册 第5单元 线和角",
     "type": "conceptual",
-    "description": "知道长方形对边相等、四个角是直角，正方形四条边相等。",
+    "description": "能区分线段、直线和射线，知道两点之间线段最短。",
     "mastery_criteria": [
-      "能说出长方形对边相等",
-      "能说出正方形四条边都相等"
+      "能说出线段有两个端点",
+      "知道直线没有端点、射线有一个端点"
     ],
     "diagnostic_question": {
-      "question": "长方形的对边怎样？",
-      "answer": "对边相等"
+      "question": "线段和直线相比，下面哪一句说的是线段？",
+      "answer": "有两个端点，可以量出长度"
     },
     "external": false,
     "standards": [
       {
-        "id": "cms-2022:2.GG.04",
-        "confidence": "exact"
-      },
-      {
-        "id": "cms-2022:1.GG.01",
+        "id": "cms-2022:2.GG.01",
         "confidence": "exact"
       }
     ]
   },
   {
-    "id": "cnm_p078",
-    "name": "长方形和正方形的周长",
+    "id": "cnm_p225",
+    "name": "角的认识",
     "domain": "图形与几何",
     "grade": 3,
     "semester": "上",
-    "chapter": "三年级上册 第7单元 长方形和正方形",
-    "type": "procedural",
-    "description": "会计算长方形、正方形的周长。",
+    "chapter": "三年级上册 第5单元 线和角",
+    "type": "conceptual",
+    "description": "认识角的顶点和两条边，知道角的大小与两条边张开的大小有关，与边画的长短无关。",
     "mastery_criteria": [
-      "能说出周长是一周边线的长度",
-      "能用公式计算长方形和正方形的周长"
+      "能指出角的顶点和边",
+      "能比较两个角的大小"
+    ],
+    "standards": [
+      {
+        "id": "cms-2022:2.GG.02",
+        "confidence": "exact"
+      }
+    ],
+    "external": false,
+    "diagnostic_question": {
+      "question": "一个角有几条边？",
+      "answer": "2"
+    }
+  },
+  {
+    "id": "cnm_p101",
+    "name": "锐角、直角和钝角",
+    "domain": "图形与几何",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第5单元 线和角",
+    "type": "conceptual",
+    "description": "能根据度数辨认锐角、直角、钝角，知道平角和周角。",
+    "mastery_criteria": [
+      "能说出锐角小于 90 度",
+      "能说钝角大于 90 度且小于 180 度"
     ],
     "diagnostic_question": {
-      "question": "周长是什么？",
-      "answer": "图形一周边线的长度"
+      "question": "直角比锐角怎样？",
+      "answer": "直角比锐角大"
     },
     "external": false,
     "standards": [
       {
-        "id": "cms-2022:2.GG.05",
+        "id": "cms-2022:2.GG.02",
+        "confidence": "exact"
+      },
+      {
+        "id": "cms-2022:2.GG.04",
         "confidence": "exact"
       }
     ]
@@ -2147,7 +2248,7 @@
     "domain": "数与代数",
     "grade": 3,
     "semester": "上",
-    "chapter": "三年级上册 第8单元 分数的初步认识",
+    "chapter": "三年级上册 第6单元 分数的初步认识",
     "type": "conceptual",
     "description": "初步认识几分之一，知道把一个整体平均分成几份，其中一份就是几分之一。",
     "mastery_criteria": [
@@ -2167,12 +2268,62 @@
     ]
   },
   {
+    "id": "cnm_p226",
+    "name": "几分之几",
+    "domain": "数与代数",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第6单元 分数的初步认识",
+    "type": "conceptual",
+    "description": "把一个整体平均分成若干份，表示其中的几份用几分之几，知道分子、分母的含义。",
+    "mastery_criteria": [
+      "能用几分之几表示涂色部分",
+      "能说出分子表示取了几份"
+    ],
+    "standards": [
+      {
+        "id": "cms-2022:2.NA.02",
+        "confidence": "exact"
+      }
+    ],
+    "external": false,
+    "diagnostic_question": {
+      "question": "把一个圆平均分成 4 份，涂了其中 3 份。涂色部分是这个圆的几分之几？",
+      "answer": "3/4"
+    }
+  },
+  {
+    "id": "cnm_p227",
+    "name": "简单的分数大小比较",
+    "domain": "数与代数",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第6单元 分数的初步认识",
+    "type": "reasoning",
+    "description": "会比较分母相同或分子都是 1 的两个分数的大小。",
+    "mastery_criteria": [
+      "分母相同时，分子大的分数大",
+      "分子都是 1 时，分母大的分数反而小"
+    ],
+    "standards": [
+      {
+        "id": "cms-2022:2.NA.02",
+        "confidence": "exact"
+      }
+    ],
+    "external": false,
+    "diagnostic_question": {
+      "question": "3/7 和 2/7 哪个大？",
+      "answer": "3/7"
+    }
+  },
+  {
     "id": "cnm_p080",
     "name": "同分母分数的初步加减",
     "domain": "数与代数",
     "grade": 3,
     "semester": "上",
-    "chapter": "三年级上册 第8单元 分数的初步认识",
+    "chapter": "三年级上册 第6单元 分数的初步认识",
     "type": "procedural",
     "description": "会计算分母相同且结果不超过 1 的简单分数加减。",
     "mastery_criteria": [
@@ -2192,12 +2343,41 @@
     ]
   },
   {
+    "id": "cnm_p073",
+    "name": "倍的认识",
+    "domain": "数与代数",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第7单元 复习与关联",
+    "type": "conceptual",
+    "description": "知道「几倍」就是几个那么多，会求一个数的几倍。",
+    "mastery_criteria": [
+      "能说出一个数的几倍是多少",
+      "能用乘法表示倍"
+    ],
+    "diagnostic_question": {
+      "question": "计算：6×3＝？",
+      "answer": "18"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:2.NA.08",
+        "confidence": "exact"
+      },
+      {
+        "id": "cms-2022:1.NA.05",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
     "id": "cnm_p081",
     "name": "集合图里的重叠",
     "domain": "综合与实践",
     "grade": 3,
     "semester": "上",
-    "chapter": "三年级上册 第9单元 数学广角——集合",
+    "chapter": "三年级上册 第7单元 复习与关联",
     "type": "reasoning",
     "description": "会用两个圈表示两类事物，重叠部分是两类都有的，求总数时重叠部分只算一次。",
     "mastery_criteria": [
@@ -2218,29 +2398,55 @@
     ]
   },
   {
-    "id": "cnm_p082",
-    "name": "东北、东南、西北、西南",
-    "domain": "图形与几何",
+    "id": "cnm_p095",
+    "name": "简单的搭配",
+    "domain": "综合与实践",
     "grade": 3,
-    "semester": "下",
-    "chapter": "三年级下册 第1单元 位置与方向（一）",
-    "type": "application",
-    "description": "在东、南、西、北的基础上认识东北、东南、西北、西南。",
+    "semester": "上",
+    "chapter": "三年级上册 第8单元 数学广角——搭配问题",
+    "type": "reasoning",
+    "description": "能有序地数出两种事物的搭配种数，不重复也不遗漏。",
     "mastery_criteria": [
-      "能指出四个斜向",
-      "能根据一个方向说出相反方向"
+      "能按顺序一种一种地配",
+      "能用乘法算出搭配种数"
     ],
     "diagnostic_question": {
-      "question": "东和西是什么关系？东北的相反方向是哪一种关系？",
-      "answer": "相反的方向"
+      "question": "搭配时交换顺序，如果顺序不同算不同，就要怎样数？",
+      "answer": "如果顺序不同算不同，就要分开数"
     },
     "external": false,
     "standards": [
       {
-        "id": "cms-2022:2.IP.03",
-        "confidence": "exact"
+        "id": "cms-2022:2.NA.10",
+        "confidence": "inferred",
+        "note": "搭配是现行三年级下册数学广角，课标没有同名主题，待核。"
       }
     ]
+  },
+  {
+    "id": "cnm_p228",
+    "name": "生活中的运动现象",
+    "domain": "图形与几何",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下册 第1单元 生活中的运动现象",
+    "type": "conceptual",
+    "description": "结合生活实例感受平移、旋转和轴对称现象，能分辨常见的运动现象。",
+    "mastery_criteria": [
+      "能分辨平移和旋转",
+      "能说出对折剪出的图案两边完全一样"
+    ],
+    "standards": [
+      {
+        "id": "cms-2022:2.GG.08",
+        "confidence": "exact"
+      }
+    ],
+    "external": false,
+    "diagnostic_question": {
+      "question": "电梯上下运动，属于哪一种运动现象？",
+      "answer": "平移"
+    }
   },
   {
     "id": "cnm_p083",
@@ -2297,80 +2503,80 @@
     ]
   },
   {
-    "id": "cnm_p085",
-    "name": "复式统计表",
-    "domain": "统计与概率",
+    "id": "cnm_p229",
+    "name": "多边形的认识",
+    "domain": "图形与几何",
     "grade": 3,
     "semester": "下",
-    "chapter": "三年级下册 第3单元 复式统计表",
-    "type": "procedural",
-    "description": "会把两类数据整理成复式统计表，并能从表里回答合计、谁多谁少。",
+    "chapter": "三年级下册 第3单元 长方形和正方形",
+    "type": "conceptual",
+    "description": "认识由线段围成的封闭图形是多边形，知道几边形就有几条边、几个角。",
     "mastery_criteria": [
-      "能读出表中某一格的数",
-      "能算出一行或一列的合计"
+      "能说出多边形的边数和角数",
+      "能按边数说出图形名称"
+    ],
+    "standards": [
+      {
+        "id": "cms-2022:2.GG.04",
+        "confidence": "exact"
+      }
+    ],
+    "external": false,
+    "diagnostic_question": {
+      "question": "五边形有几条边？",
+      "answer": "5"
+    }
+  },
+  {
+    "id": "cnm_p077",
+    "name": "长方形和正方形的特征",
+    "domain": "图形与几何",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下册 第3单元 长方形和正方形",
+    "type": "conceptual",
+    "description": "知道长方形对边相等、四个角是直角，正方形四条边相等。",
+    "mastery_criteria": [
+      "能说出长方形对边相等",
+      "能说出正方形四条边都相等"
     ],
     "diagnostic_question": {
-      "question": "计算：12＋9＝？",
-      "answer": "21"
+      "question": "长方形的对边怎样？",
+      "answer": "对边相等"
     },
     "external": false,
     "standards": [
       {
-        "id": "cms-2022:2.SP.01",
+        "id": "cms-2022:2.GG.04",
         "confidence": "exact"
       },
       {
-        "id": "cms-2022:2.SP.02",
+        "id": "cms-2022:1.GG.01",
         "confidence": "exact"
       }
     ]
   },
   {
-    "id": "cnm_p086",
-    "name": "两位数乘两位数",
-    "domain": "数与代数",
+    "id": "cnm_p078",
+    "name": "长方形和正方形的周长",
+    "domain": "图形与几何",
     "grade": 3,
     "semester": "下",
-    "chapter": "三年级下册 第4单元 两位数乘两位数",
+    "chapter": "三年级下册 第3单元 长方形和正方形",
     "type": "procedural",
-    "description": "会用竖式计算两位数乘两位数。",
+    "description": "会计算长方形、正方形的周长。",
     "mastery_criteria": [
-      "能先用个位去乘，再用十位去乘",
-      "能把两部分积加起来"
+      "能说出周长是一周边线的长度",
+      "能用公式计算长方形和正方形的周长"
     ],
     "diagnostic_question": {
-      "question": "计算：12×11＝？",
-      "answer": "132"
+      "question": "周长是什么？",
+      "answer": "图形一周边线的长度"
     },
     "external": false,
     "standards": [
       {
-        "id": "cms-2022:2.NA.01",
-        "confidence": "exact"
-      }
-    ]
-  },
-  {
-    "id": "cnm_p087",
-    "name": "两位数乘法的应用",
-    "domain": "数与代数",
-    "grade": 3,
-    "semester": "下",
-    "chapter": "三年级下册 第4单元 两位数乘两位数",
-    "type": "application",
-    "description": "能用两位数乘法解决总价、总数问题。",
-    "mastery_criteria": [
-      "能找到每份数和份数",
-      "能列出乘法并计算"
-    ],
-    "diagnostic_question": {
-      "question": "计算：16×12＝？",
-      "answer": "192"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:2.NA.08",
+        "id": "cms-2022:2.GG.05",
         "confidence": "exact"
       }
     ]
@@ -2381,7 +2587,7 @@
     "domain": "图形与几何",
     "grade": 3,
     "semester": "下",
-    "chapter": "三年级下册 第5单元 面积",
+    "chapter": "三年级下册 第4单元 图形的面积",
     "type": "conceptual",
     "description": "知道面积是物体表面或封闭图形的大小，比较面积要使用统一的面积单位。",
     "mastery_criteria": [
@@ -2406,7 +2612,7 @@
     "domain": "图形与几何",
     "grade": 3,
     "semester": "下",
-    "chapter": "三年级下册 第5单元 面积",
+    "chapter": "三年级下册 第4单元 图形的面积",
     "type": "procedural",
     "description": "会用长乘宽计算长方形面积，用边长乘边长计算正方形面积。",
     "mastery_criteria": [
@@ -2431,7 +2637,7 @@
     "domain": "图形与几何",
     "grade": 3,
     "semester": "下",
-    "chapter": "三年级下册 第5单元 面积",
+    "chapter": "三年级下册 第4单元 图形的面积",
     "type": "procedural",
     "description": "知道平方厘米、平方分米、平方米，会做相邻单位的换算。",
     "mastery_criteria": [
@@ -2451,12 +2657,41 @@
     ]
   },
   {
+    "id": "cnm_p085",
+    "name": "复式统计表",
+    "domain": "统计与概率",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下册 第5单元 数据的收集与整理",
+    "type": "procedural",
+    "description": "会把两类数据整理成复式统计表，并能从表里回答合计、谁多谁少。",
+    "mastery_criteria": [
+      "能读出表中某一格的数",
+      "能算出一行或一列的合计"
+    ],
+    "diagnostic_question": {
+      "question": "计算：12＋9＝？",
+      "answer": "21"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:2.SP.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "cms-2022:2.SP.02",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
     "id": "cnm_p091",
     "name": "年、月、日",
     "domain": "数与代数",
     "grade": 3,
     "semester": "下",
-    "chapter": "三年级下册 第6单元 年、月、日",
+    "chapter": "三年级下册 综合与实践 年、月、日的秘密",
     "type": "conceptual",
     "description": "知道一年有 12 个月，大月 31 天、小月 30 天，平年 2 月 28 天。",
     "mastery_criteria": [
@@ -2481,7 +2716,7 @@
     "domain": "数与代数",
     "grade": 3,
     "semester": "下",
-    "chapter": "三年级下册 第6单元 年、月、日",
+    "chapter": "三年级下册 综合与实践 年、月、日的秘密",
     "type": "procedural",
     "description": "会用 24 时记时法，知道下午 1 时是 13 时。",
     "mastery_criteria": [
@@ -2506,7 +2741,7 @@
     "domain": "数与代数",
     "grade": 3,
     "semester": "下",
-    "chapter": "三年级下册 第7单元 小数的初步认识",
+    "chapter": "三年级下册 第6单元 小数的初步认识",
     "type": "conceptual",
     "description": "结合元角或米、分米，初步知道零点几是十分之几。",
     "mastery_criteria": [
@@ -2531,7 +2766,7 @@
     "domain": "数与代数",
     "grade": 3,
     "semester": "下",
-    "chapter": "三年级下册 第7单元 小数的初步认识",
+    "chapter": "三年级下册 第6单元 小数的初步认识",
     "type": "procedural",
     "description": "会计算一位小数的加法和减法，小数点对齐。",
     "mastery_criteria": [
@@ -2551,28 +2786,27 @@
     ]
   },
   {
-    "id": "cnm_p095",
-    "name": "简单的搭配",
-    "domain": "综合与实践",
+    "id": "cnm_p082",
+    "name": "东北、东南、西北、西南",
+    "domain": "图形与几何",
     "grade": 3,
     "semester": "下",
-    "chapter": "三年级下册 第8单元 数学广角——搭配",
-    "type": "reasoning",
-    "description": "能有序地数出两种事物的搭配种数，不重复也不遗漏。",
+    "chapter": "三年级下册 第7单元 复习与关联",
+    "type": "application",
+    "description": "在东、南、西、北的基础上认识东北、东南、西北、西南。",
     "mastery_criteria": [
-      "能按顺序一种一种地配",
-      "能用乘法算出搭配种数"
+      "能指出四个斜向",
+      "能根据一个方向说出相反方向"
     ],
     "diagnostic_question": {
-      "question": "搭配时交换顺序，如果顺序不同算不同，就要怎样数？",
-      "answer": "如果顺序不同算不同，就要分开数"
+      "question": "东和西是什么关系？东北的相反方向是哪一种关系？",
+      "answer": "相反的方向"
     },
     "external": false,
     "standards": [
       {
-        "id": "cms-2022:2.NA.10",
-        "confidence": "inferred",
-        "note": "搭配是现行三年级下册数学广角，课标没有同名主题，待核。"
+        "id": "cms-2022:2.IP.03",
+        "confidence": "exact"
       }
     ]
   },
@@ -2582,7 +2816,7 @@
     "domain": "数与代数",
     "grade": 4,
     "semester": "上",
-    "chapter": "四年级上册 第1单元 大数的认识",
+    "chapter": "四年级上册 第1单元 万以上数的认识",
     "type": "conceptual",
     "description": "认识万级、亿级，知道十进制计数法，会读写大数。",
     "mastery_criteria": [
@@ -2607,7 +2841,7 @@
     "domain": "数与代数",
     "grade": 4,
     "semester": "上",
-    "chapter": "四年级上册 第1单元 大数的认识",
+    "chapter": "四年级上册 第1单元 万以上数的认识",
     "type": "procedural",
     "description": "会把大数改写成用万或亿作单位，会用四舍五入求近似数。",
     "mastery_criteria": [
@@ -2631,55 +2865,29 @@
     ]
   },
   {
-    "id": "cnm_p098",
-    "name": "公顷和平方千米",
-    "domain": "图形与几何",
+    "id": "cnm_p236",
+    "name": "1亿有多大",
+    "domain": "综合与实践",
     "grade": 4,
     "semester": "上",
-    "chapter": "四年级上册 第2单元 公顷和平方千米",
-    "type": "procedural",
-    "description": "认识公顷、平方千米，知道 1 公顷＝10000 平方米、1 平方千米＝100 公顷。",
+    "chapter": "四年级上册 第1单元 万以上数的认识",
+    "type": "modeling",
+    "description": "借助数一数、量一量、估一估，体会 1 亿的大小，知道 1 亿是 10 个一千万、10000 个一万。",
     "mastery_criteria": [
-      "能说出 1 公顷等于 10000 平方米",
-      "能判断土地面积常用公顷"
+      "能说出 1 亿与一千万、一万的关系",
+      "能用推算体会大数的大小"
     ],
-    "diagnostic_question": {
-      "question": "公顷是什么单位？",
-      "answer": "面积单位"
-    },
-    "external": false,
     "standards": [
       {
-        "id": "cms-2022:3.GG.03",
-        "confidence": "inferred",
-        "note": "公顷、平方千米写在第三学段。现行教材在四年级上册，对应时按内容提前出现处理，待核。"
-      }
-    ]
-  },
-  {
-    "id": "cnm_p099",
-    "name": "线段、直线和射线",
-    "domain": "图形与几何",
-    "grade": 4,
-    "semester": "上",
-    "chapter": "四年级上册 第3单元 角的度量",
-    "type": "conceptual",
-    "description": "能区分线段、直线和射线，知道两点之间线段最短。",
-    "mastery_criteria": [
-      "能说出线段有两个端点",
-      "知道直线没有端点、射线有一个端点"
-    ],
-    "diagnostic_question": {
-      "question": "线段和直线相比，下面哪一句说的是线段？",
-      "answer": "有两个端点，可以量出长度"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:2.GG.01",
+        "id": "cms-2022:2.NA.01",
         "confidence": "exact"
       }
-    ]
+    ],
+    "external": false,
+    "diagnostic_question": {
+      "question": "1 亿里面有几个一千万？计算：100000000÷10000000＝？",
+      "answer": "10"
+    }
   },
   {
     "id": "cnm_p100",
@@ -2687,7 +2895,7 @@
     "domain": "图形与几何",
     "grade": 4,
     "semester": "上",
-    "chapter": "四年级上册 第3单元 角的度量",
+    "chapter": "四年级上册 第2单元 角的度量",
     "type": "procedural",
     "description": "认识角的各部分，会用量角器量角、画指定度数的角。",
     "mastery_criteria": [
@@ -2707,41 +2915,87 @@
     ]
   },
   {
-    "id": "cnm_p101",
-    "name": "锐角、直角和钝角",
+    "id": "cnm_p232",
+    "name": "平角、周角和角的分类",
     "domain": "图形与几何",
     "grade": 4,
     "semester": "上",
-    "chapter": "四年级上册 第3单元 角的度量",
+    "chapter": "四年级上册 第2单元 角的度量",
     "type": "conceptual",
-    "description": "能根据度数辨认锐角、直角、钝角，知道平角和周角。",
+    "description": "认识平角和周角，知道 1 平角＝180°、1 周角＝360°，能按度数把角分成锐角、直角、钝角、平角、周角。",
     "mastery_criteria": [
-      "能说出锐角小于 90 度",
-      "能说钝角大于 90 度且小于 180 度"
+      "能说出平角和周角的度数",
+      "能按度数判断角的类别"
     ],
-    "diagnostic_question": {
-      "question": "直角比锐角怎样？",
-      "answer": "直角比锐角大"
-    },
-    "external": false,
     "standards": [
       {
         "id": "cms-2022:2.GG.02",
         "confidence": "exact"
-      },
+      }
+    ],
+    "external": false,
+    "diagnostic_question": {
+      "question": "1 个平角是多少度？",
+      "answer": "180"
+    }
+  },
+  {
+    "id": "cnm_p086",
+    "name": "两位数乘两位数",
+    "domain": "数与代数",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第3单元 多位数乘两位数",
+    "type": "procedural",
+    "description": "会用竖式计算两位数乘两位数。",
+    "mastery_criteria": [
+      "能先用个位去乘，再用十位去乘",
+      "能把两部分积加起来"
+    ],
+    "diagnostic_question": {
+      "question": "计算：12×11＝？",
+      "answer": "132"
+    },
+    "external": false,
+    "standards": [
       {
-        "id": "cms-2022:2.GG.04",
+        "id": "cms-2022:2.NA.01",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p087",
+    "name": "两位数乘法的应用",
+    "domain": "数与代数",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第3单元 多位数乘两位数",
+    "type": "application",
+    "description": "能用两位数乘法解决总价、总数问题。",
+    "mastery_criteria": [
+      "能找到每份数和份数",
+      "能列出乘法并计算"
+    ],
+    "diagnostic_question": {
+      "question": "计算：16×12＝？",
+      "answer": "192"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:2.NA.08",
         "confidence": "exact"
       }
     ]
   },
   {
     "id": "cnm_p102",
-    "name": "三位数乘两位数",
+    "name": "多位数乘两位数",
     "domain": "数与代数",
     "grade": 4,
     "semester": "上",
-    "chapter": "四年级上册 第4单元 三位数乘两位数",
+    "chapter": "四年级上册 第3单元 多位数乘两位数",
     "type": "procedural",
     "description": "会计算三位数乘两位数，积的位数会估计。",
     "mastery_criteria": [
@@ -2759,6 +3013,106 @@
         "confidence": "exact"
       }
     ]
+  },
+  {
+    "id": "cnm_p233",
+    "name": "用估算解决问题",
+    "domain": "数与代数",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第3单元 多位数乘两位数",
+    "type": "application",
+    "description": "会把因数看作接近的整十、整百数进行乘法估算，并用估算判断钱够不够等实际问题。",
+    "mastery_criteria": [
+      "能把数看作接近的整十、整百数",
+      "能根据问题选择估大或估小"
+    ],
+    "standards": [
+      {
+        "id": "cms-2022:2.NA.06",
+        "confidence": "exact"
+      }
+    ],
+    "external": false,
+    "diagnostic_question": {
+      "question": "估算 49×21：把两个数看作 50 和 20，积大约是多少？计算：50×20＝？",
+      "answer": "1000"
+    }
+  },
+  {
+    "id": "cnm_p111",
+    "name": "常见数量关系",
+    "domain": "数与代数",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第4单元 加法模型和乘法模型",
+    "type": "application",
+    "description": "会用总价＝单价×数量、路程＝速度×时间、总量＝分量＋分量解决简单问题。",
+    "mastery_criteria": [
+      "能根据单价和数量求总价",
+      "能根据速度和时间求路程"
+    ],
+    "diagnostic_question": {
+      "question": "计算：8×6＝？",
+      "answer": "48"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:2.NA.08",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p230",
+    "name": "加法模型",
+    "domain": "数与代数",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第4单元 加法模型和乘法模型",
+    "type": "application",
+    "description": "理解「总量＝分量＋分量」，会根据这个关系求总量或其中一个分量。",
+    "mastery_criteria": [
+      "能说出总量与分量的关系",
+      "能用加法或减法求未知量"
+    ],
+    "standards": [
+      {
+        "id": "cms-2022:2.NA.08",
+        "confidence": "exact"
+      }
+    ],
+    "external": false,
+    "diagnostic_question": {
+      "question": "一班有男生 23 人、女生 21 人。一共有多少人？计算：23＋21＝？",
+      "answer": "44"
+    }
+  },
+  {
+    "id": "cnm_p231",
+    "name": "乘法模型",
+    "domain": "数与代数",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第4单元 加法模型和乘法模型",
+    "type": "application",
+    "description": "理解「总价＝单价×数量」「路程＝速度×时间」，会用乘法或除法求未知量。",
+    "mastery_criteria": [
+      "能说出单价、数量、总价的关系",
+      "能说出速度、时间、路程的关系"
+    ],
+    "standards": [
+      {
+        "id": "cms-2022:2.NA.08",
+        "confidence": "exact"
+      }
+    ],
+    "external": false,
+    "diagnostic_question": {
+      "question": "每支笔 6 元，买 12 支要多少元？计算：6×12＝？",
+      "answer": "72"
+    }
   },
   {
     "id": "cnm_p103",
@@ -2836,58 +3190,30 @@
     ]
   },
   {
-    "id": "cnm_p106",
-    "name": "除数是两位数的除法",
-    "domain": "数与代数",
+    "id": "cnm_p234",
+    "name": "用尺规画平行线",
+    "domain": "图形与几何",
     "grade": 4,
     "semester": "上",
-    "chapter": "四年级上册 第6单元 除数是两位数的除法",
+    "chapter": "四年级上册 第5单元 平行四边形和梯形",
     "type": "procedural",
-    "description": "会计算除数是两位数的除法，先用整十数试商。",
+    "description": "会用直尺和三角板（或尺规）过直线外一点画已知直线的平行线，知道平行线之间的距离处处相等。",
     "mastery_criteria": [
-      "能试商并调商",
-      "能计算三位数除以两位数"
+      "能说出画平行线时三角板沿直尺平移",
+      "知道过直线外一点只能画一条平行线"
     ],
-    "diagnostic_question": {
-      "question": "计算：96÷12＝？",
-      "answer": "8"
-    },
-    "external": false,
     "standards": [
       {
-        "id": "cms-2022:2.NA.01",
-        "confidence": "exact"
+        "id": "cms-2022:2.GG.01",
+        "confidence": "inferred",
+        "note": "新版四上「平行四边形和梯形」单元据新闻稿增加尺规画平行线；课标 2.GG.01 讲直尺和圆规作线段，待核。"
       }
-    ]
-  },
-  {
-    "id": "cnm_p107",
-    "name": "商不变的规律",
-    "domain": "数与代数",
-    "grade": 4,
-    "semester": "上",
-    "chapter": "四年级上册 第6单元 除数是两位数的除法",
-    "type": "reasoning",
-    "description": "知道被除数和除数同时乘或除以相同的数（0 除外），商不变。",
-    "mastery_criteria": [
-      "能说出商不变规律",
-      "能用它把除法化简单"
     ],
-    "diagnostic_question": {
-      "question": "计算：80÷20＝？",
-      "answer": "4"
-    },
     "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:2.NA.01",
-        "confidence": "exact"
-      },
-      {
-        "id": "cms-2022:2.NA.04",
-        "confidence": "exact"
-      }
-    ]
+    "diagnostic_question": {
+      "question": "用直尺和三角板画平行线时，三角板应该怎样移动？",
+      "answer": "沿着直尺平移"
+    }
   },
   {
     "id": "cnm_p108",
@@ -2895,7 +3221,7 @@
     "domain": "统计与概率",
     "grade": 4,
     "semester": "上",
-    "chapter": "四年级上册 第7单元 条形统计图",
+    "chapter": "四年级上册 第6单元 条形统计图",
     "type": "procedural",
     "description": "认识条形统计图，会根据统计表画出简单的条形统计图并比较多少。",
     "mastery_criteria": [
@@ -2915,12 +3241,63 @@
     ]
   },
   {
+    "id": "cnm_p130",
+    "name": "复式条形统计图",
+    "domain": "统计与概率",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第6单元 条形统计图",
+    "type": "procedural",
+    "description": "认识复式条形统计图，能比较两组数据的多少。",
+    "mastery_criteria": [
+      "能读出同一项目上两组数据",
+      "能说出哪一组更多"
+    ],
+    "diagnostic_question": {
+      "question": "计算：18－12＝？",
+      "answer": "6"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:2.SP.03",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p235",
+    "name": "寻找宝藏",
+    "domain": "综合与实践",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 综合与实践 寻找宝藏",
+    "type": "application",
+    "description": "在寻宝活动中综合运用方向、距离和计算，按路线描述位置并推算距离。",
+    "mastery_criteria": [
+      "能按方向和距离描述路线",
+      "能用加减和乘法推算实际距离"
+    ],
+    "standards": [
+      {
+        "id": "cms-2022:2.GG.09",
+        "confidence": "inferred",
+        "note": "新版四上综合与实践「寻找宝藏」；具体内容只见新闻稿，按方向、距离和路线推理编写，待核。"
+      }
+    ],
+    "external": false,
+    "diagnostic_question": {
+      "question": "从起点向东走 30 米，再继续向东走 45 米。这时离起点多少米？计算：30＋45＝？",
+      "answer": "75"
+    }
+  },
+  {
     "id": "cnm_p109",
     "name": "简单的优化",
     "domain": "综合与实践",
     "grade": 4,
     "semester": "上",
-    "chapter": "四年级上册 第8单元 数学广角——优化",
+    "chapter": "四年级上册 第7单元 复习与关联",
     "type": "reasoning",
     "description": "能把几件事安排得更节省时间，例如烧水时同时洗茶杯。",
     "mastery_criteria": [
@@ -2937,6 +3314,32 @@
         "id": "cms-2022:2.NA.10",
         "confidence": "inferred",
         "note": "优化是现行四年级上册数学广角，课标没有同名主题，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p131",
+    "name": "鸡兔同笼",
+    "domain": "综合与实践",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第8单元 数学广角——鸡兔同笼",
+    "type": "reasoning",
+    "description": "会用假设法解决简单的鸡兔同笼问题：先假设全是鸡，再根据腿数调整。",
+    "mastery_criteria": [
+      "能说出先假设全部是鸡",
+      "能根据多出的腿数求出兔的只数"
+    ],
+    "diagnostic_question": {
+      "question": "鸡兔同笼用的是什么方法？",
+      "answer": "假设全部是鸡，再调整"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:2.NA.10",
+        "confidence": "inferred",
+        "note": "鸡兔同笼是现行四年级下册数学广角，内容要求没有同名条款，待核。"
       }
     ]
   },
@@ -2961,31 +3364,6 @@
     "standards": [
       {
         "id": "cms-2022:2.NA.03",
-        "confidence": "exact"
-      }
-    ]
-  },
-  {
-    "id": "cnm_p111",
-    "name": "常见数量关系",
-    "domain": "数与代数",
-    "grade": 4,
-    "semester": "下",
-    "chapter": "四年级下册 第1单元 四则运算",
-    "type": "application",
-    "description": "会用总价＝单价×数量、路程＝速度×时间、总量＝分量＋分量解决简单问题。",
-    "mastery_criteria": [
-      "能根据单价和数量求总价",
-      "能根据速度和时间求路程"
-    ],
-    "diagnostic_question": {
-      "question": "计算：8×6＝？",
-      "answer": "48"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:2.NA.08",
         "confidence": "exact"
       }
     ]
@@ -3464,55 +3842,83 @@
     ]
   },
   {
-    "id": "cnm_p130",
-    "name": "复式条形统计图",
-    "domain": "统计与概率",
+    "id": "cnm_p106",
+    "name": "除数是两位数的除法",
+    "domain": "数与代数",
     "grade": 4,
     "semester": "下",
-    "chapter": "四年级下册 第8单元 平均数与条形统计图",
+    "chapter": "四年级下册 第9单元 除数是两位数的除法",
     "type": "procedural",
-    "description": "认识复式条形统计图，能比较两组数据的多少。",
+    "description": "会计算除数是两位数的除法，先用整十数试商。",
     "mastery_criteria": [
-      "能读出同一项目上两组数据",
-      "能说出哪一组更多"
+      "能试商并调商",
+      "能计算三位数除以两位数"
     ],
     "diagnostic_question": {
-      "question": "计算：18－12＝？",
-      "answer": "6"
+      "question": "计算：96÷12＝？",
+      "answer": "8"
     },
     "external": false,
     "standards": [
       {
-        "id": "cms-2022:2.SP.03",
+        "id": "cms-2022:2.NA.01",
         "confidence": "exact"
       }
     ]
   },
   {
-    "id": "cnm_p131",
-    "name": "鸡兔同笼",
-    "domain": "综合与实践",
+    "id": "cnm_p107",
+    "name": "商不变的规律",
+    "domain": "数与代数",
     "grade": 4,
     "semester": "下",
-    "chapter": "四年级下册 第9单元 数学广角——鸡兔同笼",
+    "chapter": "四年级下册 第9单元 除数是两位数的除法",
     "type": "reasoning",
-    "description": "会用假设法解决简单的鸡兔同笼问题：先假设全是鸡，再根据腿数调整。",
+    "description": "知道被除数和除数同时乘或除以相同的数（0 除外），商不变。",
     "mastery_criteria": [
-      "能说出先假设全部是鸡",
-      "能根据多出的腿数求出兔的只数"
+      "能说出商不变规律",
+      "能用它把除法化简单"
     ],
     "diagnostic_question": {
-      "question": "鸡兔同笼用的是什么方法？",
-      "answer": "假设全部是鸡，再调整"
+      "question": "计算：80÷20＝？",
+      "answer": "4"
     },
     "external": false,
     "standards": [
       {
-        "id": "cms-2022:2.NA.10",
-        "confidence": "inferred",
-        "note": "鸡兔同笼是现行四年级下册数学广角，内容要求没有同名条款，待核。"
+        "id": "cms-2022:2.NA.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "cms-2022:2.NA.04",
+        "confidence": "exact"
       }
     ]
+  },
+  {
+    "id": "cnm_p237",
+    "name": "观察简单组合体",
+    "domain": "图形与几何",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "五年级上册 第1单元 观察简单组合体",
+    "type": "reasoning",
+    "description": "能根据从不同方向看到的形状，推想由小正方体组成的简单组合体，并判断最少或最多需要几个小正方体。",
+    "mastery_criteria": [
+      "能根据两个或三个方向的形状推想组合体",
+      "知道只看一个方向不一定能确定形状"
+    ],
+    "standards": [
+      {
+        "id": "cms-2022:3.GG.06",
+        "confidence": "exact"
+      }
+    ],
+    "external": false,
+    "diagnostic_question": {
+      "question": "一个组合体下层有 4 个小正方体，上层有 2 个。一共有几个小正方体？计算：4＋2＝？",
+      "answer": "6"
+    }
   },
   {
     "id": "cnm_p132",
@@ -3520,7 +3926,7 @@
     "domain": "数与代数",
     "grade": 5,
     "semester": "上",
-    "chapter": "五年级上册 第1单元 小数乘法",
+    "chapter": "五年级上册 第2单元 小数乘法",
     "type": "procedural",
     "description": "会计算小数乘整数，先按整数乘法算，再点小数点。",
     "mastery_criteria": [
@@ -3545,7 +3951,7 @@
     "domain": "数与代数",
     "grade": 5,
     "semester": "上",
-    "chapter": "五年级上册 第1单元 小数乘法",
+    "chapter": "五年级上册 第2单元 小数乘法",
     "type": "procedural",
     "description": "会计算小数乘小数，积的小数位数等于两个因数小数位数的和。",
     "mastery_criteria": [
@@ -3570,7 +3976,7 @@
     "domain": "数与代数",
     "grade": 5,
     "semester": "上",
-    "chapter": "五年级上册 第1单元 小数乘法",
+    "chapter": "五年级上册 第2单元 小数乘法",
     "type": "application",
     "description": "能用小数乘法解决单价、面积等实际问题。",
     "mastery_criteria": [
@@ -3589,57 +3995,6 @@
       },
       {
         "id": "cms-2022:2.NA.08",
-        "confidence": "exact"
-      }
-    ]
-  },
-  {
-    "id": "cnm_p135",
-    "name": "积的近似数",
-    "domain": "数与代数",
-    "grade": 5,
-    "semester": "上",
-    "chapter": "五年级上册 第1单元 小数乘法",
-    "type": "application",
-    "description": "能先算出小数乘法的精确积，再按要求保留一定的小数位数。",
-    "mastery_criteria": [
-      "能算出小数乘法的积",
-      "能把积保留到指定的位数"
-    ],
-    "diagnostic_question": {
-      "question": "计算：1.6×2.4＝？（用小数作答）",
-      "answer": "3.84"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:3.NA.06",
-        "confidence": "inferred",
-        "note": "积的近似数是五年级小数乘法里的四舍五入，内容要求写的是估算，待核。"
-      }
-    ]
-  },
-  {
-    "id": "cnm_p136",
-    "name": "用数对确定位置",
-    "domain": "图形与几何",
-    "grade": 5,
-    "semester": "上",
-    "chapter": "五年级上册 第2单元 位置",
-    "type": "application",
-    "description": "会用有序数对表示方格纸上点的位置，先写列、再写行。",
-    "mastery_criteria": [
-      "能说出先写列再写行",
-      "能根据数对找到点"
-    ],
-    "diagnostic_question": {
-      "question": "有序数对先写什么？",
-      "answer": "先写列，再写行"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:3.GG.09",
         "confidence": "exact"
       }
     ]
@@ -3724,58 +4079,29 @@
     ]
   },
   {
-    "id": "cnm_p140",
-    "name": "可能性",
-    "domain": "统计与概率",
+    "id": "cnm_p238",
+    "name": "图形的运动",
+    "domain": "图形与几何",
     "grade": 5,
     "semester": "上",
-    "chapter": "五年级上册 第4单元 可能性",
-    "type": "conceptual",
-    "description": "能用一定、可能、不可能描述事件，感受随机现象的结果。",
-    "mastery_criteria": [
-      "能区分一定、可能和不可能",
-      "能举出一个可能发生的例子"
-    ],
-    "diagnostic_question": {
-      "question": "一定发生的事情，可能性怎样？",
-      "answer": "可能性是确定的，一定会发生"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:3.SP.06",
-        "confidence": "exact"
-      },
-      {
-        "id": "cms-2022:3.SP.07",
-        "confidence": "exact"
-      }
-    ]
-  },
-  {
-    "id": "cnm_p141",
-    "name": "可能性的大小",
-    "domain": "统计与概率",
-    "grade": 5,
-    "semester": "上",
-    "chapter": "五年级上册 第4单元 可能性",
+    "chapter": "五年级上册 第4单元 图形的运动",
     "type": "reasoning",
-    "description": "能定性比较简单随机事件可能性的大小，知道数量越多通常可能性越大。",
+    "description": "在方格纸上综合认识平移、旋转和轴对称，知道这些运动只改变位置或方向，不改变图形的大小和形状。",
     "mastery_criteria": [
-      "能说出哪种结果的可能性更大",
-      "知道可能性相等时机会一样大"
+      "能说出旋转的中心、方向和角度",
+      "能在方格纸上按要求平移图形"
     ],
-    "diagnostic_question": {
-      "question": "可能性相等时，几种结果怎样？",
-      "answer": "每种结果的机会一样大"
-    },
-    "external": false,
     "standards": [
       {
-        "id": "cms-2022:3.SP.07",
+        "id": "cms-2022:3.GG.11",
         "confidence": "exact"
       }
-    ]
+    ],
+    "external": false,
+    "diagnostic_question": {
+      "question": "一个图形旋转之后，大小和形状怎样？",
+      "answer": "大小和形状都不变"
+    }
   },
   {
     "id": "cnm_p142",
@@ -3783,7 +4109,7 @@
     "domain": "数与代数",
     "grade": 5,
     "semester": "上",
-    "chapter": "五年级上册 第5单元 简易方程",
+    "chapter": "五年级上册 第5单元 用字母表示数和数量关系",
     "type": "conceptual",
     "description": "会用字母表示数、数量关系和运算律，知道字母可以表示变化的数。",
     "mastery_criteria": [
@@ -3807,41 +4133,12 @@
     ]
   },
   {
-    "id": "cnm_p143",
-    "name": "方程的意义",
-    "domain": "数与代数",
-    "grade": 5,
-    "semester": "上",
-    "chapter": "五年级上册 第5单元 简易方程",
-    "type": "conceptual",
-    "description": "知道方程是含有未知数的等式。",
-    "mastery_criteria": [
-      "能判断一个式子是不是方程",
-      "能说出方程里必须有未知数并且相等"
-    ],
-    "diagnostic_question": {
-      "question": "计算：12－7＝？",
-      "answer": "5"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:3.NA.05",
-        "confidence": "exact"
-      },
-      {
-        "id": "cms-2022:3.NA.07",
-        "confidence": "exact"
-      }
-    ]
-  },
-  {
     "id": "cnm_p144",
     "name": "等式的性质",
     "domain": "数与代数",
     "grade": 5,
     "semester": "上",
-    "chapter": "五年级上册 第5单元 简易方程",
+    "chapter": "五年级上册 第5单元 用字母表示数和数量关系",
     "type": "reasoning",
     "description": "知道等式两边同时加上或减去同一个数，左右仍然相等。",
     "mastery_criteria": [
@@ -3861,58 +4158,55 @@
     ]
   },
   {
-    "id": "cnm_p145",
-    "name": "解简易方程",
-    "domain": "数与代数",
+    "id": "cnm_p098",
+    "name": "公顷和平方千米",
+    "domain": "图形与几何",
     "grade": 5,
     "semester": "上",
-    "chapter": "五年级上册 第5单元 简易方程",
+    "chapter": "五年级上册 第6单元 多边形的面积",
     "type": "procedural",
-    "description": "会解 ax±b＝c 和 x±a＝b 这类简易方程。",
+    "description": "认识公顷、平方千米，知道 1 公顷＝10000 平方米、1 平方千米＝100 公顷。",
     "mastery_criteria": [
-      "能把未知数单独留在等式一边",
-      "能检验求出的解代回原方程"
+      "能说出 1 公顷等于 10000 平方米",
+      "能判断土地面积常用公顷"
     ],
     "diagnostic_question": {
-      "question": "计算：40－17＝？",
-      "answer": "23"
+      "question": "公顷是什么单位？",
+      "answer": "面积单位"
     },
     "external": false,
     "standards": [
       {
-        "id": "cms-2022:3.NA.05",
-        "confidence": "exact"
+        "id": "cms-2022:3.GG.03",
+        "confidence": "inferred",
+        "note": "公顷、平方千米写在第三学段。现行教材在四年级上册，对应时按内容提前出现处理，待核。"
       }
     ]
   },
   {
-    "id": "cnm_p146",
-    "name": "列方程解决实际问题",
-    "domain": "数与代数",
+    "id": "cnm_p240",
+    "name": "平行四边形的底和高",
+    "domain": "图形与几何",
     "grade": 5,
     "semester": "上",
-    "chapter": "五年级上册 第5单元 简易方程",
-    "type": "application",
-    "description": "能把「未知数和其他已知数的等量关系」列成方程并求解。",
+    "chapter": "五年级上册 第6单元 多边形的面积",
+    "type": "conceptual",
+    "description": "认识平行四边形的底和对应的高，会画高，知道同一条底上的高都相等，为学习面积做准备。",
     "mastery_criteria": [
-      "能找出等量关系",
-      "能列出方程并求出未知数"
+      "能说出高是对边之间的垂直线段",
+      "能找到和底对应的高"
     ],
-    "diagnostic_question": {
-      "question": "买 4 个同样的文具盒付了 28 元。每个多少元？计算：28÷4＝？",
-      "answer": "7"
-    },
-    "external": false,
     "standards": [
       {
-        "id": "cms-2022:3.NA.05",
-        "confidence": "exact"
-      },
-      {
-        "id": "cms-2022:2.NA.08",
+        "id": "cms-2022:3.GG.03",
         "confidence": "exact"
       }
-    ]
+    ],
+    "external": false,
+    "diagnostic_question": {
+      "question": "平行四边形的高是什么？",
+      "answer": "从一边上一点到对边的垂直线段"
+    }
   },
   {
     "id": "cnm_p147",
@@ -4015,12 +4309,200 @@
     ]
   },
   {
+    "id": "cnm_p239",
+    "name": "有趣的密铺",
+    "domain": "综合与实践",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "五年级上册 综合与实践 有趣的密铺",
+    "type": "reasoning",
+    "description": "知道用同样的图形铺满平面、不留空隙也不重叠叫密铺，能用拼在一点处的角的和是否等于 360° 判断能否密铺。",
+    "mastery_criteria": [
+      "能说出密铺的含义",
+      "能用一点处角的和判断正多边形能否单独密铺"
+    ],
+    "standards": [
+      {
+        "id": "cms-2022:3.GG.12",
+        "confidence": "exact"
+      }
+    ],
+    "external": false,
+    "diagnostic_question": {
+      "question": "正三角形每个角是 60°。围绕一个点拼正三角形，几个正好拼满一周？计算：360÷60＝？",
+      "answer": "6"
+    }
+  },
+  {
+    "id": "cnm_p140",
+    "name": "可能性",
+    "domain": "统计与概率",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "五年级上册 第7单元 可能性",
+    "type": "conceptual",
+    "description": "能用一定、可能、不可能描述事件，感受随机现象的结果。",
+    "mastery_criteria": [
+      "能区分一定、可能和不可能",
+      "能举出一个可能发生的例子"
+    ],
+    "diagnostic_question": {
+      "question": "一定发生的事情，可能性怎样？",
+      "answer": "可能性是确定的，一定会发生"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:3.SP.06",
+        "confidence": "exact"
+      },
+      {
+        "id": "cms-2022:3.SP.07",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p141",
+    "name": "可能性的大小",
+    "domain": "统计与概率",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "五年级上册 第7单元 可能性",
+    "type": "reasoning",
+    "description": "能定性比较简单随机事件可能性的大小，知道数量越多通常可能性越大。",
+    "mastery_criteria": [
+      "能说出哪种结果的可能性更大",
+      "知道可能性相等时机会一样大"
+    ],
+    "diagnostic_question": {
+      "question": "可能性相等时，几种结果怎样？",
+      "answer": "每种结果的机会一样大"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:3.SP.07",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p135",
+    "name": "积的近似数",
+    "domain": "数与代数",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "五年级上册 第8单元 复习与关联",
+    "type": "application",
+    "description": "能先算出小数乘法的精确积，再按要求保留一定的小数位数。",
+    "mastery_criteria": [
+      "能算出小数乘法的积",
+      "能把积保留到指定的位数"
+    ],
+    "diagnostic_question": {
+      "question": "计算：1.6×2.4＝？（用小数作答）",
+      "answer": "3.84"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:3.NA.06",
+        "confidence": "inferred",
+        "note": "积的近似数是五年级小数乘法里的四舍五入，内容要求写的是估算，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p143",
+    "name": "方程的意义",
+    "domain": "数与代数",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "五年级上册 第8单元 复习与关联",
+    "type": "conceptual",
+    "description": "知道方程是含有未知数的等式。",
+    "mastery_criteria": [
+      "能判断一个式子是不是方程",
+      "能说出方程里必须有未知数并且相等"
+    ],
+    "diagnostic_question": {
+      "question": "计算：12－7＝？",
+      "answer": "5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:3.NA.05",
+        "confidence": "exact"
+      },
+      {
+        "id": "cms-2022:3.NA.07",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p145",
+    "name": "解简易方程",
+    "domain": "数与代数",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "五年级上册 第8单元 复习与关联",
+    "type": "procedural",
+    "description": "会解 ax±b＝c 和 x±a＝b 这类简易方程。",
+    "mastery_criteria": [
+      "能把未知数单独留在等式一边",
+      "能检验求出的解代回原方程"
+    ],
+    "diagnostic_question": {
+      "question": "计算：40－17＝？",
+      "answer": "23"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:3.NA.05",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p146",
+    "name": "列方程解决实际问题",
+    "domain": "数与代数",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "五年级上册 第8单元 复习与关联",
+    "type": "application",
+    "description": "能把「未知数和其他已知数的等量关系」列成方程并求解。",
+    "mastery_criteria": [
+      "能找出等量关系",
+      "能列出方程并求出未知数"
+    ],
+    "diagnostic_question": {
+      "question": "买 4 个同样的文具盒付了 28 元。每个多少元？计算：28÷4＝？",
+      "answer": "7"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:3.NA.05",
+        "confidence": "exact"
+      },
+      {
+        "id": "cms-2022:2.NA.08",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
     "id": "cnm_p151",
     "name": "植树问题",
     "domain": "综合与实践",
     "grade": 5,
     "semester": "上",
-    "chapter": "五年级上册 第7单元 数学广角——植树问题",
+    "chapter": "五年级上册 第8单元 复习与关联",
     "type": "reasoning",
     "description": "能分清两端都种、只种一端时，间隔数和棵数的关系。",
     "mastery_criteria": [
@@ -4679,80 +5161,26 @@
     ]
   },
   {
-    "id": "cnm_p177",
-    "name": "分数乘整数",
-    "domain": "数与代数",
+    "id": "cnm_p136",
+    "name": "用数对确定位置",
+    "domain": "图形与几何",
     "grade": 6,
     "semester": "上",
-    "chapter": "六年级上册 第1单元 分数乘法",
-    "type": "procedural",
-    "description": "会计算分数乘整数，用分子乘整数做新的分子，分母不变。",
-    "mastery_criteria": [
-      "能算出分数乘整数",
-      "能把结果约成最简分数"
-    ],
-    "diagnostic_question": {
-      "question": "计算：2/7×3＝？",
-      "answer": "6/7"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:3.NA.04",
-        "confidence": "exact"
-      }
-    ]
-  },
-  {
-    "id": "cnm_p178",
-    "name": "分数乘分数",
-    "domain": "数与代数",
-    "grade": 6,
-    "semester": "上",
-    "chapter": "六年级上册 第1单元 分数乘法",
-    "type": "procedural",
-    "description": "会计算分数乘分数，用分子相乘的积做分子，分母相乘的积做分母。",
-    "mastery_criteria": [
-      "能算出分数乘分数",
-      "能约分后再写得数"
-    ],
-    "diagnostic_question": {
-      "question": "计算：1/2×1/3＝？",
-      "answer": "1/6"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:3.NA.04",
-        "confidence": "exact"
-      }
-    ]
-  },
-  {
-    "id": "cnm_p179",
-    "name": "分数乘法的应用",
-    "domain": "数与代数",
-    "grade": 6,
-    "semester": "上",
-    "chapter": "六年级上册 第1单元 分数乘法",
+    "chapter": "六年级上册 第1单元 确定位置",
     "type": "application",
-    "description": "能用分数乘法求一个数的几分之几是多少。",
+    "description": "会用有序数对表示方格纸上点的位置，先写列、再写行。",
     "mastery_criteria": [
-      "能把「一个数的几分之几」写成乘法",
-      "能算出结果并约分"
+      "能说出先写列再写行",
+      "能根据数对找到点"
     ],
     "diagnostic_question": {
-      "question": "计算：20×1/4＝？",
-      "answer": "5"
+      "question": "有序数对先写什么？",
+      "answer": "先写列，再写行"
     },
     "external": false,
     "standards": [
       {
-        "id": "cms-2022:3.NA.04",
-        "confidence": "exact"
-      },
-      {
-        "id": "cms-2022:3.NA.08",
+        "id": "cms-2022:3.GG.09",
         "confidence": "exact"
       }
     ]
@@ -4763,7 +5191,7 @@
     "domain": "图形与几何",
     "grade": 6,
     "semester": "上",
-    "chapter": "六年级上册 第2单元 位置与方向（二）",
+    "chapter": "六年级上册 第1单元 确定位置",
     "type": "application",
     "description": "能根据方向和距离确定物体的位置，并描述简单的路线。",
     "mastery_criteria": [
@@ -4788,7 +5216,7 @@
     "domain": "图形与几何",
     "grade": 6,
     "semester": "上",
-    "chapter": "六年级上册 第2单元 位置与方向（二）",
+    "chapter": "六年级上册 第1单元 确定位置",
     "type": "application",
     "description": "能按方向和距离说出从一处到另一处的路线，也能根据路线图算出总路程。",
     "mastery_criteria": [
@@ -4803,6 +5231,85 @@
     "standards": [
       {
         "id": "cms-2022:3.GG.08",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p177",
+    "name": "分数乘整数",
+    "domain": "数与代数",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第2单元 分数乘法",
+    "type": "procedural",
+    "description": "会计算分数乘整数，用分子乘整数做新的分子，分母不变。",
+    "mastery_criteria": [
+      "能算出分数乘整数",
+      "能把结果约成最简分数"
+    ],
+    "diagnostic_question": {
+      "question": "计算：2/7×3＝？",
+      "answer": "6/7"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:3.NA.04",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p178",
+    "name": "分数乘分数",
+    "domain": "数与代数",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第2单元 分数乘法",
+    "type": "procedural",
+    "description": "会计算分数乘分数，用分子相乘的积做分子，分母相乘的积做分母。",
+    "mastery_criteria": [
+      "能算出分数乘分数",
+      "能约分后再写得数"
+    ],
+    "diagnostic_question": {
+      "question": "计算：1/2×1/3＝？",
+      "answer": "1/6"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:3.NA.04",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p179",
+    "name": "分数乘法的应用",
+    "domain": "数与代数",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第2单元 分数乘法",
+    "type": "application",
+    "description": "能用分数乘法求一个数的几分之几是多少。",
+    "mastery_criteria": [
+      "能把「一个数的几分之几」写成乘法",
+      "能算出结果并约分"
+    ],
+    "diagnostic_question": {
+      "question": "计算：20×1/4＝？",
+      "answer": "5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:3.NA.04",
+        "confidence": "exact"
+      },
+      {
+        "id": "cms-2022:3.NA.08",
         "confidence": "exact"
       }
     ]
@@ -4891,76 +5398,51 @@
     ]
   },
   {
-    "id": "cnm_p185",
-    "name": "比的意义",
+    "id": "cnm_p201",
+    "name": "认识负数",
     "domain": "数与代数",
     "grade": 6,
     "semester": "上",
-    "chapter": "六年级上册 第4单元 比",
+    "chapter": "六年级上册 综合与实践 生活中的负数",
     "type": "conceptual",
-    "description": "理解比表示两个数相除的关系，比的前项除以后项叫做比值。",
+    "description": "在温度、海拔、收支等情境里认识负数，知道负数表示与正数意义相反的量。",
     "mastery_criteria": [
-      "能说出比的前项除以后项是比值",
-      "能求一个简单的比的比值"
+      "能说出负数表示与正数意义相反的量",
+      "能用负数表示零下温度"
     ],
     "diagnostic_question": {
-      "question": "比的前项除以后项，得到的叫什么？",
-      "answer": "比值"
+      "question": "负数表示的是什么？",
+      "answer": "与正数意义相反的量"
     },
     "external": false,
     "standards": [
       {
-        "id": "cms-2022:3.NA.08",
+        "id": "cms-2022:3.IP.01",
         "confidence": "exact"
       }
     ]
   },
   {
-    "id": "cnm_p186",
-    "name": "化简比",
+    "id": "cnm_p202",
+    "name": "用负数表示相反意义的量",
     "domain": "数与代数",
     "grade": 6,
     "semester": "上",
-    "chapter": "六年级上册 第4单元 比",
-    "type": "procedural",
-    "description": "会把比化成最简整数比，前项和后项同时除以最大公因数。",
+    "chapter": "六年级上册 综合与实践 生活中的负数",
+    "type": "application",
+    "description": "会用正数和负数表示收入与支出、上升与下降等相反意义的量。",
     "mastery_criteria": [
-      "能求出前项和后项的最大公因数",
-      "能写出最简整数比的前项"
+      "能选定正方向",
+      "能算出上升和下降合起来的结果"
     ],
     "diagnostic_question": {
-      "question": "比 12：8 化成最简整数比后，前项是多少？",
+      "question": "计算：8－5＝？",
       "answer": "3"
     },
     "external": false,
     "standards": [
       {
-        "id": "cms-2022:3.NA.08",
-        "confidence": "exact"
-      }
-    ]
-  },
-  {
-    "id": "cnm_p187",
-    "name": "按比分配",
-    "domain": "数与代数",
-    "grade": 6,
-    "semester": "上",
-    "chapter": "六年级上册 第4单元 比",
-    "type": "application",
-    "description": "会把一个总量按给定的比分成若干份。",
-    "mastery_criteria": [
-      "能求出每一份是多少",
-      "能按比算出各部分"
-    ],
-    "diagnostic_question": {
-      "question": "计算：30÷（2＋3）×2＝？",
-      "answer": "12"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:3.NA.08",
+        "id": "cms-2022:3.IP.01",
         "confidence": "exact"
       }
     ]
@@ -4971,7 +5453,7 @@
     "domain": "图形与几何",
     "grade": 6,
     "semester": "上",
-    "chapter": "六年级上册 第5单元 圆",
+    "chapter": "六年级上册 第4单元 圆",
     "type": "conceptual",
     "description": "认识圆心、半径和直径，会用圆规画圆，知道同一圆里半径都相等。",
     "mastery_criteria": [
@@ -4996,7 +5478,7 @@
     "domain": "数与代数",
     "grade": 6,
     "semester": "上",
-    "chapter": "六年级上册 第5单元 圆",
+    "chapter": "六年级上册 第4单元 圆",
     "type": "conceptual",
     "description": "知道圆周率是圆的周长与直径的比，计算时可以取 3.14。",
     "mastery_criteria": [
@@ -5021,7 +5503,7 @@
     "domain": "图形与几何",
     "grade": 6,
     "semester": "上",
-    "chapter": "六年级上册 第5单元 圆",
+    "chapter": "六年级上册 第4单元 圆",
     "type": "procedural",
     "description": "会用直径乘圆周率，或半径的 2 倍乘圆周率，求圆的周长。",
     "mastery_criteria": [
@@ -5046,7 +5528,7 @@
     "domain": "图形与几何",
     "grade": 6,
     "semester": "上",
-    "chapter": "六年级上册 第5单元 圆",
+    "chapter": "六年级上册 第4单元 圆",
     "type": "application",
     "description": "能用圆的周长解决车轮滚动、圆形花坛一周的长度等问题。",
     "mastery_criteria": [
@@ -5071,7 +5553,7 @@
     "domain": "图形与几何",
     "grade": 6,
     "semester": "上",
-    "chapter": "六年级上册 第5单元 圆",
+    "chapter": "六年级上册 第4单元 圆",
     "type": "procedural",
     "description": "会用半径乘半径再乘圆周率求圆的面积。",
     "mastery_criteria": [
@@ -5096,7 +5578,7 @@
     "domain": "图形与几何",
     "grade": 6,
     "semester": "上",
-    "chapter": "六年级上册 第5单元 圆",
+    "chapter": "六年级上册 第4单元 圆",
     "type": "conceptual",
     "description": "认识扇形是由圆心角的两条半径和一段弧围成的图形。",
     "mastery_criteria": [
@@ -5116,12 +5598,38 @@
     ]
   },
   {
+    "id": "cnm_p241",
+    "name": "体育中的数学",
+    "domain": "综合与实践",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 综合与实践 体育中的数学",
+    "type": "application",
+    "description": "在跑步、跳远、比赛安排等体育情境中综合运用计算、比较和简单的统计解决问题。",
+    "mastery_criteria": [
+      "能用学过的运算解决体育中的问题",
+      "能比较成绩并说明理由"
+    ],
+    "standards": [
+      {
+        "id": "cms-2022:3.NA.10",
+        "confidence": "inferred",
+        "note": "新版六上综合与实践「体育中的数学」；内容只见新闻稿，按体育情境中的常见数量关系编写，待核。"
+      }
+    ],
+    "external": false,
+    "diagnostic_question": {
+      "question": "跑道一圈 400 米，跑 5 圈一共多少米？计算：400×5＝？",
+      "answer": "2000"
+    }
+  },
+  {
     "id": "cnm_p194",
     "name": "百分数的意义",
     "domain": "数与代数",
     "grade": 6,
     "semester": "上",
-    "chapter": "六年级上册 第6单元 百分数（一）",
+    "chapter": "六年级上册 第5单元 百分数",
     "type": "conceptual",
     "description": "理解百分数表示一个数是另一个数的百分之几。",
     "mastery_criteria": [
@@ -5147,7 +5655,7 @@
     "domain": "数与代数",
     "grade": 6,
     "semester": "上",
-    "chapter": "六年级上册 第6单元 百分数（一）",
+    "chapter": "六年级上册 第5单元 百分数",
     "type": "procedural",
     "description": "会把百分数化成分数或小数，也会把小数化成百分数。",
     "mastery_criteria": [
@@ -5173,7 +5681,7 @@
     "domain": "数与代数",
     "grade": 6,
     "semester": "上",
-    "chapter": "六年级上册 第6单元 百分数（一）",
+    "chapter": "六年级上册 第5单元 百分数",
     "type": "procedural",
     "description": "会求一个数的百分之几是多少。",
     "mastery_criteria": [
@@ -5199,7 +5707,7 @@
     "domain": "数与代数",
     "grade": 6,
     "semester": "上",
-    "chapter": "六年级上册 第6单元 百分数（一）",
+    "chapter": "六年级上册 第5单元 百分数",
     "type": "application",
     "description": "会求一个数是另一个数的百分之几。",
     "mastery_criteria": [
@@ -5225,7 +5733,7 @@
     "domain": "数与代数",
     "grade": 6,
     "semester": "上",
-    "chapter": "六年级上册 第6单元 百分数（一）",
+    "chapter": "六年级上册 第5单元 百分数",
     "type": "application",
     "description": "已知一个数的百分之几是多少，会求出这个数。",
     "mastery_criteria": [
@@ -5246,114 +5754,12 @@
     ]
   },
   {
-    "id": "cnm_p199",
-    "name": "扇形统计图",
-    "domain": "统计与概率",
-    "grade": 6,
-    "semester": "上",
-    "chapter": "六年级上册 第7单元 扇形统计图",
-    "type": "procedural",
-    "description": "认识扇形统计图，能看出各部分占总数的多少。",
-    "mastery_criteria": [
-      "能说出扇形统计图表示部分占总数的多少",
-      "能根据百分数算出某一部分的数量"
-    ],
-    "diagnostic_question": {
-      "question": "扇形统计图适合看什么？",
-      "answer": "各部分占总数的多少"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:3.SP.02",
-        "confidence": "inferred",
-        "note": "转写里「会用」只明确点了条形统计图和折线统计图，扇形统计图是否另有分句待核。"
-      }
-    ]
-  },
-  {
-    "id": "cnm_p200",
-    "name": "数与形",
-    "domain": "综合与实践",
-    "grade": 6,
-    "semester": "上",
-    "chapter": "六年级上册 第8单元 数学广角——数与形",
-    "type": "reasoning",
-    "description": "能借助图形发现简单数列的规律，并算出接下来的一个数。",
-    "mastery_criteria": [
-      "能说出点阵或图形每次增加多少",
-      "能按规律算出下一项"
-    ],
-    "diagnostic_question": {
-      "question": "计算：1＋3＝？",
-      "answer": "4"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:3.NA.07",
-        "confidence": "inferred",
-        "note": "数与形是现行六年级上册数学广角，内容要求没有同名条款，按用字母或符号表示规律来对应，待核。"
-      }
-    ]
-  },
-  {
-    "id": "cnm_p201",
-    "name": "认识负数",
-    "domain": "数与代数",
-    "grade": 6,
-    "semester": "下",
-    "chapter": "六年级下册 第1单元 负数",
-    "type": "conceptual",
-    "description": "在温度、海拔、收支等情境里认识负数，知道负数表示与正数意义相反的量。",
-    "mastery_criteria": [
-      "能说出负数表示与正数意义相反的量",
-      "能用负数表示零下温度"
-    ],
-    "diagnostic_question": {
-      "question": "负数表示的是什么？",
-      "answer": "与正数意义相反的量"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:3.IP.01",
-        "confidence": "exact"
-      }
-    ]
-  },
-  {
-    "id": "cnm_p202",
-    "name": "用负数表示相反意义的量",
-    "domain": "数与代数",
-    "grade": 6,
-    "semester": "下",
-    "chapter": "六年级下册 第1单元 负数",
-    "type": "application",
-    "description": "会用正数和负数表示收入与支出、上升与下降等相反意义的量。",
-    "mastery_criteria": [
-      "能选定正方向",
-      "能算出上升和下降合起来的结果"
-    ],
-    "diagnostic_question": {
-      "question": "计算：8－5＝？",
-      "answer": "3"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:3.IP.01",
-        "confidence": "exact"
-      }
-    ]
-  },
-  {
     "id": "cnm_p203",
     "name": "折扣",
     "domain": "数与代数",
     "grade": 6,
-    "semester": "下",
-    "chapter": "六年级下册 第2单元 百分数（二）",
+    "semester": "上",
+    "chapter": "六年级上册 第5单元 百分数",
     "type": "application",
     "description": "理解折扣的含义，会求打折后的价钱。",
     "mastery_criteria": [
@@ -5378,8 +5784,8 @@
     "name": "利率",
     "domain": "数与代数",
     "grade": 6,
-    "semester": "下",
-    "chapter": "六年级下册 第2单元 百分数（二）",
+    "semester": "上",
+    "chapter": "六年级上册 第5单元 百分数",
     "type": "application",
     "description": "会根据本金和利率求简单的一年利息。",
     "mastery_criteria": [
@@ -5404,8 +5810,8 @@
     "name": "百分数的应用",
     "domain": "数与代数",
     "grade": 6,
-    "semester": "下",
-    "chapter": "六年级下册 第2单元 百分数（二）",
+    "semester": "上",
+    "chapter": "六年级上册 第5单元 百分数",
     "type": "application",
     "description": "会解决求一个数比另一个数多百分之几、增长率这类简单问题。",
     "mastery_criteria": [
@@ -5422,6 +5828,58 @@
         "id": "cms-2022:3.NA.08",
         "confidence": "inferred",
         "note": "增长率是百分数应用，内容要求没有单独点名，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p242",
+    "name": "水是生命之源",
+    "domain": "综合与实践",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 综合与实践 水是生命之源",
+    "type": "application",
+    "description": "围绕用水、节水的真实情境，综合运用分数、百分数和统计解决问题。",
+    "mastery_criteria": [
+      "能用分数、百分数计算用水量",
+      "能根据结果提出节水建议"
+    ],
+    "standards": [
+      {
+        "id": "cms-2022:3.SP.05",
+        "confidence": "inferred",
+        "note": "新版六上综合与实践「水是生命之源」；内容只见新闻稿，按用水情境中的分数、百分数应用编写，待核。"
+      }
+    ],
+    "external": false,
+    "diagnostic_question": {
+      "question": "一个水龙头每天漏水 2 升，30 天一共漏水多少升？计算：2×30＝？",
+      "answer": "60"
+    }
+  },
+  {
+    "id": "cnm_p216",
+    "name": "鸽巢问题",
+    "domain": "综合与实践",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第7单元 数学广角——鸽巢问题",
+    "type": "reasoning",
+    "description": "知道物体数比抽屉数多时，必有一个抽屉至少放两个物体。",
+    "mastery_criteria": [
+      "能说出至少数是多少",
+      "能把物体数和抽屉数做比较"
+    ],
+    "diagnostic_question": {
+      "question": "鸽巢问题是说什么？",
+      "answer": "物体数比抽屉数多，必有一个抽屉至少放两个"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:3.NA.06",
+        "confidence": "inferred",
+        "note": "鸽巢问题是现行六年级下册数学广角，内容要求没有同名条款，待核。"
       }
     ]
   },
@@ -5521,6 +5979,81 @@
     "standards": [
       {
         "id": "cms-2022:3.GG.05",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p185",
+    "name": "比的意义",
+    "domain": "数与代数",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第4单元 比例",
+    "type": "conceptual",
+    "description": "理解比表示两个数相除的关系，比的前项除以后项叫做比值。",
+    "mastery_criteria": [
+      "能说出比的前项除以后项是比值",
+      "能求一个简单的比的比值"
+    ],
+    "diagnostic_question": {
+      "question": "比的前项除以后项，得到的叫什么？",
+      "answer": "比值"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:3.NA.08",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p186",
+    "name": "化简比",
+    "domain": "数与代数",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第4单元 比例",
+    "type": "procedural",
+    "description": "会把比化成最简整数比，前项和后项同时除以最大公因数。",
+    "mastery_criteria": [
+      "能求出前项和后项的最大公因数",
+      "能写出最简整数比的前项"
+    ],
+    "diagnostic_question": {
+      "question": "比 12：8 化成最简整数比后，前项是多少？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:3.NA.08",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p187",
+    "name": "按比分配",
+    "domain": "数与代数",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第4单元 比例",
+    "type": "application",
+    "description": "会把一个总量按给定的比分成若干份。",
+    "mastery_criteria": [
+      "能求出每一份是多少",
+      "能按比算出各部分"
+    ],
+    "diagnostic_question": {
+      "question": "计算：30÷（2＋3）×2＝？",
+      "answer": "12"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:3.NA.08",
         "confidence": "exact"
       }
     ]
@@ -5686,28 +6219,54 @@
     ]
   },
   {
-    "id": "cnm_p216",
-    "name": "鸽巢问题",
-    "domain": "综合与实践",
+    "id": "cnm_p199",
+    "name": "扇形统计图",
+    "domain": "统计与概率",
     "grade": 6,
     "semester": "下",
-    "chapter": "六年级下册 第5单元 数学广角——鸽巢问题",
-    "type": "reasoning",
-    "description": "知道物体数比抽屉数多时，必有一个抽屉至少放两个物体。",
+    "chapter": "六年级下册 第6单元 整理和复习",
+    "type": "procedural",
+    "description": "认识扇形统计图，能看出各部分占总数的多少。",
     "mastery_criteria": [
-      "能说出至少数是多少",
-      "能把物体数和抽屉数做比较"
+      "能说出扇形统计图表示部分占总数的多少",
+      "能根据百分数算出某一部分的数量"
     ],
     "diagnostic_question": {
-      "question": "鸽巢问题是说什么？",
-      "answer": "物体数比抽屉数多，必有一个抽屉至少放两个"
+      "question": "扇形统计图适合看什么？",
+      "answer": "各部分占总数的多少"
     },
     "external": false,
     "standards": [
       {
-        "id": "cms-2022:3.NA.06",
+        "id": "cms-2022:3.SP.02",
         "confidence": "inferred",
-        "note": "鸽巢问题是现行六年级下册数学广角，内容要求没有同名条款，待核。"
+        "note": "转写里「会用」只明确点了条形统计图和折线统计图，扇形统计图是否另有分句待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p200",
+    "name": "数与形",
+    "domain": "综合与实践",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第6单元 整理和复习",
+    "type": "reasoning",
+    "description": "能借助图形发现简单数列的规律，并算出接下来的一个数。",
+    "mastery_criteria": [
+      "能说出点阵或图形每次增加多少",
+      "能按规律算出下一项"
+    ],
+    "diagnostic_question": {
+      "question": "计算：1＋3＝？",
+      "answer": "4"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:3.NA.07",
+        "confidence": "inferred",
+        "note": "数与形是现行六年级上册数学广角，内容要求没有同名条款，按用字母或符号表示规律来对应，待核。"
       }
     ]
   },

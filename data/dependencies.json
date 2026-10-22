@@ -691,9 +691,9 @@
   },
   {
     "topicId": "cnm_p089",
-    "prerequisiteId": "cnm_p086",
+    "prerequisiteId": "cnm_p074",
     "strength": "hard",
-    "reason": "学习「长方形和正方形的面积」需要先掌握「两位数乘两位数」。"
+    "reason": "学习「长方形和正方形的面积」需要先掌握「多位数乘一位数」。"
   },
   {
     "topicId": "cnm_p090",
@@ -769,21 +769,15 @@
   },
   {
     "topicId": "cnm_p099",
-    "prerequisiteId": "cnm_p077",
+    "prerequisiteId": "cnm_p040",
     "strength": "hard",
-    "reason": "学习「线段、直线和射线」需要先掌握「长方形和正方形的特征」。"
+    "reason": "学习「线段、直线和射线」需要先掌握「认识厘米」。"
   },
   {
     "topicId": "cnm_p100",
     "prerequisiteId": "cnm_p099",
     "strength": "hard",
     "reason": "学习「角的度量」需要先掌握「线段、直线和射线」。"
-  },
-  {
-    "topicId": "cnm_p101",
-    "prerequisiteId": "cnm_p100",
-    "strength": "hard",
-    "reason": "学习「锐角、直角和钝角」需要先掌握「角的度量」。"
   },
   {
     "topicId": "cnm_p102",
@@ -850,12 +844,6 @@
     "prerequisiteId": "cnm_p059",
     "strength": "hard",
     "reason": "学习「四则运算各部分间的关系」需要先掌握「两步加减应用」。"
-  },
-  {
-    "topicId": "cnm_p111",
-    "prerequisiteId": "cnm_p110",
-    "strength": "hard",
-    "reason": "学习「常见数量关系」需要先掌握「四则运算各部分间的关系」。"
   },
   {
     "topicId": "cnm_p111",
@@ -1032,16 +1020,10 @@
     "reason": "学习「复式条形统计图」需要先掌握「条形统计图」。"
   },
   {
-    "topicId": "cnm_p130",
-    "prerequisiteId": "cnm_p129",
-    "strength": "soft",
-    "reason": "「平均数」对学习「复式条形统计图」有帮助，但不会前者也可以开始学后者。"
-  },
-  {
     "topicId": "cnm_p131",
-    "prerequisiteId": "cnm_p112",
+    "prerequisiteId": "cnm_p087",
     "strength": "hard",
-    "reason": "学习「鸡兔同笼」需要先掌握「整数四则混合运算」。"
+    "reason": "学习「鸡兔同笼」需要先掌握「两位数乘法的应用」。"
   },
   {
     "topicId": "cnm_p131",
@@ -1579,9 +1561,9 @@
   },
   {
     "topicId": "cnm_p189",
-    "prerequisiteId": "cnm_p185",
+    "prerequisiteId": "cnm_p138",
     "strength": "hard",
-    "reason": "学习「圆周率」需要先掌握「比的意义」。"
+    "reason": "学习「圆周率」需要先掌握「一个数除以小数」。"
   },
   {
     "topicId": "cnm_p190",
@@ -1627,9 +1609,9 @@
   },
   {
     "topicId": "cnm_p194",
-    "prerequisiteId": "cnm_p185",
+    "prerequisiteId": "cnm_p165",
     "strength": "hard",
-    "reason": "学习「百分数的意义」需要先掌握「比的意义」。"
+    "reason": "学习「百分数的意义」需要先掌握「分数的意义」。"
   },
   {
     "topicId": "cnm_p195",
@@ -13108,5 +13090,299 @@
     "prerequisiteId": "cnm_p072",
     "strength": "hard",
     "reason": "学习「加减法各部分间的关系」需要先掌握「三位数减法笔算」。"
+  },
+  {
+    "topicId": "cnm_p221",
+    "prerequisiteId": "cnm_p014",
+    "strength": "hard",
+    "reason": "学习「观察简单的立体积木」需要先掌握「认识长方体、正方体、圆柱和球」。"
+  },
+  {
+    "topicId": "cnm_p221",
+    "prerequisiteId": "cnm_p023",
+    "strength": "soft",
+    "reason": "学习「观察简单的立体积木」需要先掌握「认识长方形、正方形、三角形和圆」。"
+  },
+  {
+    "topicId": "cnm_p222",
+    "prerequisiteId": "cnm_p221",
+    "strength": "hard",
+    "reason": "学习「长方体纸盒的展开图」需要先掌握「观察简单的立体积木」。"
+  },
+  {
+    "topicId": "cnm_p222",
+    "prerequisiteId": "cnm_p014",
+    "strength": "hard",
+    "reason": "学习「长方体纸盒的展开图」需要先掌握「认识长方体、正方体、圆柱和球」。"
+  },
+  {
+    "topicId": "cnm_p223",
+    "prerequisiteId": "cnm_p057",
+    "strength": "hard",
+    "reason": "学习「同级运算与两级运算的运算顺序」需要先掌握「乘加乘减的运算顺序」。"
+  },
+  {
+    "topicId": "cnm_p223",
+    "prerequisiteId": "cnm_p220",
+    "strength": "soft",
+    "reason": "学习「同级运算与两级运算的运算顺序」需要先掌握「加减法各部分间的关系」。"
+  },
+  {
+    "topicId": "cnm_p224",
+    "prerequisiteId": "cnm_p219",
+    "strength": "hard",
+    "reason": "学习「等量代换（曹冲称象）」需要先掌握「数量间的乘除关系」。"
+  },
+  {
+    "topicId": "cnm_p224",
+    "prerequisiteId": "cnm_p056",
+    "strength": "soft",
+    "reason": "学习「等量代换（曹冲称象）」需要先掌握「克和千克」。"
+  },
+  {
+    "topicId": "cnm_p225",
+    "prerequisiteId": "cnm_p099",
+    "strength": "hard",
+    "reason": "学习「角的认识」需要先掌握「线段、直线和射线」。"
+  },
+  {
+    "topicId": "cnm_p225",
+    "prerequisiteId": "cnm_p023",
+    "strength": "soft",
+    "reason": "学习「角的认识」需要先掌握「认识长方形、正方形、三角形和圆」。"
+  },
+  {
+    "topicId": "cnm_p226",
+    "prerequisiteId": "cnm_p079",
+    "strength": "hard",
+    "reason": "学习「几分之几」需要先掌握「几分之一」。"
+  },
+  {
+    "topicId": "cnm_p227",
+    "prerequisiteId": "cnm_p226",
+    "strength": "hard",
+    "reason": "学习「简单的分数大小比较」需要先掌握「几分之几」。"
+  },
+  {
+    "topicId": "cnm_p227",
+    "prerequisiteId": "cnm_p079",
+    "strength": "hard",
+    "reason": "学习「简单的分数大小比较」需要先掌握「几分之一」。"
+  },
+  {
+    "topicId": "cnm_p228",
+    "prerequisiteId": "cnm_p023",
+    "strength": "hard",
+    "reason": "学习「生活中的运动现象」需要先掌握「认识长方形、正方形、三角形和圆」。"
+  },
+  {
+    "topicId": "cnm_p228",
+    "prerequisiteId": "cnm_p024",
+    "strength": "soft",
+    "reason": "学习「生活中的运动现象」需要先掌握「平面图形的拼组」。"
+  },
+  {
+    "topicId": "cnm_p229",
+    "prerequisiteId": "cnm_p023",
+    "strength": "hard",
+    "reason": "学习「多边形的认识」需要先掌握「认识长方形、正方形、三角形和圆」。"
+  },
+  {
+    "topicId": "cnm_p229",
+    "prerequisiteId": "cnm_p225",
+    "strength": "soft",
+    "reason": "学习「多边形的认识」需要先掌握「角的认识」。"
+  },
+  {
+    "topicId": "cnm_p230",
+    "prerequisiteId": "cnm_p220",
+    "strength": "hard",
+    "reason": "学习「加法模型」需要先掌握「加减法各部分间的关系」。"
+  },
+  {
+    "topicId": "cnm_p230",
+    "prerequisiteId": "cnm_p071",
+    "strength": "soft",
+    "reason": "学习「加法模型」需要先掌握「三位数加法笔算」。"
+  },
+  {
+    "topicId": "cnm_p231",
+    "prerequisiteId": "cnm_p219",
+    "strength": "hard",
+    "reason": "学习「乘法模型」需要先掌握「数量间的乘除关系」。"
+  },
+  {
+    "topicId": "cnm_p231",
+    "prerequisiteId": "cnm_p086",
+    "strength": "hard",
+    "reason": "学习「乘法模型」需要先掌握「两位数乘两位数」。"
+  },
+  {
+    "topicId": "cnm_p232",
+    "prerequisiteId": "cnm_p100",
+    "strength": "hard",
+    "reason": "学习「平角、周角和角的分类」需要先掌握「角的度量」。"
+  },
+  {
+    "topicId": "cnm_p232",
+    "prerequisiteId": "cnm_p101",
+    "strength": "hard",
+    "reason": "学习「平角、周角和角的分类」需要先掌握「锐角、直角和钝角」。"
+  },
+  {
+    "topicId": "cnm_p233",
+    "prerequisiteId": "cnm_p102",
+    "strength": "hard",
+    "reason": "学习「用估算解决问题」需要先掌握「多位数乘两位数」。"
+  },
+  {
+    "topicId": "cnm_p233",
+    "prerequisiteId": "cnm_p066",
+    "strength": "soft",
+    "reason": "学习「用估算解决问题」需要先掌握「加法的估算」。"
+  },
+  {
+    "topicId": "cnm_p234",
+    "prerequisiteId": "cnm_p104",
+    "strength": "hard",
+    "reason": "学习「用尺规画平行线」需要先掌握「平行」。"
+  },
+  {
+    "topicId": "cnm_p235",
+    "prerequisiteId": "cnm_p049",
+    "strength": "hard",
+    "reason": "学习「寻找宝藏」需要先掌握「东、南、西、北」。"
+  },
+  {
+    "topicId": "cnm_p235",
+    "prerequisiteId": "cnm_p087",
+    "strength": "soft",
+    "reason": "学习「寻找宝藏」需要先掌握「两位数乘法的应用」。"
+  },
+  {
+    "topicId": "cnm_p236",
+    "prerequisiteId": "cnm_p096",
+    "strength": "hard",
+    "reason": "学习「1亿有多大」需要先掌握「亿以内数的认识」。"
+  },
+  {
+    "topicId": "cnm_p237",
+    "prerequisiteId": "cnm_p113",
+    "strength": "hard",
+    "reason": "学习「观察简单组合体」需要先掌握「从不同方向观察物体」。"
+  },
+  {
+    "topicId": "cnm_p237",
+    "prerequisiteId": "cnm_p221",
+    "strength": "hard",
+    "reason": "学习「观察简单组合体」需要先掌握「观察简单的立体积木」。"
+  },
+  {
+    "topicId": "cnm_p238",
+    "prerequisiteId": "cnm_p127",
+    "strength": "hard",
+    "reason": "学习「图形的运动」需要先掌握「轴对称」。"
+  },
+  {
+    "topicId": "cnm_p238",
+    "prerequisiteId": "cnm_p128",
+    "strength": "hard",
+    "reason": "学习「图形的运动」需要先掌握「平移」。"
+  },
+  {
+    "topicId": "cnm_p239",
+    "prerequisiteId": "cnm_p124",
+    "strength": "hard",
+    "reason": "学习「有趣的密铺」需要先掌握「三角形的内角和」。"
+  },
+  {
+    "topicId": "cnm_p239",
+    "prerequisiteId": "cnm_p105",
+    "strength": "soft",
+    "reason": "学习「有趣的密铺」需要先掌握「平行四边形和梯形的特征」。"
+  },
+  {
+    "topicId": "cnm_p240",
+    "prerequisiteId": "cnm_p105",
+    "strength": "hard",
+    "reason": "学习「平行四边形的底和高」需要先掌握「平行四边形和梯形的特征」。"
+  },
+  {
+    "topicId": "cnm_p240",
+    "prerequisiteId": "cnm_p103",
+    "strength": "hard",
+    "reason": "学习「平行四边形的底和高」需要先掌握「垂直」。"
+  },
+  {
+    "topicId": "cnm_p241",
+    "prerequisiteId": "cnm_p179",
+    "strength": "hard",
+    "reason": "学习「体育中的数学」需要先掌握「分数乘法的应用」。"
+  },
+  {
+    "topicId": "cnm_p241",
+    "prerequisiteId": "cnm_p190",
+    "strength": "soft",
+    "reason": "学习「体育中的数学」需要先掌握「圆的周长」。"
+  },
+  {
+    "topicId": "cnm_p242",
+    "prerequisiteId": "cnm_p196",
+    "strength": "hard",
+    "reason": "学习「水是生命之源」需要先掌握「求一个数的百分之几」。"
+  },
+  {
+    "topicId": "cnm_p242",
+    "prerequisiteId": "cnm_p179",
+    "strength": "soft",
+    "reason": "学习「水是生命之源」需要先掌握「分数乘法的应用」。"
+  },
+  {
+    "topicId": "cnm_p058",
+    "prerequisiteId": "cnm_p223",
+    "strength": "hard",
+    "reason": "学习「带小括号的两步运算」需要先掌握「同级运算与两级运算的运算顺序」。"
+  },
+  {
+    "topicId": "cnm_p101",
+    "prerequisiteId": "cnm_p225",
+    "strength": "hard",
+    "reason": "学习「锐角、直角和钝角」需要先掌握「角的认识」。"
+  },
+  {
+    "topicId": "cnm_p080",
+    "prerequisiteId": "cnm_p226",
+    "strength": "soft",
+    "reason": "学习「同分母分数的初步加减」需要先掌握「几分之几」。"
+  },
+  {
+    "topicId": "cnm_p077",
+    "prerequisiteId": "cnm_p229",
+    "strength": "soft",
+    "reason": "学习「长方形和正方形的特征」需要先掌握「多边形的认识」。"
+  },
+  {
+    "topicId": "cnm_p111",
+    "prerequisiteId": "cnm_p231",
+    "strength": "hard",
+    "reason": "学习「常见数量关系」需要先掌握「乘法模型」。"
+  },
+  {
+    "topicId": "cnm_p147",
+    "prerequisiteId": "cnm_p240",
+    "strength": "hard",
+    "reason": "学习「平行四边形的面积」需要先掌握「平行四边形的底和高」。"
+  },
+  {
+    "topicId": "cnm_p171",
+    "prerequisiteId": "cnm_p238",
+    "strength": "soft",
+    "reason": "学习「旋转」需要先掌握「图形的运动」。"
+  },
+  {
+    "topicId": "cnm_p152",
+    "prerequisiteId": "cnm_p237",
+    "strength": "soft",
+    "reason": "学习「根据三个方向辨认物体」需要先掌握「观察简单组合体」。"
   }
 ]

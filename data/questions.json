@@ -12397,6 +12397,1222 @@
     "verify": "809-286"
   },
   {
+    "id": "cnm_p221_q1",
+    "topicId": "cnm_p221",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "用 4 个同样的小正方体从左到右摆成一排，从正面看到的是什么样子？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "一个圆"
+      },
+      {
+        "key": "B",
+        "text": "一个三角形"
+      },
+      {
+        "key": "C",
+        "text": "4 个正方形连成一排"
+      }
+    ],
+    "answer": "C",
+    "explanation": "每个小正方体从正面看都是一个正方形，4 个连成一排。",
+    "verify": "'4 个正方形连成一排'"
+  },
+  {
+    "id": "cnm_p221_q2",
+    "topicId": "cnm_p221",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "从左到右摆成一排的小正方体，从正面数出 5 个正方形。这一排有几个小正方体？",
+    "answer": "5",
+    "explanation": "一排只有一层一行，看到几个正方形就有几个小正方体。",
+    "verify": "5"
+  },
+  {
+    "id": "cnm_p221_q3",
+    "topicId": "cnm_p221",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "搭一个两层的积木：下层 3 个小正方体，上层 1 个。一共用了几个小正方体？计算：3＋1＝？",
+    "answer": "4",
+    "explanation": "上下两层合起来：3＋1＝4。",
+    "verify": "3+1"
+  },
+  {
+    "id": "cnm_p221_q4",
+    "topicId": "cnm_p221",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "从上面看是 2 行、每行 3 个正方形，并且每个位置只放 1 个小正方体。一共有几个小正方体？计算：2×3＝？",
+    "answer": "6",
+    "explanation": "只有一层，2 行每行 3 个：2×3＝6。",
+    "verify": "2*3"
+  },
+  {
+    "id": "cnm_p222_q1",
+    "topicId": "cnm_p222",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "把一个长方体纸盒沿棱剪开、展平，展开图一共有几个面？",
+    "answer": "6",
+    "explanation": "长方体有 6 个面，展开后还是 6 个面。",
+    "verify": "6"
+  },
+  {
+    "id": "cnm_p222_q2",
+    "topicId": "cnm_p222",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "正方体纸盒展开后，每个面是什么形状？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "三角形"
+      },
+      {
+        "key": "B",
+        "text": "正方形"
+      },
+      {
+        "key": "C",
+        "text": "圆"
+      }
+    ],
+    "answer": "B",
+    "explanation": "正方体的 6 个面都是同样大的正方形。",
+    "verify": "'正方形'"
+  },
+  {
+    "id": "cnm_p222_q3",
+    "topicId": "cnm_p222",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "长方体纸盒相对的两个面完全一样。6 个面可以分成几对？计算：6÷2＝？",
+    "answer": "3",
+    "explanation": "前后、上下、左右各一对：6÷2＝3。",
+    "verify": "6//2"
+  },
+  {
+    "id": "cnm_p222_q4",
+    "topicId": "cnm_p222",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "一个正方体纸盒展开后，已经给 2 个面涂了颜色。还有几个面没涂？计算：6－2＝？",
+    "answer": "4",
+    "explanation": "一共 6 个面：6－2＝4。",
+    "verify": "6-2"
+  },
+  {
+    "id": "cnm_p223_q1",
+    "topicId": "cnm_p223",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "计算：36－8＋12＝？",
+    "answer": "40",
+    "explanation": "只有加减，从左往右：36－8＝28，28＋12＝40。",
+    "verify": "36-8+12"
+  },
+  {
+    "id": "cnm_p223_q2",
+    "topicId": "cnm_p223",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "计算：48÷6×3＝？",
+    "answer": "24",
+    "explanation": "只有乘除，从左往右：48÷6＝8，8×3＝24。",
+    "verify": "48//6*3"
+  },
+  {
+    "id": "cnm_p223_q3",
+    "topicId": "cnm_p223",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "计算：25＋5×4＝？",
+    "answer": "45",
+    "explanation": "先算乘法 5×4＝20，再算 25＋20＝45。",
+    "verify": "25+5*4"
+  },
+  {
+    "id": "cnm_p223_q4",
+    "topicId": "cnm_p223",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "计算：60－36÷4＝？",
+    "answer": "51",
+    "explanation": "先算除法 36÷4＝9，再算 60－9＝51。",
+    "verify": "60-36//4"
+  },
+  {
+    "id": "cnm_p224_q1",
+    "topicId": "cnm_p224",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "曹冲先让大象上船、记下水痕，再往船上装石头，直到船沉到同一条水痕。为什么称石头就能知道大象有多重？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "石头比大象重"
+      },
+      {
+        "key": "B",
+        "text": "船变轻了"
+      },
+      {
+        "key": "C",
+        "text": "石头和大象一样重"
+      }
+    ],
+    "answer": "C",
+    "explanation": "船沉到同一水痕，说明石头和大象一样重。",
+    "verify": "'石头和大象一样重'"
+  },
+  {
+    "id": "cnm_p224_q2",
+    "topicId": "cnm_p224",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "1 个苹果和 2 个梨一样重，1 个梨重 150 克。1 个苹果重多少克？计算：150×2＝？",
+    "answer": "300",
+    "explanation": "1 个苹果等于 2 个梨：150×2＝300。",
+    "verify": "150*2"
+  },
+  {
+    "id": "cnm_p224_q3",
+    "topicId": "cnm_p224",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "1 只鸭和 3 只鸡一样重，1 只鹅和 2 只鸭一样重。1 只鹅和几只鸡一样重？计算：3×2＝？",
+    "answer": "6",
+    "explanation": "1 只鸭换成 3 只鸡，2 只鸭就是 3×2＝6 只鸡。",
+    "verify": "3*2"
+  },
+  {
+    "id": "cnm_p224_q4",
+    "topicId": "cnm_p224",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "天平左边放 1 个西瓜，右边放 4 个同样的哈密瓜，正好平衡。每个哈密瓜重 1 千克，西瓜重多少千克？计算：4×1＝？",
+    "answer": "4",
+    "explanation": "西瓜和 4 个哈密瓜一样重：4×1＝4。",
+    "verify": "4*1"
+  },
+  {
+    "id": "cnm_p225_q1",
+    "topicId": "cnm_p225",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "一个角有几条边？",
+    "answer": "2",
+    "explanation": "角由一个顶点和两条边组成。",
+    "verify": "2"
+  },
+  {
+    "id": "cnm_p225_q2",
+    "topicId": "cnm_p225",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "角的大小与什么有关？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "纸的大小"
+      },
+      {
+        "key": "B",
+        "text": "两条边张开的大小"
+      },
+      {
+        "key": "C",
+        "text": "边画得长短"
+      }
+    ],
+    "answer": "B",
+    "explanation": "角的大小只看两条边张开得多大。",
+    "verify": "'两条边张开的大小'"
+  },
+  {
+    "id": "cnm_p225_q3",
+    "topicId": "cnm_p225",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "一个三角形有几个角？",
+    "answer": "3",
+    "explanation": "三角形有 3 个顶点，也就有 3 个角。",
+    "verify": "3"
+  },
+  {
+    "id": "cnm_p225_q4",
+    "topicId": "cnm_p225",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "一个角有 2 条边。3 个这样的角一共有几条边？计算：2×3＝？",
+    "answer": "6",
+    "explanation": "2×3＝6。",
+    "verify": "2*3"
+  },
+  {
+    "id": "cnm_p226_q1",
+    "topicId": "cnm_p226",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "把一个圆平均分成 4 份，涂了其中 3 份。涂色部分是这个圆的几分之几？",
+    "answer": "3/4",
+    "explanation": "平均分成 4 份，取 3 份，是 3/4。",
+    "verify": "Fraction(3,4)"
+  },
+  {
+    "id": "cnm_p226_q2",
+    "topicId": "cnm_p226",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "5/8 的分母是几？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "3"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "8"
+      }
+    ],
+    "answer": "B",
+    "explanation": "分数线下面的数是分母，5/8 的分母是 8。",
+    "verify": "'5'"
+  },
+  {
+    "id": "cnm_p226_q3",
+    "topicId": "cnm_p226",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "一块蛋糕平均切成 6 块，吃了 1 块。还剩下这块蛋糕的几分之几？",
+    "answer": "5/6",
+    "explanation": "还剩 6－1＝5 块，是 5/6。",
+    "verify": "Fraction(6-1,6)"
+  },
+  {
+    "id": "cnm_p226_q4",
+    "topicId": "cnm_p226",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "把一根绳子平均分成 10 段，用去 7 段。用去的是这根绳子的几分之几？",
+    "answer": "7/10",
+    "explanation": "平均分成 10 份，用去 7 份，是 7/10。",
+    "verify": "Fraction(7,10)"
+  },
+  {
+    "id": "cnm_p227_q1",
+    "topicId": "cnm_p227",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "3/7 和 2/7 哪个大？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "2/7"
+      },
+      {
+        "key": "B",
+        "text": "一样大"
+      },
+      {
+        "key": "C",
+        "text": "3/7"
+      }
+    ],
+    "answer": "C",
+    "explanation": "分母相同，分子大的分数大，3/7 大。",
+    "verify": "'3/7'"
+  },
+  {
+    "id": "cnm_p227_q2",
+    "topicId": "cnm_p227",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "1/3 和 1/5 哪个大？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "一样大"
+      },
+      {
+        "key": "B",
+        "text": "1/3"
+      },
+      {
+        "key": "C",
+        "text": "1/5"
+      }
+    ],
+    "answer": "B",
+    "explanation": "同一个整体分得份数越多，每份越小，所以 1/3 大。",
+    "verify": "'1/3'"
+  },
+  {
+    "id": "cnm_p227_q3",
+    "topicId": "cnm_p227",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "把同样大的两张饼，一张平均分成 4 份、一张平均分成 8 份。各取 1 份，1/4 比 1/8 大多少？计算：1/4－1/8＝？",
+    "answer": "1/8",
+    "explanation": "1/4＝2/8，2/8－1/8＝1/8。",
+    "verify": "Fraction(1,4)-Fraction(1,8)"
+  },
+  {
+    "id": "cnm_p227_q4",
+    "topicId": "cnm_p227",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "4/9、1/9、5/9 中最大的是哪个？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "4/9"
+      },
+      {
+        "key": "B",
+        "text": "1/9"
+      },
+      {
+        "key": "C",
+        "text": "5/9"
+      }
+    ],
+    "answer": "C",
+    "explanation": "分母相同，分子 5 最大，所以 5/9 最大。",
+    "verify": "'5/9'"
+  },
+  {
+    "id": "cnm_p228_q1",
+    "topicId": "cnm_p228",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "电梯上下运动，属于哪一种运动现象？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "旋转"
+      },
+      {
+        "key": "B",
+        "text": "轴对称"
+      },
+      {
+        "key": "C",
+        "text": "平移"
+      }
+    ],
+    "answer": "C",
+    "explanation": "电梯沿直线移动、方向不变，是平移。",
+    "verify": "'平移'"
+  },
+  {
+    "id": "cnm_p228_q2",
+    "topicId": "cnm_p228",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "风车转动，属于哪一种运动现象？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "轴对称"
+      },
+      {
+        "key": "B",
+        "text": "旋转"
+      },
+      {
+        "key": "C",
+        "text": "平移"
+      }
+    ],
+    "answer": "B",
+    "explanation": "风车绕着中心转，是旋转。",
+    "verify": "'旋转'"
+  },
+  {
+    "id": "cnm_p228_q3",
+    "topicId": "cnm_p228",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "把一张纸对折后剪出一个图案，展开后折痕两边的图案怎样？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "两边完全一样"
+      },
+      {
+        "key": "B",
+        "text": "左边大"
+      },
+      {
+        "key": "C",
+        "text": "右边大"
+      }
+    ],
+    "answer": "A",
+    "explanation": "对折剪出的图案是轴对称的，两边完全一样。",
+    "verify": "'两边完全一样'"
+  },
+  {
+    "id": "cnm_p228_q4",
+    "topicId": "cnm_p228",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "一个小方块先向右平移 4 格，再向右平移 3 格。一共向右平移了几格？计算：4＋3＝？",
+    "answer": "7",
+    "explanation": "方向相同，格数相加：4＋3＝7。",
+    "verify": "4+3"
+  },
+  {
+    "id": "cnm_p229_q1",
+    "topicId": "cnm_p229",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "五边形有几条边？",
+    "answer": "5",
+    "explanation": "五边形由 5 条线段围成。",
+    "verify": "5"
+  },
+  {
+    "id": "cnm_p229_q2",
+    "topicId": "cnm_p229",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "六边形有几个角？",
+    "answer": "6",
+    "explanation": "几边形就有几个角，六边形有 6 个角。",
+    "verify": "6"
+  },
+  {
+    "id": "cnm_p229_q3",
+    "topicId": "cnm_p229",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "由 4 条线段围成的封闭图形叫什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "四边形"
+      },
+      {
+        "key": "B",
+        "text": "三角形"
+      },
+      {
+        "key": "C",
+        "text": "五边形"
+      }
+    ],
+    "answer": "A",
+    "explanation": "4 条线段围成的封闭图形是四边形。",
+    "verify": "'四边形'"
+  },
+  {
+    "id": "cnm_p229_q4",
+    "topicId": "cnm_p229",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "一个三角形和一个四边形，边数一共是多少？计算：3＋4＝？",
+    "answer": "7",
+    "explanation": "三角形 3 条边，四边形 4 条边：3＋4＝7。",
+    "verify": "3+4"
+  },
+  {
+    "id": "cnm_p230_q1",
+    "topicId": "cnm_p230",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "一班有男生 23 人、女生 21 人。一共有多少人？计算：23＋21＝？",
+    "answer": "44",
+    "explanation": "总量＝分量＋分量：23＋21＝44。",
+    "verify": "23+21"
+  },
+  {
+    "id": "cnm_p230_q2",
+    "topicId": "cnm_p230",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "学校买来 120 本书，借出 75 本。还剩多少本？计算：120－75＝？",
+    "answer": "45",
+    "explanation": "一个分量＝总量－另一个分量：120－75＝45。",
+    "verify": "120-75"
+  },
+  {
+    "id": "cnm_p230_q3",
+    "topicId": "cnm_p230",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "从家到书店 450 米，从书店到学校 380 米。从家经过书店到学校一共多少米？",
+    "answer": "830",
+    "explanation": "两段路程相加：450＋380＝830。",
+    "verify": "450+380"
+  },
+  {
+    "id": "cnm_p230_q4",
+    "topicId": "cnm_p230",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "一桶油连桶重 25 千克，桶重 2 千克。油重多少千克？",
+    "answer": "23",
+    "explanation": "油重＝总重－桶重：25－2＝23。",
+    "verify": "25-2"
+  },
+  {
+    "id": "cnm_p231_q1",
+    "topicId": "cnm_p231",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "每支笔 6 元，买 12 支要多少元？计算：6×12＝？",
+    "answer": "72",
+    "explanation": "总价＝单价×数量：6×12＝72。",
+    "verify": "6*12"
+  },
+  {
+    "id": "cnm_p231_q2",
+    "topicId": "cnm_p231",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "汽车每小时行 60 千米，4 小时行多少千米？计算：60×4＝？",
+    "answer": "240",
+    "explanation": "路程＝速度×时间：60×4＝240。",
+    "verify": "60*4"
+  },
+  {
+    "id": "cnm_p231_q3",
+    "topicId": "cnm_p231",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "买 5 个同样的书包一共花了 175 元。每个书包多少元？",
+    "answer": "35",
+    "explanation": "单价＝总价÷数量：175÷5＝35。",
+    "verify": "175//5"
+  },
+  {
+    "id": "cnm_p231_q4",
+    "topicId": "cnm_p231",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "小明骑车 3 小时骑了 36 千米。他平均每小时骑多少千米？",
+    "answer": "12",
+    "explanation": "速度＝路程÷时间：36÷3＝12。",
+    "verify": "36//3"
+  },
+  {
+    "id": "cnm_p232_q1",
+    "topicId": "cnm_p232",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "1 个平角是多少度？",
+    "answer": "180",
+    "explanation": "平角的两条边成一条直线，是 180°。",
+    "verify": "180"
+  },
+  {
+    "id": "cnm_p232_q2",
+    "topicId": "cnm_p232",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "1 周角等于几个平角？计算：360÷180＝？",
+    "answer": "2",
+    "explanation": "1 周角 360°，1 平角 180°：360÷180＝2。",
+    "verify": "360//180"
+  },
+  {
+    "id": "cnm_p232_q3",
+    "topicId": "cnm_p232",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "一个角是 125°，它是什么角？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "钝角"
+      },
+      {
+        "key": "B",
+        "text": "锐角"
+      },
+      {
+        "key": "C",
+        "text": "平角"
+      }
+    ],
+    "answer": "A",
+    "explanation": "大于 90° 而小于 180° 的角是钝角。",
+    "verify": "'钝角'"
+  },
+  {
+    "id": "cnm_p232_q4",
+    "topicId": "cnm_p232",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "1 周角等于几个直角？计算：360÷90＝？",
+    "answer": "4",
+    "explanation": "360÷90＝4。",
+    "verify": "360//90"
+  },
+  {
+    "id": "cnm_p233_q1",
+    "topicId": "cnm_p233",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "估算 49×21：把两个数看作 50 和 20，积大约是多少？计算：50×20＝？",
+    "answer": "1000",
+    "explanation": "49≈50，21≈20：50×20＝1000。",
+    "verify": "50*20"
+  },
+  {
+    "id": "cnm_p233_q2",
+    "topicId": "cnm_p233",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "估算 302×19：把两个数看作 300 和 20，积大约是多少？计算：300×20＝？",
+    "answer": "6000",
+    "explanation": "300×20＝6000。",
+    "verify": "300*20"
+  },
+  {
+    "id": "cnm_p233_q3",
+    "topicId": "cnm_p233",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "每个书包 38 元，要买 21 个。带 700 元够不够？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "不够"
+      },
+      {
+        "key": "B",
+        "text": "够"
+      },
+      {
+        "key": "C",
+        "text": "正好够"
+      }
+    ],
+    "answer": "A",
+    "explanation": "38 比 35 大，21 比 20 大，总价一定比 35×20＝700 还多，所以不够。",
+    "verify": "'不够'"
+  },
+  {
+    "id": "cnm_p233_q4",
+    "topicId": "cnm_p233",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "每张门票 18 元，31 人去参观。把 18 看作 20、31 看作 30，大约需要多少元？计算：20×30＝？",
+    "answer": "600",
+    "explanation": "20×30＝600。",
+    "verify": "20*30"
+  },
+  {
+    "id": "cnm_p234_q1",
+    "topicId": "cnm_p234",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "用直尺和三角板画平行线时，三角板应该怎样移动？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "随意转动"
+      },
+      {
+        "key": "B",
+        "text": "离开直尺"
+      },
+      {
+        "key": "C",
+        "text": "沿着直尺平移"
+      }
+    ],
+    "answer": "C",
+    "explanation": "三角板紧靠直尺平移，画出的线才互相平行。",
+    "verify": "'沿着直尺平移'"
+  },
+  {
+    "id": "cnm_p234_q2",
+    "topicId": "cnm_p234",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "过直线外一点，能画几条和这条直线平行的直线？",
+    "answer": "1",
+    "explanation": "过直线外一点只能画一条已知直线的平行线。",
+    "verify": "1"
+  },
+  {
+    "id": "cnm_p234_q3",
+    "topicId": "cnm_p234",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "一个长方形中，互相平行的边有几组？",
+    "answer": "2",
+    "explanation": "上下一组、左右一组，共 2 组。",
+    "verify": "2"
+  },
+  {
+    "id": "cnm_p234_q4",
+    "topicId": "cnm_p234",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "在两条平行线之间画几条垂直线段，它们的长度怎样？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "越来越长"
+      },
+      {
+        "key": "B",
+        "text": "不一定"
+      },
+      {
+        "key": "C",
+        "text": "都相等"
+      }
+    ],
+    "answer": "C",
+    "explanation": "平行线之间的距离处处相等。",
+    "verify": "'都相等'"
+  },
+  {
+    "id": "cnm_p235_q1",
+    "topicId": "cnm_p235",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "从起点向东走 30 米，再继续向东走 45 米。这时离起点多少米？计算：30＋45＝？",
+    "answer": "75",
+    "explanation": "方向相同，距离相加：30＋45＝75。",
+    "verify": "30+45"
+  },
+  {
+    "id": "cnm_p235_q2",
+    "topicId": "cnm_p235",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "面向北站好，向右转后面向哪个方向？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "南"
+      },
+      {
+        "key": "B",
+        "text": "东"
+      },
+      {
+        "key": "C",
+        "text": "西"
+      }
+    ],
+    "answer": "B",
+    "explanation": "面向北时右手边是东。",
+    "verify": "'东'"
+  },
+  {
+    "id": "cnm_p235_q3",
+    "topicId": "cnm_p235",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "藏宝图上 1 格表示 10 米。宝藏在起点东边 6 格处，实际离起点多少米？计算：10×6＝？",
+    "answer": "60",
+    "explanation": "10×6＝60。",
+    "verify": "10*6"
+  },
+  {
+    "id": "cnm_p235_q4",
+    "topicId": "cnm_p235",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "从起点向北走 80 米，又向南走回 30 米。这时在起点北边多少米？计算：80－30＝？",
+    "answer": "50",
+    "explanation": "向南走回来要减：80－30＝50。",
+    "verify": "80-30"
+  },
+  {
+    "id": "cnm_p236_q1",
+    "topicId": "cnm_p236",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "1 亿里面有几个一千万？计算：100000000÷10000000＝？",
+    "answer": "10",
+    "explanation": "10 个一千万是一亿。",
+    "verify": "100000000//10000000"
+  },
+  {
+    "id": "cnm_p236_q2",
+    "topicId": "cnm_p236",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "1 亿里面有几个一万？计算：100000000÷10000＝？",
+    "answer": "10000",
+    "explanation": "1 亿＝10000 个一万。",
+    "verify": "100000000//10000"
+  },
+  {
+    "id": "cnm_p236_q3",
+    "topicId": "cnm_p236",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "1 亿写成数是哪一个？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "100000000"
+      },
+      {
+        "key": "B",
+        "text": "10000000"
+      },
+      {
+        "key": "C",
+        "text": "1000000000"
+      }
+    ],
+    "answer": "A",
+    "explanation": "1 亿是 1 后面 8 个 0。",
+    "verify": "'100000000'"
+  },
+  {
+    "id": "cnm_p236_q4",
+    "topicId": "cnm_p236",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "数 1 万粒米大约用 1 小时。照这样，数 1 亿粒米大约要多少小时？计算：100000000÷10000＝？",
+    "answer": "10000",
+    "explanation": "1 亿是 1 万的 10000 倍，时间也约是 10000 小时。",
+    "verify": "100000000//10000"
+  },
+  {
+    "id": "cnm_p237_q1",
+    "topicId": "cnm_p237",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "一个组合体下层有 4 个小正方体，上层有 2 个。一共有几个小正方体？计算：4＋2＝？",
+    "answer": "6",
+    "explanation": "两层相加：4＋2＝6。",
+    "verify": "4+2"
+  },
+  {
+    "id": "cnm_p237_q2",
+    "topicId": "cnm_p237",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "只看从正面看到的形状，能不能一定确定组合体的样子？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "只有正方体时才能"
+      },
+      {
+        "key": "B",
+        "text": "不一定能"
+      },
+      {
+        "key": "C",
+        "text": "一定能"
+      }
+    ],
+    "answer": "B",
+    "explanation": "后面可能藏着看不到的小正方体，只看一个方向不一定能确定。",
+    "verify": "'不一定能'"
+  },
+  {
+    "id": "cnm_p237_q3",
+    "topicId": "cnm_p237",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "从正面看是 3 个正方形排成一排，从上面看也是 3 个正方形排成一排。这个组合体至少用了几个小正方体？",
+    "answer": "3",
+    "explanation": "一排 3 个就能同时满足两个方向，至少 3 个。",
+    "verify": "3"
+  },
+  {
+    "id": "cnm_p237_q4",
+    "topicId": "cnm_p237",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "从上面看是 2 行、每行 2 个正方形，每个位置都叠了 2 层。一共有几个小正方体？计算：2×2×2＝？",
+    "answer": "8",
+    "explanation": "每层 4 个，2 层：2×2×2＝8。",
+    "verify": "2*2*2"
+  },
+  {
+    "id": "cnm_p238_q1",
+    "topicId": "cnm_p238",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "一个图形旋转之后，大小和形状怎样？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "变大了"
+      },
+      {
+        "key": "B",
+        "text": "形状变了"
+      },
+      {
+        "key": "C",
+        "text": "大小和形状都不变"
+      }
+    ],
+    "answer": "C",
+    "explanation": "旋转只改变图形的方向和位置。",
+    "verify": "'大小和形状都不变'"
+  },
+  {
+    "id": "cnm_p238_q2",
+    "topicId": "cnm_p238",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "钟面上的指针从 12 顺时针旋转到 3，旋转了多少度？计算：360÷4＝？",
+    "answer": "90",
+    "explanation": "从 12 到 3 是周角的四分之一：360÷4＝90。",
+    "verify": "360//4"
+  },
+  {
+    "id": "cnm_p238_q3",
+    "topicId": "cnm_p238",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "指针从 12 顺时针旋转到 6，旋转了多少度？计算：360÷2＝？",
+    "answer": "180",
+    "explanation": "从 12 到 6 是半圈：360÷2＝180。",
+    "verify": "360//2"
+  },
+  {
+    "id": "cnm_p238_q4",
+    "topicId": "cnm_p238",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "方格纸上一个点在第 3 列，向右平移 4 格后在第几列？计算：3＋4＝？",
+    "answer": "7",
+    "explanation": "向右平移列数增加：3＋4＝7。",
+    "verify": "3+4"
+  },
+  {
+    "id": "cnm_p239_q1",
+    "topicId": "cnm_p239",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "正三角形每个角是 60°。围绕一个点拼正三角形，几个正好拼满一周？计算：360÷60＝？",
+    "answer": "6",
+    "explanation": "一周 360°：360÷60＝6。",
+    "verify": "360//60"
+  },
+  {
+    "id": "cnm_p239_q2",
+    "topicId": "cnm_p239",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "正方形每个角是 90°。一个点周围要拼几个正方形？计算：360÷90＝？",
+    "answer": "4",
+    "explanation": "360÷90＝4。",
+    "verify": "360//90"
+  },
+  {
+    "id": "cnm_p239_q3",
+    "topicId": "cnm_p239",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "正六边形每个角是 120°。一个点周围要拼几个正六边形？计算：360÷120＝？",
+    "answer": "3",
+    "explanation": "360÷120＝3。",
+    "verify": "360//120"
+  },
+  {
+    "id": "cnm_p239_q4",
+    "topicId": "cnm_p239",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "正五边形每个角是 108°。只用正五边形能不能密铺？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "能"
+      },
+      {
+        "key": "B",
+        "text": "只能铺一行"
+      },
+      {
+        "key": "C",
+        "text": "不能"
+      }
+    ],
+    "answer": "C",
+    "explanation": "360÷108 不是整数，拼在一点处会留空隙或重叠，所以不能。",
+    "verify": "'不能'"
+  },
+  {
+    "id": "cnm_p240_q1",
+    "topicId": "cnm_p240",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "平行四边形的高是什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "任意一条斜边"
+      },
+      {
+        "key": "B",
+        "text": "连接对角的线段"
+      },
+      {
+        "key": "C",
+        "text": "从一边上一点到对边的垂直线段"
+      }
+    ],
+    "answer": "C",
+    "explanation": "从一条边上一点向对边作垂线，这点和垂足之间的线段是高。",
+    "verify": "'从一边上一点到对边的垂直线段'"
+  },
+  {
+    "id": "cnm_p240_q2",
+    "topicId": "cnm_p240",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "平行四边形的一条底和它对应的高是什么关系？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "不确定"
+      },
+      {
+        "key": "B",
+        "text": "互相垂直"
+      },
+      {
+        "key": "C",
+        "text": "互相平行"
+      }
+    ],
+    "answer": "B",
+    "explanation": "高垂直于底。",
+    "verify": "'互相垂直'"
+  },
+  {
+    "id": "cnm_p240_q3",
+    "topicId": "cnm_p240",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "长方形是特殊的平行四边形。一个长方形长 8 厘米、宽 5 厘米，以长为底，对应的高是多少厘米？",
+    "answer": "5",
+    "explanation": "长方形的宽就垂直于长，高是 5 厘米。",
+    "verify": "5"
+  },
+  {
+    "id": "cnm_p240_q4",
+    "topicId": "cnm_p240",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "在平行四边形同一条底上量出一条高是 6 厘米，同一条底上的另一条高是多少厘米？",
+    "answer": "6",
+    "explanation": "两条平行线之间的距离处处相等，所以还是 6 厘米。",
+    "verify": "6"
+  },
+  {
+    "id": "cnm_p241_q1",
+    "topicId": "cnm_p241",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "跑道一圈 400 米，跑 5 圈一共多少米？计算：400×5＝？",
+    "answer": "2000",
+    "explanation": "400×5＝2000。",
+    "verify": "400*5"
+  },
+  {
+    "id": "cnm_p241_q2",
+    "topicId": "cnm_p241",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "小明跳远三次的成绩是 3.2 米、3.5 米、3.4 米，取最好成绩是多少米？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "3.2"
+      },
+      {
+        "key": "B",
+        "text": "3.5"
+      },
+      {
+        "key": "C",
+        "text": "3.4"
+      }
+    ],
+    "answer": "B",
+    "explanation": "跳远取最远的一次，3.5 最大。",
+    "verify": "'3.5'"
+  },
+  {
+    "id": "cnm_p241_q3",
+    "topicId": "cnm_p241",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "8 支队伍进行单循环赛，每两队之间赛一场。一共要赛多少场？计算：8×7÷2＝？",
+    "answer": "28",
+    "explanation": "每队和另外 7 队各赛一场，每场算了两次：8×7÷2＝28。",
+    "verify": "comb(8,2)"
+  },
+  {
+    "id": "cnm_p241_q4",
+    "topicId": "cnm_p241",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "篮球投篮 20 次，投中 15 次。投中次数占投篮次数的几分之几？",
+    "answer": "3/4",
+    "explanation": "15/20＝3/4。",
+    "verify": "Fraction(15,20)"
+  },
+  {
+    "id": "cnm_p242_q1",
+    "topicId": "cnm_p242",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "一个水龙头每天漏水 2 升，30 天一共漏水多少升？计算：2×30＝？",
+    "answer": "60",
+    "explanation": "2×30＝60。",
+    "verify": "2*30"
+  },
+  {
+    "id": "cnm_p242_q2",
+    "topicId": "cnm_p242",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "一桶水 18 升，用去 1/3，用去了多少升？计算：18×1/3＝？",
+    "answer": "6",
+    "explanation": "18×1/3＝6。",
+    "verify": "18*Fraction(1,3)"
+  },
+  {
+    "id": "cnm_p242_q3",
+    "topicId": "cnm_p242",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "一户人家每月用水 15 吨，节约 20% 后每月用水多少吨？计算：15×（1－20%）＝？",
+    "answer": "12",
+    "explanation": "15×0.8＝12。",
+    "verify": "15*(1-Fraction(20,100))"
+  },
+  {
+    "id": "cnm_p242_q4",
+    "topicId": "cnm_p242",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "学校一个月用水 400 吨，其中 25% 用于浇花。浇花用水多少吨？计算：400×25%＝？",
+    "answer": "100",
+    "explanation": "400×0.25＝100。",
+    "verify": "400*Fraction(25,100)"
+  },
+  {
     "id": "cnm_001_q1",
     "topicId": "cnm_001",
     "difficulty": "basic",
