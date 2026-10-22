@@ -253,11 +253,6 @@
     ctx.fillStyle = '#0f766e';
     ctx.font = font(800, 48);
     ctx.fillText('扫码打开本站', qrX + qrSize + 48, qrY + qrSize / 2 - 8);
-    ctx.textBaseline = 'top';
-    ctx.textAlign = 'center';
-    ctx.fillStyle = '#5c6d82';
-    ctx.font = font(500, 24);
-    ctx.fillText('AI 生成初稿，仅供参考', W / 2, 1872);
     return canvas;
   }
 

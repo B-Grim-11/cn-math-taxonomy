@@ -958,8 +958,8 @@
     return h('div', { class: 'card', id: 'standards' },
       h('h2', { text: '相关课标条目' }),
       h('p', { class: 'muted small' }, subject === 'english'
-        ? '目标与学习路径上的知识点对应的《义务教育英语课程标准（2022年版）》和《普通高中英语课程标准（2017年版2025年修订）》公开转述（一级、二级、三级，以及高中必修、选择性必修；未经逐页核对；映射由 AI 生成，未经专家审核）。'
-        : '目标与学习路径上的知识点对应的《义务教育数学课程标准（2022年版）》内容要求（第一至第四学段；映射由 AI 生成，未经专家审核）。'),
+        ? '目标与学习路径上的知识点对应的《义务教育英语课程标准（2022年版）》和《普通高中英语课程标准（2017年版2025年修订）》公开转述（一级、二级、三级，以及高中必修、选择性必修）。'
+        : '目标与学习路径上的知识点对应的《义务教育数学课程标准（2022年版）》内容要求（第一至第四学段）。'),
       keys.length ? keys.map(function (k) {
         const item = D.stdById[k];
         return h('div', { class: 'std' }, h('code', { text: k }),
@@ -1255,7 +1255,7 @@
     const chapters = session.mode === 'screen' ? E.chapterSummary(D.graph, session) : null;
     const out = {
       tool: 'cn-math-taxonomy/diagnose', version: 2, mode: session.mode || 'target', generatedAt: new Date().toISOString(),
-      note: '自动判题是近似的，以参考答案为准；数据为 AI 生成的初稿，未经教师审核。',
+      note: '自动判题是近似的，以参考答案为准。',
       label: sessionMeta.label,
       targets: session.targets.map(brief),
       limit: session.limit, seed: session.seed, asked: sum.asked, finished: sum.finished, limitReached: sum.limitReached,
