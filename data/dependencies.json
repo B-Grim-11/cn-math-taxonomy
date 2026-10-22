@@ -13384,5 +13384,65 @@
     "prerequisiteId": "cnm_p237",
     "strength": "soft",
     "reason": "学习「根据三个方向辨认物体」需要先掌握「观察简单组合体」。"
+  },
+  {
+    "topicId": "cnm_056",
+    "prerequisiteId": "cnm_p225",
+    "strength": "hard",
+    "reason": "学习「角的概念与表示」需要先掌握「角的认识」。"
+  },
+  {
+    "topicId": "cnm_056",
+    "prerequisiteId": "cnm_p232",
+    "strength": "soft",
+    "reason": "学习「角的概念与表示」需要先掌握「平角、周角和角的分类」。"
+  },
+  {
+    "topicId": "cnm_053",
+    "prerequisiteId": "cnm_p099",
+    "strength": "hard",
+    "reason": "学习「直线、射线、线段」需要先掌握「线段、直线和射线」。"
+  },
+  {
+    "topicId": "cnm_051",
+    "prerequisiteId": "cnm_p222",
+    "strength": "soft",
+    "reason": "学习「从不同方向看与立体图形的展开图」需要先掌握「长方体纸盒的展开图」。"
+  },
+  {
+    "topicId": "cnm_051",
+    "prerequisiteId": "cnm_p237",
+    "strength": "soft",
+    "reason": "学习「从不同方向看与立体图形的展开图」需要先掌握「观察简单组合体」。"
+  },
+  {
+    "topicId": "cnm_040",
+    "prerequisiteId": "cnm_p144",
+    "strength": "soft",
+    "reason": "学习「等式的性质」需要先掌握「等式的性质」。"
+  },
+  {
+    "topicId": "cnm_047",
+    "prerequisiteId": "cnm_p231",
+    "strength": "hard",
+    "reason": "学习「行程问题（相遇与追及）」需要先掌握「乘法模型」。"
+  },
+  {
+    "topicId": "cnm_027",
+    "prerequisiteId": "cnm_p231",
+    "strength": "soft",
+    "reason": "学习「列代数式」需要先掌握「乘法模型」。"
+  },
+  {
+    "topicId": "cnm_244",
+    "prerequisiteId": "cnm_p238",
+    "strength": "soft",
+    "reason": "学习「图形的旋转」需要先掌握「图形的运动」。"
+  },
+  {
+    "topicId": "cnm_131",
+    "prerequisiteId": "cnm_p228",
+    "strength": "soft",
+    "reason": "学习「轴对称图形与两个图形成轴对称」需要先掌握「生活中的运动现象」。"
   }
 ]

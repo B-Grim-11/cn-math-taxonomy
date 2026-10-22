@@ -6984,31 +6984,6 @@
     ]
   },
   {
-    "id": "cnm_029",
-    "name": "代数式的值",
-    "domain": "数与代数",
-    "grade": 7,
-    "semester": "上",
-    "chapter": "七上 第三章 代数式 3.2",
-    "type": "procedural",
-    "description": "把字母的取值代入代数式并按运算顺序计算，注意负数代入要加括号。",
-    "mastery_criteria": [
-      "能正确代入求值",
-      "能处理负数和分数的代入"
-    ],
-    "diagnostic_question": {
-      "question": "当 a=-2 时，求 3a²-a。",
-      "answer": "14"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:4.NA.16",
-        "confidence": "exact"
-      }
-    ]
-  },
-  {
     "id": "cnm_030",
     "name": "用代数式表示规律",
     "domain": "数与代数",
@@ -7031,6 +7006,31 @@
         "id": "cms-2022:4.NA.15",
         "confidence": "inferred",
         "note": "用代数式表示规律属于“分析数量关系并用代数式表示”的延伸"
+      }
+    ]
+  },
+  {
+    "id": "cnm_029",
+    "name": "代数式的值",
+    "domain": "数与代数",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七上 第三章 代数式 3.2",
+    "type": "procedural",
+    "description": "把字母的取值代入代数式并按运算顺序计算，注意负数代入要加括号。",
+    "mastery_criteria": [
+      "能正确代入求值",
+      "能处理负数和分数的代入"
+    ],
+    "diagnostic_question": {
+      "question": "当 a=-2 时，求 3a²-a。",
+      "answer": "14"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.16",
+        "confidence": "exact"
       }
     ]
   },
@@ -8934,6 +8934,31 @@
     ]
   },
   {
+    "id": "cnm_300",
+    "name": "统计活动的基本过程",
+    "domain": "统计与概率",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七下 第十二章 数据的收集、整理与描述 12.1",
+    "type": "conceptual",
+    "description": "一次完整的统计活动包括提出问题、收集数据、整理数据、描述数据、分析数据、得出结论并作出决策。",
+    "mastery_criteria": [
+      "能按顺序说出统计活动的各个步骤",
+      "能在具体活动中说明每一步要做什么"
+    ],
+    "diagnostic_question": {
+      "question": "为了解同学们每天的睡眠时间并提出建议，请按先后顺序写出统计活动的主要步骤。",
+      "answer": "确定问题→收集数据→整理数据→用图表描述→分析数据→得出结论与建议"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.SP.02",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
     "id": "cnm_102",
     "name": "全面调查与抽样调查",
     "domain": "统计与概率",
@@ -8955,6 +8980,36 @@
       {
         "id": "cms-2022:4.SP.01",
         "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_292",
+    "name": "数据收集的方法：问卷调查、实验与查阅资料",
+    "domain": "统计与概率",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七下 第十二章 数据的收集、整理与描述 12.1.1",
+    "type": "conceptual",
+    "description": "了解问卷调查、访谈、实验观测、查阅文献或网络资料等常见的数据收集方法及各自适用的情形。",
+    "mastery_criteria": [
+      "能说出常见的数据收集方法及适用情形",
+      "能为给定的统计问题选择合适的收集方法并指出可能产生的偏差"
+    ],
+    "diagnostic_question": {
+      "question": "要了解一种新型种子的发芽率，宜用问卷调查、实验、查阅资料中的哪种方式收集数据？",
+      "answer": "实验（做发芽实验并记录发芽粒数）"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.SP.02",
+        "confidence": "exact"
+      },
+      {
+        "id": "cms-2022:4.SP.01",
+        "confidence": "inferred",
+        "note": "问卷设计见学业要求，属收集数据的方法"
       }
     ]
   },
@@ -9014,6 +9069,57 @@
     ]
   },
   {
+    "id": "cnm_298",
+    "name": "简单随机抽样的实施（抽签法与随机数）",
+    "domain": "统计与概率",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七下 第十二章 数据的收集、整理与描述 12.1.2",
+    "type": "procedural",
+    "description": "按随机原则抽取样本，用抽签法或随机数（随机数表、计算器产生的随机数）使每个个体被抽到的机会相等。",
+    "mastery_criteria": [
+      "能按步骤用抽签法或随机数从总体中抽取样本",
+      "能说明这样做为什么使每个个体机会均等"
+    ],
+    "diagnostic_question": {
+      "question": "从编号 1～50 的 50 名学生中抽取 5 人，用抽签法应怎样做？",
+      "answer": "把 50 个编号分别写在大小形状相同的纸签上，充分搅匀后随机抽出 5 张，对应编号的学生入样"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.SP.01",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_299",
+    "name": "用样本百分比估计总体数量",
+    "domain": "统计与概率",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七下 第十二章 数据的收集、整理与描述 12.1.2",
+    "type": "application",
+    "description": "用样本中某类个体所占的百分比估计总体中该类个体的数量，如估计全校喜欢阅读的人数或池塘中鱼的条数。",
+    "mastery_criteria": [
+      "能根据样本百分比估计总体中某类个体的数量",
+      "能说明估计结果受样本容量与代表性的影响"
+    ],
+    "diagnostic_question": {
+      "question": "为了解某校 1200 名学生中喜欢阅读的人数，随机抽取 100 名，其中 45 人喜欢，估计全校喜欢阅读的学生约有多少人？",
+      "answer": "约 540 人"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.SP.08",
+        "confidence": "inferred",
+        "note": "用样本百分比估计总体，是样本估计总体思想的类比"
+      }
+    ]
+  },
+  {
     "id": "cnm_105",
     "name": "扇形图、条形图与折线图",
     "domain": "统计与概率",
@@ -9040,6 +9146,117 @@
         "id": "cms-2022:4.SP.11",
         "confidence": "inferred",
         "note": "条形图、折线图的读图属于用统计图描述数据，并用于感受数据变化趋势（SP.11）"
+      }
+    ]
+  },
+  {
+    "id": "cnm_293",
+    "name": "数据的分类整理与划记法、统计表",
+    "domain": "统计与概率",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七下 第十二章 数据的收集、整理与描述 12.2.1",
+    "type": "procedural",
+    "description": "按一定标准对原始数据分类，用划记法计数，并把结果填入含合计的统计表。",
+    "mastery_criteria": [
+      "能按给定标准对数据分类并用划记法正确计数",
+      "能把结果整理成统计表并用合计检验总数"
+    ],
+    "diagnostic_question": {
+      "question": "10 名同学最喜欢的运动依次为：篮球、足球、篮球、跑步、足球、篮球、跑步、篮球、足球、跑步。整理成统计表，篮球、足球、跑步各有几人？",
+      "answer": "篮球 4 人，足球 3 人，跑步 3 人，合计 10 人"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.SP.02",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_294",
+    "name": "条形图与折线图的绘制",
+    "domain": "统计与概率",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七下 第十二章 数据的收集、整理与描述 12.2.1",
+    "type": "procedural",
+    "description": "根据数据范围选取合适的纵轴刻度，画出并标注条形图（比较各类数量）和折线图（反映随时间的变化）。",
+    "mastery_criteria": [
+      "能选取合适刻度并标明坐标轴名称与单位",
+      "能正确画出条形图和折线图并读出最大值与变化趋势"
+    ],
+    "diagnostic_question": {
+      "question": "某地 1～4 月降水量依次为 20、35、55、40（mm），画成折线图后，哪相邻两个月之间上升最多？",
+      "answer": "2 月到 3 月，上升 20 mm"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.SP.03",
+        "confidence": "exact"
+      },
+      {
+        "id": "cms-2022:4.SP.11",
+        "confidence": "inferred",
+        "note": "课标 SP.03“能用统计图直观、有效地描述数据”涵盖条形图、折线图；折线图还用于感受变化趋势"
+      }
+    ]
+  },
+  {
+    "id": "cnm_295",
+    "name": "扇形图的绘制：百分比与圆心角的换算",
+    "domain": "统计与概率",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七下 第十二章 数据的收集、整理与描述 12.2.1",
+    "type": "procedural",
+    "description": "把各类数据占总数的百分比换算成圆心角（百分比×360°），用量角器画出扇形图。",
+    "mastery_criteria": [
+      "能由数据求出各部分的百分比及对应圆心角",
+      "能用量角器作出扇形图并验证圆心角之和为 360°"
+    ],
+    "diagnostic_question": {
+      "question": "扇形图中某项占总数的 25%，对应的圆心角是多少度？若该项有 30 人，总人数是多少？",
+      "answer": "90°；总人数 120 人"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.SP.03",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_296",
+    "name": "统计图的误导与偏差辨识",
+    "domain": "统计与概率",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七下 第十二章 数据的收集、整理与描述 12.2.1",
+    "type": "reasoning",
+    "description": "识别截断纵轴、刻度间隔不均、只选取部分数据等使统计图产生误导的做法，并能说明如何改正。",
+    "mastery_criteria": [
+      "能指出一幅统计图中夸大或掩盖差异的做法",
+      "能说出改进统计图的方法"
+    ],
+    "diagnostic_question": {
+      "question": "两根柱的数值分别是 49 和 51，纵轴却从 48 开始画，看起来第二根柱是第一根的 3 倍高。这张图误导在哪里？",
+      "answer": "纵轴没有从 0 开始（被截断），夸大了差异；实际上 51 只比 49 多约 4%"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.SP.03",
+        "confidence": "inferred",
+        "note": "统计图的误导辨识属于“有效描述数据”和“解释分析结果”的延伸"
+      },
+      {
+        "id": "cms-2022:4.SP.10",
+        "confidence": "inferred",
+        "note": "统计图的误导辨识属于“有效描述数据”和“解释分析结果”的延伸"
       }
     ]
   },
@@ -9084,6 +9301,62 @@
     "diagnostic_question": {
       "question": "直方图中小长方形的高表示什么？",
       "answer": "该组的频数"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.SP.07",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_297",
+    "name": "频率（相对频数）的计算与意义",
+    "domain": "统计与概率",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七下 第十二章 数据的收集、整理与描述 12.2.2",
+    "type": "conceptual",
+    "description": "频率等于频数除以数据总数，各组频率之和为 1；用频率反映各组数据占总体的比例。",
+    "mastery_criteria": [
+      "能由频数和总数求出频率并化为百分数",
+      "能验证各组频率之和为 1"
+    ],
+    "diagnostic_question": {
+      "question": "40 个数据分成 4 组，频数依次为 6、14、12、8，各组的频率分别是多少？",
+      "answer": "0.15、0.35、0.3、0.2（和为 1）"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.SP.07",
+        "confidence": "inferred",
+        "note": "相对频数是频数的延伸，也是频率估计概率的基础"
+      },
+      {
+        "id": "cms-2022:4.SP.13",
+        "confidence": "inferred",
+        "note": "相对频数是频数的延伸，也是频率估计概率的基础"
+      }
+    ]
+  },
+  {
+    "id": "cnm_301",
+    "name": "频数分布直方图的读图与分析",
+    "domain": "统计与概率",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七下 第十二章 数据的收集、整理与描述 12.2.2",
+    "type": "application",
+    "description": "从直方图读出各组频数，求某个范围内的人数或所占比例，并判断数据分布的特点。",
+    "mastery_criteria": [
+      "能从直方图读出各组频数并求某范围的人数及占比",
+      "能说出数据分布较集中的区间"
+    ],
+    "diagnostic_question": {
+      "question": "某直方图中，成绩 60～70、70～80、80～90、90～100 分四组的频数依次为 4、12、20、14（共 50 人）。80 分及以上的学生占百分之几？",
+      "answer": "68%"
     },
     "external": false,
     "standards": [
@@ -10199,6 +10472,37 @@
     ]
   },
   {
+    "id": "cnm_155",
+    "name": "因式分解的应用",
+    "domain": "数与代数",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八上 第十七章 因式分解 17",
+    "type": "application",
+    "description": "利用因式分解简化计算、求值、判断整除或化简代数式。",
+    "mastery_criteria": [
+      "能用分解因式简算",
+      "能说明数的整除性"
+    ],
+    "diagnostic_question": {
+      "question": "计算 57²-43²。",
+      "answer": "(57+43)(57-43)=1400"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.20",
+        "confidence": "inferred",
+        "note": "因式分解的应用（如证明整除性）属代数推理的一类，课标未单列"
+      },
+      {
+        "id": "cms-2022:4.NA.22",
+        "confidence": "inferred",
+        "note": "因式分解的应用（如证明整除性）属代数推理的一类，课标未单列"
+      }
+    ]
+  },
+  {
     "id": "cnm_151",
     "name": "提公因式法",
     "domain": "数与代数",
@@ -10295,37 +10599,6 @@
       {
         "id": "cms-2022:4.NA.20",
         "confidence": "exact"
-      }
-    ]
-  },
-  {
-    "id": "cnm_155",
-    "name": "因式分解的应用",
-    "domain": "数与代数",
-    "grade": 8,
-    "semester": "上",
-    "chapter": "八上 第十七章 因式分解 17",
-    "type": "application",
-    "description": "利用因式分解简化计算、求值、判断整除或化简代数式。",
-    "mastery_criteria": [
-      "能用分解因式简算",
-      "能说明数的整除性"
-    ],
-    "diagnostic_question": {
-      "question": "计算 57²-43²。",
-      "answer": "(57+43)(57-43)=1400"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:4.NA.20",
-        "confidence": "inferred",
-        "note": "因式分解的应用（如证明整除性）属代数推理的一类，课标未单列"
-      },
-      {
-        "id": "cms-2022:4.NA.22",
-        "confidence": "inferred",
-        "note": "因式分解的应用（如证明整除性）属代数推理的一类，课标未单列"
       }
     ]
   },
@@ -10872,6 +11145,37 @@
     ]
   },
   {
+    "id": "cnm_179",
+    "name": "用勾股定理在数轴上表示无理数",
+    "domain": "图形与几何",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八下 第二十章 勾股定理 20.1",
+    "type": "procedural",
+    "description": "借助直角三角形斜边在数轴上作出 √2、√5 等对应的点。",
+    "mastery_criteria": [
+      "能构造相应的直角三角形",
+      "能用圆规截取在数轴上"
+    ],
+    "diagnostic_question": {
+      "question": "怎样在数轴上作出表示 √5 的点？",
+      "answer": "作直角边为 2 与 1 的直角三角形，以原点为圆心、斜边长为半径画弧交数轴于 √5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.35",
+        "confidence": "inferred",
+        "note": "用勾股定理作出长度为无理数的线段并表示在数轴上，课标未单列"
+      },
+      {
+        "id": "cms-2022:4.NA.07",
+        "confidence": "inferred",
+        "note": "用勾股定理作出长度为无理数的线段并表示在数轴上，课标未单列"
+      }
+    ]
+  },
+  {
     "id": "cnm_177",
     "name": "勾股定理的逆定理",
     "domain": "图形与几何",
@@ -10918,37 +11222,6 @@
       {
         "id": "cms-2022:4.GG.35",
         "confidence": "exact"
-      }
-    ]
-  },
-  {
-    "id": "cnm_179",
-    "name": "用勾股定理在数轴上表示无理数",
-    "domain": "图形与几何",
-    "grade": 8,
-    "semester": "下",
-    "chapter": "八下 第二十章 勾股定理 20.1",
-    "type": "procedural",
-    "description": "借助直角三角形斜边在数轴上作出 √2、√5 等对应的点。",
-    "mastery_criteria": [
-      "能构造相应的直角三角形",
-      "能用圆规截取在数轴上"
-    ],
-    "diagnostic_question": {
-      "question": "怎样在数轴上作出表示 √5 的点？",
-      "answer": "作直角边为 2 与 1 的直角三角形，以原点为圆心、斜边长为半径画弧交数轴于 √5"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:4.GG.35",
-        "confidence": "inferred",
-        "note": "用勾股定理作出长度为无理数的线段并表示在数轴上，课标未单列"
-      },
-      {
-        "id": "cms-2022:4.NA.07",
-        "confidence": "inferred",
-        "note": "用勾股定理作出长度为无理数的线段并表示在数轴上，课标未单列"
       }
     ]
   },
@@ -11847,6 +12120,62 @@
     ]
   },
   {
+    "id": "cnm_302",
+    "name": "用样本平均数估计总体平均数",
+    "domain": "统计与概率",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八下 第二十四章 数据的分析 24.1",
+    "type": "application",
+    "description": "总体太大无法全部调查时，用随机抽取的样本的平均数估计总体的平均数。",
+    "mastery_criteria": [
+      "能计算样本平均数并用它估计总体平均数",
+      "能说明样本容量与代表性对估计的影响"
+    ],
+    "diagnostic_question": {
+      "question": "从一批灯泡中随机抽取 5 只，测得使用寿命（小时）为 1000、1020、980、1010、990，估计这批灯泡的平均寿命。",
+      "answer": "约 1000 小时"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.SP.08",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_303",
+    "name": "极端值对平均数与中位数的影响",
+    "domain": "统计与概率",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八下 第二十四章 数据的分析 24.1",
+    "type": "reasoning",
+    "description": "个别特别大或特别小的数据会明显拉动平均数，而中位数基本不受影响，据此判断哪个统计量更能代表一般水平。",
+    "mastery_criteria": [
+      "能找出一组数据中的极端值并判断它对平均数的影响",
+      "能说明何时宜用中位数描述一般水平"
+    ],
+    "diagnostic_question": {
+      "question": "某公司 5 人月薪（千元）为 8、8、9、10、65，平均数与中位数各是多少？哪个更能代表一般员工的水平？",
+      "answer": "平均数 20，中位数 9；中位数更能代表一般水平，平均数被 65 拉高"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.SP.04",
+        "confidence": "inferred",
+        "note": "极端值的影响属于解释集中趋势统计量，课标未单列"
+      },
+      {
+        "id": "cms-2022:4.SP.10",
+        "confidence": "inferred",
+        "note": "极端值的影响属于解释集中趋势统计量，课标未单列"
+      }
+    ]
+  },
+  {
     "id": "cnm_215",
     "name": "极差、方差与标准差",
     "domain": "统计与概率",
@@ -11872,6 +12201,56 @@
     ]
   },
   {
+    "id": "cnm_304",
+    "name": "用方差比较两组数据的稳定性",
+    "domain": "统计与概率",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八下 第二十四章 数据的分析 24.2",
+    "type": "application",
+    "description": "在平均数相同或相近时，通过比较方差（或标准差）判断哪组数据波动更小、更稳定，并据此决策。",
+    "mastery_criteria": [
+      "能分别算出两组数据的方差并比较大小",
+      "能结合情境解释稳定性并作出选择"
+    ],
+    "diagnostic_question": {
+      "question": "甲、乙两人 5 次射击的环数：甲 7、8、8、8、9；乙 6、8、8、8、10。谁的成绩更稳定？",
+      "answer": "甲更稳定：两人平均数都是 8，甲方差 0.4 小于乙方差 1.6"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.SP.05",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_306",
+    "name": "用样本方差估计总体的稳定性",
+    "domain": "统计与概率",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八下 第二十四章 数据的分析 24.2",
+    "type": "application",
+    "description": "用随机抽取样本的方差估计总体数据的波动程度，如比较两批产品尺寸的稳定性。",
+    "mastery_criteria": [
+      "能计算样本方差并据此估计总体的稳定性",
+      "能说明样本容量过小会使估计不可靠"
+    ],
+    "diagnostic_question": {
+      "question": "从甲、乙两台机器生产的零件中各随机抽取 5 个，测得长度的方差分别为 0.04 和 0.09（mm²），估计哪台机器生产的零件长度更稳定？",
+      "answer": "甲机器（样本方差更小）"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.SP.08",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
     "id": "cnm_216",
     "name": "数据的四分位数",
     "domain": "统计与概率",
@@ -11887,6 +12266,31 @@
     "diagnostic_question": {
       "question": "数据 1~8，按“两半数据各取中位数”方法求第一、第三四分位数。",
       "answer": "2.5 与 6.5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.SP.09",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_305",
+    "name": "箱线图的读取与比较",
+    "domain": "统计与概率",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八下 第二十四章 数据的分析 24.3",
+    "type": "conceptual",
+    "description": "用最小值、第一四分位数、中位数、第三四分位数、最大值画成的箱线图，读出数据的中心与分散情况并比较两组数据。（箱线图是否为教材必学内容待核。）",
+    "mastery_criteria": [
+      "能说出箱线图各部分对应的五个统计量",
+      "能由箱线图比较两组数据的中位数与离散程度"
+    ],
+    "diagnostic_question": {
+      "question": "某箱线图中最小值 40、第一四分位数 55、中位数 60、第三四分位数 70、最大值 90，四分位距是多少？",
+      "answer": "15"
     },
     "external": false,
     "standards": [
@@ -12135,31 +12539,6 @@
     ]
   },
   {
-    "id": "cnm_226",
-    "name": "一元二次方程根与系数的关系（拓展）",
-    "domain": "数与代数",
-    "grade": 9,
-    "semester": "上",
-    "chapter": "九上 第二十五章 一元二次方程 拓展",
-    "type": "reasoning",
-    "description": "若 x₁、x₂ 是 ax²+bx+c=0 的两根，则 x₁+x₂=-b/a，x₁x₂=c/a（课标仅要求“了解”，见例67）。",
-    "mastery_criteria": [
-      "能由求根公式推出关系",
-      "能用于求对称式的值"
-    ],
-    "diagnostic_question": {
-      "question": "x²-5x+6=0 两根之和与积分别是多少？",
-      "answer": "5；6"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:4.NA.29",
-        "confidence": "exact"
-      }
-    ]
-  },
-  {
     "id": "cnm_227",
     "name": "增长率与传播问题",
     "domain": "数与代数",
@@ -12216,6 +12595,31 @@
         "id": "cms-2022:4.NA.30",
         "confidence": "inferred",
         "note": "解一元二次方程应用题需检验根是否符合实际"
+      }
+    ]
+  },
+  {
+    "id": "cnm_226",
+    "name": "一元二次方程根与系数的关系（拓展）",
+    "domain": "数与代数",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九上 第二十五章 一元二次方程 拓展",
+    "type": "reasoning",
+    "description": "若 x₁、x₂ 是 ax²+bx+c=0 的两根，则 x₁+x₂=-b/a，x₁x₂=c/a（课标仅要求“了解”，见例67）。",
+    "mastery_criteria": [
+      "能由求根公式推出关系",
+      "能用于求对称式的值"
+    ],
+    "diagnostic_question": {
+      "question": "x²-5x+6=0 两根之和与积分别是多少？",
+      "answer": "5；6"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.29",
+        "confidence": "exact"
       }
     ]
   },
@@ -13575,6 +13979,36 @@
     ]
   },
   {
+    "id": "cnm_290",
+    "name": "综合与实践：停车设计问题",
+    "domain": "综合与实践",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九下 第三十二章 锐角三角函数 综合与实践",
+    "type": "modeling",
+    "description": "以教材章末综合与实践的主题名建模（具体活动内容未核实）：在给定场地中设计停车位的摆放角度与尺寸，用解直角三角形计算占用的宽度和深度并比较方案。",
+    "mastery_criteria": [
+      "能把车位摆放角度与占用的长度、宽度转化为直角三角形的边角关系",
+      "能比较不同摆放方案并说明理由"
+    ],
+    "diagnostic_question": {
+      "question": "斜列式车位的车位线长 5 m，与行车道所成的锐角为 60°，则车位在垂直于行车道方向上占用的深度约为多少 m？（√3≈1.73）",
+      "answer": "5×sin60°=5×√3/2≈4.3 m"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.IP.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "cms-2022:4.GG.80",
+        "confidence": "inferred",
+        "note": "项目活动用解直角三角形建模"
+      }
+    ]
+  },
+  {
     "id": "cnm_281",
     "name": "平行投影与中心投影",
     "domain": "图形与几何",
@@ -13651,188 +14085,6 @@
     ]
   },
   {
-    "id": "cnm_284",
-    "name": "随机事件、必然事件与不可能事件",
-    "domain": "统计与概率",
-    "grade": 9,
-    "semester": "下",
-    "chapter": "九下 第三十四章 随机事件的概率 34.1.1",
-    "type": "conceptual",
-    "description": "区分随机事件、必然事件和不可能事件。",
-    "mastery_criteria": [
-      "能判断事件类别",
-      "能举出各类事件的例子"
-    ],
-    "diagnostic_question": {
-      "question": "掷一枚普通骰子，点数是 7 是什么事件？",
-      "answer": "不可能事件"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:4.SP.12",
-        "confidence": "inferred",
-        "note": "随机事件的概念是“了解随机事件的概率”的前提，课标未单列"
-      }
-    ]
-  },
-  {
-    "id": "cnm_285",
-    "name": "概率的意义与等可能事件的概率",
-    "domain": "统计与概率",
-    "grade": 9,
-    "semester": "下",
-    "chapter": "九下 第三十四章 随机事件的概率 34.1.2",
-    "type": "conceptual",
-    "description": "概率是衡量随机事件发生可能性大小的数，等可能事件的概率等于所求结果数除以总结果数。",
-    "mastery_criteria": [
-      "能说出概率的取值范围",
-      "能计算简单的等可能事件概率"
-    ],
-    "diagnostic_question": {
-      "question": "袋中 3 红 2 白，摸出红球的概率？",
-      "answer": "3/5"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:4.SP.12",
-        "confidence": "exact"
-      }
-    ]
-  },
-  {
-    "id": "cnm_286",
-    "name": "用列举法求概率",
-    "domain": "统计与概率",
-    "grade": 9,
-    "semester": "下",
-    "chapter": "九下 第三十四章 随机事件的概率 34.2",
-    "type": "procedural",
-    "description": "列出所有等可能结果，数出符合条件的结果数求概率。",
-    "mastery_criteria": [
-      "能列出所有等可能结果",
-      "能求概率"
-    ],
-    "diagnostic_question": {
-      "question": "掷一枚骰子，点数为偶数的概率？",
-      "answer": "1/2"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:4.SP.12",
-        "confidence": "exact"
-      }
-    ]
-  },
-  {
-    "id": "cnm_287",
-    "name": "用列表法与树状图求概率",
-    "domain": "统计与概率",
-    "grade": 9,
-    "semester": "下",
-    "chapter": "九下 第三十四章 随机事件的概率 34.2",
-    "type": "procedural",
-    "description": "对两步试验用列表法或树状图列出所有结果，求事件的概率。",
-    "mastery_criteria": [
-      "能画树状图或列表",
-      "能判断何时用何方法"
-    ],
-    "diagnostic_question": {
-      "question": "掷两枚硬币，两枚都是正面的概率？",
-      "answer": "1/4"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:4.SP.12",
-        "confidence": "exact"
-      }
-    ]
-  },
-  {
-    "id": "cnm_288",
-    "name": "用频率估计概率",
-    "domain": "统计与概率",
-    "grade": 9,
-    "semester": "下",
-    "chapter": "九下 第三十四章 随机事件的概率 34.3",
-    "type": "conceptual",
-    "description": "大量重复试验中，事件发生的频率稳定于概率，可用频率估计概率。",
-    "mastery_criteria": [
-      "能说明频率与概率的区别",
-      "能由试验数据估计概率"
-    ],
-    "diagnostic_question": {
-      "question": "抛硬币 1000 次，正面 505 次，估计正面概率？",
-      "answer": "约 0.5"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:4.SP.13",
-        "confidence": "exact"
-      }
-    ]
-  },
-  {
-    "id": "cnm_289",
-    "name": "概率的应用与游戏的公平性",
-    "domain": "统计与概率",
-    "grade": 9,
-    "semester": "下",
-    "chapter": "九下 第三十四章 随机事件的概率 34.2",
-    "type": "application",
-    "description": "用概率判断游戏是否公平并进行决策。",
-    "mastery_criteria": [
-      "能计算双方获胜概率",
-      "能判断游戏的公平性"
-    ],
-    "diagnostic_question": {
-      "question": "两人各掷一枚骰子，点数和为偶数甲胜，奇数乙胜，公平吗？",
-      "answer": "公平，各 1/2"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:4.SP.12",
-        "confidence": "inferred",
-        "note": "概率的应用与游戏公平性，课标未单列"
-      }
-    ]
-  },
-  {
-    "id": "cnm_290",
-    "name": "综合与实践：停车设计问题",
-    "domain": "综合与实践",
-    "grade": 9,
-    "semester": "下",
-    "chapter": "九下 第三十二章 锐角三角函数 综合与实践",
-    "type": "modeling",
-    "description": "以教材章末综合与实践的主题名建模（具体活动内容未核实）：在给定场地中设计停车位的摆放角度与尺寸，用解直角三角形计算占用的宽度和深度并比较方案。",
-    "mastery_criteria": [
-      "能把车位摆放角度与占用的长度、宽度转化为直角三角形的边角关系",
-      "能比较不同摆放方案并说明理由"
-    ],
-    "diagnostic_question": {
-      "question": "斜列式车位的车位线长 5 m，与行车道所成的锐角为 60°，则车位在垂直于行车道方向上占用的深度约为多少 m？（√3≈1.73）",
-      "answer": "5×sin60°=5×√3/2≈4.3 m"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:4.IP.01",
-        "confidence": "exact"
-      },
-      {
-        "id": "cms-2022:4.GG.80",
-        "confidence": "inferred",
-        "note": "项目活动用解直角三角形建模"
-      }
-    ]
-  },
-  {
     "id": "cnm_291",
     "name": "综合与实践：建筑中的数学",
     "domain": "综合与实践",
@@ -13863,406 +14115,28 @@
     ]
   },
   {
-    "id": "cnm_292",
-    "name": "数据收集的方法：问卷调查、实验与查阅资料",
+    "id": "cnm_284",
+    "name": "随机事件、必然事件与不可能事件",
     "domain": "统计与概率",
-    "grade": 7,
+    "grade": 9,
     "semester": "下",
-    "chapter": "七下 第十二章 数据的收集、整理与描述 12.1.1",
+    "chapter": "九下 第三十四章 随机事件的概率 34.1.1",
     "type": "conceptual",
-    "description": "了解问卷调查、访谈、实验观测、查阅文献或网络资料等常见的数据收集方法及各自适用的情形。",
+    "description": "区分随机事件、必然事件和不可能事件。",
     "mastery_criteria": [
-      "能说出常见的数据收集方法及适用情形",
-      "能为给定的统计问题选择合适的收集方法并指出可能产生的偏差"
+      "能判断事件类别",
+      "能举出各类事件的例子"
     ],
     "diagnostic_question": {
-      "question": "要了解一种新型种子的发芽率，宜用问卷调查、实验、查阅资料中的哪种方式收集数据？",
-      "answer": "实验（做发芽实验并记录发芽粒数）"
+      "question": "掷一枚普通骰子，点数是 7 是什么事件？",
+      "answer": "不可能事件"
     },
     "external": false,
     "standards": [
       {
-        "id": "cms-2022:4.SP.02",
-        "confidence": "exact"
-      },
-      {
-        "id": "cms-2022:4.SP.01",
+        "id": "cms-2022:4.SP.12",
         "confidence": "inferred",
-        "note": "问卷设计见学业要求，属收集数据的方法"
-      }
-    ]
-  },
-  {
-    "id": "cnm_293",
-    "name": "数据的分类整理与划记法、统计表",
-    "domain": "统计与概率",
-    "grade": 7,
-    "semester": "下",
-    "chapter": "七下 第十二章 数据的收集、整理与描述 12.2.1",
-    "type": "procedural",
-    "description": "按一定标准对原始数据分类，用划记法计数，并把结果填入含合计的统计表。",
-    "mastery_criteria": [
-      "能按给定标准对数据分类并用划记法正确计数",
-      "能把结果整理成统计表并用合计检验总数"
-    ],
-    "diagnostic_question": {
-      "question": "10 名同学最喜欢的运动依次为：篮球、足球、篮球、跑步、足球、篮球、跑步、篮球、足球、跑步。整理成统计表，篮球、足球、跑步各有几人？",
-      "answer": "篮球 4 人，足球 3 人，跑步 3 人，合计 10 人"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:4.SP.02",
-        "confidence": "exact"
-      }
-    ]
-  },
-  {
-    "id": "cnm_294",
-    "name": "条形图与折线图的绘制",
-    "domain": "统计与概率",
-    "grade": 7,
-    "semester": "下",
-    "chapter": "七下 第十二章 数据的收集、整理与描述 12.2.1",
-    "type": "procedural",
-    "description": "根据数据范围选取合适的纵轴刻度，画出并标注条形图（比较各类数量）和折线图（反映随时间的变化）。",
-    "mastery_criteria": [
-      "能选取合适刻度并标明坐标轴名称与单位",
-      "能正确画出条形图和折线图并读出最大值与变化趋势"
-    ],
-    "diagnostic_question": {
-      "question": "某地 1～4 月降水量依次为 20、35、55、40（mm），画成折线图后，哪相邻两个月之间上升最多？",
-      "answer": "2 月到 3 月，上升 20 mm"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:4.SP.03",
-        "confidence": "exact"
-      },
-      {
-        "id": "cms-2022:4.SP.11",
-        "confidence": "inferred",
-        "note": "课标 SP.03“能用统计图直观、有效地描述数据”涵盖条形图、折线图；折线图还用于感受变化趋势"
-      }
-    ]
-  },
-  {
-    "id": "cnm_295",
-    "name": "扇形图的绘制：百分比与圆心角的换算",
-    "domain": "统计与概率",
-    "grade": 7,
-    "semester": "下",
-    "chapter": "七下 第十二章 数据的收集、整理与描述 12.2.1",
-    "type": "procedural",
-    "description": "把各类数据占总数的百分比换算成圆心角（百分比×360°），用量角器画出扇形图。",
-    "mastery_criteria": [
-      "能由数据求出各部分的百分比及对应圆心角",
-      "能用量角器作出扇形图并验证圆心角之和为 360°"
-    ],
-    "diagnostic_question": {
-      "question": "扇形图中某项占总数的 25%，对应的圆心角是多少度？若该项有 30 人，总人数是多少？",
-      "answer": "90°；总人数 120 人"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:4.SP.03",
-        "confidence": "exact"
-      }
-    ]
-  },
-  {
-    "id": "cnm_296",
-    "name": "统计图的误导与偏差辨识",
-    "domain": "统计与概率",
-    "grade": 7,
-    "semester": "下",
-    "chapter": "七下 第十二章 数据的收集、整理与描述 12.2.1",
-    "type": "reasoning",
-    "description": "识别截断纵轴、刻度间隔不均、只选取部分数据等使统计图产生误导的做法，并能说明如何改正。",
-    "mastery_criteria": [
-      "能指出一幅统计图中夸大或掩盖差异的做法",
-      "能说出改进统计图的方法"
-    ],
-    "diagnostic_question": {
-      "question": "两根柱的数值分别是 49 和 51，纵轴却从 48 开始画，看起来第二根柱是第一根的 3 倍高。这张图误导在哪里？",
-      "answer": "纵轴没有从 0 开始（被截断），夸大了差异；实际上 51 只比 49 多约 4%"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:4.SP.03",
-        "confidence": "inferred",
-        "note": "统计图的误导辨识属于“有效描述数据”和“解释分析结果”的延伸"
-      },
-      {
-        "id": "cms-2022:4.SP.10",
-        "confidence": "inferred",
-        "note": "统计图的误导辨识属于“有效描述数据”和“解释分析结果”的延伸"
-      }
-    ]
-  },
-  {
-    "id": "cnm_297",
-    "name": "频率（相对频数）的计算与意义",
-    "domain": "统计与概率",
-    "grade": 7,
-    "semester": "下",
-    "chapter": "七下 第十二章 数据的收集、整理与描述 12.2.2",
-    "type": "conceptual",
-    "description": "频率等于频数除以数据总数，各组频率之和为 1；用频率反映各组数据占总体的比例。",
-    "mastery_criteria": [
-      "能由频数和总数求出频率并化为百分数",
-      "能验证各组频率之和为 1"
-    ],
-    "diagnostic_question": {
-      "question": "40 个数据分成 4 组，频数依次为 6、14、12、8，各组的频率分别是多少？",
-      "answer": "0.15、0.35、0.3、0.2（和为 1）"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:4.SP.07",
-        "confidence": "inferred",
-        "note": "相对频数是频数的延伸，也是频率估计概率的基础"
-      },
-      {
-        "id": "cms-2022:4.SP.13",
-        "confidence": "inferred",
-        "note": "相对频数是频数的延伸，也是频率估计概率的基础"
-      }
-    ]
-  },
-  {
-    "id": "cnm_298",
-    "name": "简单随机抽样的实施（抽签法与随机数）",
-    "domain": "统计与概率",
-    "grade": 7,
-    "semester": "下",
-    "chapter": "七下 第十二章 数据的收集、整理与描述 12.1.2",
-    "type": "procedural",
-    "description": "按随机原则抽取样本，用抽签法或随机数（随机数表、计算器产生的随机数）使每个个体被抽到的机会相等。",
-    "mastery_criteria": [
-      "能按步骤用抽签法或随机数从总体中抽取样本",
-      "能说明这样做为什么使每个个体机会均等"
-    ],
-    "diagnostic_question": {
-      "question": "从编号 1～50 的 50 名学生中抽取 5 人，用抽签法应怎样做？",
-      "answer": "把 50 个编号分别写在大小形状相同的纸签上，充分搅匀后随机抽出 5 张，对应编号的学生入样"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:4.SP.01",
-        "confidence": "exact"
-      }
-    ]
-  },
-  {
-    "id": "cnm_299",
-    "name": "用样本百分比估计总体数量",
-    "domain": "统计与概率",
-    "grade": 7,
-    "semester": "下",
-    "chapter": "七下 第十二章 数据的收集、整理与描述 12.1.2",
-    "type": "application",
-    "description": "用样本中某类个体所占的百分比估计总体中该类个体的数量，如估计全校喜欢阅读的人数或池塘中鱼的条数。",
-    "mastery_criteria": [
-      "能根据样本百分比估计总体中某类个体的数量",
-      "能说明估计结果受样本容量与代表性的影响"
-    ],
-    "diagnostic_question": {
-      "question": "为了解某校 1200 名学生中喜欢阅读的人数，随机抽取 100 名，其中 45 人喜欢，估计全校喜欢阅读的学生约有多少人？",
-      "answer": "约 540 人"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:4.SP.08",
-        "confidence": "inferred",
-        "note": "用样本百分比估计总体，是样本估计总体思想的类比"
-      }
-    ]
-  },
-  {
-    "id": "cnm_300",
-    "name": "统计活动的基本过程",
-    "domain": "统计与概率",
-    "grade": 7,
-    "semester": "下",
-    "chapter": "七下 第十二章 数据的收集、整理与描述 12.1",
-    "type": "conceptual",
-    "description": "一次完整的统计活动包括提出问题、收集数据、整理数据、描述数据、分析数据、得出结论并作出决策。",
-    "mastery_criteria": [
-      "能按顺序说出统计活动的各个步骤",
-      "能在具体活动中说明每一步要做什么"
-    ],
-    "diagnostic_question": {
-      "question": "为了解同学们每天的睡眠时间并提出建议，请按先后顺序写出统计活动的主要步骤。",
-      "answer": "确定问题→收集数据→整理数据→用图表描述→分析数据→得出结论与建议"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:4.SP.02",
-        "confidence": "exact"
-      }
-    ]
-  },
-  {
-    "id": "cnm_301",
-    "name": "频数分布直方图的读图与分析",
-    "domain": "统计与概率",
-    "grade": 7,
-    "semester": "下",
-    "chapter": "七下 第十二章 数据的收集、整理与描述 12.2.2",
-    "type": "application",
-    "description": "从直方图读出各组频数，求某个范围内的人数或所占比例，并判断数据分布的特点。",
-    "mastery_criteria": [
-      "能从直方图读出各组频数并求某范围的人数及占比",
-      "能说出数据分布较集中的区间"
-    ],
-    "diagnostic_question": {
-      "question": "某直方图中，成绩 60～70、70～80、80～90、90～100 分四组的频数依次为 4、12、20、14（共 50 人）。80 分及以上的学生占百分之几？",
-      "answer": "68%"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:4.SP.07",
-        "confidence": "exact"
-      }
-    ]
-  },
-  {
-    "id": "cnm_302",
-    "name": "用样本平均数估计总体平均数",
-    "domain": "统计与概率",
-    "grade": 8,
-    "semester": "下",
-    "chapter": "八下 第二十四章 数据的分析 24.1",
-    "type": "application",
-    "description": "总体太大无法全部调查时，用随机抽取的样本的平均数估计总体的平均数。",
-    "mastery_criteria": [
-      "能计算样本平均数并用它估计总体平均数",
-      "能说明样本容量与代表性对估计的影响"
-    ],
-    "diagnostic_question": {
-      "question": "从一批灯泡中随机抽取 5 只，测得使用寿命（小时）为 1000、1020、980、1010、990，估计这批灯泡的平均寿命。",
-      "answer": "约 1000 小时"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:4.SP.08",
-        "confidence": "exact"
-      }
-    ]
-  },
-  {
-    "id": "cnm_303",
-    "name": "极端值对平均数与中位数的影响",
-    "domain": "统计与概率",
-    "grade": 8,
-    "semester": "下",
-    "chapter": "八下 第二十四章 数据的分析 24.1",
-    "type": "reasoning",
-    "description": "个别特别大或特别小的数据会明显拉动平均数，而中位数基本不受影响，据此判断哪个统计量更能代表一般水平。",
-    "mastery_criteria": [
-      "能找出一组数据中的极端值并判断它对平均数的影响",
-      "能说明何时宜用中位数描述一般水平"
-    ],
-    "diagnostic_question": {
-      "question": "某公司 5 人月薪（千元）为 8、8、9、10、65，平均数与中位数各是多少？哪个更能代表一般员工的水平？",
-      "answer": "平均数 20，中位数 9；中位数更能代表一般水平，平均数被 65 拉高"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:4.SP.04",
-        "confidence": "inferred",
-        "note": "极端值的影响属于解释集中趋势统计量，课标未单列"
-      },
-      {
-        "id": "cms-2022:4.SP.10",
-        "confidence": "inferred",
-        "note": "极端值的影响属于解释集中趋势统计量，课标未单列"
-      }
-    ]
-  },
-  {
-    "id": "cnm_304",
-    "name": "用方差比较两组数据的稳定性",
-    "domain": "统计与概率",
-    "grade": 8,
-    "semester": "下",
-    "chapter": "八下 第二十四章 数据的分析 24.2",
-    "type": "application",
-    "description": "在平均数相同或相近时，通过比较方差（或标准差）判断哪组数据波动更小、更稳定，并据此决策。",
-    "mastery_criteria": [
-      "能分别算出两组数据的方差并比较大小",
-      "能结合情境解释稳定性并作出选择"
-    ],
-    "diagnostic_question": {
-      "question": "甲、乙两人 5 次射击的环数：甲 7、8、8、8、9；乙 6、8、8、8、10。谁的成绩更稳定？",
-      "answer": "甲更稳定：两人平均数都是 8，甲方差 0.4 小于乙方差 1.6"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:4.SP.05",
-        "confidence": "exact"
-      }
-    ]
-  },
-  {
-    "id": "cnm_305",
-    "name": "箱线图的读取与比较",
-    "domain": "统计与概率",
-    "grade": 8,
-    "semester": "下",
-    "chapter": "八下 第二十四章 数据的分析 24.3",
-    "type": "conceptual",
-    "description": "用最小值、第一四分位数、中位数、第三四分位数、最大值画成的箱线图，读出数据的中心与分散情况并比较两组数据。（箱线图是否为教材必学内容待核。）",
-    "mastery_criteria": [
-      "能说出箱线图各部分对应的五个统计量",
-      "能由箱线图比较两组数据的中位数与离散程度"
-    ],
-    "diagnostic_question": {
-      "question": "某箱线图中最小值 40、第一四分位数 55、中位数 60、第三四分位数 70、最大值 90，四分位距是多少？",
-      "answer": "15"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:4.SP.09",
-        "confidence": "exact"
-      }
-    ]
-  },
-  {
-    "id": "cnm_306",
-    "name": "用样本方差估计总体的稳定性",
-    "domain": "统计与概率",
-    "grade": 8,
-    "semester": "下",
-    "chapter": "八下 第二十四章 数据的分析 24.2",
-    "type": "application",
-    "description": "用随机抽取样本的方差估计总体数据的波动程度，如比较两批产品尺寸的稳定性。",
-    "mastery_criteria": [
-      "能计算样本方差并据此估计总体的稳定性",
-      "能说明样本容量过小会使估计不可靠"
-    ],
-    "diagnostic_question": {
-      "question": "从甲、乙两台机器生产的零件中各随机抽取 5 个，测得长度的方差分别为 0.04 和 0.09（mm²），估计哪台机器生产的零件长度更稳定？",
-      "answer": "甲机器（样本方差更小）"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:4.SP.08",
-        "confidence": "exact"
+        "note": "随机事件的概念是“了解随机事件的概率”的前提，课标未单列"
       }
     ]
   },
@@ -14289,6 +14163,31 @@
         "id": "cms-2022:4.SP.12",
         "confidence": "inferred",
         "note": "可能性大小比较是概率的定性前驱，课标未单列"
+      }
+    ]
+  },
+  {
+    "id": "cnm_285",
+    "name": "概率的意义与等可能事件的概率",
+    "domain": "统计与概率",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九下 第三十四章 随机事件的概率 34.1.2",
+    "type": "conceptual",
+    "description": "概率是衡量随机事件发生可能性大小的数，等可能事件的概率等于所求结果数除以总结果数。",
+    "mastery_criteria": [
+      "能说出概率的取值范围",
+      "能计算简单的等可能事件概率"
+    ],
+    "diagnostic_question": {
+      "question": "袋中 3 红 2 白，摸出红球的概率？",
+      "answer": "3/5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.SP.12",
+        "confidence": "exact"
       }
     ]
   },
@@ -14345,6 +14244,82 @@
     ]
   },
   {
+    "id": "cnm_286",
+    "name": "用列举法求概率",
+    "domain": "统计与概率",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九下 第三十四章 随机事件的概率 34.2",
+    "type": "procedural",
+    "description": "列出所有等可能结果，数出符合条件的结果数求概率。",
+    "mastery_criteria": [
+      "能列出所有等可能结果",
+      "能求概率"
+    ],
+    "diagnostic_question": {
+      "question": "掷一枚骰子，点数为偶数的概率？",
+      "answer": "1/2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.SP.12",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_287",
+    "name": "用列表法与树状图求概率",
+    "domain": "统计与概率",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九下 第三十四章 随机事件的概率 34.2",
+    "type": "procedural",
+    "description": "对两步试验用列表法或树状图列出所有结果，求事件的概率。",
+    "mastery_criteria": [
+      "能画树状图或列表",
+      "能判断何时用何方法"
+    ],
+    "diagnostic_question": {
+      "question": "掷两枚硬币，两枚都是正面的概率？",
+      "answer": "1/4"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.SP.12",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_289",
+    "name": "概率的应用与游戏的公平性",
+    "domain": "统计与概率",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九下 第三十四章 随机事件的概率 34.2",
+    "type": "application",
+    "description": "用概率判断游戏是否公平并进行决策。",
+    "mastery_criteria": [
+      "能计算双方获胜概率",
+      "能判断游戏的公平性"
+    ],
+    "diagnostic_question": {
+      "question": "两人各掷一枚骰子，点数和为偶数甲胜，奇数乙胜，公平吗？",
+      "answer": "公平，各 1/2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.SP.12",
+        "confidence": "inferred",
+        "note": "概率的应用与游戏公平性，课标未单列"
+      }
+    ]
+  },
+  {
     "id": "cnm_310",
     "name": "放回与不放回摸球问题的区分",
     "domain": "统计与概率",
@@ -14397,31 +14372,6 @@
     ]
   },
   {
-    "id": "cnm_312",
-    "name": "用频率估计合格率、发芽率等实际概率",
-    "domain": "统计与概率",
-    "grade": 9,
-    "semester": "下",
-    "chapter": "九下 第三十四章 随机事件的概率 34.3",
-    "type": "application",
-    "description": "在产品抽检、种子发芽等无法列举结果的情形中，用大量重复试验的频率估计概率，并用估计值预测总体。",
-    "mastery_criteria": [
-      "能由试验数据估计发芽率或合格率",
-      "能用估计的概率预测总体中的数量"
-    ],
-    "diagnostic_question": {
-      "question": "某种子发芽试验中，种子数很大时发芽的频率稳定在 0.95 左右。估计这种种子的发芽概率，并估计 2000 粒种子大约有多少粒发芽。",
-      "answer": "概率约 0.95；约 1900 粒"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:4.SP.13",
-        "confidence": "exact"
-      }
-    ]
-  },
-  {
     "id": "cnm_313",
     "name": "概率与统计图表综合问题",
     "domain": "统计与概率",
@@ -14449,6 +14399,56 @@
         "id": "cms-2022:4.SP.12",
         "confidence": "inferred",
         "note": "统计图表与概率综合，课标未单列"
+      }
+    ]
+  },
+  {
+    "id": "cnm_288",
+    "name": "用频率估计概率",
+    "domain": "统计与概率",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九下 第三十四章 随机事件的概率 34.3",
+    "type": "conceptual",
+    "description": "大量重复试验中，事件发生的频率稳定于概率，可用频率估计概率。",
+    "mastery_criteria": [
+      "能说明频率与概率的区别",
+      "能由试验数据估计概率"
+    ],
+    "diagnostic_question": {
+      "question": "抛硬币 1000 次，正面 505 次，估计正面概率？",
+      "answer": "约 0.5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.SP.13",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_312",
+    "name": "用频率估计合格率、发芽率等实际概率",
+    "domain": "统计与概率",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九下 第三十四章 随机事件的概率 34.3",
+    "type": "application",
+    "description": "在产品抽检、种子发芽等无法列举结果的情形中，用大量重复试验的频率估计概率，并用估计值预测总体。",
+    "mastery_criteria": [
+      "能由试验数据估计发芽率或合格率",
+      "能用估计的概率预测总体中的数量"
+    ],
+    "diagnostic_question": {
+      "question": "某种子发芽试验中，种子数很大时发芽的频率稳定在 0.95 左右。估计这种种子的发芽概率，并估计 2000 粒种子大约有多少粒发芽。",
+      "answer": "概率约 0.95；约 1900 粒"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.SP.13",
+        "confidence": "exact"
       }
     ]
   },
