@@ -170,8 +170,8 @@ def check_topics(topics):
                 err("%s 高中英语 semester 必须是 上" % where)
         sem = t.get("semester")
         if subj == "english" and t.get("grade") == 9:
-            if sem != "全":
-                err("%s 九年级英语 semester 必须是 全" % where)
+            if sem not in ("上", "全"):
+                err("%s 九年级英语 semester 必须是 上（新版九上）或 全（旧版全一册，新版九下未出）" % where)
         elif sem not in ("上", "下"):
             err("%s semester 必须是 上/下" % where)
         if t.get("type") not in TYPES:
@@ -327,7 +327,7 @@ def report(ids, prereqs, dependents, n_hard, n_soft, n_en_hard, n_en_soft):
             print("  %-8s %d" % (k, v))
         print("英语按册：")
         ec = Counter(vol_label(t) for t in en_core)
-        for k in ["三上", "三下", "四上", "四下", "五上", "五下", "六上", "六下", "七上", "七下", "八上", "八下", "九全",
+        for k in ["三上", "三下", "四上", "四下", "五上", "五下", "六上", "六下", "七上", "七下", "八上", "八下", "九上", "九全",
                   "必修一", "必修二", "必修三", "选必一", "选必二", "选必三", "选必四"]:
             if ec.get(k, 0) or k in ("必修一", "必修二", "必修三", "选必一", "选必二", "选必三", "选必四"):
                 print("  %-8s %d" % (k, ec.get(k, 0)))
@@ -459,8 +459,8 @@ def check_standards_file(std):
                     for f in ("title", "issuer", "url", "note"):
                         if not nonempty_str(senior.get(f)):
                             err("english.senior.%s 缺失或为空" % f)
-                    if senior.get("year") != 2020:
-                        err("english.senior.year 必须是 2020")
+                    if senior.get("year") != 2025:
+                        err("english.senior.year 必须是 2025（2017年版2025年修订）")
     return items_by_id
 
 

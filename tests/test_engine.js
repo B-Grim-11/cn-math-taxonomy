@@ -632,13 +632,13 @@ test('英语：小学 197、初中 180–260、高中 220–320，不与数学�
   const primary = enTopics.filter((t) => String(t.id).startsWith('cne_p'));
   const junior = enTopics.filter((t) => String(t.id).startsWith('cne_j'));
   const seniorEn = enTopics.filter((t) => String(t.id).startsWith('cne_h'));
-  assert.strictEqual(primary.length, 197);
+  assert.strictEqual(primary.length, 208);
   assert.ok(junior.length >= 180 && junior.length <= 260, '初中英语知识点 ' + junior.length);
   assert.ok(seniorEn.length >= 220 && seniorEn.length <= 320, '高中英语知识点 ' + seniorEn.length);
   assert.strictEqual(enTopics.length, primary.length + junior.length + seniorEn.length);
   assert.ok(primary.every((t) => t.subject === 'english' && t.grade >= 3 && t.grade <= 6 && !t.external && (t.semester === '上' || t.semester === '下')));
   assert.ok(junior.every((t) => t.subject === 'english' && t.grade >= 7 && t.grade <= 9 && !t.external));
-  assert.ok(junior.every((t) => (t.grade === 9 ? t.semester === '全' : t.semester === '上' || t.semester === '下')));
+  assert.ok(junior.every((t) => (t.grade === 9 ? t.semester === '上' || t.semester === '全' : t.semester === '上' || t.semester === '下')));
   assert.ok(seniorEn.every((t) => t.subject === 'english' && t.grade >= 10 && t.grade <= 16 && t.semester === '上' && !t.external));
   assert.ok(seniorEn.some((t) => t.name === '虚拟语气'));
   assert.ok(enTopics.every((t) => ['语音', '词汇', '语法', '日常表达', '读写'].includes(t.domain)));
@@ -722,7 +722,7 @@ test('英语：小学 197、初中 180–260、高中 220–320，不与数学�
   assert.ok(cesH.every((it) => it.verbatim === false && it.page_or_ref === '待核'));
   assert.ok(cesH.some((it) => String(it.id).indexOf('ces-2017:H.B.') === 0));
   assert.ok(cesH.some((it) => String(it.id).indexOf('ces-2017:H.S.') === 0));
-  assert.strictEqual(stdFile.english.senior.year, 2020);
+  assert.strictEqual(stdFile.english.senior.year, 2025);
 });
 
 test('真实数据：祖先集合与独立 BFS 一致（全部知识点）', () => {

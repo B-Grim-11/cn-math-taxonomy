@@ -485,7 +485,7 @@
    */
   function parseChapter(chapter) {
     const s = chapter || '';
-    const pm = /^([一二三四五六七八九])年级([上下全])册 (第\d+单元) (.+)$/.exec(s);
+    const pm = /^([一二三四五六七八九])年级([上下全])册 (第\d+单元|预备单元\d) (.+)$/.exec(s);
     if (pm) return { volume: pm[1] + pm[2], chapterNo: pm[3], chapterName: pm[4], section: '' };
     const pi = /^([一二三四五六])年级([上下])册 (综合与实践) (.+)$/.exec(s);
     if (pi) return { volume: pi[1] + pi[2], chapterNo: pi[3], chapterName: pi[4], section: '' };

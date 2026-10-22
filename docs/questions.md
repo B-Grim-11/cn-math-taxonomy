@@ -148,3 +148,7 @@ E 轮和 D 轮一样：`scripts/hs_sel_build.py` 用同一条 `verify` 写出答
 每个人教版（2019）高中英语知识点 4 题，共 **1036** 题，id 从 `cne_h001_q1` 起。全部是选择题。q1 的题干等于该知识点 `diagnostic_question.question`，答案是正确选项的文字（不是 A/B/C/D）。q1 和 q2 是 basic，q3 和 q4 是 standard。题干自包含：不以「同一 / 上题 / 该题 / 同上」开头，也不出现「本知识点 / 课标 / 是否要求」。短文是新写的，不抄教材原文。没有听力、口语。
 
 小学英语 788 题、初中英语 980 题此前已经入库。全库现在 **6159** 题（数学 3355 + 英语 2804）。`verify_questions.py`：auto_verified **5627**，mismatch **0**，unverifiable **532**（仍是原来没有 verify 的初中数学题）。高中英语的 `verify` 返回正确选项的文字，和出题用的是同一条逻辑，**不是盲解**。生成脚本在 `scripts/enh_b1.py` 到 `enh_s4.py`，由 `scripts/enh_build.py` 写入 `questions.json`。
+
+## 2026-10 英语新版教材
+
+按新版人教 PEP 和 Go for it! 新增 23 个知识点（小学 `cne_p198`–`cne_p208`，初中 `cne_j246`–`cne_j257`），每个 4 道选择题，共 92 题，干扰项是常见错误形式或近形词。全库现在 **6355** 题（数学 3459 + 英语 2896）。`verify_questions.py`：auto_verified **5823**，mismatch **0**，unverifiable **532**（没有变）。

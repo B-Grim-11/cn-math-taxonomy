@@ -382,7 +382,7 @@
   function seniorRangeLabel(sel) { return String(sel).indexOf('选必') === 0 ? '整册' : '必修整册'; }
   function gradeScope() {
     if (seniorGrade(gradeSel)) return gradeSel;
-    if (subject === 'english' && gradeSel === '九') return '九全';
+    if (subject === 'english' && gradeSel === '九') return volSel === '上' ? '九上' : (volSel === '全' ? '九全' : '九年级');
     return gradeSel + (volSel ? volSel : '年级');
   }
 
@@ -423,14 +423,14 @@
           ]), gradeSel, function (v) {
           gradeSel = v;
           if (seniorGrade(v)) volSel = '';
-          else if (subject === 'english' && v === '九') volSel = '全';
+          else if (subject === 'english' && v === '九') volSel = '';
           else if (volSel === '全') volSel = '';
         }),
         h('div', { style: 'margin-top:8px' }),
         seniorGrade(gradeSel)
           ? tabs('范围', [['', seniorRangeLabel(gradeSel)]], '', function () { volSel = ''; })
           : (subject === 'english' && gradeSel === '九')
-            ? tabs('范围', [['全', '全一册']], '全', function () { volSel = '全'; })
+            ? tabs('范围', [['', '整年级'], ['上', '上册（新版）'], ['全', '全一册（旧版，九下暂用）']], volSel, function (v) { volSel = v; })
             : tabs('范围', [['', '整年级'], ['上', '上册'], ['下', '下册']], volSel, function (v) { volSel = v; }),
         h('p', { class: 'muted', id: 'grade-info' }, g ? g.label + '：' + g.ids.length + ' 个知识点。' : '这个范围没有知识点。'),
         h('div', { class: 'row' },
@@ -958,7 +958,7 @@
     return h('div', { class: 'card', id: 'standards' },
       h('h2', { text: '相关课标条目' }),
       h('p', { class: 'muted small' }, subject === 'english'
-        ? '目标与学习路径上的知识点对应的《义务教育英语课程标准（2022年版）》和《普通高中英语课程标准（2017年版2020年修订）》公开转述（一级、二级、三级，以及高中必修、选择性必修；未经逐页核对；映射由 AI 生成，未经专家审核）。'
+        ? '目标与学习路径上的知识点对应的《义务教育英语课程标准（2022年版）》和《普通高中英语课程标准（2017年版2025年修订）》公开转述（一级、二级、三级，以及高中必修、选择性必修；未经逐页核对；映射由 AI 生成，未经专家审核）。'
         : '目标与学习路径上的知识点对应的《义务教育数学课程标准（2022年版）》内容要求（第一至第四学段；映射由 AI 生成，未经专家审核）。'),
       keys.length ? keys.map(function (k) {
         const item = D.stdById[k];

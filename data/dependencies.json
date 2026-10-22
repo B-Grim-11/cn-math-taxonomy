@@ -7783,9 +7783,9 @@
   },
   {
     "topicId": "cne_p004",
-    "prerequisiteId": "cne_p003",
+    "prerequisiteId": "cne_p002",
     "strength": "soft",
-    "reason": "按三年级起点的常见教学顺序，先学「元音字母」，再学「辅音字母 b 的开头音」。"
+    "reason": "按人教版 PEP 新版的单元顺序，先学「字母的大写和小写」，再学「辅音字母 b 的开头音」。"
   },
   {
     "topicId": "cne_p005",
@@ -7837,9 +7837,9 @@
   },
   {
     "topicId": "cne_p014",
-    "prerequisiteId": "cne_p013",
+    "prerequisiteId": "cne_p036",
     "strength": "soft",
-    "reason": "按三年级起点的常见教学顺序，先学「身体部位」，再学「This is 与 That is」。"
+    "reason": "按人教版 PEP 新版的单元顺序，先学「Who is 询问是谁」，再学「This is 与 That is」。"
   },
   {
     "topicId": "cne_p015",
@@ -7855,9 +7855,9 @@
   },
   {
     "topicId": "cne_p017",
-    "prerequisiteId": "cne_p016",
+    "prerequisiteId": "cne_p038",
     "strength": "soft",
-    "reason": "按三年级起点的常见教学顺序，先学「读懂五官介绍」，再学「动物」。"
+    "reason": "按人教版 PEP 新版的单元顺序，先学「读懂家人介绍」，再学「动物」。"
   },
   {
     "topicId": "cne_p018",
@@ -7891,9 +7891,9 @@
   },
   {
     "topicId": "cne_p024",
-    "prerequisiteId": "cne_p023",
+    "prerequisiteId": "cne_p003",
     "strength": "soft",
-    "reason": "按三年级起点的常见教学顺序，先学「读懂喜好短文」，再学「1 到 10」。"
+    "reason": "按人教版 PEP 新版的单元顺序，先学「元音字母」，再学「1 到 10」。"
   },
   {
     "topicId": "cne_p025",
@@ -7903,9 +7903,9 @@
   },
   {
     "topicId": "cne_p026",
-    "prerequisiteId": "cne_p025",
+    "prerequisiteId": "cne_p003",
     "strength": "soft",
-    "reason": "按三年级起点的常见教学顺序，先学「玩具和礼物」，再学「How many 问数量」。"
+    "reason": "按人教版 PEP 新版的单元顺序，先学「元音字母」，再学「How many 问数量」。"
   },
   {
     "topicId": "cne_p027",
@@ -7957,9 +7957,9 @@
   },
   {
     "topicId": "cne_p035",
-    "prerequisiteId": "cne_p034",
+    "prerequisiteId": "cne_p008",
     "strength": "soft",
-    "reason": "按三年级起点的常见教学顺序，先学「短元音 e」，再学「家庭成员」。"
+    "reason": "按人教版 PEP 新版的单元顺序，先学「读懂自我介绍」，再学「家庭成员」。"
   },
   {
     "topicId": "cne_p036",
@@ -7987,9 +7987,9 @@
   },
   {
     "topicId": "cne_p040",
-    "prerequisiteId": "cne_p039",
+    "prerequisiteId": "cne_p018",
     "strength": "soft",
-    "reason": "按三年级起点的常见教学顺序，先学「短元音 i」，再学「大小和高矮」。"
+    "reason": "按人教版 PEP 新版的单元顺序，先学「用 This is a 介绍动物」，再学「大小和高矮」。"
   },
   {
     "topicId": "cne_p042",
@@ -8023,15 +8023,15 @@
   },
   {
     "topicId": "cne_p048",
-    "prerequisiteId": "cne_p047",
+    "prerequisiteId": "cne_p065",
     "strength": "soft",
-    "reason": "按三年级起点的常见教学顺序，先学「读懂位置」，再学「短元音 u」。"
+    "reason": "按人教版 PEP 新版的单元顺序，先学「读懂书包里的物品」，再学「短元音 u」。"
   },
   {
     "topicId": "cne_p050",
-    "prerequisiteId": "cne_p049",
+    "prerequisiteId": "cne_p042",
     "strength": "soft",
-    "reason": "按三年级起点的常见教学顺序，先学「五个短元音复习」，再学「水果」。"
+    "reason": "按人教版 PEP 新版的单元顺序，先学「读懂动物园的句子」，再学「水果」。"
   },
   {
     "topicId": "cne_p051",
@@ -8041,9 +8041,9 @@
   },
   {
     "topicId": "cne_p052",
-    "prerequisiteId": "cne_p051",
+    "prerequisiteId": "cne_p050",
     "strength": "soft",
-    "reason": "按三年级起点的常见教学顺序，先学「Do you like 一般疑问句」，再学「可数名词复数」。"
+    "reason": "按人教版 PEP 新版的单元顺序，先学「水果」，再学「可数名词复数」。"
   },
   {
     "topicId": "cne_p053",
@@ -8071,9 +8071,9 @@
   },
   {
     "topicId": "cne_p057",
-    "prerequisiteId": "cne_p056",
+    "prerequisiteId": "cne_p029",
     "strength": "soft",
-    "reason": "按三年级起点的常见教学顺序，先学「读懂 11 到 20 的数量」，再学「a-e 的读音」。"
+    "reason": "按人教版 PEP 新版的单元顺序，先学「短元音 a」，再学「a-e 的读音」。"
   },
   {
     "topicId": "cne_p058",
@@ -8101,9 +8101,9 @@
   },
   {
     "topicId": "cne_p062",
-    "prerequisiteId": "cne_p061",
+    "prerequisiteId": "cne_p039",
     "strength": "soft",
-    "reason": "按三年级起点的常见教学顺序，先学「读懂教室短文」，再学「i-e 的读音」。"
+    "reason": "按人教版 PEP 新版的单元顺序，先学「短元音 i」，再学「i-e 的读音」。"
   },
   {
     "topicId": "cne_p063",
@@ -8125,9 +8125,9 @@
   },
   {
     "topicId": "cne_p066",
-    "prerequisiteId": "cne_p065",
+    "prerequisiteId": "cne_p043",
     "strength": "soft",
-    "reason": "按三年级起点的常见教学顺序，先学「读懂书包里的物品」，再学「o-e 的读音」。"
+    "reason": "按人教版 PEP 新版的单元顺序，先学「短元音 o」，再学「o-e 的读音」。"
   },
   {
     "topicId": "cne_p067",
@@ -8155,9 +8155,9 @@
   },
   {
     "topicId": "cne_p071",
-    "prerequisiteId": "cne_p070",
+    "prerequisiteId": "cne_p048",
     "strength": "soft",
-    "reason": "按三年级起点的常见教学顺序，先学「读懂朋友介绍」，再学「u-e 的读音」。"
+    "reason": "按人教版 PEP 新版的单元顺序，先学「短元音 u」，再学「u-e 的读音」。"
   },
   {
     "topicId": "cne_p072",
@@ -8185,15 +8185,15 @@
   },
   {
     "topicId": "cne_p076",
-    "prerequisiteId": "cne_p075",
+    "prerequisiteId": "cne_p034",
     "strength": "soft",
-    "reason": "按三年级起点的常见教学顺序，先学「读懂家里的位置」，再学「长元音 e」。"
+    "reason": "按人教版 PEP 新版的单元顺序，先学「短元音 e」，再学「长元音 e」。"
   },
   {
     "topicId": "cne_p077",
-    "prerequisiteId": "cne_p076",
+    "prerequisiteId": "cne_p023",
     "strength": "soft",
-    "reason": "按三年级起点的常见教学顺序，先学「长元音 e」，再学「晚餐食物」。"
+    "reason": "按人教版 PEP 新版的单元顺序，先学「读懂喜好短文」，再学「晚餐食物」。"
   },
   {
     "topicId": "cne_p078",
@@ -8281,9 +8281,9 @@
   },
   {
     "topicId": "cne_p092",
-    "prerequisiteId": "cne_p091",
+    "prerequisiteId": "cne_p087",
     "strength": "soft",
-    "reason": "按三年级起点的常见教学顺序，先学「读懂作息时刻」，再学「天气」。"
+    "reason": "按人教版 PEP 新版的单元顺序，先学「读懂学校平面说明」，再学「天气」。"
   },
   {
     "topicId": "cne_p094",
@@ -8323,9 +8323,9 @@
   },
   {
     "topicId": "cne_p100",
-    "prerequisiteId": "cne_p099",
+    "prerequisiteId": "cne_p095",
     "strength": "soft",
-    "reason": "按三年级起点的常见教学顺序，先学「读懂农场短文」，再学「衣服」。"
+    "reason": "按人教版 PEP 新版的单元顺序，先学「读懂天气预报」，再学「衣服」。"
   },
   {
     "topicId": "cne_p101",
@@ -8449,9 +8449,9 @@
   },
   {
     "topicId": "cne_p121",
-    "prerequisiteId": "cne_p120",
+    "prerequisiteId": "cne_p177",
     "strength": "soft",
-    "reason": "按三年级起点的常见教学顺序，先学「读懂点餐」，再学「能力动词」。"
+    "reason": "按人教版 PEP 新版的单元顺序，先学「询问感受并建议」，再学「能力动词」。"
   },
   {
     "topicId": "cne_p122",
@@ -8623,9 +8623,9 @@
   },
   {
     "topicId": "cne_p151",
-    "prerequisiteId": "cne_p150",
+    "prerequisiteId": "cne_p103",
     "strength": "soft",
-    "reason": "按三年级起点的常见教学顺序，先学「读懂正在做的事」，再学「规则用词」。"
+    "reason": "按人教版 PEP 新版的单元顺序，先学「读懂衣服是谁的」，再学「规则用词」。"
   },
   {
     "topicId": "cne_p152",
@@ -8695,9 +8695,9 @@
   },
   {
     "topicId": "cne_p163",
-    "prerequisiteId": "cne_p162",
+    "prerequisiteId": "cne_p191",
     "strength": "soft",
-    "reason": "按三年级起点的常见教学顺序，先学「读懂交通规则」，再学「周末计划」。"
+    "reason": "按人教版 PEP 新版的单元顺序，先学「读懂旅行日记」，再学「周末计划」。"
   },
   {
     "topicId": "cne_p164",
@@ -8719,9 +8719,9 @@
   },
   {
     "topicId": "cne_p167",
-    "prerequisiteId": "cne_p166",
+    "prerequisiteId": "cne_p124",
     "strength": "soft",
-    "reason": "按三年级起点的常见教学顺序，先学「读懂周末计划」，再学「爱好」。"
+    "reason": "按人教版 PEP 新版的单元顺序，先学「读懂能力短文」，再学「爱好」。"
   },
   {
     "topicId": "cne_p168",
@@ -8767,9 +8767,9 @@
   },
   {
     "topicId": "cne_p175",
-    "prerequisiteId": "cne_p174",
+    "prerequisiteId": "cne_p112",
     "strength": "soft",
-    "reason": "按三年级起点的常见教学顺序，先学「读懂职业短文」，再学「感受」。"
+    "reason": "按人教版 PEP 新版的单元顺序，先学「读懂老师介绍」，再学「感受」。"
   },
   {
     "topicId": "cne_p176",
@@ -8779,9 +8779,9 @@
   },
   {
     "topicId": "cne_p177",
-    "prerequisiteId": "cne_p176",
+    "prerequisiteId": "cne_p175",
     "strength": "soft",
-    "reason": "按三年级起点的常见教学顺序，先学「should 提建议」，再学「询问感受并建议」。"
+    "reason": "按人教版 PEP 新版的单元顺序，先学「感受」，再学「询问感受并建议」。"
   },
   {
     "topicId": "cne_p178",
@@ -8821,9 +8821,9 @@
   },
   {
     "topicId": "cne_p185",
-    "prerequisiteId": "cne_p184",
+    "prerequisiteId": "cne_p158",
     "strength": "soft",
-    "reason": "按三年级起点的常见教学顺序，先学「读懂比较短文」，再学「规则动词过去式」。"
+    "reason": "按人教版 PEP 新版的单元顺序，先学「读懂指路」，再学「规则动词过去式」。"
   },
   {
     "topicId": "cne_p187",
@@ -8839,9 +8839,9 @@
   },
   {
     "topicId": "cne_p189",
-    "prerequisiteId": "cne_p188",
+    "prerequisiteId": "cne_p185",
     "strength": "soft",
-    "reason": "按三年级起点的常见教学顺序，先学「读懂上周末日记」，再学「不规则动词过去式」。"
+    "reason": "按人教版 PEP 新版的单元顺序，先学「规则动词过去式」，再学「不规则动词过去式」。"
   },
   {
     "topicId": "cne_p190",
@@ -9001,9 +9001,9 @@
   },
   {
     "topicId": "cne_p014",
-    "prerequisiteId": "cne_p010",
+    "prerequisiteId": "cne_p006",
     "strength": "hard",
-    "reason": "用 This is 介绍物品之前，要先会 It is。"
+    "reason": "This is 里的 is 和 I am 的 am 一样是 be 动词，先会 I am 再学 This is。"
   },
   {
     "topicId": "cne_p036",
@@ -9049,9 +9049,9 @@
   },
   {
     "topicId": "cne_p021",
-    "prerequisiteId": "cne_p020",
+    "prerequisiteId": "cne_p050",
     "strength": "hard",
-    "reason": "用 I like 说喜好之前，要先认识食物单词。"
+    "reason": "新版三上在 Plants around us 单元用 I like 说喜欢的水果，要先认识水果单词。"
   },
   {
     "topicId": "cne_p026",
@@ -9121,9 +9121,9 @@
   },
   {
     "topicId": "cne_p168",
-    "prerequisiteId": "cne_p114",
+    "prerequisiteId": "cne_p051",
     "strength": "hard",
-    "reason": "用 does 提问之前，要先会 do 引导的疑问句。"
+    "reason": "用 does 提问之前，要先会 Do you like 这样由 do 引导的疑问句。"
   },
   {
     "topicId": "cne_p172",
@@ -9211,9 +9211,9 @@
   },
   {
     "topicId": "cne_j005",
-    "prerequisiteId": "cne_j004",
+    "prerequisiteId": "cne_j003",
     "strength": "soft",
-    "reason": "按 Go for it! 的常见教学顺序，先学「be 动词 am、is、are」，再学「问候与自我介绍」。"
+    "reason": "按人教版新版 Go for it!的单元顺序，先学「姓名与称呼」，再学「问候与自我介绍」。"
   },
   {
     "topicId": "cne_j006",
@@ -9229,9 +9229,9 @@
   },
   {
     "topicId": "cne_j008",
-    "prerequisiteId": "cne_j007",
+    "prerequisiteId": "cne_j021",
     "strength": "soft",
-    "reason": "按 Go for it! 的常见教学顺序，先学「家庭成员」，再学「This is 与 These are」。"
+    "reason": "按人教版新版 Go for it!的单元顺序，先学「读房间描述」，再学「This is 与 These are」。"
   },
   {
     "topicId": "cne_j009",
@@ -9253,9 +9253,9 @@
   },
   {
     "topicId": "cne_j013",
-    "prerequisiteId": "cne_j012",
+    "prerequisiteId": "cne_j005",
     "strength": "soft",
-    "reason": "按 Go for it! 的常见教学顺序，先学「读家庭介绍」，再学「学习用品」。"
+    "reason": "按人教版新版 Go for it!的单元顺序，先学「问候与自我介绍」，再学「学习用品」。"
   },
   {
     "topicId": "cne_j014",
@@ -9271,9 +9271,9 @@
   },
   {
     "topicId": "cne_j016",
-    "prerequisiteId": "cne_j015",
+    "prerequisiteId": "cne_j013",
     "strength": "soft",
-    "reason": "按 Go for it! 的常见教学顺序，先学「be 动词一般疑问句」，再学「认领失物」。"
+    "reason": "按人教版新版 Go for it!的单元顺序，先学「学习用品」，再学「认领失物」。"
   },
   {
     "topicId": "cne_j017",
@@ -9295,9 +9295,9 @@
   },
   {
     "topicId": "cne_j020",
-    "prerequisiteId": "cne_j019",
+    "prerequisiteId": "cne_j018",
     "strength": "soft",
-    "reason": "按 Go for it! 的常见教学顺序，先学「方位介词」，再学「询问位置」。"
+    "reason": "按人教版新版 Go for it!的单元顺序，先学「房间与家具」，再学「询问位置」。"
   },
   {
     "topicId": "cne_j021",
@@ -9319,9 +9319,9 @@
   },
   {
     "topicId": "cne_j024",
-    "prerequisiteId": "cne_j023",
+    "prerequisiteId": "cne_j007",
     "strength": "soft",
-    "reason": "按 Go for it! 的常见教学顺序，先学「have 与 has」，再学「do 与 does」。"
+    "reason": "按人教版新版 Go for it!的单元顺序，先学「家庭成员」，再学「do 与 does」。"
   },
   {
     "topicId": "cne_j025",
@@ -9349,9 +9349,9 @@
   },
   {
     "topicId": "cne_j029",
-    "prerequisiteId": "cne_j028",
+    "prerequisiteId": "cne_j040",
     "strength": "soft",
-    "reason": "按 Go for it! 的常见教学顺序，先学「可数与不可数名词」，再学「like 的句型」。"
+    "reason": "按人教版新版 Go for it!的单元顺序，先学「学科词汇」，再学「like 的句型」。"
   },
   {
     "topicId": "cne_j030",
@@ -9367,9 +9367,9 @@
   },
   {
     "topicId": "cne_j032",
-    "prerequisiteId": "cne_j031",
+    "prerequisiteId": "cne_j039",
     "strength": "soft",
-    "reason": "按 Go for it! 的常见教学顺序，先学「读饮食短文」，再学「衣物与颜色」。"
+    "reason": "按人教版新版 Go for it!的单元顺序，先学「读活动安排」，再学「衣物与颜色」。"
   },
   {
     "topicId": "cne_j033",
@@ -9391,9 +9391,9 @@
   },
   {
     "topicId": "cne_j036",
-    "prerequisiteId": "cne_j035",
+    "prerequisiteId": "cne_j056",
     "strength": "soft",
-    "reason": "按 Go for it! 的常见教学顺序，先学「读购物对话」，再学「月份与序数词」。"
+    "reason": "按人教版新版 Go for it!的单元顺序，先学「读上学方式」，再学「月份与序数词」。"
   },
   {
     "topicId": "cne_j037",
@@ -9415,9 +9415,9 @@
   },
   {
     "topicId": "cne_j040",
-    "prerequisiteId": "cne_j039",
+    "prerequisiteId": "cne_j098",
     "strength": "soft",
-    "reason": "按 Go for it! 的常见教学顺序，先学「读活动安排」，再学「学科词汇」。"
+    "reason": "按人教版新版 Go for it!的单元顺序，先学「辅音与元音连读」，再学「学科词汇」。"
   },
   {
     "topicId": "cne_j041",
@@ -9481,9 +9481,9 @@
   },
   {
     "topicId": "cne_j051",
-    "prerequisiteId": "cne_j050",
+    "prerequisiteId": "cne_j049",
     "strength": "soft",
-    "reason": "按 Go for it! 的常见教学顺序，先学「频度副词」，再学「谈论作息时间」。"
+    "reason": "按人教版新版 Go for it!的单元顺序，先学「时刻表达」，再学「谈论作息时间」。"
   },
   {
     "topicId": "cne_j052",
@@ -9547,9 +9547,9 @@
   },
   {
     "topicId": "cne_j062",
-    "prerequisiteId": "cne_j061",
+    "prerequisiteId": "cne_j035",
     "strength": "soft",
-    "reason": "按 Go for it! 的常见教学顺序，先学「读校规」，再学「动物」。"
+    "reason": "按人教版新版 Go for it!的单元顺序，先学「读购物对话」，再学「动物」。"
   },
   {
     "topicId": "cne_j063",
@@ -9613,9 +9613,9 @@
   },
   {
     "topicId": "cne_j073",
-    "prerequisiteId": "cne_j072",
+    "prerequisiteId": "cne_j071",
     "strength": "soft",
-    "reason": "按 Go for it! 的常见教学顺序，先学「感叹句」，再学「谈论天气」。"
+    "reason": "按人教版新版 Go for it!的单元顺序，先学「天气」，再学「谈论天气」。"
   },
   {
     "topicId": "cne_j074",
@@ -9625,9 +9625,9 @@
   },
   {
     "topicId": "cne_j075",
-    "prerequisiteId": "cne_j074",
+    "prerequisiteId": "cne_j082",
     "strength": "soft",
-    "reason": "按 Go for it! 的常见教学顺序，先学「读天气消息」，再学「场所」。"
+    "reason": "按人教版新版 Go for it!的单元顺序，先学「读人物外貌」，再学「场所」。"
   },
   {
     "topicId": "cne_j076",
@@ -9649,9 +9649,9 @@
   },
   {
     "topicId": "cne_j079",
-    "prerequisiteId": "cne_j078",
+    "prerequisiteId": "cne_j012",
     "strength": "soft",
-    "reason": "按 Go for it! 的常见教学顺序，先学「读路线说明」，再学「外貌」。"
+    "reason": "按人教版新版 Go for it!的单元顺序，先学「读家庭介绍」，再学「外貌」。"
   },
   {
     "topicId": "cne_j080",
@@ -9757,9 +9757,9 @@
   },
   {
     "topicId": "cne_j098",
-    "prerequisiteId": "cne_j097",
+    "prerequisiteId": "cne_j078",
     "strength": "soft",
-    "reason": "按 Go for it! 的常见教学顺序，先学「读周末日记」，再学「辅音与元音连读」。"
+    "reason": "按人教版新版 Go for it!的单元顺序，先学「读路线说明」，再学「辅音与元音连读」。"
   },
   {
     "topicId": "cne_j099",
@@ -9787,9 +9787,9 @@
   },
   {
     "topicId": "cne_j103",
-    "prerequisiteId": "cne_j102",
+    "prerequisiteId": "cne_j061",
     "strength": "soft",
-    "reason": "按 Go for it! 的常见教学顺序，先学「读假期短文」，再学「运动习惯」。"
+    "reason": "按人教版新版 Go for it!的单元顺序，先学「读校规」，再学「运动习惯」。"
   },
   {
     "topicId": "cne_j104",
@@ -9811,9 +9811,9 @@
   },
   {
     "topicId": "cne_j107",
-    "prerequisiteId": "cne_j106",
+    "prerequisiteId": "cne_j043",
     "strength": "soft",
-    "reason": "按 Go for it! 的常见教学顺序，先学「读锻炼调查」，再学「不完全爆破」。"
+    "reason": "按人教版新版 Go for it!的单元顺序，先学「读课程介绍」，再学「不完全爆破」。"
   },
   {
     "topicId": "cne_j108",
@@ -9871,9 +9871,9 @@
   },
   {
     "topicId": "cne_j118",
-    "prerequisiteId": "cne_j117",
+    "prerequisiteId": "cne_j122",
     "strength": "soft",
-    "reason": "按 Go for it! 的常见教学顺序，先学「电视节目」，再学「不定式作宾语」。"
+    "reason": "按人教版新版 Go for it!的单元顺序，先学「be going to 表示打算」，再学「不定式作宾语」。"
   },
   {
     "topicId": "cne_j119",
@@ -9889,9 +9889,9 @@
   },
   {
     "topicId": "cne_j121",
-    "prerequisiteId": "cne_j120",
+    "prerequisiteId": "cne_j132",
     "strength": "soft",
-    "reason": "按 Go for it! 的常见教学顺序，先学「读节目选择」，再学「职业打算」。"
+    "reason": "按人教版新版 Go for it!的单元顺序，先学「读食谱」，再学「职业打算」。"
   },
   {
     "topicId": "cne_j122",
@@ -9937,9 +9937,9 @@
   },
   {
     "topicId": "cne_j129",
-    "prerequisiteId": "cne_j128",
+    "prerequisiteId": "cne_j072",
     "strength": "soft",
-    "reason": "按 Go for it! 的常见教学顺序，先学「读未来预测」，再学「烹饪用词」。"
+    "reason": "按人教版新版 Go for it!的单元顺序，先学「感叹句」，再学「烹饪用词」。"
   },
   {
     "topicId": "cne_j130",
@@ -9985,9 +9985,9 @@
   },
   {
     "topicId": "cne_j137",
-    "prerequisiteId": "cne_j136",
+    "prerequisiteId": "cne_j102",
     "strength": "soft",
-    "reason": "按 Go for it! 的常见教学顺序，先学「读邀请函」，再学「意群停顿」。"
+    "reason": "按人教版新版 Go for it!的单元顺序，先学「读假期短文」，再学「意群停顿」。"
   },
   {
     "topicId": "cne_j138",
@@ -10045,9 +10045,9 @@
   },
   {
     "topicId": "cne_j147",
-    "prerequisiteId": "cne_j146",
+    "prerequisiteId": "cne_j117",
     "strength": "soft",
-    "reason": "按 Go for it! 的常见教学顺序，先学「志愿服务」，再学「不定式表示目的」。"
+    "reason": "按人教版新版 Go for it!的单元顺序，先学「电视节目」，再学「不定式表示目的」。"
   },
   {
     "topicId": "cne_j148",
@@ -10063,9 +10063,9 @@
   },
   {
     "topicId": "cne_j150",
-    "prerequisiteId": "cne_j149",
+    "prerequisiteId": "cne_j137",
     "strength": "soft",
-    "reason": "按 Go for it! 的常见教学顺序，先学「读志愿活动」，再学「家务」。"
+    "reason": "按人教版新版 Go for it!的单元顺序，先学「意群停顿」，再学「家务」。"
   },
   {
     "topicId": "cne_j151",
@@ -10135,9 +10135,9 @@
   },
   {
     "topicId": "cne_j163",
-    "prerequisiteId": "cne_j162",
+    "prerequisiteId": "cne_j097",
     "strength": "soft",
-    "reason": "按 Go for it! 的常见教学顺序，先学「读暴风雨故事」，再学「故事用词」。"
+    "reason": "按人教版新版 Go for it!的单元顺序，先学「读周末日记」，再学「故事用词」。"
   },
   {
     "topicId": "cne_j164",
@@ -10147,15 +10147,15 @@
   },
   {
     "topicId": "cne_j165",
-    "prerequisiteId": "cne_j164",
+    "prerequisiteId": "cne_j155",
     "strength": "soft",
-    "reason": "按 Go for it! 的常见教学顺序，先学「unless 表示除非」，再学「so that 表示目的」。"
+    "reason": "按人教版新版 Go for it!的单元顺序，先学「although 引导让步」，再学「so that 表示目的」。"
   },
   {
     "topicId": "cne_j166",
-    "prerequisiteId": "cne_j165",
+    "prerequisiteId": "cne_j163",
     "strength": "soft",
-    "reason": "按 Go for it! 的常见教学顺序，先学「so that 表示目的」，再学「复述故事」。"
+    "reason": "按人教版新版 Go for it!的单元顺序，先学「故事用词」，再学「复述故事」。"
   },
   {
     "topicId": "cne_j167",
@@ -10297,9 +10297,9 @@
   },
   {
     "topicId": "cne_j192",
-    "prerequisiteId": "cne_j191",
+    "prerequisiteId": "cne_j190",
     "strength": "soft",
-    "reason": "按 Go for it! 的常见教学顺序，先学「节日食物」，再学「that 引导宾语从句」。"
+    "reason": "按人教版新版 Go for it!的单元顺序，先学「读学习建议」，再学「that 引导宾语从句」。"
   },
   {
     "topicId": "cne_j194",
@@ -10315,9 +10315,9 @@
   },
   {
     "topicId": "cne_j196",
-    "prerequisiteId": "cne_j195",
+    "prerequisiteId": "cne_j193",
     "strength": "soft",
-    "reason": "按 Go for it! 的常见教学顺序，先学「读中秋短文」，再学「公共场所」。"
+    "reason": "按人教版新版 Go for it!的单元顺序，先学「if 与 whether 宾语从句」，再学「公共场所」。"
   },
   {
     "topicId": "cne_j197",
@@ -10339,9 +10339,9 @@
   },
   {
     "topicId": "cne_j200",
-    "prerequisiteId": "cne_j199",
+    "prerequisiteId": "cne_j186",
     "strength": "soft",
-    "reason": "按 Go for it! 的常见教学顺序，先学「读问路对话」，再学「今昔变化」。"
+    "reason": "按人教版新版 Go for it!的单元顺序，先学「读旧物故事」，再学「今昔变化」。"
   },
   {
     "topicId": "cne_j201",
@@ -10459,9 +10459,9 @@
   },
   {
     "topicId": "cne_j220",
-    "prerequisiteId": "cne_j219",
+    "prerequisiteId": "cne_j254",
     "strength": "soft",
-    "reason": "按 Go for it! 的常见教学顺序，先学「读推测短文」，再学「音乐类型」。"
+    "reason": "按人教版新版 Go for it!的单元顺序，先学「一般将来时的被动语态」，再学「音乐类型」。"
   },
   {
     "topicId": "cne_j221",
@@ -10483,9 +10483,9 @@
   },
   {
     "topicId": "cne_j224",
-    "prerequisiteId": "cne_j223",
+    "prerequisiteId": "cne_j162",
     "strength": "soft",
-    "reason": "按 Go for it! 的常见教学顺序，先学「读音乐偏好」，再学「社交习俗」。"
+    "reason": "按人教版新版 Go for it!的单元顺序，先学「读暴风雨故事」，再学「社交习俗」。"
   },
   {
     "topicId": "cne_j225",
@@ -13456,5 +13456,227 @@
     "prerequisiteId": "cnm_236",
     "strength": "soft",
     "reason": "学习「用函数描述简单对应」需要先掌握「实际问题与二次函数」。"
+  },
+  {
+    "topicId": "cne_p198",
+    "prerequisiteId": "cne_p108",
+    "strength": "soft",
+    "reason": "先会拼读辅音连缀，再学元音字母组合 ai、ay。"
+  },
+  {
+    "topicId": "cne_p198",
+    "prerequisiteId": "cne_p057",
+    "strength": "hard",
+    "reason": "ai、ay 发 /eɪ/，和 a-e 中 a 的读音相同，要先会 a-e。"
+  },
+  {
+    "topicId": "cne_p199",
+    "prerequisiteId": "cne_p152",
+    "strength": "hard",
+    "reason": "先会用祈使句说规则，再用 have to、can't 说家规。"
+  },
+  {
+    "topicId": "cne_p200",
+    "prerequisiteId": "cne_p096",
+    "strength": "soft",
+    "reason": "先认识农场，再说食物从农场到餐桌的过程。"
+  },
+  {
+    "topicId": "cne_p200",
+    "prerequisiteId": "cne_p020",
+    "strength": "hard",
+    "reason": "先认识常见食物单词。"
+  },
+  {
+    "topicId": "cne_p201",
+    "prerequisiteId": "cne_p104",
+    "strength": "hard",
+    "reason": "先会商店物品单词，再学花钱、存钱的词。"
+  },
+  {
+    "topicId": "cne_p201",
+    "prerequisiteId": "cne_p105",
+    "strength": "soft",
+    "reason": "先会问价格。"
+  },
+  {
+    "topicId": "cne_p202",
+    "prerequisiteId": "cne_p105",
+    "strength": "hard",
+    "reason": "先会用 How much 问价格，再说更大的钱数。"
+  },
+  {
+    "topicId": "cne_p202",
+    "prerequisiteId": "cne_p054",
+    "strength": "soft",
+    "reason": "先会 11 到 20 的数。"
+  },
+  {
+    "topicId": "cne_p203",
+    "prerequisiteId": "cne_p201",
+    "strength": "hard",
+    "reason": "读懂计划前要认识 save、spend 等词。"
+  },
+  {
+    "topicId": "cne_p204",
+    "prerequisiteId": "cne_p129",
+    "strength": "soft",
+    "reason": "先学自然词汇，再学太空词汇。"
+  },
+  {
+    "topicId": "cne_p204",
+    "prerequisiteId": "cne_p017",
+    "strength": "hard",
+    "reason": "先有认读看图单词的经验。"
+  },
+  {
+    "topicId": "cne_p205",
+    "prerequisiteId": "cne_p164",
+    "strength": "hard",
+    "reason": "先会用 be going to 说打算，再用 will 说预测。"
+  },
+  {
+    "topicId": "cne_p206",
+    "prerequisiteId": "cne_p204",
+    "strength": "hard",
+    "reason": "读太空短文要先认识太空词汇。"
+  },
+  {
+    "topicId": "cne_p207",
+    "prerequisiteId": "cne_p159",
+    "strength": "soft",
+    "reason": "先学出行方式，再谈节约能源的绿色出行。"
+  },
+  {
+    "topicId": "cne_p207",
+    "prerequisiteId": "cne_p129",
+    "strength": "soft",
+    "reason": "先学自然词汇。"
+  },
+  {
+    "topicId": "cne_p208",
+    "prerequisiteId": "cne_p207",
+    "strength": "hard",
+    "reason": "读倡议前要认识能源词汇。"
+  },
+  {
+    "topicId": "cne_p208",
+    "prerequisiteId": "cne_p152",
+    "strength": "soft",
+    "reason": "倡议多用祈使句。"
+  },
+  {
+    "topicId": "cne_j246",
+    "prerequisiteId": "cne_j007",
+    "strength": "soft",
+    "reason": "先会家庭成员词汇，再说谁的家人。"
+  },
+  {
+    "topicId": "cne_j246",
+    "prerequisiteId": "cne_j014",
+    "strength": "hard",
+    "reason": "先会形容词性物主代词 my、his、her。"
+  },
+  {
+    "topicId": "cne_j247",
+    "prerequisiteId": "cne_j014",
+    "strength": "hard",
+    "reason": "先会 my、your、his、her，再学 mine、yours。"
+  },
+  {
+    "topicId": "cne_j248",
+    "prerequisiteId": "cne_j015",
+    "strength": "hard",
+    "reason": "选择疑问句由一般疑问句加 or 构成，要先会一般疑问句。"
+  },
+  {
+    "topicId": "cne_j248",
+    "prerequisiteId": "cne_j028",
+    "strength": "soft",
+    "reason": "Eat Well 单元一起学可数与不可数名词。"
+  },
+  {
+    "topicId": "cne_j249",
+    "prerequisiteId": "cne_j009",
+    "strength": "soft",
+    "reason": "先会名词单复数，再学代替名词的不定代词。"
+  },
+  {
+    "topicId": "cne_j249",
+    "prerequisiteId": "cne_j100",
+    "strength": "soft",
+    "reason": "本单元在复习一般过去时叙述假期的同时学不定代词。"
+  },
+  {
+    "topicId": "cne_j250",
+    "prerequisiteId": "cne_j109",
+    "strength": "hard",
+    "reason": "先会比较级，再学同级比较。"
+  },
+  {
+    "topicId": "cne_j251",
+    "prerequisiteId": "cne_j014",
+    "strength": "hard",
+    "reason": "反身代词由物主代词或宾格加 self 构成，要先会人称代词和物主代词。"
+  },
+  {
+    "topicId": "cne_j251",
+    "prerequisiteId": "cne_j143",
+    "strength": "soft",
+    "reason": "Stay Healthy 单元先学 should 提建议。"
+  },
+  {
+    "topicId": "cne_j252",
+    "prerequisiteId": "cne_j174",
+    "strength": "hard",
+    "reason": "先会现在完成时。"
+  },
+  {
+    "topicId": "cne_j252",
+    "prerequisiteId": "cne_j089",
+    "strength": "hard",
+    "reason": "先会一般过去时。"
+  },
+  {
+    "topicId": "cne_j253",
+    "prerequisiteId": "cne_j118",
+    "strength": "hard",
+    "reason": "先会不定式作宾语，再学 it 作形式主语、不定式作真正主语。"
+  },
+  {
+    "topicId": "cne_j254",
+    "prerequisiteId": "cne_j205",
+    "strength": "hard",
+    "reason": "先会一般现在时被动语态。"
+  },
+  {
+    "topicId": "cne_j254",
+    "prerequisiteId": "cne_j126",
+    "strength": "hard",
+    "reason": "先会 will 表示将来。"
+  },
+  {
+    "topicId": "cne_j255",
+    "prerequisiteId": "cne_j125",
+    "strength": "soft",
+    "reason": "先学谈论未来生活的词，再学太空探索词汇。"
+  },
+  {
+    "topicId": "cne_j256",
+    "prerequisiteId": "cne_j024",
+    "strength": "hard",
+    "reason": "先会一般现在时 do 与 does 的变化。"
+  },
+  {
+    "topicId": "cne_j256",
+    "prerequisiteId": "cne_j004",
+    "strength": "hard",
+    "reason": "先会 am、is、are 的搭配。"
+  },
+  {
+    "topicId": "cne_j257",
+    "prerequisiteId": "cne_j022",
+    "strength": "soft",
+    "reason": "先学球类运动词汇，再学体育赛事词汇。"
   }
 ]

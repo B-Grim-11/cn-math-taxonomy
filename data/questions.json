@@ -131302,5 +131302,2581 @@
     "answer": "D",
     "explanation": "provided that you pass 是开始工作的条件。",
     "verify": "\"You can start provided that you pass the interview\""
+  },
+  {
+    "id": "cne_p198_q1",
+    "topicId": "cne_p198",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "哪个单词含有和 day 中 ay 相同的读音？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "car"
+      },
+      {
+        "key": "B",
+        "text": "rain"
+      },
+      {
+        "key": "C",
+        "text": "cat"
+      },
+      {
+        "key": "D",
+        "text": "ball"
+      }
+    ],
+    "answer": "B",
+    "explanation": "ay 和 ai 都读 /eɪ/。",
+    "verify": "\"rain\""
+  },
+  {
+    "id": "cne_p198_q2",
+    "topicId": "cne_p198",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "The dog likes to ____ in the rain. 横线上填哪个含 ay 的词？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "play"
+      },
+      {
+        "key": "B",
+        "text": "way"
+      },
+      {
+        "key": "C",
+        "text": "say"
+      },
+      {
+        "key": "D",
+        "text": "pay"
+      }
+    ],
+    "answer": "A",
+    "explanation": "play 是玩耍，句意通顺。",
+    "verify": "\"play\""
+  },
+  {
+    "id": "cne_p198_q3",
+    "topicId": "cne_p198",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "哪组单词的划线部分读音相同：ai、ay？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "rain — day"
+      },
+      {
+        "key": "B",
+        "text": "play — apple"
+      },
+      {
+        "key": "C",
+        "text": "rain — hat"
+      },
+      {
+        "key": "D",
+        "text": "day — dog"
+      }
+    ],
+    "answer": "A",
+    "explanation": "ai 和 ay 都读 /eɪ/。",
+    "verify": "\"rain — day\""
+  },
+  {
+    "id": "cne_p198_q4",
+    "topicId": "cne_p198",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "给 s__l（航行）选字母组合，读作 /seɪl/。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "ai"
+      },
+      {
+        "key": "B",
+        "text": "ar"
+      },
+      {
+        "key": "C",
+        "text": "ee"
+      },
+      {
+        "key": "D",
+        "text": "ay"
+      }
+    ],
+    "answer": "A",
+    "explanation": "ai 常在词中，ay 常在词尾，sail 写作 ai。",
+    "verify": "\"ai\""
+  },
+  {
+    "id": "cne_p199_q1",
+    "topicId": "cne_p199",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "I ____ go to bed before 9:30. 我得九点半前睡觉。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "can"
+      },
+      {
+        "key": "B",
+        "text": "have to"
+      },
+      {
+        "key": "C",
+        "text": "has to"
+      },
+      {
+        "key": "D",
+        "text": "am"
+      }
+    ],
+    "answer": "B",
+    "explanation": "主语是 I，用 have to。",
+    "verify": "\"have to\""
+  },
+  {
+    "id": "cne_p199_q2",
+    "topicId": "cne_p199",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "「我们不能在床上吃东西」哪一句正确？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "We can eat in bed."
+      },
+      {
+        "key": "B",
+        "text": "We don't can eat in bed."
+      },
+      {
+        "key": "C",
+        "text": "We can't eats in bed."
+      },
+      {
+        "key": "D",
+        "text": "We can't eat in bed."
+      }
+    ],
+    "answer": "D",
+    "explanation": "can't 后面接动词原形。",
+    "verify": "\"We can't eat in bed.\""
+  },
+  {
+    "id": "cne_p199_q3",
+    "topicId": "cne_p199",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "He ____ help with the dishes. 他得帮忙洗碗。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "have to"
+      },
+      {
+        "key": "B",
+        "text": "haves to"
+      },
+      {
+        "key": "C",
+        "text": "has to"
+      },
+      {
+        "key": "D",
+        "text": "have"
+      }
+    ],
+    "answer": "C",
+    "explanation": "主语 he 是第三人称单数，用 has to。",
+    "verify": "\"has to\""
+  },
+  {
+    "id": "cne_p199_q4",
+    "topicId": "cne_p199",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "哪一条是家规？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "I like apples."
+      },
+      {
+        "key": "B",
+        "text": "Clean your room on Saturdays."
+      },
+      {
+        "key": "C",
+        "text": "It is sunny today."
+      },
+      {
+        "key": "D",
+        "text": "She is my sister."
+      }
+    ],
+    "answer": "B",
+    "explanation": "说要做什么的祈使句才是规矩。",
+    "verify": "\"Clean your room on Saturdays.\""
+  },
+  {
+    "id": "cne_p200_q1",
+    "topicId": "cne_p200",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "哪个单词的意思是「小麦」？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "white"
+      },
+      {
+        "key": "B",
+        "text": "weather"
+      },
+      {
+        "key": "C",
+        "text": "wheat"
+      },
+      {
+        "key": "D",
+        "text": "water"
+      }
+    ],
+    "answer": "C",
+    "explanation": "wheat 是小麦。",
+    "verify": "\"wheat\""
+  },
+  {
+    "id": "cne_p200_q2",
+    "topicId": "cne_p200",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "Milk comes from ____. 牛奶来自哪里？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "cows"
+      },
+      {
+        "key": "B",
+        "text": "trees"
+      },
+      {
+        "key": "C",
+        "text": "fish"
+      },
+      {
+        "key": "D",
+        "text": "hens"
+      }
+    ],
+    "answer": "A",
+    "explanation": "牛奶来自奶牛 cows。",
+    "verify": "\"cows\""
+  },
+  {
+    "id": "cne_p200_q3",
+    "topicId": "cne_p200",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "Eggs come from ____.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "hens"
+      },
+      {
+        "key": "B",
+        "text": "sheep"
+      },
+      {
+        "key": "C",
+        "text": "cows"
+      },
+      {
+        "key": "D",
+        "text": "rice"
+      }
+    ],
+    "answer": "A",
+    "explanation": "鸡蛋来自母鸡 hens。",
+    "verify": "\"hens\""
+  },
+  {
+    "id": "cne_p200_q4",
+    "topicId": "cne_p200",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "哪个单词的意思是「大米」？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "rice"
+      },
+      {
+        "key": "B",
+        "text": "race"
+      },
+      {
+        "key": "C",
+        "text": "nice"
+      },
+      {
+        "key": "D",
+        "text": "ice"
+      }
+    ],
+    "answer": "A",
+    "explanation": "rice 是米饭、大米。",
+    "verify": "\"rice\""
+  },
+  {
+    "id": "cne_p201_q1",
+    "topicId": "cne_p201",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "pocket money 的意思是？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "口袋"
+      },
+      {
+        "key": "B",
+        "text": "商店"
+      },
+      {
+        "key": "C",
+        "text": "零花钱"
+      },
+      {
+        "key": "D",
+        "text": "钱包"
+      }
+    ],
+    "answer": "C",
+    "explanation": "pocket money 是零花钱。",
+    "verify": "\"零花钱\""
+  },
+  {
+    "id": "cne_p201_q2",
+    "topicId": "cne_p201",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "I want to ____ money for a new bike. 我想为买新车攒钱。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "cost"
+      },
+      {
+        "key": "B",
+        "text": "spend"
+      },
+      {
+        "key": "C",
+        "text": "save"
+      },
+      {
+        "key": "D",
+        "text": "sell"
+      }
+    ],
+    "answer": "C",
+    "explanation": "攒钱用 save。",
+    "verify": "\"save\""
+  },
+  {
+    "id": "cne_p201_q3",
+    "topicId": "cne_p201",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "「花钱」用哪个英文动词？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "spend"
+      },
+      {
+        "key": "B",
+        "text": "send"
+      },
+      {
+        "key": "C",
+        "text": "spell"
+      },
+      {
+        "key": "D",
+        "text": "save"
+      }
+    ],
+    "answer": "A",
+    "explanation": "spend money 是花钱。",
+    "verify": "\"spend\""
+  },
+  {
+    "id": "cne_p201_q4",
+    "topicId": "cne_p201",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "The book ____ 20 yuan. 这本书要 20 元。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "saves"
+      },
+      {
+        "key": "B",
+        "text": "spends"
+      },
+      {
+        "key": "C",
+        "text": "buys"
+      },
+      {
+        "key": "D",
+        "text": "costs"
+      }
+    ],
+    "answer": "D",
+    "explanation": "物品价格用 cost，主语单数用 costs。",
+    "verify": "\"costs\""
+  },
+  {
+    "id": "cne_p202_q1",
+    "topicId": "cne_p202",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "three hundred and five 是多少？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "305"
+      },
+      {
+        "key": "B",
+        "text": "350"
+      },
+      {
+        "key": "C",
+        "text": "35"
+      },
+      {
+        "key": "D",
+        "text": "3005"
+      }
+    ],
+    "answer": "A",
+    "explanation": "three hundred 是 300，and five 是 5。",
+    "verify": "\"305\""
+  },
+  {
+    "id": "cne_p202_q2",
+    "topicId": "cne_p202",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "1,200 用英语怎么读？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "one hundred two thousand"
+      },
+      {
+        "key": "B",
+        "text": "twelve thousand"
+      },
+      {
+        "key": "C",
+        "text": "one thousand two hundred"
+      },
+      {
+        "key": "D",
+        "text": "one thousand twenty"
+      }
+    ],
+    "answer": "C",
+    "explanation": "1,000 是 one thousand，200 是 two hundred。",
+    "verify": "\"one thousand two hundred\""
+  },
+  {
+    "id": "cne_p202_q3",
+    "topicId": "cne_p202",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "哪个写法正确表示 500？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "fifty hundred"
+      },
+      {
+        "key": "B",
+        "text": "five hundreds"
+      },
+      {
+        "key": "C",
+        "text": "five hundred and"
+      },
+      {
+        "key": "D",
+        "text": "five hundred"
+      }
+    ],
+    "answer": "D",
+    "explanation": "具体数字前的 hundred 不加 s。",
+    "verify": "\"five hundred\""
+  },
+  {
+    "id": "cne_p202_q4",
+    "topicId": "cne_p202",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "The bike is 680 yuan. 680 读作？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "six hundred and eighty"
+      },
+      {
+        "key": "B",
+        "text": "sixty-eight"
+      },
+      {
+        "key": "C",
+        "text": "six thousand eighty"
+      },
+      {
+        "key": "D",
+        "text": "six hundred and eighteen"
+      }
+    ],
+    "answer": "A",
+    "explanation": "680 = 600 + 80。",
+    "verify": "\"six hundred and eighty\""
+  },
+  {
+    "id": "cne_p203_q1",
+    "topicId": "cne_p203",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "I get 40 yuan a week. I spend 15 yuan on books and save the rest. 每周存多少元？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "55"
+      },
+      {
+        "key": "B",
+        "text": "25"
+      },
+      {
+        "key": "C",
+        "text": "40"
+      },
+      {
+        "key": "D",
+        "text": "15"
+      }
+    ],
+    "answer": "B",
+    "explanation": "40 − 15 = 25。",
+    "verify": "\"25\""
+  },
+  {
+    "id": "cne_p203_q2",
+    "topicId": "cne_p203",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "Amy saves 10 yuan every week. How much does she save in 4 weeks?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "10 yuan"
+      },
+      {
+        "key": "B",
+        "text": "4 yuan"
+      },
+      {
+        "key": "C",
+        "text": "40 yuan"
+      },
+      {
+        "key": "D",
+        "text": "14 yuan"
+      }
+    ],
+    "answer": "C",
+    "explanation": "10 × 4 = 40。",
+    "verify": "\"40 yuan\""
+  },
+  {
+    "id": "cne_p203_q3",
+    "topicId": "cne_p203",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "Tom: I don't buy snacks. I put the money in my piggy bank. Tom 在做什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "花钱买零食"
+      },
+      {
+        "key": "B",
+        "text": "丢了钱"
+      },
+      {
+        "key": "C",
+        "text": "存钱"
+      },
+      {
+        "key": "D",
+        "text": "借钱"
+      }
+    ],
+    "answer": "C",
+    "explanation": "piggy bank 是存钱罐，他在存钱。",
+    "verify": "\"存钱\""
+  },
+  {
+    "id": "cne_p203_q4",
+    "topicId": "cne_p203",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "哪一句是好的用钱建议？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Spend all your money at once."
+      },
+      {
+        "key": "B",
+        "text": "Never count your money."
+      },
+      {
+        "key": "C",
+        "text": "Buy everything you see."
+      },
+      {
+        "key": "D",
+        "text": "Make a plan before you spend money."
+      }
+    ],
+    "answer": "D",
+    "explanation": "先做计划再花钱。",
+    "verify": "\"Make a plan before you spend money.\""
+  },
+  {
+    "id": "cne_p204_q1",
+    "topicId": "cne_p204",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "哪个单词的意思是「行星」？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "planet"
+      },
+      {
+        "key": "B",
+        "text": "plant"
+      },
+      {
+        "key": "C",
+        "text": "plate"
+      },
+      {
+        "key": "D",
+        "text": "plane"
+      }
+    ],
+    "answer": "A",
+    "explanation": "planet 是行星。",
+    "verify": "\"planet\""
+  },
+  {
+    "id": "cne_p204_q2",
+    "topicId": "cne_p204",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "We live on the ____. 我们住在地球上。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "moon"
+      },
+      {
+        "key": "B",
+        "text": "star"
+      },
+      {
+        "key": "C",
+        "text": "earth"
+      },
+      {
+        "key": "D",
+        "text": "sun"
+      }
+    ],
+    "answer": "C",
+    "explanation": "人类住在地球 earth 上。",
+    "verify": "\"earth\""
+  },
+  {
+    "id": "cne_p204_q3",
+    "topicId": "cne_p204",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "At night, we can see the ____ and stars.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "rocket"
+      },
+      {
+        "key": "B",
+        "text": "sun"
+      },
+      {
+        "key": "C",
+        "text": "rain"
+      },
+      {
+        "key": "D",
+        "text": "moon"
+      }
+    ],
+    "answer": "D",
+    "explanation": "夜里能看到月亮和星星。",
+    "verify": "\"moon\""
+  },
+  {
+    "id": "cne_p204_q4",
+    "topicId": "cne_p204",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "space 在 Exploring space 中的意思是？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "太空"
+      },
+      {
+        "key": "B",
+        "text": "地方"
+      },
+      {
+        "key": "C",
+        "text": "空房间"
+      },
+      {
+        "key": "D",
+        "text": "空格"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Exploring space 是探索太空。",
+    "verify": "\"太空\""
+  },
+  {
+    "id": "cne_p205_q1",
+    "topicId": "cne_p205",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "I ____ be an astronaut in the future.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "will"
+      },
+      {
+        "key": "B",
+        "text": "am"
+      },
+      {
+        "key": "C",
+        "text": "did"
+      },
+      {
+        "key": "D",
+        "text": "was"
+      }
+    ],
+    "answer": "A",
+    "explanation": "说将来用 will 加动词原形。",
+    "verify": "\"will\""
+  },
+  {
+    "id": "cne_p205_q2",
+    "topicId": "cne_p205",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "哪一句正确？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "We wills visit Mars one day."
+      },
+      {
+        "key": "B",
+        "text": "We will visits Mars one day."
+      },
+      {
+        "key": "C",
+        "text": "We will visit Mars one day."
+      },
+      {
+        "key": "D",
+        "text": "We will visiting Mars one day."
+      }
+    ],
+    "answer": "C",
+    "explanation": "will 后面接动词原形。",
+    "verify": "\"We will visit Mars one day.\""
+  },
+  {
+    "id": "cne_p205_q3",
+    "topicId": "cne_p205",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "Will people travel to space? 肯定回答是？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Yes, they are."
+      },
+      {
+        "key": "B",
+        "text": "Yes, they will."
+      },
+      {
+        "key": "C",
+        "text": "Yes, they do."
+      },
+      {
+        "key": "D",
+        "text": "Yes, they did."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Will 提问用 will 回答。",
+    "verify": "\"Yes, they will.\""
+  },
+  {
+    "id": "cne_p205_q4",
+    "topicId": "cne_p205",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "「机器人将会帮助宇航员」哪一句对？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Robots will help astronauts."
+      },
+      {
+        "key": "B",
+        "text": "Robots are help astronauts."
+      },
+      {
+        "key": "C",
+        "text": "Robots will helped astronauts."
+      },
+      {
+        "key": "D",
+        "text": "Robots helped astronauts."
+      }
+    ],
+    "answer": "A",
+    "explanation": "will help 表示将来。",
+    "verify": "\"Robots will help astronauts.\""
+  },
+  {
+    "id": "cne_p206_q1",
+    "topicId": "cne_p206",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "Shenzhou-5 took Yang Liwei into space in 2003. 是哪一年？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "2013"
+      },
+      {
+        "key": "B",
+        "text": "2003"
+      },
+      {
+        "key": "C",
+        "text": "2005"
+      },
+      {
+        "key": "D",
+        "text": "2030"
+      }
+    ],
+    "answer": "B",
+    "explanation": "原文写 in 2003。",
+    "verify": "\"2003\""
+  },
+  {
+    "id": "cne_p206_q2",
+    "topicId": "cne_p206",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "Chang'e-5 brought back soil from the moon. 带回了什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "月球土壤"
+      },
+      {
+        "key": "B",
+        "text": "太空水"
+      },
+      {
+        "key": "C",
+        "text": "火星石头"
+      },
+      {
+        "key": "D",
+        "text": "星星"
+      }
+    ],
+    "answer": "A",
+    "explanation": "soil from the moon 是月球土壤。",
+    "verify": "\"月球土壤\""
+  },
+  {
+    "id": "cne_p206_q3",
+    "topicId": "cne_p206",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "The astronauts live and work in the space station for six months. 他们在空间站待多久？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "六个月"
+      },
+      {
+        "key": "B",
+        "text": "六年"
+      },
+      {
+        "key": "C",
+        "text": "六天"
+      },
+      {
+        "key": "D",
+        "text": "六周"
+      }
+    ],
+    "answer": "A",
+    "explanation": "six months 是六个月。",
+    "verify": "\"六个月\""
+  },
+  {
+    "id": "cne_p206_q4",
+    "topicId": "cne_p206",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "Tiangong is China's space station. Tiangong 是什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "一枚火箭"
+      },
+      {
+        "key": "B",
+        "text": "一颗行星"
+      },
+      {
+        "key": "C",
+        "text": "一个月亮"
+      },
+      {
+        "key": "D",
+        "text": "中国的空间站"
+      }
+    ],
+    "answer": "D",
+    "explanation": "space station 是空间站。",
+    "verify": "\"中国的空间站\""
+  },
+  {
+    "id": "cne_p207_q1",
+    "topicId": "cne_p207",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "turn off the lights 的意思是？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "修灯"
+      },
+      {
+        "key": "B",
+        "text": "开灯"
+      },
+      {
+        "key": "C",
+        "text": "换灯"
+      },
+      {
+        "key": "D",
+        "text": "关灯"
+      }
+    ],
+    "answer": "D",
+    "explanation": "turn off 是关掉。",
+    "verify": "\"关灯\""
+  },
+  {
+    "id": "cne_p207_q2",
+    "topicId": "cne_p207",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "solar energy 是什么能？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "水能"
+      },
+      {
+        "key": "B",
+        "text": "煤炭"
+      },
+      {
+        "key": "C",
+        "text": "风能"
+      },
+      {
+        "key": "D",
+        "text": "太阳能"
+      }
+    ],
+    "answer": "D",
+    "explanation": "solar 和太阳有关。",
+    "verify": "\"太阳能\""
+  },
+  {
+    "id": "cne_p207_q3",
+    "topicId": "cne_p207",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "We can ____ energy by taking the bus. 坐公交可以节约能源。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "spend"
+      },
+      {
+        "key": "B",
+        "text": "save"
+      },
+      {
+        "key": "C",
+        "text": "make"
+      },
+      {
+        "key": "D",
+        "text": "waste"
+      }
+    ],
+    "answer": "B",
+    "explanation": "节约用 save。",
+    "verify": "\"save\""
+  },
+  {
+    "id": "cne_p207_q4",
+    "topicId": "cne_p207",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "哪种做法会浪费能源？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Leave the TV on all night."
+      },
+      {
+        "key": "B",
+        "text": "Walk to school."
+      },
+      {
+        "key": "C",
+        "text": "Use both sides of paper."
+      },
+      {
+        "key": "D",
+        "text": "Turn off the lights."
+      }
+    ],
+    "answer": "A",
+    "explanation": "整夜开着电视浪费电。",
+    "verify": "\"Leave the TV on all night.\""
+  },
+  {
+    "id": "cne_p208_q1",
+    "topicId": "cne_p208",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "Please ride a bike or walk to school. 这条倡议鼓励什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "在家上课"
+      },
+      {
+        "key": "B",
+        "text": "多买自行车"
+      },
+      {
+        "key": "C",
+        "text": "绿色出行"
+      },
+      {
+        "key": "D",
+        "text": "多坐出租车"
+      }
+    ],
+    "answer": "C",
+    "explanation": "骑车或步行是绿色出行。",
+    "verify": "\"绿色出行\""
+  },
+  {
+    "id": "cne_p208_q2",
+    "topicId": "cne_p208",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "Don't leave the lights on. 意思是？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "灯坏了"
+      },
+      {
+        "key": "B",
+        "text": "不要买灯"
+      },
+      {
+        "key": "C",
+        "text": "不要开着灯不关"
+      },
+      {
+        "key": "D",
+        "text": "不要关灯"
+      }
+    ],
+    "answer": "C",
+    "explanation": "leave the lights on 是让灯一直亮着。",
+    "verify": "\"不要开着灯不关\""
+  },
+  {
+    "id": "cne_p208_q3",
+    "topicId": "cne_p208",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "Save energy, save our earth! 这句话的主题是？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "学好英语"
+      },
+      {
+        "key": "B",
+        "text": "节约零花钱"
+      },
+      {
+        "key": "C",
+        "text": "节约能源，保护地球"
+      },
+      {
+        "key": "D",
+        "text": "探索太空"
+      }
+    ],
+    "answer": "C",
+    "explanation": "energy 是能源，earth 是地球。",
+    "verify": "\"节约能源，保护地球\""
+  },
+  {
+    "id": "cne_p208_q4",
+    "topicId": "cne_p208",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "哪一句适合写进节能倡议？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Open the fridge often."
+      },
+      {
+        "key": "B",
+        "text": "Use the stairs, not the lift, for one floor."
+      },
+      {
+        "key": "C",
+        "text": "Keep the air conditioner on all day."
+      },
+      {
+        "key": "D",
+        "text": "Print every page twice."
+      }
+    ],
+    "answer": "B",
+    "explanation": "走楼梯少用电梯，能省电。",
+    "verify": "\"Use the stairs, not the lift, for one floor.\""
+  },
+  {
+    "id": "cne_j246_q1",
+    "topicId": "cne_j246",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "This is ____ bike. 这是 Lucy 的自行车。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Lucy's"
+      },
+      {
+        "key": "B",
+        "text": "Lucys"
+      },
+      {
+        "key": "C",
+        "text": "Lucy"
+      },
+      {
+        "key": "D",
+        "text": "Lucys'"
+      }
+    ],
+    "answer": "A",
+    "explanation": "单个人名后加 's。",
+    "verify": "\"Lucy's\""
+  },
+  {
+    "id": "cne_j246_q2",
+    "topicId": "cne_j246",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "「我父母的房间」正确写法是？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "my parents's room"
+      },
+      {
+        "key": "B",
+        "text": "my parents room's"
+      },
+      {
+        "key": "C",
+        "text": "my parent's room"
+      },
+      {
+        "key": "D",
+        "text": "my parents' room"
+      }
+    ],
+    "answer": "D",
+    "explanation": "以 s 结尾的复数名词只加 '。",
+    "verify": "\"my parents' room\""
+  },
+  {
+    "id": "cne_j246_q3",
+    "topicId": "cne_j246",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "Jack's sister is 12. 句中 's 表示？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "所属关系「的」"
+      },
+      {
+        "key": "B",
+        "text": "复数"
+      },
+      {
+        "key": "C",
+        "text": "is 的缩写"
+      },
+      {
+        "key": "D",
+        "text": "has 的缩写"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Jack's sister 是杰克的姐姐。",
+    "verify": "\"所属关系「的」\""
+  },
+  {
+    "id": "cne_j246_q4",
+    "topicId": "cne_j246",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "Lily and Lucy's room 表示？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "两人共有的一个房间"
+      },
+      {
+        "key": "B",
+        "text": "Lucy 不在房间"
+      },
+      {
+        "key": "C",
+        "text": "Lily 一人的房间"
+      },
+      {
+        "key": "D",
+        "text": "两人各自的房间"
+      }
+    ],
+    "answer": "A",
+    "explanation": "共有只在最后一个名词后加 's。",
+    "verify": "\"两人共有的一个房间\""
+  },
+  {
+    "id": "cne_j247_q1",
+    "topicId": "cne_j247",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "— Is this your ball? — Yes, it's ____.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "my"
+      },
+      {
+        "key": "B",
+        "text": "me"
+      },
+      {
+        "key": "C",
+        "text": "I"
+      },
+      {
+        "key": "D",
+        "text": "mine"
+      }
+    ],
+    "answer": "D",
+    "explanation": "it's 后面单独用 mine。",
+    "verify": "\"mine\""
+  },
+  {
+    "id": "cne_j247_q2",
+    "topicId": "cne_j247",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "His running shoes are new, but ____ are old. 我的鞋旧。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "I"
+      },
+      {
+        "key": "B",
+        "text": "mine"
+      },
+      {
+        "key": "C",
+        "text": "me"
+      },
+      {
+        "key": "D",
+        "text": "my"
+      }
+    ],
+    "answer": "B",
+    "explanation": "mine = my shoes。",
+    "verify": "\"mine\""
+  },
+  {
+    "id": "cne_j247_q3",
+    "topicId": "cne_j247",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "The red bag is ____. 红包是她的。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "hers'"
+      },
+      {
+        "key": "B",
+        "text": "hers"
+      },
+      {
+        "key": "C",
+        "text": "her"
+      },
+      {
+        "key": "D",
+        "text": "she"
+      }
+    ],
+    "answer": "B",
+    "explanation": "句末单独用 hers。",
+    "verify": "\"hers\""
+  },
+  {
+    "id": "cne_j247_q4",
+    "topicId": "cne_j247",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "哪一句正确？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Our club is bigger than their."
+      },
+      {
+        "key": "B",
+        "text": "Our club is bigger than theirs."
+      },
+      {
+        "key": "C",
+        "text": "Ours club is bigger than theirs."
+      },
+      {
+        "key": "D",
+        "text": "Our club is bigger than them club."
+      }
+    ],
+    "answer": "B",
+    "explanation": "theirs = their club。",
+    "verify": "\"Our club is bigger than theirs.\""
+  },
+  {
+    "id": "cne_j248_q1",
+    "topicId": "cne_j248",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "— Do you like apples or bananas? — ____",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Yes, I do."
+      },
+      {
+        "key": "B",
+        "text": "No, I don't."
+      },
+      {
+        "key": "C",
+        "text": "Yes, I like."
+      },
+      {
+        "key": "D",
+        "text": "I like bananas."
+      }
+    ],
+    "answer": "D",
+    "explanation": "选择疑问句不用 yes 或 no 回答。",
+    "verify": "\"I like bananas.\""
+  },
+  {
+    "id": "cne_j248_q2",
+    "topicId": "cne_j248",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "用 or 连接，选出正确的选择疑问句。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Is it a carrot or a potato?"
+      },
+      {
+        "key": "B",
+        "text": "Is it a carrot and a potato?"
+      },
+      {
+        "key": "C",
+        "text": "It is a carrot or a potato?"
+      },
+      {
+        "key": "D",
+        "text": "Is it a carrot but a potato?"
+      }
+    ],
+    "answer": "A",
+    "explanation": "or 连接两个选项，句子用疑问语序。",
+    "verify": "\"Is it a carrot or a potato?\""
+  },
+  {
+    "id": "cne_j248_q3",
+    "topicId": "cne_j248",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "Which is healthier, fruit ____ candy?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "but"
+      },
+      {
+        "key": "B",
+        "text": "and"
+      },
+      {
+        "key": "C",
+        "text": "so"
+      },
+      {
+        "key": "D",
+        "text": "or"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Which ..., A or B 问哪一个。",
+    "verify": "\"or\""
+  },
+  {
+    "id": "cne_j248_q4",
+    "topicId": "cne_j248",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "Do you eat breakfast at home or at school? 这句问的是？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "几点吃早饭"
+      },
+      {
+        "key": "B",
+        "text": "早饭吃什么"
+      },
+      {
+        "key": "C",
+        "text": "吃不吃早饭"
+      },
+      {
+        "key": "D",
+        "text": "在哪里吃早饭"
+      }
+    ],
+    "answer": "D",
+    "explanation": "or 前后是两个地点。",
+    "verify": "\"在哪里吃早饭\""
+  },
+  {
+    "id": "cne_j249_q1",
+    "topicId": "cne_j249",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "I bought ____ for my parents. 我给父母买了点东西。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "something"
+      },
+      {
+        "key": "B",
+        "text": "everything"
+      },
+      {
+        "key": "C",
+        "text": "nothing"
+      },
+      {
+        "key": "D",
+        "text": "anything"
+      }
+    ],
+    "answer": "A",
+    "explanation": "肯定句里一般用 something。",
+    "verify": "\"something\""
+  },
+  {
+    "id": "cne_j249_q2",
+    "topicId": "cne_j249",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "Did you go ____ interesting on vacation?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "somewhere"
+      },
+      {
+        "key": "B",
+        "text": "nowhere"
+      },
+      {
+        "key": "C",
+        "text": "everywhere"
+      },
+      {
+        "key": "D",
+        "text": "anywhere"
+      }
+    ],
+    "answer": "D",
+    "explanation": "一般疑问句里一般用 anywhere。",
+    "verify": "\"anywhere\""
+  },
+  {
+    "id": "cne_j249_q3",
+    "topicId": "cne_j249",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "「没有什么事可做」哪一句正确？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "There was anything to do."
+      },
+      {
+        "key": "B",
+        "text": "There was nothing to do."
+      },
+      {
+        "key": "C",
+        "text": "There was nothing do."
+      },
+      {
+        "key": "D",
+        "text": "There wasn't nothing to do."
+      }
+    ],
+    "answer": "B",
+    "explanation": "nothing to do，表示没有事可做。",
+    "verify": "\"There was nothing to do.\""
+  },
+  {
+    "id": "cne_j249_q4",
+    "topicId": "cne_j249",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "Everyone ____ having a good time.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "were"
+      },
+      {
+        "key": "B",
+        "text": "be"
+      },
+      {
+        "key": "C",
+        "text": "was"
+      },
+      {
+        "key": "D",
+        "text": "are"
+      }
+    ],
+    "answer": "C",
+    "explanation": "everyone 作主语，谓语用单数。",
+    "verify": "\"was\""
+  },
+  {
+    "id": "cne_j250_q1",
+    "topicId": "cne_j250",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "Tom is as ____ as his brother.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "more tall"
+      },
+      {
+        "key": "B",
+        "text": "tall"
+      },
+      {
+        "key": "C",
+        "text": "tallest"
+      },
+      {
+        "key": "D",
+        "text": "taller"
+      }
+    ],
+    "answer": "B",
+    "explanation": "as ... as 中间用原级。",
+    "verify": "\"tall\""
+  },
+  {
+    "id": "cne_j250_q2",
+    "topicId": "cne_j250",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "I am not as outgoing as my sister. 意思是？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "我不如姐姐外向"
+      },
+      {
+        "key": "B",
+        "text": "我和姐姐一样外向"
+      },
+      {
+        "key": "C",
+        "text": "我比姐姐外向"
+      },
+      {
+        "key": "D",
+        "text": "姐姐不外向"
+      }
+    ],
+    "answer": "A",
+    "explanation": "not as ... as 是「不如」。",
+    "verify": "\"我不如姐姐外向\""
+  },
+  {
+    "id": "cne_j250_q3",
+    "topicId": "cne_j250",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "哪一句正确？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "She runs as faster as Lily."
+      },
+      {
+        "key": "B",
+        "text": "She runs so fast as Lily."
+      },
+      {
+        "key": "C",
+        "text": "She runs as fast than Lily."
+      },
+      {
+        "key": "D",
+        "text": "She runs as fast as Lily."
+      }
+    ],
+    "answer": "D",
+    "explanation": "as fast as 是一样快。",
+    "verify": "\"She runs as fast as Lily.\""
+  },
+  {
+    "id": "cne_j250_q4",
+    "topicId": "cne_j250",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "My bag is as heavy as ____.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "your bag's"
+      },
+      {
+        "key": "B",
+        "text": "you"
+      },
+      {
+        "key": "C",
+        "text": "your"
+      },
+      {
+        "key": "D",
+        "text": "yours"
+      }
+    ],
+    "answer": "D",
+    "explanation": "比较的是两个书包，用 yours。",
+    "verify": "\"yours\""
+  },
+  {
+    "id": "cne_j251_q1",
+    "topicId": "cne_j251",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "She cut ____ when she was cooking.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "her"
+      },
+      {
+        "key": "B",
+        "text": "she"
+      },
+      {
+        "key": "C",
+        "text": "hers"
+      },
+      {
+        "key": "D",
+        "text": "herself"
+      }
+    ],
+    "answer": "D",
+    "explanation": "主语 she 伤到自己，用 herself。",
+    "verify": "\"herself\""
+  },
+  {
+    "id": "cne_j251_q2",
+    "topicId": "cne_j251",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "Take care of ____, Tom!",
+    "choices": [
+      {
+        "key": "A",
+        "text": "your"
+      },
+      {
+        "key": "B",
+        "text": "yourself"
+      },
+      {
+        "key": "C",
+        "text": "you"
+      },
+      {
+        "key": "D",
+        "text": "yourselves"
+      }
+    ],
+    "answer": "B",
+    "explanation": "对一个人说，用 yourself。",
+    "verify": "\"yourself\""
+  },
+  {
+    "id": "cne_j251_q3",
+    "topicId": "cne_j251",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "We enjoyed ____ at the party.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "us"
+      },
+      {
+        "key": "B",
+        "text": "ourself"
+      },
+      {
+        "key": "C",
+        "text": "ours"
+      },
+      {
+        "key": "D",
+        "text": "ourselves"
+      }
+    ],
+    "answer": "D",
+    "explanation": "we 对应 ourselves。",
+    "verify": "\"ourselves\""
+  },
+  {
+    "id": "cne_j251_q4",
+    "topicId": "cne_j251",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "I hurt ____. 哪一个正确？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "meself"
+      },
+      {
+        "key": "B",
+        "text": "me self"
+      },
+      {
+        "key": "C",
+        "text": "myself"
+      },
+      {
+        "key": "D",
+        "text": "mine"
+      }
+    ],
+    "answer": "C",
+    "explanation": "I 对应 myself。",
+    "verify": "\"myself\""
+  },
+  {
+    "id": "cne_j252_q1",
+    "topicId": "cne_j252",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "I ____ to Beijing in 2019.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "have gone"
+      },
+      {
+        "key": "B",
+        "text": "went"
+      },
+      {
+        "key": "C",
+        "text": "have been"
+      },
+      {
+        "key": "D",
+        "text": "go"
+      }
+    ],
+    "answer": "B",
+    "explanation": "in 2019 是过去时间，用一般过去时。",
+    "verify": "\"went\""
+  },
+  {
+    "id": "cne_j252_q2",
+    "topicId": "cne_j252",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "Many new buildings ____ in my town in the last ten years.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "are appearing"
+      },
+      {
+        "key": "B",
+        "text": "appeared yesterday"
+      },
+      {
+        "key": "C",
+        "text": "have appeared"
+      },
+      {
+        "key": "D",
+        "text": "appear"
+      }
+    ],
+    "answer": "C",
+    "explanation": "in the last ten years 表示到现在，用现在完成时。",
+    "verify": "\"have appeared\""
+  },
+  {
+    "id": "cne_j252_q3",
+    "topicId": "cne_j252",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "哪一句正确？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "She lives here since 2015."
+      },
+      {
+        "key": "B",
+        "text": "She has lived here in 2015."
+      },
+      {
+        "key": "C",
+        "text": "She has lived here since 2015."
+      },
+      {
+        "key": "D",
+        "text": "She lived here since 2015 now."
+      }
+    ],
+    "answer": "C",
+    "explanation": "since 2015 和现在完成时搭配。",
+    "verify": "\"She has lived here since 2015.\""
+  },
+  {
+    "id": "cne_j252_q4",
+    "topicId": "cne_j252",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "— When ____ you get your first phone? — Two years ago.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "did"
+      },
+      {
+        "key": "B",
+        "text": "have"
+      },
+      {
+        "key": "C",
+        "text": "has"
+      },
+      {
+        "key": "D",
+        "text": "do"
+      }
+    ],
+    "answer": "A",
+    "explanation": "When 问过去具体时间用一般过去时。",
+    "verify": "\"did\""
+  },
+  {
+    "id": "cne_j253_q1",
+    "topicId": "cne_j253",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "It is kind ____ you to help me.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "with"
+      },
+      {
+        "key": "B",
+        "text": "for"
+      },
+      {
+        "key": "C",
+        "text": "of"
+      },
+      {
+        "key": "D",
+        "text": "to"
+      }
+    ],
+    "answer": "C",
+    "explanation": "kind 评价人的品质，用 of。",
+    "verify": "\"of\""
+  },
+  {
+    "id": "cne_j253_q2",
+    "topicId": "cne_j253",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "It is not easy for me ____ English well.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "to speak"
+      },
+      {
+        "key": "B",
+        "text": "spoke"
+      },
+      {
+        "key": "C",
+        "text": "speak"
+      },
+      {
+        "key": "D",
+        "text": "speaking"
+      }
+    ],
+    "answer": "A",
+    "explanation": "It is ... for sb to do。",
+    "verify": "\"to speak\""
+  },
+  {
+    "id": "cne_j253_q3",
+    "topicId": "cne_j253",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "「他坚持每天跑步，真了不起」哪一句正确？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "It amazing for him to keep running every day."
+      },
+      {
+        "key": "B",
+        "text": "He is amazing to keep running every day for."
+      },
+      {
+        "key": "C",
+        "text": "It is amazing of him to keep running every day."
+      },
+      {
+        "key": "D",
+        "text": "It is amazing of him keep running every day."
+      }
+    ],
+    "answer": "C",
+    "explanation": "It is + 形容词 + of sb + to do。",
+    "verify": "\"It is amazing of him to keep running every day.\""
+  },
+  {
+    "id": "cne_j253_q4",
+    "topicId": "cne_j253",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "It was difficult for her ____ the mountain.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "to climb"
+      },
+      {
+        "key": "B",
+        "text": "climb"
+      },
+      {
+        "key": "C",
+        "text": "climbed"
+      },
+      {
+        "key": "D",
+        "text": "climbs"
+      }
+    ],
+    "answer": "A",
+    "explanation": "for sb 后面接 to do。",
+    "verify": "\"to climb\""
+  },
+  {
+    "id": "cne_j254_q1",
+    "topicId": "cne_j254",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "The rocket ____ next year.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "will be launch"
+      },
+      {
+        "key": "B",
+        "text": "will launched"
+      },
+      {
+        "key": "C",
+        "text": "is launched yesterday"
+      },
+      {
+        "key": "D",
+        "text": "will be launched"
+      }
+    ],
+    "answer": "D",
+    "explanation": "will be + 过去分词。",
+    "verify": "\"will be launched\""
+  },
+  {
+    "id": "cne_j254_q2",
+    "topicId": "cne_j254",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "More astronauts ____ to space in the future.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "will send"
+      },
+      {
+        "key": "B",
+        "text": "are sending"
+      },
+      {
+        "key": "C",
+        "text": "sent"
+      },
+      {
+        "key": "D",
+        "text": "will be sent"
+      }
+    ],
+    "answer": "D",
+    "explanation": "宇航员被派往太空，用被动。",
+    "verify": "\"will be sent\""
+  },
+  {
+    "id": "cne_j254_q3",
+    "topicId": "cne_j254",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "哪一句是一般将来时的被动语态？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The results will show on TV."
+      },
+      {
+        "key": "B",
+        "text": "The results will be shown on TV."
+      },
+      {
+        "key": "C",
+        "text": "The results were shown on TV."
+      },
+      {
+        "key": "D",
+        "text": "The results showed on TV."
+      }
+    ],
+    "answer": "B",
+    "explanation": "will be shown 是将来被动。",
+    "verify": "\"The results will be shown on TV.\""
+  },
+  {
+    "id": "cne_j254_q4",
+    "topicId": "cne_j254",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "The moon base ____ by robots.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "will build"
+      },
+      {
+        "key": "B",
+        "text": "will be built"
+      },
+      {
+        "key": "C",
+        "text": "will be build"
+      },
+      {
+        "key": "D",
+        "text": "will building"
+      }
+    ],
+    "answer": "B",
+    "explanation": "build 的过去分词是 built。",
+    "verify": "\"will be built\""
+  },
+  {
+    "id": "cne_j255_q1",
+    "topicId": "cne_j255",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "哪个单词的意思是「宇宙」？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "uniform"
+      },
+      {
+        "key": "B",
+        "text": "unique"
+      },
+      {
+        "key": "C",
+        "text": "university"
+      },
+      {
+        "key": "D",
+        "text": "universe"
+      }
+    ],
+    "answer": "D",
+    "explanation": "universe 是宇宙。",
+    "verify": "\"universe\""
+  },
+  {
+    "id": "cne_j255_q2",
+    "topicId": "cne_j255",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "The ____ was launched from Wenchang.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "rocket"
+      },
+      {
+        "key": "B",
+        "text": "racket"
+      },
+      {
+        "key": "C",
+        "text": "pocket"
+      },
+      {
+        "key": "D",
+        "text": "robot"
+      }
+    ],
+    "answer": "A",
+    "explanation": "从文昌发射的是火箭。",
+    "verify": "\"rocket\""
+  },
+  {
+    "id": "cne_j255_q3",
+    "topicId": "cne_j255",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "explore 的意思是？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "解释"
+      },
+      {
+        "key": "B",
+        "text": "出口"
+      },
+      {
+        "key": "C",
+        "text": "探索"
+      },
+      {
+        "key": "D",
+        "text": "爆炸"
+      }
+    ],
+    "answer": "C",
+    "explanation": "explore 是探索。",
+    "verify": "\"探索\""
+  },
+  {
+    "id": "cne_j255_q4",
+    "topicId": "cne_j255",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "launch 在 launch a spaceship 中的意思是？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "发射"
+      },
+      {
+        "key": "B",
+        "text": "吃午饭"
+      },
+      {
+        "key": "C",
+        "text": "修理"
+      },
+      {
+        "key": "D",
+        "text": "着陆"
+      }
+    ],
+    "answer": "A",
+    "explanation": "launch a spaceship 是发射飞船。",
+    "verify": "\"发射\""
+  },
+  {
+    "id": "cne_j256_q1",
+    "topicId": "cne_j256",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "Tom and Jim ____ on the school team.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "am"
+      },
+      {
+        "key": "B",
+        "text": "are"
+      },
+      {
+        "key": "C",
+        "text": "is"
+      },
+      {
+        "key": "D",
+        "text": "be"
+      }
+    ],
+    "answer": "B",
+    "explanation": "两个人作主语，用复数 are。",
+    "verify": "\"are\""
+  },
+  {
+    "id": "cne_j256_q2",
+    "topicId": "cne_j256",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "Each of the players ____ a number.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "have"
+      },
+      {
+        "key": "B",
+        "text": "having"
+      },
+      {
+        "key": "C",
+        "text": "are having"
+      },
+      {
+        "key": "D",
+        "text": "has"
+      }
+    ],
+    "answer": "D",
+    "explanation": "each of 作主语，谓语用单数。",
+    "verify": "\"has\""
+  },
+  {
+    "id": "cne_j256_q3",
+    "topicId": "cne_j256",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "Not only the students but also the teacher ____ excited.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "were"
+      },
+      {
+        "key": "B",
+        "text": "is"
+      },
+      {
+        "key": "C",
+        "text": "be"
+      },
+      {
+        "key": "D",
+        "text": "are"
+      }
+    ],
+    "answer": "B",
+    "explanation": "not only ... but also 就近一致，靠近的是 the teacher。",
+    "verify": "\"is\""
+  },
+  {
+    "id": "cne_j256_q4",
+    "topicId": "cne_j256",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "The number of fans ____ growing.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "have"
+      },
+      {
+        "key": "B",
+        "text": "were"
+      },
+      {
+        "key": "C",
+        "text": "are"
+      },
+      {
+        "key": "D",
+        "text": "is"
+      }
+    ],
+    "answer": "D",
+    "explanation": "the number of 作主语，谓语用单数。",
+    "verify": "\"is\""
+  },
+  {
+    "id": "cne_j257_q1",
+    "topicId": "cne_j257",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "champion 的意思是？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "裁判"
+      },
+      {
+        "key": "B",
+        "text": "观众"
+      },
+      {
+        "key": "C",
+        "text": "冠军"
+      },
+      {
+        "key": "D",
+        "text": "教练"
+      }
+    ],
+    "answer": "C",
+    "explanation": "champion 是冠军。",
+    "verify": "\"冠军\""
+  },
+  {
+    "id": "cne_j257_q2",
+    "topicId": "cne_j257",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "哪个单词的意思是「运动员」？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "author"
+      },
+      {
+        "key": "B",
+        "text": "athlete"
+      },
+      {
+        "key": "C",
+        "text": "actor"
+      },
+      {
+        "key": "D",
+        "text": "artist"
+      }
+    ],
+    "answer": "B",
+    "explanation": "athlete 是运动员。",
+    "verify": "\"athlete\""
+  },
+  {
+    "id": "cne_j257_q3",
+    "topicId": "cne_j257",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "She won a gold ____ at the Olympics.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "meal"
+      },
+      {
+        "key": "B",
+        "text": "medal"
+      },
+      {
+        "key": "C",
+        "text": "model"
+      },
+      {
+        "key": "D",
+        "text": "metal"
+      }
+    ],
+    "answer": "B",
+    "explanation": "gold medal 是金牌。",
+    "verify": "\"medal\""
+  },
+  {
+    "id": "cne_j257_q4",
+    "topicId": "cne_j257",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "competition 的意思是？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "计算"
+      },
+      {
+        "key": "B",
+        "text": "比赛"
+      },
+      {
+        "key": "C",
+        "text": "完成"
+      },
+      {
+        "key": "D",
+        "text": "合作"
+      }
+    ],
+    "answer": "B",
+    "explanation": "competition 是比赛、竞赛。",
+    "verify": "\"比赛\""
   }
 ]
