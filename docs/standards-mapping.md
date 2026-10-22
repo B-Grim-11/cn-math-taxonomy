@@ -175,7 +175,7 @@
 
 ## 9. 高中必修（2026-10-20）
 
-依据《普通高中数学课程标准（2017年版2020年修订）》必修课程的五个主题。印发通知：<http://www.moe.gov.cn/srcsite/A26/s8001/202006/t20200603_462199.html>。参考过 PDF <https://www.pep.com.cn/xw/zt/rjwy/gzkb2020/202205/P020220517519489596282.pdf>，**没有逐页核对**。48 条全部 `verbatim: false`，`page_or_ref` 为「待核」，`text_status` 写明是公开转述。
+依据《普通高中数学课程标准（2017年版2025年修订）》必修课程的五个主题。印发通知：<http://www.moe.gov.cn/srcsite/A26/s8001/202006/t20200603_462199.html>。参考过 PDF <https://www.pep.com.cn/xw/zt/rjwy/gzkb2020/202205/P020220517519489596282.pdf>，**没有逐页核对**。48 条全部 `verbatim: false`，`page_or_ref` 为「待核」，`text_status` 写明是公开转述。
 
 编号 `cms-2017:H.<模块>.NN` 由本图谱按主题编排，不是教育部文件里的原编号。模块与领域不是一一对应：
 
