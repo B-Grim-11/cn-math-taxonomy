@@ -904,6 +904,64 @@
     ]
   },
   {
+    "id": "cnm_p217",
+    "name": "求两数相差几",
+    "domain": "数与代数",
+    "grade": 1,
+    "semester": "下",
+    "chapter": "一年级下册 第6单元 数量间的加减关系",
+    "type": "application",
+    "description": "会用减法解决「一个数比另一个数多几、少几」的实际问题。",
+    "mastery_criteria": [
+      "能说出求相差几用大数减小数",
+      "能列出减法算式并说清单位"
+    ],
+    "diagnostic_question": {
+      "question": "计算：15－9＝？ 15 比 9 多几？",
+      "answer": "6"
+    },
+    "standards": [
+      {
+        "id": "cms-2022:1.NA.07",
+        "confidence": "exact"
+      },
+      {
+        "id": "cms-2022:1.NA.03",
+        "confidence": "exact"
+      }
+    ],
+    "external": false
+  },
+  {
+    "id": "cnm_p218",
+    "name": "求比一个数多（少）几的数",
+    "domain": "数与代数",
+    "grade": 1,
+    "semester": "下",
+    "chapter": "一年级下册 第6单元 数量间的加减关系",
+    "type": "application",
+    "description": "已知一个数和相差数，会求比它多几或少几的数，也会解决含相差关系的连续两问。",
+    "mastery_criteria": [
+      "能判断「多几」用加法、「少几」用减法",
+      "能按顺序解决连续两问的问题"
+    ],
+    "diagnostic_question": {
+      "question": "小猫钓了 12 条鱼，小狗比小猫多钓 5 条。小狗钓了多少条？",
+      "answer": "17"
+    },
+    "standards": [
+      {
+        "id": "cms-2022:1.NA.07",
+        "confidence": "exact"
+      },
+      {
+        "id": "cms-2022:1.NA.03",
+        "confidence": "exact"
+      }
+    ],
+    "external": false
+  },
+  {
     "id": "cnm_p036",
     "name": "认识人民币",
     "domain": "综合与实践",
@@ -1012,77 +1070,61 @@
     ]
   },
   {
-    "id": "cnm_p040",
-    "name": "认识厘米",
-    "domain": "图形与几何",
-    "grade": 2,
-    "semester": "上",
-    "chapter": "二年级上册 第4单元 厘米和米",
-    "type": "procedural",
-    "description": "认识长度单位厘米，会用直尺量整厘米的长度。",
-    "mastery_criteria": [
-      "知道 1 厘米大约有多长",
-      "会量出物体是几厘米"
-    ],
-    "diagnostic_question": {
-      "question": "1 厘米大约有多长？",
-      "answer": "指甲盖的宽度大约是 1 厘米"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:1.GG.02",
-        "confidence": "exact"
-      }
-    ]
-  },
-  {
-    "id": "cnm_p041",
-    "name": "认识米",
-    "domain": "图形与几何",
-    "grade": 2,
-    "semester": "上",
-    "chapter": "二年级上册 第4单元 厘米和米",
-    "type": "procedural",
-    "description": "认识米，知道 1 米＝100 厘米，会选择米或厘米。",
-    "mastery_criteria": [
-      "能说出 1 米等于 100 厘米",
-      "能把几米换算成厘米"
-    ],
-    "diagnostic_question": {
-      "question": "1 米等于多少厘米？",
-      "answer": "100厘米"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:1.GG.02",
-        "confidence": "exact"
-      }
-    ]
-  },
-  {
-    "id": "cnm_p042",
-    "name": "7、8、9的乘法口诀",
+    "id": "cnm_p048",
+    "name": "表内乘法解决实际问题",
     "domain": "数与代数",
     "grade": 2,
     "semester": "上",
-    "chapter": "二年级上册 第5单元 7到9的表内乘、除法",
-    "type": "procedural",
-    "description": "能熟记 7、8、9 的乘法口诀。",
+    "chapter": "二年级上册 第2单元 1到6的表内乘法",
+    "type": "application",
+    "description": "能用表内乘法解决「几个几」的实际问题。",
     "mastery_criteria": [
-      "能背出 7、8、9 的乘法口诀",
-      "能用口诀计算表内乘法"
+      "能判断题目是在求几个相同加数的和",
+      "能列出乘法算式并计算"
     ],
     "diagnostic_question": {
-      "question": "计算：7×8＝？",
-      "answer": "56"
+      "question": "计算：3×6＝？",
+      "answer": "18"
     },
     "external": false,
     "standards": [
       {
+        "id": "cms-2022:1.NA.07",
+        "confidence": "exact"
+      },
+      {
         "id": "cms-2022:1.NA.05",
         "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p057",
+    "name": "乘加乘减的运算顺序",
+    "domain": "数与代数",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "二年级上册 第2单元 1到6的表内乘法",
+    "type": "procedural",
+    "description": "知道算式里有乘法和加减法时，先算乘法，再算加减法。",
+    "mastery_criteria": [
+      "能说出先乘后加减",
+      "能按顺序计算两步式子"
+    ],
+    "diagnostic_question": {
+      "question": "先乘除、后加减。算式里既有乘法又有加减法，要先算什么？",
+      "answer": "先算乘除，再算加减"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:1.NA.03",
+        "confidence": "exact"
+      },
+      {
+        "id": "cms-2022:2.NA.03",
+        "confidence": "inferred",
+        "note": "两步混合运算在第二学段要求更完整，二年级先掌握先乘后加减。"
       }
     ]
   },
@@ -1111,56 +1153,6 @@
       },
       {
         "id": "cms-2022:1.NA.03",
-        "confidence": "exact"
-      }
-    ]
-  },
-  {
-    "id": "cnm_p044",
-    "name": "用7、8、9的口诀求商",
-    "domain": "数与代数",
-    "grade": 2,
-    "semester": "上",
-    "chapter": "二年级上册 第5单元 7到9的表内乘、除法",
-    "type": "procedural",
-    "description": "会用 7、8、9 的乘法口诀求商。",
-    "mastery_criteria": [
-      "能用口诀算出表内除法",
-      "能解决平均分的问题"
-    ],
-    "diagnostic_question": {
-      "question": "计算：56÷7＝？",
-      "answer": "8"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:1.NA.05",
-        "confidence": "exact"
-      }
-    ]
-  },
-  {
-    "id": "cnm_p045",
-    "name": "用身体上的长度估测",
-    "domain": "综合与实践",
-    "grade": 2,
-    "semester": "上",
-    "chapter": "二年级上册 综合与实践 身体上的尺子",
-    "type": "modeling",
-    "description": "知道一拃、一步等身体上的长度可以用来估测，估测结果要说明单位。",
-    "mastery_criteria": [
-      "能用一拃或一步估一估长度",
-      "知道估测和用尺量可以对照"
-    ],
-    "diagnostic_question": {
-      "question": "1 厘米大约有多长？用身体上的尺子估测时，最短的一截常常接近什么？",
-      "answer": "指甲盖的宽度大约是 1 厘米"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:1.IP.05",
         "confidence": "exact"
       }
     ]
@@ -1220,35 +1212,6 @@
     ]
   },
   {
-    "id": "cnm_p048",
-    "name": "表内乘法解决实际问题",
-    "domain": "数与代数",
-    "grade": 2,
-    "semester": "上",
-    "chapter": "二年级上册 第2单元 1到6的表内乘法",
-    "type": "application",
-    "description": "能用表内乘法解决「几个几」的实际问题。",
-    "mastery_criteria": [
-      "能判断题目是在求几个相同加数的和",
-      "能列出乘法算式并计算"
-    ],
-    "diagnostic_question": {
-      "question": "计算：3×6＝？",
-      "answer": "18"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:1.NA.07",
-        "confidence": "exact"
-      },
-      {
-        "id": "cms-2022:1.NA.05",
-        "confidence": "exact"
-      }
-    ]
-  },
-  {
     "id": "cnm_p049",
     "name": "东、南、西、北",
     "domain": "综合与实践",
@@ -1274,21 +1237,96 @@
     ]
   },
   {
-    "id": "cnm_p050",
-    "name": "有余数除法的意义",
-    "domain": "数与代数",
+    "id": "cnm_p040",
+    "name": "认识厘米",
+    "domain": "图形与几何",
     "grade": 2,
-    "semester": "下",
-    "chapter": "二年级下册 第1单元 有余数的除法",
-    "type": "conceptual",
-    "description": "知道平均分后有剩下时，剩下的数叫余数，余数要比除数小。",
+    "semester": "上",
+    "chapter": "二年级上册 第4单元 厘米和米",
+    "type": "procedural",
+    "description": "认识长度单位厘米，会用直尺量整厘米的长度。",
     "mastery_criteria": [
-      "能说出商和余数各表示什么",
-      "知道余数一定比除数小"
+      "知道 1 厘米大约有多长",
+      "会量出物体是几厘米"
     ],
     "diagnostic_question": {
-      "question": "有余数的除法里，余数和除数谁比较小？",
-      "answer": "余数比除数小"
+      "question": "1 厘米大约有多长？",
+      "answer": "指甲盖的宽度大约是 1 厘米"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:1.GG.02",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p041",
+    "name": "认识米",
+    "domain": "图形与几何",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "二年级上册 第4单元 厘米和米",
+    "type": "procedural",
+    "description": "认识米，知道 1 米＝100 厘米，会选择米或厘米。",
+    "mastery_criteria": [
+      "能说出 1 米等于 100 厘米",
+      "能把几米换算成厘米"
+    ],
+    "diagnostic_question": {
+      "question": "1 米等于多少厘米？",
+      "answer": "100厘米"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:1.GG.02",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p045",
+    "name": "用身体上的长度估测",
+    "domain": "综合与实践",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "二年级上册 综合与实践 身体上的尺子",
+    "type": "modeling",
+    "description": "知道一拃、一步等身体上的长度可以用来估测，估测结果要说明单位。",
+    "mastery_criteria": [
+      "能用一拃或一步估一估长度",
+      "知道估测和用尺量可以对照"
+    ],
+    "diagnostic_question": {
+      "question": "1 厘米大约有多长？用身体上的尺子估测时，最短的一截常常接近什么？",
+      "answer": "指甲盖的宽度大约是 1 厘米"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:1.IP.05",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p042",
+    "name": "7、8、9的乘法口诀",
+    "domain": "数与代数",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "二年级上册 第5单元 7到9的表内乘、除法",
+    "type": "procedural",
+    "description": "能熟记 7、8、9 的乘法口诀。",
+    "mastery_criteria": [
+      "能背出 7、8、9 的乘法口诀",
+      "能用口诀计算表内乘法"
+    ],
+    "diagnostic_question": {
+      "question": "计算：7×8＝？",
+      "answer": "56"
     },
     "external": false,
     "standards": [
@@ -1299,257 +1337,26 @@
     ]
   },
   {
-    "id": "cnm_p051",
-    "name": "用口诀求商和余数",
+    "id": "cnm_p044",
+    "name": "用7、8、9的口诀求商",
     "domain": "数与代数",
     "grade": 2,
-    "semester": "下",
-    "chapter": "二年级下册 第1单元 有余数的除法",
+    "semester": "上",
+    "chapter": "二年级上册 第5单元 7到9的表内乘、除法",
     "type": "procedural",
-    "description": "会用乘法口诀求有余数除法的商和余数。",
+    "description": "会用 7、8、9 的乘法口诀求商。",
     "mastery_criteria": [
-      "能算出商和余数",
-      "能检查余数小于除数"
+      "能用口诀算出表内除法",
+      "能解决平均分的问题"
     ],
     "diagnostic_question": {
-      "question": "先写商，再写余数。商和余数：14÷4",
-      "answer": "3，2"
+      "question": "计算：56÷7＝？",
+      "answer": "8"
     },
     "external": false,
     "standards": [
       {
         "id": "cms-2022:1.NA.05",
-        "confidence": "exact"
-      }
-    ]
-  },
-  {
-    "id": "cnm_p052",
-    "name": "有余数除法的应用",
-    "domain": "数与代数",
-    "grade": 2,
-    "semester": "下",
-    "chapter": "二年级下册 第1单元 有余数的除法",
-    "type": "application",
-    "description": "能用有余数的除法解决装袋、排队剩下几个的问题。",
-    "mastery_criteria": [
-      "能判断问题要求的是商还是余数",
-      "能写出商和余数"
-    ],
-    "diagnostic_question": {
-      "question": "23 个皮球，每 5 个装一袋。先写商，再写余数。商和余数：23÷5",
-      "answer": "4，3"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:1.NA.07",
-        "confidence": "exact"
-      }
-    ]
-  },
-  {
-    "id": "cnm_p053",
-    "name": "万以内数的认识",
-    "domain": "数与代数",
-    "grade": 2,
-    "semester": "下",
-    "chapter": "二年级下册 第3单元 万以内数的认识",
-    "type": "conceptual",
-    "description": "能认、读、写万以内的数，知道千位、百位、十位、个位。",
-    "mastery_criteria": [
-      "能读出万以内的数",
-      "能说出各个数位上的数字表示多少"
-    ],
-    "diagnostic_question": {
-      "question": "999 的后面一个数是几？",
-      "answer": "1000"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:1.NA.01",
-        "confidence": "exact"
-      }
-    ]
-  },
-  {
-    "id": "cnm_p054",
-    "name": "万以内数的大小比较",
-    "domain": "数与代数",
-    "grade": 2,
-    "semester": "下",
-    "chapter": "二年级下册 第3单元 万以内数的认识",
-    "type": "procedural",
-    "description": "会比较万以内数的大小，位数不同先看位数。",
-    "mastery_criteria": [
-      "能比较两个万以内的数",
-      "能按从小到大排列几个数"
-    ],
-    "diagnostic_question": {
-      "question": "计算：1000－999＝？",
-      "answer": "1"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:1.NA.02",
-        "confidence": "exact"
-      }
-    ]
-  },
-  {
-    "id": "cnm_p055",
-    "name": "万以内数的组成",
-    "domain": "数与代数",
-    "grade": 2,
-    "semester": "下",
-    "chapter": "二年级下册 第3单元 万以内数的认识",
-    "type": "procedural",
-    "description": "能说出万以内的数由几个千、几个百、几个十和几个一组成。",
-    "mastery_criteria": [
-      "能按数位说出数的组成",
-      "能把几个千、几个百合成一个数"
-    ],
-    "diagnostic_question": {
-      "question": "2300 里面有几个百？",
-      "answer": "23"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:1.NA.01",
-        "confidence": "exact"
-      }
-    ]
-  },
-  {
-    "id": "cnm_p056",
-    "name": "克和千克",
-    "domain": "数与代数",
-    "grade": 3,
-    "semester": "上",
-    "chapter": "三年级上册 综合与实践 曹冲称象的故事",
-    "type": "procedural",
-    "description": "认识质量单位克和千克，知道 1 千克＝1000 克。",
-    "mastery_criteria": [
-      "能说出 1 千克等于 1000 克",
-      "能进行千克和克的简单换算"
-    ],
-    "diagnostic_question": {
-      "question": "1 千克等于多少克？",
-      "answer": "1000克"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:2.IP.02",
-        "confidence": "inferred",
-        "note": "课标把克、千克放在第二学段主题活动「曹冲称象」。2024 二年级下册官方目录未核到，本点暂放这里，待核。"
-      }
-    ]
-  },
-  {
-    "id": "cnm_p057",
-    "name": "乘加乘减的运算顺序",
-    "domain": "数与代数",
-    "grade": 2,
-    "semester": "上",
-    "chapter": "二年级上册 第2单元 1到6的表内乘法",
-    "type": "procedural",
-    "description": "知道算式里有乘法和加减法时，先算乘法，再算加减法。",
-    "mastery_criteria": [
-      "能说出先乘后加减",
-      "能按顺序计算两步式子"
-    ],
-    "diagnostic_question": {
-      "question": "先乘除、后加减。算式里既有乘法又有加减法，要先算什么？",
-      "answer": "先算乘除，再算加减"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:1.NA.03",
-        "confidence": "exact"
-      },
-      {
-        "id": "cms-2022:2.NA.03",
-        "confidence": "inferred",
-        "note": "两步混合运算在第二学段要求更完整，二年级先掌握先乘后加减。"
-      }
-    ]
-  },
-  {
-    "id": "cnm_p058",
-    "name": "带小括号的两步运算",
-    "domain": "数与代数",
-    "grade": 3,
-    "semester": "上",
-    "chapter": "三年级上册 第2单元 混合运算",
-    "type": "procedural",
-    "description": "知道小括号里的运算要先算。",
-    "mastery_criteria": [
-      "能先算小括号里面的",
-      "能计算带小括号的两步式子"
-    ],
-    "diagnostic_question": {
-      "question": "小括号要怎样算？",
-      "answer": "先算小括号里面的"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:1.NA.04",
-        "confidence": "exact"
-      }
-    ]
-  },
-  {
-    "id": "cnm_p059",
-    "name": "两步加减应用",
-    "domain": "数与代数",
-    "grade": 3,
-    "semester": "上",
-    "chapter": "三年级上册 第2单元 混合运算",
-    "type": "application",
-    "description": "能用两步加减解决「先合起来再去掉」或「先去掉再合起来」的问题。",
-    "mastery_criteria": [
-      "能分清先算哪一步",
-      "能列出综合算式或分步算式"
-    ],
-    "diagnostic_question": {
-      "question": "计算：20＋15－8＝？",
-      "answer": "27"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:1.NA.07",
-        "confidence": "exact"
-      }
-    ]
-  },
-  {
-    "id": "cnm_p060",
-    "name": "简单的变化规律",
-    "domain": "数与代数",
-    "grade": 2,
-    "semester": "下",
-    "chapter": "二年级下册 第5单元 复习与关联",
-    "type": "reasoning",
-    "description": "能发现一列数每次增加或减少相同的数，并写出后面的数。",
-    "mastery_criteria": [
-      "能说出规律是每次加几或减几",
-      "能按规律写出下一个数"
-    ],
-    "diagnostic_question": {
-      "question": "一列数 2，5，8。每次增加的一样多，8 的后面是多少？计算：8＋3＝？",
-      "answer": "11"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:1.NA.08",
         "confidence": "exact"
       }
     ]
@@ -1633,6 +1440,185 @@
     ]
   },
   {
+    "id": "cnm_p050",
+    "name": "有余数除法的意义",
+    "domain": "数与代数",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下册 第1单元 有余数的除法",
+    "type": "conceptual",
+    "description": "知道平均分后有剩下时，剩下的数叫余数，余数要比除数小。",
+    "mastery_criteria": [
+      "能说出商和余数各表示什么",
+      "知道余数一定比除数小"
+    ],
+    "diagnostic_question": {
+      "question": "有余数的除法里，余数和除数谁比较小？",
+      "answer": "余数比除数小"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:1.NA.05",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p051",
+    "name": "用口诀求商和余数",
+    "domain": "数与代数",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下册 第1单元 有余数的除法",
+    "type": "procedural",
+    "description": "会用乘法口诀求有余数除法的商和余数。",
+    "mastery_criteria": [
+      "能算出商和余数",
+      "能检查余数小于除数"
+    ],
+    "diagnostic_question": {
+      "question": "先写商，再写余数。商和余数：14÷4",
+      "answer": "3，2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:1.NA.05",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p052",
+    "name": "有余数除法的应用",
+    "domain": "数与代数",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下册 第1单元 有余数的除法",
+    "type": "application",
+    "description": "能用有余数的除法解决装袋、排队剩下几个的问题。",
+    "mastery_criteria": [
+      "能判断问题要求的是商还是余数",
+      "能写出商和余数"
+    ],
+    "diagnostic_question": {
+      "question": "23 个皮球，每 5 个装一袋。先写商，再写余数。商和余数：23÷5",
+      "answer": "4，3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:1.NA.07",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p219",
+    "name": "数量间的乘除关系",
+    "domain": "数与代数",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下册 第2单元 数量间的乘除关系",
+    "type": "application",
+    "description": "理解「每份数×份数＝总数」「总数÷份数＝每份数」「总数÷每份数＝份数」，会选乘法或除法解决问题。",
+    "mastery_criteria": [
+      "能说出总数、每份数和份数之间的关系",
+      "能根据已知量选乘法或除法列式"
+    ],
+    "diagnostic_question": {
+      "question": "每盒 6 个鸡蛋，有 4 盒，一共有多少个？",
+      "answer": "24"
+    },
+    "standards": [
+      {
+        "id": "cms-2022:1.NA.03",
+        "confidence": "exact"
+      },
+      {
+        "id": "cms-2022:1.NA.07",
+        "confidence": "exact"
+      }
+    ],
+    "external": false
+  },
+  {
+    "id": "cnm_p053",
+    "name": "万以内数的认识",
+    "domain": "数与代数",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下册 第3单元 万以内数的认识",
+    "type": "conceptual",
+    "description": "能认、读、写万以内的数，知道千位、百位、十位、个位。",
+    "mastery_criteria": [
+      "能读出万以内的数",
+      "能说出各个数位上的数字表示多少"
+    ],
+    "diagnostic_question": {
+      "question": "999 的后面一个数是几？",
+      "answer": "1000"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:1.NA.01",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p054",
+    "name": "万以内数的大小比较",
+    "domain": "数与代数",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下册 第3单元 万以内数的认识",
+    "type": "procedural",
+    "description": "会比较万以内数的大小，位数不同先看位数。",
+    "mastery_criteria": [
+      "能比较两个万以内的数",
+      "能按从小到大排列几个数"
+    ],
+    "diagnostic_question": {
+      "question": "计算：1000－999＝？",
+      "answer": "1"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:1.NA.02",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p055",
+    "name": "万以内数的组成",
+    "domain": "数与代数",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下册 第3单元 万以内数的认识",
+    "type": "procedural",
+    "description": "能说出万以内的数由几个千、几个百、几个十和几个一组成。",
+    "mastery_criteria": [
+      "能按数位说出数的组成",
+      "能把几个千、几个百合成一个数"
+    ],
+    "diagnostic_question": {
+      "question": "2300 里面有几个百？",
+      "answer": "23"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:1.NA.01",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
     "id": "cnm_p064",
     "name": "几百几十的口算加法",
     "domain": "数与代数",
@@ -1707,6 +1693,190 @@
     "standards": [
       {
         "id": "cms-2022:2.NA.06",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p071",
+    "name": "三位数加法笔算",
+    "domain": "数与代数",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下册 第4单元 万以内的加法和减法",
+    "type": "procedural",
+    "description": "会用竖式计算三位数加三位数，连续进位也会算。",
+    "mastery_criteria": [
+      "能把相同数位对齐",
+      "连续进位时不错位"
+    ],
+    "diagnostic_question": {
+      "question": "计算：234＋125＝？",
+      "answer": "359"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:2.NA.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "cms-2022:1.NA.04",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p072",
+    "name": "三位数减法笔算",
+    "domain": "数与代数",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下册 第4单元 万以内的加法和减法",
+    "type": "procedural",
+    "description": "会用竖式计算三位数减三位数，包括连续退位。",
+    "mastery_criteria": [
+      "能计算三位数减法",
+      "能用加法验算减法"
+    ],
+    "diagnostic_question": {
+      "question": "笔算加法算完后，常用什么方法验算？",
+      "answer": "用减法：和减去一个加数，看是否等于另一个加数"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:1.NA.04",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p220",
+    "name": "加减法各部分间的关系",
+    "domain": "数与代数",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下册 第4单元 万以内的加法和减法",
+    "type": "conceptual",
+    "description": "知道「和－一个加数＝另一个加数」「被减数－减数＝差」「差＋减数＝被减数」，会用它求未知数和验算。",
+    "mastery_criteria": [
+      "能说出加法、减法各部分的名称",
+      "能利用各部分间的关系求括号里的数"
+    ],
+    "diagnostic_question": {
+      "question": "□＋250＝600，□是多少？",
+      "answer": "350"
+    },
+    "standards": [
+      {
+        "id": "cms-2022:1.NA.03",
+        "confidence": "exact"
+      },
+      {
+        "id": "cms-2022:1.NA.04",
+        "confidence": "exact"
+      }
+    ],
+    "external": false
+  },
+  {
+    "id": "cnm_p060",
+    "name": "简单的变化规律",
+    "domain": "数与代数",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下册 第5单元 复习与关联",
+    "type": "reasoning",
+    "description": "能发现一列数每次增加或减少相同的数，并写出后面的数。",
+    "mastery_criteria": [
+      "能说出规律是每次加几或减几",
+      "能按规律写出下一个数"
+    ],
+    "diagnostic_question": {
+      "question": "一列数 2，5，8。每次增加的一样多，8 的后面是多少？计算：8＋3＝？",
+      "answer": "11"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:1.NA.08",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p056",
+    "name": "克和千克",
+    "domain": "数与代数",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 综合与实践 曹冲称象的故事",
+    "type": "procedural",
+    "description": "认识质量单位克和千克，知道 1 千克＝1000 克。",
+    "mastery_criteria": [
+      "能说出 1 千克等于 1000 克",
+      "能进行千克和克的简单换算"
+    ],
+    "diagnostic_question": {
+      "question": "1 千克等于多少克？",
+      "answer": "1000克"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:2.IP.02",
+        "confidence": "inferred",
+        "note": "课标把克、千克放在第二学段主题活动「曹冲称象」。2024 二年级下册官方目录未核到，本点暂放这里，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p058",
+    "name": "带小括号的两步运算",
+    "domain": "数与代数",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第2单元 混合运算",
+    "type": "procedural",
+    "description": "知道小括号里的运算要先算。",
+    "mastery_criteria": [
+      "能先算小括号里面的",
+      "能计算带小括号的两步式子"
+    ],
+    "diagnostic_question": {
+      "question": "小括号要怎样算？",
+      "answer": "先算小括号里面的"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:1.NA.04",
+        "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p059",
+    "name": "两步加减应用",
+    "domain": "数与代数",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第2单元 混合运算",
+    "type": "application",
+    "description": "能用两步加减解决「先合起来再去掉」或「先去掉再合起来」的问题。",
+    "mastery_criteria": [
+      "能分清先算哪一步",
+      "能列出综合算式或分步算式"
+    ],
+    "diagnostic_question": {
+      "question": "计算：20＋15－8＝？",
+      "answer": "27"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:1.NA.07",
         "confidence": "exact"
       }
     ]
@@ -1809,60 +1979,6 @@
         "id": "cms-2022:2.IP.02",
         "confidence": "inferred",
         "note": "吨写在「曹冲称象」主题里。现行三年级上册「测量」单元有吨，待核。"
-      }
-    ]
-  },
-  {
-    "id": "cnm_p071",
-    "name": "三位数加法笔算",
-    "domain": "数与代数",
-    "grade": 2,
-    "semester": "下",
-    "chapter": "二年级下册 第4单元 万以内的加法和减法",
-    "type": "procedural",
-    "description": "会用竖式计算三位数加三位数，连续进位也会算。",
-    "mastery_criteria": [
-      "能把相同数位对齐",
-      "连续进位时不错位"
-    ],
-    "diagnostic_question": {
-      "question": "计算：234＋125＝？",
-      "answer": "359"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:2.NA.01",
-        "confidence": "exact"
-      },
-      {
-        "id": "cms-2022:1.NA.04",
-        "confidence": "exact"
-      }
-    ]
-  },
-  {
-    "id": "cnm_p072",
-    "name": "三位数减法笔算",
-    "domain": "数与代数",
-    "grade": 2,
-    "semester": "下",
-    "chapter": "二年级下册 第4单元 万以内的加法和减法",
-    "type": "procedural",
-    "description": "会用竖式计算三位数减三位数，包括连续退位。",
-    "mastery_criteria": [
-      "能计算三位数减法",
-      "能用加法验算减法"
-    ],
-    "diagnostic_question": {
-      "question": "笔算加法算完后，常用什么方法验算？",
-      "answer": "用减法：和减去一个加数，看是否等于另一个加数"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:1.NA.04",
-        "confidence": "exact"
       }
     ]
   },
@@ -5594,122 +5710,6 @@
         "note": "鸽巢问题是现行六年级下册数学广角，内容要求没有同名条款，待核。"
       }
     ]
-  },
-  {
-    "id": "cnm_p217",
-    "name": "求两数相差几",
-    "domain": "数与代数",
-    "grade": 1,
-    "semester": "下",
-    "chapter": "一年级下册 第6单元 数量间的加减关系",
-    "type": "application",
-    "description": "会用减法解决「一个数比另一个数多几、少几」的实际问题。",
-    "mastery_criteria": [
-      "能说出求相差几用大数减小数",
-      "能列出减法算式并说清单位"
-    ],
-    "diagnostic_question": {
-      "question": "计算：15－9＝？ 15 比 9 多几？",
-      "answer": "6"
-    },
-    "standards": [
-      {
-        "id": "cms-2022:1.NA.07",
-        "confidence": "exact"
-      },
-      {
-        "id": "cms-2022:1.NA.03",
-        "confidence": "exact"
-      }
-    ],
-    "external": false
-  },
-  {
-    "id": "cnm_p218",
-    "name": "求比一个数多（少）几的数",
-    "domain": "数与代数",
-    "grade": 1,
-    "semester": "下",
-    "chapter": "一年级下册 第6单元 数量间的加减关系",
-    "type": "application",
-    "description": "已知一个数和相差数，会求比它多几或少几的数，也会解决含相差关系的连续两问。",
-    "mastery_criteria": [
-      "能判断「多几」用加法、「少几」用减法",
-      "能按顺序解决连续两问的问题"
-    ],
-    "diagnostic_question": {
-      "question": "小猫钓了 12 条鱼，小狗比小猫多钓 5 条。小狗钓了多少条？",
-      "answer": "17"
-    },
-    "standards": [
-      {
-        "id": "cms-2022:1.NA.07",
-        "confidence": "exact"
-      },
-      {
-        "id": "cms-2022:1.NA.03",
-        "confidence": "exact"
-      }
-    ],
-    "external": false
-  },
-  {
-    "id": "cnm_p219",
-    "name": "数量间的乘除关系",
-    "domain": "数与代数",
-    "grade": 2,
-    "semester": "下",
-    "chapter": "二年级下册 第2单元 数量间的乘除关系",
-    "type": "application",
-    "description": "理解「每份数×份数＝总数」「总数÷份数＝每份数」「总数÷每份数＝份数」，会选乘法或除法解决问题。",
-    "mastery_criteria": [
-      "能说出总数、每份数和份数之间的关系",
-      "能根据已知量选乘法或除法列式"
-    ],
-    "diagnostic_question": {
-      "question": "每盒 6 个鸡蛋，有 4 盒，一共有多少个？",
-      "answer": "24"
-    },
-    "standards": [
-      {
-        "id": "cms-2022:1.NA.03",
-        "confidence": "exact"
-      },
-      {
-        "id": "cms-2022:1.NA.07",
-        "confidence": "exact"
-      }
-    ],
-    "external": false
-  },
-  {
-    "id": "cnm_p220",
-    "name": "加减法各部分间的关系",
-    "domain": "数与代数",
-    "grade": 2,
-    "semester": "下",
-    "chapter": "二年级下册 第4单元 万以内的加法和减法",
-    "type": "conceptual",
-    "description": "知道「和－一个加数＝另一个加数」「被减数－减数＝差」「差＋减数＝被减数」，会用它求未知数和验算。",
-    "mastery_criteria": [
-      "能说出加法、减法各部分的名称",
-      "能利用各部分间的关系求括号里的数"
-    ],
-    "diagnostic_question": {
-      "question": "□＋250＝600，□是多少？",
-      "answer": "350"
-    },
-    "standards": [
-      {
-        "id": "cms-2022:1.NA.03",
-        "confidence": "exact"
-      },
-      {
-        "id": "cms-2022:1.NA.04",
-        "confidence": "exact"
-      }
-    ],
-    "external": false
   },
   {
     "id": "cnm_001",
