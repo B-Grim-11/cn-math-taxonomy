@@ -361,9 +361,9 @@
   },
   {
     "topicId": "cnm_p048",
-    "prerequisiteId": "cnm_p042",
+    "prerequisiteId": "cnm_p039",
     "strength": "hard",
-    "reason": "学习「表内乘法解决实际问题」需要先掌握「7、8、9的乘法口诀」。"
+    "reason": "学习「表内乘法解决实际问题」需要先掌握「2到6的乘法口诀」。"
   },
   {
     "topicId": "cnm_p049",
@@ -13054,5 +13054,59 @@
     "prerequisiteId": "cne_j237",
     "strength": "hard",
     "reason": "语篇里选时态承接初中已经做过的时态选择。"
+  },
+  {
+    "topicId": "cnm_p217",
+    "prerequisiteId": "cnm_p034",
+    "strength": "hard",
+    "reason": "学习「求两数相差几」需要先掌握「100以内笔算减法」。"
+  },
+  {
+    "topicId": "cnm_p217",
+    "prerequisiteId": "cnm_p009",
+    "strength": "soft",
+    "reason": "学习「求两数相差几」需要先掌握「10以内数的比较」。"
+  },
+  {
+    "topicId": "cnm_p218",
+    "prerequisiteId": "cnm_p217",
+    "strength": "hard",
+    "reason": "学习「求比一个数多（少）几的数」需要先掌握「求两数相差几」。"
+  },
+  {
+    "topicId": "cnm_p218",
+    "prerequisiteId": "cnm_p033",
+    "strength": "hard",
+    "reason": "学习「求比一个数多（少）几的数」需要先掌握「100以内笔算加法」。"
+  },
+  {
+    "topicId": "cnm_p219",
+    "prerequisiteId": "cnm_p048",
+    "strength": "hard",
+    "reason": "学习「数量间的乘除关系」需要先掌握「表内乘法解决实际问题」。"
+  },
+  {
+    "topicId": "cnm_p219",
+    "prerequisiteId": "cnm_p044",
+    "strength": "hard",
+    "reason": "学习「数量间的乘除关系」需要先掌握「用7、8、9的口诀求商」。"
+  },
+  {
+    "topicId": "cnm_p219",
+    "prerequisiteId": "cnm_p051",
+    "strength": "soft",
+    "reason": "学习「数量间的乘除关系」需要先掌握「用口诀求商和余数」。"
+  },
+  {
+    "topicId": "cnm_p220",
+    "prerequisiteId": "cnm_p071",
+    "strength": "hard",
+    "reason": "学习「加减法各部分间的关系」需要先掌握「三位数加法笔算」。"
+  },
+  {
+    "topicId": "cnm_p220",
+    "prerequisiteId": "cnm_p072",
+    "strength": "hard",
+    "reason": "学习「加减法各部分间的关系」需要先掌握「三位数减法笔算」。"
   }
 ]

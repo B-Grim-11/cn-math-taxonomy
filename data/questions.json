@@ -12237,6 +12237,166 @@
     "verify": "8-3"
   },
   {
+    "id": "cnm_p217_q1",
+    "topicId": "cnm_p217",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "计算：15－9＝？ 15 比 9 多几？",
+    "answer": "6",
+    "explanation": "15－9＝6，所以 15 比 9 多 6。",
+    "verify": "15-9"
+  },
+  {
+    "id": "cnm_p217_q2",
+    "topicId": "cnm_p217",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "红花有 42 朵，黄花有 30 朵。红花比黄花多多少朵？",
+    "answer": "12",
+    "explanation": "求相差几用大数减小数：42－30＝12。",
+    "verify": "42-30"
+  },
+  {
+    "id": "cnm_p217_q3",
+    "topicId": "cnm_p217",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "小明跳绳跳了 56 下，小军跳了 71 下。小明比小军少跳多少下？",
+    "answer": "15",
+    "explanation": "少几也是求相差几：71－56＝15。",
+    "verify": "71-56"
+  },
+  {
+    "id": "cnm_p217_q4",
+    "topicId": "cnm_p217",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "一班有 38 人，二班有 45 人。两个班相差多少人？",
+    "answer": "7",
+    "explanation": "45－38＝7。",
+    "verify": "45-38"
+  },
+  {
+    "id": "cnm_p218_q1",
+    "topicId": "cnm_p218",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "小猫钓了 12 条鱼，小狗比小猫多钓 5 条。小狗钓了多少条？",
+    "answer": "17",
+    "explanation": "比 12 多 5，用加法：12＋5＝17。",
+    "verify": "12+5"
+  },
+  {
+    "id": "cnm_p218_q2",
+    "topicId": "cnm_p218",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "树上有 40 只鸟，地上的比树上少 8 只。地上有多少只？",
+    "answer": "32",
+    "explanation": "比 40 少 8，用减法：40－8＝32。",
+    "verify": "40-8"
+  },
+  {
+    "id": "cnm_p218_q3",
+    "topicId": "cnm_p218",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "妈妈买了 35 个苹果，梨比苹果少 9 个。梨有多少个？",
+    "answer": "26",
+    "explanation": "35－9＝26。",
+    "verify": "35-9"
+  },
+  {
+    "id": "cnm_p218_q4",
+    "topicId": "cnm_p218",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "小明有 24 张卡片，小红比小明多 7 张，小丽比小红少 10 张。小丽有多少张？",
+    "answer": "21",
+    "explanation": "先算小红：24＋7＝31；再算小丽：31－10＝21。",
+    "verify": "24+7-10"
+  },
+  {
+    "id": "cnm_p219_q1",
+    "topicId": "cnm_p219",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "每盒 6 个鸡蛋，有 4 盒，一共有多少个？",
+    "answer": "24",
+    "explanation": "每份数×份数＝总数：6×4＝24。",
+    "verify": "6*4"
+  },
+  {
+    "id": "cnm_p219_q2",
+    "topicId": "cnm_p219",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "把 18 个苹果平均分给 3 个小朋友，每人分几个？",
+    "answer": "6",
+    "explanation": "总数÷份数＝每份数：18÷3＝6。",
+    "verify": "18/3"
+  },
+  {
+    "id": "cnm_p219_q3",
+    "topicId": "cnm_p219",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "有 35 个气球，每 5 个扎一束，可以扎几束？",
+    "answer": "7",
+    "explanation": "总数÷每份数＝份数：35÷5＝7。",
+    "verify": "35/5"
+  },
+  {
+    "id": "cnm_p219_q4",
+    "topicId": "cnm_p219",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "一张桌子坐 8 人，7 张桌子一共能坐多少人？",
+    "answer": "56",
+    "explanation": "8×7＝56。",
+    "verify": "8*7"
+  },
+  {
+    "id": "cnm_p220_q1",
+    "topicId": "cnm_p220",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "□＋250＝600，□是多少？",
+    "answer": "350",
+    "explanation": "一个加数＝和－另一个加数：600－250＝350。",
+    "verify": "600-250"
+  },
+  {
+    "id": "cnm_p220_q2",
+    "topicId": "cnm_p220",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "□－180＝320，□是多少？",
+    "answer": "500",
+    "explanation": "被减数＝差＋减数：320＋180＝500。",
+    "verify": "320+180"
+  },
+  {
+    "id": "cnm_p220_q3",
+    "topicId": "cnm_p220",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "760－□＝430，□是多少？",
+    "answer": "330",
+    "explanation": "减数＝被减数－差：760－430＝330。",
+    "verify": "760-430"
+  },
+  {
+    "id": "cnm_p220_q4",
+    "topicId": "cnm_p220",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "小明算 523＋286＝809。用减法验算，809－286 应该等于多少？",
+    "answer": "523",
+    "explanation": "和减去一个加数，等于另一个加数：809－286＝523。",
+    "verify": "809-286"
+  },
+  {
     "id": "cnm_001_q1",
     "topicId": "cnm_001",
     "difficulty": "basic",

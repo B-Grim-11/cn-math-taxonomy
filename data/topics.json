@@ -1017,7 +1017,7 @@
     "domain": "图形与几何",
     "grade": 2,
     "semester": "上",
-    "chapter": "二年级上册 第3单元 厘米和米",
+    "chapter": "二年级上册 第4单元 厘米和米",
     "type": "procedural",
     "description": "认识长度单位厘米，会用直尺量整厘米的长度。",
     "mastery_criteria": [
@@ -1042,7 +1042,7 @@
     "domain": "图形与几何",
     "grade": 2,
     "semester": "上",
-    "chapter": "二年级上册 第3单元 厘米和米",
+    "chapter": "二年级上册 第4单元 厘米和米",
     "type": "procedural",
     "description": "认识米，知道 1 米＝100 厘米，会选择米或厘米。",
     "mastery_criteria": [
@@ -1067,7 +1067,7 @@
     "domain": "数与代数",
     "grade": 2,
     "semester": "上",
-    "chapter": "二年级上册 第4单元 7到9的表内乘、除法",
+    "chapter": "二年级上册 第5单元 7到9的表内乘、除法",
     "type": "procedural",
     "description": "能熟记 7、8、9 的乘法口诀。",
     "mastery_criteria": [
@@ -1092,7 +1092,7 @@
     "domain": "数与代数",
     "grade": 2,
     "semester": "上",
-    "chapter": "二年级上册 第4单元 7到9的表内乘、除法",
+    "chapter": "二年级上册 第3单元 1到6的表内除法",
     "type": "conceptual",
     "description": "知道除法是乘法的逆运算，可以表示平均分。",
     "mastery_criteria": [
@@ -1121,7 +1121,7 @@
     "domain": "数与代数",
     "grade": 2,
     "semester": "上",
-    "chapter": "二年级上册 第4单元 7到9的表内乘、除法",
+    "chapter": "二年级上册 第5单元 7到9的表内乘、除法",
     "type": "procedural",
     "description": "会用 7、8、9 的乘法口诀求商。",
     "mastery_criteria": [
@@ -1171,7 +1171,7 @@
     "domain": "数与代数",
     "grade": 2,
     "semester": "上",
-    "chapter": "二年级上册 第6单元 1到6的表内除法",
+    "chapter": "二年级上册 第3单元 1到6的表内除法",
     "type": "procedural",
     "description": "会用 1 到 6 的乘法口诀求商。",
     "mastery_criteria": [
@@ -1196,7 +1196,7 @@
     "domain": "数与代数",
     "grade": 2,
     "semester": "上",
-    "chapter": "二年级上册 第6单元 1到6的表内除法",
+    "chapter": "二年级上册 第3单元 1到6的表内除法",
     "type": "procedural",
     "description": "会用「商×除数＝被除数」检查除法。",
     "mastery_criteria": [
@@ -1225,7 +1225,7 @@
     "domain": "数与代数",
     "grade": 2,
     "semester": "上",
-    "chapter": "二年级上册 第4单元 7到9的表内乘、除法",
+    "chapter": "二年级上册 第2单元 1到6的表内乘法",
     "type": "application",
     "description": "能用表内乘法解决「几个几」的实际问题。",
     "mastery_criteria": [
@@ -1354,7 +1354,7 @@
     "domain": "数与代数",
     "grade": 2,
     "semester": "下",
-    "chapter": "二年级下册 第2单元 万以内数的认识",
+    "chapter": "二年级下册 第3单元 万以内数的认识",
     "type": "conceptual",
     "description": "能认、读、写万以内的数，知道千位、百位、十位、个位。",
     "mastery_criteria": [
@@ -1379,7 +1379,7 @@
     "domain": "数与代数",
     "grade": 2,
     "semester": "下",
-    "chapter": "二年级下册 第2单元 万以内数的认识",
+    "chapter": "二年级下册 第3单元 万以内数的认识",
     "type": "procedural",
     "description": "会比较万以内数的大小，位数不同先看位数。",
     "mastery_criteria": [
@@ -1404,7 +1404,7 @@
     "domain": "数与代数",
     "grade": 2,
     "semester": "下",
-    "chapter": "二年级下册 第2单元 万以内数的认识",
+    "chapter": "二年级下册 第3单元 万以内数的认识",
     "type": "procedural",
     "description": "能说出万以内的数由几个千、几个百、几个十和几个一组成。",
     "mastery_criteria": [
@@ -1427,9 +1427,9 @@
     "id": "cnm_p056",
     "name": "克和千克",
     "domain": "数与代数",
-    "grade": 2,
-    "semester": "下",
-    "chapter": "二年级下册 第3单元 克和千克",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 综合与实践 曹冲称象的故事",
     "type": "procedural",
     "description": "认识质量单位克和千克，知道 1 千克＝1000 克。",
     "mastery_criteria": [
@@ -1454,8 +1454,8 @@
     "name": "乘加乘减的运算顺序",
     "domain": "数与代数",
     "grade": 2,
-    "semester": "下",
-    "chapter": "二年级下册 第4单元 混合运算",
+    "semester": "上",
+    "chapter": "二年级上册 第2单元 1到6的表内乘法",
     "type": "procedural",
     "description": "知道算式里有乘法和加减法时，先算乘法，再算加减法。",
     "mastery_criteria": [
@@ -1483,9 +1483,9 @@
     "id": "cnm_p058",
     "name": "带小括号的两步运算",
     "domain": "数与代数",
-    "grade": 2,
-    "semester": "下",
-    "chapter": "二年级下册 第4单元 混合运算",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第2单元 混合运算",
     "type": "procedural",
     "description": "知道小括号里的运算要先算。",
     "mastery_criteria": [
@@ -1508,9 +1508,9 @@
     "id": "cnm_p059",
     "name": "两步加减应用",
     "domain": "数与代数",
-    "grade": 2,
-    "semester": "下",
-    "chapter": "二年级下册 第4单元 混合运算",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第2单元 混合运算",
     "type": "application",
     "description": "能用两步加减解决「先合起来再去掉」或「先去掉再合起来」的问题。",
     "mastery_criteria": [
@@ -1535,7 +1535,7 @@
     "domain": "数与代数",
     "grade": 2,
     "semester": "下",
-    "chapter": "二年级下册 第4单元 混合运算",
+    "chapter": "二年级下册 第5单元 复习与关联",
     "type": "reasoning",
     "description": "能发现一列数每次增加或减少相同的数，并写出后面的数。",
     "mastery_criteria": [
@@ -1558,9 +1558,9 @@
     "id": "cnm_p061",
     "name": "秒的认识",
     "domain": "数与代数",
-    "grade": 3,
-    "semester": "上",
-    "chapter": "三年级上册 第1单元 时、分、秒",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下册 综合与实践 时间在哪里",
     "type": "conceptual",
     "description": "认识时间单位秒，知道秒针走一圈是 1 分。",
     "mastery_criteria": [
@@ -1584,9 +1584,9 @@
     "id": "cnm_p062",
     "name": "时、分、秒的进率",
     "domain": "数与代数",
-    "grade": 3,
-    "semester": "上",
-    "chapter": "三年级上册 第1单元 时、分、秒",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下册 综合与实践 时间在哪里",
     "type": "procedural",
     "description": "知道 1 时＝60 分、1 分＝60 秒，会做简单换算。",
     "mastery_criteria": [
@@ -1610,9 +1610,9 @@
     "id": "cnm_p063",
     "name": "经过时间",
     "domain": "数与代数",
-    "grade": 3,
-    "semester": "上",
-    "chapter": "三年级上册 第1单元 时、分、秒",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下册 综合与实践 时间在哪里",
     "type": "application",
     "description": "会计算从某一时刻到另一时刻经过了多少分。",
     "mastery_criteria": [
@@ -1636,9 +1636,9 @@
     "id": "cnm_p064",
     "name": "几百几十的口算加法",
     "domain": "数与代数",
-    "grade": 3,
-    "semester": "上",
-    "chapter": "三年级上册 第2单元 万以内的加法和减法（一）",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下册 第4单元 万以内的加法和减法",
     "type": "procedural",
     "description": "会口算几百几十加几百几十，以及两位数加两位数的口算。",
     "mastery_criteria": [
@@ -1665,9 +1665,9 @@
     "id": "cnm_p065",
     "name": "几百几十的口算减法",
     "domain": "数与代数",
-    "grade": 3,
-    "semester": "上",
-    "chapter": "三年级上册 第2单元 万以内的加法和减法（一）",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下册 第4单元 万以内的加法和减法",
     "type": "procedural",
     "description": "会口算几百几十减几百几十。",
     "mastery_criteria": [
@@ -1690,9 +1690,9 @@
     "id": "cnm_p066",
     "name": "加法的估算",
     "domain": "数与代数",
-    "grade": 3,
-    "semester": "上",
-    "chapter": "三年级上册 第2单元 万以内的加法和减法（一）",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下册 第4单元 万以内的加法和减法",
     "type": "application",
     "description": "会把加数看成整十或整百，估计和大约是多少。",
     "mastery_criteria": [
@@ -1816,9 +1816,9 @@
     "id": "cnm_p071",
     "name": "三位数加法笔算",
     "domain": "数与代数",
-    "grade": 3,
-    "semester": "上",
-    "chapter": "三年级上册 第4单元 万以内的加法和减法（二）",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下册 第4单元 万以内的加法和减法",
     "type": "procedural",
     "description": "会用竖式计算三位数加三位数，连续进位也会算。",
     "mastery_criteria": [
@@ -1845,9 +1845,9 @@
     "id": "cnm_p072",
     "name": "三位数减法笔算",
     "domain": "数与代数",
-    "grade": 3,
-    "semester": "上",
-    "chapter": "三年级上册 第4单元 万以内的加法和减法（二）",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下册 第4单元 万以内的加法和减法",
     "type": "procedural",
     "description": "会用竖式计算三位数减三位数，包括连续退位。",
     "mastery_criteria": [
@@ -5594,6 +5594,122 @@
         "note": "鸽巢问题是现行六年级下册数学广角，内容要求没有同名条款，待核。"
       }
     ]
+  },
+  {
+    "id": "cnm_p217",
+    "name": "求两数相差几",
+    "domain": "数与代数",
+    "grade": 1,
+    "semester": "下",
+    "chapter": "一年级下册 第6单元 数量间的加减关系",
+    "type": "application",
+    "description": "会用减法解决「一个数比另一个数多几、少几」的实际问题。",
+    "mastery_criteria": [
+      "能说出求相差几用大数减小数",
+      "能列出减法算式并说清单位"
+    ],
+    "diagnostic_question": {
+      "question": "计算：15－9＝？ 15 比 9 多几？",
+      "answer": "6"
+    },
+    "standards": [
+      {
+        "id": "cms-2022:1.NA.07",
+        "confidence": "exact"
+      },
+      {
+        "id": "cms-2022:1.NA.03",
+        "confidence": "exact"
+      }
+    ],
+    "external": false
+  },
+  {
+    "id": "cnm_p218",
+    "name": "求比一个数多（少）几的数",
+    "domain": "数与代数",
+    "grade": 1,
+    "semester": "下",
+    "chapter": "一年级下册 第6单元 数量间的加减关系",
+    "type": "application",
+    "description": "已知一个数和相差数，会求比它多几或少几的数，也会解决含相差关系的连续两问。",
+    "mastery_criteria": [
+      "能判断「多几」用加法、「少几」用减法",
+      "能按顺序解决连续两问的问题"
+    ],
+    "diagnostic_question": {
+      "question": "小猫钓了 12 条鱼，小狗比小猫多钓 5 条。小狗钓了多少条？",
+      "answer": "17"
+    },
+    "standards": [
+      {
+        "id": "cms-2022:1.NA.07",
+        "confidence": "exact"
+      },
+      {
+        "id": "cms-2022:1.NA.03",
+        "confidence": "exact"
+      }
+    ],
+    "external": false
+  },
+  {
+    "id": "cnm_p219",
+    "name": "数量间的乘除关系",
+    "domain": "数与代数",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下册 第2单元 数量间的乘除关系",
+    "type": "application",
+    "description": "理解「每份数×份数＝总数」「总数÷份数＝每份数」「总数÷每份数＝份数」，会选乘法或除法解决问题。",
+    "mastery_criteria": [
+      "能说出总数、每份数和份数之间的关系",
+      "能根据已知量选乘法或除法列式"
+    ],
+    "diagnostic_question": {
+      "question": "每盒 6 个鸡蛋，有 4 盒，一共有多少个？",
+      "answer": "24"
+    },
+    "standards": [
+      {
+        "id": "cms-2022:1.NA.03",
+        "confidence": "exact"
+      },
+      {
+        "id": "cms-2022:1.NA.07",
+        "confidence": "exact"
+      }
+    ],
+    "external": false
+  },
+  {
+    "id": "cnm_p220",
+    "name": "加减法各部分间的关系",
+    "domain": "数与代数",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下册 第4单元 万以内的加法和减法",
+    "type": "conceptual",
+    "description": "知道「和－一个加数＝另一个加数」「被减数－减数＝差」「差＋减数＝被减数」，会用它求未知数和验算。",
+    "mastery_criteria": [
+      "能说出加法、减法各部分的名称",
+      "能利用各部分间的关系求括号里的数"
+    ],
+    "diagnostic_question": {
+      "question": "□＋250＝600，□是多少？",
+      "answer": "350"
+    },
+    "standards": [
+      {
+        "id": "cms-2022:1.NA.03",
+        "confidence": "exact"
+      },
+      {
+        "id": "cms-2022:1.NA.04",
+        "confidence": "exact"
+      }
+    ],
+    "external": false
   },
   {
     "id": "cnm_001",
