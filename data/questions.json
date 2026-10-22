@@ -58880,7 +58880,7 @@
       },
       {
         "key": "C",
-        "text": "caties"
+        "text": "cat's"
       },
       {
         "key": "D",
@@ -73088,7 +73088,7 @@
       },
       {
         "key": "C",
-        "text": "heavyler"
+        "text": "heaviest"
       },
       {
         "key": "D",
@@ -73892,7 +73892,7 @@
       },
       {
         "key": "C",
-        "text": "seeed"
+        "text": "sees"
       },
       {
         "key": "D",
@@ -75376,11 +75376,11 @@
       },
       {
         "key": "C",
-        "text": "Good moning."
+        "text": "Good night."
       },
       {
         "key": "D",
-        "text": "Good monring."
+        "text": "Good afternoon."
       }
     ],
     "answer": "A",
@@ -75828,7 +75828,7 @@
       },
       {
         "key": "D",
-        "text": "familis"
+        "text": "family's"
       }
     ],
     "answer": "A",
@@ -75852,11 +75852,11 @@
       },
       {
         "key": "C",
-        "text": "I have two sisteres."
+        "text": "I have two sister's."
       },
       {
         "key": "D",
-        "text": "I have two sisteries."
+        "text": "I have two sisters'."
       }
     ],
     "answer": "B",
@@ -77420,7 +77420,7 @@
       },
       {
         "key": "C",
-        "text": "He have volleyballs a."
+        "text": "He is have a volleyball."
       },
       {
         "key": "D",
@@ -77616,7 +77616,7 @@
       },
       {
         "key": "C",
-        "text": "We play the volleyballs at school always the."
+        "text": "We play the volleyball at school."
       },
       {
         "key": "D",
@@ -77888,7 +77888,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "I like a bananaes."
+        "text": "I like a bananas."
       },
       {
         "key": "B",
@@ -77896,7 +77896,7 @@
       },
       {
         "key": "C",
-        "text": "I like bananaes."
+        "text": "I likes bananas."
       },
       {
         "key": "D",
@@ -77944,7 +77944,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "I want a salades."
+        "text": "I want a salads."
       },
       {
         "key": "B",
@@ -78148,7 +78148,7 @@
       },
       {
         "key": "C",
-        "text": "I like bananaes."
+        "text": "I like banana's."
       },
       {
         "key": "D",
@@ -81960,7 +81960,7 @@
       },
       {
         "key": "D",
-        "text": "The elephant is friendlyly."
+        "text": "The elephant is a friendly."
       }
     ],
     "answer": "C",
@@ -82460,7 +82460,7 @@
       },
       {
         "key": "C",
-        "text": "swimminging"
+        "text": "swims"
       },
       {
         "key": "D",
@@ -84812,7 +84812,7 @@
       },
       {
         "key": "C",
-        "text": "We visited a museum yesterdayed."
+        "text": "We visited a museum tomorrow."
       },
       {
         "key": "D",
@@ -85032,7 +85032,7 @@
       },
       {
         "key": "B",
-        "text": "We milked a cow yesterdayed."
+        "text": "We did milked a cow."
       },
       {
         "key": "C",
@@ -85484,7 +85484,7 @@
       },
       {
         "key": "C",
-        "text": "We had a good time yesterdayed."
+        "text": "We had have a good time."
       },
       {
         "key": "D",
@@ -85596,7 +85596,7 @@
       },
       {
         "key": "C",
-        "text": "The visitors played badminton yesterdayed."
+        "text": "The visitors were played badminton."
       },
       {
         "key": "D",
@@ -87644,7 +87644,7 @@
       },
       {
         "key": "D",
-        "text": "Which theater has the most comfortable seatest?"
+        "text": "Which theater has the more comfortable seats?"
       }
     ],
     "answer": "A",
@@ -88948,7 +88948,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "willn't doed"
+        "text": "will don't"
       },
       {
         "key": "B",
@@ -99600,7 +99600,7 @@
       },
       {
         "key": "D",
-        "text": "whosever"
+        "text": "which"
       }
     ],
     "answer": "B",
@@ -102844,11 +102844,11 @@
       },
       {
         "key": "C",
-        "text": "Good moning"
+        "text": "Good night"
       },
       {
         "key": "D",
-        "text": "Good monring"
+        "text": "Good afternoon"
       }
     ],
     "answer": "B",
@@ -103060,15 +103060,15 @@
     "choices": [
       {
         "key": "A",
-        "text": "Hello, let me itnroduce myself"
+        "text": "Hello, let me to introduce myself"
       },
       {
         "key": "B",
-        "text": "Hello, let me introdcue myself"
+        "text": "Hello, let me introducing myself"
       },
       {
         "key": "C",
-        "text": "Hello, let me inroduce myself"
+        "text": "Hello, let me introduce me"
       },
       {
         "key": "D",
@@ -103652,7 +103652,7 @@
       },
       {
         "key": "B",
-        "text": "My fvaourite course is English"
+        "text": "My favourite course are English"
       },
       {
         "key": "C",
@@ -103660,7 +103660,7 @@
       },
       {
         "key": "D",
-        "text": "My favourtie course is English"
+        "text": "My favorites course is English"
       }
     ],
     "answer": "C",
@@ -103684,7 +103684,7 @@
       },
       {
         "key": "C",
-        "text": "That suonds good. I will join"
+        "text": "That sounds good. I will joins"
       },
       {
         "key": "D",
@@ -103712,11 +103712,11 @@
       },
       {
         "key": "C",
-        "text": "Have you jioned a club"
+        "text": "Have you jailed a club"
       },
       {
         "key": "D",
-        "text": "Have you joiend a club"
+        "text": "Have you joinned a club"
       }
     ],
     "answer": "A",
@@ -103740,11 +103740,11 @@
       },
       {
         "key": "C",
-        "text": "Vlounteering makes me more confident"
+        "text": "Vollunteering makes me more confident"
       },
       {
         "key": "D",
-        "text": "Volunteernig makes me more confident"
+        "text": "Volunteering makes I more confident"
       }
     ],
     "answer": "B",
@@ -104472,7 +104472,7 @@
       },
       {
         "key": "D",
-        "text": "Yes, I wuold love to"
+        "text": "Yes, I would loves to"
       }
     ],
     "answer": "C",
@@ -104488,11 +104488,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "Where is your accommodatoin"
+        "text": "Where are your accommodation"
       },
       {
         "key": "B",
-        "text": "Where is your acommodation"
+        "text": "Where is your accommodasion"
       },
       {
         "key": "C",
@@ -104524,7 +104524,7 @@
       },
       {
         "key": "C",
-        "text": "Let's check the iitnerary before we leave"
+        "text": "Let's check the itinerery before we leave"
       },
       {
         "key": "D",
@@ -104696,7 +104696,7 @@
       },
       {
         "key": "D",
-        "text": "I have arleady booked the train ticket"
+        "text": "I have alreedy booked the train ticket"
       }
     ],
     "answer": "A",
@@ -105276,7 +105276,7 @@
       },
       {
         "key": "B",
-        "text": "Shall we run at the stadium on Staurday"
+        "text": "Shall we run at the stadium on Satturday"
       },
       {
         "key": "C",
@@ -105304,11 +105304,11 @@
       },
       {
         "key": "B",
-        "text": "A blaanced diet helps your fitness"
+        "text": "An balanced diet helps your fitness"
       },
       {
         "key": "C",
-        "text": "A balanecd diet helps your fitness"
+        "text": "A balenced diet helps your fitness"
       },
       {
         "key": "D",
@@ -105500,15 +105500,15 @@
       },
       {
         "key": "B",
-        "text": "Stop tarining if you feel an injury"
+        "text": "Stop training if you feel a injury"
       },
       {
         "key": "C",
-        "text": "Stop trainnig if you feel an injury"
+        "text": "Stop trailing if you feel an injury"
       },
       {
         "key": "D",
-        "text": "Stop trining if you feel an injury"
+        "text": "Stop trading if you feel an injury"
       }
     ],
     "answer": "A",
@@ -106008,7 +106008,7 @@
       },
       {
         "key": "C",
-        "text": "The flood is sreious and many people need help"
+        "text": "The flood is seniors and many people need help"
       },
       {
         "key": "D",
@@ -106032,15 +106032,15 @@
       },
       {
         "key": "B",
-        "text": "Could you please donate some balnkets"
+        "text": "Could you please donate some bankers"
       },
       {
         "key": "C",
-        "text": "Could you please donate some blanktes"
+        "text": "Could you please donate some brackets"
       },
       {
         "key": "D",
-        "text": "Could you please donate some blnkets"
+        "text": "Could you please donate some baskets"
       }
     ],
     "answer": "A",
@@ -106068,7 +106068,7 @@
       },
       {
         "key": "D",
-        "text": "I am worried about the sruvivors"
+        "text": "I am worried about the surveyors"
       }
     ],
     "answer": "B",
@@ -106280,15 +106280,15 @@
     "choices": [
       {
         "key": "A",
-        "text": "Please go to the naerest shelter"
+        "text": "Please go to the neerest shelter"
       },
       {
         "key": "B",
-        "text": "Please go to the nearset shelter"
+        "text": "Please go to the nearrest shelter"
       },
       {
         "key": "C",
-        "text": "Please go to the nerest shelter"
+        "text": "Please go to the most near shelter"
       },
       {
         "key": "D",
@@ -106312,7 +106312,7 @@
       },
       {
         "key": "B",
-        "text": "The sattion that sent the warning is local"
+        "text": "The station that sent the warning are local"
       },
       {
         "key": "C",
@@ -106812,15 +106812,15 @@
     "choices": [
       {
         "key": "A",
-        "text": "Can you speak your local dailect"
+        "text": "Can you speak your local direct"
       },
       {
         "key": "B",
-        "text": "Can you speak your local dialcet"
+        "text": "Can you speak your local deflect"
       },
       {
         "key": "C",
-        "text": "Can you speak your local dilect"
+        "text": "Can you speak your local diallect"
       },
       {
         "key": "D",
@@ -106848,11 +106848,11 @@
       },
       {
         "key": "C",
-        "text": "Could you say that again more solwly"
+        "text": "Could you say that again more snowy"
       },
       {
         "key": "D",
-        "text": "Could you say that again more slolwy"
+        "text": "Could you say that again more showy"
       }
     ],
     "answer": "A",
@@ -106876,11 +106876,11 @@
       },
       {
         "key": "C",
-        "text": "Reading helps you build your vcoabulary"
+        "text": "Reading helps you build your vocabulery"
       },
       {
         "key": "D",
-        "text": "Reading helps you build your vocabulray"
+        "text": "Reading helps you build your vocabullary"
       }
     ],
     "answer": "B",
@@ -107180,11 +107180,11 @@
       },
       {
         "key": "B",
-        "text": "My plan for laerning Chinese is simple"
+        "text": "My plan for leaning Chinese is simple"
       },
       {
         "key": "C",
-        "text": "My plan for learnnig Chinese is simple"
+        "text": "My plan for leading Chinese is simple"
       },
       {
         "key": "D",
@@ -107692,7 +107692,7 @@
       },
       {
         "key": "D",
-        "text": "I think the ancient temple should be perserved"
+        "text": "I think the ancient temple should be preserve"
       }
     ],
     "answer": "C",
@@ -107716,7 +107716,7 @@
       },
       {
         "key": "C",
-        "text": "The damage comes from vsiitors cutting the walls"
+        "text": "The damage comes from victors cutting the walls"
       },
       {
         "key": "D",
@@ -107740,15 +107740,15 @@
       },
       {
         "key": "B",
-        "text": "I see your piont, but the site is worth it"
+        "text": "I see your point, but the site are worth it"
       },
       {
         "key": "C",
-        "text": "I see your poit, but the site is worth it"
+        "text": "I see your print, but the site is worth it"
       },
       {
         "key": "D",
-        "text": "I see your point, but the site is worh it"
+        "text": "I see your point, but the site is width it"
       }
     ],
     "answer": "A",
@@ -107776,7 +107776,7 @@
       },
       {
         "key": "D",
-        "text": "We could make rules for vsiitors"
+        "text": "We could makes rules for visitors"
       }
     ],
     "answer": "B",
@@ -107960,11 +107960,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "I sgugest we protect the old city wall"
+        "text": "I surges we protect the old city wall"
       },
       {
         "key": "B",
-        "text": "I suggset we protect the old city wall"
+        "text": "I suggesting we protect the old city wall"
       },
       {
         "key": "C",
@@ -108472,11 +108472,11 @@
       },
       {
         "key": "C",
-        "text": "The atnelopes are being protected in the reserve"
+        "text": "The antelopes is being protected in the reserve"
       },
       {
         "key": "D",
-        "text": "The anteloeps are being protected in the reserve"
+        "text": "The antellopes are being protected in the reserve"
       }
     ],
     "answer": "B",
@@ -108496,7 +108496,7 @@
       },
       {
         "key": "B",
-        "text": "Hnuters are the main danger to this species"
+        "text": "Haters are the main danger to this species"
       },
       {
         "key": "C",
@@ -108504,7 +108504,7 @@
       },
       {
         "key": "D",
-        "text": "Huntres are the main danger to this species"
+        "text": "Hitters are the main danger to this species"
       }
     ],
     "answer": "C",
@@ -108524,11 +108524,11 @@
       },
       {
         "key": "B",
-        "text": "I don't agree, because the nmubers are rising"
+        "text": "I don't agree, because the numbers is rising"
       },
       {
         "key": "C",
-        "text": "I don't agree, because the numbres are rising"
+        "text": "I don't agree, because the number are rising"
       },
       {
         "key": "D",
@@ -108552,15 +108552,15 @@
       },
       {
         "key": "B",
-        "text": "Please do not buy porducts made from wild animals"
+        "text": "Please do not buy projects made from wild animals"
       },
       {
         "key": "C",
-        "text": "Please do not buy produtcs made from wild animals"
+        "text": "Please do not buy protects made from wild animals"
       },
       {
         "key": "D",
-        "text": "Please do not buy prducts made from wild animals"
+        "text": "Please do not buy predicts made from wild animals"
       }
     ],
     "answer": "A",
@@ -108744,7 +108744,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "Protect the ednangered antelope"
+        "text": "Protect the endangerred antelope"
       },
       {
         "key": "B",
@@ -108752,11 +108752,11 @@
       },
       {
         "key": "C",
-        "text": "Protect the endangeerd antelope"
+        "text": "Protect the endangering antelope"
       },
       {
         "key": "D",
-        "text": "Protect the enangered antelope"
+        "text": "Protect the danger antelope"
       }
     ],
     "answer": "B",
@@ -109256,11 +109256,11 @@
       },
       {
         "key": "C",
-        "text": "Never post your psasword online"
+        "text": "Never post your pasword online"
       },
       {
         "key": "D",
-        "text": "Never post your passwrod online"
+        "text": "Never post you password online"
       }
     ],
     "answer": "A",
@@ -109284,11 +109284,11 @@
       },
       {
         "key": "C",
-        "text": "The rude cmoment has been deleted"
+        "text": "The rude comment have been deleted"
       },
       {
         "key": "D",
-        "text": "The rude commnet has been deleted"
+        "text": "The rude consent has been deleted"
       }
     ],
     "answer": "B",
@@ -109332,15 +109332,15 @@
     "choices": [
       {
         "key": "A",
-        "text": "Check the person's iedntity before you add them"
+        "text": "Check the person's idantity before you add them"
       },
       {
         "key": "B",
-        "text": "Check the person's identtiy before you add them"
+        "text": "Check the persons identity before you add them"
       },
       {
         "key": "C",
-        "text": "Check the person's idntity before you add them"
+        "text": "Check the person's identify before you add them"
       },
       {
         "key": "D",
@@ -109532,15 +109532,15 @@
       },
       {
         "key": "B",
-        "text": "Keep your iedntity safe online"
+        "text": "Keep your idantity safe online"
       },
       {
         "key": "C",
-        "text": "Keep your identtiy safe online"
+        "text": "Keep your identify safe online"
       },
       {
         "key": "D",
-        "text": "Keep your idntity safe online"
+        "text": "Keep you identity safe online"
       }
     ],
     "answer": "A",
@@ -110032,15 +110032,15 @@
     "choices": [
       {
         "key": "A",
-        "text": "On Qingming people honour their acnestors"
+        "text": "On Qingming people honours their ancestors"
       },
       {
         "key": "B",
-        "text": "On Qingming people honour their ancestros"
+        "text": "On Qingming people honour they ancestors"
       },
       {
         "key": "C",
-        "text": "On Qingming people honour their anestors"
+        "text": "On Qingming people honour their ancestor's"
       },
       {
         "key": "D",
@@ -110096,11 +110096,11 @@
       },
       {
         "key": "C",
-        "text": "I support keeping this gtahering"
+        "text": "I support keeping this garnering"
       },
       {
         "key": "D",
-        "text": "I support keeping this gathernig"
+        "text": "I support keeping this gatherring"
       }
     ],
     "answer": "B",
@@ -110316,11 +110316,11 @@
       },
       {
         "key": "B",
-        "text": "Let me tell you about a local tardition"
+        "text": "Let me to tell you about a local tradition"
       },
       {
         "key": "C",
-        "text": "Let me tell you about a local traditoin"
+        "text": "Let me tell you about a local transition"
       },
       {
         "key": "D",
@@ -111052,7 +111052,7 @@
       },
       {
         "key": "D",
-        "text": "The band is performnig on the stage"
+        "text": "The band is performing in the stage"
       }
     ],
     "answer": "A",
@@ -111068,7 +111068,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "Shall we go to the calssical concert"
+        "text": "Shall we go to the clasical concert"
       },
       {
         "key": "B",
@@ -111076,7 +111076,7 @@
       },
       {
         "key": "C",
-        "text": "Shall we go to the classiacl concert"
+        "text": "Shall we going to the classical concert"
       },
       {
         "key": "D",
@@ -111100,7 +111100,7 @@
       },
       {
         "key": "B",
-        "text": "The aduience sat there, smiling"
+        "text": "The ambience sat there, smiling"
       },
       {
         "key": "C",
@@ -111108,7 +111108,7 @@
       },
       {
         "key": "D",
-        "text": "The audiecne sat there, smiling"
+        "text": "The audeince sat there, smiling"
       }
     ],
     "answer": "C",
@@ -111324,15 +111324,15 @@
       },
       {
         "key": "B",
-        "text": "Sutdent band on stage this Friday"
+        "text": "Studant band on stage this Friday"
       },
       {
         "key": "C",
-        "text": "Studnet band on stage this Friday"
+        "text": "Student band on stages this Friday"
       },
       {
         "key": "D",
-        "text": "Stdent band on stage this Friday"
+        "text": "Student band in stage this Friday"
       }
     ],
     "answer": "A",
@@ -111940,15 +111940,15 @@
       },
       {
         "key": "B",
-        "text": "During the Lantern Fsetival people watch lanterns"
+        "text": "During the Lantern Festival people watches lanterns"
       },
       {
         "key": "C",
-        "text": "During the Lantern Festiavl people watch lanterns"
+        "text": "During the Lantern Festival people watch lantern"
       },
       {
         "key": "D",
-        "text": "During the Lantern Fetival people watch lanterns"
+        "text": "In the Lantern Festival people watching lanterns"
       }
     ],
     "answer": "A",
@@ -111992,11 +111992,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "The origin of the festival is cnonected with the moon"
+        "text": "The origin of the festival are connected with the moon"
       },
       {
         "key": "B",
-        "text": "The origin of the festival is connecetd with the moon"
+        "text": "The origin of the festival is collected with the moon"
       },
       {
         "key": "C",
@@ -112004,7 +112004,7 @@
       },
       {
         "key": "D",
-        "text": "The origin of the festival is conected with the moon"
+        "text": "The origin of the festival is connect with the moon"
       }
     ],
     "answer": "C",
@@ -112028,7 +112028,7 @@
       },
       {
         "key": "C",
-        "text": "Let's decorate the calssroom with lanterns"
+        "text": "Let's decorate the clasroom with lanterns"
       },
       {
         "key": "D",
@@ -112224,11 +112224,11 @@
       },
       {
         "key": "C",
-        "text": "Let me itnroduce a festival in my hometown"
+        "text": "Let me to introduce a festival in my hometown"
       },
       {
         "key": "D",
-        "text": "Let me introdcue a festival in my hometown"
+        "text": "Let me introduces a festival in my hometown"
       }
     ],
     "answer": "A",
@@ -112724,11 +112724,11 @@
       },
       {
         "key": "B",
-        "text": "It was hnoest of you to return the wallet"
+        "text": "It were honest of you to return the wallet"
       },
       {
         "key": "C",
-        "text": "It was honset of you to return the wallet"
+        "text": "It was hottest of you to return the wallet"
       },
       {
         "key": "D",
@@ -112784,11 +112784,11 @@
       },
       {
         "key": "C",
-        "text": "Rsepect for others is a virtue"
+        "text": "Respect for others are a virtue"
       },
       {
         "key": "D",
-        "text": "Respcet for others is a virtue"
+        "text": "Repeat for others is a virtue"
       }
     ],
     "answer": "B",
@@ -112804,11 +112804,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "That was rseponsible of you"
+        "text": "That were responsible of you"
       },
       {
         "key": "B",
-        "text": "That was responsilbe of you"
+        "text": "That was responsibly of you"
       },
       {
         "key": "C",
@@ -112816,7 +112816,7 @@
       },
       {
         "key": "D",
-        "text": "That was reponsible of you"
+        "text": "That was responsibility of you"
       }
     ],
     "answer": "C",
@@ -113008,7 +113008,7 @@
       },
       {
         "key": "C",
-        "text": "Mei made a choice that shows knidness"
+        "text": "Mei made a choice that shows kidneys"
       },
       {
         "key": "D",
@@ -113508,7 +113508,7 @@
       },
       {
         "key": "B",
-        "text": "The costumes in this region are dfiferent from those in my hometown"
+        "text": "The costumes in this region is different from those in my hometown"
       },
       {
         "key": "C",
@@ -113516,7 +113516,7 @@
       },
       {
         "key": "D",
-        "text": "The costumes in this region are differnet from those in my hometown"
+        "text": "The costumes in this region are difference from those in my hometown"
       }
     ],
     "answer": "C",
@@ -113572,7 +113572,7 @@
       },
       {
         "key": "D",
-        "text": "Could you tell me if I may take pohtos"
+        "text": "Could you tell me if may I take photos"
       }
     ],
     "answer": "A",
@@ -113596,11 +113596,11 @@
       },
       {
         "key": "C",
-        "text": "A dfiferent greeting does not mean less respect"
+        "text": "An different greeting does not mean less respect"
       },
       {
         "key": "D",
-        "text": "A differnet greeting does not mean less respect"
+        "text": "A different greeting do not mean less respect"
       }
     ],
     "answer": "B",
@@ -113788,7 +113788,7 @@
       },
       {
         "key": "B",
-        "text": "Today I laerned about a local ethnic group"
+        "text": "Today I loaned about a local ethnic group"
       },
       {
         "key": "C",
@@ -113796,7 +113796,7 @@
       },
       {
         "key": "D",
-        "text": "Today I learend about a local ethnic group"
+        "text": "Today I leerned about a local ethnic group"
       }
     ],
     "answer": "C",
@@ -114376,11 +114376,11 @@
       },
       {
         "key": "B",
-        "text": "Shall we watch the rcoket launch"
+        "text": "Shall we watch the racket launch"
       },
       {
         "key": "C",
-        "text": "Shall we watch the rocekt launch"
+        "text": "Shall we watch the racked launch"
       },
       {
         "key": "D",
@@ -114568,7 +114568,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "What I laerned about the mission"
+        "text": "What I loaned about the mission"
       },
       {
         "key": "B",
@@ -114576,11 +114576,11 @@
       },
       {
         "key": "C",
-        "text": "What I learend about the mission"
+        "text": "What I leerned about the mission"
       },
       {
         "key": "D",
-        "text": "What I lerned about the mission"
+        "text": "What I have learn about the mission"
       }
     ],
     "answer": "B",
@@ -115084,7 +115084,7 @@
       },
       {
         "key": "D",
-        "text": "This bragain is not worth buying"
+        "text": "This bargain are not worth buying"
       }
     ],
     "answer": "A",
@@ -115156,15 +115156,15 @@
     "choices": [
       {
         "key": "A",
-        "text": "Giving some money to cahrity is of greater value"
+        "text": "Giving some money to charity are of greater value"
       },
       {
         "key": "B",
-        "text": "Giving some money to chartiy is of greater value"
+        "text": "Giving some money to clarity is of greater value"
       },
       {
         "key": "C",
-        "text": "Giving some money to chrity is of greater value"
+        "text": "Giving some money to charrity is of greater value"
       },
       {
         "key": "D",
@@ -115360,11 +115360,11 @@
       },
       {
         "key": "C",
-        "text": "I laerned a lesson about value"
+        "text": "I loaned a lesson about value"
       },
       {
         "key": "D",
-        "text": "I learend a lesson about value"
+        "text": "I leerned a lesson about value"
       }
     ],
     "answer": "A",
@@ -115864,7 +115864,7 @@
       },
       {
         "key": "C",
-        "text": "She devoted her life to rseearch"
+        "text": "She devoted her life to reseerch"
       },
       {
         "key": "D",
@@ -115940,7 +115940,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "Next, he pbulished the theory"
+        "text": "Next, he punished the theory"
       },
       {
         "key": "B",
@@ -115952,7 +115952,7 @@
       },
       {
         "key": "D",
-        "text": "Next, he publisehd the theory"
+        "text": "Next, he polished the theory"
       }
     ],
     "answer": "C",
@@ -116144,7 +116144,7 @@
       },
       {
         "key": "C",
-        "text": "This paragraph itnroduces a scientist"
+        "text": "This paragraph introducing a scientist"
       },
       {
         "key": "D",
@@ -116640,11 +116640,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "First, the snesor checks the food"
+        "text": "First, the sensor check the food"
       },
       {
         "key": "B",
-        "text": "First, the senosr checks the food"
+        "text": "First, the season checks the food"
       },
       {
         "key": "C",
@@ -116652,7 +116652,7 @@
       },
       {
         "key": "D",
-        "text": "First, the sesor checks the food"
+        "text": "First, the sector checks the food"
       }
     ],
     "answer": "C",
@@ -116920,7 +116920,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "Second, check wehther the network is on"
+        "text": "Second, check whether the network are on"
       },
       {
         "key": "B",
@@ -117456,7 +117456,7 @@
       },
       {
         "key": "B",
-        "text": "Feeding animals is porhibited"
+        "text": "Feeding animals are prohibited"
       },
       {
         "key": "C",
@@ -117464,7 +117464,7 @@
       },
       {
         "key": "D",
-        "text": "Feeding animals is prohibietd"
+        "text": "Feeding animals is prohibitted"
       }
     ],
     "answer": "C",
@@ -117716,7 +117716,7 @@
       },
       {
         "key": "D",
-        "text": "How to visit the wteland"
+        "text": "How to visit to the wetland"
       }
     ],
     "answer": "B",
@@ -118216,11 +118216,11 @@
       },
       {
         "key": "C",
-        "text": "A nod often means argeement"
+        "text": "An nod often means agreement"
       },
       {
         "key": "D",
-        "text": "A nod often means agreemnet"
+        "text": "A nod often means agreemant"
       }
     ],
     "answer": "A",
@@ -118300,7 +118300,7 @@
       },
       {
         "key": "C",
-        "text": "Please keep a cmofortable distance"
+        "text": "Please keep a comfortible distance"
       },
       {
         "key": "D",
@@ -118492,15 +118492,15 @@
       },
       {
         "key": "B",
-        "text": "I watched how people used gsetures"
+        "text": "I watched how people used gesters"
       },
       {
         "key": "C",
-        "text": "I watched how people used gestuers"
+        "text": "I watched how people used gesturres"
       },
       {
         "key": "D",
-        "text": "I watched how people used getures"
+        "text": "I watched how did people use gestures"
       }
     ],
     "answer": "A",
@@ -119060,7 +119060,7 @@
       },
       {
         "key": "D",
-        "text": "Organic fretilizer may increase the yield"
+        "text": "Organic fertilizer may increases the yield"
       }
     ],
     "answer": "B",
@@ -119276,11 +119276,11 @@
       },
       {
         "key": "B",
-        "text": "Here is the plan for the hravest"
+        "text": "Here is the plan for the hardest"
       },
       {
         "key": "C",
-        "text": "Here is the plan for the harvset"
+        "text": "Here is the plan for the harness"
       },
       {
         "key": "D",
@@ -119836,15 +119836,15 @@
       },
       {
         "key": "B",
-        "text": "The data are not enough to support the hpyothesis"
+        "text": "The data are not enough to support the hypothessis"
       },
       {
         "key": "C",
-        "text": "The data are not enough to support the hypotheiss"
+        "text": "The data are not enough to supporting the hypothesis"
       },
       {
         "key": "D",
-        "text": "The data are not enough to support the hyothesis"
+        "text": "The data are not enough support the hypothesis"
       }
     ],
     "answer": "A",
@@ -120060,7 +120060,7 @@
       },
       {
         "key": "B",
-        "text": "The hypothesis is itneresting but not fully proved"
+        "text": "The hypothesis are interesting but not fully proved"
       },
       {
         "key": "C",
@@ -120068,7 +120068,7 @@
       },
       {
         "key": "D",
-        "text": "The hypothesis is interestnig but not fully proved"
+        "text": "The hypothesis is interested but not fully proved"
       }
     ],
     "answer": "C",
@@ -120848,11 +120848,11 @@
       },
       {
         "key": "C",
-        "text": "I msiunderstood a custom at dinner"
+        "text": "I missunderstood a custom at dinner"
       },
       {
         "key": "D",
-        "text": "I miunderstood a custom at dinner"
+        "text": "I misunderstanding a custom at dinner"
       }
     ],
     "answer": "B",
@@ -121404,7 +121404,7 @@
       },
       {
         "key": "B",
-        "text": "It is good manners not to point with cohpsticks"
+        "text": "It is good manners not to point with chopstiks"
       },
       {
         "key": "C",
@@ -121412,7 +121412,7 @@
       },
       {
         "key": "D",
-        "text": "It is good manners not to point with chopstikcs"
+        "text": "It is good manners not to pointing with chopsticks"
       }
     ],
     "answer": "C",
@@ -121632,11 +121632,11 @@
       },
       {
         "key": "C",
-        "text": "This praagraph describes one banquet"
+        "text": "This paragraf describes one banquet"
       },
       {
         "key": "D",
-        "text": "This paragrpah describes one banquet"
+        "text": "This parragraph describes one banquet"
       }
     ],
     "answer": "A",
@@ -122296,11 +122296,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "The plain looked buondless"
+        "text": "The plain looked boneless"
       },
       {
         "key": "B",
-        "text": "The plain looked boundlses"
+        "text": "The plain looked boundles"
       },
       {
         "key": "C",
@@ -122308,7 +122308,7 @@
       },
       {
         "key": "D",
-        "text": "The plain looked bondless"
+        "text": "The plain looked boundlessly"
       }
     ],
     "answer": "C",
@@ -122332,7 +122332,7 @@
       },
       {
         "key": "C",
-        "text": "I am sorry the train is dleayed"
+        "text": "I am sorry the train are delayed"
       },
       {
         "key": "D",
@@ -123024,15 +123024,15 @@
     "choices": [
       {
         "key": "A",
-        "text": "First, put perssure on the wound"
+        "text": "First, put pleasure on the wound"
       },
       {
         "key": "B",
-        "text": "First, put pressrue on the wound"
+        "text": "First, put pressurre on the wound"
       },
       {
         "key": "C",
-        "text": "First, put prssure on the wound"
+        "text": "First, put pressure in the wound"
       },
       {
         "key": "D",
@@ -123120,7 +123120,7 @@
       },
       {
         "key": "D",
-        "text": "If someone is choking, call an abmulance at once"
+        "text": "If someone are choking, call an ambulance at once"
       }
     ],
     "answer": "C",
@@ -123308,11 +123308,11 @@
       },
       {
         "key": "B",
-        "text": "Follow these steps when someone is beleding"
+        "text": "Follow these steps when someone are bleeding"
       },
       {
         "key": "C",
-        "text": "Follow these steps when someone is bleednig"
+        "text": "Follow these steps when someone is breeding"
       },
       {
         "key": "D",
@@ -123872,11 +123872,11 @@
       },
       {
         "key": "C",
-        "text": "The painting is abstract rather than raelistic"
+        "text": "The painting is abstract rather than reelistic"
       },
       {
         "key": "D",
-        "text": "The painting is abstract rather than realisitc"
+        "text": "The painting is abstract rather than reallistic"
       }
     ],
     "answer": "A",
@@ -123892,7 +123892,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "First, look at the whole cnavas"
+        "text": "First, look at the whole calves"
       },
       {
         "key": "B",
@@ -123904,7 +123904,7 @@
       },
       {
         "key": "D",
-        "text": "First, look at the whole canavs"
+        "text": "First, look at the whole canvases"
       }
     ],
     "answer": "B",
@@ -124100,7 +124100,7 @@
       },
       {
         "key": "D",
-        "text": "This note rceords one visit to a gallery"
+        "text": "This note regards one visit to a gallery"
       }
     ],
     "answer": "C",
@@ -124688,7 +124688,7 @@
       },
       {
         "key": "D",
-        "text": "A short walk can rferesh you and reduce anxiety"
+        "text": "An short walk can refresh you and reduce anxiety"
       }
     ],
     "answer": "A",
@@ -124884,7 +124884,7 @@
       },
       {
         "key": "D",
-        "text": "A blaanced routine can reduce stress"
+        "text": "An balanced routine can reduce stress"
       }
     ],
     "answer": "B",
@@ -125432,11 +125432,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "The policy should be ssutainable"
+        "text": "The policy should be sustainible"
       },
       {
         "key": "B",
-        "text": "The policy should be sustainalbe"
+        "text": "The policy should be sustainnable"
       },
       {
         "key": "C",
@@ -125664,11 +125664,11 @@
       },
       {
         "key": "C",
-        "text": "The eivdence points to policy, not only to weather"
+        "text": "The eminence points to policy, not only to weather"
       },
       {
         "key": "D",
-        "text": "The evidecne points to policy, not only to weather"
+        "text": "The evidance points to policy, not only to weather"
       }
     ],
     "answer": "A",
@@ -126216,7 +126216,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "Preseverance gave them hope"
+        "text": "Perseverrance gave them hope"
       },
       {
         "key": "B",
@@ -126228,7 +126228,7 @@
       },
       {
         "key": "D",
-        "text": "Perseveracne gave them hope"
+        "text": "Persevere gave them hope"
       }
     ],
     "answer": "B",
@@ -126444,11 +126444,11 @@
       },
       {
         "key": "B",
-        "text": "The story shows courage in avdersity"
+        "text": "The story shows courage in adverse"
       },
       {
         "key": "C",
-        "text": "The story shows courage in adverstiy"
+        "text": "The story shows courage on adversity"
       },
       {
         "key": "D",
@@ -127008,11 +127008,11 @@
       },
       {
         "key": "C",
-        "text": "The mteaphor carries the emotion of the verse"
+        "text": "The metafor carries the emotion of the verse"
       },
       {
         "key": "D",
-        "text": "The metapohr carries the emotion of the verse"
+        "text": "The mettaphor carries the emotion of the verse"
       }
     ],
     "answer": "A",
@@ -127228,7 +127228,7 @@
       },
       {
         "key": "B",
-        "text": "The poem uses quiet iamgery and a strong rhythm"
+        "text": "The poem uses quiet immagery and a strong rhythm"
       },
       {
         "key": "C",
@@ -127236,7 +127236,7 @@
       },
       {
         "key": "D",
-        "text": "The poem uses quiet imagrey and a strong rhythm"
+        "text": "The poem uses quiet imaginary and a strong rhythm"
       }
     ],
     "answer": "C",
@@ -128020,7 +128020,7 @@
       },
       {
         "key": "D",
-        "text": "This science fiction follows an android on a sapcecraft"
+        "text": "This science fiction follows a android on a spacecraft"
       }
     ],
     "answer": "B",
@@ -128580,7 +128580,7 @@
       },
       {
         "key": "D",
-        "text": "The tower is a lnadmark of the city"
+        "text": "The tower is the landmarks of the city"
       }
     ],
     "answer": "C",
@@ -128800,11 +128800,11 @@
       },
       {
         "key": "C",
-        "text": "This walk starts at the city lnadmark"
+        "text": "This walk starting at the city landmark"
       },
       {
         "key": "D",
-        "text": "This walk starts at the city landmrak"
+        "text": "This walk starts at the city land"
       }
     ],
     "answer": "A",
@@ -129576,15 +129576,15 @@
     "choices": [
       {
         "key": "A",
-        "text": "Check the tide before the vyoage"
+        "text": "Check the tide before the voltage"
       },
       {
         "key": "B",
-        "text": "Check the tide before the voygae"
+        "text": "Check the tide before the visage"
       },
       {
         "key": "C",
-        "text": "Check the tide before the voage"
+        "text": "Check the tide before the voyager"
       },
       {
         "key": "D",
@@ -130144,11 +130144,11 @@
       },
       {
         "key": "C",
-        "text": "Could you vlounteer on Saturday"
+        "text": "Could you vollunteer on Saturday"
       },
       {
         "key": "D",
-        "text": "Could you vounteer on Saturday"
+        "text": "Could you volunteering on Saturday"
       }
     ],
     "answer": "A",
@@ -130364,7 +130364,7 @@
       },
       {
         "key": "B",
-        "text": "We need vlounteers for the community shelter"
+        "text": "We need vollunteers for the community shelter"
       },
       {
         "key": "C",
@@ -130372,7 +130372,7 @@
       },
       {
         "key": "D",
-        "text": "We need volunteres for the community shelter"
+        "text": "We need volunteer for the community shelter"
       }
     ],
     "answer": "C",
@@ -131036,15 +131036,15 @@
       },
       {
         "key": "B",
-        "text": "Could I come for an itnerview before Friday"
+        "text": "Could I come for a interview before Friday"
       },
       {
         "key": "C",
-        "text": "Could I come for an interveiw before Friday"
+        "text": "Could I come for an interviews before Friday"
       },
       {
         "key": "D",
-        "text": "Could I come for an inerview before Friday"
+        "text": "Could I came for an interview before Friday"
       }
     ],
     "answer": "A",
