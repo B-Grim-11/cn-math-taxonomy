@@ -611,7 +611,7 @@ def report_standards(ids, std_items, cited, empty_core):
 Q_DIFFICULTIES = ("basic", "standard", "advanced")
 Q_TYPES = ("numeric", "choice", "short", "self")
 Q_FIELDS = {"id", "topicId", "difficulty", "type", "prompt", "answer", "choices", "accept",
-            "explanation", "verify", "unordered", "fixed_from_source", "figure", "hideChoiceText"}
+            "explanation", "verify", "unordered", "fixed_from_source", "figure", "hideChoiceText", "percent"}
 Q_ID_RE = re.compile(r"^((?:cnm_(?:p|h)?|cne_[pjh]|cnp_)\d{3,})_q([1-9]\d*)$")
 NUM_RE = re.compile(r"^-?\d+(?:\.\d+)?(?:/\d+(?:\.\d+)?)?$")
 MIN_QUESTIONS_PER_TOPIC = 3
@@ -690,6 +690,8 @@ def question_errors(questions, topics_by_id, require_coverage=True):
             errs.append("%s verify 必须是非空字符串" % w)
         if "unordered" in q and not (q["unordered"] is True and typ == "numeric"):
             errs.append("%s unordered 只能用于 numeric 题且取值为 true" % w)
+        if "percent" in q and not (q["percent"] is True and typ == "numeric" and is_physics_id(tid)):
+            errs.append("%s percent 只能用于物理 numeric 题且取值为 true（answer 写百分数的数值部分）" % w)
         if "fixed_from_source" in q and not nonempty_str(q["fixed_from_source"]):
             errs.append("%s fixed_from_source 为空" % w)
         ans = q.get("answer")

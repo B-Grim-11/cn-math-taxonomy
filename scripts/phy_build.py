@@ -127,6 +127,8 @@ def main():
             if q["kind"] == "numeric":
                 obj = {"id": qid, "topicId": tid, "difficulty": q["diff"], "type": "numeric", "prompt": q["prompt"],
                        "answer": q["answer"], "explanation": q["expl"], "verify": q["verify"]}
+                if q.get("percent"):
+                    obj["percent"] = True
             else:
                 texts = list(q["wrongs"])
                 if len(set(texts + [q["right"]])) != len(texts) + 1:

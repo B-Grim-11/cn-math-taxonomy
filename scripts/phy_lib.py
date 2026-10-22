@@ -28,6 +28,7 @@ def C(diff, prompt, right, wrongs, expl, verify=None, figure=None, pos=None):
                 verify=verify, figure=figure, pos=pos)
 
 
-def N(diff, prompt, answer, expl, verify, figure=None):
+def N(diff, prompt, answer, expl, verify, figure=None, percent=False):
     """数值题：answer 是不带单位的数（单位写在题干里）。verify 是能算出这个数的表达式。"""
-    return dict(kind="numeric", diff=diff, prompt=prompt, answer=str(answer), expl=expl, verify=verify, figure=figure)
+    return dict(kind="numeric", diff=diff, prompt=prompt, answer=str(answer), expl=expl, verify=verify, figure=figure,
+                percent=percent)

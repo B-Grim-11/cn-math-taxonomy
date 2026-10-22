@@ -1082,6 +1082,25 @@ test('物理题：每个知识点 4 题，带单位的数值题只填数值，�
   assert.strictEqual(E.judgeQuestion({ id: 'y', type: 'numeric', answer: '15000', prompt: '' }, '15000Pa').verdict, 'correct');
 });
 
+test('百分数题：percent 题接受 50 和 50%，不接受 0.5；不带 percent 的题行为不变', () => {
+  const pq = questions.filter((q) => q.percent === true);
+  assert.ok(pq.length >= 2, 'percent 题 ' + pq.length);
+  pq.forEach((q) => {
+    assert.ok(String(q.topicId).startsWith('cnp_') && q.type === 'numeric' && /百分之多少/.test(q.prompt), q.id);
+    const a = q.answer;
+    assert.strictEqual(E.judgeQuestion(q, a).verdict, 'correct', q.id + ' ' + a);
+    assert.strictEqual(E.judgeQuestion(q, a + '%').verdict, 'correct', q.id + ' ' + a + '%');
+    assert.strictEqual(E.judgeQuestion(q, a + ' %').verdict, 'correct', q.id + ' ' + a + ' %');
+    assert.strictEqual(E.judgeQuestion(q, a + '％').verdict, 'correct', q.id + ' 全角');
+    assert.strictEqual(E.judgeQuestion(q, String(Number(a) / 100)).verdict, 'wrong', q.id + ' 小数');
+    assert.strictEqual(E.judgeQuestion(q, String(Number(a) + 1) + '%').verdict, 'wrong', q.id + ' 错值');
+  });
+  assert.ok(questions.every((q) => q.percent !== true || String(q.topicId).startsWith('cnp_')));
+  const plain = { id: 'm', type: 'numeric', answer: '0.5', prompt: '' };
+  assert.strictEqual(E.judgeQuestion(plain, '50%').verdict, 'correct');
+  assert.strictEqual(E.judgeQuestion({ id: 'n', type: 'numeric', answer: '50', prompt: '' }, '50%').verdict, 'wrong');
+});
+
 test('题库：q1 由 diagnostic_question 迁移（题干以原题开头，或标注了 fixed_from_source）', () => {
   formal.forEach((t) => {
     const q1 = qByTopic[t.id].find((q) => q.id === t.id + '_q1');

@@ -924,10 +924,20 @@
   }
 
   /** 按题型判题：choice 比字母（或选项文字）；numeric 数值等价；short 规范化精确匹配 + accept；self 永远自评。 */
+  /**
+   * 带 percent: true 的题（目前只有物理的效率题），answer 是百分数的数值部分，如 50 表示 50%。
+   * 学生写 50 或 50%（全角 ％ 也算）都判对；0.5 不算，题干问的是「百分之多少」，0.5 也可能是把 0.5% 写错。
+   * 没有 percent 的题（全部数学题）不经过这里，50% 仍按 0.5 判。
+   */
+  function stripPercent(user) {
+    const s = String(user == null ? '' : user).trim();
+    return s.replace(/\s*[%％]$/, '');
+  }
+
   function judgeQuestion(q, user) {
     switch (q.type) {
       case 'choice': return judgeChoice(user, q);
-      case 'numeric': return judgeNumeric(user, q);
+      case 'numeric': return judgeNumeric(q.percent === true ? stripPercent(user) : user, q);
       case 'short': return judgeShort(user, q);
       case 'self': return { verdict: 'manual', reason: 'self' };
       default: return judgeAnswer(user, q.answer); // legacy：来自 diagnostic_question
