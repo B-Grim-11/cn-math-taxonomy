@@ -13444,5 +13444,17 @@
     "prerequisiteId": "cnm_p228",
     "strength": "soft",
     "reason": "学习「轴对称图形与两个图形成轴对称」需要先掌握「生活中的运动现象」。"
+  },
+  {
+    "topicId": "cnm_h038",
+    "prerequisiteId": "cnm_209",
+    "strength": "soft",
+    "reason": "学习「用函数描述简单对应」需要先掌握「实际问题与一次函数」。"
+  },
+  {
+    "topicId": "cnm_h038",
+    "prerequisiteId": "cnm_236",
+    "strength": "soft",
+    "reason": "学习「用函数描述简单对应」需要先掌握「实际问题与二次函数」。"
   }
 ]
