@@ -4,6 +4,7 @@
   const E = window.DiagEngine;
   const LS_SESSION = 'cnmDiagnose.session.v2';
   const LS_SESSION_EN = 'cneDiagnose.session.v2';
+  const LS_SESSION_PHY = 'cnpDiagnose.session.v2';
   const LS_SETTINGS = 'cnmDiagnose.settings.v2';
   const LS_SEEN = 'cnmDiagnose.seen.v1';
   const LIMIT_MIN = 8, LIMIT_MAX = 30;
@@ -79,15 +80,15 @@
     node.setAttribute('focusable', 'false');
     return wrap;
   }
-  function sessionKey() { return subject === 'english' ? LS_SESSION_EN : LS_SESSION; }
+  function sessionKey() { return subject === 'english' ? LS_SESSION_EN : subject === 'physics' ? LS_SESSION_PHY : LS_SESSION; }
   function withSubject(href) {
-    if (subject !== 'english' || !href || href.indexOf('subject=') >= 0 || href.indexOf('http') === 0) return href;
-    return href + (href.indexOf('?') >= 0 ? '&' : '?') + 'subject=english';
+    if (subject === 'math' || !href || href.indexOf('subject=') >= 0 || href.indexOf('http') === 0) return href;
+    return href + (href.indexOf('?') >= 0 ? '&' : '?') + 'subject=' + subject;
   }
   function detectSubject() {
     const params = new URLSearchParams(location.search);
     const explicit = params.get('subject');
-    if (explicit === 'english' || explicit === 'math') return explicit;
+    if (explicit === 'english' || explicit === 'math' || explicit === 'physics') return explicit;
     const target = params.get('target') || '';
     let hashId = (location.hash || '').replace(/^#/, '');
     try { hashId = decodeURIComponent(hashId); } catch (e) { /* 保持原样 */ }
@@ -96,10 +97,16 @@
       history.replaceState(null, '', location.pathname + '?' + params.toString() + location.hash);
       return 'english';
     }
+    if (/(^|,)\s*cnp_/.test(target) || /^cnp_/.test(hashId)) {
+      params.set('subject', 'physics');
+      history.replaceState(null, '', location.pathname + '?' + params.toString() + location.hash);
+      return 'physics';
+    }
     return 'math';
   }
   function applySubjectChrome() {
     document.body.classList.toggle('subject-english', subject === 'english');
+    document.body.classList.toggle('subject-physics', subject === 'physics');
     document.querySelectorAll('.site-nav a:not(.subject-link), a.brand').forEach(function (link) {
       const href = link.getAttribute('href');
       const next = withSubject(href);
@@ -116,6 +123,11 @@
       var juniorOk = '三四五六七八九'.indexOf(gradeSel) >= 0;
       var seniorOk = gradeSel.indexOf('必修') === 0 || gradeSel.indexOf('选必') === 0;
       if (!juniorOk && !seniorOk) gradeSel = '四';
+    }
+    if (subject === 'physics') {
+      document.title = '诊断 · 物理';
+      if (gradeSel !== '八' && gradeSel !== '九') gradeSel = '八';
+      if (gradeSel === '九') volSel = '全';
     }
   }
   function lsGet(k) { try { return JSON.parse(localStorage.getItem(k)); } catch (e) { return null; } }
@@ -238,7 +250,7 @@
     pathExpanded = false;
     session = null; demo = null;
     lsDel(sessionKey());
-    history.replaceState(null, '', location.pathname + (subject === 'english' ? '?subject=english' : ''));
+    history.replaceState(null, '', location.pathname + (subject !== 'math' ? '?subject=' + subject : ''));
     render();
   }
 
@@ -348,14 +360,17 @@
     browser.addEventListener('toggle', function () { chapterOpen = browser.open; });
     page.append(h('div', { class: 'card' },
       h('h1', { text: '选择诊断目标' }),
-      h('p', { class: 'muted' }, subject === 'english'
+      h('p', { class: 'muted' }, subject === 'physics'
+        ? '选一个想学会或想检查的物理知识点。第一题答对就算掌握；答错会再出一道同级或更容易的题——第二题也错才算薄弱，并回溯到物理里的先修；第二题答对则标为「不稳」。'
+        : subject === 'english'
         ? '选一个想学会或想检查的英语知识点。第一题答对就算掌握；答错会再出一道同级或更容易的题——第二题也错才算薄弱，并回溯到先修；第二题答对则标为「不稳」。'
         : '选一个想学会或想检查的知识点。第一题答对就算掌握；答错会再出一道同级或更容易的题——第二题也错才算薄弱，并回溯到先修；第二题答对则标为「不稳」。'),
       h('div', { class: 'stage-tabs', role: 'tablist', 'aria-label': '学段' },
-        [stageButton('', '全部'), stageButton('p', '小学'), stageButton('j', '初中'), stageButton('h', '高中')]),
+        subject === 'physics' ? [stageButton('', '初中')]
+          : [stageButton('', '全部'), stageButton('p', '小学'), stageButton('j', '初中'), stageButton('h', '高中')]),
       h('input', {
         type: 'search', class: 'search-lg', id: 'search',
-        placeholder: subject === 'english' ? '搜索知识点，例如：现在进行时、虚拟语气、there is' : '搜索知识点，例如：配方法、20 以内加法、一次函数',
+        placeholder: subject === 'physics' ? '搜索知识点，例如：欧姆定律、浮力、凸透镜成像' : subject === 'english' ? '搜索知识点，例如：现在进行时、虚拟语气、there is' : '搜索知识点，例如：配方法、20 以内加法、一次函数',
         value: startQuery, autocomplete: 'off', 'aria-label': '搜索知识点',
         oninput: function (e) {
           startQuery = e.target.value;
@@ -382,6 +397,7 @@
   function seniorRangeLabel(sel) { return String(sel).indexOf('选必') === 0 ? '整册' : '必修整册'; }
   function gradeScope() {
     if (seniorGrade(gradeSel)) return gradeSel;
+    if (subject === 'physics' && gradeSel === '九') return '九全';
     if (subject === 'english' && gradeSel === '九') return volSel === '上' ? '九上' : (volSel === '全' ? '九全' : '九年级');
     return gradeSel + (volSel ? volSel : '年级');
   }
@@ -413,7 +429,9 @@
       box.append(
         h('h2', { text: '按年级整体诊断' }),
         h('p', { class: 'muted' }, '不选具体知识点，在一个年级（或一册）里抽查：每个知识点最多问 2 题，答错只在所选范围内回溯先修，最后按章汇总出哪几章薄弱。适合期初摸底、学期末复习。'),
-        tabs('年级', subject === 'english'
+        tabs('年级', subject === 'physics'
+          ? [['八', '八年级'], ['九', '九年级']]
+          : subject === 'english'
           ? '三四五六七八九'.split('').map(function (x) { return [x, x + '年级']; }).concat([
             ['必修一', '必修一'], ['必修二', '必修二'], ['必修三', '必修三'],
             ['选必一', '选必一'], ['选必二', '选必二'], ['选必三', '选必三'], ['选必四', '选必四']
@@ -423,12 +441,15 @@
           ]), gradeSel, function (v) {
           gradeSel = v;
           if (seniorGrade(v)) volSel = '';
+          else if (subject === 'physics' && v === '九') volSel = '全';
           else if (subject === 'english' && v === '九') volSel = '';
           else if (volSel === '全') volSel = '';
         }),
         h('div', { style: 'margin-top:8px' }),
         seniorGrade(gradeSel)
           ? tabs('范围', [['', seniorRangeLabel(gradeSel)]], '', function () { volSel = ''; })
+          : (subject === 'physics' && gradeSel === '九')
+            ? tabs('范围', [['全', '全一册']], '全', function () { volSel = '全'; })
           : (subject === 'english' && gradeSel === '九')
             ? tabs('范围', [['', '整年级'], ['上', '上册（新版）'], ['全', '全一册（旧版，九下暂用）']], volSel, function (v) { volSel = v; })
             : tabs('范围', [['', '整年级'], ['上', '上册'], ['下', '下册']], volSel, function (v) { volSel = v; }),
@@ -470,7 +491,7 @@
       if (!chapters.length) return;
       const count = chapters.reduce(function (n, c) { return n + c.rows.length; }, 0);
       shown += count;
-      const openVol = subject === 'english' ? '三上' : '一上';
+      const openVol = subject === 'physics' ? '八上' : subject === 'english' ? '三上' : '一上';
       const seniorOpen = subject === 'english' ? '必修一' : '高一';
       const det = h('details', { class: 'vol', open: !!q || (startStage === 'j' ? vv[0] === '七上' : startStage === 'h' ? vv[0] === seniorOpen : vv[0] === openVol) },
         h('summary', null, vv[1] + '（' + count + ' 个知识点）'));
@@ -663,7 +684,7 @@
     return raw || '本次诊断';
   }
   function buildShareModel(sum, chapters) {
-    var subjectName = subject === 'english' ? '英语' : '数学';
+    var subjectName = subject === 'english' ? '英语' : subject === 'physics' ? '物理' : '数学';
     var spots = [];
     var spotKind = 'topic';
     if (chapters && chapters.length) {
@@ -957,7 +978,9 @@
     const keys = Object.keys(by).sort();
     return h('div', { class: 'card', id: 'standards' },
       h('h2', { text: '相关课标条目' }),
-      h('p', { class: 'muted small' }, subject === 'english'
+      h('p', { class: 'muted small' }, subject === 'physics'
+        ? '目标与学习路径上的知识点对应的《义务教育物理课程标准（2022年版2025年修订）》内容要求（编号与课标条款一致）。'
+        : subject === 'english'
         ? '目标与学习路径上的知识点对应的《义务教育英语课程标准（2022年版）》和《普通高中英语课程标准（2017年版2025年修订）》公开转述（一级、二级、三级，以及高中必修、选择性必修）。'
         : '目标与学习路径上的知识点对应的《义务教育数学课程标准（2022年版）》内容要求（第一至第四学段）。'),
       keys.length ? keys.map(function (k) {

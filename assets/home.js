@@ -3,17 +3,21 @@
   'use strict';
   var raw = location.hash.replace(/^#/, '');
   try { raw = decodeURIComponent(raw); } catch (e) { /* 保持原样 */ }
-  if (/^cnm_[A-Za-z0-9]+$/.test(raw) || /^cne_[A-Za-z0-9]+$/.test(raw)) return;
+  if (/^(?:cnm|cne|cnp)_[A-Za-z0-9]+$/.test(raw)) return;
 
   var CN = ['', '一', '二', '三', '四', '五', '六', '七', '八', '九'];
-  var subject = new URLSearchParams(location.search).get('subject') === 'english' ? 'english' : 'math';
+  var subjectParam = new URLSearchParams(location.search).get('subject');
+  var subject = subjectParam === 'english' || subjectParam === 'physics' ? subjectParam : 'math';
+  var PREFIX = { math: 'cnm_', english: 'cne_', physics: 'cnp_' };
+  var STD_PREFIX = { math: 'cms-', english: 'ces-', physics: 'cps-' };
 
   function withSubject(href) {
-    if (subject !== 'english' || !href || href.indexOf('subject=') >= 0 || href.indexOf('http') === 0) return href;
-    return href + (href.indexOf('?') >= 0 ? '&' : '?') + 'subject=english';
+    if (subject === 'math' || !href || href.indexOf('subject=') >= 0 || href.indexOf('http') === 0) return href;
+    return href + (href.indexOf('?') >= 0 ? '&' : '?') + 'subject=' + subject;
   }
 
   document.body.classList.toggle('subject-english', subject === 'english');
+  document.body.classList.toggle('subject-physics', subject === 'physics');
   document.querySelectorAll('.subject-link').forEach(function (link) {
     var on = link.getAttribute('data-subject') === subject;
     link.classList.toggle('on', on);
@@ -37,6 +41,19 @@
     if (demo) {
       demo.setAttribute('href', 'diagnose/?subject=english&grade=' + encodeURIComponent('四上') + '&demo=1');
       demo.textContent = '先看一遍演示：四年级上册英语';
+    }
+  } else if (subject === 'physics') {
+    document.title = '物理 · 中小学知识图谱';
+    var peye = document.querySelector('.eyebrow');
+    if (peye) peye.textContent = '初中物理：八年级到九年级';
+    var pprimary = document.querySelector('.hero-actions a.btn-primary');
+    var pbrowse = document.querySelector('.hero-actions a.btn:not(.btn-primary)');
+    if (pprimary) pprimary.setAttribute('href', 'diagnose/?subject=physics');
+    if (pbrowse) pbrowse.setAttribute('href', 'explore/?subject=physics');
+    var pdemo = document.querySelector('.quiet-link a');
+    if (pdemo) {
+      pdemo.setAttribute('href', 'diagnose/?subject=physics&grade=' + encodeURIComponent('八上') + '&demo=1');
+      pdemo.textContent = '先看一遍演示：八年级上册物理';
     }
   }
 
@@ -71,14 +88,24 @@
       throw new Error('数据格式无法识别');
     }
     var items = standards && Array.isArray(standards.items) ? standards.items : [];
-    function isEnglishTopic(topic) {
-      return topic.subject === 'english' || String(topic.id || '').indexOf('cne_') === 0;
+    function subjectOfId(id) {
+      id = String(id || '');
+      if (id.indexOf('cne_') === 0) return 'english';
+      if (id.indexOf('cnp_') === 0) return 'physics';
+      return 'math';
+    }
+    function subjectOfStd(id) {
+      id = String(id || '');
+      if (id.indexOf('ces-') === 0) return 'english';
+      if (id.indexOf('cps-') === 0) return 'physics';
+      return 'math';
     }
     var wantEnglish = subject === 'english';
-    topics = topics.filter(function (topic) { return isEnglishTopic(topic) === wantEnglish; });
-    deps = deps.filter(function (edge) { return String(edge.topicId || '').indexOf('cne_') === 0 === wantEnglish; });
-    questions = questions.filter(function (question) { return String(question.topicId || '').indexOf('cne_') === 0 === wantEnglish; });
-    items = items.filter(function (item) { return String(item.id || '').indexOf('ces-') === 0 === wantEnglish; });
+    var wantPhysics = subject === 'physics';
+    topics = topics.filter(function (topic) { return (topic.subject || subjectOfId(topic.id)) === subject; });
+    deps = deps.filter(function (edge) { return subjectOfId(edge.topicId) === subject; });
+    questions = questions.filter(function (question) { return subjectOfId(question.topicId) === subject; });
+    items = items.filter(function (item) { return subjectOfStd(item.id) === subject; });
     setText('n-topics', String(topics.length));
     setText('n-edges', String(deps.length));
     setText('n-questions', String(questions.length));
@@ -107,18 +134,20 @@
       link.append(stage, name, count, split);
       grades.append(link);
     }
-    var from = wantEnglish ? 3 : 1;
-    var to = wantEnglish ? 9 : 9;
+    var from = wantPhysics ? 8 : (wantEnglish ? 3 : 1);
+    var to = 9;
     for (var g = from; g <= to; g++) {
       var list = topics.filter(function (topic) { return topic.grade === g; });
       var up = list.filter(function (topic) { return topic.semester === '上'; }).length;
       var down = list.filter(function (topic) { return topic.semester === '下'; }).length;
       var whole = list.filter(function (topic) { return topic.semester === '全'; }).length;
       var splitText = whole ? '全一册 ' + whole : '上 ' + up + ' · 下 ' + down;
-      var href = wantEnglish ? 'explore/?subject=english&grade=' + g : 'explore/?grade=' + g;
+      var href = subject !== 'math' ? 'explore/?subject=' + subject + '&grade=' + g : 'explore/?grade=' + g;
       addCard(g, g <= 6 ? '小学' : '初中', CN[g] + '年级', g <= 6 ? 'is-primary' : 'is-junior', splitText, href);
     }
-    if (wantEnglish) {
+    if (wantPhysics) {
+      // 物理只有初中两个年级
+    } else if (wantEnglish) {
       addCard(10, '高中', '必修一', 'is-senior', '必修第一册', 'explore/?subject=english&grade=10');
       addCard(11, '高中', '必修二', 'is-senior', '必修第二册', 'explore/?subject=english&grade=11');
       addCard(12, '高中', '必修三', 'is-senior', '必修第三册', 'explore/?subject=english&grade=12');

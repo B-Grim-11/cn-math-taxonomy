@@ -62,6 +62,17 @@
   --diagram-edge: #64748b;
 }
 
+body.subject-physics {
+  --brand: #b45309;
+  --brand-strong: #92400e;
+  --brand-soft: #fff7ed;
+  --on-brand: #ffffff;
+  --focus: #b45309;
+  --accent: #b45309;
+  --logo-sheet: #fde9d4;
+  --logo-fold: #ffffff;
+}
+
 body.subject-english {
   --brand: #4338ca;
   --brand-strong: #3730a3;
@@ -130,6 +141,16 @@ body.subject-english {
     --diagram-shaky: #fcd34d;
     --diagram-text: #f8fafc;
     --diagram-edge: #94a3b8;
+  }
+  body.subject-physics {
+    --brand: #fdba74;
+    --brand-strong: #fed7aa;
+    --brand-soft: #7c2d12;
+    --on-brand: #431407;
+    --focus: #fed7aa;
+    --accent: #fdba74;
+    --logo-sheet: #6b2f12;
+    --logo-fold: #8a4218;
   }
   body.subject-english {
     --brand: #a5b4fc;

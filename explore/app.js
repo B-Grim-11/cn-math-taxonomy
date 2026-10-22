@@ -18,6 +18,7 @@
   var pre = new Map();
   var post = new Map();
   var stdById = new Map();
+  var mathNames = {};
   var selected = null;
   var currentAlias = null;
   var stage = '';
@@ -248,13 +249,18 @@
     });
   }
 
-  function isEnglishTopic(topic) {
-    return !!(topic && (topic.subject === 'english' || String(topic.id || '').indexOf('cne_') === 0));
+  function topicSubject(topic) {
+    if (!topic) return 'math';
+    if (topic.subject === 'english' || topic.subject === 'physics') return topic.subject;
+    var id = String(topic.id || '');
+    if (id.indexOf('cne_') === 0) return 'english';
+    if (id.indexOf('cnp_') === 0) return 'physics';
+    return 'math';
   }
 
   function withSubject(href) {
-    if (subject !== 'english' || !href || href.indexOf('subject=') >= 0 || href.indexOf('http') === 0) return href;
-    return href + (href.indexOf('?') >= 0 ? '&' : '?') + 'subject=english';
+    if (subject === 'math' || !href || href.indexOf('subject=') >= 0 || href.indexOf('http') === 0) return href;
+    return href + (href.indexOf('?') >= 0 ? '&' : '?') + 'subject=' + subject;
   }
 
   function passFilter(topic) {
@@ -393,7 +399,7 @@
       box.replaceChildren(el('div', { class: 'detail-empty' },
         el('h1', { text: '选择一个知识点' }),
         el('p', { text: '可以搜索，也可以按年级、册、章展开。选中之后，中间只画它附近的先修，以及后面一层会用到它的知识点。' })));
-      document.title = subject === 'english' ? '知识图谱 · 英语' : '知识图谱 · 中小学知识图谱';
+      document.title = subject === 'english' ? '知识图谱 · 英语' : subject === 'physics' ? '知识图谱 · 物理' : '知识图谱 · 中小学知识图谱';
       return;
     }
     var topic = byId.get(selected);
@@ -410,7 +416,7 @@
       el('span', { class: 'pill pill-' + (kind === 'primary' ? 'p' : kind === 'junior' ? 'j' : 'h'), text: stageLabel(topic.grade) }),
       el('code', { class: 'id-code', text: topic.id })));
     var diagHref = '../diagnose/?target=' + encodeURIComponent(topic.id);
-    if (subject === 'english') diagHref = '../diagnose/?subject=english&target=' + encodeURIComponent(topic.id);
+    if (subject !== 'math') diagHref = '../diagnose/?subject=' + subject + '&target=' + encodeURIComponent(topic.id);
     parts.push(el('a', {
       class: 'btn btn-primary btn-lg diag-btn',
       href: diagHref
@@ -438,6 +444,17 @@
         entry.note ? el('p', { class: 'muted', text: '说明：' + entry.note }) : null);
     }) : [el('p', { class: 'muted', text: '没有对应的课标条目。' })];
     parts.push(el('section', null, el('h2', { text: '课标条目' }), standardNodes));
+
+    if (topic.mathLinks && topic.mathLinks.length) {
+      parts.push(el('section', null,
+        el('h2', { text: '相关数学知识点' }),
+        el('p', { class: 'muted', text: '物理和数学分开建图，这里只列出会用到的数学，不算先修，诊断时也不会追到数学。' }),
+        el('ul', { class: 'plain' }, topic.mathLinks.map(function (link) {
+          return el('li', null,
+            el('a', { href: '../explore/#' + encodeURIComponent(link.id) }, mathNames[link.id] || link.id),
+            el('span', { class: 'muted', text: '：' + link.reason }));
+        }))));
+    }
 
     if (topic.diagnostic_question && topic.diagnostic_question.question) {
       var answer = el('details', { class: 'ans' });
@@ -846,8 +863,13 @@
   function readSubject() {
     var params = new URLSearchParams(location.search);
     var explicit = params.get('subject');
-    if (explicit === 'english' || explicit === 'math') return explicit;
+    if (explicit === 'english' || explicit === 'math' || explicit === 'physics') return explicit;
     var hash = readHash();
+    if (/^cnp_[A-Za-z0-9]+$/.test(hash)) {
+      params.set('subject', 'physics');
+      history.replaceState(null, '', location.pathname + '?' + params.toString() + '#' + hash);
+      return 'physics';
+    }
     if (/^cne_[A-Za-z0-9]+$/.test(hash)) {
       params.set('subject', 'english');
       history.replaceState(null, '', location.pathname + '?' + params.toString() + '#' + hash);
@@ -858,6 +880,7 @@
 
   function configureSubject() {
     document.body.classList.toggle('subject-english', subject === 'english');
+    document.body.classList.toggle('subject-physics', subject === 'physics');
     document.querySelectorAll('.site-nav a:not(.subject-link), a.brand').forEach(function (link) {
       var href = link.getAttribute('href');
       var next = withSubject(href);
@@ -869,6 +892,20 @@
       if (on) link.setAttribute('aria-current', 'true');
       else link.removeAttribute('aria-current');
     });
+    if (subject === 'physics') {
+      document.querySelectorAll('#stage-tabs [data-stage]').forEach(function (button, index) {
+        button.hidden = index > 0;
+      });
+      var physicsGrade = $('fGrade');
+      physicsGrade.replaceChildren();
+      physicsGrade.append(el('option', { value: '', text: '全部年级' }));
+      physicsGrade.append(el('option', { value: '8', text: '八年级（上、下册）' }));
+      physicsGrade.append(el('option', { value: '9', text: '九年级全一册' }));
+      var physicsSample = $('pick-sample');
+      if (physicsSample) physicsSample.textContent = '先看看「欧姆定律」';
+      document.title = '知识图谱 · 物理';
+      return;
+    }
     if (subject !== 'english') return;
     var tabs = document.querySelectorAll('#stage-tabs [data-stage]');
     var spec = [['', '全部'], ['p', '小学'], ['j', '初中'], ['h', '高中']];
@@ -903,7 +940,7 @@
   function applyQuery() {
     var params = new URLSearchParams(location.search);
     var gradeValue = params.get('grade') || '';
-    var gradeOk = subject === 'english' ? /^(?:[3-9]|1[0-6])$/ : /^(?:[1-9]|1[0-4])$/;
+    var gradeOk = subject === 'english' ? /^(?:[3-9]|1[0-6])$/ : subject === 'physics' ? /^[89]$/ : /^(?:[1-9]|1[0-4])$/;
     if (gradeOk.test(gradeValue)) grade = gradeValue;
     var stageValue = params.get('stage') || '';
     if (stageValue === 'p' || stageValue === 'j' || stageValue === 'h') stage = stageValue;
@@ -1009,6 +1046,11 @@
     $('btn-zoom-in').addEventListener('click', function () { zoomBy(1.25); });
     $('btn-zoom-out').addEventListener('click', function () { zoomBy(0.8); });
     $('pick-sample').addEventListener('click', function () {
+      if (subject === 'physics') {
+        var phyHit = topics.find(function (topic) { return topic.name === '欧姆定律'; });
+        if (phyHit) select(phyHit.id, 'user');
+        return;
+      }
       if (subject === 'english') {
         var hit = topics.find(function (topic) { return String(topic.name).indexOf('现在进行时') >= 0; });
         if (hit) select(hit.id, 'user');
@@ -1061,7 +1103,11 @@
       if (!response.ok) throw new Error(files[responseIndex] + ' HTTP ' + response.status);
     });
     var json = await Promise.all(responses.map(function (response) { return response.json(); }));
-    topics = json[0].filter(function (topic) { return isEnglishTopic(topic) === (subject === 'english'); });
+    topics = json[0].filter(function (topic) { return topicSubject(topic) === subject; });
+    mathNames = {};
+    if (subject === 'physics') {
+      json[0].forEach(function (topic) { if (topicSubject(topic) === 'math') mathNames[topic.id] = topic.name; });
+    }
     var allow = {};
     topics.forEach(function (topic) { allow[topic.id] = true; });
     deps = json[1].filter(function (edge) { return allow[edge.topicId] && allow[edge.prerequisiteId]; });

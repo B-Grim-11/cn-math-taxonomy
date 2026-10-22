@@ -13678,5 +13678,743 @@
     "prerequisiteId": "cne_j022",
     "strength": "soft",
     "reason": "先学球类运动词汇，再学体育赛事词汇。"
+  },
+  {
+    "topicId": "cnp_002",
+    "prerequisiteId": "cnp_001",
+    "strength": "soft",
+    "reason": "「运动的描述」会用到「长度和时间的测量」里的知识。"
+  },
+  {
+    "topicId": "cnp_003",
+    "prerequisiteId": "cnp_001",
+    "strength": "hard",
+    "reason": "学「运动的快慢」要先会「长度和时间的测量」。"
+  },
+  {
+    "topicId": "cnp_003",
+    "prerequisiteId": "cnp_002",
+    "strength": "soft",
+    "reason": "「运动的快慢」会用到「运动的描述」里的知识。"
+  },
+  {
+    "topicId": "cnp_004",
+    "prerequisiteId": "cnp_003",
+    "strength": "hard",
+    "reason": "学「速度的测量」要先会「运动的快慢」。"
+  },
+  {
+    "topicId": "cnp_006",
+    "prerequisiteId": "cnp_005",
+    "strength": "hard",
+    "reason": "学「声音的特性」要先会「声音的产生与传播」。"
+  },
+  {
+    "topicId": "cnp_007",
+    "prerequisiteId": "cnp_006",
+    "strength": "soft",
+    "reason": "「声的利用」会用到「声音的特性」里的知识。"
+  },
+  {
+    "topicId": "cnp_007",
+    "prerequisiteId": "cnp_003",
+    "strength": "soft",
+    "reason": "「声的利用」会用到「运动的快慢」里的知识。"
+  },
+  {
+    "topicId": "cnp_008",
+    "prerequisiteId": "cnp_006",
+    "strength": "soft",
+    "reason": "「噪声的危害和控制」会用到「声音的特性」里的知识。"
+  },
+  {
+    "topicId": "cnp_009",
+    "prerequisiteId": "cnp_008",
+    "strength": "hard",
+    "reason": "学「跨学科实践：制作隔音房间模型」要先会「噪声的危害和控制」。"
+  },
+  {
+    "topicId": "cnp_011",
+    "prerequisiteId": "cnp_010",
+    "strength": "hard",
+    "reason": "学「熔化和凝固」要先会「温度」。"
+  },
+  {
+    "topicId": "cnp_012",
+    "prerequisiteId": "cnp_010",
+    "strength": "hard",
+    "reason": "学「汽化和液化」要先会「温度」。"
+  },
+  {
+    "topicId": "cnp_012",
+    "prerequisiteId": "cnp_011",
+    "strength": "soft",
+    "reason": "「汽化和液化」会用到「熔化和凝固」里的知识。"
+  },
+  {
+    "topicId": "cnp_013",
+    "prerequisiteId": "cnp_011",
+    "strength": "hard",
+    "reason": "学「升华和凝华」要先会「熔化和凝固」。"
+  },
+  {
+    "topicId": "cnp_013",
+    "prerequisiteId": "cnp_012",
+    "strength": "hard",
+    "reason": "学「升华和凝华」要先会「汽化和液化」。"
+  },
+  {
+    "topicId": "cnp_014",
+    "prerequisiteId": "cnp_013",
+    "strength": "hard",
+    "reason": "学「跨学科实践：探索厨房中的物态变化问题」要先会「升华和凝华」。"
+  },
+  {
+    "topicId": "cnp_016",
+    "prerequisiteId": "cnp_015",
+    "strength": "hard",
+    "reason": "学「光的反射」要先会「光的直线传播」。"
+  },
+  {
+    "topicId": "cnp_017",
+    "prerequisiteId": "cnp_016",
+    "strength": "hard",
+    "reason": "学「平面镜成像」要先会「光的反射」。"
+  },
+  {
+    "topicId": "cnp_018",
+    "prerequisiteId": "cnp_016",
+    "strength": "soft",
+    "reason": "「光的折射」会用到「光的反射」里的知识。"
+  },
+  {
+    "topicId": "cnp_018",
+    "prerequisiteId": "cnp_015",
+    "strength": "hard",
+    "reason": "学「光的折射」要先会「光的直线传播」。"
+  },
+  {
+    "topicId": "cnp_019",
+    "prerequisiteId": "cnp_018",
+    "strength": "hard",
+    "reason": "学「光的色散」要先会「光的折射」。"
+  },
+  {
+    "topicId": "cnp_020",
+    "prerequisiteId": "cnp_018",
+    "strength": "hard",
+    "reason": "学「透镜」要先会「光的折射」。"
+  },
+  {
+    "topicId": "cnp_021",
+    "prerequisiteId": "cnp_020",
+    "strength": "hard",
+    "reason": "学「生活中的透镜」要先会「透镜」。"
+  },
+  {
+    "topicId": "cnp_022",
+    "prerequisiteId": "cnp_021",
+    "strength": "hard",
+    "reason": "学「凸透镜成像的规律」要先会「生活中的透镜」。"
+  },
+  {
+    "topicId": "cnp_023",
+    "prerequisiteId": "cnp_022",
+    "strength": "hard",
+    "reason": "学「眼睛和眼镜」要先会「凸透镜成像的规律」。"
+  },
+  {
+    "topicId": "cnp_024",
+    "prerequisiteId": "cnp_022",
+    "strength": "hard",
+    "reason": "学「跨学科实践：制作望远镜」要先会「凸透镜成像的规律」。"
+  },
+  {
+    "topicId": "cnp_026",
+    "prerequisiteId": "cnp_025",
+    "strength": "hard",
+    "reason": "学「密度」要先会「质量」。"
+  },
+  {
+    "topicId": "cnp_027",
+    "prerequisiteId": "cnp_026",
+    "strength": "hard",
+    "reason": "学「测量液体和固体的密度」要先会「密度」。"
+  },
+  {
+    "topicId": "cnp_028",
+    "prerequisiteId": "cnp_027",
+    "strength": "hard",
+    "reason": "学「密度的应用」要先会「测量液体和固体的密度」。"
+  },
+  {
+    "topicId": "cnp_029",
+    "prerequisiteId": "cnp_002",
+    "strength": "soft",
+    "reason": "「力」会用到「运动的描述」里的知识。"
+  },
+  {
+    "topicId": "cnp_030",
+    "prerequisiteId": "cnp_029",
+    "strength": "hard",
+    "reason": "学「弹力」要先会「力」。"
+  },
+  {
+    "topicId": "cnp_031",
+    "prerequisiteId": "cnp_030",
+    "strength": "soft",
+    "reason": "「重力」会用到「弹力」里的知识。"
+  },
+  {
+    "topicId": "cnp_031",
+    "prerequisiteId": "cnp_025",
+    "strength": "hard",
+    "reason": "学「重力」要先会「质量」。"
+  },
+  {
+    "topicId": "cnp_032",
+    "prerequisiteId": "cnp_029",
+    "strength": "hard",
+    "reason": "学「牛顿第一定律」要先会「力」。"
+  },
+  {
+    "topicId": "cnp_033",
+    "prerequisiteId": "cnp_032",
+    "strength": "hard",
+    "reason": "学「二力平衡」要先会「牛顿第一定律」。"
+  },
+  {
+    "topicId": "cnp_033",
+    "prerequisiteId": "cnp_031",
+    "strength": "hard",
+    "reason": "学「二力平衡」要先会「重力」。"
+  },
+  {
+    "topicId": "cnp_034",
+    "prerequisiteId": "cnp_033",
+    "strength": "hard",
+    "reason": "学「摩擦力」要先会「二力平衡」。"
+  },
+  {
+    "topicId": "cnp_035",
+    "prerequisiteId": "cnp_033",
+    "strength": "hard",
+    "reason": "学「同一直线上二力的合成」要先会「二力平衡」。"
+  },
+  {
+    "topicId": "cnp_036",
+    "prerequisiteId": "cnp_031",
+    "strength": "hard",
+    "reason": "学「压强」要先会「重力」。"
+  },
+  {
+    "topicId": "cnp_036",
+    "prerequisiteId": "cnp_033",
+    "strength": "soft",
+    "reason": "「压强」会用到「二力平衡」里的知识。"
+  },
+  {
+    "topicId": "cnp_037",
+    "prerequisiteId": "cnp_036",
+    "strength": "hard",
+    "reason": "学「液体的压强」要先会「压强」。"
+  },
+  {
+    "topicId": "cnp_037",
+    "prerequisiteId": "cnp_026",
+    "strength": "hard",
+    "reason": "学「液体的压强」要先会「密度」。"
+  },
+  {
+    "topicId": "cnp_038",
+    "prerequisiteId": "cnp_037",
+    "strength": "hard",
+    "reason": "学「大气压强」要先会「液体的压强」。"
+  },
+  {
+    "topicId": "cnp_039",
+    "prerequisiteId": "cnp_038",
+    "strength": "hard",
+    "reason": "学「跨学科实践：制作简易活塞式抽水机」要先会「大气压强」。"
+  },
+  {
+    "topicId": "cnp_040",
+    "prerequisiteId": "cnp_038",
+    "strength": "hard",
+    "reason": "学「流体压强与流速的关系」要先会「大气压强」。"
+  },
+  {
+    "topicId": "cnp_041",
+    "prerequisiteId": "cnp_037",
+    "strength": "hard",
+    "reason": "学「浮力」要先会「液体的压强」。"
+  },
+  {
+    "topicId": "cnp_041",
+    "prerequisiteId": "cnp_035",
+    "strength": "soft",
+    "reason": "「浮力」会用到「同一直线上二力的合成」里的知识。"
+  },
+  {
+    "topicId": "cnp_042",
+    "prerequisiteId": "cnp_041",
+    "strength": "hard",
+    "reason": "学「阿基米德原理」要先会「浮力」。"
+  },
+  {
+    "topicId": "cnp_042",
+    "prerequisiteId": "cnp_026",
+    "strength": "hard",
+    "reason": "学「阿基米德原理」要先会「密度」。"
+  },
+  {
+    "topicId": "cnp_042",
+    "prerequisiteId": "cnp_031",
+    "strength": "hard",
+    "reason": "学「阿基米德原理」要先会「重力」。"
+  },
+  {
+    "topicId": "cnp_043",
+    "prerequisiteId": "cnp_042",
+    "strength": "hard",
+    "reason": "学「物体的浮沉条件及应用」要先会「阿基米德原理」。"
+  },
+  {
+    "topicId": "cnp_043",
+    "prerequisiteId": "cnp_033",
+    "strength": "hard",
+    "reason": "学「物体的浮沉条件及应用」要先会「二力平衡」。"
+  },
+  {
+    "topicId": "cnp_044",
+    "prerequisiteId": "cnp_043",
+    "strength": "hard",
+    "reason": "学「跨学科实践：制作微型密度计」要先会「物体的浮沉条件及应用」。"
+  },
+  {
+    "topicId": "cnp_045",
+    "prerequisiteId": "cnp_029",
+    "strength": "hard",
+    "reason": "学「功」要先会「力」。"
+  },
+  {
+    "topicId": "cnp_045",
+    "prerequisiteId": "cnp_031",
+    "strength": "hard",
+    "reason": "学「功」要先会「重力」。"
+  },
+  {
+    "topicId": "cnp_046",
+    "prerequisiteId": "cnp_045",
+    "strength": "hard",
+    "reason": "学「功率」要先会「功」。"
+  },
+  {
+    "topicId": "cnp_046",
+    "prerequisiteId": "cnp_003",
+    "strength": "hard",
+    "reason": "学「功率」要先会「运动的快慢」。"
+  },
+  {
+    "topicId": "cnp_047",
+    "prerequisiteId": "cnp_045",
+    "strength": "hard",
+    "reason": "学「动能和势能」要先会「功」。"
+  },
+  {
+    "topicId": "cnp_048",
+    "prerequisiteId": "cnp_047",
+    "strength": "hard",
+    "reason": "学「机械能及其转化」要先会「动能和势能」。"
+  },
+  {
+    "topicId": "cnp_049",
+    "prerequisiteId": "cnp_033",
+    "strength": "hard",
+    "reason": "学「杠杆」要先会「二力平衡」。"
+  },
+  {
+    "topicId": "cnp_049",
+    "prerequisiteId": "cnp_031",
+    "strength": "hard",
+    "reason": "学「杠杆」要先会「重力」。"
+  },
+  {
+    "topicId": "cnp_050",
+    "prerequisiteId": "cnp_049",
+    "strength": "hard",
+    "reason": "学「跨学科实践：制作简易杆秤」要先会「杠杆」。"
+  },
+  {
+    "topicId": "cnp_051",
+    "prerequisiteId": "cnp_049",
+    "strength": "hard",
+    "reason": "学「滑轮」要先会「杠杆」。"
+  },
+  {
+    "topicId": "cnp_052",
+    "prerequisiteId": "cnp_051",
+    "strength": "hard",
+    "reason": "学「机械效率」要先会「滑轮」。"
+  },
+  {
+    "topicId": "cnp_052",
+    "prerequisiteId": "cnp_045",
+    "strength": "hard",
+    "reason": "学「机械效率」要先会「功」。"
+  },
+  {
+    "topicId": "cnp_053",
+    "prerequisiteId": "cnp_010",
+    "strength": "hard",
+    "reason": "学「热量 比热容」要先会「温度」。"
+  },
+  {
+    "topicId": "cnp_053",
+    "prerequisiteId": "cnp_025",
+    "strength": "hard",
+    "reason": "学「热量 比热容」要先会「质量」。"
+  },
+  {
+    "topicId": "cnp_055",
+    "prerequisiteId": "cnp_054",
+    "strength": "hard",
+    "reason": "学「内能」要先会「分子动理论的初步知识」。"
+  },
+  {
+    "topicId": "cnp_055",
+    "prerequisiteId": "cnp_053",
+    "strength": "soft",
+    "reason": "「内能」会用到「热量 比热容」里的知识。"
+  },
+  {
+    "topicId": "cnp_056",
+    "prerequisiteId": "cnp_055",
+    "strength": "hard",
+    "reason": "学「能量的转化与守恒」要先会「内能」。"
+  },
+  {
+    "topicId": "cnp_056",
+    "prerequisiteId": "cnp_048",
+    "strength": "hard",
+    "reason": "学「能量的转化与守恒」要先会「机械能及其转化」。"
+  },
+  {
+    "topicId": "cnp_057",
+    "prerequisiteId": "cnp_055",
+    "strength": "hard",
+    "reason": "学「热机」要先会「内能」。"
+  },
+  {
+    "topicId": "cnp_057",
+    "prerequisiteId": "cnp_056",
+    "strength": "soft",
+    "reason": "「热机」会用到「能量的转化与守恒」里的知识。"
+  },
+  {
+    "topicId": "cnp_058",
+    "prerequisiteId": "cnp_057",
+    "strength": "hard",
+    "reason": "学「热机的效率」要先会「热机」。"
+  },
+  {
+    "topicId": "cnp_058",
+    "prerequisiteId": "cnp_053",
+    "strength": "hard",
+    "reason": "学「热机的效率」要先会「热量 比热容」。"
+  },
+  {
+    "topicId": "cnp_059",
+    "prerequisiteId": "cnp_058",
+    "strength": "hard",
+    "reason": "学「跨学科实践：制作简易热机模型」要先会「热机的效率」。"
+  },
+  {
+    "topicId": "cnp_060",
+    "prerequisiteId": "cnp_054",
+    "strength": "soft",
+    "reason": "「两种电荷」会用到「分子动理论的初步知识」里的知识。"
+  },
+  {
+    "topicId": "cnp_061",
+    "prerequisiteId": "cnp_060",
+    "strength": "hard",
+    "reason": "学「电流和电路」要先会「两种电荷」。"
+  },
+  {
+    "topicId": "cnp_062",
+    "prerequisiteId": "cnp_061",
+    "strength": "hard",
+    "reason": "学「串联电路和并联电路」要先会「电流和电路」。"
+  },
+  {
+    "topicId": "cnp_063",
+    "prerequisiteId": "cnp_061",
+    "strength": "hard",
+    "reason": "学「电流的测量」要先会「电流和电路」。"
+  },
+  {
+    "topicId": "cnp_064",
+    "prerequisiteId": "cnp_063",
+    "strength": "hard",
+    "reason": "学「串、并联电路中电流的规律」要先会「电流的测量」。"
+  },
+  {
+    "topicId": "cnp_064",
+    "prerequisiteId": "cnp_062",
+    "strength": "hard",
+    "reason": "学「串、并联电路中电流的规律」要先会「串联电路和并联电路」。"
+  },
+  {
+    "topicId": "cnp_065",
+    "prerequisiteId": "cnp_061",
+    "strength": "hard",
+    "reason": "学「电压」要先会「电流和电路」。"
+  },
+  {
+    "topicId": "cnp_065",
+    "prerequisiteId": "cnp_063",
+    "strength": "soft",
+    "reason": "「电压」会用到「电流的测量」里的知识。"
+  },
+  {
+    "topicId": "cnp_066",
+    "prerequisiteId": "cnp_065",
+    "strength": "hard",
+    "reason": "学「串、并联电路中电压的规律」要先会「电压」。"
+  },
+  {
+    "topicId": "cnp_066",
+    "prerequisiteId": "cnp_064",
+    "strength": "soft",
+    "reason": "「串、并联电路中电压的规律」会用到「串、并联电路中电流的规律」里的知识。"
+  },
+  {
+    "topicId": "cnp_067",
+    "prerequisiteId": "cnp_065",
+    "strength": "hard",
+    "reason": "学「电阻」要先会「电压」。"
+  },
+  {
+    "topicId": "cnp_068",
+    "prerequisiteId": "cnp_067",
+    "strength": "hard",
+    "reason": "学「变阻器」要先会「电阻」。"
+  },
+  {
+    "topicId": "cnp_069",
+    "prerequisiteId": "cnp_068",
+    "strength": "hard",
+    "reason": "学「跨学科实践：制作简易调光台灯」要先会「变阻器」。"
+  },
+  {
+    "topicId": "cnp_070",
+    "prerequisiteId": "cnp_068",
+    "strength": "hard",
+    "reason": "学「电流与电压、电阻的关系」要先会「变阻器」。"
+  },
+  {
+    "topicId": "cnp_070",
+    "prerequisiteId": "cnp_066",
+    "strength": "soft",
+    "reason": "「电流与电压、电阻的关系」会用到「串、并联电路中电压的规律」里的知识。"
+  },
+  {
+    "topicId": "cnp_071",
+    "prerequisiteId": "cnp_070",
+    "strength": "hard",
+    "reason": "学「欧姆定律」要先会「电流与电压、电阻的关系」。"
+  },
+  {
+    "topicId": "cnp_072",
+    "prerequisiteId": "cnp_071",
+    "strength": "hard",
+    "reason": "学「电阻的测量」要先会「欧姆定律」。"
+  },
+  {
+    "topicId": "cnp_072",
+    "prerequisiteId": "cnp_065",
+    "strength": "hard",
+    "reason": "学「电阻的测量」要先会「电压」。"
+  },
+  {
+    "topicId": "cnp_073",
+    "prerequisiteId": "cnp_071",
+    "strength": "hard",
+    "reason": "学「欧姆定律在串、并联电路中的应用」要先会「欧姆定律」。"
+  },
+  {
+    "topicId": "cnp_073",
+    "prerequisiteId": "cnp_066",
+    "strength": "hard",
+    "reason": "学「欧姆定律在串、并联电路中的应用」要先会「串、并联电路中电压的规律」。"
+  },
+  {
+    "topicId": "cnp_073",
+    "prerequisiteId": "cnp_064",
+    "strength": "hard",
+    "reason": "学「欧姆定律在串、并联电路中的应用」要先会「串、并联电路中电流的规律」。"
+  },
+  {
+    "topicId": "cnp_074",
+    "prerequisiteId": "cnp_071",
+    "strength": "hard",
+    "reason": "学「电能 电功」要先会「欧姆定律」。"
+  },
+  {
+    "topicId": "cnp_074",
+    "prerequisiteId": "cnp_045",
+    "strength": "soft",
+    "reason": "「电能 电功」会用到「功」里的知识。"
+  },
+  {
+    "topicId": "cnp_075",
+    "prerequisiteId": "cnp_074",
+    "strength": "hard",
+    "reason": "学「电功率」要先会「电能 电功」。"
+  },
+  {
+    "topicId": "cnp_075",
+    "prerequisiteId": "cnp_046",
+    "strength": "soft",
+    "reason": "「电功率」会用到「功率」里的知识。"
+  },
+  {
+    "topicId": "cnp_076",
+    "prerequisiteId": "cnp_075",
+    "strength": "hard",
+    "reason": "学「跨学科实践：为家庭节约用电提建议」要先会「电功率」。"
+  },
+  {
+    "topicId": "cnp_077",
+    "prerequisiteId": "cnp_075",
+    "strength": "hard",
+    "reason": "学「焦耳定律」要先会「电功率」。"
+  },
+  {
+    "topicId": "cnp_078",
+    "prerequisiteId": "cnp_065",
+    "strength": "hard",
+    "reason": "学「安全用电」要先会「电压」。"
+  },
+  {
+    "topicId": "cnp_078",
+    "prerequisiteId": "cnp_071",
+    "strength": "soft",
+    "reason": "「安全用电」会用到「欧姆定律」里的知识。"
+  },
+  {
+    "topicId": "cnp_079",
+    "prerequisiteId": "cnp_078",
+    "strength": "hard",
+    "reason": "学「家庭电路的基本组成」要先会「安全用电」。"
+  },
+  {
+    "topicId": "cnp_079",
+    "prerequisiteId": "cnp_075",
+    "strength": "hard",
+    "reason": "学「家庭电路的基本组成」要先会「电功率」。"
+  },
+  {
+    "topicId": "cnp_079",
+    "prerequisiteId": "cnp_062",
+    "strength": "hard",
+    "reason": "学「家庭电路的基本组成」要先会「串联电路和并联电路」。"
+  },
+  {
+    "topicId": "cnp_080",
+    "prerequisiteId": "cnp_079",
+    "strength": "hard",
+    "reason": "学「跨学科实践：为家庭电路做设计」要先会「家庭电路的基本组成」。"
+  },
+  {
+    "topicId": "cnp_082",
+    "prerequisiteId": "cnp_081",
+    "strength": "hard",
+    "reason": "学「电生磁」要先会「磁现象 磁场」。"
+  },
+  {
+    "topicId": "cnp_082",
+    "prerequisiteId": "cnp_061",
+    "strength": "hard",
+    "reason": "学「电生磁」要先会「电流和电路」。"
+  },
+  {
+    "topicId": "cnp_083",
+    "prerequisiteId": "cnp_082",
+    "strength": "hard",
+    "reason": "学「电磁铁 电磁继电器」要先会「电生磁」。"
+  },
+  {
+    "topicId": "cnp_084",
+    "prerequisiteId": "cnp_082",
+    "strength": "hard",
+    "reason": "学「电动机」要先会「电生磁」。"
+  },
+  {
+    "topicId": "cnp_085",
+    "prerequisiteId": "cnp_084",
+    "strength": "hard",
+    "reason": "学「跨学科实践：制作简易直流电动机」要先会「电动机」。"
+  },
+  {
+    "topicId": "cnp_086",
+    "prerequisiteId": "cnp_084",
+    "strength": "hard",
+    "reason": "学「磁生电」要先会「电动机」。"
+  },
+  {
+    "topicId": "cnp_087",
+    "prerequisiteId": "cnp_015",
+    "strength": "hard",
+    "reason": "学「电磁波的海洋」要先会「光的直线传播」。"
+  },
+  {
+    "topicId": "cnp_087",
+    "prerequisiteId": "cnp_006",
+    "strength": "soft",
+    "reason": "「电磁波的海洋」会用到「声音的特性」里的知识。"
+  },
+  {
+    "topicId": "cnp_088",
+    "prerequisiteId": "cnp_087",
+    "strength": "hard",
+    "reason": "学「广播、电视和移动通信」要先会「电磁波的海洋」。"
+  },
+  {
+    "topicId": "cnp_089",
+    "prerequisiteId": "cnp_088",
+    "strength": "hard",
+    "reason": "学「卫星通信和光纤通信」要先会「广播、电视和移动通信」。"
+  },
+  {
+    "topicId": "cnp_089",
+    "prerequisiteId": "cnp_016",
+    "strength": "soft",
+    "reason": "「卫星通信和光纤通信」会用到「光的反射」里的知识。"
+  },
+  {
+    "topicId": "cnp_090",
+    "prerequisiteId": "cnp_056",
+    "strength": "hard",
+    "reason": "学「能源利用的现状和面临的挑战」要先会「能量的转化与守恒」。"
+  },
+  {
+    "topicId": "cnp_091",
+    "prerequisiteId": "cnp_090",
+    "strength": "hard",
+    "reason": "学「新能源的发展」要先会「能源利用的现状和面临的挑战」。"
+  },
+  {
+    "topicId": "cnp_092",
+    "prerequisiteId": "cnp_091",
+    "strength": "hard",
+    "reason": "学「跨学科实践：为节约能源设计方案」要先会「新能源的发展」。"
+  },
+  {
+    "topicId": "cnp_092",
+    "prerequisiteId": "cnp_076",
+    "strength": "soft",
+    "reason": "「跨学科实践：为节约能源设计方案」会用到「跨学科实践：为家庭节约用电提建议」里的知识。"
   }
 ]

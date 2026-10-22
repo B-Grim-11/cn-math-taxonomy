@@ -4266,6 +4266,896 @@
       "page_or_ref": "待核",
       "verbatim": false,
       "text_status": "公开转述，未与《普通高中英语课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cps-2022:1.1.1",
+      "domain": "物质",
+      "section": "1.1 物质的形态和变化",
+      "clause": "1.1.1",
+      "text": "能描述固态、液态和气态三种物态的基本特征，并列举自然界和日常生活中不同物态的物质及其应用。",
+      "page_or_ref": "PDF 第 12 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:1.1.2",
+      "domain": "物质",
+      "section": "1.1 物质的形态和变化",
+      "clause": "1.1.2",
+      "text": "了解液体温度计的工作原理。会用常见温度计测量温度。能说出生活环境中常见的温度值，尝试对环境温度问题发表自己的见解。",
+      "page_or_ref": "PDF 第 12 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:1.1.3",
+      "domain": "物质",
+      "section": "1.1 物质的形态和变化",
+      "clause": "1.1.3",
+      "text": "经历物态变化的实验探究过程，知道物质的熔点、凝固点和沸点，了解物态变化过程中的吸热和放热现象。能运用物态变化知识说明自然界和生活中的有关现象。",
+      "page_or_ref": "PDF 第 12 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:1.1.4",
+      "domain": "物质",
+      "section": "1.1 物质的形态和变化",
+      "clause": "1.1.4",
+      "text": "能运用物态变化知识，说明自然界中的水循环现象。了解我国和当地的水资源状况，有节约用水和保护环境的意识。",
+      "page_or_ref": "PDF 第 12 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:1.2.1",
+      "domain": "物质",
+      "section": "1.2 物质的属性",
+      "clause": "1.2.1",
+      "text": "通过实验，了解物质的一些物理属性，如弹性、磁性、导电性和导热性等，能用语言、文字或图表描述物质的物理属性。",
+      "page_or_ref": "PDF 第 13 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:1.2.2",
+      "domain": "物质",
+      "section": "1.2 物质的属性",
+      "clause": "1.2.2",
+      "text": "知道质量的含义。会测量固体和液体的质量。",
+      "page_or_ref": "PDF 第 13 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:1.2.3",
+      "domain": "物质",
+      "section": "1.2 物质的属性",
+      "clause": "1.2.3",
+      "text": "通过实验，理解密度。会测量固体和液体的密度。能解释生活中与密度有关的一些物理现象。",
+      "page_or_ref": "PDF 第 13 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:1.2.4",
+      "domain": "物质",
+      "section": "1.2 物质的属性",
+      "clause": "1.2.4",
+      "text": "了解关于物质属性的研究对生产生活和科技进步的影响。",
+      "page_or_ref": "PDF 第 13 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:1.3.1",
+      "domain": "物质",
+      "section": "1.3 物质的结构和物质世界的尺度",
+      "clause": "1.3.1",
+      "text": "知道常见的物质是由分子、原子构成的。",
+      "page_or_ref": "PDF 第 13 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:1.3.2",
+      "domain": "物质",
+      "section": "1.3 物质的结构和物质世界的尺度",
+      "clause": "1.3.2",
+      "text": "知道原子是由原子核和电子构成的，了解原子的核式结构模型。了解人类探索微观世界的大致历程，关注人类探索微观世界的新进展。",
+      "page_or_ref": "PDF 第 13 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:1.3.3",
+      "domain": "物质",
+      "section": "1.3 物质的结构和物质世界的尺度",
+      "clause": "1.3.3",
+      "text": "了解人类探索太阳系及宇宙的大致历程，知道人类对宇宙的探索将不断深入，关注人类探索宇宙的一些重大活动。",
+      "page_or_ref": "PDF 第 14 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:1.3.4",
+      "domain": "物质",
+      "section": "1.3 物质的结构和物质世界的尺度",
+      "clause": "1.3.4",
+      "text": "了解物质世界的大致尺度。",
+      "page_or_ref": "PDF 第 14 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:2.1.1",
+      "domain": "运动和相互作用",
+      "section": "2.1 多种多样的运动形式",
+      "clause": "2.1.1",
+      "text": "知道机械运动，举例说明机械运动的相对性。",
+      "page_or_ref": "PDF 第 17 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:2.1.2",
+      "domain": "运动和相互作用",
+      "section": "2.1 多种多样的运动形式",
+      "clause": "2.1.2",
+      "text": "知道自然界和生活中简单的热现象。了解分子热运动的主要特点，知道分子动理论的基本观点。",
+      "page_or_ref": "PDF 第 17 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:2.1.3",
+      "domain": "运动和相互作用",
+      "section": "2.1 多种多样的运动形式",
+      "clause": "2.1.3",
+      "text": "举例说明自然界存在多种多样的运动形式。知道物质在不停地运动。",
+      "page_or_ref": "PDF 第 17 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:2.2.1",
+      "domain": "运动和相互作用",
+      "section": "2.2 机械运动和力",
+      "clause": "2.2.1",
+      "text": "会选用适当的工具测量长度和时间，会根据生活经验估测长度和时间。",
+      "page_or_ref": "PDF 第 18 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:2.2.2",
+      "domain": "运动和相互作用",
+      "section": "2.2 机械运动和力",
+      "clause": "2.2.2",
+      "text": "能用速度描述物体运动的快慢，并能进行简单计算。会测量物体运动的速度。",
+      "page_or_ref": "PDF 第 18 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:2.2.3",
+      "domain": "运动和相互作用",
+      "section": "2.2 机械运动和力",
+      "clause": "2.2.3",
+      "text": "通过常见事例或实验，了解重力、弹力和摩擦力，认识力的作用效果。探究并了解滑动摩擦力的大小与哪些因素有关。",
+      "page_or_ref": "PDF 第 18 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:2.2.4",
+      "domain": "运动和相互作用",
+      "section": "2.2 机械运动和力",
+      "clause": "2.2.4",
+      "text": "能用示意图描述力。会测量力的大小。了解同一直线上的二力合成。知道二力平衡条件。",
+      "page_or_ref": "PDF 第 18 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:2.2.5",
+      "domain": "运动和相互作用",
+      "section": "2.2 机械运动和力",
+      "clause": "2.2.5",
+      "text": "通过实验和科学推理，认识牛顿第一定律。能运用物体的惯性解释自然界和生活中的有关现象。",
+      "page_or_ref": "PDF 第 18 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:2.2.6",
+      "domain": "运动和相互作用",
+      "section": "2.2 机械运动和力",
+      "clause": "2.2.6",
+      "text": "知道简单机械。探究并了解杠杆的平衡条件。",
+      "page_or_ref": "PDF 第 18 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:2.2.7",
+      "domain": "运动和相互作用",
+      "section": "2.2 机械运动和力",
+      "clause": "2.2.7",
+      "text": "通过实验，理解压强。知道增大和减小压强的方法，并了解其在生产生活中的应用。",
+      "page_or_ref": "PDF 第 18 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:2.2.8",
+      "domain": "运动和相互作用",
+      "section": "2.2 机械运动和力",
+      "clause": "2.2.8",
+      "text": "探究并了解液体压强与哪些因素有关。知道大气压强及其与人类生活的关系。了解流体压强与流速的关系及其在生产生活中的应用。",
+      "page_or_ref": "PDF 第 19 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:2.2.9",
+      "domain": "运动和相互作用",
+      "section": "2.2 机械运动和力",
+      "clause": "2.2.9",
+      "text": "通过实验，认识浮力。探究并了解浮力大小与哪些因素有关。知道阿基米德原理，能运用物体的浮沉条件说明生产生活中的有关现象。",
+      "page_or_ref": "PDF 第 19 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:2.3.1",
+      "domain": "运动和相互作用",
+      "section": "2.3 声和光",
+      "clause": "2.3.1",
+      "text": "通过实验，认识声的产生和传播条件。",
+      "page_or_ref": "PDF 第 19 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:2.3.2",
+      "domain": "运动和相互作用",
+      "section": "2.3 声和光",
+      "clause": "2.3.2",
+      "text": "了解声音的特性。了解现代技术中声学知识的一些应用。知道噪声的危害及控制方法。",
+      "page_or_ref": "PDF 第 20 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:2.3.3",
+      "domain": "运动和相互作用",
+      "section": "2.3 声和光",
+      "clause": "2.3.3",
+      "text": "探究并了解光的反射定律。通过实验，了解光的折射现象及其特点。",
+      "page_or_ref": "PDF 第 20 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:2.3.4",
+      "domain": "运动和相互作用",
+      "section": "2.3 声和光",
+      "clause": "2.3.4",
+      "text": "探究并了解平面镜成像时像与物的关系。知道平面镜成像的特点及应用。",
+      "page_or_ref": "PDF 第 20 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:2.3.5",
+      "domain": "运动和相互作用",
+      "section": "2.3 声和光",
+      "clause": "2.3.5",
+      "text": "了解凸透镜对光的会聚作用和凹透镜对光的发散作用。探究并了解凸透镜成像的规律。了解凸透镜成像规律的应用。",
+      "page_or_ref": "PDF 第 20 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:2.3.6",
+      "domain": "运动和相互作用",
+      "section": "2.3 声和光",
+      "clause": "2.3.6",
+      "text": "通过实验，了解白光的组成和不同色光混合的现象。",
+      "page_or_ref": "PDF 第 20 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:2.4.1",
+      "domain": "运动和相互作用",
+      "section": "2.4 电和磁",
+      "clause": "2.4.1",
+      "text": "观察摩擦起电现象，了解静电现象。了解生产生活中关于静电防止和利用的技术。",
+      "page_or_ref": "PDF 第 21 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:2.4.2",
+      "domain": "运动和相互作用",
+      "section": "2.4 电和磁",
+      "clause": "2.4.2",
+      "text": "通过实验，认识磁场。知道地磁场。",
+      "page_or_ref": "PDF 第 21 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:2.4.3",
+      "domain": "运动和相互作用",
+      "section": "2.4 电和磁",
+      "clause": "2.4.3",
+      "text": "通过实验，了解电流周围存在磁场。探究并了解通电螺线管外部磁场的方向。了解电磁铁在生产生活中的应用。",
+      "page_or_ref": "PDF 第 21 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:2.4.4",
+      "domain": "运动和相互作用",
+      "section": "2.4 电和磁",
+      "clause": "2.4.4",
+      "text": "通过实验，了解通电导线在磁场中会受到力的作用，并知道力的方向与哪些因素有关。",
+      "page_or_ref": "PDF 第 21 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:2.4.5",
+      "domain": "运动和相互作用",
+      "section": "2.4 电和磁",
+      "clause": "2.4.5",
+      "text": "探究并了解导体在磁场中运动时产生感应电流的条件。了解电磁感应在生产生活中的应用。",
+      "page_or_ref": "PDF 第 21 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:2.4.6",
+      "domain": "运动和相互作用",
+      "section": "2.4 电和磁",
+      "clause": "2.4.6",
+      "text": "知道电磁波。知道电磁波在真空中的传播速度。知道波长、频率和波速。了解电磁波的应用及其对人类生活和社会发展的影响。",
+      "page_or_ref": "PDF 第 21 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:3.1.1",
+      "domain": "能量",
+      "section": "3.1 能量、能量的转化和转移",
+      "clause": "3.1.1",
+      "text": "了解能量及其存在的不同形式。能描述不同形式的能量和生产生活的联系。",
+      "page_or_ref": "PDF 第 25 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:3.1.2",
+      "domain": "能量",
+      "section": "3.1 能量、能量的转化和转移",
+      "clause": "3.1.2",
+      "text": "通过实验，认识能量可以从一个物体转移到其他物体，不同形式的能量可以相互转化。",
+      "page_or_ref": "PDF 第 25 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:3.1.3",
+      "domain": "能量",
+      "section": "3.1 能量、能量的转化和转移",
+      "clause": "3.1.3",
+      "text": "结合实例，认识功的概念。知道做功的过程就是能量转化或转移的过程。",
+      "page_or_ref": "PDF 第 25 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:3.2.1",
+      "domain": "能量",
+      "section": "3.2 机械能",
+      "clause": "3.2.1",
+      "text": "知道动能、势能和机械能。通过实验，了解动能和势能的相互转化。举例说明机械能和其他形式能量的相互转化。",
+      "page_or_ref": "PDF 第 25 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:3.2.2",
+      "domain": "能量",
+      "section": "3.2 机械能",
+      "clause": "3.2.2",
+      "text": "知道机械功和功率。用生活中的实例说明机械功和功率的含义。",
+      "page_or_ref": "PDF 第 26 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:3.2.3",
+      "domain": "能量",
+      "section": "3.2 机械能",
+      "clause": "3.2.3",
+      "text": "知道机械效率。了解提高机械效率的意义和途径。",
+      "page_or_ref": "PDF 第 26 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:3.2.4",
+      "domain": "能量",
+      "section": "3.2 机械能",
+      "clause": "3.2.4",
+      "text": "能说出人类使用的一些机械。了解机械的使用对社会发展的作用。",
+      "page_or_ref": "PDF 第 26 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:3.3.1",
+      "domain": "能量",
+      "section": "3.3 内能",
+      "clause": "3.3.1",
+      "text": "了解内能和热量。从能量转化的角度认识燃料的热值。",
+      "page_or_ref": "PDF 第 26 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:3.3.2",
+      "domain": "能量",
+      "section": "3.3 内能",
+      "clause": "3.3.2",
+      "text": "通过实验，了解比热容。能运用比热容说明简单的自然现象。",
+      "page_or_ref": "PDF 第 26 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:3.3.3",
+      "domain": "能量",
+      "section": "3.3 内能",
+      "clause": "3.3.3",
+      "text": "了解热机的工作原理。知道内能的利用在人类社会发展史中的重要意义。",
+      "page_or_ref": "PDF 第 26 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:3.4.1",
+      "domain": "能量",
+      "section": "3.4 电磁能",
+      "clause": "3.4.1",
+      "text": "从能量转化的角度认识电源和用电器的作用。",
+      "page_or_ref": "PDF 第 27 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:3.4.2",
+      "domain": "能量",
+      "section": "3.4 电磁能",
+      "clause": "3.4.2",
+      "text": "知道电压、电流和电阻。探究电流与电压、电阻的关系，理解欧姆定律。",
+      "page_or_ref": "PDF 第 27 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:3.4.3",
+      "domain": "能量",
+      "section": "3.4 电磁能",
+      "clause": "3.4.3",
+      "text": "会使用电流表和电压表。",
+      "page_or_ref": "PDF 第 27 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:3.4.4",
+      "domain": "能量",
+      "section": "3.4 电磁能",
+      "clause": "3.4.4",
+      "text": "会看、会画简单的电路图。会连接简单的串联电路和并联电路。能说出生产生活中采用简单串联电路或并联电路的实例。探究并了解串联电路和并联电路中电流、电压的特点。",
+      "page_or_ref": "PDF 第 27 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:3.4.5",
+      "domain": "能量",
+      "section": "3.4 电磁能",
+      "clause": "3.4.5",
+      "text": "结合实例，了解电功和电功率。知道用电器的额定功率和实际功率。",
+      "page_or_ref": "PDF 第 27 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:3.4.6",
+      "domain": "能量",
+      "section": "3.4 电磁能",
+      "clause": "3.4.6",
+      "text": "通过实验，了解焦耳定律。能用焦耳定律说明生产生活中的有关现象。",
+      "page_or_ref": "PDF 第 27 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:3.4.7",
+      "domain": "能量",
+      "section": "3.4 电磁能",
+      "clause": "3.4.7",
+      "text": "了解家庭电路的组成。有安全用电和节约用电的意识。",
+      "page_or_ref": "PDF 第 27 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:3.5.1",
+      "domain": "能量",
+      "section": "3.5 能量守恒",
+      "clause": "3.5.1",
+      "text": "知道能量守恒定律。列举日常生活中能量守恒的实例。有用能量转化与守恒的观点分析问题的意识。",
+      "page_or_ref": "PDF 第 27 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:3.5.2",
+      "domain": "能量",
+      "section": "3.5 能量守恒",
+      "clause": "3.5.2",
+      "text": "从能量转化和转移的角度认识效率。",
+      "page_or_ref": "PDF 第 28 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:3.5.3",
+      "domain": "能量",
+      "section": "3.5 能量守恒",
+      "clause": "3.5.3",
+      "text": "列举能量转化和转移具有方向性的常见实例。",
+      "page_or_ref": "PDF 第 28 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:3.6.1",
+      "domain": "能量",
+      "section": "3.6 能源与可持续发展",
+      "clause": "3.6.1",
+      "text": "列举常见的不可再生能源和可再生能源。",
+      "page_or_ref": "PDF 第 28 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:3.6.2",
+      "domain": "能量",
+      "section": "3.6 能源与可持续发展",
+      "clause": "3.6.2",
+      "text": "知道核能的特点和核能利用可能带来的问题。",
+      "page_or_ref": "PDF 第 28 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:3.6.3",
+      "domain": "能量",
+      "section": "3.6 能源与可持续发展",
+      "clause": "3.6.3",
+      "text": "从能源开发与利用的角度体会可持续发展的重要性。",
+      "page_or_ref": "PDF 第 28 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:4.1.1",
+      "domain": "实验探究",
+      "section": "4.1 测量类学生必做实验",
+      "clause": "4.1.1",
+      "text": "用托盘天平测量物体的质量。",
+      "page_or_ref": "PDF 第 31 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:4.1.2",
+      "domain": "实验探究",
+      "section": "4.1 测量类学生必做实验",
+      "clause": "4.1.2",
+      "text": "测量固体和液体的密度。",
+      "page_or_ref": "PDF 第 31 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:4.1.3",
+      "domain": "实验探究",
+      "section": "4.1 测量类学生必做实验",
+      "clause": "4.1.3",
+      "text": "用常见温度计测量温度。",
+      "page_or_ref": "PDF 第 31 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:4.1.4",
+      "domain": "实验探究",
+      "section": "4.1 测量类学生必做实验",
+      "clause": "4.1.4",
+      "text": "用刻度尺测量长度，用表测量时间。",
+      "page_or_ref": "PDF 第 31 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:4.1.5",
+      "domain": "实验探究",
+      "section": "4.1 测量类学生必做实验",
+      "clause": "4.1.5",
+      "text": "测量物体运动的速度。",
+      "page_or_ref": "PDF 第 32 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:4.1.6",
+      "domain": "实验探究",
+      "section": "4.1 测量类学生必做实验",
+      "clause": "4.1.6",
+      "text": "用弹簧测力计测量力。",
+      "page_or_ref": "PDF 第 32 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:4.1.7",
+      "domain": "实验探究",
+      "section": "4.1 测量类学生必做实验",
+      "clause": "4.1.7",
+      "text": "用电流表测量电流。",
+      "page_or_ref": "PDF 第 32 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:4.1.8",
+      "domain": "实验探究",
+      "section": "4.1 测量类学生必做实验",
+      "clause": "4.1.8",
+      "text": "用电压表测量电压。",
+      "page_or_ref": "PDF 第 32 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:4.1.9",
+      "domain": "实验探究",
+      "section": "4.1 测量类学生必做实验",
+      "clause": "4.1.9",
+      "text": "用电流表和电压表测量电阻。",
+      "page_or_ref": "PDF 第 32 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:4.2.1",
+      "domain": "实验探究",
+      "section": "4.2 探究类学生必做实验",
+      "clause": "4.2.1",
+      "text": "探究水在沸腾前后温度变化的特点。",
+      "page_or_ref": "PDF 第 32 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:4.2.2",
+      "domain": "实验探究",
+      "section": "4.2 探究类学生必做实验",
+      "clause": "4.2.2",
+      "text": "探究滑动摩擦力大小与哪些因素有关。",
+      "page_or_ref": "PDF 第 32 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:4.2.3",
+      "domain": "实验探究",
+      "section": "4.2 探究类学生必做实验",
+      "clause": "4.2.3",
+      "text": "探究液体压强与哪些因素有关。",
+      "page_or_ref": "PDF 第 32 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:4.2.4",
+      "domain": "实验探究",
+      "section": "4.2 探究类学生必做实验",
+      "clause": "4.2.4",
+      "text": "探究浮力大小与哪些因素有关。",
+      "page_or_ref": "PDF 第 33 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:4.2.5",
+      "domain": "实验探究",
+      "section": "4.2 探究类学生必做实验",
+      "clause": "4.2.5",
+      "text": "探究杠杆的平衡条件。",
+      "page_or_ref": "PDF 第 33 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:4.2.6",
+      "domain": "实验探究",
+      "section": "4.2 探究类学生必做实验",
+      "clause": "4.2.6",
+      "text": "探究光的反射定律。",
+      "page_or_ref": "PDF 第 33 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:4.2.7",
+      "domain": "实验探究",
+      "section": "4.2 探究类学生必做实验",
+      "clause": "4.2.7",
+      "text": "探究平面镜成像的特点。",
+      "page_or_ref": "PDF 第 33 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:4.2.8",
+      "domain": "实验探究",
+      "section": "4.2 探究类学生必做实验",
+      "clause": "4.2.8",
+      "text": "探究凸透镜成像的规律。",
+      "page_or_ref": "PDF 第 33 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:4.2.9",
+      "domain": "实验探究",
+      "section": "4.2 探究类学生必做实验",
+      "clause": "4.2.9",
+      "text": "探究通电螺线管外部磁场的方向。",
+      "page_or_ref": "PDF 第 33 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:4.2.10",
+      "domain": "实验探究",
+      "section": "4.2 探究类学生必做实验",
+      "clause": "4.2.10",
+      "text": "探究导体在磁场中运动时产生感应电流的条件。",
+      "page_or_ref": "PDF 第 33 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:4.2.11",
+      "domain": "实验探究",
+      "section": "4.2 探究类学生必做实验",
+      "clause": "4.2.11",
+      "text": "探究串联电路和并联电路中电流、电压的特点。",
+      "page_or_ref": "PDF 第 33 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:4.2.12",
+      "domain": "实验探究",
+      "section": "4.2 探究类学生必做实验",
+      "clause": "4.2.12",
+      "text": "探究电流与电压、电阻的关系。",
+      "page_or_ref": "PDF 第 33 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:5.1.1",
+      "domain": "跨学科实践",
+      "section": "5.1 物理学与日常生活",
+      "clause": "5.1.1",
+      "text": "能发现日常生活中与物理学有关的问题，提出解决方案。",
+      "page_or_ref": "PDF 第 37 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:5.1.2",
+      "domain": "跨学科实践",
+      "section": "5.1 物理学与日常生活",
+      "clause": "5.1.2",
+      "text": "能运用所学知识分析日常生活中的安全问题，提出解决方案，践行安全与健康生活。",
+      "page_or_ref": "PDF 第 37 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:5.1.3",
+      "domain": "跨学科实践",
+      "section": "5.1 物理学与日常生活",
+      "clause": "5.1.3",
+      "text": "能运用所学知识指导和规范个人行为，践行低碳生活，具有节能环保意识。",
+      "page_or_ref": "PDF 第 37 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:5.2.1",
+      "domain": "跨学科实践",
+      "section": "5.2 物理学与工程实践",
+      "clause": "5.2.1",
+      "text": "了解我国古代的技术应用案例，体会我国古代科技对人类文明发展的促进作用。",
+      "page_or_ref": "PDF 第 38 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:5.2.2",
+      "domain": "跨学科实践",
+      "section": "5.2 物理学与工程实践",
+      "clause": "5.2.2",
+      "text": "调查物理学应用于工程技术的案例，体会物理学对工程技术发展的促进作用。",
+      "page_or_ref": "PDF 第 38 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:5.2.3",
+      "domain": "跨学科实践",
+      "section": "5.2 物理学与工程实践",
+      "clause": "5.2.3",
+      "text": "了解物理学在信息技术中的应用。",
+      "page_or_ref": "PDF 第 38 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:5.3.1",
+      "domain": "跨学科实践",
+      "section": "5.3 物理学与社会发展",
+      "clause": "5.3.1",
+      "text": "结合实例，尝试分析能源的开发与利用对社会发展的影响。",
+      "page_or_ref": "PDF 第 38 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:5.3.2",
+      "domain": "跨学科实践",
+      "section": "5.3 物理学与社会发展",
+      "clause": "5.3.2",
+      "text": "结合实例，了解一些新材料的特点及其应用。了解新材料的研发与应用对社会发展的影响。",
+      "page_or_ref": "PDF 第 38 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
+    },
+    {
+      "id": "cps-2022:5.3.3",
+      "domain": "跨学科实践",
+      "section": "5.3 物理学与社会发展",
+      "clause": "5.3.3",
+      "text": "了解我国科技发展的成就，增强科技强国的责任感和使命感。",
+      "page_or_ref": "PDF 第 39 页",
+      "verbatim": false,
+      "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对"
     }
   ],
   "english": {
@@ -4282,5 +5172,15 @@
       "note": "印发通知见教育部网页。条目正文未与该文件逐页核对，标为待核。必修对应课标中的必修，选择性必修对应课标中的选择性必修。",
       "revision_note": "2026-10-22 起改引 2025 年日常修订版（2025-10 发布实施）。条目编号 ces-2017:H.* 不变；条文仍按 2017年版2020年修订 文本转述，没有与 2025 年修订版逐条重新核对。url 仍是 2020 年修订版的印发页面。"
     }
+  },
+  "physics": {
+    "title": "义务教育物理课程标准（2022年版2025年修订）",
+    "issuer": "中华人民共和国教育部",
+    "year": 2022,
+    "revision": "2025 年日常修订版（教育部《中小学课程方案和课程标准日常修订版》，教材〔2025〕1号）",
+    "stage": "义务教育第四学段（8–9 年级）",
+    "section": "课程内容 · 【内容要求】",
+    "note": "条文取自 2022年版2025年修订 的课标扫描 PDF，经 OCR 识别后按原页图像人工校对（个别形近字已改正），没有与纸本逐字核对，verbatim 为 false；page_or_ref 是该 PDF 的文件页码。编号 cps-2022:<一级>.<二级>.<序号> 与课标原文条款编号一致。一级主题“实验探究”（4.1、4.2 学生必做实验）只作为课标条目，知识点 domain 只用物质、运动和相互作用、能量、跨学科实践。教材为人教版（根据2022年版课程标准修订）八年级上册（2024）、八年级下册（2025）、九年级全一册（2025），知识点按目录到节。",
+    "retrieved": "2026-10-22"
   }
 }

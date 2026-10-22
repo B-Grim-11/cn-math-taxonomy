@@ -1037,6 +1037,51 @@ test('英语题：自包含、不引用课标或上一题，答案能被判对',
   });
 });
 
+test('物理：人教版八上 28、八下 24、九全 40，只在物理内部连边，mathLinks 指向数学，整册按学科分开', () => {
+  const phy = topics.filter((t) => String(t.id).startsWith('cnp_'));
+  const count = (g, s) => phy.filter((t) => t.grade === g && t.semester === s).length;
+  assert.strictEqual(phy.length, 92);
+  assert.strictEqual(count(8, '上'), 28);
+  assert.strictEqual(count(8, '下'), 24);
+  assert.strictEqual(count(9, '全'), 40);
+  assert.ok(phy.every((t) => t.subject === 'physics' && E.subjectOf(t) === 'physics' && !t.external));
+  assert.ok(phy.every((t) => ['物质', '运动和相互作用', '能量', '跨学科实践'].includes(t.domain)));
+  assert.ok(phy.every((t) => E.parseChapter(t.chapter).section && /^(八上|八下|九全)$/.test(E.parseChapter(t.chapter).volume)));
+  assert.ok(phy.every((t) => (t.standards || []).length >= 1 && t.standards.every((s) => s.id.startsWith('cps-2022:'))));
+  const order = new Map(phy.map((t, i) => [t.id, i]));
+  const phyDeps = deps.filter((d) => String(d.topicId).startsWith('cnp_') || String(d.prerequisiteId).startsWith('cnp_'));
+  assert.ok(phyDeps.length >= 92);
+  phyDeps.forEach((d) => {
+    assert.ok(String(d.topicId).startsWith('cnp_') && String(d.prerequisiteId).startsWith('cnp_'), '跨学科边 ' + d.topicId);
+    assert.ok(order.get(d.prerequisiteId) < order.get(d.topicId), d.topicId + ' 的先修不在教材前面');
+  });
+  const links = phy.flatMap((t) => t.mathLinks || []);
+  assert.ok(links.length >= 20);
+  assert.ok(links.every((l) => String(l.id).startsWith('cnm_') && RG.byId[l.id] && l.reason));
+  const p8 = E.gradeTargets(RG, '八上', 'physics');
+  assert.strictEqual(p8.ids.length, 28);
+  assert.ok(E.gradeTargets(RG, '八上').ids.every((id) => id.startsWith('cnm_')));
+  assert.strictEqual(E.gradeTargets(RG, '九年级', 'physics').ids.length, 40);
+  assert.strictEqual(E.gradeTargets(RG, '九全', 'physics').label, '九年级全一册');
+  assert.strictEqual(stdFile.items.filter((it) => String(it.id).startsWith('cps-2022:')).length, 89);
+  assert.ok(stdFile.physics && /2025/.test(stdFile.physics.title));
+});
+
+test('物理题：每个知识点 4 题，带单位的数值题只填数值，答案能被判对', () => {
+  const pq = questions.filter((q) => String(q.topicId).startsWith('cnp_'));
+  assert.strictEqual(pq.length, 92 * 4);
+  pq.forEach((q) => {
+    assert.ok(q.type === 'numeric' || q.type === 'choice', q.id);
+    assert.ok(q.verify, q.id + ' 没有 verify');
+    if (q.type === 'numeric') assert.ok(/只填数值/.test(q.prompt), q.id + ' 题干要说明只填数值');
+    assert.strictEqual(E.judgeQuestion(q, q.answer).verdict, 'correct', q.id);
+  });
+  const speedQ = { id: 'x', type: 'numeric', answer: '20', prompt: '' };
+  assert.strictEqual(E.judgeQuestion(speedQ, '20 m/s').verdict, 'correct');
+  assert.strictEqual(E.judgeQuestion(speedQ, '20m/s').verdict, 'correct');
+  assert.strictEqual(E.judgeQuestion({ id: 'y', type: 'numeric', answer: '15000', prompt: '' }, '15000Pa').verdict, 'correct');
+});
+
 test('题库：q1 由 diagnostic_question 迁移（题干以原题开头，或标注了 fixed_from_source）', () => {
   formal.forEach((t) => {
     const q1 = qByTopic[t.id].find((q) => q.id === t.id + '_q1');
