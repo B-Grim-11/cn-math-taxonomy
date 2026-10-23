@@ -63,6 +63,13 @@ ID_RE = re.compile(r"^(?:cnm_(?:p|h)?|cne_[pjh]|cnp_h?)\d{3,}$")
 GRADES = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14)
 ALIASES_PATH = os.path.join(ROOT, "data", "id-aliases.json")
 ALIAS_ID_RE = re.compile(r"^cnm_ext_\d{3,}$")
+# 教材版本对照（可选）：topic.mappings 与 data/mappings/*.json，说明见 docs/edition-mappings.md
+MAPPINGS_DIR = os.path.join(ROOT, "data", "mappings")
+EDITION_KEY_RE = re.compile(r"^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$")
+EDITION_RESERVED = {"renjiao_math", "pep_math"}  # 人教版就是 topic 自己的 grade/semester/chapter
+MAPPING_TERMS = ("上", "下", "全")
+MAPPING_ENTRY_FIELDS = {"grade", "term", "unit", "chapter", "note"}
+MAPPING_FILE_STATUS = ("example", "draft", "reviewed")
 
 errors = []
 warnings = []
@@ -132,6 +139,93 @@ def english_prompt_problem(text):
     if EN_PROMPT_BAN_RE.search(s):
         return "题干不能出现「本知识点 / 课标 / 是否要求」"
     return ""
+
+
+def check_mapping_entry(m, where):
+    """一条教材版本对照：{grade, term, unit?, chapter?, note?}。grade 为整数，term 为 上/下/全。"""
+    if not isinstance(m, dict):
+        err("%s 必须是对象" % where)
+        return
+    for k in m:
+        if k not in MAPPING_ENTRY_FIELDS:
+            err("%s 有未知字段 %s（允许：%s）" % (where, k, "、".join(sorted(MAPPING_ENTRY_FIELDS))))
+    g = m.get("grade")
+    if not (isinstance(g, int) and not isinstance(g, bool) and g in GRADES):
+        err("%s grade 必须是 1–14 的整数" % where)
+    if m.get("term") not in MAPPING_TERMS:
+        err("%s term 必须是 上/下/全" % where)
+    for k in ("unit", "chapter", "note"):
+        if k in m and not nonempty_str(m[k]):
+            err("%s %s 若出现必须是非空字符串" % (where, k))
+
+
+def check_mappings(maps, where):
+    """topic.mappings：{版本键: 对照条目}，可选；缺省即只有人教版。"""
+    if not (isinstance(maps, dict) and maps):
+        err("%s mappings 必须是非空对象（没有对照就不要写这个字段）" % where)
+        return
+    for key, m in maps.items():
+        if not (isinstance(key, str) and EDITION_KEY_RE.match(key)):
+            err("%s mappings 的版本键 %r 不合法（小写字母、数字、下划线，如 hujiao_math）" % (where, key))
+        elif key in EDITION_RESERVED:
+            err("%s mappings 不应包含人教版（%s）：人教版就是知识点自己的 grade/semester/chapter" % (where, key))
+        check_mapping_entry(m, "%s mappings.%s" % (where, key))
+
+
+def check_mapping_files(ids):
+    """data/mappings/*.json：贡献用的对照表文件。目录不存在或为空都合法。返回 (文件数, 条目数)。"""
+    if not os.path.isdir(MAPPINGS_DIR):
+        return 0, 0
+    n_files = n_entries = 0
+    for fn in sorted(os.listdir(MAPPINGS_DIR)):
+        if not fn.endswith(".json"):
+            continue
+        n_files += 1
+        where = "data/mappings/%s" % fn
+        data = load(os.path.join(MAPPINGS_DIR, fn))
+        if not isinstance(data, dict):
+            err("%s 顶层必须是对象" % where)
+            continue
+        edition = data.get("edition")
+        if not (isinstance(edition, str) and EDITION_KEY_RE.match(edition)) or edition in EDITION_RESERVED:
+            err("%s edition 不合法：%r" % (where, edition))
+        elif not fn.startswith(edition + "."):
+            err("%s 文件名必须以 edition（%s）开头" % (where, edition))
+        if not nonempty_str(data.get("label")):
+            err("%s 缺少 label（版本中文名）" % where)
+        status = data.get("status")
+        if status not in MAPPING_FILE_STATUS:
+            err("%s status 必须是 %s" % (where, " / ".join(MAPPING_FILE_STATUS)))
+        if ".example." in fn and status != "example":
+            err("%s 是示例文件，status 必须是 example" % where)
+        if status == "example" and ".example." not in fn:
+            err("%s status 为 example，文件名应为 <edition>.example.json" % where)
+        if status in ("draft", "reviewed") and not nonempty_str(data.get("source")):
+            err("%s 非示例文件必须在 source 里写明对照依据" % where)
+        entries = data.get("entries")
+        if not (isinstance(entries, list) and entries):
+            err("%s entries 必须是非空数组" % where)
+            continue
+        if status == "example" and len(entries) > 10:
+            err("%s 示例文件至多 10 条，现有 %d 条" % (where, len(entries)))
+        seen = set()
+        for i, e in enumerate(entries):
+            ew = "%s entries[%d]" % (where, i)
+            if not isinstance(e, dict):
+                err("%s 不是对象" % ew)
+                continue
+            tid = e.get("topicId")
+            t = ids.get(tid)
+            if t is None:
+                err("%s topicId 不存在：%r" % (ew, tid))
+            elif t.get("external") or topic_subject(tid) != "math":
+                err("%s 只能对照数学正式知识点：%s" % (ew, tid))
+            if tid in seen:
+                err("%s topicId 重复：%s" % (ew, tid))
+            seen.add(tid)
+            check_mapping_entry({k: v for k, v in e.items() if k != "topicId"}, ew)
+            n_entries += 1
+    return n_files, n_entries
 
 
 def check_topics(topics):
@@ -204,6 +298,11 @@ def check_topics(topics):
                 err("%s 数学知识点不能标成其他学科：%r" % (where, marked))
             if t.get("domain") not in MATH_DOMAINS:
                 err("%s domain 取值非法：%r" % (where, t.get("domain")))
+        if "mappings" in t:
+            if ext:
+                err("%s 外部节点不能带 mappings" % where)
+            else:
+                check_mappings(t["mappings"], where)
         if ext:
             if t.get("grade") != "小学":
                 err("%s 外部节点 grade 必须为 \"小学\"" % where)
@@ -884,6 +983,10 @@ def main():
         return 1
     ids = check_topics(topics)
     check_aliases(ids)
+    n_map_files, n_map_entries = check_mapping_files(ids)
+    n_topic_maps = sum(1 for t in ids.values() if "mappings" in t)
+    print("教材版本对照（可选）：topic.mappings %d 个知识点；data/mappings %d 个文件、%d 条" % (
+        n_topic_maps, n_map_files, n_map_entries))
     prereqs, dependents, n_hard, n_soft, n_en_hard, n_en_soft = check_deps(deps, ids)
     check_graph(ids, prereqs, dependents)
     std_items = None
