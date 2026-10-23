@@ -49,7 +49,7 @@
     if (next && next !== href) link.setAttribute('href', next);
   });
   if (subject === 'english') {
-    document.title = '英语 · 中小学知识图谱';
+    document.title = '英语 · 中小学·高中知识图谱';
     var eye = document.querySelector('.eyebrow');
     if (eye) eye.textContent = '英语：三年级到高中';
     var primary = document.querySelector('.hero-actions a.btn-primary');
@@ -62,7 +62,7 @@
       demo.textContent = '先看一遍演示：四年级上册英语';
     }
   } else if (subject === 'physics') {
-    document.title = '物理 · 中小学知识图谱';
+    document.title = '物理 · 中小学·高中知识图谱';
     var peye = document.querySelector('.eyebrow');
     if (peye) peye.textContent = '物理：初中八、九年级 · 高中必修与选择性必修';
     var pprimary = document.querySelector('.hero-actions a.btn-primary');

@@ -982,7 +982,7 @@ async function main() {
     check(mathUi.download && mathUi.downloadName === '知识图谱诊断分享.png', '1280 宽显示下载图片');
     check(!mathUi.hint, '1280 宽不提示长按保存');
     const mathModel = await evalJs('window.__shareModel');
-    check(mathModel && mathModel.siteName === '中小学知识图谱' && mathModel.subject === '数学' && String(mathModel.scope).indexOf('五年级上册') >= 0 && mathModel.spotKind === 'chapter', '数学分享范围是五年级上册（' + JSON.stringify(mathModel && { scope: mathModel.scope, subject: mathModel.subject, spotKind: mathModel.spotKind }) + '）');
+    check(mathModel && mathModel.siteName === '中小学·高中知识图谱' && mathModel.subject === '数学' && String(mathModel.scope).indexOf('五年级上册') >= 0 && mathModel.spotKind === 'chapter', '数学分享范围是五年级上册（' + JSON.stringify(mathModel && { scope: mathModel.scope, subject: mathModel.subject, spotKind: mathModel.spotKind }) + '）');
     check(mathModel && mathModel.spots.length >= 1 && mathModel.spots.length <= 3, '数学分享列出 1–3 个章节');
     check(mathModel && mathModel.roots.length >= 1 && mathModel.roots.length <= 2, '数学分享有 1–2 个根因');
     check(JSON.stringify(mathModel).indexOf('付费') < 0 && JSON.stringify(mathModel).indexOf('姓名') < 0, '分享内容不含付费或姓名');

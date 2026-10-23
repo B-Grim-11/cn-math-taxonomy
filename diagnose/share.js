@@ -143,7 +143,7 @@
     ctx.fill();
 
     drawLogo(ctx, 64, 56, 84);
-    text(ctx, m.siteName || '中小学知识图谱', 168, 64, 800, 40, '#ffffff', 820);
+    text(ctx, m.siteName || '中小学·高中知识图谱', 168, 64, 800, 40, '#ffffff', 820);
     text(ctx, '诊断结果', 168, 114, 500, 26, 'rgba(255,255,255,0.86)', 820);
 
     ctx.fillStyle = '#ffffff';

@@ -780,7 +780,7 @@
     }
     var now = new Date();
     return {
-      siteName: '中小学知识图谱',
+      siteName: '中小学·高中知识图谱',
       subject: subjectName,
       scope: shareScopeText(),
       mastered: sum.mastered.length,
