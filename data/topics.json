@@ -89,8 +89,8 @@
       "能把两个数合成一个数"
     ],
     "diagnostic_question": {
-      "question": "计算：2＋3＝？",
-      "answer": "5"
+      "question": "5 可以分成 2 和几？",
+      "answer": "3"
     },
     "external": false,
     "standards": [
@@ -609,7 +609,7 @@
       "能数出拼组时用了几个图形"
     ],
     "diagnostic_question": {
-      "question": "计算：2＋2＝？",
+      "question": "用 2 个三角形和 2 个正方形拼成一幅小房子图，一共用了几个图形？",
       "answer": "4"
     },
     "external": false,
@@ -2903,7 +2903,7 @@
       "知道 1 度是度量角的单位"
     ],
     "diagnostic_question": {
-      "question": "计算：90－30＝？",
+      "question": "一个直角是 90 度，一个角是 30 度。这个角比直角小多少度？",
       "answer": "60"
     },
     "external": false,
@@ -3053,7 +3053,7 @@
       "能根据速度和时间求路程"
     ],
     "diagnostic_question": {
-      "question": "计算：8×6＝？",
+      "question": "笔记本的单价是 8 元，买 6 本，总价是多少元？",
       "answer": "48"
     },
     "external": false,
@@ -3382,8 +3382,8 @@
       "能计算三步以内的混合运算"
     ],
     "diagnostic_question": {
-      "question": "小括号要怎样算？",
-      "answer": "先算小括号里面的"
+      "question": "运算顺序是先算小括号里面的，再算乘除，最后算加减。50－（8＋12）×2 的得数是多少？",
+      "answer": "10"
     },
     "external": false,
     "standards": [
@@ -3639,8 +3639,8 @@
       "能说出等边三角形三条边都相等"
     ],
     "diagnostic_question": {
-      "question": "直角比锐角怎样？",
-      "answer": "直角比锐角大"
+      "question": "一个直角三角形中，除了直角，还有几个锐角？",
+      "answer": "2"
     },
     "external": false,
     "standards": [
@@ -4297,7 +4297,7 @@
       "能把分块面积合并"
     ],
     "diagnostic_question": {
-      "question": "计算：12＋8＝？",
+      "question": "一个组合图形可以分成两个长方形，面积分别是 12 平方厘米和 8 平方厘米。这个组合图形的面积是多少平方厘米？",
       "answer": "20"
     },
     "external": false,
@@ -4427,8 +4427,8 @@
       "能说出方程里必须有未知数并且相等"
     ],
     "diagnostic_question": {
-      "question": "计算：12－7＝？",
-      "answer": "5"
+      "question": "下面 4 个式子：①x＋3＝8　②5＋2＝7　③x－4＞1　④9－x＝2。其中是方程的有几个？",
+      "answer": "2"
     },
     "external": false,
     "standards": [
@@ -4561,8 +4561,8 @@
       "能说出谁是谁的倍数"
     ],
     "diagnostic_question": {
-      "question": "计算：12÷3＝？",
-      "answer": "4"
+      "question": "12 的所有因数一共有多少个？",
+      "answer": "6"
     },
     "external": false,
     "standards": [
@@ -4711,7 +4711,7 @@
       "能说出最小公倍数"
     ],
     "diagnostic_question": {
-      "question": "计算：4×3＝？",
+      "question": "4 和 6 的最小公倍数是多少？",
       "answer": "12"
     },
     "external": false,
@@ -4865,8 +4865,8 @@
       "能在具体量里说出一个分数表示多少"
     ],
     "diagnostic_question": {
-      "question": "分数的分母表示什么？",
-      "answer": "把整体平均分成了几份"
+      "question": "把一张纸平均分成若干份，涂色的有 5 份，涂色部分是这张纸的 5/8。这张纸被平均分成了几份？",
+      "answer": "8"
     },
     "external": false,
     "standards": [
@@ -5048,7 +5048,7 @@
       "能把两个分数写成同分母分数"
     ],
     "diagnostic_question": {
-      "question": "计算：2×3＝？",
+      "question": "要把 1/2 和 1/3 通分，最小的公分母是多少？",
       "answer": "6"
     },
     "external": false,
@@ -5436,7 +5436,7 @@
       "能算出上升和下降合起来的结果"
     ],
     "diagnostic_question": {
-      "question": "计算：8－5＝？",
+      "question": "小明收入 8 元记作＋8 元，支出 5 元记作－5 元。他先收入 8 元，又支出 5 元，结余多少元？",
       "answer": "3"
     },
     "external": false,
@@ -5663,8 +5663,8 @@
       "能把小数化成百分数"
     ],
     "diagnostic_question": {
-      "question": "计算：25÷100＝？（用小数作答）",
-      "answer": "0.25"
+      "question": "把百分数 35% 化成小数，是多少？",
+      "answer": "0.35"
     },
     "external": false,
     "standards": [
@@ -6258,8 +6258,8 @@
       "能按规律算出下一项"
     ],
     "diagnostic_question": {
-      "question": "计算：1＋3＝？",
-      "answer": "4"
+      "question": "用小圆点摆正方形点阵：第 1 个图有 1 个点，第 2 个图有 4 个点，第 3 个图有 9 个点。第 2 个图比第 1 个图多几个点？",
+      "answer": "3"
     },
     "external": false,
     "standards": [
