@@ -242,20 +242,20 @@
     "choices": [
       {
         "key": "A",
-        "text": "一个也没有"
+        "text": "0"
       },
       {
         "key": "B",
-        "text": "还有 1 个"
+        "text": "1"
       },
       {
         "key": "C",
-        "text": "比 5 多"
+        "text": "5"
       }
     ],
     "answer": "A",
     "explanation": "一个也没有，用 0 表示。",
-    "verify": "'一个也没有'"
+    "verify": "0"
   },
   {
     "id": "cnm_p005_q3",
@@ -1353,20 +1353,20 @@
     "choices": [
       {
         "key": "A",
-        "text": "先把十几分成 10 和几"
+        "text": "3"
       },
       {
         "key": "B",
-        "text": "先把 9 加成 13"
+        "text": "4"
       },
       {
         "key": "C",
-        "text": "先算 13 个十"
+        "text": "9"
       }
     ],
     "answer": "A",
     "explanation": "13 分成 10 和 3，10－9＝1，再加 3 得 4。",
-    "verify": "'先把十几分成 10 和几'"
+    "verify": "13-10"
   },
   {
     "id": "cnm_p025_q2",
@@ -4117,10 +4117,10 @@
     "topicId": "cnm_p079",
     "difficulty": "standard",
     "type": "numeric",
-    "prompt": "一张纸平均分成 8 份，涂了其中 1 份。涂色部分是这张纸的几分之几？用 1÷8 表示每一份。计算：1÷8＝？（用小数作答）",
-    "answer": "0.125",
-    "explanation": "每一份是 1/8。",
-    "verify": "1/8"
+    "prompt": "一张纸平均分成 8 份，涂了其中 1 份。涂色部分是这张纸的几分之几？（用分数作答）",
+    "answer": "1/8",
+    "explanation": "把一张纸平均分成 8 份，每份是它的 1/8（也就是 1÷8），涂了 1 份，所以是 1/8。",
+    "verify": "Fraction(1,8)"
   },
   {
     "id": "cnm_p080_q1",
@@ -5537,9 +5537,9 @@
     "topicId": "cnm_p108",
     "difficulty": "standard",
     "type": "numeric",
-    "prompt": "四天借书本数是 8、6、10、4。哪两天合起来是 14 本？先算 8＋6。计算：8＋6＝？",
+    "prompt": "四天借书本数是 8、6、10、5。哪两天合起来是 14 本？先算 8＋6。计算：8＋6＝？",
     "answer": "14",
-    "explanation": "8＋6＝14，是第一天和第二天。",
+    "explanation": "8＋6＝14，是第一天和第二天；其他两天合起来都不是 14 本。",
     "verify": "8+6"
   },
   {
@@ -9488,10 +9488,10 @@
     "topicId": "cnm_p171",
     "difficulty": "standard",
     "type": "numeric",
-    "prompt": "时针从 12 转到 3，转了 90 度。再转到 6，又转多少度？计算：90＋0＝？",
+    "prompt": "时针从 12 转到 3，转了 90 度。再从 3 转到 6，又转了多少度？",
     "answer": "90",
-    "explanation": "从 3 到 6 也是 90 度。",
-    "verify": "90+0"
+    "explanation": "从 3 到 6 是 3 大格，每大格 30 度，3×30＝90 度。",
+    "verify": "(6-3)*30"
   },
   {
     "id": "cnm_p171_q4",
@@ -10038,10 +10038,10 @@
     "topicId": "cnm_p180",
     "difficulty": "standard",
     "type": "numeric",
-    "prompt": "学校在商店北偏东 40 度、距离 800 米处。只问距离是多少米？计算：800＋0＝？",
+    "prompt": "学校在商店北偏东 40 度方向、距离 800 米处。学校到商店的距离是多少米？",
     "answer": "800",
-    "explanation": "距离是 800 米。",
-    "verify": "800+0"
+    "explanation": "题中说距离 800 米，所以是 800 米。",
+    "verify": "800"
   },
   {
     "id": "cnm_p180_q4",
@@ -10867,7 +10867,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "1 的 100% 是 100。",
+    "explanation": "1×100＝100。注意：1 的 100% 是 1，不是 100，别和乘 100 混了。",
     "verify": "1*100"
   },
   {
@@ -12223,7 +12223,7 @@
     "type": "numeric",
     "prompt": "先写商，再写余数。商和余数：7÷3",
     "answer": "2，1",
-    "explanation": "7÷3＝2……1。7 本书放进 3 个书包，至少有一个书包放了 2 本。",
+    "explanation": "7÷3＝2……1。7 本书放进 3 个书包，至少有一个书包放了 3 本（商 2 再加 1）。",
     "verify": "(7//3, 7%3)"
   },
   {
@@ -12682,9 +12682,9 @@
         "text": "8"
       }
     ],
-    "answer": "B",
+    "answer": "C",
     "explanation": "分数线下面的数是分母，5/8 的分母是 8。",
-    "verify": "'5'"
+    "verify": "'8'"
   },
   {
     "id": "cnm_p226_q3",
@@ -53644,11 +53644,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "hi"
+        "text": "goodbye"
       },
       {
         "key": "B",
-        "text": "goodbye"
+        "text": "thanks"
       },
       {
         "key": "C",
@@ -53656,7 +53656,7 @@
       },
       {
         "key": "D",
-        "text": "thanks"
+        "text": "sorry"
       }
     ],
     "answer": "C",
@@ -53668,7 +53668,7 @@
     "topicId": "cne_p005",
     "difficulty": "basic",
     "type": "choice",
-    "prompt": "「hi」的中文意思是哪一个？",
+    "prompt": "「hi」是打招呼的词，它的中文意思是哪一个？",
     "choices": [
       {
         "key": "A",
@@ -53684,12 +53684,12 @@
       },
       {
         "key": "D",
-        "text": "嗨"
+        "text": "对不起"
       }
     ],
-    "answer": "D",
-    "explanation": "hi 的意思是嗨。",
-    "verify": "\"嗨\""
+    "answer": "A",
+    "explanation": "hi 的意思是你好。",
+    "verify": "\"你好\""
   },
   {
     "id": "cne_p005_q3",
