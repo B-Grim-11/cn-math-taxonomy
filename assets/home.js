@@ -1,3 +1,22 @@
+/* 「赞助维护」弹层：展示微信收款码。 */
+(function () {
+  'use strict';
+  var modal = document.getElementById('sponsor-modal');
+  var openBtn = document.getElementById('sponsor-open');
+  if (!modal || !openBtn) return;
+  var dialog = modal.querySelector('.sponsor-dialog');
+  var closeBtn = document.getElementById('sponsor-close');
+  function open() { modal.hidden = false; document.addEventListener('keydown', onKey); closeBtn.focus(); }
+  function close() { modal.hidden = true; document.removeEventListener('keydown', onKey); openBtn.focus(); }
+  function onKey(e) {
+    if (e.key === 'Escape') { e.preventDefault(); close(); }
+    else if (e.key === 'Tab') { e.preventDefault(); closeBtn.focus(); }
+  }
+  openBtn.addEventListener('click', open);
+  closeBtn.addEventListener('click', close);
+  modal.addEventListener('click', function (e) { if (!dialog.contains(e.target)) close(); });
+})();
+
 /* 首页：统计和年级入口都从 data/*.json 计算，不写死数量。 */
 (function () {
   'use strict';

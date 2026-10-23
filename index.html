@@ -53,6 +53,9 @@
       <a class="nav-link" href="diagnose/">诊断</a>
       <a class="nav-link" href="children/">档案</a>
       <a class="nav-link" href="https://github.com/xiaoyang111222/cn-math-taxonomy" target="_blank" rel="noopener noreferrer">关于</a>
+      <button type="button" class="nav-link sponsor-btn" id="sponsor-open" aria-haspopup="dialog" aria-controls="sponsor-modal">
+        <svg class="sponsor-ico" viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M8 14.2 2.3 8.6a3.5 3.5 0 0 1 5-4.9L8 4.4l.7-.7a3.5 3.5 0 0 1 5 4.9z"/></svg>赞助维护
+      </button>
     </div>
   </nav>
 </header>
@@ -108,6 +111,20 @@
 <footer class="site-footer">
   <p><a href="https://github.com/xiaoyang111222/cn-math-taxonomy/issues/new/choose">提交 Issue</a></p>
 </footer>
+<div class="sponsor-modal" id="sponsor-modal" hidden>
+  <div class="sponsor-backdrop" data-sponsor-close></div>
+  <div class="sponsor-dialog" role="dialog" aria-modal="true" aria-labelledby="sponsor-title" aria-describedby="sponsor-desc" tabindex="-1">
+    <h2 id="sponsor-title">赞助维护</h2>
+    <p id="sponsor-desc">扫码自愿赞助，感谢支持本站维护。</p>
+    <div class="sponsor-qr-grid">
+      <figure class="sponsor-qr">
+        <img src="assets/sponsor/wechat.png" alt="微信收款码" width="1118" height="1524" loading="lazy" decoding="async">
+        <figcaption>微信</figcaption>
+      </figure>
+    </div>
+    <button type="button" class="btn btn-primary" id="sponsor-close">关闭</button>
+  </div>
+</div>
 <script src="assets/home.js"></script>
 <script src="assets/stats-config.js"></script>
 <script src="assets/stats.js"></script>
