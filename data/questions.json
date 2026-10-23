@@ -88,28 +88,28 @@
     "topicId": "cnm_p002",
     "difficulty": "standard",
     "type": "choice",
-    "prompt": "5－3 的得数是哪一个？",
+    "prompt": "盘子里有 4 个苹果，碗里有 2 个梨。哪种水果多？",
     "choices": [
       {
         "key": "A",
-        "text": "1"
+        "text": "苹果多"
       },
       {
         "key": "B",
-        "text": "3"
+        "text": "梨多"
       },
       {
         "key": "C",
-        "text": "5"
+        "text": "一样多"
       },
       {
         "key": "D",
-        "text": "2"
+        "text": "无法比较"
       }
     ],
-    "answer": "D",
-    "explanation": "5－3＝2。",
-    "verify": "5-3"
+    "answer": "A",
+    "explanation": "4 比 2 大，所以苹果多。",
+    "verify": "'苹果多'"
   },
   {
     "id": "cnm_p003_q1",
@@ -468,28 +468,28 @@
     "topicId": "cnm_p009",
     "difficulty": "standard",
     "type": "choice",
-    "prompt": "8－5 的得数是哪一个？",
+    "prompt": "比 7 大又比 9 小的数是几？",
     "choices": [
       {
         "key": "A",
-        "text": "2"
+        "text": "6"
       },
       {
         "key": "B",
-        "text": "3"
+        "text": "7"
       },
       {
         "key": "C",
-        "text": "4"
+        "text": "8"
       },
       {
         "key": "D",
-        "text": "13"
+        "text": "9"
       }
     ],
-    "answer": "B",
-    "explanation": "8－5＝3。",
-    "verify": "8-5"
+    "answer": "C",
+    "explanation": "7、8、9 里，比 7 大又比 9 小的只有 8。",
+    "verify": "8"
   },
   {
     "id": "cnm_p010_q1",
@@ -1607,28 +1607,28 @@
     "topicId": "cnm_p029",
     "difficulty": "standard",
     "type": "choice",
-    "prompt": "50－20 的得数是哪一个？",
+    "prompt": "在 47、74、39、58 这几个数中，最大的数是几？",
     "choices": [
       {
         "key": "A",
-        "text": "20"
+        "text": "47"
       },
       {
         "key": "B",
-        "text": "40"
+        "text": "74"
       },
       {
         "key": "C",
-        "text": "70"
+        "text": "39"
       },
       {
         "key": "D",
-        "text": "30"
+        "text": "58"
       }
     ],
-    "answer": "D",
-    "explanation": "50－20＝30。",
-    "verify": "50-20"
+    "answer": "B",
+    "explanation": "先比十位：7 最大，所以 74 最大。",
+    "verify": "74"
   },
   {
     "id": "cnm_p030_q1",
@@ -2901,28 +2901,28 @@
     "topicId": "cnm_p054",
     "difficulty": "standard",
     "type": "choice",
-    "prompt": "4000－1500 的得数是哪一个？",
+    "prompt": "下面四个数中，最大的是哪一个？",
     "choices": [
       {
         "key": "A",
-        "text": "1500"
+        "text": "3986"
       },
       {
         "key": "B",
-        "text": "3500"
+        "text": "4012"
       },
       {
         "key": "C",
-        "text": "2500"
+        "text": "4001"
       },
       {
         "key": "D",
-        "text": "5500"
+        "text": "998"
       }
     ],
-    "answer": "C",
-    "explanation": "4000－1500＝2500。",
-    "verify": "4000-1500"
+    "answer": "B",
+    "explanation": "998 是三位数最小；其余是四位数，先比千位，3 最小，4012 和 4001 千位相同，再比百位、十位，4012 最大。",
+    "verify": "4012"
   },
   {
     "id": "cnm_p055_q1",
@@ -5666,28 +5666,28 @@
     "topicId": "cnm_p110",
     "difficulty": "standard",
     "type": "choice",
-    "prompt": "90÷5 的得数是哪一个？",
+    "prompt": "两个因数的积是 72，其中一个因数是 8，另一个因数是多少？",
     "choices": [
       {
         "key": "A",
-        "text": "16"
+        "text": "64"
       },
       {
         "key": "B",
-        "text": "19"
+        "text": "80"
       },
       {
         "key": "C",
-        "text": "18"
+        "text": "9"
       },
       {
         "key": "D",
-        "text": "20"
+        "text": "7"
       }
     ],
     "answer": "C",
-    "explanation": "90÷5＝18。",
-    "verify": "90/5"
+    "explanation": "积除以一个因数等于另一个因数，72÷8＝9。",
+    "verify": "72/8"
   },
   {
     "id": "cnm_p111_q1",
@@ -5724,7 +5724,7 @@
     "topicId": "cnm_p111",
     "difficulty": "standard",
     "type": "choice",
-    "prompt": "12×5 的得数是哪一个？",
+    "prompt": "每支钢笔 12 元，买 5 支，一共多少元？",
     "choices": [
       {
         "key": "A",
@@ -5744,7 +5744,7 @@
       }
     ],
     "answer": "D",
-    "explanation": "每盒 12 支，5 盒是 60 支。",
+    "explanation": "总价＝单价×数量，12×5＝60（元）。",
     "verify": "12*5"
   },
   {
@@ -6284,28 +6284,28 @@
     "topicId": "cnm_p121",
     "difficulty": "standard",
     "type": "choice",
-    "prompt": "9＋1 的得数是哪一个？",
+    "prompt": "把 7.96 保留一位小数，近似数是多少？",
     "choices": [
       {
         "key": "A",
-        "text": "10"
+        "text": "7.9"
       },
       {
         "key": "B",
-        "text": "8"
+        "text": "8.0"
       },
       {
         "key": "C",
-        "text": "11"
+        "text": "7.0"
       },
       {
         "key": "D",
-        "text": "19"
+        "text": "8.9"
       }
     ],
-    "answer": "A",
-    "explanation": "7.96 保留一位小数，百分位 6 要进位，十分位 9 再进到个位，近似数是 8.0。这里先算进位用的 9＋1。",
-    "verify": "9+1"
+    "answer": "B",
+    "explanation": "看百分位 6，要向十分位进 1，十分位 9 满十进到个位，所以近似数是 8.0。",
+    "verify": "8.0"
   },
   {
     "id": "cnm_p122_q1",
@@ -6356,28 +6356,28 @@
     "topicId": "cnm_p122",
     "difficulty": "standard",
     "type": "choice",
-    "prompt": "5＋5＋5 的得数是哪一个？",
+    "prompt": "一个三角形的三条边都是 5 厘米，它是什么三角形？",
     "choices": [
       {
         "key": "A",
-        "text": "10"
+        "text": "直角三角形"
       },
       {
         "key": "B",
-        "text": "12"
+        "text": "钝角三角形"
       },
       {
         "key": "C",
-        "text": "20"
+        "text": "三条边长度都不同的三角形"
       },
       {
         "key": "D",
-        "text": "15"
+        "text": "等边三角形"
       }
     ],
     "answer": "D",
-    "explanation": "等边三角形三条边都是 5 厘米，周长 15 厘米。",
-    "verify": "5+5+5"
+    "explanation": "三条边都相等的三角形是等边三角形。",
+    "verify": "'等边三角形'"
   },
   {
     "id": "cnm_p123_q1",
@@ -6428,28 +6428,28 @@
     "topicId": "cnm_p123",
     "difficulty": "standard",
     "type": "choice",
-    "prompt": "6＋2 的得数是哪一个？",
+    "prompt": "下面四组线段，哪一组能围成三角形？",
     "choices": [
       {
         "key": "A",
-        "text": "4"
+        "text": "2 厘米、3 厘米、6 厘米"
       },
       {
         "key": "B",
-        "text": "7"
+        "text": "3 厘米、4 厘米、5 厘米"
       },
       {
         "key": "C",
-        "text": "8"
+        "text": "1 厘米、2 厘米、3 厘米"
       },
       {
         "key": "D",
-        "text": "12"
+        "text": "4 厘米、4 厘米、9 厘米"
       }
     ],
-    "answer": "C",
-    "explanation": "6＋2＝8。",
-    "verify": "6+2"
+    "answer": "B",
+    "explanation": "3＋4＝7＞5，3＋5＞4，4＋5＞3，任意两边之和都大于第三边，能围成三角形；其余三组都有两边之和不大于第三边。",
+    "verify": "'3 厘米、4 厘米、5 厘米'"
   },
   {
     "id": "cnm_p124_q1",
@@ -6688,28 +6688,28 @@
     "topicId": "cnm_p127",
     "difficulty": "standard",
     "type": "choice",
-    "prompt": "6＋6 的得数是哪一个？",
+    "prompt": "下面哪个图形是轴对称图形？",
     "choices": [
       {
         "key": "A",
-        "text": "12"
+        "text": "不是长方形、菱形的平行四边形"
       },
       {
         "key": "B",
-        "text": "10"
+        "text": "两腰不相等的梯形"
       },
       {
         "key": "C",
-        "text": "11"
+        "text": "等腰三角形"
       },
       {
         "key": "D",
-        "text": "16"
+        "text": "三条边长度都不同的三角形"
       }
     ],
-    "answer": "A",
-    "explanation": "左右各 6 格，一共 12 格。",
-    "verify": "6+6"
+    "answer": "C",
+    "explanation": "等腰三角形沿底边上的高对折，两边能完全重合，是轴对称图形；其余三种图形没有对称轴。",
+    "verify": "'等腰三角形'"
   },
   {
     "id": "cnm_p128_q1",
@@ -6760,7 +6760,7 @@
     "topicId": "cnm_p128",
     "difficulty": "standard",
     "type": "choice",
-    "prompt": "8－3 的得数是哪一个？",
+    "prompt": "方格纸上一个点在第 8 格，向左平移 3 格后，到了第几格？",
     "choices": [
       {
         "key": "A",
@@ -6780,7 +6780,7 @@
       }
     ],
     "answer": "D",
-    "explanation": "向左平移 3 格，从第 8 格到第 5 格。",
+    "explanation": "向左平移 3 格，从第 8 格到第 5 格，8－3＝5。",
     "verify": "8-3"
   },
   {
@@ -6872,7 +6872,7 @@
     "topicId": "cnm_p130",
     "difficulty": "standard",
     "type": "choice",
-    "prompt": "20＋14 的得数是哪一个？",
+    "prompt": "复式条形统计图中，跳绳这一项里，男生的直条表示 20 人，女生的直条表示 14 人。喜欢跳绳的一共有多少人？",
     "choices": [
       {
         "key": "A",
@@ -6892,7 +6892,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "20＋14＝34。",
+    "explanation": "同一项目上两组数据相加：20＋14＝34（人）。",
     "verify": "20+14"
   },
   {
@@ -6944,7 +6944,7 @@
     "topicId": "cnm_p131",
     "difficulty": "standard",
     "type": "choice",
-    "prompt": "10÷2 的得数是哪一个？",
+    "prompt": "笼子里有鸡和兔共 8 只，共 26 条腿。假设全是鸡，多出的 10 条腿是兔多出来的，每只兔比鸡多 2 条腿，兔有多少只？",
     "choices": [
       {
         "key": "A",
@@ -6964,7 +6964,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "多出 10 条腿，每只兔多 2 条，兔有 5 只。",
+    "explanation": "多出 10 条腿，每只兔多 2 条，兔有 10÷2＝5 只。",
     "verify": "10/2"
   },
   {
@@ -7228,10 +7228,10 @@
     "topicId": "cnm_p136",
     "difficulty": "basic",
     "type": "numeric",
-    "prompt": "点在第 4 列。4 的个位是几？",
-    "answer": "4",
-    "explanation": "列数是 4，个位就是 4。",
-    "verify": "4"
+    "prompt": "点 A 的位置用数对表示是（6，2）。点 A 在第几列？",
+    "answer": "6",
+    "explanation": "数对先写列、再写行，（6，2）的第一个数 6 是列数，点 A 在第 6 列。",
+    "verify": "6"
   },
   {
     "id": "cnm_p136_q3",
@@ -7580,28 +7580,28 @@
     "topicId": "cnm_p141",
     "difficulty": "standard",
     "type": "choice",
-    "prompt": "7－3 的得数是哪一个？",
+    "prompt": "盒子里有 6 个白球和 2 个黑球，任意摸出 1 个球，摸到哪种球的可能性大？",
     "choices": [
       {
         "key": "A",
-        "text": "3"
+        "text": "白球"
       },
       {
         "key": "B",
-        "text": "5"
+        "text": "黑球"
       },
       {
         "key": "C",
-        "text": "4"
+        "text": "两种一样大"
       },
       {
         "key": "D",
-        "text": "10"
+        "text": "不可能摸到白球"
       }
     ],
-    "answer": "C",
-    "explanation": "7－3＝4。",
-    "verify": "7-3"
+    "answer": "A",
+    "explanation": "白球的个数比黑球多，所以摸到白球的可能性大。",
+    "verify": "'白球'"
   },
   {
     "id": "cnm_p142_q1",
@@ -7652,28 +7652,28 @@
     "topicId": "cnm_p142",
     "difficulty": "standard",
     "type": "choice",
-    "prompt": "8×7 的得数是哪一个？",
+    "prompt": "每支铅笔 a 元，买 5 支，一共要付多少元？",
     "choices": [
       {
         "key": "A",
-        "text": "15"
+        "text": "a＋5 元"
       },
       {
         "key": "B",
-        "text": "56"
+        "text": "5×a 元"
       },
       {
         "key": "C",
-        "text": "48"
+        "text": "a÷5 元"
       },
       {
         "key": "D",
-        "text": "64"
+        "text": "a－5 元"
       }
     ],
     "answer": "B",
-    "explanation": "a＝7 时，8×a＝56。",
-    "verify": "8*7"
+    "explanation": "总价＝单价×数量，所以是 5×a 元（也可写成 5a 元）。",
+    "verify": "'5×a 元'"
   },
   {
     "id": "cnm_p143_q1",
@@ -7710,28 +7710,28 @@
     "topicId": "cnm_p143",
     "difficulty": "standard",
     "type": "choice",
-    "prompt": "30－9 的得数是哪一个？",
+    "prompt": "下面哪个式子是方程？",
     "choices": [
       {
         "key": "A",
-        "text": "21"
+        "text": "12＋8＝20"
       },
       {
         "key": "B",
-        "text": "19"
+        "text": "x＋9＞12"
       },
       {
         "key": "C",
-        "text": "20"
+        "text": "x＋9＝30"
       },
       {
         "key": "D",
-        "text": "39"
+        "text": "30－9＜25"
       }
     ],
-    "answer": "A",
-    "explanation": "x＋9＝30，x＝21。",
-    "verify": "30-9"
+    "answer": "C",
+    "explanation": "方程必须是含有未知数的等式。x＋9＝30 含有未知数 x，又是等式；12＋8＝20 没有未知数；x＋9＞12 和 30－9＜25 都不是等式。",
+    "verify": "'x＋9＝30'"
   },
   {
     "id": "cnm_p144_q1",
@@ -7782,28 +7782,28 @@
     "topicId": "cnm_p144",
     "difficulty": "standard",
     "type": "choice",
-    "prompt": "7＋8 的得数是哪一个？",
+    "prompt": "已知 a＝b，等式两边同时加上 5，下面哪个等式仍然成立？",
     "choices": [
       {
         "key": "A",
-        "text": "1"
+        "text": "a＋5＝b"
       },
       {
         "key": "B",
-        "text": "15"
+        "text": "a＋5＝b＋5"
       },
       {
         "key": "C",
-        "text": "14"
+        "text": "a＝b＋5"
       },
       {
         "key": "D",
-        "text": "56"
+        "text": "a－5＝b＋5"
       }
     ],
     "answer": "B",
-    "explanation": "x－8＝7，x＝15。",
-    "verify": "7+8"
+    "explanation": "等式两边同时加上同一个数，左右仍然相等，所以 a＋5＝b＋5。",
+    "verify": "'a＋5＝b＋5'"
   },
   {
     "id": "cnm_p145_q1",
@@ -7898,28 +7898,28 @@
     "topicId": "cnm_p146",
     "difficulty": "standard",
     "type": "choice",
-    "prompt": "50－18 的得数是哪一个？",
+    "prompt": "小明原来有 x 张邮票，又买了 18 张，现在一共有 50 张。下面哪个方程列得对？",
     "choices": [
       {
         "key": "A",
-        "text": "28"
+        "text": "x－18＝50"
       },
       {
         "key": "B",
-        "text": "32"
+        "text": "x＋18＝50"
       },
       {
         "key": "C",
-        "text": "42"
+        "text": "18x＝50"
       },
       {
         "key": "D",
-        "text": "68"
+        "text": "x÷18＝50"
       }
     ],
     "answer": "B",
-    "explanation": "x＋18＝50，x＝32。",
-    "verify": "50-18"
+    "explanation": "等量关系是：原来的张数＋买的张数＝现在的张数，所以 x＋18＝50，解得 x＝32。",
+    "verify": "'x＋18＝50'"
   },
   {
     "id": "cnm_p147_q1",
@@ -8133,7 +8133,7 @@
     "topicId": "cnm_p150",
     "difficulty": "standard",
     "type": "choice",
-    "prompt": "40－15 的得数是哪一个？",
+    "prompt": "在一张面积是 40 平方厘米的长方形纸上剪掉一个面积是 15 平方厘米的小长方形，剩下的组合图形面积是多少平方厘米？",
     "choices": [
       {
         "key": "A",
@@ -8153,7 +8153,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "40－15＝25。",
+    "explanation": "组合图形可以用大图形面积减去剪掉部分的面积：40－15＝25（平方厘米）。",
     "verify": "40-15"
   },
   {
@@ -8423,28 +8423,28 @@
     "topicId": "cnm_p154",
     "difficulty": "standard",
     "type": "choice",
-    "prompt": "25÷5 的得数是哪一个？",
+    "prompt": "下面哪个数既是 2 的倍数，又是 5 的倍数？",
     "choices": [
       {
         "key": "A",
-        "text": "4"
+        "text": "25"
       },
       {
         "key": "B",
-        "text": "6"
+        "text": "12"
       },
       {
         "key": "C",
-        "text": "10"
+        "text": "30"
       },
       {
         "key": "D",
-        "text": "5"
+        "text": "45"
       }
     ],
-    "answer": "D",
-    "explanation": "25÷5＝5。",
-    "verify": "25/5"
+    "answer": "C",
+    "explanation": "个位是 0 的数既是 2 的倍数又是 5 的倍数。25 和 45 个位是 5，只是 5 的倍数；12 个位是 2，只是 2 的倍数；30 个位是 0，两者都是。",
+    "verify": "30"
   },
   {
     "id": "cnm_p155_q1",
@@ -8553,28 +8553,28 @@
     "topicId": "cnm_p156",
     "difficulty": "standard",
     "type": "choice",
-    "prompt": "7＋1 的得数是哪一个？",
+    "prompt": "下面哪个数是奇数？",
     "choices": [
       {
         "key": "A",
-        "text": "6"
+        "text": "14"
       },
       {
         "key": "B",
-        "text": "7"
+        "text": "27"
       },
       {
         "key": "C",
-        "text": "8"
+        "text": "40"
       },
       {
         "key": "D",
-        "text": "10"
+        "text": "66"
       }
     ],
-    "answer": "C",
-    "explanation": "7 的下一个偶数是 8。",
-    "verify": "7+1"
+    "answer": "B",
+    "explanation": "不能被 2 整除的数是奇数。27 的个位是 7，不是 2 的倍数，所以是奇数；14、40、66 的个位是 4、0、6，都是偶数。",
+    "verify": "27"
   },
   {
     "id": "cnm_p157_q1",
@@ -8697,7 +8697,7 @@
     "topicId": "cnm_p158",
     "difficulty": "standard",
     "type": "choice",
-    "prompt": "20÷5 的得数是哪一个？",
+    "prompt": "12 和 18 的最大公因数是几？",
     "choices": [
       {
         "key": "A",
@@ -8705,20 +8705,20 @@
       },
       {
         "key": "B",
-        "text": "4"
+        "text": "6"
       },
       {
         "key": "C",
-        "text": "5"
+        "text": "9"
       },
       {
         "key": "D",
-        "text": "6"
+        "text": "36"
       }
     ],
     "answer": "B",
-    "explanation": "20 和 15 的最大公因数是 5，20÷5＝4。",
-    "verify": "20/5"
+    "explanation": "12 的因数有 1、2、3、4、6、12，18 的因数有 1、2、3、6、9、18，公因数有 1、2、3、6，最大的是 6。",
+    "verify": "6"
   },
   {
     "id": "cnm_p159_q1",
@@ -8843,7 +8843,7 @@
     "topicId": "cnm_p160",
     "difficulty": "standard",
     "type": "choice",
-    "prompt": "12－4 的得数是哪一个？",
+    "prompt": "一个正方体一共有几条棱？",
     "choices": [
       {
         "key": "A",
@@ -8851,20 +8851,20 @@
       },
       {
         "key": "B",
-        "text": "7"
-      },
-      {
-        "key": "C",
         "text": "8"
       },
       {
+        "key": "C",
+        "text": "12"
+      },
+      {
         "key": "D",
-        "text": "16"
+        "text": "4"
       }
     ],
     "answer": "C",
-    "explanation": "12 条棱里已经数了 4 条，还剩 8 条。",
-    "verify": "12-4"
+    "explanation": "正方体有上、下两个面各 4 条棱，加上连接上下的 4 条棱，一共 12 条棱。",
+    "verify": "12"
   },
   {
     "id": "cnm_p161_q1",
@@ -8974,28 +8974,28 @@
     "topicId": "cnm_p162",
     "difficulty": "standard",
     "type": "choice",
-    "prompt": "5×1000 的得数是哪一个？",
+    "prompt": "下面哪个物体的体积适合用「立方米」作单位？",
     "choices": [
       {
         "key": "A",
-        "text": "500"
+        "text": "一块橡皮"
       },
       {
         "key": "B",
-        "text": "5000"
+        "text": "一个文具盒"
       },
       {
         "key": "C",
-        "text": "1500"
+        "text": "一间教室"
       },
       {
         "key": "D",
-        "text": "50000"
+        "text": "一个火柴盒"
       }
     ],
-    "answer": "B",
-    "explanation": "5 立方分米＝5000 立方厘米。",
-    "verify": "5*1000"
+    "answer": "C",
+    "explanation": "立方米是较大的体积单位，教室的空间大，适合用立方米；橡皮、文具盒、火柴盒较小，用立方厘米或立方分米。",
+    "verify": "'一间教室'"
   },
   {
     "id": "cnm_p163_q1",
@@ -9093,28 +9093,28 @@
     "topicId": "cnm_p164",
     "difficulty": "standard",
     "type": "choice",
-    "prompt": "2×500 的得数是哪一个？",
+    "prompt": "一瓶饮料的容积是 500 毫升，2 瓶一共是多少升？",
     "choices": [
       {
         "key": "A",
-        "text": "250"
+        "text": "1 升"
       },
       {
         "key": "B",
-        "text": "1000"
+        "text": "2 升"
       },
       {
         "key": "C",
-        "text": "700"
+        "text": "10 升"
       },
       {
         "key": "D",
-        "text": "1500"
+        "text": "100 升"
       }
     ],
-    "answer": "B",
-    "explanation": "2×500＝1000。",
-    "verify": "2*500"
+    "answer": "A",
+    "explanation": "500×2＝1000 毫升，1 升＝1000 毫升，所以是 1 升。",
+    "verify": "'1 升'"
   },
   {
     "id": "cnm_p165_q1",
@@ -9737,28 +9737,28 @@
     "topicId": "cnm_p175",
     "difficulty": "standard",
     "type": "choice",
-    "prompt": "8＋6＋4 的得数是哪一个？",
+    "prompt": "某商店周一到周三卖出的冰激凌分别是 8 个、6 个、4 个。画成折线统计图，这条折线是怎样变化的？",
     "choices": [
       {
         "key": "A",
-        "text": "14"
+        "text": "逐渐上升"
       },
       {
         "key": "B",
-        "text": "16"
+        "text": "逐渐下降"
       },
       {
         "key": "C",
-        "text": "18"
+        "text": "先上升后下降"
       },
       {
         "key": "D",
-        "text": "20"
+        "text": "保持不变"
       }
     ],
-    "answer": "C",
-    "explanation": "三天分别是 8、6、4，一共 18。",
-    "verify": "8+6+4"
+    "answer": "B",
+    "explanation": "8、6、4 一天比一天少，折线从左到右向下走，是逐渐下降。",
+    "verify": "'逐渐下降'"
   },
   {
     "id": "cnm_p176_q1",
@@ -10041,28 +10041,28 @@
     "topicId": "cnm_p180",
     "difficulty": "standard",
     "type": "choice",
-    "prompt": "150＋250 的得数是哪一个？",
+    "prompt": "学校在小明家正东方向 150 米处，公园在学校正东方向 250 米处。公园在小明家的哪个方向、多远？",
     "choices": [
       {
         "key": "A",
-        "text": "300"
+        "text": "正东方向 400 米"
       },
       {
         "key": "B",
-        "text": "400"
+        "text": "正西方向 400 米"
       },
       {
         "key": "C",
-        "text": "350"
+        "text": "正东方向 100 米"
       },
       {
         "key": "D",
-        "text": "500"
+        "text": "正北方向 400 米"
       }
     ],
-    "answer": "B",
-    "explanation": "150＋250＝400。",
-    "verify": "150+250"
+    "answer": "A",
+    "explanation": "两段都向正东，方向相同，距离相加：150＋250＝400（米），公园在小明家正东方向 400 米处。",
+    "verify": "'正东方向 400 米'"
   },
   {
     "id": "cnm_p181_q1",
@@ -10099,28 +10099,28 @@
     "topicId": "cnm_p181",
     "difficulty": "standard",
     "type": "choice",
-    "prompt": "90＋60 的得数是哪一个？",
+    "prompt": "小华从家先向东走 90 米到学校，再向北走 60 米到图书馆。从图书馆沿原路回家，第一段怎么走？",
     "choices": [
       {
         "key": "A",
-        "text": "120"
+        "text": "向东走 90 米"
       },
       {
         "key": "B",
-        "text": "140"
+        "text": "向南走 60 米"
       },
       {
         "key": "C",
-        "text": "160"
+        "text": "向北走 60 米"
       },
       {
         "key": "D",
-        "text": "150"
+        "text": "向西走 90 米"
       }
     ],
-    "answer": "D",
-    "explanation": "90＋60＝150。",
-    "verify": "90+60"
+    "answer": "B",
+    "explanation": "沿原路返回，要先倒着走后一段，方向相反：向北的 60 米要改成向南走 60 米，再向西走 90 米。",
+    "verify": "'向南走 60 米'"
   },
   {
     "id": "cnm_p182_q1",
@@ -10535,28 +10535,28 @@
     "topicId": "cnm_p188",
     "difficulty": "standard",
     "type": "choice",
-    "prompt": "6×2 的得数是哪一个？",
+    "prompt": "在同一个圆里，下面哪个说法是对的？",
     "choices": [
       {
         "key": "A",
-        "text": "8"
+        "text": "半径是直径的 2 倍"
       },
       {
         "key": "B",
-        "text": "12"
+        "text": "直径是半径的 2 倍"
       },
       {
         "key": "C",
-        "text": "10"
+        "text": "半径比直径长"
       },
       {
         "key": "D",
-        "text": "16"
+        "text": "所有半径的长度都不相等"
       }
     ],
     "answer": "B",
-    "explanation": "半径 6 厘米，直径 12 厘米。",
-    "verify": "6*2"
+    "explanation": "同一个圆里，所有半径都相等，直径等于半径的 2 倍，也就是半径是直径的一半。",
+    "verify": "'直径是半径的 2 倍'"
   },
   {
     "id": "cnm_p189_q1",
@@ -10768,28 +10768,28 @@
     "topicId": "cnm_p193",
     "difficulty": "standard",
     "type": "choice",
-    "prompt": "60÷30 的得数是哪一个？",
+    "prompt": "扇形是由什么围成的图形？",
     "choices": [
       {
         "key": "A",
-        "text": "1"
+        "text": "一条半径和一条直径"
       },
       {
         "key": "B",
-        "text": "3"
+        "text": "两条半径和一段弧"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "两条直径和一段弧"
       },
       {
         "key": "D",
-        "text": "90"
+        "text": "两条弧"
       }
     ],
-    "answer": "C",
-    "explanation": "60 度是 30 度的 2 倍。",
-    "verify": "60/30"
+    "answer": "B",
+    "explanation": "扇形是由圆心角的两条半径和圆心角所对的一段弧围成的图形。",
+    "verify": "'两条半径和一段弧'"
   },
   {
     "id": "cnm_p194_q1",
@@ -11270,28 +11270,28 @@
     "topicId": "cnm_p201",
     "difficulty": "standard",
     "type": "choice",
-    "prompt": "18＋4 的得数是哪一个？",
+    "prompt": "存入 200 元记作＋200 元，那么取出 50 元应该记作什么？",
     "choices": [
       {
         "key": "A",
-        "text": "14"
+        "text": "＋50 元"
       },
       {
         "key": "B",
-        "text": "22"
+        "text": "－50 元"
       },
       {
         "key": "C",
-        "text": "18"
+        "text": "－200 元"
       },
       {
         "key": "D",
-        "text": "24"
+        "text": "＋200 元"
       }
     ],
     "answer": "B",
-    "explanation": "室温 18 度，冰箱零下 4 度，相差 22 度。",
-    "verify": "18+4"
+    "explanation": "存入和取出是意义相反的两种量，存入记作正数，取出就记作负数，所以取出 50 元记作－50 元。",
+    "verify": "'－50 元'"
   },
   {
     "id": "cnm_p202_q1",
@@ -11590,28 +11590,28 @@
     "topicId": "cnm_p206",
     "difficulty": "standard",
     "type": "choice",
-    "prompt": "5×2 的得数是哪一个？",
+    "prompt": "下面哪个物体的形状是圆柱？",
     "choices": [
       {
         "key": "A",
-        "text": "10"
+        "text": "篮球"
       },
       {
         "key": "B",
-        "text": "7"
+        "text": "易拉罐"
       },
       {
         "key": "C",
-        "text": "8"
+        "text": "魔方"
       },
       {
         "key": "D",
-        "text": "15"
+        "text": "漏斗"
       }
     ],
-    "answer": "A",
-    "explanation": "半径 5 厘米，直径 10 厘米。",
-    "verify": "5*2"
+    "answer": "B",
+    "explanation": "易拉罐有两个完全相同的圆形底面和一个侧面，是圆柱；篮球是球，魔方是正方体，漏斗近似圆锥。",
+    "verify": "'易拉罐'"
   },
   {
     "id": "cnm_p207_q1",
@@ -11820,28 +11820,28 @@
     "topicId": "cnm_p210",
     "difficulty": "standard",
     "type": "choice",
-    "prompt": "5×8 的得数是哪一个？",
+    "prompt": "下面哪一组中的两个比可以组成比例？",
     "choices": [
       {
         "key": "A",
-        "text": "40"
+        "text": "3：5 和 6：9"
       },
       {
         "key": "B",
-        "text": "13"
+        "text": "6：3 和 8：4"
       },
       {
         "key": "C",
-        "text": "30"
+        "text": "2：5 和 4：9"
       },
       {
         "key": "D",
-        "text": "45"
+        "text": "1：4 和 2：9"
       }
     ],
-    "answer": "A",
-    "explanation": "5：4＝10：8 的外项之积是 40。",
-    "verify": "5*8"
+    "answer": "B",
+    "explanation": "6：3＝2，8：4＝2，两个比的比值相等，可以组成比例 6：3＝8：4（外项积 6×4＝24，内项积 3×8＝24）。其余各组比值都不相等。",
+    "verify": "'6：3 和 8：4'"
   },
   {
     "id": "cnm_p211_q1",

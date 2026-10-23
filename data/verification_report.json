@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-23T11:12:16",
+  "generated_at": "2026-10-23T15:23:39",
   "source": "data/questions.json",
   "total_questions": 7431,
   "by_type": {
-    "numeric": 2671,
-    "choice": 4731,
+    "numeric": 2672,
+    "choice": 4730,
     "self": 6,
     "short": 23
   },
