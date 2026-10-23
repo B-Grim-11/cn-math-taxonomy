@@ -1038,7 +1038,7 @@ test('英语题：自包含、不引用课标或上一题，答案能被判对',
 });
 
 test('物理：人教版八上 28、八下 24、九全 40，只在物理内部连边，mathLinks 指向数学，整册按学科分开', () => {
-  const phy = topics.filter((t) => String(t.id).startsWith('cnp_'));
+  const phy = topics.filter((t) => /^cnp_\d/.test(String(t.id)));
   const count = (g, s) => phy.filter((t) => t.grade === g && t.semester === s).length;
   assert.strictEqual(phy.length, 92);
   assert.strictEqual(count(8, '上'), 28);
@@ -1049,10 +1049,10 @@ test('物理：人教版八上 28、八下 24、九全 40，只在物理内部�
   assert.ok(phy.every((t) => E.parseChapter(t.chapter).section && /^(八上|八下|九全)$/.test(E.parseChapter(t.chapter).volume)));
   assert.ok(phy.every((t) => (t.standards || []).length >= 1 && t.standards.every((s) => s.id.startsWith('cps-2022:'))));
   const order = new Map(phy.map((t, i) => [t.id, i]));
-  const phyDeps = deps.filter((d) => String(d.topicId).startsWith('cnp_') || String(d.prerequisiteId).startsWith('cnp_'));
+  const phyDeps = deps.filter((d) => /^cnp_\d/.test(String(d.topicId)));
   assert.ok(phyDeps.length >= 92);
   phyDeps.forEach((d) => {
-    assert.ok(String(d.topicId).startsWith('cnp_') && String(d.prerequisiteId).startsWith('cnp_'), '跨学科边 ' + d.topicId);
+    assert.ok(/^cnp_\d/.test(String(d.prerequisiteId)), '初中物理的先修必须也是初中物理 ' + d.topicId);
     assert.ok(order.get(d.prerequisiteId) < order.get(d.topicId), d.topicId + ' 的先修不在教材前面');
   });
   const links = phy.flatMap((t) => t.mathLinks || []);
@@ -1067,9 +1067,53 @@ test('物理：人教版八上 28、八下 24、九全 40，只在物理内部�
   assert.ok(stdFile.physics && /2025/.test(stdFile.physics.title));
 });
 
+test('高中物理：必修一 27、必修二 25、必修三 37、选必一 28、选必二 26、选必三 34，先修只连物理且不指向更晚的册，整册按学科分开', () => {
+  const sen = topics.filter((t) => /^cnp_h\d/.test(String(t.id)));
+  const vols = ['必修一', '必修二', '必修三', '选必一', '选必二', '选必三'];
+  const want = [27, 25, 37, 28, 26, 34];
+  assert.strictEqual(sen.length, 177);
+  sen.forEach((t) => {
+    assert.ok(t.subject === 'physics' && E.subjectOf(t) === 'physics' && !t.external && t.semester === '上', t.id);
+    assert.ok(t.grade >= 10 && t.grade <= 15, t.id);
+    assert.ok(vols[t.grade - 10] === E.parseChapter(t.chapter).volume && E.parseChapter(t.chapter).section, t.id + ' 章节');
+    assert.ok(['物质', '运动和相互作用', '能量', '跨学科实践'].includes(t.domain), t.id);
+    assert.ok((t.standards || []).length >= 1 && t.standards.every((x) => x.id.startsWith('cps-hs-2017:')), t.id + ' 课标');
+  });
+  vols.forEach((v, i) => {
+    assert.strictEqual(sen.filter((t) => t.grade === 10 + i).length, want[i], v);
+    const g = E.gradeTargets(RG, v, 'physics');
+    assert.strictEqual(g.ids.length, want[i], v + ' 整册');
+    assert.ok(E.gradeTargets(RG, v, 'english') === null || E.gradeTargets(RG, v, 'english').ids.every((id) => id.startsWith('cne_')));
+  });
+  assert.strictEqual(E.gradeTargets(RG, '必修一', 'physics').label, '必修一（必修第一册）');
+  assert.strictEqual(E.gradeTargets(RG, '选必三', 'physics').ids.length, 34);
+  assert.ok(E.gradeTargets(RG, '八上', 'physics').ids.every((id) => /^cnp_\d/.test(id)));
+  const rank = new Map(topics.filter((t) => String(t.id).startsWith('cnp_')).map((t) => [t.id, /^cnp_h/.test(t.id) ? 100 + t.grade : t.grade]));
+  const order = new Map(sen.map((t, i) => [t.id, i]));
+  const senDeps = deps.filter((d) => /^cnp_h\d/.test(String(d.topicId)));
+  assert.ok(senDeps.length >= 400);
+  senDeps.forEach((d) => {
+    assert.ok(String(d.prerequisiteId).startsWith('cnp_'), '跨学科边 ' + d.topicId);
+    assert.ok(rank.get(d.prerequisiteId) <= rank.get(d.topicId), d.topicId + ' 的先修在更晚的册');
+    if (/^cnp_h/.test(d.prerequisiteId)) assert.ok(order.get(d.prerequisiteId) < order.get(d.topicId), d.topicId + ' 的先修不在教材前面');
+  });
+  assert.ok(deps.filter((d) => /^cnp_\d/.test(String(d.topicId))).every((d) => /^cnp_\d/.test(String(d.prerequisiteId))), '初中物理不能依赖高中');
+  assert.ok(senDeps.some((d) => /^cnp_\d/.test(String(d.prerequisiteId))), '高中应连回初中物理');
+  const links = sen.flatMap((t) => t.mathLinks || []);
+  assert.ok(links.length >= 40 && links.every((l) => String(l.id).startsWith('cnm_') && RG.byId[l.id] && l.reason));
+  const hs = stdFile.items.filter((it) => String(it.id).startsWith('cps-hs-2017:'));
+  assert.strictEqual(hs.length, 108);
+  assert.ok(hs.every((it) => it.verbatim === false && it.page_or_ref === '待核'));
+  assert.ok(stdFile.physics_senior && /2020/.test(stdFile.physics_senior.title) && /2019/.test(stdFile.physics_senior.textbook));
+  const sq = questions.filter((q) => /^cnp_h\d/.test(String(q.topicId)));
+  assert.strictEqual(sq.length, 177 * 4);
+  sq.forEach((q) => assert.ok(q.verify && !/免费|AI ?初稿/.test(q.prompt + q.explanation), q.id));
+});
+
 test('物理题：每个知识点 4 题，带单位的数值题只填数值，答案能被判对', () => {
+  const phyAll = topics.filter((t) => String(t.id).startsWith('cnp_'));
   const pq = questions.filter((q) => String(q.topicId).startsWith('cnp_'));
-  assert.strictEqual(pq.length, 92 * 4);
+  assert.strictEqual(pq.length, phyAll.length * 4);
   pq.forEach((q) => {
     assert.ok(q.type === 'numeric' || q.type === 'choice', q.id);
     assert.ok(q.verify, q.id + ' 没有 verify');
@@ -1086,7 +1130,7 @@ test('百分数题：percent 题接受 50 和 50%，不接受 0.5；不带 perce
   const pq = questions.filter((q) => q.percent === true);
   assert.ok(pq.length >= 2, 'percent 题 ' + pq.length);
   pq.forEach((q) => {
-    assert.ok(String(q.topicId).startsWith('cnp_') && q.type === 'numeric' && /百分之多少/.test(q.prompt), q.id);
+    assert.ok(String(q.topicId).startsWith('cnp_') && q.type === 'numeric' && /百分之多少|百分比|%/.test(q.prompt), q.id);
     const a = q.answer;
     assert.strictEqual(E.judgeQuestion(q, a).verdict, 'correct', q.id + ' ' + a);
     assert.strictEqual(E.judgeQuestion(q, a + '%').verdict, 'correct', q.id + ' ' + a + '%');

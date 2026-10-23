@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
-"""把初中物理草稿（phy_g8a / phy_g8b / phy_g9）编译进 data/ 下的四个文件。
+"""把物理草稿编译进 data/ 下的四个文件：初中（phy_g8a / phy_g8b / phy_g9）和高中（phy_hs_a01 … a11，见 phy_hs_build.py）。
 
-可重复运行：先删掉已有的 cnp_ 知识点、边、题目和 cps- 课标条目，再按草稿重新追加，id 按教材目录顺序固定。
-数学部分一概不动。物理与数学之间不连先修边（validate.py 禁止跨学科边），改用知识点上的 mathLinks 字段。
+可重复运行：只删掉自己负责的那一部分再重写，另一部分原样保留。
+  初中：cnp_NNN 知识点、边、题目，cps-2022: 课标条目
+  高中：cnp_hNNN 知识点、边、题目，cps-hs-2017: 课标条目
+数学、英语部分一概不动。物理与数学之间不连先修边（validate.py 禁止跨学科边），改用知识点上的 mathLinks 字段。
 
-用法：python3 scripts/phy_build.py
+用法：python3 scripts/phy_build.py                 # 初中 + 高中都重建（高中先修边可以指向初中知识点）
+      python3 scripts/phy_build.py --junior-only    # 只重建初中，已有的高中数据保持不动
+      python3 scripts/phy_build.py --senior-only    # 只重建高中，已有的初中数据保持不动
 """
 from __future__ import annotations
 
@@ -56,14 +60,18 @@ def slot(key, i):
     return int(hashlib.md5(("%s#%d" % (key, i)).encode()).hexdigest(), 16) % 4
 
 
-def main():
-    topics = [t for t in load("topics.json") if not str(t.get("id", "")).startswith("cnp_")]
-    deps = [d for d in load("dependencies.json") if not str(d.get("topicId", "")).startswith("cnp_")]
-    questions = [q for q in load("questions.json") if not str(q.get("id", "")).startswith("cnp_")]
-    standards = load("cn-curriculum-standards.json")
-    standards["items"] = [it for it in standards["items"] if not str(it.get("id", "")).startswith("cps-")]
-    math_ids = {t["id"]: t for t in topics if str(t["id"]).startswith("cnm_")}
+JR_TOPIC = re.compile(r"^cnp_\d")
+SR_TOPIC = re.compile(r"^cnp_h\d")
 
+
+def _drop(items, key, rx):
+    keep, old = [], []
+    for it in items:
+        (old if rx.match(str(it.get(key, ""))) else keep).append(it)
+    return keep, old
+
+
+def build_junior(math_ids, id_of, order, name_of):
     std_items = []
     for cid, text, page in CLAUSES:
         top, sec, num = cid.split(".")
@@ -78,10 +86,6 @@ def main():
             "text_status": "扫描 PDF 经 OCR 识别后人工校对，未与纸本逐字核对",
         })
     std_ids = {it["id"] for it in std_items}
-
-    id_of = {t["key"]: "cnp_%03d" % (i + 1) for i, t in enumerate(TOPICS)}
-    order = {t["key"]: i for i, t in enumerate(TOPICS)}
-    name_of = {t["key"]: t["name"] for t in TOPICS}
     new_topics, new_deps, new_qs = [], [], []
     errs = []
     for t in TOPICS:
@@ -143,26 +147,80 @@ def main():
             if q.get("figure"):
                 obj["figure"] = q["figure"]
             new_qs.append(obj)
-
     res = verify_all(new_qs)
-    if res["mismatch"]:
-        for m in res["mismatch"]:
-            errs.append("核验不通过 %s：%s" % (m["id"], m.get("detail")))
+    for m in res["mismatch"]:
+        errs.append("核验不通过 %s：%s" % (m["id"], m.get("detail")))
+    return dict(topics=new_topics, deps=new_deps, qs=new_qs, std_items=std_items, errs=errs, verified=len(res["auto_verified"]))
+
+
+def main():
+    only_j = "--junior-only" in sys.argv
+    only_s = "--senior-only" in sys.argv
+    if only_j and only_s:
+        print("--junior-only 和 --senior-only 不能同时用", file=sys.stderr)
+        return 2
+    do_j, do_s = not only_s, not only_j
+
+    topics_all = load("topics.json")
+    deps_all = load("dependencies.json")
+    qs_all = load("questions.json")
+    standards = load("cn-curriculum-standards.json")
+
+    topics, tj = _drop(topics_all, "id", JR_TOPIC)
+    topics, ts = _drop(topics, "id", SR_TOPIC)
+    deps, dj = _drop(deps_all, "topicId", JR_TOPIC)
+    deps, ds = _drop(deps, "topicId", SR_TOPIC)
+    questions, qj = _drop(qs_all, "id", JR_TOPIC)
+    questions, qsr = _drop(questions, "id", SR_TOPIC)
+    items = standards["items"]
+    keep_items = [it for it in items if not str(it.get("id", "")).startswith("cps-")]
+    sj = [it for it in items if str(it.get("id", "")).startswith("cps-2022:")]
+    ss = [it for it in items if str(it.get("id", "")).startswith("cps-hs-2017:")]
+    other_cps = [it for it in items if str(it.get("id", "")).startswith("cps-")
+                 and not str(it["id"]).startswith(("cps-2022:", "cps-hs-2017:"))]
+    if other_cps:
+        print("错误：出现不认识的 cps- 课标条目：%s" % other_cps[0]["id"], file=sys.stderr)
+        return 1
+    math_ids = {t["id"]: t for t in topics if str(t["id"]).startswith("cnm_")}
+
+    id_of = {t["key"]: "cnp_%03d" % (i + 1) for i, t in enumerate(TOPICS)}
+    order = {t["key"]: i for i, t in enumerate(TOPICS)}
+    name_of = {t["key"]: t["name"] for t in TOPICS}
+
+    J = build_junior(math_ids, id_of, order, name_of)
+    errs = list(J["errs"]) if do_j else []
+    S_ = None
+    if do_s:
+        import phy_hs_build  # noqa: E402
+        S_ = phy_hs_build.compile_senior(math_ids, id_of, name_of)
+        errs += S_["errs"]
     if errs:
         for e in errs:
             print("错误：" + e, file=sys.stderr)
         return 1
 
-    dump("topics.json", topics + new_topics)
-    dump("dependencies.json", deps + new_deps)
-    dump("questions.json", questions + new_qs)
-    standards["items"] = standards["items"] + std_items
-    standards["physics"] = STD_SOURCE
+    out_topics = topics + (J["topics"] if do_j else tj) + (S_["topics"] if do_s else ts)
+    out_deps = deps + (J["deps"] if do_j else dj) + (S_["deps"] if do_s else ds)
+    out_qs = questions + (J["qs"] if do_j else qj) + (S_["qs"] if do_s else qsr)
+    standards["items"] = keep_items + (J["std_items"] if do_j else sj) + (S_["std_items"] if do_s else ss)
+    if do_j:
+        standards["physics"] = STD_SOURCE
+    if do_s:
+        standards["physics_senior"] = phy_hs_build.STD_SOURCE
+    dump("topics.json", out_topics)
+    dump("dependencies.json", out_deps)
+    dump("questions.json", out_qs)
     dump("cn-curriculum-standards.json", standards)
-    print("物理：知识点 %d，先修边 %d（hard %d，soft %d），题目 %d（自动核验 %d），课标条目 %d，mathLinks %d 条（%d 个知识点）" % (
-        len(new_topics), len(new_deps), sum(d["strength"] == "hard" for d in new_deps),
-        sum(d["strength"] == "soft" for d in new_deps), len(new_qs), len(res["auto_verified"]), len(std_items),
-        sum(len(t.get("mathLinks", [])) for t in new_topics), sum(1 for t in new_topics if t.get("mathLinks"))))
+
+    def line(tag, R):
+        print("%s：知识点 %d，先修边 %d（hard %d，soft %d），题目 %d（自动核验 %d），课标条目 %d，mathLinks %d 条（%d 个知识点）" % (
+            tag, len(R["topics"]), len(R["deps"]), sum(d["strength"] == "hard" for d in R["deps"]),
+            sum(d["strength"] == "soft" for d in R["deps"]), len(R["qs"]), R["verified"], len(R["std_items"]),
+            sum(len(t.get("mathLinks", [])) for t in R["topics"]), sum(1 for t in R["topics"] if t.get("mathLinks"))))
+    if do_j:
+        line("初中物理", J)
+    if do_s:
+        line("高中物理", S_)
     return 0
 
 

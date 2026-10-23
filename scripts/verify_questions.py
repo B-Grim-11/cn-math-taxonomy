@@ -212,7 +212,12 @@ def choice_text_value(text):
 # 判断双解时数值相同且单位也相同才算重复（2.7 g/cm³ 与 2.7 kg/m³ 是不同选项）。
 PHY_UNITS = ("J/(kg·℃)", "kg/m³", "g/cm³", "kW·h", "m/s", "km/h", "N/kg", "J/kg", "kPa", "kW", "kJ", "kV", "kΩ",
              "mV", "mA", "mL", "mg", "mm", "cm³", "dm³", "m³", "cm²", "m²", "cm", "km", "μm", "nm", "min", "Hz", "dB",
-             "Pa", "kg", "℃", "Ω", "%", "m", "g", "t", "L", "s", "h", "N", "J", "W", "V", "A", "个", "倍")
+             "Pa", "kg", "℃", "Ω", "%", "m", "g", "t", "L", "s", "h", "N", "J", "W", "V", "A", "个", "倍",
+             # 高中物理
+             "m/s²", "cm/s", "rad/s", "r/min", "r/s", "rad", "°", "N·s", "kg·m/s", "N·m", "N/m", "V/m", "N/C", "C", "μC", "nC",
+             "pF", "μF", "mF", "F", "mT", "μT", "T", "Wb", "Ω·m", "mH", "μH", "H", "MHz", "kHz", "GHz", "eV", "keV", "MeV",
+             "K", "mol", "J/K", "ms", "μs", "ns", "MW", "MJ", "mW", "kN", "cm/s²", "atm", "mmHg", "MPa", "J/mol", "m/s³",
+             "kg·m²", "W/m²", "天", "年", "圈", "次", "匝", "u", "个/s")
 _PHY_RE = re.compile(r"^(-?\d+(?:\.\d+)?)\s*(" + "|".join(re.escape(u) for u in PHY_UNITS) + r")$")
 
 

@@ -117,7 +117,7 @@
     16: ['选必四', '选必四 · 选择性必修第四册']
   };
   function gradeWord(grade) {
-    if (subject === 'english' && EN_BOOK[grade]) return EN_BOOK[grade][0];
+    if ((subject === 'english' || subject === 'physics') && EN_BOOK[grade]) return EN_BOOK[grade][0];
     if (grade === 10) return '高一';
     if (grade === 11) return '高二';
     if (grade === 12) return '选必一';
@@ -126,7 +126,7 @@
     return CN[grade] + '年级';
   }
   function gradeLabel(topic) {
-    if (subject === 'english' && EN_BOOK[topic.grade]) return EN_BOOK[topic.grade][1];
+    if ((subject === 'english' || subject === 'physics') && EN_BOOK[topic.grade]) return EN_BOOK[topic.grade][1];
     if (topic.grade === 10) return '高一 · 必修第一册';
     if (topic.grade === 11) return '高二 · 必修第二册';
     if (topic.grade === 12) return '选必一 · 选择性必修第一册';
@@ -893,14 +893,20 @@
       else link.removeAttribute('aria-current');
     });
     if (subject === 'physics') {
-      document.querySelectorAll('#stage-tabs [data-stage]').forEach(function (button, index) {
-        button.hidden = index > 0;
+      document.querySelectorAll('#stage-tabs [data-stage]').forEach(function (button) {
+        button.hidden = button.getAttribute('data-stage') === 'p';
       });
       var physicsGrade = $('fGrade');
       physicsGrade.replaceChildren();
       physicsGrade.append(el('option', { value: '', text: '全部年级' }));
       physicsGrade.append(el('option', { value: '8', text: '八年级（上、下册）' }));
       physicsGrade.append(el('option', { value: '9', text: '九年级全一册' }));
+      [
+        [10, '必修第一册'], [11, '必修第二册'], [12, '必修第三册'],
+        [13, '选择性必修第一册'], [14, '选择性必修第二册'], [15, '选择性必修第三册']
+      ].forEach(function (row) {
+        physicsGrade.append(el('option', { value: String(row[0]), text: row[1] }));
+      });
       var physicsSample = $('pick-sample');
       if (physicsSample) physicsSample.textContent = '先看看「欧姆定律」';
       document.title = '知识图谱 · 物理';
@@ -940,7 +946,7 @@
   function applyQuery() {
     var params = new URLSearchParams(location.search);
     var gradeValue = params.get('grade') || '';
-    var gradeOk = subject === 'english' ? /^(?:[3-9]|1[0-6])$/ : subject === 'physics' ? /^[89]$/ : /^(?:[1-9]|1[0-4])$/;
+    var gradeOk = subject === 'english' ? /^(?:[3-9]|1[0-6])$/ : subject === 'physics' ? /^(?:[89]|1[0-5])$/ : /^(?:[1-9]|1[0-4])$/;
     if (gradeOk.test(gradeValue)) grade = gradeValue;
     var stageValue = params.get('stage') || '';
     if (stageValue === 'p' || stageValue === 'j' || stageValue === 'h') stage = stageValue;

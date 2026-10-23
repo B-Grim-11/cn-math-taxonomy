@@ -45,7 +45,7 @@
   } else if (subject === 'physics') {
     document.title = '物理 · 中小学知识图谱';
     var peye = document.querySelector('.eyebrow');
-    if (peye) peye.textContent = '初中物理：八年级到九年级';
+    if (peye) peye.textContent = '物理：初中八、九年级 · 高中必修与选择性必修';
     var pprimary = document.querySelector('.hero-actions a.btn-primary');
     var pbrowse = document.querySelector('.hero-actions a.btn:not(.btn-primary)');
     if (pprimary) pprimary.setAttribute('href', 'diagnose/?subject=physics');
@@ -143,10 +143,15 @@
       var whole = list.filter(function (topic) { return topic.semester === '全'; }).length;
       var splitText = whole ? '全一册 ' + whole : '上 ' + up + ' · 下 ' + down;
       var href = subject !== 'math' ? 'explore/?subject=' + subject + '&grade=' + g : 'explore/?grade=' + g;
-      addCard(g, g <= 6 ? '小学' : '初中', CN[g] + '年级', g <= 6 ? 'is-primary' : 'is-junior', splitText, href);
+      addCard(g, g <= 6 ? '小学' : (wantPhysics ? '初中物理' : '初中'), CN[g] + '年级', g <= 6 ? 'is-primary' : 'is-junior', splitText, href);
     }
     if (wantPhysics) {
-      // 物理只有初中两个年级
+      addCard(10, '高中物理', '必修一', 'is-senior', '必修第一册', 'explore/?subject=physics&grade=10');
+      addCard(11, '高中物理', '必修二', 'is-senior', '必修第二册', 'explore/?subject=physics&grade=11');
+      addCard(12, '高中物理', '必修三', 'is-senior', '必修第三册', 'explore/?subject=physics&grade=12');
+      addCard(13, '高中物理', '选必一', 'is-senior', '选择性必修第一册', 'explore/?subject=physics&grade=13');
+      addCard(14, '高中物理', '选必二', 'is-senior', '选择性必修第二册', 'explore/?subject=physics&grade=14');
+      addCard(15, '高中物理', '选必三', 'is-senior', '选择性必修第三册', 'explore/?subject=physics&grade=15');
     } else if (wantEnglish) {
       addCard(10, '高中', '必修一', 'is-senior', '必修第一册', 'explore/?subject=english&grade=10');
       addCard(11, '高中', '必修二', 'is-senior', '必修第二册', 'explore/?subject=english&grade=11');

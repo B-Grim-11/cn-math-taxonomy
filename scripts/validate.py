@@ -32,6 +32,10 @@ EN_DOMAINS = {"语音", "词汇", "语法", "日常表达", "读写"}
 PHY_DOMAINS = {"物质", "运动和相互作用", "能量", "跨学科实践"}
 PHY_STD_TOPS = {"1": "物质", "2": "运动和相互作用", "3": "能量", "4": "实验探究", "5": "跨学科实践"}
 PHY_STD_ID_RE = re.compile(r"^cps-2022:([1-5])\.(\d)\.(\d+)$")
+# 高中物理课标：cps-hs-2017:<B 必修|S 选择性必修><册号 1-3>.<主题 1-4 或 X 学生必做实验>.<序号>
+PHY_HS_STD_ID_RE = re.compile(r"^cps-hs-2017:([BS])([1-3])\.([1-4X])\.(\d+)$")
+PHY_HS_STD_DOMAINS = {"物质", "运动和相互作用", "能量", "实验探究", "跨学科实践"}
+PHY_SENIOR_GRADES = (10, 11, 12, 13, 14, 15)
 DOMAINS = MATH_DOMAINS | EN_DOMAINS | PHY_DOMAINS
 TYPES = {"conceptual", "procedural", "reasoning", "application", "modeling"}
 STRENGTHS = {"hard", "soft"}
@@ -53,8 +57,8 @@ CORE_FIELDS = ["id", "name", "domain", "grade", "semester", "chapter", "type",
                "description", "mastery_criteria", "diagnostic_question", "external"]
 EXT_FIELDS = ["id", "name", "domain", "grade", "description", "external"]
 # cnm_001 初中正式；cnm_p001 小学正式；cnm_h001 高中正式。cne_p001 小学英语，cne_j001 初中英语，cne_h001 高中英语。
-# cnp_001 初中物理。
-ID_RE = re.compile(r"^(?:cnm_(?:p|h)?|cne_[pjh]|cnp_)\d{3,}$")
+# cnp_001 初中物理；cnp_h001 高中物理（必修一至选必三，grade 10–15）。
+ID_RE = re.compile(r"^(?:cnm_(?:p|h)?|cne_[pjh]|cnp_h?)\d{3,}$")
 # 10、11 是必修第一、二册；12、13、14 是选择性必修第一、二、三册，不是教学年份。
 GRADES = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14)
 ALIASES_PATH = os.path.join(ROOT, "data", "id-aliases.json")
@@ -92,6 +96,10 @@ def is_physics_id(tid):
     return str(tid).startswith("cnp_")
 
 
+def is_physics_senior_id(tid):
+    return str(tid).startswith("cnp_h")
+
+
 def topic_subject(tid):
     if is_english_id(tid):
         return "english"
@@ -107,6 +115,14 @@ def volume_rank(topic):
     if not isinstance(grade, int):
         return None
     return grade * 2 + (1 if topic.get("semester") == "下" else 0)
+
+
+def physics_rank(topic):
+    """初中物理 8、9 年级在前，高中物理（cnp_h，grade 10–15）在后；先修不能比本知识点更晚。"""
+    g = topic.get("grade")
+    if not isinstance(g, int):
+        return None
+    return 100 + g if is_physics_senior_id(topic.get("id")) else g
 
 
 def english_prompt_problem(text):
@@ -163,11 +179,17 @@ def check_topics(topics):
                 err("%s 物理知识点的 subject 必须是 physics" % where)
             if t.get("domain") not in PHY_DOMAINS:
                 err("%s 物理 domain 取值非法：%r" % (where, t.get("domain")))
-            if t.get("grade") not in (8, 9):
-                err("%s 初中物理 grade 必须是 8 或 9" % where)
             sem_p = t.get("semester")
-            if (t.get("grade") == 8 and sem_p not in ("上", "下")) or (t.get("grade") == 9 and sem_p != "全"):
-                err("%s 物理 semester：八年级为 上/下，九年级为 全（人教版九年级全一册）" % where)
+            if is_physics_senior_id(tid):
+                if t.get("grade") not in PHY_SENIOR_GRADES:
+                    err("%s 高中物理 grade 必须是 10–15（10–12 必修三册，13–15 选择性必修三册）" % where)
+                if sem_p != "上":
+                    err("%s 高中物理 semester 必须是 上" % where)
+            else:
+                if t.get("grade") not in (8, 9):
+                    err("%s 初中物理 grade 必须是 8 或 9" % where)
+                if (t.get("grade") == 8 and sem_p not in ("上", "下")) or (t.get("grade") == 9 and sem_p != "全"):
+                    err("%s 物理 semester：八年级为 上/下，九年级为 全（人教版九年级全一册）" % where)
             for j, ml in enumerate(t.get("mathLinks") or []):
                 if not (isinstance(ml, dict) and nonempty_str(ml.get("id")) and nonempty_str(ml.get("reason"))):
                     err("%s mathLinks[%d] 必须是 {id, reason}" % (where, j))
@@ -190,6 +212,8 @@ def check_topics(topics):
         if subj == "english" and str(tid).startswith("cne_h"):
             if g not in (10, 11, 12, 13, 14, 15, 16):
                 err("%s 高中英语 grade 必须是 10–16（10–12 必修三册，13–16 选择性必修四册）" % where)
+        elif subj == "physics" and is_physics_senior_id(tid):
+            pass
         elif g not in GRADES:
             err("%s grade 必须是 1–14 的整数（10、11 为必修两册，12–14 为选择性必修三册）" % where)
         if subj == "english":
@@ -269,6 +293,10 @@ def check_deps(deps, ids):
             ra, rb = volume_rank(ids[a]), volume_rank(ids[b])
             if ra is not None and rb is not None and rb > ra:
                 err("%s 英语先修年级或册次更晚：%s 依赖 %s" % (where, a, b))
+        if sa == "physics" and sb == "physics" and a in ids and b in ids:
+            ra, rb = physics_rank(ids[a]), physics_rank(ids[b])
+            if ra is not None and rb is not None and rb > ra:
+                err("%s 物理先修年级或册次更晚：%s 依赖 %s" % (where, a, b))
         key = (a, b)
         if key in seen:
             err("%s 重复边：%s -> %s" % (where, a, b))
@@ -333,6 +361,8 @@ def report(ids, prereqs, dependents, n_hard, n_soft, n_en_hard, n_en_soft):
     zh = {1: "一", 2: "二", 3: "三", 4: "四", 5: "五", 6: "六", 7: "七", 8: "八", 9: "九"}
 
     def vol_label(t):
+        if is_physics_senior_id(t.get("id")):
+            return {10: "物必一", 11: "物必二", 12: "物必三", 13: "物选必一", 14: "物选必二", 15: "物选必三"}.get(t["grade"], str(t["grade"]))
         if is_english_id(t.get("id")) and isinstance(t.get("grade"), int) and t["grade"] >= 10:
             return {10: "必修一", 11: "必修二", 12: "必修三", 13: "选必一", 14: "选必二", 15: "选必三", 16: "选必四"}.get(t["grade"], str(t["grade"]))
         if t["grade"] == 10:
@@ -374,7 +404,8 @@ def report(ids, prereqs, dependents, n_hard, n_soft, n_en_hard, n_en_soft):
         for k, v in sorted(Counter(t["domain"] for t in phy_core).items(), key=lambda x: -x[1]):
             print("  %-8s %d" % (k, v))
         pc = Counter(vol_label(t) for t in phy_core)
-        print("物理按册：" + "，".join("%s %d" % (k, pc.get(k, 0)) for k in ("八上", "八下", "九全")))
+        print("物理按册：" + "，".join("%s %d" % (k, pc.get(k, 0)) for k in (
+            "八上", "八下", "九全", "物必一", "物必二", "物必三", "物选必一", "物选必二", "物选必三")))
     print("\n按 type（正式知识点）：")
     for k, v in sorted(Counter(t["type"] for t in core).items(), key=lambda x: -x[1]):
         print("  %-12s %d" % (k, v))
@@ -414,6 +445,7 @@ def check_standards_file(std):
     last = {}
     saw_english = False
     saw_physics = False
+    saw_physics_senior = False
     for i, it in enumerate(items):
         where = "standards.items[%d]" % i
         if not isinstance(it, dict):
@@ -432,7 +464,28 @@ def check_standards_file(std):
         em = EN_STD_ID_RE.match(sid)
         ehm = EN_HS_STD_ID_RE.match(sid)
         pm = PHY_STD_ID_RE.match(sid)
-        if pm:
+        phm = PHY_HS_STD_ID_RE.match(sid)
+        if phm:
+            saw_physics_senior = True
+            kind, vol, sec, num = phm.group(1), phm.group(2), phm.group(3), int(phm.group(4))
+            if it.get("domain") not in PHY_HS_STD_DOMAINS:
+                err("%s domain 取值非法：%r" % (where, it.get("domain")))
+            if sec == "X":
+                if it.get("domain") != "实验探究":
+                    err("%s 学生必做实验的 domain 必须是 实验探究" % where)
+                if not re.match(r"^实验 \d+$", str(it.get("clause", ""))):
+                    err("%s 实验的 clause 必须形如「实验 N」（课标原序号）" % where)
+            elif it.get("clause") != "%s.%s.%d" % (vol, sec, num):
+                err("%s clause 必须是 %s.%s.%d（课标条款号）" % (where, vol, sec, num))
+            key = ("cpshs", kind, vol, sec)
+            if num != last.get(key, 0) + 1:
+                err("%s 编号在册内主题内不连续（上一条为 %d）" % (where, last.get(key, 0)))
+            last[key] = num
+            if it.get("verbatim") is not False:
+                err("%s 高中物理课标条目必须显式标 verbatim:false（出版社 PDF 文字层，未与纸本逐字核对）" % where)
+            if it.get("page_or_ref") != "待核":
+                err("%s 高中物理课标 page_or_ref 必须是「待核」，不能编页码" % where)
+        elif pm:
             saw_physics = True
             if it.get("domain") != PHY_STD_TOPS[pm.group(1)]:
                 err("%s domain 与 id 中的一级主题不一致：%r" % (where, it.get("domain")))
@@ -491,7 +544,7 @@ def check_standards_file(std):
             if it.get("page_or_ref") != "待核":
                 err("%s 高中英语课标 page_or_ref 必须是「待核」，不能编页码" % where)
         else:
-            err("%s id 格式不合法（应为 cms-2022:<学段>.<NA|GG|SP|IP>.<NN>、cms-2017:H.<PRE|FUN|GA|PS|MI>.<NN>、ces-2022:<1|2|3>.<PH|VO|GR|FU|RW>.<NN> 、ces-2017:H.<B|S>.<PH|VO|GR|FU|RW>.<NN> 或 cps-2022:<1-5>.<二级>.<序号>）" % where)
+            err("%s id 格式不合法（应为 cms-2022:<学段>.<NA|GG|SP|IP>.<NN>、cms-2017:H.<PRE|FUN|GA|PS|MI>.<NN>、ces-2022:<1|2|3>.<PH|VO|GR|FU|RW>.<NN> 、ces-2017:H.<B|S>.<PH|VO|GR|FU|RW>.<NN> 、cps-2022:<1-5>.<二级>.<序号> 或 cps-hs-2017:<B|S><1-3>.<1-4|X>.<序号>）" % where)
         for f in ("domain", "section", "text"):
             if not nonempty_str(it.get(f)):
                 err("%s 字段 %s 缺失或为空" % (where, f))
@@ -509,6 +562,16 @@ def check_standards_file(std):
                     err("physics.%s 缺失或为空" % f)
             if not isinstance(phy.get("year"), int):
                 err("physics.year 必须是整数")
+    if saw_physics_senior:
+        phs = std.get("physics_senior")
+        if not isinstance(phs, dict):
+            err("有高中物理课标条目，但缺少 physics_senior 对象")
+        else:
+            for f in ("title", "issuer", "stage", "note", "revision", "url", "textbook"):
+                if not nonempty_str(phs.get(f)):
+                    err("physics_senior.%s 缺失或为空" % f)
+            if not isinstance(phs.get("year"), int):
+                err("physics_senior.year 必须是整数")
     if saw_english:
         eng = std.get("english")
         if not isinstance(eng, dict):
@@ -572,6 +635,8 @@ def check_topic_standards(ids, std_items):
                 cited.add(sid)
                 if is_physics_id(tid) != str(sid).startswith("cps-"):
                     err("%s 学科与课标条目不一致：%s" % (sw, sid))
+                elif is_physics_id(tid) and is_physics_senior_id(tid) != str(sid).startswith("cps-hs-2017:"):
+                    err("%s 初中物理只能引用 cps-2022，高中物理只能引用 cps-hs-2017：%s" % (sw, sid))
             if s.get("confidence") not in CONFIDENCES:
                 err("%s confidence 只能是 exact 或 inferred：%r" % (sw, s.get("confidence")))
             if "note" in s and not nonempty_str(s["note"]):
@@ -612,7 +677,7 @@ Q_DIFFICULTIES = ("basic", "standard", "advanced")
 Q_TYPES = ("numeric", "choice", "short", "self")
 Q_FIELDS = {"id", "topicId", "difficulty", "type", "prompt", "answer", "choices", "accept",
             "explanation", "verify", "unordered", "fixed_from_source", "figure", "hideChoiceText", "percent"}
-Q_ID_RE = re.compile(r"^((?:cnm_(?:p|h)?|cne_[pjh]|cnp_)\d{3,})_q([1-9]\d*)$")
+Q_ID_RE = re.compile(r"^((?:cnm_(?:p|h)?|cne_[pjh]|cnp_h?)\d{3,})_q([1-9]\d*)$")
 NUM_RE = re.compile(r"^-?\d+(?:\.\d+)?(?:/\d+(?:\.\d+)?)?$")
 MIN_QUESTIONS_PER_TOPIC = 3
 MIN_AUTO_SHARE = 0.60
