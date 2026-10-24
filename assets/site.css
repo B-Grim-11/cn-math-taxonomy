@@ -84,6 +84,17 @@ body.subject-english {
   --logo-fold: #ffffff;
 }
 
+body.subject-chinese {
+  --brand: #9f1239;
+  --brand-strong: #881337;
+  --brand-soft: #fff1f2;
+  --on-brand: #ffffff;
+  --focus: #9f1239;
+  --accent: #9f1239;
+  --logo-sheet: #ffe4e6;
+  --logo-fold: #ffffff;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     color-scheme: dark;
@@ -161,6 +172,16 @@ body.subject-english {
     --accent: #a5b4fc;
     --logo-sheet: #2a2870;
     --logo-fold: #3c3a96;
+  }
+  body.subject-chinese {
+    --brand: #fda4af;
+    --brand-strong: #fecdd3;
+    --brand-soft: #881337;
+    --on-brand: #4c0519;
+    --focus: #fecdd3;
+    --accent: #fda4af;
+    --logo-sheet: #6b1230;
+    --logo-fold: #9f1239;
   }
 }
 

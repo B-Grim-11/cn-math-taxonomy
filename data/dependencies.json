@@ -17500,5 +17500,1043 @@
     "prerequisiteId": "cnp_h175",
     "strength": "soft",
     "reason": "「基本粒子与四种基本相互作用」会用到「核力与结合能」里的知识。"
+  },
+  {
+    "topicId": "cnc_p002",
+    "prerequisiteId": "cnc_p001",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「识字：天地人、金木水火土」，再学「单韵母和四声」。"
+  },
+  {
+    "topicId": "cnc_p003",
+    "prerequisiteId": "cnc_p002",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「单韵母和四声」，再学「声母和整体认读音节」。"
+  },
+  {
+    "topicId": "cnc_p004",
+    "prerequisiteId": "cnc_p003",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「声母和整体认读音节」，再学「复韵母和鼻韵母」。"
+  },
+  {
+    "topicId": "cnc_p007",
+    "prerequisiteId": "cnc_p006",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「阅读《秋天》和《江南》」，再学「古诗《咏鹅》」。"
+  },
+  {
+    "topicId": "cnc_p008",
+    "prerequisiteId": "cnc_p007",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「古诗《咏鹅》」，再学「把话说成完整的句子」。"
+  },
+  {
+    "topicId": "cnc_p009",
+    "prerequisiteId": "cnc_p008",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「把话说成完整的句子」，再学「识字：春夏秋冬」。"
+  },
+  {
+    "topicId": "cnc_p010",
+    "prerequisiteId": "cnc_p009",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「识字：春夏秋冬」，再学「形近字和同音字」。"
+  },
+  {
+    "topicId": "cnc_p011",
+    "prerequisiteId": "cnc_p010",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「形近字和同音字」，再学「量词和重叠词」。"
+  },
+  {
+    "topicId": "cnc_p012",
+    "prerequisiteId": "cnc_p011",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「量词和重叠词」，再学「句号、问号和感叹号」。"
+  },
+  {
+    "topicId": "cnc_p013",
+    "prerequisiteId": "cnc_p012",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「句号、问号和感叹号」，再学「古诗《静夜思》」。"
+  },
+  {
+    "topicId": "cnc_p015",
+    "prerequisiteId": "cnc_p014",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「古诗《池上》和《小池》」，再学「阅读《小壁虎借尾巴》」。"
+  },
+  {
+    "topicId": "cnc_p016",
+    "prerequisiteId": "cnc_p015",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「阅读《小壁虎借尾巴》」，再学「看图把事情说清楚」。"
+  },
+  {
+    "topicId": "cnc_p017",
+    "prerequisiteId": "cnc_p016",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「看图把事情说清楚」，再学「偏旁归类：木字旁和草字头」。"
+  },
+  {
+    "topicId": "cnc_p018",
+    "prerequisiteId": "cnc_p017",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「偏旁归类：木字旁和草字头」，再学「反义词」。"
+  },
+  {
+    "topicId": "cnc_p019",
+    "prerequisiteId": "cnc_p018",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「反义词」，再学「把句子补充完整」。"
+  },
+  {
+    "topicId": "cnc_p020",
+    "prerequisiteId": "cnc_p019",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「把句子补充完整」，再学「阅读《曹冲称象》」。"
+  },
+  {
+    "topicId": "cnc_p022",
+    "prerequisiteId": "cnc_p021",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「阅读《坐井观天》」，再学「古诗《登鹳雀楼》」。"
+  },
+  {
+    "topicId": "cnc_p024",
+    "prerequisiteId": "cnc_p023",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「古诗《敕勒歌》」，再学「看图写几句连贯的话」。"
+  },
+  {
+    "topicId": "cnc_p025",
+    "prerequisiteId": "cnc_p024",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「看图写几句连贯的话」，再学「多音字」。"
+  },
+  {
+    "topicId": "cnc_p026",
+    "prerequisiteId": "cnc_p025",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「多音字」，再学「词语搭配」。"
+  },
+  {
+    "topicId": "cnc_p027",
+    "prerequisiteId": "cnc_p026",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「词语搭配」，再学「把句子写具体」。"
+  },
+  {
+    "topicId": "cnc_p028",
+    "prerequisiteId": "cnc_p027",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「把句子写具体」，再学「阅读《亡羊补牢》和《揠苗助长》」。"
+  },
+  {
+    "topicId": "cnc_p029",
+    "prerequisiteId": "cnc_p028",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「阅读《亡羊补牢》和《揠苗助长》」，再学「古诗《咏柳》」。"
+  },
+  {
+    "topicId": "cnc_p031",
+    "prerequisiteId": "cnc_p030",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「古诗《绝句》（两个黄鹂）」，再学「阅读《小马过河》」。"
+  },
+  {
+    "topicId": "cnc_p032",
+    "prerequisiteId": "cnc_p031",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「阅读《小马过河》」，再学「按顺序写一件小事」。"
+  },
+  {
+    "topicId": "cnc_p033",
+    "prerequisiteId": "cnc_p032",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「按顺序写一件小事」，再学「用部首查字典」。"
+  },
+  {
+    "topicId": "cnc_p034",
+    "prerequisiteId": "cnc_p033",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「用部首查字典」，再学「ABB 和 AABB 式词语」。"
+  },
+  {
+    "topicId": "cnc_p035",
+    "prerequisiteId": "cnc_p034",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「ABB 和 AABB 式词语」，再学「的、地、得」。"
+  },
+  {
+    "topicId": "cnc_p036",
+    "prerequisiteId": "cnc_p035",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「的、地、得」，再学「阅读《秋天的雨》」。"
+  },
+  {
+    "topicId": "cnc_p037",
+    "prerequisiteId": "cnc_p036",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「阅读《秋天的雨》」，再学「古诗《山行》」。"
+  },
+  {
+    "topicId": "cnc_p039",
+    "prerequisiteId": "cnc_p038",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「古诗《望天门山》」，再学「文言文《司马光》」。"
+  },
+  {
+    "topicId": "cnc_p040",
+    "prerequisiteId": "cnc_p039",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「文言文《司马光》」，再学「日记要写清楚时间」。"
+  },
+  {
+    "topicId": "cnc_p041",
+    "prerequisiteId": "cnc_p040",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「日记要写清楚时间」，再学「寓言成语」。"
+  },
+  {
+    "topicId": "cnc_p042",
+    "prerequisiteId": "cnc_p041",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「寓言成语」，再学「比喻和拟人」。"
+  },
+  {
+    "topicId": "cnc_p043",
+    "prerequisiteId": "cnc_p042",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「比喻和拟人」，再学「文言文《守株待兔》」。"
+  },
+  {
+    "topicId": "cnc_p044",
+    "prerequisiteId": "cnc_p043",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「文言文《守株待兔》」，再学「古诗《绝句》（迟日江山丽）」。"
+  },
+  {
+    "topicId": "cnc_p047",
+    "prerequisiteId": "cnc_p046",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「古诗《元日》和《清明》」，再学「阅读《荷花》」。"
+  },
+  {
+    "topicId": "cnc_p048",
+    "prerequisiteId": "cnc_p047",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「阅读《荷花》」，再学「围绕一个意思写一段话」。"
+  },
+  {
+    "topicId": "cnc_p049",
+    "prerequisiteId": "cnc_p048",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「围绕一个意思写一段话」，再学「近义词辨析」。"
+  },
+  {
+    "topicId": "cnc_p050",
+    "prerequisiteId": "cnc_p049",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「近义词辨析」，再学「关联词：因为所以、虽然但是」。"
+  },
+  {
+    "topicId": "cnc_p051",
+    "prerequisiteId": "cnc_p050",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「关联词：因为所以、虽然但是」，再学「古诗《题西林壁》」。"
+  },
+  {
+    "topicId": "cnc_p053",
+    "prerequisiteId": "cnc_p052",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「古诗《出塞》」，再学「阅读《精卫填海》」。"
+  },
+  {
+    "topicId": "cnc_p054",
+    "prerequisiteId": "cnc_p053",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「阅读《精卫填海》」，再学「文言文《王戎不取道旁李》」。"
+  },
+  {
+    "topicId": "cnc_p055",
+    "prerequisiteId": "cnc_p054",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「文言文《王戎不取道旁李》」，再学「阅读《观潮》：按顺序概括」。"
+  },
+  {
+    "topicId": "cnc_p056",
+    "prerequisiteId": "cnc_p055",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「阅读《观潮》：按顺序概括」，再学「把景物写具体」。"
+  },
+  {
+    "topicId": "cnc_p057",
+    "prerequisiteId": "cnc_p056",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「把景物写具体」，再学「词语的感情色彩」。"
+  },
+  {
+    "topicId": "cnc_p058",
+    "prerequisiteId": "cnc_p057",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「词语的感情色彩」，再学「对话和双引号」。"
+  },
+  {
+    "topicId": "cnc_p059",
+    "prerequisiteId": "cnc_p058",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「对话和双引号」，再学「古诗《四时田园杂兴》」。"
+  },
+  {
+    "topicId": "cnc_p061",
+    "prerequisiteId": "cnc_p060",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「词《清平乐·村居》」，再学「文言文《囊萤夜读》」。"
+  },
+  {
+    "topicId": "cnc_p062",
+    "prerequisiteId": "cnc_p061",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「文言文《囊萤夜读》」，再学「古诗《芙蓉楼送辛渐》」。"
+  },
+  {
+    "topicId": "cnc_p063",
+    "prerequisiteId": "cnc_p062",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「古诗《芙蓉楼送辛渐》」，再学「阅读《小英雄雨来》」。"
+  },
+  {
+    "topicId": "cnc_p064",
+    "prerequisiteId": "cnc_p063",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「阅读《小英雄雨来》」，再学「把人物的动作写具体」。"
+  },
+  {
+    "topicId": "cnc_p065",
+    "prerequisiteId": "cnc_p064",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「把人物的动作写具体」，再学「成语和四字词语」。"
+  },
+  {
+    "topicId": "cnc_p066",
+    "prerequisiteId": "cnc_p065",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「成语和四字词语」，再学「修改病句」。"
+  },
+  {
+    "topicId": "cnc_p067",
+    "prerequisiteId": "cnc_p066",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「修改病句」，再学「古诗《示儿》」。"
+  },
+  {
+    "topicId": "cnc_p068",
+    "prerequisiteId": "cnc_p067",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「古诗《示儿》」，再学「阅读《少年中国说》节选」。"
+  },
+  {
+    "topicId": "cnc_p069",
+    "prerequisiteId": "cnc_p068",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「阅读《少年中国说》节选」，再学「古诗《枫桥夜泊》」。"
+  },
+  {
+    "topicId": "cnc_p070",
+    "prerequisiteId": "cnc_p069",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「古诗《枫桥夜泊》」，再学「阅读：静态和动态」。"
+  },
+  {
+    "topicId": "cnc_p071",
+    "prerequisiteId": "cnc_p070",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「阅读：静态和动态」，再学「易读错的字音」。"
+  },
+  {
+    "topicId": "cnc_p072",
+    "prerequisiteId": "cnc_p071",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「易读错的字音」，再学「把事情的经过写清楚」。"
+  },
+  {
+    "topicId": "cnc_p073",
+    "prerequisiteId": "cnc_p072",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「把事情的经过写清楚」，再学「汉字的偏旁和字义」。"
+  },
+  {
+    "topicId": "cnc_p074",
+    "prerequisiteId": "cnc_p073",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「汉字的偏旁和字义」，再学「古诗《稚子弄冰》」。"
+  },
+  {
+    "topicId": "cnc_p075",
+    "prerequisiteId": "cnc_p074",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「古诗《稚子弄冰》」，再学「阅读《草船借箭》」。"
+  },
+  {
+    "topicId": "cnc_p077",
+    "prerequisiteId": "cnc_p076",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「阅读《景阳冈》」，再学「阅读《猴王出世》」。"
+  },
+  {
+    "topicId": "cnc_p078",
+    "prerequisiteId": "cnc_p077",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「阅读《猴王出世》」，再学「文言文《自相矛盾》」。"
+  },
+  {
+    "topicId": "cnc_p079",
+    "prerequisiteId": "cnc_p078",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「文言文《自相矛盾》」，再学「阅读《跳水》」。"
+  },
+  {
+    "topicId": "cnc_p080",
+    "prerequisiteId": "cnc_p079",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「阅读《跳水》」，再学「写人要抓住特点」。"
+  },
+  {
+    "topicId": "cnc_p081",
+    "prerequisiteId": "cnc_p080",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「写人要抓住特点」，再学「古诗《西江月·夜行黄沙道中》」。"
+  },
+  {
+    "topicId": "cnc_p083",
+    "prerequisiteId": "cnc_p082",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「古诗《七律·长征》」，再学「阅读《桥》」。"
+  },
+  {
+    "topicId": "cnc_p085",
+    "prerequisiteId": "cnc_p084",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「阅读《穷人》」，再学「文言文《学弈》」。"
+  },
+  {
+    "topicId": "cnc_p087",
+    "prerequisiteId": "cnc_p086",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「文言文《伯牙鼓琴》」，再学「品味含义深刻的词句」。"
+  },
+  {
+    "topicId": "cnc_p088",
+    "prerequisiteId": "cnc_p087",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「品味含义深刻的词句」，再学「写场景要有画面」。"
+  },
+  {
+    "topicId": "cnc_p089",
+    "prerequisiteId": "cnc_p088",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「写场景要有画面」，再学「古诗《寒食》」。"
+  },
+  {
+    "topicId": "cnc_p091",
+    "prerequisiteId": "cnc_p090",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「古诗《竹石》」，再学「文言文《两小儿辩日》」。"
+  },
+  {
+    "topicId": "cnc_p092",
+    "prerequisiteId": "cnc_p091",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「文言文《两小儿辩日》」，再学「阅读《匆匆》」。"
+  },
+  {
+    "topicId": "cnc_p093",
+    "prerequisiteId": "cnc_p092",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「阅读《匆匆》」，再学「阅读《北京的春节》」。"
+  },
+  {
+    "topicId": "cnc_p094",
+    "prerequisiteId": "cnc_p093",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「阅读《北京的春节》」，再学「省略号和破折号」。"
+  },
+  {
+    "topicId": "cnc_p095",
+    "prerequisiteId": "cnc_p094",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「省略号和破折号」，再学「词语的语境义」。"
+  },
+  {
+    "topicId": "cnc_p096",
+    "prerequisiteId": "cnc_p095",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「词语的语境义」，再学「围绕中心选择材料」。"
+  },
+  {
+    "topicId": "cnc_p004",
+    "prerequisiteId": "cnc_p002",
+    "strength": "hard",
+    "reason": "复韵母由单韵母组成，要先读准 a、o、e、i、u、ü。"
+  },
+  {
+    "topicId": "cnc_p005",
+    "prerequisiteId": "cnc_p003",
+    "strength": "hard",
+    "reason": "拼读音节之前，要先认识声母。"
+  },
+  {
+    "topicId": "cnc_p005",
+    "prerequisiteId": "cnc_p004",
+    "strength": "hard",
+    "reason": "拼读音节之前，要先认识韵母。"
+  },
+  {
+    "topicId": "cnc_p006",
+    "prerequisiteId": "cnc_p005",
+    "strength": "hard",
+    "reason": "借助拼音读课文之前，要先会拼读音节。"
+  },
+  {
+    "topicId": "cnc_p010",
+    "prerequisiteId": "cnc_p001",
+    "strength": "hard",
+    "reason": "比较形近字之前，要先认识一批独体字。"
+  },
+  {
+    "topicId": "cnc_p017",
+    "prerequisiteId": "cnc_p001",
+    "strength": "hard",
+    "reason": "按偏旁归类之前，要先认识日月水火这类独体字。"
+  },
+  {
+    "topicId": "cnc_p025",
+    "prerequisiteId": "cnc_p005",
+    "strength": "hard",
+    "reason": "分辨多音字的读音之前，要先会拼读音节。"
+  },
+  {
+    "topicId": "cnc_p033",
+    "prerequisiteId": "cnc_p017",
+    "strength": "hard",
+    "reason": "用部首查字典之前，要先认识常见偏旁。"
+  },
+  {
+    "topicId": "cnc_p071",
+    "prerequisiteId": "cnc_p025",
+    "strength": "hard",
+    "reason": "改正易错字音之前，要先会分辨多音字。"
+  },
+  {
+    "topicId": "cnc_p073",
+    "prerequisiteId": "cnc_p033",
+    "strength": "hard",
+    "reason": "根据偏旁推想字义之前，要先会用部首查字。"
+  },
+  {
+    "topicId": "cnc_p011",
+    "prerequisiteId": "cnc_p001",
+    "strength": "hard",
+    "reason": "积累量词之前，要先认识相关的汉字。"
+  },
+  {
+    "topicId": "cnc_p018",
+    "prerequisiteId": "cnc_p011",
+    "strength": "hard",
+    "reason": "学习反义词之前，要先会在句子里理解词语。"
+  },
+  {
+    "topicId": "cnc_p026",
+    "prerequisiteId": "cnc_p018",
+    "strength": "hard",
+    "reason": "词语搭配建立在理解词义、分清反义词的基础上。"
+  },
+  {
+    "topicId": "cnc_p034",
+    "prerequisiteId": "cnc_p026",
+    "strength": "hard",
+    "reason": "积累 ABB、AABB 之前，要先会把词语搭配恰当。"
+  },
+  {
+    "topicId": "cnc_p041",
+    "prerequisiteId": "cnc_p028",
+    "strength": "hard",
+    "reason": "理解「亡羊补牢」这类成语之前，要先读过相关寓言。"
+  },
+  {
+    "topicId": "cnc_p049",
+    "prerequisiteId": "cnc_p018",
+    "strength": "hard",
+    "reason": "辨析近义词之前，要先会分辨意思相反的词。"
+  },
+  {
+    "topicId": "cnc_p057",
+    "prerequisiteId": "cnc_p049",
+    "strength": "hard",
+    "reason": "体会词语的感情色彩之前，要先会辨析近义词。"
+  },
+  {
+    "topicId": "cnc_p065",
+    "prerequisiteId": "cnc_p041",
+    "strength": "hard",
+    "reason": "在句子里运用成语之前，要先理解寓言成语的意思。"
+  },
+  {
+    "topicId": "cnc_p087",
+    "prerequisiteId": "cnc_p065",
+    "strength": "hard",
+    "reason": "品味含义深刻的词句之前，要先会联系上下文理解词语。"
+  },
+  {
+    "topicId": "cnc_p095",
+    "prerequisiteId": "cnc_p087",
+    "strength": "hard",
+    "reason": "推想词语在语境中的意思，要先会品味词句。"
+  },
+  {
+    "topicId": "cnc_p008",
+    "prerequisiteId": "cnc_p001",
+    "strength": "hard",
+    "reason": "把汉字连成句子之前，要先认识句中的字。"
+  },
+  {
+    "topicId": "cnc_p012",
+    "prerequisiteId": "cnc_p008",
+    "strength": "hard",
+    "reason": "给句子加标点之前，要先会说完整的句子。"
+  },
+  {
+    "topicId": "cnc_p019",
+    "prerequisiteId": "cnc_p012",
+    "strength": "hard",
+    "reason": "把句子补充完整之前，要先分清陈述、提问和感叹。"
+  },
+  {
+    "topicId": "cnc_p027",
+    "prerequisiteId": "cnc_p019",
+    "strength": "hard",
+    "reason": "把句子写具体之前，要先会把句子补充完整。"
+  },
+  {
+    "topicId": "cnc_p035",
+    "prerequisiteId": "cnc_p027",
+    "strength": "hard",
+    "reason": "区分的、地、得之前，要先会把一句话写完整。"
+  },
+  {
+    "topicId": "cnc_p042",
+    "prerequisiteId": "cnc_p035",
+    "strength": "hard",
+    "reason": "学习比喻和拟人之前，要先会把句子写通顺。"
+  },
+  {
+    "topicId": "cnc_p050",
+    "prerequisiteId": "cnc_p042",
+    "strength": "hard",
+    "reason": "用关联词连接分句之前，要先会把句子写具体。"
+  },
+  {
+    "topicId": "cnc_p058",
+    "prerequisiteId": "cnc_p012",
+    "strength": "hard",
+    "reason": "给对话加引号之前，要先认识句号、问号和感叹号。"
+  },
+  {
+    "topicId": "cnc_p066",
+    "prerequisiteId": "cnc_p050",
+    "strength": "hard",
+    "reason": "修改搭配不当和重复啰嗦之前，要先会使用关联词。"
+  },
+  {
+    "topicId": "cnc_p094",
+    "prerequisiteId": "cnc_p058",
+    "strength": "hard",
+    "reason": "学习省略号和破折号之前，要先会给对话加引号。"
+  },
+  {
+    "topicId": "cnc_p015",
+    "prerequisiteId": "cnc_p006",
+    "strength": "hard",
+    "reason": "读稍长的故事之前，要先会借助拼音读懂短课文。"
+  },
+  {
+    "topicId": "cnc_p020",
+    "prerequisiteId": "cnc_p015",
+    "strength": "hard",
+    "reason": "读历史故事之前，要先会说出故事里谁做了什么。"
+  },
+  {
+    "topicId": "cnc_p021",
+    "prerequisiteId": "cnc_p020",
+    "strength": "hard",
+    "reason": "读寓言之前，要先会抓住故事的主要情节。"
+  },
+  {
+    "topicId": "cnc_p028",
+    "prerequisiteId": "cnc_p021",
+    "strength": "hard",
+    "reason": "比较两则寓言之前，要先会读懂一则寓言的道理。"
+  },
+  {
+    "topicId": "cnc_p031",
+    "prerequisiteId": "cnc_p028",
+    "strength": "hard",
+    "reason": "读《小马过河》之前，要先会从寓言里找出做法和结果。"
+  },
+  {
+    "topicId": "cnc_p036",
+    "prerequisiteId": "cnc_p031",
+    "strength": "hard",
+    "reason": "读写景课文之前，要先会从故事里找出主要信息。"
+  },
+  {
+    "topicId": "cnc_p039",
+    "prerequisiteId": "cnc_p036",
+    "strength": "hard",
+    "reason": "读文言文之前，要先会读懂现代文的主要意思。"
+  },
+  {
+    "topicId": "cnc_p043",
+    "prerequisiteId": "cnc_p039",
+    "strength": "hard",
+    "reason": "读《守株待兔》之前，要先会借助注释读懂短文言文。"
+  },
+  {
+    "topicId": "cnc_p047",
+    "prerequisiteId": "cnc_p036",
+    "strength": "hard",
+    "reason": "读《荷花》这类写景段之前，要先会抓住景物特点。"
+  },
+  {
+    "topicId": "cnc_p053",
+    "prerequisiteId": "cnc_p043",
+    "strength": "hard",
+    "reason": "读神话之前，要先会说出故事说明的道理。"
+  },
+  {
+    "topicId": "cnc_p054",
+    "prerequisiteId": "cnc_p039",
+    "strength": "hard",
+    "reason": "读《王戎不取道旁李》之前，要先会读短文言文。"
+  },
+  {
+    "topicId": "cnc_p055",
+    "prerequisiteId": "cnc_p047",
+    "strength": "hard",
+    "reason": "按顺序概括写景课文之前，要先会找出景物特点。"
+  },
+  {
+    "topicId": "cnc_p061",
+    "prerequisiteId": "cnc_p054",
+    "strength": "hard",
+    "reason": "读《囊萤夜读》之前，要先会读懂另一则短文言文。"
+  },
+  {
+    "topicId": "cnc_p063",
+    "prerequisiteId": "cnc_p055",
+    "strength": "hard",
+    "reason": "把握较长叙事文的内容之前，要先会按顺序概括课文。"
+  },
+  {
+    "topicId": "cnc_p068",
+    "prerequisiteId": "cnc_p063",
+    "strength": "hard",
+    "reason": "读议论性节选之前，要先会把握叙事文的主要内容。"
+  },
+  {
+    "topicId": "cnc_p070",
+    "prerequisiteId": "cnc_p055",
+    "strength": "hard",
+    "reason": "区分静态描写和动态描写之前，要先会按顺序读写景课文。"
+  },
+  {
+    "topicId": "cnc_p075",
+    "prerequisiteId": "cnc_p070",
+    "strength": "hard",
+    "reason": "读古典名著节选之前，要先会抓住课文的主要内容。"
+  },
+  {
+    "topicId": "cnc_p076",
+    "prerequisiteId": "cnc_p075",
+    "strength": "hard",
+    "reason": "读《景阳冈》之前，要先会梳理名著故事的情节。"
+  },
+  {
+    "topicId": "cnc_p077",
+    "prerequisiteId": "cnc_p075",
+    "strength": "hard",
+    "reason": "读《猴王出世》之前，要先会抓住名著节选里的主要事件。"
+  },
+  {
+    "topicId": "cnc_p078",
+    "prerequisiteId": "cnc_p061",
+    "strength": "hard",
+    "reason": "读《自相矛盾》之前，要先会读懂浅易文言文的大意。"
+  },
+  {
+    "topicId": "cnc_p079",
+    "prerequisiteId": "cnc_p076",
+    "strength": "hard",
+    "reason": "读《跳水》并推断人物做法之前，要先会梳理故事情节。"
+  },
+  {
+    "topicId": "cnc_p083",
+    "prerequisiteId": "cnc_p079",
+    "strength": "hard",
+    "reason": "体会小说结尾之前，要先会根据情节理解人物做法。"
+  },
+  {
+    "topicId": "cnc_p084",
+    "prerequisiteId": "cnc_p083",
+    "strength": "hard",
+    "reason": "理解人物对话的含义之前，要先会读懂小说的情节。"
+  },
+  {
+    "topicId": "cnc_p085",
+    "prerequisiteId": "cnc_p078",
+    "strength": "hard",
+    "reason": "读《学弈》之前，要先会读懂浅易文言文。"
+  },
+  {
+    "topicId": "cnc_p086",
+    "prerequisiteId": "cnc_p085",
+    "strength": "hard",
+    "reason": "读《伯牙鼓琴》之前，要先会借助注释理解文言句子。"
+  },
+  {
+    "topicId": "cnc_p091",
+    "prerequisiteId": "cnc_p085",
+    "strength": "hard",
+    "reason": "读《两小儿辩日》之前，要先会读短篇文言文。"
+  },
+  {
+    "topicId": "cnc_p092",
+    "prerequisiteId": "cnc_p084",
+    "strength": "hard",
+    "reason": "体会散文里的情感之前，要先会理解叙事文中的人物心情。"
+  },
+  {
+    "topicId": "cnc_p093",
+    "prerequisiteId": "cnc_p070",
+    "strength": "hard",
+    "reason": "按时间顺序把握长课文之前，要先会区分课文里的不同写法。"
+  },
+  {
+    "topicId": "cnc_p007",
+    "prerequisiteId": "cnc_p001",
+    "strength": "hard",
+    "reason": "背诵《咏鹅》之前，要先认识诗里的常用字。"
+  },
+  {
+    "topicId": "cnc_p013",
+    "prerequisiteId": "cnc_p007",
+    "strength": "hard",
+    "reason": "背诵《静夜思》之前，要先会背浅近的五言诗。"
+  },
+  {
+    "topicId": "cnc_p014",
+    "prerequisiteId": "cnc_p013",
+    "strength": "hard",
+    "reason": "背诵《池上》《小池》之前，要先会背《静夜思》。"
+  },
+  {
+    "topicId": "cnc_p022",
+    "prerequisiteId": "cnc_p014",
+    "strength": "hard",
+    "reason": "背诵《登鹳雀楼》之前，要先会背一年级的五言绝句。"
+  },
+  {
+    "topicId": "cnc_p023",
+    "prerequisiteId": "cnc_p022",
+    "strength": "hard",
+    "reason": "背诵《敕勒歌》之前，要先会背本册更早的古诗。"
+  },
+  {
+    "topicId": "cnc_p029",
+    "prerequisiteId": "cnc_p022",
+    "strength": "hard",
+    "reason": "背诵《咏柳》之前，要先会背二年级上册的古诗。"
+  },
+  {
+    "topicId": "cnc_p030",
+    "prerequisiteId": "cnc_p029",
+    "strength": "hard",
+    "reason": "背诵《绝句》之前，要先会背《咏柳》。"
+  },
+  {
+    "topicId": "cnc_p037",
+    "prerequisiteId": "cnc_p030",
+    "strength": "hard",
+    "reason": "背诵《山行》之前，要先会背二年级的七言绝句。"
+  },
+  {
+    "topicId": "cnc_p038",
+    "prerequisiteId": "cnc_p037",
+    "strength": "hard",
+    "reason": "背诵《望天门山》之前，要先会背本册更早的古诗。"
+  },
+  {
+    "topicId": "cnc_p044",
+    "prerequisiteId": "cnc_p037",
+    "strength": "hard",
+    "reason": "背诵杜甫《绝句》之前，要先会背三年级上册的写景诗。"
+  },
+  {
+    "topicId": "cnc_p045",
+    "prerequisiteId": "cnc_p044",
+    "strength": "hard",
+    "reason": "背诵《惠崇春江晚景》之前，要先会背同册更早的古诗。"
+  },
+  {
+    "topicId": "cnc_p046",
+    "prerequisiteId": "cnc_p045",
+    "strength": "hard",
+    "reason": "背诵《元日》《清明》之前，要先会背本册的七言绝句。"
+  },
+  {
+    "topicId": "cnc_p051",
+    "prerequisiteId": "cnc_p038",
+    "strength": "hard",
+    "reason": "理解《题西林壁》之前，要先会背写山水的绝句。"
+  },
+  {
+    "topicId": "cnc_p052",
+    "prerequisiteId": "cnc_p051",
+    "strength": "hard",
+    "reason": "背诵边塞诗之前，要先会背本册更早的古诗。"
+  },
+  {
+    "topicId": "cnc_p059",
+    "prerequisiteId": "cnc_p051",
+    "strength": "hard",
+    "reason": "背诵《四时田园杂兴》之前，要先会背四年级上册的古诗。"
+  },
+  {
+    "topicId": "cnc_p060",
+    "prerequisiteId": "cnc_p059",
+    "strength": "hard",
+    "reason": "背诵《清平乐·村居》之前，要先会背同册的田园诗。"
+  },
+  {
+    "topicId": "cnc_p062",
+    "prerequisiteId": "cnc_p052",
+    "strength": "hard",
+    "reason": "背诵送别诗之前，要先会背边塞诗里容易记错的句子。"
+  },
+  {
+    "topicId": "cnc_p067",
+    "prerequisiteId": "cnc_p052",
+    "strength": "hard",
+    "reason": "背诵《示儿》之前，要先会背四年级的七言绝句。"
+  },
+  {
+    "topicId": "cnc_p069",
+    "prerequisiteId": "cnc_p067",
+    "strength": "hard",
+    "reason": "背诵《枫桥夜泊》之前，要先会背本册更早的古诗。"
+  },
+  {
+    "topicId": "cnc_p074",
+    "prerequisiteId": "cnc_p059",
+    "strength": "hard",
+    "reason": "背诵《稚子弄冰》之前，要先会背田园诗。"
+  },
+  {
+    "topicId": "cnc_p081",
+    "prerequisiteId": "cnc_p069",
+    "strength": "hard",
+    "reason": "背诵《西江月》之前，要先会背五年级的诗词。"
+  },
+  {
+    "topicId": "cnc_p082",
+    "prerequisiteId": "cnc_p081",
+    "strength": "hard",
+    "reason": "背诵《七律·长征》之前，要先会背本册的词。"
+  },
+  {
+    "topicId": "cnc_p089",
+    "prerequisiteId": "cnc_p081",
+    "strength": "hard",
+    "reason": "背诵《寒食》之前，要先会背六年级上册的诗词。"
+  },
+  {
+    "topicId": "cnc_p090",
+    "prerequisiteId": "cnc_p089",
+    "strength": "hard",
+    "reason": "背诵《竹石》之前，要先会背本册更早的古诗。"
+  },
+  {
+    "topicId": "cnc_p016",
+    "prerequisiteId": "cnc_p008",
+    "strength": "hard",
+    "reason": "看图把事情说清楚之前，要先会说完整的句子。"
+  },
+  {
+    "topicId": "cnc_p024",
+    "prerequisiteId": "cnc_p016",
+    "strength": "hard",
+    "reason": "看图写几句连贯的话之前，要先会按顺序把事情说清楚。"
+  },
+  {
+    "topicId": "cnc_p032",
+    "prerequisiteId": "cnc_p024",
+    "strength": "hard",
+    "reason": "按顺序写一件小事之前，要先会写几句连贯的话。"
+  },
+  {
+    "topicId": "cnc_p040",
+    "prerequisiteId": "cnc_p032",
+    "strength": "hard",
+    "reason": "写日记之前，要先会按顺序把一件事写下来。"
+  },
+  {
+    "topicId": "cnc_p048",
+    "prerequisiteId": "cnc_p040",
+    "strength": "hard",
+    "reason": "围绕一个意思写一段话之前，要先会把见闻写清楚。"
+  },
+  {
+    "topicId": "cnc_p056",
+    "prerequisiteId": "cnc_p048",
+    "strength": "hard",
+    "reason": "把景物写具体之前，要先会围绕一个意思把话写清楚。"
+  },
+  {
+    "topicId": "cnc_p056",
+    "prerequisiteId": "cnc_p042",
+    "strength": "hard",
+    "reason": "把景物写具体，要用上已经学过的比喻。"
+  },
+  {
+    "topicId": "cnc_p064",
+    "prerequisiteId": "cnc_p056",
+    "strength": "hard",
+    "reason": "把人物动作写具体之前，要先会把看到的内容写具体。"
+  },
+  {
+    "topicId": "cnc_p072",
+    "prerequisiteId": "cnc_p064",
+    "strength": "hard",
+    "reason": "把事情的经过写清楚之前，要先会把动作写具体。"
+  },
+  {
+    "topicId": "cnc_p080",
+    "prerequisiteId": "cnc_p072",
+    "strength": "hard",
+    "reason": "写人抓住特点之前，要先会把事情的经过写清楚。"
+  },
+  {
+    "topicId": "cnc_p088",
+    "prerequisiteId": "cnc_p080",
+    "strength": "hard",
+    "reason": "把场景写得有画面之前，要先会抓住人或事的特点来写。"
+  },
+  {
+    "topicId": "cnc_p096",
+    "prerequisiteId": "cnc_p088",
+    "strength": "hard",
+    "reason": "围绕中心选择材料之前，要先会把一个场景写清楚。"
   }
 ]

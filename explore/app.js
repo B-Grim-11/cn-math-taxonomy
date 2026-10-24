@@ -9,6 +9,7 @@
     application: '应用', modeling: '建模'
   };
   var DOMAIN_ORDER = ['数与代数', '图形与几何', '统计与概率', '综合与实践'];
+  var ZH_DOMAIN_ORDER = ['拼音', '识字写字', '词语', '句子', '阅读理解', '古诗文积累', '习作基础'];
 
   var topics = [];
   var deps = [];
@@ -251,10 +252,11 @@
 
   function topicSubject(topic) {
     if (!topic) return 'math';
-    if (topic.subject === 'english' || topic.subject === 'physics') return topic.subject;
+    if (topic.subject === 'english' || topic.subject === 'physics' || topic.subject === 'chinese') return topic.subject;
     var id = String(topic.id || '');
     if (id.indexOf('cne_') === 0) return 'english';
     if (id.indexOf('cnp_') === 0) return 'physics';
+    if (id.indexOf('cnc_') === 0) return 'chinese';
     return 'math';
   }
 
@@ -399,7 +401,7 @@
       box.replaceChildren(el('div', { class: 'detail-empty' },
         el('h1', { text: '选择一个知识点' }),
         el('p', { text: '可以搜索，也可以按年级、册、章展开。选中之后，中间只画它附近的先修，以及后面一层会用到它的知识点。' })));
-      document.title = subject === 'english' ? '知识图谱 · 英语' : subject === 'physics' ? '知识图谱 · 物理' : '知识图谱 · 中小学·高中知识图谱';
+      document.title = subject === 'english' ? '知识图谱 · 英语' : subject === 'physics' ? '知识图谱 · 物理' : subject === 'chinese' ? '知识图谱 · 小学语文' : '知识图谱 · 中小学·高中知识图谱';
       return;
     }
     var topic = byId.get(selected);
@@ -853,7 +855,8 @@
   function fillDomain() {
     var seen = {};
     topics.forEach(function (topic) { if (topic.domain) seen[topic.domain] = true; });
-    var names = DOMAIN_ORDER.filter(function (name) { return seen[name]; });
+    var domainOrder = subject === 'chinese' ? ZH_DOMAIN_ORDER : DOMAIN_ORDER;
+    var names = domainOrder.filter(function (name) { return seen[name]; });
     Object.keys(seen).forEach(function (name) { if (names.indexOf(name) < 0) names.push(name); });
     var select = $('fDomain');
     names.forEach(function (name) { select.append(el('option', { value: name, text: name })); });
@@ -863,8 +866,13 @@
   function readSubject() {
     var params = new URLSearchParams(location.search);
     var explicit = params.get('subject');
-    if (explicit === 'english' || explicit === 'math' || explicit === 'physics') return explicit;
+    if (explicit === 'english' || explicit === 'math' || explicit === 'physics' || explicit === 'chinese') return explicit;
     var hash = readHash();
+    if (/^cnc_[A-Za-z0-9]+$/.test(hash)) {
+      params.set('subject', 'chinese');
+      history.replaceState(null, '', location.pathname + '?' + params.toString() + '#' + hash);
+      return 'chinese';
+    }
     if (/^cnp_[A-Za-z0-9]+$/.test(hash)) {
       params.set('subject', 'physics');
       history.replaceState(null, '', location.pathname + '?' + params.toString() + '#' + hash);
@@ -881,6 +889,7 @@
   function configureSubject() {
     document.body.classList.toggle('subject-english', subject === 'english');
     document.body.classList.toggle('subject-physics', subject === 'physics');
+    document.body.classList.toggle('subject-chinese', subject === 'chinese');
     document.querySelectorAll('.site-nav a:not(.subject-link), a.brand').forEach(function (link) {
       var href = link.getAttribute('href');
       var next = withSubject(href);
@@ -910,6 +919,22 @@
       var physicsSample = $('pick-sample');
       if (physicsSample) physicsSample.textContent = '先看看「欧姆定律」';
       document.title = '知识图谱 · 物理';
+      return;
+    }
+    if (subject === 'chinese') {
+      document.querySelectorAll('#stage-tabs [data-stage]').forEach(function (button) {
+        var stageName = button.getAttribute('data-stage');
+        button.hidden = stageName === 'j' || stageName === 'h';
+      });
+      var zhGrade = $('fGrade');
+      zhGrade.replaceChildren();
+      zhGrade.append(el('option', { value: '', text: '全部年级' }));
+      [1, 2, 3, 4, 5, 6].forEach(function (g) {
+        zhGrade.append(el('option', { value: String(g), text: CN[g] + '年级' }));
+      });
+      var zhSample = $('pick-sample');
+      if (zhSample) zhSample.textContent = '先看看「静夜思」';
+      document.title = '知识图谱 · 小学语文';
       return;
     }
     if (subject !== 'english') return;
@@ -946,7 +971,7 @@
   function applyQuery() {
     var params = new URLSearchParams(location.search);
     var gradeValue = params.get('grade') || '';
-    var gradeOk = subject === 'english' ? /^(?:[3-9]|1[0-6])$/ : subject === 'physics' ? /^(?:[89]|1[0-5])$/ : /^(?:[1-9]|1[0-4])$/;
+    var gradeOk = subject === 'english' ? /^(?:[3-9]|1[0-6])$/ : subject === 'physics' ? /^(?:[89]|1[0-5])$/ : subject === 'chinese' ? /^[1-6]$/ : /^(?:[1-9]|1[0-4])$/;
     if (gradeOk.test(gradeValue)) grade = gradeValue;
     var stageValue = params.get('stage') || '';
     if (stageValue === 'p' || stageValue === 'j' || stageValue === 'h') stage = stageValue;
@@ -1060,6 +1085,11 @@
       if (subject === 'english') {
         var hit = topics.find(function (topic) { return String(topic.name).indexOf('现在进行时') >= 0; });
         if (hit) select(hit.id, 'user');
+        return;
+      }
+      if (subject === 'chinese') {
+        var zhHit = topics.find(function (topic) { return String(topic.name).indexOf('静夜思') >= 0; });
+        if (zhHit) select(zhHit.id, 'user');
         return;
       }
       select('cnm_221', 'user');

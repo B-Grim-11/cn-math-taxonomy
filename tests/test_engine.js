@@ -1363,8 +1363,11 @@ test('gradeTargets：一年级 = 一上 + 一下，七上只含七上；写法�
   assert.deepStrictEqual(g1.volumes, ['一上', '一下']);
   assert.strictEqual(g1.ids.length, up.ids.length + down.ids.length);
   assert.deepStrictEqual(sorted(g1.ids), sorted(up.ids.concat(down.ids)));
-  const want = formal.filter((t) => t.grade === 1).length;
+  const want = formal.filter((t) => t.grade === 1 && E.subjectOf(t) === 'math').length;
   assert.strictEqual(g1.ids.length, want);
+  const g1zh = E.gradeTargets(RGQ, '一年级', 'chinese');
+  assert.strictEqual(g1zh.ids.length, 16);
+  assert.ok(g1zh.ids.every((id) => id.startsWith('cnc_')));
   const g7 = E.gradeTargets(RGQ, '七年级');
   assert.strictEqual(g7.ids.length, formal.filter((t) => t.grade === 7 && String(t.id).startsWith('cnm_')).length);
   assert.ok(g7.ids.every((id) => id.startsWith('cnm_')));
