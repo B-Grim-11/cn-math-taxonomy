@@ -1,0 +1,50 @@
+name: Archive and sync upstream
+
+on:
+  schedule:
+    - cron: '17 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: archive-and-sync-upstream
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out this fork
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Archive upstream revision and merge updates
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git remote add upstream https://github.com/xiaoyang111222/cn-math-taxonomy.git
+          git fetch upstream main
+          upstream_sha="$(git rev-parse FETCH_HEAD)"
+          snapshot_tag="upstream-snapshot-${upstream_sha}"
+
+          # Save each seen upstream revision independently of the main branch.
+          # Never delete or force-update historical tags.
+          if ! git show-ref --verify --quiet "refs/tags/${snapshot_tag}"; then
+            git tag "${snapshot_tag}" "${upstream_sha}"
+            git push origin "refs/tags/${snapshot_tag}"
+          fi
+
+          if git merge-base --is-ancestor "${upstream_sha}" HEAD; then
+            echo "Already up to date. Snapshot preserved: ${snapshot_tag}"
+            exit 0
+          fi
+
+          # A conflict or an upstream history rewrite must not overwrite the fork.
+          git merge --no-edit "${upstream_sha}"
+          git push origin HEAD:main
