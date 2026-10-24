@@ -1366,7 +1366,7 @@ test('gradeTargets：一年级 = 一上 + 一下，七上只含七上；写法�
   const want = formal.filter((t) => t.grade === 1 && E.subjectOf(t) === 'math').length;
   assert.strictEqual(g1.ids.length, want);
   const g1zh = E.gradeTargets(RGQ, '一年级', 'chinese');
-  assert.strictEqual(g1zh.ids.length, 16);
+  assert.strictEqual(g1zh.ids.length, 40);
   assert.ok(g1zh.ids.every((id) => id.startsWith('cnc_')));
   const g7 = E.gradeTargets(RGQ, '七年级');
   assert.strictEqual(g7.ids.length, formal.filter((t) => t.grade === 7 && String(t.id).startsWith('cnm_')).length);

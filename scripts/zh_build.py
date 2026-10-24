@@ -143,13 +143,11 @@ def main():
     questions = load("questions.json")
     standards = load("cn-curriculum-standards.json")
 
-    if len(TOPICS) != 96:
-        print("知识点数量 %d，应为 96（每册 8 个）" % len(TOPICS), file=sys.stderr)
-        return 1
     by_vol = Counter("%d%s" % (t["grade"], t["semester"]) for t in TOPICS)
     for k in VOLUMES:
-        if by_vol[k] != 8:
-            print("%s 有 %d 个知识点，应为 8" % (k, by_vol[k]), file=sys.stderr)
+        n = by_vol[k]
+        if n < 18 or n > 22:
+            print("%s 有 %d 个知识点，每册应为 18–22" % (k, n), file=sys.stderr)
             return 1
     if TOPICS[0]["key"] != "g1a_tian":
         print("第一个知识点必须是 g1a_tian", file=sys.stderr)
