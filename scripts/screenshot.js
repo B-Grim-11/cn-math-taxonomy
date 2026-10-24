@@ -60,7 +60,7 @@ const TOP_BANNER_EXPR = `(() => {
   if (a.getAttribute('href') !== 'https://test.pansgo.com/?from=math-top') return 'href';
   if (a.target !== '_blank') return 'target';
   if (rel.indexOf('noopener') < 0) return 'rel';
-  if (text !== '🧠 测评中心：儿童智商、情商，成人情商、人生四象限') return 'text:' + text;
+  if (text !== '🧠 儿童智商测试') return 'text:' + text;
   const header = document.querySelector('.site-header');
   if (!header || (a.compareDocumentPosition(header) & Node.DOCUMENT_POSITION_PRECEDING)) return 'order';
   const ar = a.getBoundingClientRect();
