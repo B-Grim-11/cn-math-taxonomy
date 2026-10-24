@@ -146,8 +146,10 @@ def main():
     by_vol = Counter("%d%s" % (t["grade"], t["semester"]) for t in TOPICS)
     for k in VOLUMES:
         n = by_vol[k]
-        if n < 18 or n > 22:
-            print("%s 有 %d 个知识点，每册应为 18–22" % (k, n), file=sys.stderr)
+        # 一下已按 2024 修订目录逐课覆盖；其余各册仍是每册约 20 个代表点。
+        lo, hi = (30, 45) if k == "1下" else (18, 22)
+        if n < lo or n > hi:
+            print("%s 有 %d 个知识点，每册应为 %d–%d" % (k, n, lo, hi), file=sys.stderr)
             return 1
     if TOPICS[0]["key"] != "g1a_tian":
         print("第一个知识点必须是 g1a_tian", file=sys.stderr)
