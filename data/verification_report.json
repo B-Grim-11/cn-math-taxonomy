@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-24T11:24:10",
+  "generated_at": "2026-10-24T12:22:58",
   "source": "data/questions.json",
-  "total_questions": 8463,
+  "total_questions": 8547,
   "by_type": {
     "numeric": 2672,
-    "choice": 5762,
+    "choice": 5846,
     "self": 6,
     "short": 23
   },
   "format_errors": [],
-  "auto_verified": 7931,
+  "auto_verified": 8015,
   "mismatch": 0,
   "unverifiable": 532,
   "unverifiable_by_type": {
@@ -18,8 +18,8 @@
     "short": 23,
     "numeric": 39
   },
-  "numeric_choice_total": 8434,
-  "numeric_choice_auto_verified_share": 0.9404,
+  "numeric_choice_total": 8518,
+  "numeric_choice_auto_verified_share": 0.9409,
   "mismatches": [],
   "unverifiable_ids": [
     "cnm_001_q2",
