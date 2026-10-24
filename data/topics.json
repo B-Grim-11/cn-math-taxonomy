@@ -56261,33 +56261,6 @@
   },
   {
     "id": "cnc_p260",
-    "name": "形声字：清、晴、情、请",
-    "domain": "识字写字",
-    "grade": 4,
-    "semester": "下",
-    "chapter": "四年级下册 第1单元 古诗·四时田园杂兴",
-    "type": "conceptual",
-    "description": "能按偏旁分辨清、晴、情、请。声旁都是青，意思看形旁。",
-    "mastery_criteria": [
-      "能分辨形近字和同音字",
-      "能按偏旁和结构识记生字"
-    ],
-    "diagnostic_question": {
-      "question": "和水有关的是哪一个字？",
-      "answer": "清"
-    },
-    "external": false,
-    "subject": "chinese",
-    "standards": [
-      {
-        "id": "ccs-2022:2.SZ.01",
-        "confidence": "inferred",
-        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
-      }
-    ]
-  },
-  {
-    "id": "cnc_p261",
     "name": "古诗《四时田园杂兴》",
     "domain": "古诗文积累",
     "grade": 4,
@@ -56314,7 +56287,7 @@
     ]
   },
   {
-    "id": "cnc_p262",
+    "id": "cnc_p261",
     "name": "古诗《宿新市徐公店》",
     "domain": "古诗文积累",
     "grade": 4,
@@ -56341,7 +56314,7 @@
     ]
   },
   {
-    "id": "cnc_p263",
+    "id": "cnc_p262",
     "name": "词《清平乐·村居》",
     "domain": "古诗文积累",
     "grade": 4,
@@ -56368,7 +56341,7 @@
     ]
   },
   {
-    "id": "cnc_p264",
+    "id": "cnc_p263",
     "name": "阅读《乡下人家》",
     "domain": "阅读理解",
     "grade": 4,
@@ -56395,27 +56368,54 @@
     ]
   },
   {
-    "id": "cnc_p265",
-    "name": "多音字：假、散、便、发",
-    "domain": "识字写字",
+    "id": "cnc_p264",
+    "name": "阅读《天窗》",
+    "domain": "阅读理解",
     "grade": 4,
     "semester": "下",
-    "chapter": "四年级下册 第2单元 课文·琥珀",
-    "type": "conceptual",
-    "description": "能按词选定假、散、便、发的读音。",
+    "chapter": "四年级下册 第1单元 古诗·四时田园杂兴",
+    "type": "reasoning",
+    "description": "读懂茅盾写的天窗：下雨关窗以后，小小的天窗是孩子们的慰藉，他们能从一点雨、一粒星想象开去。",
     "mastery_criteria": [
-      "能分辨形近字和同音字",
-      "能按偏旁和结构识记生字"
+      "能根据短文选出和文字一致的信息",
+      "能说出故事或短文的主要意思"
     ],
     "diagnostic_question": {
-      "question": "「放假」的「假」读哪一个？",
-      "answer": "jià"
+      "question": "《天窗》的作者是谁？",
+      "answer": "茅盾"
     },
     "external": false,
     "subject": "chinese",
     "standards": [
       {
-        "id": "ccs-2022:2.SZ.01",
+        "id": "ccs-2022:2.YD.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p265",
+    "name": "阅读《三月桃花水》",
+    "domain": "阅读理解",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第1单元 古诗·四时田园杂兴",
+    "type": "reasoning",
+    "description": "读懂刘湛秋把三月的桃花水写成春天的竖琴和明镜，表达对春水的喜爱。",
+    "mastery_criteria": [
+      "能根据短文选出和文字一致的信息",
+      "能说出故事或短文的主要意思"
+    ],
+    "diagnostic_question": {
+      "question": "《三月桃花水》的作者是谁？",
+      "answer": "刘湛秋"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:2.YD.01",
         "confidence": "inferred",
         "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
       }
@@ -56423,20 +56423,20 @@
   },
   {
     "id": "cnc_p266",
-    "name": "形近字：幕、慕、暮、墓",
+    "name": "语文园地一·形声字：清、晴、情、请",
     "domain": "识字写字",
     "grade": 4,
     "semester": "下",
-    "chapter": "四年级下册 第2单元 课文·琥珀",
+    "chapter": "四年级下册 第1单元 古诗·四时田园杂兴",
     "type": "conceptual",
-    "description": "能按偏旁选出幕、慕、暮、墓。",
+    "description": "能按偏旁分辨清、晴、情、请。声旁都是青，意思看形旁。口语交际「转述」要把听到的话说明白，不漏要点，也不把自己的话塞进去。习作「我的乐园」要写出那个地方的样子和在那里做的事。",
     "mastery_criteria": [
       "能分辨形近字和同音字",
       "能按偏旁和结构识记生字"
     ],
     "diagnostic_question": {
-      "question": "「夜____降临」横线处该写哪一个？",
-      "answer": "幕"
+      "question": "和水有关的是哪一个字？",
+      "answer": "清"
     },
     "external": false,
     "subject": "chinese",
@@ -56477,26 +56477,26 @@
   },
   {
     "id": "cnc_p268",
-    "name": "词语搭配：严格、严厉、严密",
-    "domain": "词语",
+    "name": "阅读《飞向蓝天的恐龙》",
+    "domain": "阅读理解",
     "grade": 4,
     "semester": "下",
-    "chapter": "四年级下册 第3单元 课文·绿",
-    "type": "conceptual",
-    "description": "能按后面的说法选用严格、严厉、严密，不互相替换。",
+    "chapter": "四年级下册 第2单元 课文·琥珀",
+    "type": "reasoning",
+    "description": "读懂这篇说明文：恐龙的一支经过漫长演化变成了鸟类，证据来自化石，不是神话。",
     "mastery_criteria": [
-      "能理解词语在句子里的意思",
-      "能选出搭配恰当的词语"
+      "能根据短文选出和文字一致的信息",
+      "能说出故事或短文的主要意思"
     ],
     "diagnostic_question": {
-      "question": "「老师对作业要求很____。」横线处该填哪一个？",
-      "answer": "严格"
+      "question": "这篇要说明的主要意思是什么？",
+      "answer": "恐龙的一支经过漫长演化，变成了鸟类"
     },
     "external": false,
     "subject": "chinese",
     "standards": [
       {
-        "id": "ccs-2022:2.CY.01",
+        "id": "ccs-2022:2.YD.01",
         "confidence": "inferred",
         "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
       }
@@ -56504,6 +56504,168 @@
   },
   {
     "id": "cnc_p269",
+    "name": "阅读《纳米技术就在我们身边》",
+    "domain": "阅读理解",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第2单元 课文·琥珀",
+    "type": "reasoning",
+    "description": "知道纳米极小，纳米技术已经用在冰箱、衣物这些日常事物上，也有还没实现的展望。",
+    "mastery_criteria": [
+      "能根据短文选出和文字一致的信息",
+      "能说出故事或短文的主要意思"
+    ],
+    "diagnostic_question": {
+      "question": "1纳米有多长？",
+      "answer": "十亿分之一米，非常非常小"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:2.YD.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p270",
+    "name": "阅读《千年梦圆在今朝》",
+    "domain": "阅读理解",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第2单元 课文·琥珀",
+    "type": "reasoning",
+    "description": "读懂中华民族的飞天梦：从古代的万户，到东方红一号，再到杨利伟进入太空。",
+    "mastery_criteria": [
+      "能根据短文选出和文字一致的信息",
+      "能说出故事或短文的主要意思"
+    ],
+    "diagnostic_question": {
+      "question": "课文里，古人尝试飞天的例子是哪一个？",
+      "answer": "明朝的万户把火箭绑在椅子上，想飞向天空"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:2.YD.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p271",
+    "name": "语文园地二·多音字：假、散、便、发",
+    "domain": "识字写字",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第2单元 课文·琥珀",
+    "type": "conceptual",
+    "description": "能按词选定假、散、便、发的读音。口语交际「说新闻」要把时间、地点和事情说清楚。习作「我的奇思妙想」要大胆想，也要让人听得懂想的是什么。",
+    "mastery_criteria": [
+      "能分辨形近字和同音字",
+      "能按偏旁和结构识记生字"
+    ],
+    "diagnostic_question": {
+      "question": "「放假」的「假」读哪一个？",
+      "answer": "jià"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:2.SZ.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p272",
+    "name": "语文园地二·形近字：幕、慕、暮、墓",
+    "domain": "识字写字",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第2单元 课文·琥珀",
+    "type": "conceptual",
+    "description": "能按偏旁选出幕、慕、暮、墓。和多音字一起放在语文园地二。",
+    "mastery_criteria": [
+      "能分辨形近字和同音字",
+      "能按偏旁和结构识记生字"
+    ],
+    "diagnostic_question": {
+      "question": "「夜____降临」横线处该写哪一个？",
+      "answer": "幕"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:2.SZ.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p273",
+    "name": "快乐读书吧：十万个为什么",
+    "domain": "阅读理解",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第2单元 课文·琥珀",
+    "type": "conceptual",
+    "description": "这次读书吧读科普书，去找「为什么」的科学解释，不是把神话当成答案。",
+    "mastery_criteria": [
+      "能根据短文选出和文字一致的信息",
+      "能说出故事或短文的主要意思"
+    ],
+    "diagnostic_question": {
+      "question": "「十万个为什么」主要读哪一类书？",
+      "answer": "回答各种「为什么」的科普书"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:2.YD.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p274",
+    "name": "短诗三首·繁星",
+    "domain": "阅读理解",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第3单元 课文·绿",
+    "type": "reasoning",
+    "description": "读冰心《繁星》三首：七一写母亲膝上的回忆，一三一写大海，一五九写心中的风雨只躲进母亲怀里。",
+    "mastery_criteria": [
+      "能根据短文选出和文字一致的信息",
+      "能说出故事或短文的主要意思"
+    ],
+    "diagnostic_question": {
+      "question": "这三首短诗都出自谁的《繁星》？",
+      "answer": "冰心"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:2.YD.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p275",
     "name": "阅读《绿》",
     "domain": "阅读理解",
     "grade": 4,
@@ -56530,7 +56692,88 @@
     ]
   },
   {
-    "id": "cnc_p270",
+    "id": "cnc_p276",
+    "name": "阅读《白桦》",
+    "domain": "阅读理解",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第3单元 课文·绿",
+    "type": "reasoning",
+    "description": "读懂叶赛宁写窗前的白桦：仿佛涂上银霜，披着一身雪花，字里行间是喜爱。",
+    "mastery_criteria": [
+      "能根据短文选出和文字一致的信息",
+      "能说出故事或短文的主要意思"
+    ],
+    "diagnostic_question": {
+      "question": "《白桦》的作者是谁？",
+      "answer": "叶赛宁"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:2.YD.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p277",
+    "name": "阅读《在天晴了的时候》",
+    "domain": "阅读理解",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第3单元 课文·绿",
+    "type": "reasoning",
+    "description": "读懂戴望舒邀人在雨后到小径走走，看不再胆怯的小白菊和抖去水珠的凤蝶。",
+    "mastery_criteria": [
+      "能根据短文选出和文字一致的信息",
+      "能说出故事或短文的主要意思"
+    ],
+    "diagnostic_question": {
+      "question": "《在天晴了的时候》的作者是谁？",
+      "answer": "戴望舒"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:2.YD.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p278",
+    "name": "语文园地三·词语搭配：严格、严厉、严密",
+    "domain": "词语",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第3单元 课文·绿",
+    "type": "conceptual",
+    "description": "能按后面的说法选用严格、严厉、严密，不互相替换。综合性学习「轻叩诗歌大门」要去收集诗、读诗，还可以筹备朗诵。",
+    "mastery_criteria": [
+      "能理解词语在句子里的意思",
+      "能选出搭配恰当的词语"
+    ],
+    "diagnostic_question": {
+      "question": "「老师对作业要求很____。」横线处该填哪一个？",
+      "answer": "严格"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:2.CY.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p279",
     "name": "阅读《猫》",
     "domain": "阅读理解",
     "grade": 4,
@@ -56557,7 +56800,34 @@
     ]
   },
   {
-    "id": "cnc_p271",
+    "id": "cnc_p280",
+    "name": "阅读《母鸡》",
+    "domain": "阅读理解",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第4单元 课文·猫",
+    "type": "reasoning",
+    "description": "读懂老舍笔下的母鸡：开头讨厌它叫、欺软怕硬，后来因为它护小鸡而不敢再讨厌。",
+    "mastery_criteria": [
+      "能根据短文选出和文字一致的信息",
+      "能说出故事或短文的主要意思"
+    ],
+    "diagnostic_question": {
+      "question": "《母鸡》的作者是谁？",
+      "answer": "老舍"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:2.YD.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p281",
     "name": "阅读《白鹅》",
     "domain": "阅读理解",
     "grade": 4,
@@ -56584,14 +56854,14 @@
     ]
   },
   {
-    "id": "cnc_p272",
-    "name": "词语的感情色彩",
+    "id": "cnc_p282",
+    "name": "语文园地四·词语的感情色彩",
     "domain": "词语",
     "grade": 4,
     "semester": "下",
     "chapter": "四年级下册 第4单元 课文·猫",
     "type": "conceptual",
-    "description": "能分清夸奖和批评的词语，如团结和勾结、果断和武断。",
+    "description": "能分清夸奖和批评的词语，如团结和勾结、果断和武断。习作「我的动物朋友」要抓住动物的特点来写，用词的感情不要用反。",
     "mastery_criteria": [
       "能理解词语在句子里的意思",
       "能选出搭配恰当的词语"
@@ -56611,21 +56881,75 @@
     ]
   },
   {
-    "id": "cnc_p273",
-    "name": "把人物的动作写具体",
+    "id": "cnc_p283",
+    "name": "阅读《海上日出》",
+    "domain": "阅读理解",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第5单元 习作·游_____",
+    "type": "reasoning",
+    "description": "读懂巴金在船上按时间看日出：太阳慢慢升起，有云时阳光给黑云镶上金边。",
+    "mastery_criteria": [
+      "能根据短文选出和文字一致的信息",
+      "能说出故事或短文的主要意思"
+    ],
+    "diagnostic_question": {
+      "question": "《海上日出》的作者是谁？",
+      "answer": "巴金"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:2.YD.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p284",
+    "name": "阅读《记金华的双龙洞》",
+    "domain": "阅读理解",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第5单元 习作·游_____",
+    "type": "reasoning",
+    "description": "按路上、外洞、孔隙、内洞的顺序读叶圣陶的游记，知道孔隙要仰卧乘船才能过。",
+    "mastery_criteria": [
+      "能根据短文选出和文字一致的信息",
+      "能说出故事或短文的主要意思"
+    ],
+    "diagnostic_question": {
+      "question": "《记金华的双龙洞》的作者是谁？",
+      "answer": "叶圣陶"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:2.YD.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p285",
+    "name": "习作：游_____ ·把游览中的见闻写具体",
     "domain": "习作基础",
     "grade": 4,
     "semester": "下",
-    "chapter": "四年级下册 第5单元 习作·写人物",
+    "chapter": "四年级下册 第5单元 习作·游_____",
     "type": "application",
-    "description": "写人时能把动作一步一步写出来，而不是只写一个「做」。",
+    "description": "按游览顺序写出看到的景物和当时的动作。例文《颐和园》写长廊、万寿山、昆明湖，《七月的天山》写雪峰、溪流和野花。两篇都是例子，不单独立成课文。",
     "mastery_criteria": [
       "能按要求把话写完整",
       "能判断哪一句更符合题目"
     ],
     "diagnostic_question": {
-      "question": "哪一句把动作写得更具体？",
-      "answer": "他蹲下去，双手捧起受伤的小鸟。"
+      "question": "哪一句把游览时看到的样子写具体了？",
+      "answer": "长廊一边是花木，一边是昆明湖，彩画一幅接着一幅"
     },
     "external": false,
     "subject": "chinese",
@@ -56638,14 +56962,14 @@
     ]
   },
   {
-    "id": "cnc_p274",
-    "name": "文言文《囊萤夜读》",
+    "id": "cnc_p286",
+    "name": "文言文二则",
     "domain": "阅读理解",
     "grade": 4,
     "semester": "下",
     "chapter": "四年级下册 第6单元 文言文·囊萤夜读",
     "type": "reasoning",
-    "description": "读懂车胤用练囊装萤火虫照书，并知道铁杵成针是坚持的意思。",
+    "description": "读懂《囊萤夜读》和《铁杵成针》：车胤用练囊装萤火虫照书，老婆婆把铁杵磨成针，都是在说坚持。",
     "mastery_criteria": [
       "能根据短文选出和文字一致的信息",
       "能说出故事或短文的主要意思"
@@ -56665,34 +56989,7 @@
     ]
   },
   {
-    "id": "cnc_p275",
-    "name": "对话和双引号",
-    "domain": "句子",
-    "grade": 4,
-    "semester": "下",
-    "chapter": "四年级下册 第6单元 文言文·囊萤夜读",
-    "type": "procedural",
-    "description": "能分清提示语在前、在后时，双引号和标点该怎样放。",
-    "mastery_criteria": [
-      "能把句子写通顺",
-      "能按要求选用或修改句子"
-    ],
-    "diagnostic_question": {
-      "question": "哪一句的引号用对了？",
-      "answer": "妈妈说：「该写作业了。」"
-    },
-    "external": false,
-    "subject": "chinese",
-    "standards": [
-      {
-        "id": "ccs-2022:2.JZ.01",
-        "confidence": "inferred",
-        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
-      }
-    ]
-  },
-  {
-    "id": "cnc_p276",
+    "id": "cnc_p287",
     "name": "阅读《小英雄雨来》",
     "domain": "阅读理解",
     "grade": 4,
@@ -56719,7 +57016,88 @@
     ]
   },
   {
-    "id": "cnc_p277",
+    "id": "cnc_p288",
+    "name": "阅读《我们家的男子汉》",
+    "domain": "阅读理解",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第6单元 文言文·囊萤夜读",
+    "type": "reasoning",
+    "description": "读懂王安忆写的是妹妹的儿子：一个小男孩对食物的兴趣、自己做事的要求和面对挑战时的沉着。",
+    "mastery_criteria": [
+      "能根据短文选出和文字一致的信息",
+      "能说出故事或短文的主要意思"
+    ],
+    "diagnostic_question": {
+      "question": "《我们家的男子汉》的作者是谁？",
+      "answer": "王安忆"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:2.YD.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p289",
+    "name": "阅读《芦花鞋》",
+    "domain": "阅读理解",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第6单元 文言文·囊萤夜读",
+    "type": "reasoning",
+    "description": "读懂曹文轩写的青铜：用芦花编鞋，雪天拿到镇上去卖，最后把脚上那双也脱给了别人。",
+    "mastery_criteria": [
+      "能根据短文选出和文字一致的信息",
+      "能说出故事或短文的主要意思"
+    ],
+    "diagnostic_question": {
+      "question": "《芦花鞋》的作者是谁？写的是谁？",
+      "answer": "曹文轩。写的是青铜"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:2.YD.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p290",
+    "name": "语文园地六·对话和双引号",
+    "domain": "句子",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第6单元 文言文·囊萤夜读",
+    "type": "procedural",
+    "description": "能分清提示语在前、在后时，双引号和标点该怎样放。口语交际「朋友相处的秘诀」要说出自己怎样和朋友相处。习作「我学会了_____」要把学会的过程写清楚。",
+    "mastery_criteria": [
+      "能把句子写通顺",
+      "能按要求选用或修改句子"
+    ],
+    "diagnostic_question": {
+      "question": "哪一句的引号用对了？",
+      "answer": "妈妈说：「该写作业了。」"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:2.JZ.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p291",
     "name": "古诗《芙蓉楼送辛渐》",
     "domain": "古诗文积累",
     "grade": 4,
@@ -56746,7 +57124,61 @@
     ]
   },
   {
-    "id": "cnc_p278",
+    "id": "cnc_p292",
+    "name": "古诗《塞下曲》",
+    "domain": "古诗文积累",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第7单元 古诗·芙蓉楼送辛渐",
+    "type": "conceptual",
+    "description": "背诵卢纶《塞下曲》（月黑雁飞高），不要和王昌龄的送别诗串句。",
+    "mastery_criteria": [
+      "能背出本册要求积累的诗句",
+      "能分清作者和诗句，不把字句记错"
+    ],
+    "diagnostic_question": {
+      "question": "「月黑雁飞高」的下一句是哪一句？",
+      "answer": "单于夜遁逃"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:2.GS.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p293",
+    "name": "古诗《墨梅》",
+    "domain": "古诗文积累",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第7单元 古诗·芙蓉楼送辛渐",
+    "type": "conceptual",
+    "description": "背诵王冕《墨梅》，知道「不要人夸好颜色」是不图外表，只留清气。",
+    "mastery_criteria": [
+      "能背出本册要求积累的诗句",
+      "能分清作者和诗句，不把字句记错"
+    ],
+    "diagnostic_question": {
+      "question": "「我家洗砚池头树」的下一句是哪一句？",
+      "answer": "朵朵花开淡墨痕"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:2.GS.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p294",
     "name": "阅读《黄继光》",
     "domain": "阅读理解",
     "grade": 4,
@@ -56773,7 +57205,115 @@
     ]
   },
   {
-    "id": "cnc_p279",
+    "id": "cnc_p295",
+    "name": "阅读《“诺曼底号”遇难记》",
+    "domain": "阅读理解",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第7单元 古诗·芙蓉楼送辛渐",
+    "type": "reasoning",
+    "description": "读懂雨果写的哈尔威船长：船被撞伤后命令妇女先走，自己留在舰桥，与船同沉。",
+    "mastery_criteria": [
+      "能根据短文选出和文字一致的信息",
+      "能说出故事或短文的主要意思"
+    ],
+    "diagnostic_question": {
+      "question": "《“诺曼底号”遇难记》的作者是谁？",
+      "answer": "雨果"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:2.YD.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p296",
+    "name": "阅读《挑山工》",
+    "domain": "阅读理解",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第7单元 古诗·芙蓉楼送辛渐",
+    "type": "reasoning",
+    "description": "读懂冯骥才写的泰山挑山工：走折尺形的路，脚步不停，反而比游人先到。",
+    "mastery_criteria": [
+      "能根据短文选出和文字一致的信息",
+      "能说出故事或短文的主要意思"
+    ],
+    "diagnostic_question": {
+      "question": "《挑山工》的作者是谁？",
+      "answer": "冯骥才"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:2.YD.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p297",
+    "name": "语文园地七·自我介绍和自画像",
+    "domain": "习作基础",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第7单元 古诗·芙蓉楼送辛渐",
+    "type": "procedural",
+    "description": "自我介绍要让没见过你的人记住你是谁、有什么特点。习作「我的自画像」要把外貌、性格或一件能看出特点的事写出来。",
+    "mastery_criteria": [
+      "能按要求把话写完整",
+      "能判断哪一句更符合题目"
+    ],
+    "diagnostic_question": {
+      "question": "自我介绍时，哪一种说清楚了？",
+      "answer": "我叫小林，说话快，爱画画，课间常把同学画进速写本"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:2.XZ.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p298",
+    "name": "阅读《宝葫芦的秘密》（节选）",
+    "domain": "阅读理解",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第8单元 童话·巨人的花园",
+    "type": "reasoning",
+    "description": "读四下节选：王葆自己讲，奶奶用故事换他做事，张三、李四得到宝葫芦以后要什么有什么。他一碰到难题就盼着也有一个。三上那一节写到他得到葫芦，这一课细写的是听故事和盼望。",
+    "mastery_criteria": [
+      "能根据短文选出和文字一致的信息",
+      "能说出故事或短文的主要意思"
+    ],
+    "diagnostic_question": {
+      "question": "四下这篇节选是谁写的？谁在讲？",
+      "answer": "张天翼写的。王葆用「我」来讲自己的事"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:2.YD.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p299",
     "name": "阅读《巨人的花园》",
     "domain": "阅读理解",
     "grade": 4,
@@ -56800,7 +57340,61 @@
     ]
   },
   {
-    "id": "cnc_p280",
+    "id": "cnc_p300",
+    "name": "阅读《海的女儿》",
+    "domain": "阅读理解",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第8单元 童话·巨人的花园",
+    "type": "reasoning",
+    "description": "读懂安徒生的小人鱼：救了王子，用声音向巫婆换了双腿，最后没有伤害王子，自己变成了泡沫。",
+    "mastery_criteria": [
+      "能根据短文选出和文字一致的信息",
+      "能说出故事或短文的主要意思"
+    ],
+    "diagnostic_question": {
+      "question": "《海的女儿》的作者是谁？",
+      "answer": "安徒生"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:2.YD.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p301",
+    "name": "语文园地八·故事新编",
+    "domain": "习作基础",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第8单元 童话·巨人的花园",
+    "type": "procedural",
+    "description": "故事新编要借用读过的人物，写出新的情节，不能把原来的道理写反，也不能一字不改地抄课文。",
+    "mastery_criteria": [
+      "能按要求把话写完整",
+      "能判断哪一句更符合题目"
+    ],
+    "diagnostic_question": {
+      "question": "哪一种是故事新编？",
+      "answer": "巨人拆掉围墙以后，又来了一个不敢进门的孩子，巨人亲自把他领进花园"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:2.XZ.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p302",
     "name": "易读错的字音",
     "domain": "识字写字",
     "grade": 5,
@@ -56827,7 +57421,7 @@
     ]
   },
   {
-    "id": "cnc_p281",
+    "id": "cnc_p303",
     "name": "阅读《白鹭》",
     "domain": "阅读理解",
     "grade": 5,
@@ -56854,7 +57448,7 @@
     ]
   },
   {
-    "id": "cnc_p282",
+    "id": "cnc_p304",
     "name": "阅读《落花生》",
     "domain": "阅读理解",
     "grade": 5,
@@ -56881,7 +57475,7 @@
     ]
   },
   {
-    "id": "cnc_p283",
+    "id": "cnc_p305",
     "name": "阅读《桂花雨》",
     "domain": "阅读理解",
     "grade": 5,
@@ -56908,7 +57502,7 @@
     ]
   },
   {
-    "id": "cnc_p284",
+    "id": "cnc_p306",
     "name": "多音字：强、鲜、弹、模",
     "domain": "识字写字",
     "grade": 5,
@@ -56935,7 +57529,7 @@
     ]
   },
   {
-    "id": "cnc_p285",
+    "id": "cnc_p307",
     "name": "成语运用",
     "domain": "词语",
     "grade": 5,
@@ -56962,7 +57556,7 @@
     ]
   },
   {
-    "id": "cnc_p286",
+    "id": "cnc_p308",
     "name": "阅读《将相和》",
     "domain": "阅读理解",
     "grade": 5,
@@ -56989,7 +57583,7 @@
     ]
   },
   {
-    "id": "cnc_p287",
+    "id": "cnc_p309",
     "name": "阅读《猎人海力布》",
     "domain": "阅读理解",
     "grade": 5,
@@ -57016,7 +57610,7 @@
     ]
   },
   {
-    "id": "cnc_p288",
+    "id": "cnc_p310",
     "name": "阅读《牛郎织女》",
     "domain": "阅读理解",
     "grade": 5,
@@ -57043,7 +57637,7 @@
     ]
   },
   {
-    "id": "cnc_p289",
+    "id": "cnc_p311",
     "name": "古诗《示儿》",
     "domain": "古诗文积累",
     "grade": 5,
@@ -57070,7 +57664,7 @@
     ]
   },
   {
-    "id": "cnc_p290",
+    "id": "cnc_p312",
     "name": "古诗《题临安邸》",
     "domain": "古诗文积累",
     "grade": 5,
@@ -57097,7 +57691,7 @@
     ]
   },
   {
-    "id": "cnc_p291",
+    "id": "cnc_p313",
     "name": "阅读《少年中国说》节选",
     "domain": "阅读理解",
     "grade": 5,
@@ -57124,7 +57718,7 @@
     ]
   },
   {
-    "id": "cnc_p292",
+    "id": "cnc_p314",
     "name": "修改病句",
     "domain": "句子",
     "grade": 5,
@@ -57151,7 +57745,7 @@
     ]
   },
   {
-    "id": "cnc_p293",
+    "id": "cnc_p315",
     "name": "把事情的经过写清楚",
     "domain": "习作基础",
     "grade": 5,
@@ -57178,7 +57772,7 @@
     ]
   },
   {
-    "id": "cnc_p294",
+    "id": "cnc_p316",
     "name": "形近字：戴、载、裁",
     "domain": "识字写字",
     "grade": 5,
@@ -57205,7 +57799,7 @@
     ]
   },
   {
-    "id": "cnc_p295",
+    "id": "cnc_p317",
     "name": "阅读《圆明园的毁灭》",
     "domain": "阅读理解",
     "grade": 5,
@@ -57232,7 +57826,7 @@
     ]
   },
   {
-    "id": "cnc_p296",
+    "id": "cnc_p318",
     "name": "联系上下文理解词语",
     "domain": "词语",
     "grade": 5,
@@ -57259,7 +57853,7 @@
     ]
   },
   {
-    "id": "cnc_p297",
+    "id": "cnc_p319",
     "name": "阅读《鸟的天堂》",
     "domain": "阅读理解",
     "grade": 5,
@@ -57286,7 +57880,7 @@
     ]
   },
   {
-    "id": "cnc_p298",
+    "id": "cnc_p320",
     "name": "古诗《枫桥夜泊》",
     "domain": "古诗文积累",
     "grade": 5,
@@ -57313,7 +57907,7 @@
     ]
   },
   {
-    "id": "cnc_p299",
+    "id": "cnc_p321",
     "name": "阅读《父爱之舟》",
     "domain": "阅读理解",
     "grade": 5,
@@ -57340,7 +57934,7 @@
     ]
   },
   {
-    "id": "cnc_p300",
+    "id": "cnc_p322",
     "name": "易错字音：削、骨、血、处",
     "domain": "识字写字",
     "grade": 5,
@@ -57367,7 +57961,7 @@
     ]
   },
   {
-    "id": "cnc_p301",
+    "id": "cnc_p323",
     "name": "古诗《稚子弄冰》",
     "domain": "古诗文积累",
     "grade": 5,
@@ -57394,7 +57988,7 @@
     ]
   },
   {
-    "id": "cnc_p302",
+    "id": "cnc_p324",
     "name": "古诗《村晚》",
     "domain": "古诗文积累",
     "grade": 5,
@@ -57421,7 +58015,7 @@
     ]
   },
   {
-    "id": "cnc_p303",
+    "id": "cnc_p325",
     "name": "古诗《游子吟》",
     "domain": "古诗文积累",
     "grade": 5,
@@ -57448,7 +58042,7 @@
     ]
   },
   {
-    "id": "cnc_p304",
+    "id": "cnc_p326",
     "name": "阅读《祖父的园子》",
     "domain": "阅读理解",
     "grade": 5,
@@ -57475,7 +58069,7 @@
     ]
   },
   {
-    "id": "cnc_p305",
+    "id": "cnc_p327",
     "name": "成语：神机妙算、完好无缺",
     "domain": "词语",
     "grade": 5,
@@ -57502,7 +58096,7 @@
     ]
   },
   {
-    "id": "cnc_p306",
+    "id": "cnc_p328",
     "name": "阅读《草船借箭》",
     "domain": "阅读理解",
     "grade": 5,
@@ -57529,7 +58123,7 @@
     ]
   },
   {
-    "id": "cnc_p307",
+    "id": "cnc_p329",
     "name": "阅读《景阳冈》",
     "domain": "阅读理解",
     "grade": 5,
@@ -57556,7 +58150,7 @@
     ]
   },
   {
-    "id": "cnc_p308",
+    "id": "cnc_p330",
     "name": "阅读《猴王出世》",
     "domain": "阅读理解",
     "grade": 5,
@@ -57583,7 +58177,7 @@
     ]
   },
   {
-    "id": "cnc_p309",
+    "id": "cnc_p331",
     "name": "汉字的偏旁和字义",
     "domain": "识字写字",
     "grade": 5,
@@ -57610,7 +58204,7 @@
     ]
   },
   {
-    "id": "cnc_p310",
+    "id": "cnc_p332",
     "name": "象形字和会意字",
     "domain": "识字写字",
     "grade": 5,
@@ -57637,7 +58231,7 @@
     ]
   },
   {
-    "id": "cnc_p311",
+    "id": "cnc_p333",
     "name": "古诗《从军行》",
     "domain": "古诗文积累",
     "grade": 5,
@@ -57664,7 +58258,7 @@
     ]
   },
   {
-    "id": "cnc_p312",
+    "id": "cnc_p334",
     "name": "阅读《军神》",
     "domain": "阅读理解",
     "grade": 5,
@@ -57691,7 +58285,7 @@
     ]
   },
   {
-    "id": "cnc_p313",
+    "id": "cnc_p335",
     "name": "描写人物的词语",
     "domain": "词语",
     "grade": 5,
@@ -57718,7 +58312,7 @@
     ]
   },
   {
-    "id": "cnc_p314",
+    "id": "cnc_p336",
     "name": "写人要抓住特点",
     "domain": "习作基础",
     "grade": 5,
@@ -57745,7 +58339,7 @@
     ]
   },
   {
-    "id": "cnc_p315",
+    "id": "cnc_p337",
     "name": "缩句和扩句",
     "domain": "句子",
     "grade": 5,
@@ -57772,7 +58366,7 @@
     ]
   },
   {
-    "id": "cnc_p316",
+    "id": "cnc_p338",
     "name": "文言文《自相矛盾》",
     "domain": "阅读理解",
     "grade": 5,
@@ -57799,7 +58393,7 @@
     ]
   },
   {
-    "id": "cnc_p317",
+    "id": "cnc_p339",
     "name": "文言文《田忌赛马》",
     "domain": "阅读理解",
     "grade": 5,
@@ -57826,7 +58420,7 @@
     ]
   },
   {
-    "id": "cnc_p318",
+    "id": "cnc_p340",
     "name": "阅读《跳水》",
     "domain": "阅读理解",
     "grade": 5,
@@ -57853,7 +58447,7 @@
     ]
   },
   {
-    "id": "cnc_p319",
+    "id": "cnc_p341",
     "name": "阅读《威尼斯的小艇》",
     "domain": "阅读理解",
     "grade": 5,
@@ -57880,7 +58474,7 @@
     ]
   },
   {
-    "id": "cnc_p320",
+    "id": "cnc_p342",
     "name": "易错字音：屹、悼、炽、湃",
     "domain": "识字写字",
     "grade": 6,
@@ -57907,7 +58501,7 @@
     ]
   },
   {
-    "id": "cnc_p321",
+    "id": "cnc_p343",
     "name": "古诗《西江月·夜行黄沙道中》",
     "domain": "古诗文积累",
     "grade": 6,
@@ -57934,7 +58528,7 @@
     ]
   },
   {
-    "id": "cnc_p322",
+    "id": "cnc_p344",
     "name": "古诗《宿建德江》",
     "domain": "古诗文积累",
     "grade": 6,
@@ -57961,7 +58555,7 @@
     ]
   },
   {
-    "id": "cnc_p323",
+    "id": "cnc_p345",
     "name": "古诗《六月二十七日望湖楼醉书》",
     "domain": "古诗文积累",
     "grade": 6,
@@ -57988,7 +58582,7 @@
     ]
   },
   {
-    "id": "cnc_p324",
+    "id": "cnc_p346",
     "name": "阅读《丁香结》",
     "domain": "阅读理解",
     "grade": 6,
@@ -58015,7 +58609,7 @@
     ]
   },
   {
-    "id": "cnc_p325",
+    "id": "cnc_p347",
     "name": "古诗《七律·长征》",
     "domain": "古诗文积累",
     "grade": 6,
@@ -58042,7 +58636,7 @@
     ]
   },
   {
-    "id": "cnc_p326",
+    "id": "cnc_p348",
     "name": "阅读《开国大典》",
     "domain": "阅读理解",
     "grade": 6,
@@ -58069,7 +58663,7 @@
     ]
   },
   {
-    "id": "cnc_p327",
+    "id": "cnc_p349",
     "name": "阅读《竹节人》",
     "domain": "阅读理解",
     "grade": 6,
@@ -58096,7 +58690,7 @@
     ]
   },
   {
-    "id": "cnc_p328",
+    "id": "cnc_p350",
     "name": "形近字：慨、概、溉",
     "domain": "识字写字",
     "grade": 6,
@@ -58123,7 +58717,7 @@
     ]
   },
   {
-    "id": "cnc_p329",
+    "id": "cnc_p351",
     "name": "阅读《宇宙生命之谜》",
     "domain": "阅读理解",
     "grade": 6,
@@ -58150,7 +58744,7 @@
     ]
   },
   {
-    "id": "cnc_p330",
+    "id": "cnc_p352",
     "name": "阅读《桥》",
     "domain": "阅读理解",
     "grade": 6,
@@ -58177,7 +58771,7 @@
     ]
   },
   {
-    "id": "cnc_p331",
+    "id": "cnc_p353",
     "name": "阅读《穷人》",
     "domain": "阅读理解",
     "grade": 6,
@@ -58204,7 +58798,7 @@
     ]
   },
   {
-    "id": "cnc_p332",
+    "id": "cnc_p354",
     "name": "品味含义深刻的词句",
     "domain": "词语",
     "grade": 6,
@@ -58231,7 +58825,7 @@
     ]
   },
   {
-    "id": "cnc_p333",
+    "id": "cnc_p355",
     "name": "写场景要有画面",
     "domain": "习作基础",
     "grade": 6,
@@ -58258,7 +58852,7 @@
     ]
   },
   {
-    "id": "cnc_p334",
+    "id": "cnc_p356",
     "name": "关联词：不但而且、只要就",
     "domain": "句子",
     "grade": 6,
@@ -58285,7 +58879,7 @@
     ]
   },
   {
-    "id": "cnc_p335",
+    "id": "cnc_p357",
     "name": "文言文《学弈》",
     "domain": "阅读理解",
     "grade": 6,
@@ -58312,7 +58906,7 @@
     ]
   },
   {
-    "id": "cnc_p336",
+    "id": "cnc_p358",
     "name": "文言文《伯牙鼓琴》",
     "domain": "阅读理解",
     "grade": 6,
@@ -58339,7 +58933,7 @@
     ]
   },
   {
-    "id": "cnc_p337",
+    "id": "cnc_p359",
     "name": "文言虚词：之、其、而",
     "domain": "阅读理解",
     "grade": 6,
@@ -58366,7 +58960,7 @@
     ]
   },
   {
-    "id": "cnc_p338",
+    "id": "cnc_p360",
     "name": "阅读《故宫博物院》",
     "domain": "阅读理解",
     "grade": 6,
@@ -58393,7 +58987,7 @@
     ]
   },
   {
-    "id": "cnc_p339",
+    "id": "cnc_p361",
     "name": "阅读《狼牙山五壮士》",
     "domain": "阅读理解",
     "grade": 6,
@@ -58420,7 +59014,7 @@
     ]
   },
   {
-    "id": "cnc_p340",
+    "id": "cnc_p362",
     "name": "易错字音：粥、宵、饺、祭",
     "domain": "识字写字",
     "grade": 6,
@@ -58447,7 +59041,7 @@
     ]
   },
   {
-    "id": "cnc_p341",
+    "id": "cnc_p363",
     "name": "古诗《寒食》",
     "domain": "古诗文积累",
     "grade": 6,
@@ -58474,7 +59068,7 @@
     ]
   },
   {
-    "id": "cnc_p342",
+    "id": "cnc_p364",
     "name": "古诗《迢迢牵牛星》",
     "domain": "古诗文积累",
     "grade": 6,
@@ -58501,7 +59095,7 @@
     ]
   },
   {
-    "id": "cnc_p343",
+    "id": "cnc_p365",
     "name": "古诗《十五夜望月》",
     "domain": "古诗文积累",
     "grade": 6,
@@ -58528,7 +59122,7 @@
     ]
   },
   {
-    "id": "cnc_p344",
+    "id": "cnc_p366",
     "name": "阅读《北京的春节》",
     "domain": "阅读理解",
     "grade": 6,
@@ -58555,7 +59149,7 @@
     ]
   },
   {
-    "id": "cnc_p345",
+    "id": "cnc_p367",
     "name": "阅读《腊八粥》",
     "domain": "阅读理解",
     "grade": 6,
@@ -58582,7 +59176,7 @@
     ]
   },
   {
-    "id": "cnc_p346",
+    "id": "cnc_p368",
     "name": "多音字：泊、漂、载、难",
     "domain": "识字写字",
     "grade": 6,
@@ -58609,7 +59203,7 @@
     ]
   },
   {
-    "id": "cnc_p347",
+    "id": "cnc_p369",
     "name": "词语的语境义",
     "domain": "词语",
     "grade": 6,
@@ -58636,7 +59230,7 @@
     ]
   },
   {
-    "id": "cnc_p348",
+    "id": "cnc_p370",
     "name": "阅读《鲁滨逊漂流记》",
     "domain": "阅读理解",
     "grade": 6,
@@ -58663,7 +59257,7 @@
     ]
   },
   {
-    "id": "cnc_p349",
+    "id": "cnc_p371",
     "name": "阅读《骑鹅旅行记》",
     "domain": "阅读理解",
     "grade": 6,
@@ -58690,7 +59284,7 @@
     ]
   },
   {
-    "id": "cnc_p350",
+    "id": "cnc_p372",
     "name": "省略号和破折号",
     "domain": "句子",
     "grade": 6,
@@ -58717,7 +59311,7 @@
     ]
   },
   {
-    "id": "cnc_p351",
+    "id": "cnc_p373",
     "name": "阅读《匆匆》",
     "domain": "阅读理解",
     "grade": 6,
@@ -58744,7 +59338,7 @@
     ]
   },
   {
-    "id": "cnc_p352",
+    "id": "cnc_p374",
     "name": "阅读《那个星期天》",
     "domain": "阅读理解",
     "grade": 6,
@@ -58771,7 +59365,7 @@
     ]
   },
   {
-    "id": "cnc_p353",
+    "id": "cnc_p375",
     "name": "文言文《两小儿辩日》",
     "domain": "阅读理解",
     "grade": 6,
@@ -58798,7 +59392,7 @@
     ]
   },
   {
-    "id": "cnc_p354",
+    "id": "cnc_p376",
     "name": "围绕中心选择材料",
     "domain": "习作基础",
     "grade": 6,
@@ -58825,7 +59419,7 @@
     ]
   },
   {
-    "id": "cnc_p355",
+    "id": "cnc_p377",
     "name": "毕业赠言要具体",
     "domain": "习作基础",
     "grade": 6,
@@ -58852,7 +59446,7 @@
     ]
   },
   {
-    "id": "cnc_p356",
+    "id": "cnc_p378",
     "name": "阅读《汤姆·索亚历险记》",
     "domain": "阅读理解",
     "grade": 6,
@@ -58879,7 +59473,7 @@
     ]
   },
   {
-    "id": "cnc_p357",
+    "id": "cnc_p379",
     "name": "古诗《石灰吟》",
     "domain": "古诗文积累",
     "grade": 6,
@@ -58906,7 +59500,7 @@
     ]
   },
   {
-    "id": "cnc_p358",
+    "id": "cnc_p380",
     "name": "古诗《竹石》",
     "domain": "古诗文积累",
     "grade": 6,
@@ -58933,7 +59527,7 @@
     ]
   },
   {
-    "id": "cnc_p359",
+    "id": "cnc_p381",
     "name": "古诗《书湖阴先生壁》",
     "domain": "古诗文积累",
     "grade": 6,
