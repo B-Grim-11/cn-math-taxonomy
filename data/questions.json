@@ -5578,60 +5578,6 @@
     "verify": "8+6"
   },
   {
-    "id": "cnm_p109_q1",
-    "topicId": "cnm_p109",
-    "difficulty": "basic",
-    "type": "choice",
-    "prompt": "优化问题要怎样安排？",
-    "choices": [
-      {
-        "key": "A",
-        "text": "把几件事安排得更节省"
-      },
-      {
-        "key": "B",
-        "text": "所有事情都分开做，越慢越好"
-      },
-      {
-        "key": "C",
-        "text": "只做一件事"
-      }
-    ],
-    "answer": "A",
-    "explanation": "能同时做的就不要排队做。",
-    "verify": "'把几件事安排得更节省'"
-  },
-  {
-    "id": "cnm_p109_q2",
-    "topicId": "cnm_p109",
-    "difficulty": "basic",
-    "type": "numeric",
-    "prompt": "计算：8＋1＝？",
-    "answer": "9",
-    "explanation": "烧水 8 分，洗茶杯 1 分。若洗茶杯在烧水时完成，总时间仍约 8 分，这里先算 8＋1 看看分开做要 9 分。",
-    "verify": "8+1"
-  },
-  {
-    "id": "cnm_p109_q3",
-    "topicId": "cnm_p109",
-    "difficulty": "standard",
-    "type": "numeric",
-    "prompt": "烙一张饼要 3 分，锅里同时可以烙 2 张。烙 2 张至少要多少分？计算：3＋0＝？",
-    "answer": "3",
-    "explanation": "两张同时烙，只要 3 分。",
-    "verify": "3+0"
-  },
-  {
-    "id": "cnm_p109_q4",
-    "topicId": "cnm_p109",
-    "difficulty": "standard",
-    "type": "numeric",
-    "prompt": "走路 10 分，买票 2 分。如果一个人先去买票，两件事一前一后，一共多少分？计算：10＋2＝？",
-    "answer": "12",
-    "explanation": "10＋2＝12。",
-    "verify": "10+2"
-  },
-  {
     "id": "cnm_p110_q1",
     "topicId": "cnm_p110",
     "difficulty": "basic",

@@ -3292,32 +3292,6 @@
     }
   },
   {
-    "id": "cnm_p109",
-    "name": "简单的优化",
-    "domain": "综合与实践",
-    "grade": 4,
-    "semester": "上",
-    "chapter": "四年级上册 第7单元 复习与关联",
-    "type": "reasoning",
-    "description": "能把几件事安排得更节省时间，例如烧水时同时洗茶杯。",
-    "mastery_criteria": [
-      "能说出哪两件事可以同时做",
-      "能算出优化后需要的时间"
-    ],
-    "diagnostic_question": {
-      "question": "优化问题要怎样安排？",
-      "answer": "把几件事安排得更节省"
-    },
-    "external": false,
-    "standards": [
-      {
-        "id": "cms-2022:2.NA.10",
-        "confidence": "inferred",
-        "note": "优化是现行四年级上册数学广角，课标没有同名主题，待核。"
-      }
-    ]
-  },
-  {
     "id": "cnm_p131",
     "name": "鸡兔同笼",
     "domain": "综合与实践",
@@ -3339,7 +3313,7 @@
       {
         "id": "cms-2022:2.NA.10",
         "confidence": "inferred",
-        "note": "鸡兔同笼是现行四年级下册数学广角，内容要求没有同名条款，待核。"
+        "note": "鸡兔同笼已由四下迁入新版四上，排在复习与关联之后（川观/闪电新闻与2026秋教辅）；dzkbw 单元表未单列，待核。"
       }
     ]
   },

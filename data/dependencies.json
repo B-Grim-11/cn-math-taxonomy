@@ -828,18 +828,6 @@
     "reason": "学习「条形统计图」需要先掌握「复式统计表」。"
   },
   {
-    "topicId": "cnm_p109",
-    "prerequisiteId": "cnm_p033",
-    "strength": "hard",
-    "reason": "学习「简单的优化」需要先掌握「100以内笔算加法」。"
-  },
-  {
-    "topicId": "cnm_p109",
-    "prerequisiteId": "cnm_p063",
-    "strength": "hard",
-    "reason": "学习「简单的优化」需要先掌握「经过时间」。"
-  },
-  {
     "topicId": "cnm_p110",
     "prerequisiteId": "cnm_p059",
     "strength": "hard",
