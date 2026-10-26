@@ -19683,85 +19683,139 @@
     "topicId": "cnc_p454",
     "prerequisiteId": "cnc_p453",
     "strength": "soft",
-    "reason": "按统编教材的常见教学顺序，先学「语文园地八·鲁迅名言」，再学「易错字音：粥、宵、饺、祭」。"
+    "reason": "按统编教材的常见教学顺序，先学「语文园地八·鲁迅名言」，再学「阅读《北京的春节》」。"
   },
   {
-    "topicId": "cnc_p455",
-    "prerequisiteId": "cnc_p454",
+    "topicId": "cnc_p456",
+    "prerequisiteId": "cnc_p455",
     "strength": "soft",
-    "reason": "按统编教材的常见教学顺序，先学「易错字音：粥、宵、饺、祭」，再学「古诗《寒食》」。"
-  },
-  {
-    "topicId": "cnc_p457",
-    "prerequisiteId": "cnc_p456",
-    "strength": "soft",
-    "reason": "按统编教材的常见教学顺序，先学「古诗《迢迢牵牛星》」，再学「古诗《十五夜望月》」。"
+    "reason": "按统编教材的常见教学顺序，先学「阅读《腊八粥》」，再学「古诗《寒食》」。"
   },
   {
     "topicId": "cnc_p458",
     "prerequisiteId": "cnc_p457",
     "strength": "soft",
-    "reason": "按统编教材的常见教学顺序，先学「古诗《十五夜望月》」，再学「阅读《北京的春节》」。"
+    "reason": "按统编教材的常见教学顺序，先学「古诗《迢迢牵牛星》」，再学「古诗《十五夜望月》」。"
+  },
+  {
+    "topicId": "cnc_p459",
+    "prerequisiteId": "cnc_p458",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「古诗《十五夜望月》」，再学「阅读《藏戏》」。"
   },
   {
     "topicId": "cnc_p460",
     "prerequisiteId": "cnc_p459",
     "strength": "soft",
-    "reason": "按统编教材的常见教学顺序，先学「阅读《腊八粥》」，再学「多音字：泊、漂、载、难」。"
+    "reason": "按统编教材的常见教学顺序，先学「阅读《藏戏》」，再学「习作：家乡的风俗」。"
   },
   {
     "topicId": "cnc_p461",
     "prerequisiteId": "cnc_p460",
     "strength": "soft",
-    "reason": "按统编教材的常见教学顺序，先学「多音字：泊、漂、载、难」，再学「词语的语境义」。"
+    "reason": "按统编教材的常见教学顺序，先学「习作：家乡的风俗」，再学「语文园地一·易错字音：粥、宵、饺、祭」。"
   },
   {
     "topicId": "cnc_p462",
     "prerequisiteId": "cnc_p461",
     "strength": "soft",
-    "reason": "按统编教材的常见教学顺序，先学「词语的语境义」，再学「阅读《鲁滨逊漂流记》」。"
+    "reason": "按统编教材的常见教学顺序，先学「语文园地一·易错字音：粥、宵、饺、祭」，再学「阅读《鲁滨逊漂流记》」。"
   },
   {
     "topicId": "cnc_p464",
     "prerequisiteId": "cnc_p463",
     "strength": "soft",
-    "reason": "按统编教材的常见教学顺序，先学「阅读《骑鹅旅行记》」，再学「省略号和破折号」。"
+    "reason": "按统编教材的常见教学顺序，先学「阅读《骑鹅旅行记》」，再学「阅读《汤姆·索亚历险记》」。"
   },
   {
     "topicId": "cnc_p465",
     "prerequisiteId": "cnc_p464",
     "strength": "soft",
-    "reason": "按统编教材的常见教学顺序，先学「省略号和破折号」，再学「阅读《匆匆》」。"
+    "reason": "按统编教材的常见教学顺序，先学「阅读《汤姆·索亚历险记》」，再学「习作：写作品梗概」。"
   },
   {
     "topicId": "cnc_p466",
     "prerequisiteId": "cnc_p465",
     "strength": "soft",
-    "reason": "按统编教材的常见教学顺序，先学「阅读《匆匆》」，再学「阅读《那个星期天》」。"
+    "reason": "按统编教材的常见教学顺序，先学「习作：写作品梗概」，再学「语文园地二·多音字：泊、漂、载、难」。"
   },
   {
     "topicId": "cnc_p467",
     "prerequisiteId": "cnc_p466",
     "strength": "soft",
-    "reason": "按统编教材的常见教学顺序，先学「阅读《那个星期天》」，再学「文言文《两小儿辩日》」。"
+    "reason": "按统编教材的常见教学顺序，先学「语文园地二·多音字：泊、漂、载、难」，再学「语文园地二·词语的语境义」。"
   },
   {
     "topicId": "cnc_p468",
     "prerequisiteId": "cnc_p467",
     "strength": "soft",
-    "reason": "按统编教材的常见教学顺序，先学「文言文《两小儿辩日》」，再学「围绕中心选择材料」。"
+    "reason": "按统编教材的常见教学顺序，先学「语文园地二·词语的语境义」，再学「快乐读书吧：漫步世界名著花园」。"
+  },
+  {
+    "topicId": "cnc_p469",
+    "prerequisiteId": "cnc_p468",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「快乐读书吧：漫步世界名著花园」，再学「阅读《匆匆》」。"
   },
   {
     "topicId": "cnc_p470",
     "prerequisiteId": "cnc_p469",
     "strength": "soft",
-    "reason": "按统编教材的常见教学顺序，先学「毕业赠言要具体」，再学「阅读《汤姆·索亚历险记》」。"
+    "reason": "按统编教材的常见教学顺序，先学「阅读《匆匆》」，再学「阅读《那个星期天》」。"
   },
   {
-    "topicId": "cnc_p471",
-    "prerequisiteId": "cnc_p470",
+    "topicId": "cnc_p472",
+    "prerequisiteId": "cnc_p471",
     "strength": "soft",
-    "reason": "按统编教材的常见教学顺序，先学「阅读《汤姆·索亚历险记》」，再学「古诗《石灰吟》」。"
+    "reason": "按统编教材的常见教学顺序，先学「习作：让真情自然流露」，再学「省略号和破折号」。"
+  },
+  {
+    "topicId": "cnc_p473",
+    "prerequisiteId": "cnc_p472",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「省略号和破折号」，再学「古诗《马诗》」。"
+  },
+  {
+    "topicId": "cnc_p476",
+    "prerequisiteId": "cnc_p475",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「古诗《竹石》」，再学「阅读《十六年前的回忆》」。"
+  },
+  {
+    "topicId": "cnc_p480",
+    "prerequisiteId": "cnc_p479",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「综合性学习：奋斗的历程」，再学「语文园地四·开头结尾与借物言志」。"
+  },
+  {
+    "topicId": "cnc_p481",
+    "prerequisiteId": "cnc_p480",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「语文园地四·开头结尾与借物言志」，再学「文言文《学弈》」。"
+  },
+  {
+    "topicId": "cnc_p484",
+    "prerequisiteId": "cnc_p483",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「习作：围绕中心选择材料」，再学「语文园地五·辩论」。"
+  },
+  {
+    "topicId": "cnc_p485",
+    "prerequisiteId": "cnc_p484",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「语文园地五·辩论」，再学「综合性学习：回忆往事」。"
+  },
+  {
+    "topicId": "cnc_p488",
+    "prerequisiteId": "cnc_p487",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「活动：毕业赠言要具体」，再学「古诗《采薇》（节选）」。"
+  },
+  {
+    "topicId": "cnc_p493",
+    "prerequisiteId": "cnc_p492",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「古诗《游园不值》」，再学「词《卜算子·送鲍浩然之浙东》」。"
   },
   {
     "topicId": "cnc_p019",
@@ -19914,13 +19968,13 @@
     "reason": "分辨慨、概、溉之前，要先会看偏旁表示的意思。"
   },
   {
-    "topicId": "cnc_p454",
+    "topicId": "cnc_p461",
     "prerequisiteId": "cnc_p413",
     "strength": "hard",
     "reason": "读准下册的易错字之前，要先改掉上册那些按半边猜的读音。"
   },
   {
-    "topicId": "cnc_p460",
+    "topicId": "cnc_p466",
     "prerequisiteId": "cnc_p333",
     "strength": "hard",
     "reason": "按词读准泊、漂、载、难之前，要先会分辨多音字的不同读音。"
@@ -19986,7 +20040,7 @@
     "reason": "品味含义深刻的词句之前，要先会联系上下文理解词语。"
   },
   {
-    "topicId": "cnc_p461",
+    "topicId": "cnc_p467",
     "prerequisiteId": "cnc_p429",
     "strength": "hard",
     "reason": "推想词语在语境中的意思，要先会品味词句。"
@@ -20082,7 +20136,7 @@
     "reason": "理解之、其、而之前，要先读懂《两小儿辩日》，这些字就在句子里。"
   },
   {
-    "topicId": "cnc_p464",
+    "topicId": "cnc_p472",
     "prerequisiteId": "cnc_p311",
     "strength": "hard",
     "reason": "学习省略号和破折号之前，要先会给对话加引号。"
@@ -20670,28 +20724,40 @@
     "reason": "读《曹冲称象》之前，要先读《两小儿辩日》，两则文言文才不会把称象和辩日记成同一则。"
   },
   {
-    "topicId": "cnc_p467",
+    "topicId": "cnc_p481",
     "prerequisiteId": "cnc_p442",
     "strength": "hard",
-    "reason": "下册再读《两小儿辩日》之前，要先读过上册这一则，才不会和《曹冲称象》记成同一则。"
+    "reason": "读《学弈》之前，要先读过上册《两小儿辩日》。学弈选自《孟子》，辩日选自《列子》，不要记成同一则。"
   },
   {
-    "topicId": "cnc_p465",
+    "topicId": "cnc_p469",
     "prerequisiteId": "cnc_p426",
     "strength": "hard",
     "reason": "体会散文里的情感之前，要先会理解叙事文中的人物心情。"
   },
   {
-    "topicId": "cnc_p458",
+    "topicId": "cnc_p454",
     "prerequisiteId": "cnc_p357",
     "strength": "hard",
     "reason": "按时间顺序把握《北京的春节》之前，要先会区分《第一场雪》里下雪时的动态和下雪后的静态，才不会把一场雪和一整个春节的日子记成同一篇。"
   },
   {
-    "topicId": "cnc_p459",
-    "prerequisiteId": "cnc_p458",
+    "topicId": "cnc_p455",
+    "prerequisiteId": "cnc_p454",
     "strength": "hard",
     "reason": "读《腊八粥》里八儿怎样盼粥之前，要先读过《北京的春节》，两篇写腊八的课文才不会记成同一篇。"
+  },
+  {
+    "topicId": "cnc_p459",
+    "prerequisiteId": "cnc_p455",
+    "strength": "hard",
+    "reason": "读《藏戏》之前，要先读过《腊八粥》，两篇都写民俗，才不会把盼粥和面具记成同一篇。"
+  },
+  {
+    "topicId": "cnc_p460",
+    "prerequisiteId": "cnc_p454",
+    "strength": "hard",
+    "reason": "写家乡的风俗之前，要先读过《北京的春节》，才知道习俗要按人们怎么过写清楚。"
   },
   {
     "topicId": "cnc_p462",
@@ -20706,10 +20772,94 @@
     "reason": "读《骑鹅旅行记》之前，要先会梳理《鲁滨逊漂流记》的情节，才不会把荒岛和骑鹅记成同一个故事。"
   },
   {
-    "topicId": "cnc_p470",
+    "topicId": "cnc_p464",
     "prerequisiteId": "cnc_p462",
     "strength": "hard",
     "reason": "读《汤姆·索亚历险记》之前，要先会读懂另一篇外国名著节选的情节。"
+  },
+  {
+    "topicId": "cnc_p465",
+    "prerequisiteId": "cnc_p462",
+    "strength": "hard",
+    "reason": "写作品梗概之前，要先会梳理《鲁滨逊漂流记》的主要情节。"
+  },
+  {
+    "topicId": "cnc_p468",
+    "prerequisiteId": "cnc_p464",
+    "strength": "hard",
+    "reason": "漫步世界名著花园之前，要先读过本单元的名著节选，才知道要抓住人物和情节。"
+  },
+  {
+    "topicId": "cnc_p471",
+    "prerequisiteId": "cnc_p470",
+    "strength": "hard",
+    "reason": "让真情自然流露之前，要先读《那个星期天》，才知道心情要落在具体的等待上。"
+  },
+  {
+    "topicId": "cnc_p477",
+    "prerequisiteId": "cnc_p476",
+    "strength": "hard",
+    "reason": "读《为人民服务》之前，要先读《十六年前的回忆》，才不会把李大钊和张思德记成同一个人。"
+  },
+  {
+    "topicId": "cnc_p478",
+    "prerequisiteId": "cnc_p477",
+    "strength": "hard",
+    "reason": "读《董存瑞舍身炸暗堡》之前，要先读《为人民服务》，才不会把托炸药包和比泰山还重记成同一件事。"
+  },
+  {
+    "topicId": "cnc_p478",
+    "prerequisiteId": "cnc_p417",
+    "strength": "hard",
+    "reason": "读《董存瑞舍身炸暗堡》之前，要先读《我的战友邱少云》，才不会把炸暗堡和在烈火中一动不动记成同一种牺牲。"
+  },
+  {
+    "topicId": "cnc_p479",
+    "prerequisiteId": "cnc_p478",
+    "strength": "hard",
+    "reason": "做「奋斗的历程」之前，要先读过《董存瑞舍身炸暗堡》，才有具体的事迹可讲。"
+  },
+  {
+    "topicId": "cnc_p480",
+    "prerequisiteId": "cnc_p476",
+    "strength": "hard",
+    "reason": "体会开头和结尾之前，要先读《十六年前的回忆》，这篇开头和结尾都落在同一天上。"
+  },
+  {
+    "topicId": "cnc_p482",
+    "prerequisiteId": "cnc_p481",
+    "strength": "hard",
+    "reason": "读《真理诞生于一百个问号之后》之前，要先读《学弈》，才不会把专心下棋和科学家追问记成同一篇。"
+  },
+  {
+    "topicId": "cnc_p483",
+    "prerequisiteId": "cnc_p482",
+    "strength": "hard",
+    "reason": "围绕中心选择材料之前，要先看出《真理诞生于一百个问号之后》是怎样用三个事例说明一个观点的。"
+  },
+  {
+    "topicId": "cnc_p484",
+    "prerequisiteId": "cnc_p482",
+    "strength": "hard",
+    "reason": "辩论之前，要先会读一篇用事例说明观点的课文，才知道理由要落到事实上。"
+  },
+  {
+    "topicId": "cnc_p485",
+    "prerequisiteId": "cnc_p476",
+    "strength": "hard",
+    "reason": "回忆往事之前，要先读过《十六年前的回忆》，才知道回忆要有具体的一天和具体的人。"
+  },
+  {
+    "topicId": "cnc_p486",
+    "prerequisiteId": "cnc_p485",
+    "strength": "hard",
+    "reason": "写依依惜别之前，要先会回忆一件具体的事，离别才不会只剩空话。"
+  },
+  {
+    "topicId": "cnc_p487",
+    "prerequisiteId": "cnc_p486",
+    "strength": "hard",
+    "reason": "写毕业赠言之前，要先会把离别说具体。"
   },
   {
     "topicId": "cnc_p056",
@@ -21084,46 +21234,82 @@
     "reason": "读《有的人》之前，要先读《我的伯父鲁迅先生》，才不会把「俯下身子给人民当牛马」只记成诗句、忘了课文里的事。"
   },
   {
-    "topicId": "cnc_p455",
+    "topicId": "cnc_p456",
     "prerequisiteId": "cnc_p409",
     "strength": "hard",
     "reason": "背诵《寒食》之前，要先会背六年级上册的诗词。"
   },
   {
-    "topicId": "cnc_p473",
-    "prerequisiteId": "cnc_p439",
-    "strength": "hard",
-    "reason": "下册再背《书湖阴先生壁》之前，要先背过上册这一首，才不会和《浪淘沙》《江南春》记成同一首。"
-  },
-  {
-    "topicId": "cnc_p456",
-    "prerequisiteId": "cnc_p455",
+    "topicId": "cnc_p457",
+    "prerequisiteId": "cnc_p456",
     "strength": "hard",
     "reason": "背《迢迢牵牛星》之前，要先会背《寒食》，才不会把飞花和脉脉不得语记混。"
   },
   {
-    "topicId": "cnc_p457",
-    "prerequisiteId": "cnc_p455",
+    "topicId": "cnc_p458",
+    "prerequisiteId": "cnc_p456",
     "strength": "hard",
     "reason": "背《十五夜望月》之前，要先会背《寒食》，才不会把御柳斜和秋思落谁家记成同一首。"
   },
   {
-    "topicId": "cnc_p471",
-    "prerequisiteId": "cnc_p455",
+    "topicId": "cnc_p473",
+    "prerequisiteId": "cnc_p456",
     "strength": "hard",
-    "reason": "背《石灰吟》之前，要先会背本册更早的诗，才不会把五侯家和清白装进同一首。"
+    "reason": "背《马诗》之前，要先会背《寒食》，才不会把五侯家和金络脑记成同一首。"
   },
   {
-    "topicId": "cnc_p472",
-    "prerequisiteId": "cnc_p471",
+    "topicId": "cnc_p474",
+    "prerequisiteId": "cnc_p473",
+    "strength": "hard",
+    "reason": "背《石灰吟》之前，要先会背同课的《马诗》，才不会把金络脑和清白装进同一首。"
+  },
+  {
+    "topicId": "cnc_p475",
+    "prerequisiteId": "cnc_p474",
     "strength": "hard",
     "reason": "背《竹石》之前，要先会背《石灰吟》，两首咏物诗才不会把粉骨碎身和咬定青山记混。"
   },
   {
-    "topicId": "cnc_p473",
-    "prerequisiteId": "cnc_p472",
+    "topicId": "cnc_p488",
+    "prerequisiteId": "cnc_p475",
     "strength": "hard",
-    "reason": "背《书湖阴先生壁》之前，要先会背《竹石》，才不会把排闼送青和咬定青山记成同一首。"
+    "reason": "背《采薇》之前，要先会背《竹石》，才不会把咬定青山和杨柳依依记成同一首。"
+  },
+  {
+    "topicId": "cnc_p489",
+    "prerequisiteId": "cnc_p488",
+    "strength": "hard",
+    "reason": "背《送元二使安西》之前，要先会背《采薇》，才不会把杨柳依依和渭城柳色记成同一首。"
+  },
+  {
+    "topicId": "cnc_p490",
+    "prerequisiteId": "cnc_p489",
+    "strength": "hard",
+    "reason": "背《春夜喜雨》之前，要先会背《送元二使安西》，才不会把渭城朝雨和润物细无声记成同一首。"
+  },
+  {
+    "topicId": "cnc_p491",
+    "prerequisiteId": "cnc_p439",
+    "strength": "hard",
+    "reason": "背《泊船瓜洲》之前，要先背过王安石的《书湖阴先生壁》，两首才不会把排闼送青和春风又绿记成同一首。"
+  },
+  {
+    "topicId": "cnc_p491",
+    "prerequisiteId": "cnc_p490",
+    "strength": "hard",
+    "reason": "背《泊船瓜洲》之前，要先会背《春夜喜雨》，才不会把润物无声和春风又绿记成同一首。"
+  },
+  {
+    "topicId": "cnc_p492",
+    "prerequisiteId": "cnc_p491",
+    "strength": "hard",
+    "reason": "背《游园不值》之前，要先会背《泊船瓜洲》，才不会把春风又绿和红杏出墙记成同一首。"
+  },
+  {
+    "topicId": "cnc_p493",
+    "prerequisiteId": "cnc_p489",
+    "strength": "hard",
+    "reason": "背《卜算子·送鲍浩然之浙东》之前，要先会背《送元二使安西》，两首送别才不会把阳关和赶上春记成同一首。"
   },
   {
     "topicId": "cnc_p118",
@@ -21228,14 +21414,14 @@
     "reason": "围绕中心意思写之前，要先会抓住人或事的特点来写。"
   },
   {
-    "topicId": "cnc_p468",
+    "topicId": "cnc_p483",
     "prerequisiteId": "cnc_p433",
     "strength": "hard",
     "reason": "围绕中心选择材料之前，要先会在上册习作里围绕一个中心把事情写清楚。"
   },
   {
-    "topicId": "cnc_p469",
-    "prerequisiteId": "cnc_p468",
+    "topicId": "cnc_p487",
+    "prerequisiteId": "cnc_p483",
     "strength": "hard",
     "reason": "写毕业赠言之前，要先会围绕一个意思选择材料。"
   }

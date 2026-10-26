@@ -61074,7 +61074,7 @@
     "semester": "上",
     "chapter": "六年级上册 第6单元 课文·只有一个地球",
     "type": "conceptual",
-    "description": "背诵王安石《书湖阴先生壁》，记住一水护田和两山排闼。下册还会再背这一首，不要和《江南春》记混。",
+    "description": "背诵王安石《书湖阴先生壁》，记住一水护田和两山排闼。不要和《江南春》记混。",
     "mastery_criteria": [
       "能背出本册要求积累的诗句",
       "能分清作者和诗句，不把字句记错"
@@ -61155,7 +61155,7 @@
     "semester": "上",
     "chapter": "六年级上册 第7单元 文言文·两小儿辩日",
     "type": "reasoning",
-    "description": "读懂两个孩子争论太阳早晚远近，孔子不能判断谁对。下册还会再读这一则，不要和同课的《曹冲称象》记成同一则。",
+    "description": "读懂两个孩子争论太阳早晚远近，孔子不能判断谁对。不要和同课的《曹冲称象》记成同一则。",
     "mastery_criteria": [
       "能根据短文选出和文字一致的信息",
       "能说出故事或短文的主要意思"
@@ -61473,26 +61473,26 @@
   },
   {
     "id": "cnc_p454",
-    "name": "易错字音：粥、宵、饺、祭",
-    "domain": "识字写字",
+    "name": "阅读《北京的春节》",
+    "domain": "阅读理解",
     "grade": 6,
     "semester": "下",
     "chapter": "六年级下册 第1单元 课文·北京的春节",
-    "type": "conceptual",
-    "description": "读准腊八粥、元宵、饺子、祭灶里容易读错的字。",
+    "type": "reasoning",
+    "description": "能按时间顺序说出老舍写到的腊八、腊月二十三、除夕、正月初一和元宵。除夕和元宵写得更详细。",
     "mastery_criteria": [
-      "能分辨形近字和同音字",
-      "能按偏旁和结构识记生字"
+      "能根据短文选出和文字一致的信息",
+      "能说出故事或短文的主要意思"
     ],
     "diagnostic_question": {
-      "question": "「腊八粥」的「粥」读哪一个？",
-      "answer": "zhōu"
+      "question": "老舍写春节，最先写到哪一天？",
+      "answer": "腊八"
     },
     "external": false,
     "subject": "chinese",
     "standards": [
       {
-        "id": "ccs-2022:3.SZ.01",
+        "id": "ccs-2022:3.YD.01",
         "confidence": "inferred",
         "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
       }
@@ -61500,13 +61500,40 @@
   },
   {
     "id": "cnc_p455",
+    "name": "阅读《腊八粥》",
+    "domain": "阅读理解",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第1单元 课文·北京的春节",
+    "type": "reasoning",
+    "description": "读懂沈从文笔下的八儿怎样盼着那锅又稠又甜的腊八粥。不要和老舍《北京的春节》记成同一篇。",
+    "mastery_criteria": [
+      "能根据短文选出和文字一致的信息",
+      "能说出故事或短文的主要意思"
+    ],
+    "diagnostic_question": {
+      "question": "课文里一直盼着吃粥的孩子叫什么？",
+      "answer": "八儿"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:3.YD.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p456",
     "name": "古诗《寒食》",
     "domain": "古诗文积累",
     "grade": 6,
     "semester": "下",
     "chapter": "六年级下册 第1单元 课文·北京的春节",
     "type": "conceptual",
-    "description": "背诵韩翃《寒食》，记住飞花、御柳和五侯家。",
+    "description": "背诵韩翃《寒食》，记住飞花、御柳和五侯家。同课还有《迢迢牵牛星》和《十五夜望月》。",
     "mastery_criteria": [
       "能背出本册要求积累的诗句",
       "能分清作者和诗句，不把字句记错"
@@ -61526,14 +61553,14 @@
     ]
   },
   {
-    "id": "cnc_p456",
+    "id": "cnc_p457",
     "name": "古诗《迢迢牵牛星》",
     "domain": "古诗文积累",
     "grade": 6,
     "semester": "下",
     "chapter": "六年级下册 第1单元 课文·北京的春节",
     "type": "conceptual",
-    "description": "背诵《迢迢牵牛星》里的名句，记住脉脉，不写成默默。",
+    "description": "背诵《古诗十九首》里的《迢迢牵牛星》，记住脉脉，不写成默默。",
     "mastery_criteria": [
       "能背出本册要求积累的诗句",
       "能分清作者和诗句，不把字句记错"
@@ -61553,7 +61580,7 @@
     ]
   },
   {
-    "id": "cnc_p457",
+    "id": "cnc_p458",
     "name": "古诗《十五夜望月》",
     "domain": "古诗文积累",
     "grade": 6,
@@ -61580,48 +61607,21 @@
     ]
   },
   {
-    "id": "cnc_p458",
-    "name": "阅读《北京的春节》",
-    "domain": "阅读理解",
-    "grade": 6,
-    "semester": "下",
-    "chapter": "六年级下册 第1单元 课文·北京的春节",
-    "type": "reasoning",
-    "description": "能按时间顺序说出老舍写到的腊八、腊月二十三、除夕、正月初一和元宵。",
-    "mastery_criteria": [
-      "能根据短文选出和文字一致的信息",
-      "能说出故事或短文的主要意思"
-    ],
-    "diagnostic_question": {
-      "question": "老舍写春节，最先写到哪一天？",
-      "answer": "腊八"
-    },
-    "external": false,
-    "subject": "chinese",
-    "standards": [
-      {
-        "id": "ccs-2022:3.YD.01",
-        "confidence": "inferred",
-        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
-      }
-    ]
-  },
-  {
     "id": "cnc_p459",
-    "name": "阅读《腊八粥》",
+    "name": "阅读《藏戏》",
     "domain": "阅读理解",
     "grade": 6,
     "semester": "下",
     "chapter": "六年级下册 第1单元 课文·北京的春节",
     "type": "reasoning",
-    "description": "读懂八儿怎样盼着那锅又稠又甜的腊八粥。",
+    "description": "读懂藏戏戴面具、没有舞台、一部戏可以连演几天，并知道唐东杰布为修桥开创了藏戏。",
     "mastery_criteria": [
       "能根据短文选出和文字一致的信息",
       "能说出故事或短文的主要意思"
     ],
     "diagnostic_question": {
-      "question": "课文里一直盼着吃粥的孩子叫什么？",
-      "answer": "八儿"
+      "question": "课文开头用三个反问，强调藏戏的哪三个特点？",
+      "answer": "戴着面具演出，没有舞台，一部戏可以演三五天还没结束"
     },
     "external": false,
     "subject": "chinese",
@@ -61635,26 +61635,26 @@
   },
   {
     "id": "cnc_p460",
-    "name": "多音字：泊、漂、载、难",
-    "domain": "识字写字",
+    "name": "习作：家乡的风俗",
+    "domain": "习作基础",
     "grade": 6,
     "semester": "下",
-    "chapter": "六年级下册 第2单元 名著·鲁滨逊漂流记",
-    "type": "conceptual",
-    "description": "能按词读准泊、漂、载、难。",
+    "chapter": "六年级下册 第1单元 课文·北京的春节",
+    "type": "application",
+    "description": "介绍一种家乡风俗，把人们怎么过写清楚，最有特点的部分写详细，并写出自己的感受。只写「我们那里过节很热闹」还不够。",
     "mastery_criteria": [
-      "能分辨形近字和同音字",
-      "能按偏旁和结构识记生字"
+      "能按要求把话写完整",
+      "能判断哪一句更符合题目"
     ],
     "diagnostic_question": {
-      "question": "「停泊」的「泊」读哪一个？",
-      "answer": "bó"
+      "question": "写家乡的风俗，哪一段把过程写出来了？",
+      "answer": "腊月二十三晚上，奶奶把灶糖化开，抹在灶王像的嘴上，说好话上天。"
     },
     "external": false,
     "subject": "chinese",
     "standards": [
       {
-        "id": "ccs-2022:3.SZ.01",
+        "id": "ccs-2022:3.XZ.01",
         "confidence": "inferred",
         "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
       }
@@ -61662,26 +61662,26 @@
   },
   {
     "id": "cnc_p461",
-    "name": "词语的语境义",
-    "domain": "词语",
+    "name": "语文园地一·易错字音：粥、宵、饺、祭",
+    "domain": "识字写字",
     "grade": 6,
     "semester": "下",
-    "chapter": "六年级下册 第2单元 名著·鲁滨逊漂流记",
+    "chapter": "六年级下册 第1单元 课文·北京的春节",
     "type": "conceptual",
-    "description": "能判断同一个词在不同句子里的意思，不拿一个意思套所有句子。",
+    "description": "读准腊八粥、元宵、饺子、祭灶里容易读错的字。口语「即兴发言」要先看清对谁说，抓住一两点就说完。园地还要分清内容的主次。日积月累背汉乐府《长歌行》，记住少壮不努力，老大徒伤悲。",
     "mastery_criteria": [
-      "能理解词语在句子里的意思",
-      "能选出搭配恰当的词语"
+      "能分辨形近字和同音字",
+      "能按偏旁和结构识记生字"
     ],
     "diagnostic_question": {
-      "question": "「这道题有意思」里的「意思」是什么？",
-      "answer": "有趣味"
+      "question": "「腊八粥」的「粥」读哪一个？",
+      "answer": "zhōu"
     },
     "external": false,
     "subject": "chinese",
     "standards": [
       {
-        "id": "ccs-2022:3.CY.01",
+        "id": "ccs-2022:3.SZ.01",
         "confidence": "inferred",
         "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
       }
@@ -61695,7 +61695,7 @@
     "semester": "下",
     "chapter": "六年级下册 第2单元 名著·鲁滨逊漂流记",
     "type": "reasoning",
-    "description": "读懂鲁滨逊流落荒岛后怎样安排生活，并把坏处和好处对照着看。",
+    "description": "读懂笛福写的鲁滨逊流落荒岛后怎样安排生活，并把坏处和好处对照着看。",
     "mastery_criteria": [
       "能根据短文选出和文字一致的信息",
       "能说出故事或短文的主要意思"
@@ -61722,7 +61722,7 @@
     "semester": "下",
     "chapter": "六年级下册 第2单元 名著·鲁滨逊漂流记",
     "type": "reasoning",
-    "description": "读懂尼尔斯被变成小人以后骑鹅旅行，后来变得善良。",
+    "description": "读懂拉格洛芙写的尼尔斯被变成小人以后骑鹅旅行，后来变得善良。不要和鲁滨逊记成同一个故事。",
     "mastery_criteria": [
       "能根据短文选出和文字一致的信息",
       "能说出故事或短文的主要意思"
@@ -61743,175 +61743,13 @@
   },
   {
     "id": "cnc_p464",
-    "name": "省略号和破折号",
-    "domain": "句子",
-    "grade": 6,
-    "semester": "下",
-    "chapter": "六年级下册 第3单元 散文·匆匆",
-    "type": "procedural",
-    "description": "能分清省略号表示话没说完或列举省略，破折号表示解释说明或声音延长。",
-    "mastery_criteria": [
-      "能把句子写通顺",
-      "能按要求选用或修改句子"
-    ],
-    "diagnostic_question": {
-      "question": "话没有说完，该用哪一个？",
-      "answer": "省略号"
-    },
-    "external": false,
-    "subject": "chinese",
-    "standards": [
-      {
-        "id": "ccs-2022:3.JZ.01",
-        "confidence": "inferred",
-        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
-      }
-    ]
-  },
-  {
-    "id": "cnc_p465",
-    "name": "阅读《匆匆》",
-    "domain": "阅读理解",
-    "grade": 6,
-    "semester": "下",
-    "chapter": "六年级下册 第3单元 散文·匆匆",
-    "type": "reasoning",
-    "description": "读懂朱自清用日常生活写出时间在悄悄过去。",
-    "mastery_criteria": [
-      "能根据短文选出和文字一致的信息",
-      "能说出故事或短文的主要意思"
-    ],
-    "diagnostic_question": {
-      "question": "洗手的时候，日子从哪里过去？",
-      "answer": "从水盆里过去"
-    },
-    "external": false,
-    "subject": "chinese",
-    "standards": [
-      {
-        "id": "ccs-2022:3.YD.01",
-        "confidence": "inferred",
-        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
-      }
-    ]
-  },
-  {
-    "id": "cnc_p466",
-    "name": "阅读《那个星期天》",
-    "domain": "阅读理解",
-    "grade": 6,
-    "semester": "下",
-    "chapter": "六年级下册 第3单元 散文·匆匆",
-    "type": "reasoning",
-    "description": "读懂史铁生笔下的孩子从盼望等到失望，母亲一直在忙。",
-    "mastery_criteria": [
-      "能根据短文选出和文字一致的信息",
-      "能说出故事或短文的主要意思"
-    ],
-    "diagnostic_question": {
-      "question": "《那个星期天》的作者是谁？",
-      "answer": "史铁生"
-    },
-    "external": false,
-    "subject": "chinese",
-    "standards": [
-      {
-        "id": "ccs-2022:3.YD.01",
-        "confidence": "inferred",
-        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
-      }
-    ]
-  },
-  {
-    "id": "cnc_p467",
-    "name": "文言文《两小儿辩日》",
-    "domain": "阅读理解",
-    "grade": 6,
-    "semester": "下",
-    "chapter": "六年级下册 第4单元 文言文·两小儿辩日",
-    "type": "reasoning",
-    "description": "读懂两个孩子争论太阳远近，孔子不能判断谁对。",
-    "mastery_criteria": [
-      "能根据短文选出和文字一致的信息",
-      "能说出故事或短文的主要意思"
-    ],
-    "diagnostic_question": {
-      "question": "一个孩子说，太阳刚出来时大得像什么？",
-      "answer": "车盖"
-    },
-    "external": false,
-    "subject": "chinese",
-    "standards": [
-      {
-        "id": "ccs-2022:3.YD.02",
-        "confidence": "inferred",
-        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
-      }
-    ]
-  },
-  {
-    "id": "cnc_p468",
-    "name": "围绕中心选择材料",
-    "domain": "习作基础",
-    "grade": 6,
-    "semester": "下",
-    "chapter": "六年级下册 第5单元 习作·选材",
-    "type": "application",
-    "description": "确定中心以后，留下能表现中心的材料，删掉无关的内容。",
-    "mastery_criteria": [
-      "能按要求把话写完整",
-      "能判断哪一句更符合题目"
-    ],
-    "diagnostic_question": {
-      "question": "中心是「同学之间互相帮助」。哪一项材料该留下？",
-      "answer": "同桌把笔记借给我，并讲了那道题。"
-    },
-    "external": false,
-    "subject": "chinese",
-    "standards": [
-      {
-        "id": "ccs-2022:3.XZ.01",
-        "confidence": "inferred",
-        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
-      }
-    ]
-  },
-  {
-    "id": "cnc_p469",
-    "name": "毕业赠言要具体",
-    "domain": "习作基础",
-    "grade": 6,
-    "semester": "下",
-    "chapter": "六年级下册 第6单元 综合性学习·难忘小学生活",
-    "type": "application",
-    "description": "写给同学或老师的赠言要真诚，最好带上一件共同经历的事。",
-    "mastery_criteria": [
-      "能按要求把话写完整",
-      "能判断哪一句更符合题目"
-    ],
-    "diagnostic_question": {
-      "question": "哪一句更像认真写过的赠言？",
-      "answer": "你借我橡皮的那天，我才发现你总是先看见别人的难处。"
-    },
-    "external": false,
-    "subject": "chinese",
-    "standards": [
-      {
-        "id": "ccs-2022:3.XZ.01",
-        "confidence": "inferred",
-        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
-      }
-    ]
-  },
-  {
-    "id": "cnc_p470",
     "name": "阅读《汤姆·索亚历险记》",
     "domain": "阅读理解",
     "grade": 6,
     "semester": "下",
-    "chapter": "六年级下册 第7单元 课文·汤姆索亚历险记",
+    "chapter": "六年级下册 第2单元 名著·鲁滨逊漂流记",
     "type": "reasoning",
-    "description": "读懂汤姆把刷墙说成稀罕事，小伙伴反而抢着来刷。",
+    "description": "读懂马克·吐温写的汤姆把刷墙说成稀罕事，小伙伴反而抢着来刷。这一课在第二单元，不要和鲁滨逊、尼尔斯记成同一个故事。",
     "mastery_criteria": [
       "能根据短文选出和文字一致的信息",
       "能说出故事或短文的主要意思"
@@ -61931,14 +61769,257 @@
     ]
   },
   {
+    "id": "cnc_p465",
+    "name": "习作：写作品梗概",
+    "domain": "习作基础",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第2单元 名著·鲁滨逊漂流记",
+    "type": "application",
+    "description": "用简洁的话写出书的主要人物和主要情节，按顺序写，删掉大段的景物和心理描写。不能把结局改掉。",
+    "mastery_criteria": [
+      "能按要求把话写完整",
+      "能判断哪一句更符合题目"
+    ],
+    "diagnostic_question": {
+      "question": "作品梗概最该留下什么？",
+      "answer": "主要人物做了哪些关键的事，事情怎样发展"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:3.XZ.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p466",
+    "name": "语文园地二·多音字：泊、漂、载、难",
+    "domain": "识字写字",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第2单元 名著·鲁滨逊漂流记",
+    "type": "conceptual",
+    "description": "能按词读准泊、漂、载、难。口语「同读一本书」要说出书名、印象深的人物和自己的看法。日积月累有「读书须用意，一字值千金」。",
+    "mastery_criteria": [
+      "能分辨形近字和同音字",
+      "能按偏旁和结构识记生字"
+    ],
+    "diagnostic_question": {
+      "question": "「停泊」的「泊」读哪一个？",
+      "answer": "bó"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:3.SZ.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p467",
+    "name": "语文园地二·词语的语境义",
+    "domain": "词语",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第2单元 名著·鲁滨逊漂流记",
+    "type": "conceptual",
+    "description": "能判断同一个词在不同句子里的意思。读名著时评价人物，也要联系他做的事，不能拿一个词套所有人。",
+    "mastery_criteria": [
+      "能理解词语在句子里的意思",
+      "能选出搭配恰当的词语"
+    ],
+    "diagnostic_question": {
+      "question": "「这道题有意思」里的「意思」是什么？",
+      "answer": "有趣味"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:3.CY.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p468",
+    "name": "快乐读书吧：漫步世界名著花园",
+    "domain": "阅读理解",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第2单元 名著·鲁滨逊漂流记",
+    "type": "conceptual",
+    "description": "接着读世界名著。可以选和本单元同一类的书，记下人物、关键情节和自己的看法。这不是把课文再抄一遍。",
+    "mastery_criteria": [
+      "能根据短文选出和文字一致的信息",
+      "能说出故事或短文的主要意思"
+    ],
+    "diagnostic_question": {
+      "question": "这个读书吧主要读哪一类书？",
+      "answer": "世界名著"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:3.YD.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p469",
+    "name": "阅读《匆匆》",
+    "domain": "阅读理解",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第3单元 散文·匆匆",
+    "type": "reasoning",
+    "description": "读懂朱自清用洗手、吃饭这些日常小事写出日子在悄悄过去。",
+    "mastery_criteria": [
+      "能根据短文选出和文字一致的信息",
+      "能说出故事或短文的主要意思"
+    ],
+    "diagnostic_question": {
+      "question": "洗手的时候，日子从哪里过去？",
+      "answer": "从水盆里过去"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:3.YD.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p470",
+    "name": "阅读《那个星期天》",
+    "domain": "阅读理解",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第3单元 散文·匆匆",
+    "type": "reasoning",
+    "description": "读懂史铁生笔下的孩子从早晨盼到下午，母亲一直在忙，盼望最后变成失望。",
+    "mastery_criteria": [
+      "能根据短文选出和文字一致的信息",
+      "能说出故事或短文的主要意思"
+    ],
+    "diagnostic_question": {
+      "question": "《那个星期天》的作者是谁？",
+      "answer": "史铁生"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:3.YD.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
     "id": "cnc_p471",
+    "name": "习作：让真情自然流露",
+    "domain": "习作基础",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第3单元 散文·匆匆",
+    "type": "application",
+    "description": "写一件让自己动心的事，把当时的动作、语言和心情写具体。只写「我很感动」还不像这篇习作。本单元的例文不单列。",
+    "mastery_criteria": [
+      "能按要求把话写完整",
+      "能判断哪一句更符合题目"
+    ],
+    "diagnostic_question": {
+      "question": "哪一段是把感情落在事情上？",
+      "answer": "她把凉了的菜又热了一遍，我张了张嘴，那句「你答应过」到底没说出来。"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:3.XZ.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p472",
+    "name": "省略号和破折号",
+    "domain": "句子",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第3单元 散文·匆匆",
+    "type": "procedural",
+    "description": "写「让真情自然流露」时会用到这两种标点：话没说完或列举省略用省略号；解释说明或声音延长用破折号。",
+    "mastery_criteria": [
+      "能把句子写通顺",
+      "能按要求选用或修改句子"
+    ],
+    "diagnostic_question": {
+      "question": "话没有说完，该用哪一个？",
+      "answer": "省略号"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:3.JZ.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p473",
+    "name": "古诗《马诗》",
+    "domain": "古诗文积累",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第4单元 课文·十六年前的回忆",
+    "type": "conceptual",
+    "description": "背诵李贺《马诗》，记住沙如雪、月似钩和金络脑。同课还有《石灰吟》和《竹石》，不要串句。",
+    "mastery_criteria": [
+      "能背出本册要求积累的诗句",
+      "能分清作者和诗句，不把字句记错"
+    ],
+    "diagnostic_question": {
+      "question": "「大漠沙如雪」的下一句是哪一句？",
+      "answer": "燕山月似钩"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:3.GS.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p474",
     "name": "古诗《石灰吟》",
     "domain": "古诗文积累",
     "grade": 6,
     "semester": "下",
-    "chapter": "六年级下册 第8单元 古诗·石灰吟",
+    "chapter": "六年级下册 第4单元 课文·十六年前的回忆",
     "type": "conceptual",
-    "description": "背诵于谦《石灰吟》，记住粉骨碎身、浑不怕和清白。",
+    "description": "背诵于谦《石灰吟》，记住粉骨碎身、浑不怕和清白。同课还有《马诗》和《竹石》，不要串句。",
     "mastery_criteria": [
       "能背出本册要求积累的诗句",
       "能分清作者和诗句，不把字句记错"
@@ -61958,14 +62039,14 @@
     ]
   },
   {
-    "id": "cnc_p472",
+    "id": "cnc_p475",
     "name": "古诗《竹石》",
     "domain": "古诗文积累",
     "grade": 6,
     "semester": "下",
-    "chapter": "六年级下册 第8单元 古诗·石灰吟",
+    "chapter": "六年级下册 第4单元 课文·十六年前的回忆",
     "type": "conceptual",
-    "description": "背诵郑燮《竹石》，不要和于谦《石灰吟》串句。",
+    "description": "背诵郑燮《竹石》，不要和于谦《石灰吟》、李贺《马诗》串句。",
     "mastery_criteria": [
       "能背出本册要求积累的诗句",
       "能分清作者和诗句，不把字句记错"
@@ -61985,21 +62066,480 @@
     ]
   },
   {
-    "id": "cnc_p473",
-    "name": "古诗《书湖阴先生壁》",
+    "id": "cnc_p476",
+    "name": "阅读《十六年前的回忆》",
+    "domain": "阅读理解",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第4单元 课文·十六年前的回忆",
+    "type": "reasoning",
+    "description": "读懂李星华回忆父亲李大钊：一九二七年四月二十八日是被难日，父亲烧掉文件，法庭上仍然安定、沉着。",
+    "mastery_criteria": [
+      "能根据短文选出和文字一致的信息",
+      "能说出故事或短文的主要意思"
+    ],
+    "diagnostic_question": {
+      "question": "这篇回忆是谁写的，写的是谁？",
+      "answer": "李星华写父亲李大钊"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:3.YD.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p477",
+    "name": "阅读《为人民服务》",
+    "domain": "阅读理解",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第4单元 课文·十六年前的回忆",
+    "type": "reasoning",
+    "description": "读懂毛泽东在张思德追悼会上的讲演：为人民利益而死，就比泰山还重。不要和李大钊、董存瑞记成同一个人。",
+    "mastery_criteria": [
+      "能根据短文选出和文字一致的信息",
+      "能说出故事或短文的主要意思"
+    ],
+    "diagnostic_question": {
+      "question": "这篇讲演是为了悼念谁？",
+      "answer": "张思德"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:3.YD.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p478",
+    "name": "阅读《董存瑞舍身炸暗堡》",
+    "domain": "阅读理解",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第4单元 课文·十六年前的回忆",
+    "type": "reasoning",
+    "description": "读懂一九四八年解放隆化时，董存瑞手托炸药包炸毁暗堡，喊的是「为了新中国，前进」。不要和邱少云、黄继光记成同一件事。",
+    "mastery_criteria": [
+      "能根据短文选出和文字一致的信息",
+      "能说出故事或短文的主要意思"
+    ],
+    "diagnostic_question": {
+      "question": "董存瑞炸的是什么？",
+      "answer": "封锁道路的暗堡"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:3.YD.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p479",
+    "name": "综合性学习：奋斗的历程",
+    "domain": "阅读理解",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第4单元 课文·十六年前的回忆",
+    "type": "reasoning",
+    "description": "收集一位革命者的事迹，讲清楚他做了什么、为什么值得记住。可以讲故事，也可以办小报。",
+    "mastery_criteria": [
+      "能根据短文选出和文字一致的信息",
+      "能说出故事或短文的主要意思"
+    ],
+    "diagnostic_question": {
+      "question": "这项活动要了解的是什么？",
+      "answer": "革命者奋斗的事迹"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:3.YD.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p480",
+    "name": "语文园地四·开头结尾与借物言志",
+    "domain": "阅读理解",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第4单元 课文·十六年前的回忆",
+    "type": "reasoning",
+    "description": "能看出文章开头和结尾怎样呼应，也能说出诗里的事物被写成了人的志向。日积月累有「良药苦口利于病，忠言逆耳利于行」。",
+    "mastery_criteria": [
+      "能根据短文选出和文字一致的信息",
+      "能说出故事或短文的主要意思"
+    ],
+    "diagnostic_question": {
+      "question": "《十六年前的回忆》的开头和结尾都落到哪一天？",
+      "answer": "一九二七年四月二十八日"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:3.YD.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p481",
+    "name": "文言文《学弈》",
+    "domain": "阅读理解",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第5单元 文言文·学弈",
+    "type": "reasoning",
+    "description": "读懂《孟子》里的《学弈》：弈秋同时教两个人下棋，一个专心，一个心里想着射鸿鹄，所以后者不如前者。这不是智力的差别。不要和上册《两小儿辩日》记成同一则。",
+    "mastery_criteria": [
+      "能根据短文选出和文字一致的信息",
+      "能说出故事或短文的主要意思"
+    ],
+    "diagnostic_question": {
+      "question": "弈秋是怎样的人？",
+      "answer": "全国最擅长下棋的人"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:3.YD.02",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p482",
+    "name": "阅读《真理诞生于一百个问号之后》",
+    "domain": "阅读理解",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第5单元 文言文·学弈",
+    "type": "reasoning",
+    "description": "读懂叶永烈用波义耳、魏格纳、阿瑟林斯基三个事例说明：真理诞生于一百个问号之后。见了现象还要追问，并坚持研究。",
+    "mastery_criteria": [
+      "能根据短文选出和文字一致的信息",
+      "能说出故事或短文的主要意思"
+    ],
+    "diagnostic_question": {
+      "question": "课文要证明的观点是哪一句？",
+      "answer": "真理诞生于一百个问号之后"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:3.YD.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p483",
+    "name": "习作：围绕中心选择材料",
+    "domain": "习作基础",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第5单元 文言文·学弈",
+    "type": "application",
+    "description": "确定中心以后，留下能表现中心的材料，删掉无关的内容。上册已经练习过围绕一个中心把事情写清楚。",
+    "mastery_criteria": [
+      "能按要求把话写完整",
+      "能判断哪一句更符合题目"
+    ],
+    "diagnostic_question": {
+      "question": "中心是「同学之间互相帮助」。哪一项材料该留下？",
+      "answer": "同桌把笔记借给我，并讲了那道题。"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:3.XZ.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p484",
+    "name": "语文园地五·辩论",
+    "domain": "句子",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第5单元 文言文·学弈",
+    "type": "procedural",
+    "description": "口语「辩论」收到这个园地。观点要一句话说清，理由要落到事例上，听完对方再反驳，不嘲笑人。",
+    "mastery_criteria": [
+      "能把句子写通顺",
+      "能按要求选用或修改句子"
+    ],
+    "diagnostic_question": {
+      "question": "辩论开头最好先怎样？",
+      "answer": "用一句话表明自己同意还是反对"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:3.JZ.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p485",
+    "name": "综合性学习：回忆往事",
+    "domain": "习作基础",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第6单元 综合性学习·难忘小学生活",
+    "type": "application",
+    "description": "从小学生活里选一件真实的事，写出时间、地点、谁做了什么，以及当时的心情。只写「小学生活很快乐」还不是回忆。",
+    "mastery_criteria": [
+      "能按要求把话写完整",
+      "能判断哪一句更符合题目"
+    ],
+    "diagnostic_question": {
+      "question": "回忆往事，材料应该怎样选？",
+      "answer": "选一件自己真正经历过、现在还记得住细节的事"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:3.XZ.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p486",
+    "name": "综合性学习：依依惜别",
+    "domain": "习作基础",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第6单元 综合性学习·难忘小学生活",
+    "type": "application",
+    "description": "给老师或同学写惜别的话，要有一件共同经历过的事，再说出不舍和祝福。空喊前程似锦，看不出是对谁说的。",
+    "mastery_criteria": [
+      "能按要求把话写完整",
+      "能判断哪一句更符合题目"
+    ],
+    "diagnostic_question": {
+      "question": "依依惜别的话主要说给谁？",
+      "answer": "朝夕相处的老师或同学"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:3.XZ.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p487",
+    "name": "活动：毕业赠言要具体",
+    "domain": "习作基础",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第6单元 综合性学习·难忘小学生活",
+    "type": "application",
+    "description": "写给同学或老师的赠言要真诚，最好带上一件共同经历的事。它是「依依惜别」里可以留下来的话。",
+    "mastery_criteria": [
+      "能按要求把话写完整",
+      "能判断哪一句更符合题目"
+    ],
+    "diagnostic_question": {
+      "question": "哪一句更像认真写过的赠言？",
+      "answer": "你借我橡皮的那天，我才发现你总是先看见别人的难处。"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:3.XZ.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p488",
+    "name": "古诗《采薇》（节选）",
     "domain": "古诗文积累",
     "grade": 6,
     "semester": "下",
-    "chapter": "六年级下册 第8单元 古诗·石灰吟",
+    "chapter": "六年级下册 第7单元 古诗词诵读·采薇",
     "type": "conceptual",
-    "description": "背诵王安石《书湖阴先生壁》，记住排闼送青来，不要和《竹石》串句。",
+    "description": "背诵《诗经·小雅》里的《采薇》节选，分清昔我往矣对杨柳依依，今我来思对雨雪霏霏。",
     "mastery_criteria": [
       "能背出本册要求积累的诗句",
       "能分清作者和诗句，不把字句记错"
     ],
     "diagnostic_question": {
-      "question": "「茅檐长扫净无苔」的下一句是哪一句？",
-      "answer": "花木成畦手自栽"
+      "question": "「昔我往矣」的下一句是哪一句？",
+      "answer": "杨柳依依"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:3.GS.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p489",
+    "name": "古诗《送元二使安西》",
+    "domain": "古诗文积累",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第7单元 古诗词诵读·采薇",
+    "type": "conceptual",
+    "description": "背诵王维《送元二使安西》，记住浥轻尘、柳色新和西出阳关无故人。",
+    "mastery_criteria": [
+      "能背出本册要求积累的诗句",
+      "能分清作者和诗句，不把字句记错"
+    ],
+    "diagnostic_question": {
+      "question": "「渭城朝雨浥轻尘」的下一句是哪一句？",
+      "answer": "客舍青青柳色新"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:3.GS.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p490",
+    "name": "古诗《春夜喜雨》",
+    "domain": "古诗文积累",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第7单元 古诗词诵读·采薇",
+    "type": "conceptual",
+    "description": "背诵杜甫《春夜喜雨》，记住当春乃发生、润物细无声和花重锦官城。",
+    "mastery_criteria": [
+      "能背出本册要求积累的诗句",
+      "能分清作者和诗句，不把字句记错"
+    ],
+    "diagnostic_question": {
+      "question": "「好雨知时节」的下一句是哪一句？",
+      "answer": "当春乃发生"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:3.GS.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p491",
+    "name": "古诗《泊船瓜洲》",
+    "domain": "古诗文积累",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第8单元 古诗词诵读·泊船瓜洲",
+    "type": "conceptual",
+    "description": "背诵王安石《泊船瓜洲》，记住春风又绿江南岸、明月何时照我还。不要和上册《书湖阴先生壁》串成一首。",
+    "mastery_criteria": [
+      "能背出本册要求积累的诗句",
+      "能分清作者和诗句，不把字句记错"
+    ],
+    "diagnostic_question": {
+      "question": "「京口瓜洲一水间」的下一句是哪一句？",
+      "answer": "钟山只隔数重山"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:3.GS.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p492",
+    "name": "古诗《游园不值》",
+    "domain": "古诗文积累",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第8单元 古诗词诵读·泊船瓜洲",
+    "type": "conceptual",
+    "description": "背诵叶绍翁《游园不值》，记住小扣柴扉、春色满园关不住、一枝红杏出墙来。不值是没有遇到主人。",
+    "mastery_criteria": [
+      "能背出本册要求积累的诗句",
+      "能分清作者和诗句，不把字句记错"
+    ],
+    "diagnostic_question": {
+      "question": "「应怜屐齿印苍苔」的下一句是哪一句？",
+      "answer": "小扣柴扉久不开"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:3.GS.01",
+        "confidence": "inferred",
+        "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_p493",
+    "name": "词《卜算子·送鲍浩然之浙东》",
+    "domain": "古诗文积累",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第8单元 古诗词诵读·泊船瓜洲",
+    "type": "conceptual",
+    "description": "背诵王观这首送别词，记住水是眼波横、山是眉峰聚，以及若到江南赶上春，千万和春住。不要和《送元二使安西》串句。",
+    "mastery_criteria": [
+      "能背出本册要求积累的诗句",
+      "能分清作者和诗句，不把字句记错"
+    ],
+    "diagnostic_question": {
+      "question": "「水是眼波横」的下一句是哪一句？",
+      "answer": "山是眉峰聚"
     },
     "external": false,
     "subject": "chinese",
