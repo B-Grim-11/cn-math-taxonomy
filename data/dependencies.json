@@ -1323,7 +1323,7 @@
     "topicId": "cnm_p166",
     "prerequisiteId": "cnm_p165",
     "strength": "hard",
-    "reason": "学习「真分数、假分数和带分数」需要先掌握「分数的意义」。"
+    "reason": "学习「真分数和假分数」需要先掌握「分数的意义」。"
   },
   {
     "topicId": "cnm_p167",
@@ -13324,6 +13324,60 @@
     "prerequisiteId": "cnm_p179",
     "strength": "soft",
     "reason": "学习「水是生命之源」需要先掌握「分数乘法的应用」。"
+  },
+  {
+    "topicId": "cnm_p243",
+    "prerequisiteId": "cnm_p080",
+    "strength": "hard",
+    "reason": "学习「同分母分数加减」需要先掌握「同分母分数的初步加减」。"
+  },
+  {
+    "topicId": "cnm_p243",
+    "prerequisiteId": "cnm_p165",
+    "strength": "hard",
+    "reason": "学习「同分母分数加减」需要先掌握「分数的意义」。"
+  },
+  {
+    "topicId": "cnm_p243",
+    "prerequisiteId": "cnm_p168",
+    "strength": "soft",
+    "reason": "学习「同分母分数加减」需要先掌握「约分」。"
+  },
+  {
+    "topicId": "cnm_p173",
+    "prerequisiteId": "cnm_p243",
+    "strength": "hard",
+    "reason": "学习「异分母分数加减」需要先掌握「同分母分数加减」。"
+  },
+  {
+    "topicId": "cnm_p244",
+    "prerequisiteId": "cnm_p160",
+    "strength": "hard",
+    "reason": "学习「探索图形」需要先掌握「长方体和正方体的认识」。"
+  },
+  {
+    "topicId": "cnm_p244",
+    "prerequisiteId": "cnm_p161",
+    "strength": "soft",
+    "reason": "学习「探索图形」需要先掌握「长方体的表面积」。"
+  },
+  {
+    "topicId": "cnm_p245",
+    "prerequisiteId": "cnm_p057",
+    "strength": "hard",
+    "reason": "学习「怎样通知最快」需要先掌握「乘加乘减的运算顺序」。"
+  },
+  {
+    "topicId": "cnm_p245",
+    "prerequisiteId": "cnm_p174",
+    "strength": "soft",
+    "reason": "学习「怎样通知最快」需要先掌握「分数加减混合」。"
+  },
+  {
+    "topicId": "cnm_p176",
+    "prerequisiteId": "cnm_p245",
+    "strength": "soft",
+    "reason": "学习「找次品」需要先掌握「怎样通知最快」。"
   },
   {
     "topicId": "cnm_p058",
