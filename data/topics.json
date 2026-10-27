@@ -5145,7 +5145,7 @@
   },
   {
     "id": "cnm_p136",
-    "name": "用数对确定位置",
+    "name": "用有序数对确定位置",
     "domain": "图形与几何",
     "grade": 6,
     "semester": "上",
@@ -5164,13 +5164,14 @@
     "standards": [
       {
         "id": "cms-2022:3.GG.09",
-        "confidence": "exact"
+        "confidence": "exact",
+        "note": "新版目录作「用有序数对确定位置」。"
       }
     ]
   },
   {
     "id": "cnm_p180",
-    "name": "根据方向和距离确定位置",
+    "name": "用方向和距离确定位置",
     "domain": "图形与几何",
     "grade": 6,
     "semester": "上",
@@ -5189,7 +5190,8 @@
     "standards": [
       {
         "id": "cms-2022:3.GG.08",
-        "confidence": "exact"
+        "confidence": "exact",
+        "note": "新版目录作「用方向和距离确定位置」。"
       }
     ]
   },
@@ -5245,7 +5247,7 @@
   },
   {
     "id": "cnm_p178",
-    "name": "分数乘分数",
+    "name": "一个数乘分数",
     "domain": "数与代数",
     "grade": 6,
     "semester": "上",
@@ -5264,7 +5266,8 @@
     "standards": [
       {
         "id": "cms-2022:3.NA.04",
-        "confidence": "exact"
+        "confidence": "exact",
+        "note": "新版目录作「一个数乘分数」（含分数乘分数）。"
       }
     ]
   },
@@ -5919,12 +5922,64 @@
     ]
   },
   {
+    "id": "cnm_p246",
+    "name": "倒数的认识",
+    "domain": "数与代数",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第3单元 分数除法",
+    "type": "conceptual",
+    "description": "知道乘积是 1 的两个数互为倒数，会求一个数（整数或分数）的倒数。",
+    "mastery_criteria": [
+      "能判断两个数是否互为倒数",
+      "会求整数或分数的倒数"
+    ],
+    "diagnostic_question": {
+      "question": "3/4 的倒数是多少？",
+      "answer": "4/3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:3.NA.04",
+        "confidence": "inferred",
+        "note": "新版六上第3单元首节「倒数的认识」；内容要求未点名倒数，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p247",
+    "name": "分数、小数混合运算及运算律",
+    "domain": "数与代数",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第2单元 分数乘法",
+    "type": "procedural",
+    "description": "会进行分数与小数的混合运算，能用乘法运算律使计算简便。",
+    "mastery_criteria": [
+      "能正确计算分数与小数的两步混合运算",
+      "能用运算律进行简便计算"
+    ],
+    "diagnostic_question": {
+      "question": "计算：0.5×2/5＝？",
+      "answer": "1/5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:3.NA.04",
+        "confidence": "inferred",
+        "note": "新版六上第2单元小节「分数、小数混合运算及运算律」；按目录自编，待核。"
+      }
+    ]
+  },
+  {
     "id": "cnm_p216",
     "name": "鸽巢问题",
     "domain": "综合与实践",
     "grade": 6,
     "semester": "上",
-    "chapter": "六年级上册 第7单元 数学广角——鸽巢问题",
+    "chapter": "六年级上册 第6单元 复习与关联",
     "type": "reasoning",
     "description": "知道物体数比抽屉数多时，必有一个抽屉至少放两个物体。",
     "mastery_criteria": [
@@ -5940,7 +5995,7 @@
       {
         "id": "cms-2022:3.NA.06",
         "confidence": "inferred",
-        "note": "鸽巢问题是现行六年级下册数学广角，内容要求没有同名条款，待核。"
+        "note": "新版六上无独立数学广角单元；鸽巢问题见第6单元复习与关联「应用提升」，本图谱改挂此处（原误挂第7单元数学广角）。内容要求没有同名条款，待核。"
       }
     ]
   },

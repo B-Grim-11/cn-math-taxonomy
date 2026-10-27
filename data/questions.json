@@ -213782,5 +213782,121 @@
     "answer": "B",
     "explanation": "送鲍浩然去浙东的是王观。王维写的是《送元二使安西》，两首送别不要记成一个人。",
     "verify": "\"王观\""
+  },
+  {
+    "id": "cnm_p246_q1",
+    "topicId": "cnm_p246",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "3/4 的倒数是多少？",
+    "answer": "4/3",
+    "explanation": "分子分母颠倒：3/4 的倒数是 4/3。乘积 3/4×4/3＝1。",
+    "verify": "4/3"
+  },
+  {
+    "id": "cnm_p246_q2",
+    "topicId": "cnm_p246",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "5 的倒数是多少？",
+    "answer": "1/5",
+    "explanation": "5＝5/1，倒数是 1/5。",
+    "verify": "1/5"
+  },
+  {
+    "id": "cnm_p246_q3",
+    "topicId": "cnm_p246",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "2/9 的倒数是多少？",
+    "answer": "9/2",
+    "explanation": "分子分母颠倒得 9/2。",
+    "verify": "9/2"
+  },
+  {
+    "id": "cnm_p246_q4",
+    "topicId": "cnm_p246",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "下面哪一组数互为倒数？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "2/5 和 5/2"
+      },
+      {
+        "key": "B",
+        "text": "2/5 和 2/5"
+      },
+      {
+        "key": "C",
+        "text": "2/5 和 5"
+      },
+      {
+        "key": "D",
+        "text": "2/5 和 2"
+      }
+    ],
+    "answer": "A",
+    "explanation": "2/5×5/2＝1，所以互为倒数。",
+    "verify": "2/5*5/2"
+  },
+  {
+    "id": "cnm_p247_q1",
+    "topicId": "cnm_p247",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "计算：0.5×2/5＝？",
+    "answer": "1/5",
+    "explanation": "0.5＝1/2，1/2×2/5＝1/5。也可 0.5×0.4＝0.2＝1/5。",
+    "verify": "Fraction(1,2)*2/5"
+  },
+  {
+    "id": "cnm_p247_q2",
+    "topicId": "cnm_p247",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "计算：3/4×0.8＝？",
+    "answer": "3/5",
+    "explanation": "0.8＝4/5，3/4×4/5＝3/5。",
+    "verify": "3/4*Fraction(4,5)"
+  },
+  {
+    "id": "cnm_p247_q3",
+    "topicId": "cnm_p247",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "用运算律计算：2/7×0.5×7＝？",
+    "answer": "1",
+    "explanation": "2/7×7×0.5＝2×0.5＝1。",
+    "verify": "2/7*Fraction(1,2)*7"
+  },
+  {
+    "id": "cnm_p247_q4",
+    "topicId": "cnm_p247",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "1/4×0.4＋3/4×0.4 的得数是哪一个？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "0.4"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "0.16"
+      },
+      {
+        "key": "D",
+        "text": "1.6"
+      }
+    ],
+    "answer": "A",
+    "explanation": "提取 0.4：（1/4＋3/4）×0.4＝1×0.4＝0.4。",
+    "verify": "(1/4+3/4)*Fraction(2,5)"
   }
 ]
