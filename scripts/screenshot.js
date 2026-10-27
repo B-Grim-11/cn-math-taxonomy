@@ -571,8 +571,10 @@ async function main() {
     check((await evalJs('document.querySelector("#explain").textContent')).includes(ch.q.explanation), '自动判题后也显示解析');
     check((await evalJs('document.querySelector(".refans").textContent')).includes(ch.q.answer + '.'), '显示参考答案（含选项文字）');
     await click('#btn-flip');
-    await waitFor(() => exists('#summary'), '改判为对后目标即掌握，直接到结果页');
-    check((await evalJs('JSON.parse(localStorage.getItem("cnmDiagnose.session.v2")).answers[0].result')) === 'correct', '「判错了，我其实做对了」可更正为对（目标掌握，结果页无需补课）');
+    // 默认每知识点需连续答对 3 题才掌握：改判为对后继续本知识点下一题，而不是直接结束
+    await waitFor(() => evalJs('!!document.querySelector(".q-text") && !document.querySelector("#summary")'), '改判为对后继续本知识点下一题');
+    check((await evalJs('JSON.parse(localStorage.getItem("cnmDiagnose.session.v2")).answers[0].result')) === 'correct', '「判错了，我其实做对了」可更正为对');
+    check((await evalJs('Array.from(document.querySelectorAll(".tag")).some(e => /本知识点第 2/.test(e.textContent))')), '改判为对后进入本知识点第 2 题');
 
     // 找一个答案是分数 / 负数的数值题，用全角写法作答
     let nu = null, nuTopic = null;

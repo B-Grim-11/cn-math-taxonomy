@@ -207558,7 +207558,7 @@
       }
     ],
     "answer": "D",
-    "explanation": "闼是门。山色像推开门走进来。下册再背时，这一句仍然是送青来。",
+    "explanation": "闼是门。山色像推开门走进来。这一句是送青来。",
     "verify": "\"推开门\""
   },
   {
@@ -209134,454 +209134,6 @@
     "topicId": "cnc_p454",
     "difficulty": "basic",
     "type": "choice",
-    "prompt": "「腊八粥」的「粥」读哪一个？",
-    "choices": [
-      {
-        "key": "A",
-        "text": "zhù"
-      },
-      {
-        "key": "B",
-        "text": "yù"
-      },
-      {
-        "key": "C",
-        "text": "zhǒu"
-      },
-      {
-        "key": "D",
-        "text": "zhōu"
-      }
-    ],
-    "answer": "D",
-    "explanation": "粥读 zhōu。不能读成住。",
-    "verify": "\"zhōu\""
-  },
-  {
-    "id": "cnc_p454_q2",
-    "topicId": "cnc_p454",
-    "difficulty": "basic",
-    "type": "choice",
-    "prompt": "「元宵」的「宵」读哪一个？",
-    "choices": [
-      {
-        "key": "A",
-        "text": "xiāo"
-      },
-      {
-        "key": "B",
-        "text": "xiǎo"
-      },
-      {
-        "key": "C",
-        "text": "shāo"
-      },
-      {
-        "key": "D",
-        "text": "xiào"
-      }
-    ],
-    "answer": "A",
-    "explanation": "元宵、通宵读 xiāo。不是小的读音。",
-    "verify": "\"xiāo\""
-  },
-  {
-    "id": "cnc_p454_q3",
-    "topicId": "cnc_p454",
-    "difficulty": "standard",
-    "type": "choice",
-    "prompt": "「饺子」的「饺」读哪一个？",
-    "choices": [
-      {
-        "key": "A",
-        "text": "jiāo"
-      },
-      {
-        "key": "B",
-        "text": "jiǎo"
-      },
-      {
-        "key": "C",
-        "text": "jiào"
-      },
-      {
-        "key": "D",
-        "text": "xiáo"
-      }
-    ],
-    "answer": "B",
-    "explanation": "饺子读 jiǎo，和搅的韵母一样，不是交。",
-    "verify": "\"jiǎo\""
-  },
-  {
-    "id": "cnc_p454_q4",
-    "topicId": "cnc_p454",
-    "difficulty": "standard",
-    "type": "choice",
-    "prompt": "「祭灶」的「祭」读哪一个？",
-    "choices": [
-      {
-        "key": "A",
-        "text": "cài"
-      },
-      {
-        "key": "B",
-        "text": "jī"
-      },
-      {
-        "key": "C",
-        "text": "jì"
-      },
-      {
-        "key": "D",
-        "text": "qì"
-      }
-    ],
-    "answer": "C",
-    "explanation": "祭灶、祭奠读 jì。腊月二十三要祭灶。",
-    "verify": "\"jì\""
-  },
-  {
-    "id": "cnc_p455_q1",
-    "topicId": "cnc_p455",
-    "difficulty": "basic",
-    "type": "choice",
-    "prompt": "「春城无处不飞花」的下一句是哪一句？",
-    "choices": [
-      {
-        "key": "A",
-        "text": "寒食东风御柳斜"
-      },
-      {
-        "key": "B",
-        "text": "日暮汉宫传蜡烛"
-      },
-      {
-        "key": "C",
-        "text": "春城无处不飞雪"
-      },
-      {
-        "key": "D",
-        "text": "春城无处不飞絮"
-      }
-    ],
-    "answer": "A",
-    "explanation": "寒食节的东风吹斜了宫柳。飞花不能记成飞雪或飞絮。",
-    "verify": "\"寒食东风御柳斜\""
-  },
-  {
-    "id": "cnc_p455_q2",
-    "topicId": "cnc_p455",
-    "difficulty": "basic",
-    "type": "choice",
-    "prompt": "「日暮汉宫传蜡烛」的下一句是哪一句？",
-    "choices": [
-      {
-        "key": "A",
-        "text": "寒食东风御柳斜"
-      },
-      {
-        "key": "B",
-        "text": "轻烟散入五侯家"
-      },
-      {
-        "key": "C",
-        "text": "轻烟散入百姓家"
-      },
-      {
-        "key": "D",
-        "text": "轻烟散入五侯家门"
-      }
-    ],
-    "answer": "B",
-    "explanation": "蜡烛的轻烟散进五侯家。诗里写的是五侯，不是百姓。",
-    "verify": "\"轻烟散入五侯家\""
-  },
-  {
-    "id": "cnc_p455_q3",
-    "topicId": "cnc_p455",
-    "difficulty": "standard",
-    "type": "choice",
-    "prompt": "《寒食》的作者是谁？",
-    "choices": [
-      {
-        "key": "A",
-        "text": "杜甫"
-      },
-      {
-        "key": "B",
-        "text": "王安石"
-      },
-      {
-        "key": "C",
-        "text": "韩翃"
-      },
-      {
-        "key": "D",
-        "text": "杜牧"
-      }
-    ],
-    "answer": "C",
-    "explanation": "这首诗是韩翃写的。不要因为写了春天就记成杜甫。",
-    "verify": "\"韩翃\""
-  },
-  {
-    "id": "cnc_p455_q4",
-    "topicId": "cnc_p455",
-    "difficulty": "standard",
-    "type": "choice",
-    "prompt": "寒食节本来不许点火，诗里却写传蜡烛，是在说什么？",
-    "choices": [
-      {
-        "key": "A",
-        "text": "所有人家都得到了蜡烛"
-      },
-      {
-        "key": "B",
-        "text": "蜡烛是用来照明写诗的"
-      },
-      {
-        "key": "C",
-        "text": "汉宫里在过中秋"
-      },
-      {
-        "key": "D",
-        "text": "宦官人家得到特许，与百姓不同"
-      }
-    ],
-    "answer": "D",
-    "explanation": "日暮传蜡烛、轻烟入五侯家，写的是特权，不是全民过节。",
-    "verify": "\"宦官人家得到特许，与百姓不同\""
-  },
-  {
-    "id": "cnc_p456_q1",
-    "topicId": "cnc_p456",
-    "difficulty": "basic",
-    "type": "choice",
-    "prompt": "「迢迢牵牛星」的下一句是哪一句？",
-    "choices": [
-      {
-        "key": "A",
-        "text": "纤纤擢素手"
-      },
-      {
-        "key": "B",
-        "text": "皎皎河汉女"
-      },
-      {
-        "key": "C",
-        "text": "盈盈一水间"
-      },
-      {
-        "key": "D",
-        "text": "札札弄机杼"
-      }
-    ],
-    "answer": "B",
-    "explanation": "牵牛星对的是织女。纤纤、札札是后面写织布的句子。",
-    "verify": "\"皎皎河汉女\""
-  },
-  {
-    "id": "cnc_p456_q2",
-    "topicId": "cnc_p456",
-    "difficulty": "basic",
-    "type": "choice",
-    "prompt": "「纤纤擢素手」的下一句是哪一句？",
-    "choices": [
-      {
-        "key": "A",
-        "text": "终日不成章"
-      },
-      {
-        "key": "B",
-        "text": "泣涕零如雨"
-      },
-      {
-        "key": "C",
-        "text": "札札弄机杼"
-      },
-      {
-        "key": "D",
-        "text": "皎皎河汉女"
-      }
-    ],
-    "answer": "C",
-    "explanation": "举起纤细的手，札札地穿梭织布。不成章是再下一句。",
-    "verify": "\"札札弄机杼\""
-  },
-  {
-    "id": "cnc_p456_q3",
-    "topicId": "cnc_p456",
-    "difficulty": "standard",
-    "type": "choice",
-    "prompt": "「盈盈一水间」的下一句是哪一句？",
-    "choices": [
-      {
-        "key": "A",
-        "text": "默默不得语"
-      },
-      {
-        "key": "B",
-        "text": "脉脉不能语"
-      },
-      {
-        "key": "C",
-        "text": "盈盈不得语"
-      },
-      {
-        "key": "D",
-        "text": "脉脉不得语"
-      }
-    ],
-    "answer": "D",
-    "explanation": "诗中用「脉脉」，不是「默默」，也不是「不能语」。",
-    "verify": "\"脉脉不得语\""
-  },
-  {
-    "id": "cnc_p456_q4",
-    "topicId": "cnc_p456",
-    "difficulty": "standard",
-    "type": "choice",
-    "prompt": "这首诗写牵牛和织女怎样？",
-    "choices": [
-      {
-        "key": "A",
-        "text": "只隔一条银河，却不能互相说话"
-      },
-      {
-        "key": "B",
-        "text": "他们每天都在桥上见面"
-      },
-      {
-        "key": "C",
-        "text": "织女已经把布织完，所以高兴"
-      },
-      {
-        "key": "D",
-        "text": "牵牛星掉进了河里"
-      }
-    ],
-    "answer": "A",
-    "explanation": "河汉清且浅，相去复几许。盈盈一水间，脉脉不得语。",
-    "verify": "\"只隔一条银河，却不能互相说话\""
-  },
-  {
-    "id": "cnc_p457_q1",
-    "topicId": "cnc_p457",
-    "difficulty": "basic",
-    "type": "choice",
-    "prompt": "「中庭地白树栖鸦」的下一句是哪一句？",
-    "choices": [
-      {
-        "key": "A",
-        "text": "不知秋思落谁家"
-      },
-      {
-        "key": "B",
-        "text": "冷露有声湿桂花"
-      },
-      {
-        "key": "C",
-        "text": "冷露无声湿桂花"
-      },
-      {
-        "key": "D",
-        "text": "今夜月明人尽望"
-      }
-    ],
-    "answer": "C",
-    "explanation": "院子被月光照亮，接着写露水悄悄打湿桂花。不是有声。",
-    "verify": "\"冷露无声湿桂花\""
-  },
-  {
-    "id": "cnc_p457_q2",
-    "topicId": "cnc_p457",
-    "difficulty": "basic",
-    "type": "choice",
-    "prompt": "「今夜月明人尽望」的下一句是哪一句？",
-    "choices": [
-      {
-        "key": "A",
-        "text": "不知愁思落谁家"
-      },
-      {
-        "key": "B",
-        "text": "不知秋思在谁家"
-      },
-      {
-        "key": "C",
-        "text": "冷露无声湿桂花"
-      },
-      {
-        "key": "D",
-        "text": "不知秋思落谁家"
-      }
-    ],
-    "answer": "D",
-    "explanation": "王建写的是秋思。愁思、在谁家都不是这一句。",
-    "verify": "\"不知秋思落谁家\""
-  },
-  {
-    "id": "cnc_p457_q3",
-    "topicId": "cnc_p457",
-    "difficulty": "standard",
-    "type": "choice",
-    "prompt": "《十五夜望月》的作者是谁？",
-    "choices": [
-      {
-        "key": "A",
-        "text": "王建"
-      },
-      {
-        "key": "B",
-        "text": "韩翃"
-      },
-      {
-        "key": "C",
-        "text": "李白"
-      },
-      {
-        "key": "D",
-        "text": "辛弃疾"
-      }
-    ],
-    "answer": "A",
-    "explanation": "这首是王建的。《寒食》才是韩翃的，不要因为都写节令就记成一个人。",
-    "verify": "\"王建\""
-  },
-  {
-    "id": "cnc_p457_q4",
-    "topicId": "cnc_p457",
-    "difficulty": "standard",
-    "type": "choice",
-    "prompt": "诗题里的「十五夜」是哪一夜？",
-    "choices": [
-      {
-        "key": "A",
-        "text": "寒食节"
-      },
-      {
-        "key": "B",
-        "text": "中秋的夜里"
-      },
-      {
-        "key": "C",
-        "text": "除夕"
-      },
-      {
-        "key": "D",
-        "text": "正月十五元宵"
-      }
-    ],
-    "answer": "B",
-    "explanation": "十五夜望月就是中秋望月。元宵也是十五，但那是正月，不是中秋。",
-    "verify": "\"中秋的夜里\""
-  },
-  {
-    "id": "cnc_p458_q1",
-    "topicId": "cnc_p458",
-    "difficulty": "basic",
-    "type": "choice",
     "prompt": "老舍写春节，最先写到哪一天？",
     "choices": [
       {
@@ -209606,8 +209158,8 @@
     "verify": "\"腊八\""
   },
   {
-    "id": "cnc_p458_q2",
-    "topicId": "cnc_p458",
+    "id": "cnc_p454_q2",
+    "topicId": "cnc_p454",
     "difficulty": "basic",
     "type": "choice",
     "prompt": "腊八之后、除夕之前，文中着重写了哪一天？",
@@ -209634,8 +209186,8 @@
     "verify": "\"腊月二十三\""
   },
   {
-    "id": "cnc_p458_q3",
-    "topicId": "cnc_p458",
+    "id": "cnc_p454_q3",
+    "topicId": "cnc_p454",
     "difficulty": "standard",
     "type": "choice",
     "prompt": "过了正月初一，后面写到的高潮是哪一天？",
@@ -209662,8 +209214,8 @@
     "verify": "\"元宵\""
   },
   {
-    "id": "cnc_p458_q4",
-    "topicId": "cnc_p458",
+    "id": "cnc_p454_q4",
+    "topicId": "cnc_p454",
     "difficulty": "standard",
     "type": "choice",
     "prompt": "文章主要按什么顺序写？",
@@ -209690,8 +209242,8 @@
     "verify": "\"时间顺序\""
   },
   {
-    "id": "cnc_p459_q1",
-    "topicId": "cnc_p459",
+    "id": "cnc_p455_q1",
+    "topicId": "cnc_p455",
     "difficulty": "basic",
     "type": "choice",
     "prompt": "课文里一直盼着吃粥的孩子叫什么？",
@@ -209718,8 +209270,8 @@
     "verify": "\"八儿\""
   },
   {
-    "id": "cnc_p459_q2",
-    "topicId": "cnc_p459",
+    "id": "cnc_p455_q2",
+    "topicId": "cnc_p455",
     "difficulty": "basic",
     "type": "choice",
     "prompt": "腊八粥是怎样的？",
@@ -209746,8 +209298,8 @@
     "verify": "\"稠，甜，里面有米和枣、栗子一类的果料\""
   },
   {
-    "id": "cnc_p459_q3",
-    "topicId": "cnc_p459",
+    "id": "cnc_p455_q3",
+    "topicId": "cnc_p455",
     "difficulty": "standard",
     "type": "choice",
     "prompt": "八儿为什么等得着急？",
@@ -209774,8 +209326,8 @@
     "verify": "\"粥要到夜里才能吃，他从白天就盼着\""
   },
   {
-    "id": "cnc_p459_q4",
-    "topicId": "cnc_p459",
+    "id": "cnc_p455_q4",
+    "topicId": "cnc_p455",
     "difficulty": "standard",
     "type": "choice",
     "prompt": "这篇课文和《北京的春节》都写到腊八粥，差别是什么？",
@@ -209802,228 +209354,676 @@
     "verify": "\"这篇紧盯着一个孩子怎样盼，那篇是按日子写全城的习俗\""
   },
   {
+    "id": "cnc_p456_q1",
+    "topicId": "cnc_p456",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "「春城无处不飞花」的下一句是哪一句？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "日暮汉宫传蜡烛"
+      },
+      {
+        "key": "B",
+        "text": "寒食东风御柳斜"
+      },
+      {
+        "key": "C",
+        "text": "春城无处不飞雪"
+      },
+      {
+        "key": "D",
+        "text": "春城无处不飞絮"
+      }
+    ],
+    "answer": "B",
+    "explanation": "寒食节的东风吹斜了宫柳。飞花不能记成飞雪或飞絮。",
+    "verify": "\"寒食东风御柳斜\""
+  },
+  {
+    "id": "cnc_p456_q2",
+    "topicId": "cnc_p456",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "「日暮汉宫传蜡烛」的下一句是哪一句？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "寒食东风御柳斜"
+      },
+      {
+        "key": "B",
+        "text": "轻烟散入百姓家"
+      },
+      {
+        "key": "C",
+        "text": "轻烟散入五侯家"
+      },
+      {
+        "key": "D",
+        "text": "轻烟散入五侯家门"
+      }
+    ],
+    "answer": "C",
+    "explanation": "蜡烛的轻烟散进五侯家。诗里写的是五侯，不是百姓。",
+    "verify": "\"轻烟散入五侯家\""
+  },
+  {
+    "id": "cnc_p456_q3",
+    "topicId": "cnc_p456",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "《寒食》的作者是谁？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "杜甫"
+      },
+      {
+        "key": "B",
+        "text": "王安石"
+      },
+      {
+        "key": "C",
+        "text": "杜牧"
+      },
+      {
+        "key": "D",
+        "text": "韩翃"
+      }
+    ],
+    "answer": "D",
+    "explanation": "这首诗是韩翃写的。不要因为写了春天就记成杜甫。",
+    "verify": "\"韩翃\""
+  },
+  {
+    "id": "cnc_p456_q4",
+    "topicId": "cnc_p456",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "寒食节本来不许点火，诗里却写传蜡烛，是在说什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "宦官人家得到特许，与百姓不同"
+      },
+      {
+        "key": "B",
+        "text": "所有人家都得到了蜡烛"
+      },
+      {
+        "key": "C",
+        "text": "蜡烛是用来照明写诗的"
+      },
+      {
+        "key": "D",
+        "text": "汉宫里在过中秋"
+      }
+    ],
+    "answer": "A",
+    "explanation": "日暮传蜡烛、轻烟入五侯家，写的是特权，不是全民过节。",
+    "verify": "\"宦官人家得到特许，与百姓不同\""
+  },
+  {
+    "id": "cnc_p457_q1",
+    "topicId": "cnc_p457",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "「迢迢牵牛星」的下一句是哪一句？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "纤纤擢素手"
+      },
+      {
+        "key": "B",
+        "text": "盈盈一水间"
+      },
+      {
+        "key": "C",
+        "text": "皎皎河汉女"
+      },
+      {
+        "key": "D",
+        "text": "札札弄机杼"
+      }
+    ],
+    "answer": "C",
+    "explanation": "牵牛星对的是织女。纤纤、札札是后面写织布的句子。",
+    "verify": "\"皎皎河汉女\""
+  },
+  {
+    "id": "cnc_p457_q2",
+    "topicId": "cnc_p457",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "「纤纤擢素手」的下一句是哪一句？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "终日不成章"
+      },
+      {
+        "key": "B",
+        "text": "泣涕零如雨"
+      },
+      {
+        "key": "C",
+        "text": "皎皎河汉女"
+      },
+      {
+        "key": "D",
+        "text": "札札弄机杼"
+      }
+    ],
+    "answer": "D",
+    "explanation": "举起纤细的手，札札地穿梭织布。不成章是再下一句。",
+    "verify": "\"札札弄机杼\""
+  },
+  {
+    "id": "cnc_p457_q3",
+    "topicId": "cnc_p457",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "「盈盈一水间」的下一句是哪一句？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "脉脉不得语"
+      },
+      {
+        "key": "B",
+        "text": "默默不得语"
+      },
+      {
+        "key": "C",
+        "text": "脉脉不能语"
+      },
+      {
+        "key": "D",
+        "text": "盈盈不得语"
+      }
+    ],
+    "answer": "A",
+    "explanation": "诗中用「脉脉」，不是「默默」，也不是「不能语」。",
+    "verify": "\"脉脉不得语\""
+  },
+  {
+    "id": "cnc_p457_q4",
+    "topicId": "cnc_p457",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "这首诗写牵牛和织女怎样？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "他们每天都在桥上见面"
+      },
+      {
+        "key": "B",
+        "text": "只隔一条银河，却不能互相说话"
+      },
+      {
+        "key": "C",
+        "text": "织女已经把布织完，所以高兴"
+      },
+      {
+        "key": "D",
+        "text": "牵牛星掉进了河里"
+      }
+    ],
+    "answer": "B",
+    "explanation": "河汉清且浅，相去复几许。盈盈一水间，脉脉不得语。",
+    "verify": "\"只隔一条银河，却不能互相说话\""
+  },
+  {
+    "id": "cnc_p458_q1",
+    "topicId": "cnc_p458",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "「中庭地白树栖鸦」的下一句是哪一句？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "不知秋思落谁家"
+      },
+      {
+        "key": "B",
+        "text": "冷露有声湿桂花"
+      },
+      {
+        "key": "C",
+        "text": "今夜月明人尽望"
+      },
+      {
+        "key": "D",
+        "text": "冷露无声湿桂花"
+      }
+    ],
+    "answer": "D",
+    "explanation": "院子被月光照亮，接着写露水悄悄打湿桂花。不是有声。",
+    "verify": "\"冷露无声湿桂花\""
+  },
+  {
+    "id": "cnc_p458_q2",
+    "topicId": "cnc_p458",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "「今夜月明人尽望」的下一句是哪一句？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "不知秋思落谁家"
+      },
+      {
+        "key": "B",
+        "text": "不知愁思落谁家"
+      },
+      {
+        "key": "C",
+        "text": "不知秋思在谁家"
+      },
+      {
+        "key": "D",
+        "text": "冷露无声湿桂花"
+      }
+    ],
+    "answer": "A",
+    "explanation": "王建写的是秋思。愁思、在谁家都不是这一句。",
+    "verify": "\"不知秋思落谁家\""
+  },
+  {
+    "id": "cnc_p458_q3",
+    "topicId": "cnc_p458",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "《十五夜望月》的作者是谁？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "韩翃"
+      },
+      {
+        "key": "B",
+        "text": "王建"
+      },
+      {
+        "key": "C",
+        "text": "李白"
+      },
+      {
+        "key": "D",
+        "text": "辛弃疾"
+      }
+    ],
+    "answer": "B",
+    "explanation": "这首是王建的。《寒食》才是韩翃的，不要因为都写节令就记成一个人。",
+    "verify": "\"王建\""
+  },
+  {
+    "id": "cnc_p458_q4",
+    "topicId": "cnc_p458",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "诗题里的「十五夜」是哪一夜？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "寒食节"
+      },
+      {
+        "key": "B",
+        "text": "除夕"
+      },
+      {
+        "key": "C",
+        "text": "中秋的夜里"
+      },
+      {
+        "key": "D",
+        "text": "正月十五元宵"
+      }
+    ],
+    "answer": "C",
+    "explanation": "十五夜望月就是中秋望月。元宵也是十五，但那是正月，不是中秋。",
+    "verify": "\"中秋的夜里\""
+  },
+  {
+    "id": "cnc_p459_q1",
+    "topicId": "cnc_p459",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "课文开头用三个反问，强调藏戏的哪三个特点？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "戴着面具演出，没有舞台，一部戏可以演三五天还没结束"
+      },
+      {
+        "key": "B",
+        "text": "必须在剧院里演一夜"
+      },
+      {
+        "key": "C",
+        "text": "不许戴面具，必须有华丽布景"
+      },
+      {
+        "key": "D",
+        "text": "只能由一个人演唱"
+      }
+    ],
+    "answer": "A",
+    "explanation": "面具、没有舞台、演出时间长，是开篇就点出的特点。",
+    "verify": "\"戴着面具演出，没有舞台，一部戏可以演三五天还没结束\""
+  },
+  {
+    "id": "cnc_p459_q2",
+    "topicId": "cnc_p459",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "唐东杰布为什么要组织藏戏班子？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "他想把京剧改成藏戏"
+      },
+      {
+        "key": "B",
+        "text": "用演出劝人出钱出力，好在雅鲁藏布江上架桥"
+      },
+      {
+        "key": "C",
+        "text": "他要去北京过春节"
+      },
+      {
+        "key": "D",
+        "text": "他要把面具卖给游客"
+      }
+    ],
+    "answer": "B",
+    "explanation": "江上没有桥，他许下架桥的心愿，用藏戏募集修桥的人和物。",
+    "verify": "\"用演出劝人出钱出力，好在雅鲁藏布江上架桥\""
+  },
+  {
+    "id": "cnc_p459_q3",
+    "topicId": "cnc_p459",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "课文说他后来留下了什么，并成为藏戏的开山鼻祖？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "只留下一座木桥"
+      },
+      {
+        "key": "B",
+        "text": "把藏戏班子解散了"
+      },
+      {
+        "key": "C",
+        "text": "在雅鲁藏布江上留下许多铁索桥"
+      },
+      {
+        "key": "D",
+        "text": "改去写腊八粥"
+      }
+    ],
+    "answer": "C",
+    "explanation": "修桥和开创藏戏是同一段传奇里的两件事。开山鼻祖就是创始人。",
+    "verify": "\"在雅鲁藏布江上留下许多铁索桥\""
+  },
+  {
+    "id": "cnc_p459_q4",
+    "topicId": "cnc_p459",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "国王的面具是什么颜色，代表什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "绿色，代表柔顺"
+      },
+      {
+        "key": "B",
+        "text": "白色，代表两面三刀"
+      },
+      {
+        "key": "C",
+        "text": "青面獠牙，代表朴实"
+      },
+      {
+        "key": "D",
+        "text": "红色，代表威严"
+      }
+    ],
+    "answer": "D",
+    "explanation": "国王是红色、威严。绿色柔顺是王妃。巫女才是半黑半白。",
+    "verify": "\"红色，代表威严\""
+  },
+  {
     "id": "cnc_p460_q1",
     "topicId": "cnc_p460",
     "difficulty": "basic",
     "type": "choice",
-    "prompt": "「停泊」的「泊」读哪一个？",
+    "prompt": "写家乡的风俗，哪一段把过程写出来了？",
     "choices": [
       {
         "key": "A",
-        "text": "pō"
+        "text": "我的家乡风俗很多。"
       },
       {
         "key": "B",
-        "text": "bó"
+        "text": "腊月二十三晚上，奶奶把灶糖化开，抹在灶王像的嘴上，说好话上天。"
       },
       {
         "key": "C",
-        "text": "bò"
+        "text": "过节很热闹，非常有意思。"
       },
       {
         "key": "D",
-        "text": "pò"
+        "text": "北京的春节是老舍写的。"
       }
     ],
     "answer": "B",
-    "explanation": "停泊、漂泊读 bó。湖泊、血泊才读 pō。",
-    "verify": "\"bó\""
+    "explanation": "抹灶糖、说好话，是这一天具体怎么过。空说热闹，别人看不出是哪种风俗。",
+    "verify": "\"腊月二十三晚上，奶奶把灶糖化开，抹在灶王像的嘴上，说好话上天。\""
   },
   {
     "id": "cnc_p460_q2",
     "topicId": "cnc_p460",
     "difficulty": "basic",
     "type": "choice",
-    "prompt": "「漂流」的「漂」读哪一个？",
+    "prompt": "最该写详细的是哪一部分？",
     "choices": [
       {
         "key": "A",
-        "text": "piào"
+        "text": "把全国所有节日都点到名字"
       },
       {
         "key": "B",
-        "text": "piǎo"
+        "text": "只写自己的出生年月日"
       },
       {
         "key": "C",
-        "text": "piāo"
+        "text": "这种风俗里最有特点、你最熟悉的那段过程"
       },
       {
         "key": "D",
-        "text": "biāo"
+        "text": "把《藏戏》全文抄下来"
       }
     ],
     "answer": "C",
-    "explanation": "漂流、漂浮读 piāo。漂亮才读 piào。",
-    "verify": "\"piāo\""
+    "explanation": "一篇里重点只有一两处。什么都点一下，读者记不住你家乡的那一件。",
+    "verify": "\"这种风俗里最有特点、你最熟悉的那段过程\""
   },
   {
     "id": "cnc_p460_q3",
     "topicId": "cnc_p460",
     "difficulty": "standard",
     "type": "choice",
-    "prompt": "「记载」的「载」读哪一个？",
+    "prompt": "哪一句写出了自己的感受，又没有脱离风俗？",
     "choices": [
       {
         "key": "A",
-        "text": "zài"
+        "text": "我很高兴。"
       },
       {
         "key": "B",
-        "text": "zāi"
+        "text": "风俗就是风俗。"
       },
       {
         "key": "C",
-        "text": "cái"
+        "text": "老舍写了除夕。"
       },
       {
         "key": "D",
-        "text": "zǎi"
+        "text": "糖一化，屋子里就甜得发黏，我忽然觉得小年比平常的晚饭隆重。"
       }
     ],
     "answer": "D",
-    "explanation": "记载、登载读 zǎi。载重、装载才读 zài。",
-    "verify": "\"zǎi\""
+    "explanation": "甜得发黏、觉得隆重，是你在这件事里的感觉。只写高兴，还看不出是小年。",
+    "verify": "\"糖一化，屋子里就甜得发黏，我忽然觉得小年比平常的晚饭隆重。\""
   },
   {
     "id": "cnc_p460_q4",
     "topicId": "cnc_p460",
     "difficulty": "standard",
     "type": "choice",
-    "prompt": "「灾难」的「难」读哪一个？",
+    "prompt": "哪一种材料不适合放进这篇习作？",
     "choices": [
       {
         "key": "A",
-        "text": "nàn"
+        "text": "昨天下午的数学测验成绩"
       },
       {
         "key": "B",
-        "text": "nán"
+        "text": "家乡端午包粽子的步骤"
       },
       {
         "key": "C",
-        "text": "nǎn"
+        "text": "元宵节晚上灯会怎么走"
       },
       {
         "key": "D",
-        "text": "nuó"
+        "text": "祭灶时大人们说的话"
       }
     ],
     "answer": "A",
-    "explanation": "灾难、难民读 nàn。困难、难题才读 nán。",
-    "verify": "\"nàn\""
+    "explanation": "测验和风俗无关。粽子、灯会、祭灶才是习俗。",
+    "verify": "\"昨天下午的数学测验成绩\""
   },
   {
     "id": "cnc_p461_q1",
     "topicId": "cnc_p461",
     "difficulty": "basic",
     "type": "choice",
-    "prompt": "「这道题有意思」里的「意思」是什么？",
+    "prompt": "「腊八粥」的「粥」读哪一个？",
     "choices": [
       {
         "key": "A",
-        "text": "有意见"
+        "text": "zhù"
       },
       {
         "key": "B",
-        "text": "有礼物"
+        "text": "yù"
       },
       {
         "key": "C",
-        "text": "有趣味"
+        "text": "zhōu"
       },
       {
         "key": "D",
-        "text": "有别的含义要解释"
+        "text": "zhǒu"
       }
     ],
     "answer": "C",
-    "explanation": "说题目有意思，是说它有趣味，不是要送礼。",
-    "verify": "\"有趣味\""
+    "explanation": "粥读 zhōu。不能读成住。",
+    "verify": "\"zhōu\""
   },
   {
     "id": "cnc_p461_q2",
     "topicId": "cnc_p461",
     "difficulty": "basic",
     "type": "choice",
-    "prompt": "「他一点意思也没有」如果是在抱怨礼物，这里的「意思」更接近什么？",
+    "prompt": "「元宵」的「宵」读哪一个？",
     "choices": [
       {
         "key": "A",
-        "text": "题目的趣味"
+        "text": "xiǎo"
       },
       {
         "key": "B",
-        "text": "文字的解释"
+        "text": "shāo"
       },
       {
         "key": "C",
-        "text": "意见簿"
+        "text": "xiào"
       },
       {
         "key": "D",
-        "text": "心意或礼物"
+        "text": "xiāo"
       }
     ],
     "answer": "D",
-    "explanation": "同样是意思，在送礼的场合可以指心意。",
-    "verify": "\"心意或礼物\""
+    "explanation": "元宵、通宵读 xiāo。不是小的读音。",
+    "verify": "\"xiāo\""
   },
   {
     "id": "cnc_p461_q3",
     "topicId": "cnc_p461",
     "difficulty": "standard",
     "type": "choice",
-    "prompt": "「走」在「走棋」里是什么意思？",
+    "prompt": "「饺子」的「饺」读哪一个？",
     "choices": [
       {
         "key": "A",
-        "text": "移动棋子"
+        "text": "jiǎo"
       },
       {
         "key": "B",
-        "text": "用脚走路"
+        "text": "jiāo"
       },
       {
         "key": "C",
-        "text": "离开家乡"
+        "text": "jiào"
       },
       {
         "key": "D",
-        "text": "把字写走样"
+        "text": "xiáo"
       }
     ],
     "answer": "A",
-    "explanation": "走棋是下棋时移动棋子，不是用脚走。",
-    "verify": "\"移动棋子\""
+    "explanation": "饺子读 jiǎo，和搅的韵母一样，不是交。",
+    "verify": "\"jiǎo\""
   },
   {
     "id": "cnc_p461_q4",
     "topicId": "cnc_p461",
     "difficulty": "standard",
     "type": "choice",
-    "prompt": "判断语境义，第一步应该做什么？",
+    "prompt": "「祭灶」的「祭」读哪一个？",
     "choices": [
       {
         "key": "A",
-        "text": "永远选词典的第一个解释"
+        "text": "cài"
       },
       {
         "key": "B",
-        "text": "把词放回句子里看"
+        "text": "jì"
       },
       {
         "key": "C",
-        "text": "先把词删掉"
+        "text": "jī"
       },
       {
         "key": "D",
-        "text": "换成同音字"
+        "text": "qì"
       }
     ],
     "answer": "B",
-    "explanation": "离开句子，同一个词可以有好几种意思。",
-    "verify": "\"把词放回句子里看\""
+    "explanation": "祭灶、祭奠读 jì。腊月二十三要祭灶。",
+    "verify": "\"jì\""
   },
   {
     "id": "cnc_p462_q1",
@@ -210254,116 +210254,564 @@
     "topicId": "cnc_p464",
     "difficulty": "basic",
     "type": "choice",
-    "prompt": "话没有说完，该用哪一个？",
+    "prompt": "《汤姆·索亚历险记》的作者是谁？",
     "choices": [
       {
         "key": "A",
-        "text": "破折号"
+        "text": "笛福"
       },
       {
         "key": "B",
-        "text": "省略号"
+        "text": "马克·吐温"
       },
       {
         "key": "C",
-        "text": "书名号"
+        "text": "托尔斯泰"
       },
       {
         "key": "D",
-        "text": "间隔号"
+        "text": "拉格洛芙"
       }
     ],
     "answer": "B",
-    "explanation": "话断了、后面还有没说出的内容，用省略号。",
-    "verify": "\"省略号\""
+    "explanation": "作者是马克·吐温。他也写过《威尼斯的小艇》。鲁滨逊的作者是笛福。",
+    "verify": "\"马克·吐温\""
   },
   {
     "id": "cnc_p464_q2",
     "topicId": "cnc_p464",
     "difficulty": "basic",
     "type": "choice",
-    "prompt": "「这是我们的班长——李青。」横线处的破折号表示什么？",
+    "prompt": "波莉姨妈让汤姆做什么？",
     "choices": [
       {
         "key": "A",
-        "text": "话被打断"
+        "text": "去荒岛种麦子"
       },
       {
         "key": "B",
-        "text": "声音延长"
+        "text": "骑鹅旅行"
       },
       {
         "key": "C",
-        "text": "解释说明"
+        "text": "把篱笆刷白"
       },
       {
         "key": "D",
-        "text": "列举结束"
+        "text": "上台演戏"
       }
     ],
     "answer": "C",
-    "explanation": "破折号后面说明班长是谁。",
-    "verify": "\"解释说明\""
+    "explanation": "精彩片段里，汤姆本来为刷墙发愁。",
+    "verify": "\"把篱笆刷白\""
   },
   {
     "id": "cnc_p464_q3",
     "topicId": "cnc_p464",
     "difficulty": "standard",
     "type": "choice",
-    "prompt": "「书架上有童话、故事、诗歌……」这里的省略号表示什么？",
+    "prompt": "汤姆怎样让别人抢着干活？",
     "choices": [
       {
         "key": "A",
-        "text": "书架是空的"
+        "text": "花钱雇他们"
       },
       {
         "key": "B",
-        "text": "这些书都不见了"
+        "text": "把刷子藏起来"
       },
       {
         "key": "C",
-        "text": "后面要解释诗歌是什么"
+        "text": "告诉他们刷完可以不上学一年"
       },
       {
         "key": "D",
-        "text": "还有别的书，没有一一列出"
+        "text": "做出刷墙非常有趣、不是谁都能干的样子"
       }
     ],
     "answer": "D",
-    "explanation": "列举没有写完，用省略号。解释某一个词才常用破折号。",
-    "verify": "\"还有别的书，没有一一列出\""
+    "explanation": "他越是不让别人刷，别人越觉得这是难得的机会，还拿东西来换。",
+    "verify": "\"做出刷墙非常有趣、不是谁都能干的样子\""
   },
   {
     "id": "cnc_p464_q4",
     "topicId": "cnc_p464",
     "difficulty": "standard",
     "type": "choice",
-    "prompt": "声音拉得很长，哪一种标点是对的？",
+    "prompt": "这个片段主要表现汤姆怎样？",
     "choices": [
       {
         "key": "A",
-        "text": "喂——（破折号）"
+        "text": "机灵，会把一件苦差变成让人羡慕的事"
       },
       {
         "key": "B",
-        "text": "喂……（省略号）"
+        "text": "很听姨妈的话，从不耍心眼"
       },
       {
         "key": "C",
-        "text": "喂。（句号）"
+        "text": "不会和别人说话"
       },
       {
         "key": "D",
-        "text": "喂、（顿号）"
+        "text": "把篱笆拆掉了"
       }
     ],
     "answer": "A",
-    "explanation": "声音拖长用破折号。省略号表示还有内容没说完，不是声音拉长。",
-    "verify": "\"喂——（破折号）\""
+    "explanation": "小伙伴一个接一个加入，汤姆自己反而坐在旁边。这就是他的机灵。",
+    "verify": "\"机灵，会把一件苦差变成让人羡慕的事\""
   },
   {
     "id": "cnc_p465_q1",
     "topicId": "cnc_p465",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "作品梗概最该留下什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "每一处风景的颜色"
+      },
+      {
+        "key": "B",
+        "text": "作者用了多少个比喻"
+      },
+      {
+        "key": "C",
+        "text": "主要人物做了哪些关键的事，事情怎样发展"
+      },
+      {
+        "key": "D",
+        "text": "自己抄下来的好词好句"
+      }
+    ],
+    "answer": "C",
+    "explanation": "梗概是把故事的骨架说清楚。风景和好词可以留在原文里。",
+    "verify": "\"主要人物做了哪些关键的事，事情怎样发展\""
+  },
+  {
+    "id": "cnc_p465_q2",
+    "topicId": "cnc_p465",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "哪一段更像《鲁滨逊漂流记》的梗概？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "海浪一声一声打在礁石上，泡沫白得像盐。"
+      },
+      {
+        "key": "B",
+        "text": "我读的时候心跳很快，觉得自己也在岛上。"
+      },
+      {
+        "key": "C",
+        "text": "星期五三个字。"
+      },
+      {
+        "key": "D",
+        "text": "鲁滨逊流落荒岛，自己建造住所、寻找食物，后来救下星期五，终于离开海岛。"
+      }
+    ],
+    "answer": "D",
+    "explanation": "第一段有人物、遭遇和结果。写浪花是描写，写心跳是读后感，都不是梗概。",
+    "verify": "\"鲁滨逊流落荒岛，自己建造住所、寻找食物，后来救下星期五，终于离开海岛。\""
+  },
+  {
+    "id": "cnc_p465_q3",
+    "topicId": "cnc_p465",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "写梗概时，哪一种做法不对？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "为了好看，把原来没获救的人写成获救了"
+      },
+      {
+        "key": "B",
+        "text": "删掉次要人物的闲谈"
+      },
+      {
+        "key": "C",
+        "text": "用自己的话把几章收成一段"
+      },
+      {
+        "key": "D",
+        "text": "按原书的先后写"
+      }
+    ],
+    "answer": "A",
+    "explanation": "梗概可以压缩，不能改掉主要事实。",
+    "verify": "\"为了好看，把原来没获救的人写成获救了\""
+  },
+  {
+    "id": "cnc_p465_q4",
+    "topicId": "cnc_p465",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "梗概和读后感的差别是什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "两者都必须把原文抄完"
+      },
+      {
+        "key": "B",
+        "text": "梗概讲书里发生了什么，读后感讲这本书让你想到什么"
+      },
+      {
+        "key": "C",
+        "text": "梗概不许出现人名"
+      },
+      {
+        "key": "D",
+        "text": "读后感不许提书名"
+      }
+    ],
+    "answer": "B",
+    "explanation": "先把情节说清，才写得出读后感。两件事不要并成一种。",
+    "verify": "\"梗概讲书里发生了什么，读后感讲这本书让你想到什么\""
+  },
+  {
+    "id": "cnc_p466_q1",
+    "topicId": "cnc_p466",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "「停泊」的「泊」读哪一个？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "pō"
+      },
+      {
+        "key": "B",
+        "text": "bò"
+      },
+      {
+        "key": "C",
+        "text": "pò"
+      },
+      {
+        "key": "D",
+        "text": "bó"
+      }
+    ],
+    "answer": "D",
+    "explanation": "停泊、漂泊读 bó。湖泊、血泊才读 pō。",
+    "verify": "\"bó\""
+  },
+  {
+    "id": "cnc_p466_q2",
+    "topicId": "cnc_p466",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "「漂流」的「漂」读哪一个？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "piāo"
+      },
+      {
+        "key": "B",
+        "text": "piào"
+      },
+      {
+        "key": "C",
+        "text": "piǎo"
+      },
+      {
+        "key": "D",
+        "text": "biāo"
+      }
+    ],
+    "answer": "A",
+    "explanation": "漂流、漂浮读 piāo。漂亮才读 piào。",
+    "verify": "\"piāo\""
+  },
+  {
+    "id": "cnc_p466_q3",
+    "topicId": "cnc_p466",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "「记载」的「载」读哪一个？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "zài"
+      },
+      {
+        "key": "B",
+        "text": "zǎi"
+      },
+      {
+        "key": "C",
+        "text": "zāi"
+      },
+      {
+        "key": "D",
+        "text": "cái"
+      }
+    ],
+    "answer": "B",
+    "explanation": "记载、登载读 zǎi。载重、装载才读 zài。",
+    "verify": "\"zǎi\""
+  },
+  {
+    "id": "cnc_p466_q4",
+    "topicId": "cnc_p466",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "「灾难」的「难」读哪一个？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "nán"
+      },
+      {
+        "key": "B",
+        "text": "nǎn"
+      },
+      {
+        "key": "C",
+        "text": "nàn"
+      },
+      {
+        "key": "D",
+        "text": "nuó"
+      }
+    ],
+    "answer": "C",
+    "explanation": "灾难、难民读 nàn。困难、难题才读 nán。",
+    "verify": "\"nàn\""
+  },
+  {
+    "id": "cnc_p467_q1",
+    "topicId": "cnc_p467",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "「这道题有意思」里的「意思」是什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "有趣味"
+      },
+      {
+        "key": "B",
+        "text": "有意见"
+      },
+      {
+        "key": "C",
+        "text": "有礼物"
+      },
+      {
+        "key": "D",
+        "text": "有别的含义要解释"
+      }
+    ],
+    "answer": "A",
+    "explanation": "说题目有意思，是说它有趣味，不是要送礼。",
+    "verify": "\"有趣味\""
+  },
+  {
+    "id": "cnc_p467_q2",
+    "topicId": "cnc_p467",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "「他一点意思也没有」如果是在抱怨礼物，这里的「意思」更接近什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "题目的趣味"
+      },
+      {
+        "key": "B",
+        "text": "心意或礼物"
+      },
+      {
+        "key": "C",
+        "text": "文字的解释"
+      },
+      {
+        "key": "D",
+        "text": "意见簿"
+      }
+    ],
+    "answer": "B",
+    "explanation": "同样是意思，在送礼的场合可以指心意。",
+    "verify": "\"心意或礼物\""
+  },
+  {
+    "id": "cnc_p467_q3",
+    "topicId": "cnc_p467",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "「走」在「走棋」里是什么意思？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "用脚走路"
+      },
+      {
+        "key": "B",
+        "text": "离开家乡"
+      },
+      {
+        "key": "C",
+        "text": "移动棋子"
+      },
+      {
+        "key": "D",
+        "text": "把字写走样"
+      }
+    ],
+    "answer": "C",
+    "explanation": "走棋是下棋时移动棋子，不是用脚走。",
+    "verify": "\"移动棋子\""
+  },
+  {
+    "id": "cnc_p467_q4",
+    "topicId": "cnc_p467",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "判断语境义，第一步应该做什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "永远选词典的第一个解释"
+      },
+      {
+        "key": "B",
+        "text": "先把词删掉"
+      },
+      {
+        "key": "C",
+        "text": "换成同音字"
+      },
+      {
+        "key": "D",
+        "text": "把词放回句子里看"
+      }
+    ],
+    "answer": "D",
+    "explanation": "离开句子，同一个词可以有好几种意思。",
+    "verify": "\"把词放回句子里看\""
+  },
+  {
+    "id": "cnc_p468_q1",
+    "topicId": "cnc_p468",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "这个读书吧主要读哪一类书？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "只读本册生字表"
+      },
+      {
+        "key": "B",
+        "text": "世界名著"
+      },
+      {
+        "key": "C",
+        "text": "只读中国古典诗"
+      },
+      {
+        "key": "D",
+        "text": "只读数学应用题"
+      }
+    ],
+    "answer": "B",
+    "explanation": "花园里是各国的名著。生字表和数学题不是这次阅读的对象。",
+    "verify": "\"世界名著\""
+  },
+  {
+    "id": "cnc_p468_q2",
+    "topicId": "cnc_p468",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "和本单元课文最接近的读法是哪一种？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "把《北京的春节》背下来"
+      },
+      {
+        "key": "B",
+        "text": "只收集藏戏面具的图片"
+      },
+      {
+        "key": "C",
+        "text": "选一本外国名著，抓住人物和情节"
+      },
+      {
+        "key": "D",
+        "text": "把古诗抄成一张表"
+      }
+    ],
+    "answer": "C",
+    "explanation": "鲁滨逊、尼尔斯、汤姆都是外国名著里的人物。顺着这个方向再读一本。",
+    "verify": "\"选一本外国名著，抓住人物和情节\""
+  },
+  {
+    "id": "cnc_p468_q3",
+    "topicId": "cnc_p468",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "读完以后，哪一种记录有用？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "只写这本书一共多少页"
+      },
+      {
+        "key": "B",
+        "text": "只写作者的国籍"
+      },
+      {
+        "key": "C",
+        "text": "只写我读完了"
+      },
+      {
+        "key": "D",
+        "text": "人物是谁，印象最深的一件事，以及你为什么记得它"
+      }
+    ],
+    "answer": "D",
+    "explanation": "页数和国籍不能代替故事。看法要挂在具体的一件事上。",
+    "verify": "\"人物是谁，印象最深的一件事，以及你为什么记得它\""
+  },
+  {
+    "id": "cnc_p468_q4",
+    "topicId": "cnc_p468",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "哪一种不算在读名著？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "只背下作者名字，一个情节也说不出"
+      },
+      {
+        "key": "B",
+        "text": "能说出主人公遇到的难处"
+      },
+      {
+        "key": "C",
+        "text": "能比较两个译本里同一件事的差别"
+      },
+      {
+        "key": "D",
+        "text": "能把最想讨论的一段讲给同学听"
+      }
+    ],
+    "answer": "A",
+    "explanation": "名字只是入口。说不出情节，书还没有读进去。",
+    "verify": "\"只背下作者名字，一个情节也说不出\""
+  },
+  {
+    "id": "cnc_p469_q1",
+    "topicId": "cnc_p469",
     "difficulty": "basic",
     "type": "choice",
     "prompt": "洗手的时候，日子从哪里过去？",
@@ -210390,8 +210838,8 @@
     "verify": "\"从水盆里过去\""
   },
   {
-    "id": "cnc_p465_q2",
-    "topicId": "cnc_p465",
+    "id": "cnc_p469_q2",
+    "topicId": "cnc_p469",
     "difficulty": "basic",
     "type": "choice",
     "prompt": "吃饭的时候，日子从哪里过去？",
@@ -210418,8 +210866,8 @@
     "verify": "\"从饭碗里过去\""
   },
   {
-    "id": "cnc_p465_q3",
-    "topicId": "cnc_p465",
+    "id": "cnc_p469_q3",
+    "topicId": "cnc_p469",
     "difficulty": "standard",
     "type": "choice",
     "prompt": "燕子、杨柳、桃花和日子有什么不同？",
@@ -210446,8 +210894,8 @@
     "verify": "\"它们可以再来，日子却一去不复返\""
   },
   {
-    "id": "cnc_p465_q4",
-    "topicId": "cnc_p465",
+    "id": "cnc_p469_q4",
+    "topicId": "cnc_p469",
     "difficulty": "standard",
     "type": "choice",
     "prompt": "作者这样写，是为了说明什么？",
@@ -210474,8 +210922,8 @@
     "verify": "\"时间在平常的事情里悄悄过去，要珍惜\""
   },
   {
-    "id": "cnc_p466_q1",
-    "topicId": "cnc_p466",
+    "id": "cnc_p470_q1",
+    "topicId": "cnc_p470",
     "difficulty": "basic",
     "type": "choice",
     "prompt": "《那个星期天》的作者是谁？",
@@ -210502,8 +210950,8 @@
     "verify": "\"史铁生\""
   },
   {
-    "id": "cnc_p466_q2",
-    "topicId": "cnc_p466",
+    "id": "cnc_p470_q2",
+    "topicId": "cnc_p470",
     "difficulty": "basic",
     "type": "choice",
     "prompt": "「我」从早晨就开始盼望什么？",
@@ -210530,8 +210978,8 @@
     "verify": "\"母亲带「我」出去玩\""
   },
   {
-    "id": "cnc_p466_q3",
-    "topicId": "cnc_p466",
+    "id": "cnc_p470_q3",
+    "topicId": "cnc_p470",
     "difficulty": "standard",
     "type": "choice",
     "prompt": "母亲为什么迟迟没有出门？",
@@ -210558,8 +211006,8 @@
     "verify": "\"家里的活一件接一件，她脱不开身\""
   },
   {
-    "id": "cnc_p466_q4",
-    "topicId": "cnc_p466",
+    "id": "cnc_p470_q4",
+    "topicId": "cnc_p470",
     "difficulty": "standard",
     "type": "choice",
     "prompt": "等到下午，「我」的心情变成了什么？",
@@ -210586,495 +211034,383 @@
     "verify": "\"从盼望变成失望\""
   },
   {
-    "id": "cnc_p467_q1",
-    "topicId": "cnc_p467",
-    "difficulty": "basic",
-    "type": "choice",
-    "prompt": "一个孩子说，太阳刚出来时大得像什么？",
-    "choices": [
-      {
-        "key": "A",
-        "text": "车盖"
-      },
-      {
-        "key": "B",
-        "text": "盘盂"
-      },
-      {
-        "key": "C",
-        "text": "磨盘"
-      },
-      {
-        "key": "D",
-        "text": "铜镜"
-      }
-    ],
-    "answer": "A",
-    "explanation": "日初出大如车盖。到了中午，他才说像盘盂。",
-    "verify": "\"车盖\""
-  },
-  {
-    "id": "cnc_p467_q2",
-    "topicId": "cnc_p467",
-    "difficulty": "basic",
-    "type": "choice",
-    "prompt": "另一个孩子说，中午的太阳热得像什么？",
-    "choices": [
-      {
-        "key": "A",
-        "text": "探火"
-      },
-      {
-        "key": "B",
-        "text": "把手伸进热水"
-      },
-      {
-        "key": "C",
-        "text": "摸冰块"
-      },
-      {
-        "key": "D",
-        "text": "站在风里"
-      }
-    ],
-    "answer": "B",
-    "explanation": "如探汤，就是像把手伸进热水里。",
-    "verify": "\"把手伸进热水\""
-  },
-  {
-    "id": "cnc_p467_q3",
-    "topicId": "cnc_p467",
-    "difficulty": "standard",
-    "type": "choice",
-    "prompt": "孔子听完以后怎样？",
-    "choices": [
-      {
-        "key": "A",
-        "text": "说早上近的那个对"
-      },
-      {
-        "key": "B",
-        "text": "说中午近的那个对"
-      },
-      {
-        "key": "C",
-        "text": "不能判断谁对"
-      },
-      {
-        "key": "D",
-        "text": "把两个孩子都批评了一顿"
-      }
-    ],
-    "answer": "C",
-    "explanation": "孔子不能决。他没有判定谁赢。",
-    "verify": "\"不能判断谁对\""
-  },
-  {
-    "id": "cnc_p467_q4",
-    "topicId": "cnc_p467",
-    "difficulty": "standard",
-    "type": "choice",
-    "prompt": "这则短文出自哪里？",
-    "choices": [
-      {
-        "key": "A",
-        "text": "《论语》"
-      },
-      {
-        "key": "B",
-        "text": "《孟子》"
-      },
-      {
-        "key": "C",
-        "text": "《庄子》"
-      },
-      {
-        "key": "D",
-        "text": "《列子》"
-      }
-    ],
-    "answer": "D",
-    "explanation": "两小儿辩日选自《列子·汤问》。《学弈》才选自《孟子》。",
-    "verify": "\"《列子》\""
-  },
-  {
-    "id": "cnc_p468_q1",
-    "topicId": "cnc_p468",
-    "difficulty": "basic",
-    "type": "choice",
-    "prompt": "中心是「同学之间互相帮助」。哪一项材料该留下？",
-    "choices": [
-      {
-        "key": "A",
-        "text": "星期天我看了一场电影。"
-      },
-      {
-        "key": "B",
-        "text": "同桌把笔记借给我，并讲了那道题。"
-      },
-      {
-        "key": "C",
-        "text": "我家的猫很胖。"
-      },
-      {
-        "key": "D",
-        "text": "昨天的风很大。"
-      }
-    ],
-    "answer": "B",
-    "explanation": "借笔记、讲题能表现互相帮助。电影、猫和风与这个中心无关。",
-    "verify": "\"同桌把笔记借给我，并讲了那道题。\""
-  },
-  {
-    "id": "cnc_p468_q2",
-    "topicId": "cnc_p468",
-    "difficulty": "basic",
-    "type": "choice",
-    "prompt": "中心是「这次实验让我更细心」。哪一句跑题了？",
-    "choices": [
-      {
-        "key": "A",
-        "text": "我第一次把步骤看反了。"
-      },
-      {
-        "key": "B",
-        "text": "第二次我对着清单做，才成功。"
-      },
-      {
-        "key": "C",
-        "text": "放学后我在操场踢了半小时球。"
-      },
-      {
-        "key": "D",
-        "text": "我明白细心比赶时间重要。"
-      }
-    ],
-    "answer": "C",
-    "explanation": "踢球和实验、细心没有关系。看错步骤和第二次成功都在写这个中心。",
-    "verify": "\"放学后我在操场踢了半小时球。\""
-  },
-  {
-    "id": "cnc_p468_q3",
-    "topicId": "cnc_p468",
-    "difficulty": "standard",
-    "type": "choice",
-    "prompt": "材料太多时该怎样？",
-    "choices": [
-      {
-        "key": "A",
-        "text": "全部照单写上"
-      },
-      {
-        "key": "B",
-        "text": "把中心改成每一件事"
-      },
-      {
-        "key": "C",
-        "text": "只留一个和中心无关的例子"
-      },
-      {
-        "key": "D",
-        "text": "删掉不能表现中心的内容"
-      }
-    ],
-    "answer": "D",
-    "explanation": "围绕中心选择，文章才集中。",
-    "verify": "\"删掉不能表现中心的内容\""
-  },
-  {
-    "id": "cnc_p468_q4",
-    "topicId": "cnc_p468",
-    "difficulty": "standard",
-    "type": "choice",
-    "prompt": "哪一段是围绕一个中心选材的？",
-    "choices": [
-      {
-        "key": "A",
-        "text": "为了写「爸爸守时」，写他提前到车站，又写他从不迟到。"
-      },
-      {
-        "key": "B",
-        "text": "先写爸爸守时，再写我家的猫，最后写昨天的动画片。"
-      },
-      {
-        "key": "C",
-        "text": "守时。"
-      },
-      {
-        "key": "D",
-        "text": "爸爸猫动画片。"
-      }
-    ],
-    "answer": "A",
-    "explanation": "提前到和从不迟到都在写守时。猫和动画片是另一些中心。",
-    "verify": "\"为了写「爸爸守时」，写他提前到车站，又写他从不迟到。\""
-  },
-  {
-    "id": "cnc_p469_q1",
-    "topicId": "cnc_p469",
-    "difficulty": "basic",
-    "type": "choice",
-    "prompt": "哪一句更像认真写过的赠言？",
-    "choices": [
-      {
-        "key": "A",
-        "text": "前程似锦。"
-      },
-      {
-        "key": "B",
-        "text": "万事如意。"
-      },
-      {
-        "key": "C",
-        "text": "你借我橡皮的那天，我才发现你总是先看见别人的难处。"
-      },
-      {
-        "key": "D",
-        "text": "好好学习。"
-      }
-    ],
-    "answer": "C",
-    "explanation": "带着那块橡皮的事，读的人知道你在说他。只剩四个字的祝愿太宽，谁都可以用。",
-    "verify": "\"你借我橡皮的那天，我才发现你总是先看见别人的难处。\""
-  },
-  {
-    "id": "cnc_p469_q2",
-    "topicId": "cnc_p469",
-    "difficulty": "basic",
-    "type": "choice",
-    "prompt": "赠言最好不要怎样写？",
-    "choices": [
-      {
-        "key": "A",
-        "text": "写出他帮过你的一件小事"
-      },
-      {
-        "key": "B",
-        "text": "写出你记住的一句话"
-      },
-      {
-        "key": "C",
-        "text": "写出对他的祝愿，并说清为什么"
-      },
-      {
-        "key": "D",
-        "text": "抄一句和这个人毫无关系的空话"
-      }
-    ],
-    "answer": "D",
-    "explanation": "空话不是不能写，但只有空话，就看不出是写给谁的。",
-    "verify": "\"抄一句和这个人毫无关系的空话\""
-  },
-  {
-    "id": "cnc_p469_q3",
-    "topicId": "cnc_p469",
-    "difficulty": "standard",
-    "type": "choice",
-    "prompt": "写给老师的赠言，哪一种内容合适？",
-    "choices": [
-      {
-        "key": "A",
-        "text": "记得您把我叫到黑板前，耐心地重讲那道题。"
-      },
-      {
-        "key": "B",
-        "text": "祝您以后不要再当老师。"
-      },
-      {
-        "key": "C",
-        "text": "今天的天气不错。"
-      },
-      {
-        "key": "D",
-        "text": "您的办公室在二楼。"
-      }
-    ],
-    "answer": "A",
-    "explanation": "重讲那道题，是你们之间的事。天气和楼层不是赠言。",
-    "verify": "\"记得您把我叫到黑板前，耐心地重讲那道题。\""
-  },
-  {
-    "id": "cnc_p469_q4",
-    "topicId": "cnc_p469",
-    "difficulty": "standard",
-    "type": "choice",
-    "prompt": "「难忘小学生活」里的赠言，中心应当是什么？",
-    "choices": [
-      {
-        "key": "A",
-        "text": "把所有同学都批评一遍"
-      },
-      {
-        "key": "B",
-        "text": "对这个人的感谢、祝福或记住的一件事"
-      },
-      {
-        "key": "C",
-        "text": "只写自己的家庭地址"
-      },
-      {
-        "key": "D",
-        "text": "抄一份课程表"
-      }
-    ],
-    "answer": "B",
-    "explanation": "赠言是说给具体的人听的。课程表和地址不是要说的话。",
-    "verify": "\"对这个人的感谢、祝福或记住的一件事\""
-  },
-  {
-    "id": "cnc_p470_q1",
-    "topicId": "cnc_p470",
-    "difficulty": "basic",
-    "type": "choice",
-    "prompt": "《汤姆·索亚历险记》的作者是谁？",
-    "choices": [
-      {
-        "key": "A",
-        "text": "笛福"
-      },
-      {
-        "key": "B",
-        "text": "托尔斯泰"
-      },
-      {
-        "key": "C",
-        "text": "拉格洛芙"
-      },
-      {
-        "key": "D",
-        "text": "马克·吐温"
-      }
-    ],
-    "answer": "D",
-    "explanation": "作者是马克·吐温。他也写过《威尼斯的小艇》。鲁滨逊的作者是笛福。",
-    "verify": "\"马克·吐温\""
-  },
-  {
-    "id": "cnc_p470_q2",
-    "topicId": "cnc_p470",
-    "difficulty": "basic",
-    "type": "choice",
-    "prompt": "波莉姨妈让汤姆做什么？",
-    "choices": [
-      {
-        "key": "A",
-        "text": "把篱笆刷白"
-      },
-      {
-        "key": "B",
-        "text": "去荒岛种麦子"
-      },
-      {
-        "key": "C",
-        "text": "骑鹅旅行"
-      },
-      {
-        "key": "D",
-        "text": "上台演戏"
-      }
-    ],
-    "answer": "A",
-    "explanation": "精彩片段里，汤姆本来为刷墙发愁。",
-    "verify": "\"把篱笆刷白\""
-  },
-  {
-    "id": "cnc_p470_q3",
-    "topicId": "cnc_p470",
-    "difficulty": "standard",
-    "type": "choice",
-    "prompt": "汤姆怎样让别人抢着干活？",
-    "choices": [
-      {
-        "key": "A",
-        "text": "花钱雇他们"
-      },
-      {
-        "key": "B",
-        "text": "做出刷墙非常有趣、不是谁都能干的样子"
-      },
-      {
-        "key": "C",
-        "text": "把刷子藏起来"
-      },
-      {
-        "key": "D",
-        "text": "告诉他们刷完可以不上学一年"
-      }
-    ],
-    "answer": "B",
-    "explanation": "他越是不让别人刷，别人越觉得这是难得的机会，还拿东西来换。",
-    "verify": "\"做出刷墙非常有趣、不是谁都能干的样子\""
-  },
-  {
-    "id": "cnc_p470_q4",
-    "topicId": "cnc_p470",
-    "difficulty": "standard",
-    "type": "choice",
-    "prompt": "这个片段主要表现汤姆怎样？",
-    "choices": [
-      {
-        "key": "A",
-        "text": "很听姨妈的话，从不耍心眼"
-      },
-      {
-        "key": "B",
-        "text": "不会和别人说话"
-      },
-      {
-        "key": "C",
-        "text": "机灵，会把一件苦差变成让人羡慕的事"
-      },
-      {
-        "key": "D",
-        "text": "把篱笆拆掉了"
-      }
-    ],
-    "answer": "C",
-    "explanation": "小伙伴一个接一个加入，汤姆自己反而坐在旁边。这就是他的机灵。",
-    "verify": "\"机灵，会把一件苦差变成让人羡慕的事\""
-  },
-  {
     "id": "cnc_p471_q1",
     "topicId": "cnc_p471",
     "difficulty": "basic",
     "type": "choice",
-    "prompt": "「千锤万凿出深山」的下一句是哪一句？",
+    "prompt": "哪一段是把感情落在事情上？",
     "choices": [
       {
         "key": "A",
-        "text": "烈火焚烧若等闲"
+        "text": "她把凉了的菜又热了一遍，我张了张嘴，那句「你答应过」到底没说出来。"
       },
       {
         "key": "B",
-        "text": "粉骨碎身浑不怕"
+        "text": "我很感动，非常感动。"
       },
       {
         "key": "C",
-        "text": "要留清白在人间"
+        "text": "真情自然流露六个字。"
       },
       {
         "key": "D",
-        "text": "千磨万击还坚劲"
+        "text": "星期天是一周的第一天。"
       }
     ],
     "answer": "A",
-    "explanation": "先写石灰被凿出深山，再写它不怕烈火。粉骨碎身是第三句。千磨万击是《竹石》。",
-    "verify": "\"烈火焚烧若等闲\""
+    "explanation": "热菜、没把话说出口，读者能看见当时的人。空喊感动，还没有事情。",
+    "verify": "\"她把凉了的菜又热了一遍，我张了张嘴，那句「你答应过」到底没说出来。\""
   },
   {
     "id": "cnc_p471_q2",
     "topicId": "cnc_p471",
     "difficulty": "basic",
     "type": "choice",
-    "prompt": "「粉骨碎身浑不怕」的下一句是哪一句？",
+    "prompt": "这篇习作最怕哪一种写法？",
     "choices": [
       {
         "key": "A",
-        "text": "粉身碎骨全不怕"
+        "text": "把让自己动心的那几分钟写细"
+      },
+      {
+        "key": "B",
+        "text": "通篇只有「开心」「难过」，看不出发生了什么"
+      },
+      {
+        "key": "C",
+        "text": "写出当时没说出口的话"
+      },
+      {
+        "key": "D",
+        "text": "结尾点到自己后来明白了什么"
+      }
+    ],
+    "answer": "B",
+    "explanation": "感情要从事里长出来。没有事，感情就没有着落。",
+    "verify": "\"通篇只有「开心」「难过」，看不出发生了什么\""
+  },
+  {
+    "id": "cnc_p471_q3",
+    "topicId": "cnc_p471",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "可以借用哪篇课文的写法？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "把《匆匆》全文背进作文"
+      },
+      {
+        "key": "B",
+        "text": "改写成一份作品梗概"
+      },
+      {
+        "key": "C",
+        "text": "像《那个星期天》那样，写出等待时心情怎样一点点变化"
+      },
+      {
+        "key": "D",
+        "text": "只列三个好词"
+      }
+    ],
+    "answer": "C",
+    "explanation": "等待、落空、不忍心责怪，都是可以学的。背课文和列好词代替不了自己的事。",
+    "verify": "\"像《那个星期天》那样，写出等待时心情怎样一点点变化\""
+  },
+  {
+    "id": "cnc_p471_q4",
+    "topicId": "cnc_p471",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "哪一句不像真情，倒像口号？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "碗边烫了一下手指，我还是把汤端了进去。"
+      },
+      {
+        "key": "B",
+        "text": "他没抬头，只把橡皮推到我这边。"
+      },
+      {
+        "key": "C",
+        "text": "我说没关系，声音却比刚才轻。"
+      },
+      {
+        "key": "D",
+        "text": "我们一定要永远热爱生活，热爱一切。"
+      }
+    ],
+    "answer": "D",
+    "explanation": "永远热爱一切，谁都可以写。烫手、推橡皮、声音变轻，才是这一次的。",
+    "verify": "\"我们一定要永远热爱生活，热爱一切。\""
+  },
+  {
+    "id": "cnc_p472_q1",
+    "topicId": "cnc_p472",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "话没有说完，该用哪一个？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "破折号"
+      },
+      {
+        "key": "B",
+        "text": "省略号"
+      },
+      {
+        "key": "C",
+        "text": "书名号"
+      },
+      {
+        "key": "D",
+        "text": "间隔号"
+      }
+    ],
+    "answer": "B",
+    "explanation": "话断了、后面还有没说出的内容，用省略号。",
+    "verify": "\"省略号\""
+  },
+  {
+    "id": "cnc_p472_q2",
+    "topicId": "cnc_p472",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "「这是我们的班长——李青。」横线处的破折号表示什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "话被打断"
+      },
+      {
+        "key": "B",
+        "text": "声音延长"
+      },
+      {
+        "key": "C",
+        "text": "解释说明"
+      },
+      {
+        "key": "D",
+        "text": "列举结束"
+      }
+    ],
+    "answer": "C",
+    "explanation": "破折号后面说明班长是谁。",
+    "verify": "\"解释说明\""
+  },
+  {
+    "id": "cnc_p472_q3",
+    "topicId": "cnc_p472",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "「书架上有童话、故事、诗歌……」这里的省略号表示什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "书架是空的"
+      },
+      {
+        "key": "B",
+        "text": "这些书都不见了"
+      },
+      {
+        "key": "C",
+        "text": "后面要解释诗歌是什么"
+      },
+      {
+        "key": "D",
+        "text": "还有别的书，没有一一列出"
+      }
+    ],
+    "answer": "D",
+    "explanation": "列举没有写完，用省略号。解释某一个词才常用破折号。",
+    "verify": "\"还有别的书，没有一一列出\""
+  },
+  {
+    "id": "cnc_p472_q4",
+    "topicId": "cnc_p472",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "声音拉得很长，哪一种标点是对的？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "喂——（破折号）"
+      },
+      {
+        "key": "B",
+        "text": "喂……（省略号）"
+      },
+      {
+        "key": "C",
+        "text": "喂。（句号）"
+      },
+      {
+        "key": "D",
+        "text": "喂、（顿号）"
+      }
+    ],
+    "answer": "A",
+    "explanation": "声音拖长用破折号。省略号表示还有内容没说完，不是声音拉长。",
+    "verify": "\"喂——（破折号）\""
+  },
+  {
+    "id": "cnc_p473_q1",
+    "topicId": "cnc_p473",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "「大漠沙如雪」的下一句是哪一句？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "何当金络脑"
+      },
+      {
+        "key": "B",
+        "text": "燕山月如钩"
+      },
+      {
+        "key": "C",
+        "text": "燕山月似钩"
+      },
+      {
+        "key": "D",
+        "text": "快走踏清秋"
+      }
+    ],
+    "answer": "C",
+    "explanation": "大漠的沙像雪，燕山的月像弯钩。如钩不是这一联的下句，似钩才是。",
+    "verify": "\"燕山月似钩\""
+  },
+  {
+    "id": "cnc_p473_q2",
+    "topicId": "cnc_p473",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "「何当金络脑」的下一句是哪一句？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "燕山月似钩"
+      },
+      {
+        "key": "B",
+        "text": "快走踏清秋风"
+      },
+      {
+        "key": "C",
+        "text": "要留清白在人间"
+      },
+      {
+        "key": "D",
+        "text": "快走踏清秋"
+      }
+    ],
+    "answer": "D",
+    "explanation": "什么时候能戴上金络脑，在秋风里飞奔。清白是《石灰吟》。",
+    "verify": "\"快走踏清秋\""
+  },
+  {
+    "id": "cnc_p473_q3",
+    "topicId": "cnc_p473",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "《马诗》的作者是谁？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "李贺"
+      },
+      {
+        "key": "B",
+        "text": "于谦"
+      },
+      {
+        "key": "C",
+        "text": "郑燮"
+      },
+      {
+        "key": "D",
+        "text": "王维"
+      }
+    ],
+    "answer": "A",
+    "explanation": "这首是李贺的。《石灰吟》是于谦的，《竹石》是郑燮的。",
+    "verify": "\"李贺\""
+  },
+  {
+    "id": "cnc_p473_q4",
+    "topicId": "cnc_p473",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "诗人借这匹马主要想说什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "大漠里的沙子真的是雪"
+      },
+      {
+        "key": "B",
+        "text": "盼着自己也能像这匹马一样被任用、去奔驰"
+      },
+      {
+        "key": "C",
+        "text": "马不应该戴络头"
+      },
+      {
+        "key": "D",
+        "text": "秋天不应该骑马"
+      }
+    ],
+    "answer": "B",
+    "explanation": "金络脑是贵重的鞍具。何当，是盼望那一天到来。",
+    "verify": "\"盼着自己也能像这匹马一样被任用、去奔驰\""
+  },
+  {
+    "id": "cnc_p474_q1",
+    "topicId": "cnc_p474",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "「千锤万凿出深山」的下一句是哪一句？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "粉骨碎身浑不怕"
       },
       {
         "key": "B",
         "text": "要留清白在人间"
+      },
+      {
+        "key": "C",
+        "text": "千磨万击还坚劲"
+      },
+      {
+        "key": "D",
+        "text": "烈火焚烧若等闲"
+      }
+    ],
+    "answer": "D",
+    "explanation": "先写石灰被凿出深山，再写它不怕烈火。粉骨碎身是第三句。千磨万击是《竹石》。",
+    "verify": "\"烈火焚烧若等闲\""
+  },
+  {
+    "id": "cnc_p474_q2",
+    "topicId": "cnc_p474",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "「粉骨碎身浑不怕」的下一句是哪一句？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "要留清白在人间"
+      },
+      {
+        "key": "B",
+        "text": "粉身碎骨全不怕"
       },
       {
         "key": "C",
@@ -211085,13 +211421,13 @@
         "text": "烈火焚烧若等闲"
       }
     ],
-    "answer": "B",
+    "answer": "A",
     "explanation": "于谦写的是粉骨碎身、浑不怕。粉身碎骨、全不怕、在人世都是记混了。",
     "verify": "\"要留清白在人间\""
   },
   {
-    "id": "cnc_p471_q3",
-    "topicId": "cnc_p471",
+    "id": "cnc_p474_q3",
+    "topicId": "cnc_p474",
     "difficulty": "standard",
     "type": "choice",
     "prompt": "《石灰吟》的作者是谁？",
@@ -211102,24 +211438,24 @@
       },
       {
         "key": "B",
-        "text": "王维"
+        "text": "于谦"
       },
       {
         "key": "C",
-        "text": "于谦"
+        "text": "王维"
       },
       {
         "key": "D",
         "text": "王昌龄"
       }
     ],
-    "answer": "C",
+    "answer": "B",
     "explanation": "这首诗是于谦写的。《竹石》才是郑燮的。",
     "verify": "\"于谦\""
   },
   {
-    "id": "cnc_p471_q4",
-    "topicId": "cnc_p471",
+    "id": "cnc_p474_q4",
+    "topicId": "cnc_p474",
     "difficulty": "standard",
     "type": "choice",
     "prompt": "诗人借石灰说的是什么？",
@@ -211134,31 +211470,31 @@
       },
       {
         "key": "C",
-        "text": "石灰应该卖个好价钱"
+        "text": "即便粉身碎骨，也要留下清白"
       },
       {
         "key": "D",
-        "text": "即便粉身碎骨，也要留下清白"
+        "text": "石灰应该卖个好价钱"
       }
     ],
-    "answer": "D",
+    "answer": "C",
     "explanation": "锤、凿、焚烧都是考验。要留的是清白，不是价钱。",
     "verify": "\"即便粉身碎骨，也要留下清白\""
   },
   {
-    "id": "cnc_p472_q1",
-    "topicId": "cnc_p472",
+    "id": "cnc_p475_q1",
+    "topicId": "cnc_p475",
     "difficulty": "basic",
     "type": "choice",
     "prompt": "「咬定青山不放松」的下一句是哪一句？",
     "choices": [
       {
         "key": "A",
-        "text": "立根原在破崖中"
+        "text": "立根原在破岩中"
       },
       {
         "key": "B",
-        "text": "立根原在破岩中"
+        "text": "立根原在破崖中"
       },
       {
         "key": "C",
@@ -211169,13 +211505,13 @@
         "text": "千磨万击还坚劲"
       }
     ],
-    "answer": "B",
+    "answer": "A",
     "explanation": "竹根长在破裂的岩石中。诗中是破岩，不是破崖。",
     "verify": "\"立根原在破岩中\""
   },
   {
-    "id": "cnc_p472_q2",
-    "topicId": "cnc_p472",
+    "id": "cnc_p475_q2",
+    "topicId": "cnc_p475",
     "difficulty": "basic",
     "type": "choice",
     "prompt": "「千磨万击还坚劲」的下一句是哪一句？",
@@ -211186,24 +211522,24 @@
       },
       {
         "key": "B",
-        "text": "任你东西南北风"
+        "text": "任尔东西南北风"
       },
       {
         "key": "C",
-        "text": "任尔东西南北风"
+        "text": "任你东西南北风"
       },
       {
         "key": "D",
         "text": "任尔东南西北风"
       }
     ],
-    "answer": "C",
+    "answer": "B",
     "explanation": "任尔不能写成凭尔或任你。东西南北的顺序也不能颠倒。",
     "verify": "\"任尔东西南北风\""
   },
   {
-    "id": "cnc_p472_q3",
-    "topicId": "cnc_p472",
+    "id": "cnc_p475_q3",
+    "topicId": "cnc_p475",
     "difficulty": "standard",
     "type": "choice",
     "prompt": "《竹石》的作者是谁？",
@@ -211218,107 +211554,1899 @@
       },
       {
         "key": "C",
-        "text": "苏轼"
+        "text": "郑燮"
       },
       {
         "key": "D",
-        "text": "郑燮"
+        "text": "苏轼"
       }
     ],
-    "answer": "D",
+    "answer": "C",
     "explanation": "郑燮就是郑板桥。《石灰吟》是于谦的，两首咏物诗不要记成一个人。",
     "verify": "\"郑燮\""
   },
   {
-    "id": "cnc_p472_q4",
-    "topicId": "cnc_p472",
+    "id": "cnc_p475_q4",
+    "topicId": "cnc_p475",
     "difficulty": "standard",
     "type": "choice",
     "prompt": "哪一句不属于《竹石》？",
     "choices": [
       {
         "key": "A",
-        "text": "粉骨碎身浑不怕"
-      },
-      {
-        "key": "B",
         "text": "咬定青山不放松"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "立根原在破岩中"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "任尔东西南北风"
+      },
+      {
+        "key": "D",
+        "text": "粉骨碎身浑不怕"
       }
     ],
-    "answer": "A",
+    "answer": "D",
     "explanation": "粉骨碎身浑不怕是《石灰吟》里的句子。",
     "verify": "\"粉骨碎身浑不怕\""
   },
   {
-    "id": "cnc_p473_q1",
-    "topicId": "cnc_p473",
+    "id": "cnc_p476_q1",
+    "topicId": "cnc_p476",
     "difficulty": "basic",
     "type": "choice",
-    "prompt": "「茅檐长扫净无苔」的下一句是哪一句？",
+    "prompt": "这篇回忆是谁写的，写的是谁？",
     "choices": [
       {
         "key": "A",
-        "text": "一水护田将绿绕"
+        "text": "李大钊写女儿李星华"
       },
       {
         "key": "B",
-        "text": "花木成畦手自种"
+        "text": "李星华写父亲李大钊"
       },
       {
         "key": "C",
-        "text": "花木成畦手自栽"
+        "text": "毛泽东写张思德"
       },
       {
         "key": "D",
-        "text": "两山排闼送青来"
+        "text": "董存瑞写自己的战友"
+      }
+    ],
+    "answer": "B",
+    "explanation": "作者是李大钊的女儿。张思德在《为人民服务》里，董存瑞是下一篇。",
+    "verify": "\"李星华写父亲李大钊\""
+  },
+  {
+    "id": "cnc_p476_q2",
+    "topicId": "cnc_p476",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "文章开头说永远忘不了的是哪一天？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "一九四九年十月一日"
+      },
+      {
+        "key": "B",
+        "text": "一九四八年解放隆化那天"
+      },
+      {
+        "key": "C",
+        "text": "一九二七年四月二十八日"
+      },
+      {
+        "key": "D",
+        "text": "一九四四年九月八日"
       }
     ],
     "answer": "C",
-    "explanation": "院子扫干净了，花木是主人一畦一畦自己栽的。不是手自种。",
-    "verify": "\"花木成畦手自栽\""
+    "explanation": "这一天是父亲的被难日，离她写作时已经十六年。开国大典、隆化、张思德追悼会都不是这一天。",
+    "verify": "\"一九二七年四月二十八日\""
   },
   {
-    "id": "cnc_p473_q2",
-    "topicId": "cnc_p473",
-    "difficulty": "basic",
+    "id": "cnc_p476_q3",
+    "topicId": "cnc_p476",
+    "difficulty": "standard",
     "type": "choice",
-    "prompt": "「一水护田将绿绕」的下一句是哪一句？",
+    "prompt": "局势紧张时，父亲为什么烧掉书籍和文件？",
     "choices": [
       {
         "key": "A",
-        "text": "两山排闼送春来"
+        "text": "因为纸太多，屋里放不下"
       },
       {
         "key": "B",
-        "text": "两山排闼送翠来"
+        "text": "他准备改行去教书"
       },
       {
         "key": "C",
-        "text": "茅檐长扫净无苔"
+        "text": "女儿要拿去当火引"
+      },
+      {
+        "key": "D",
+        "text": "免得落到敌人手里，使党组织遭到破坏"
+      }
+    ],
+    "answer": "D",
+    "explanation": "烧掉是为了保护革命工作，不是嫌占地。",
+    "verify": "\"免得落到敌人手里，使党组织遭到破坏\""
+  },
+  {
+    "id": "cnc_p476_q4",
+    "topicId": "cnc_p476",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "在法庭上，父亲的神情怎样？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "非常安定，非常沉着"
+      },
+      {
+        "key": "B",
+        "text": "大声和敌人争吵"
+      },
+      {
+        "key": "C",
+        "text": "吓得说不出话"
+      },
+      {
+        "key": "D",
+        "text": "当场把文件交了出去"
+      }
+    ],
+    "answer": "A",
+    "explanation": "他瞅了瞅亲人，脸上是安定和沉着。这种神情来自对革命事业的信心。",
+    "verify": "\"非常安定，非常沉着\""
+  },
+  {
+    "id": "cnc_p477_q1",
+    "topicId": "cnc_p477",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "这篇讲演是为了悼念谁？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "李大钊"
+      },
+      {
+        "key": "B",
+        "text": "董存瑞"
+      },
+      {
+        "key": "C",
+        "text": "张思德"
+      },
+      {
+        "key": "D",
+        "text": "邱少云"
+      }
+    ],
+    "answer": "C",
+    "explanation": "一九四四年九月八日，毛泽东在张思德追悼会上讲话。另外几位是别的课文里的人。",
+    "verify": "\"张思德\""
+  },
+  {
+    "id": "cnc_p477_q2",
+    "topicId": "cnc_p477",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "「人固有一死，或重于泰山，或轻于鸿毛」用来说明什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "人都可以长生不老"
+      },
+      {
+        "key": "B",
+        "text": "泰山比鸿毛更容易称"
+      },
+      {
+        "key": "C",
+        "text": "张思德是在泰山牺牲的"
+      },
+      {
+        "key": "D",
+        "text": "死的意义不同，要看为谁而死"
+      }
+    ],
+    "answer": "D",
+    "explanation": "这句话出自司马迁。为人民利益而死，就比泰山还重。",
+    "verify": "\"死的意义不同，要看为谁而死\""
+  },
+  {
+    "id": "cnc_p477_q3",
+    "topicId": "cnc_p477",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "课文说我们这个队伍是为什么工作的？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "完全是为着解放人民，彻底地为人民的利益工作"
+      },
+      {
+        "key": "B",
+        "text": "为了让每个人都去当兵"
+      },
+      {
+        "key": "C",
+        "text": "为了保住自己的职位"
+      },
+      {
+        "key": "D",
+        "text": "为了写一篇回忆录"
+      }
+    ],
+    "answer": "A",
+    "explanation": "完全、彻底，都是说没有另外的私心。",
+    "verify": "\"完全是为着解放人民，彻底地为人民的利益工作\""
+  },
+  {
+    "id": "cnc_p477_q4",
+    "topicId": "cnc_p477",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "「我们都是来自五湖四海」后面要说的是什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "所以谁也不认识谁"
+      },
+      {
+        "key": "B",
+        "text": "为了一个共同的革命目标走到一起来"
+      },
+      {
+        "key": "C",
+        "text": "所以不必团结"
+      },
+      {
+        "key": "D",
+        "text": "所以要各回各的家乡"
+      }
+    ],
+    "answer": "B",
+    "explanation": "来处不同，目标相同。后面才写互相关心、互相爱护。",
+    "verify": "\"为了一个共同的革命目标走到一起来\""
+  },
+  {
+    "id": "cnc_p478_q1",
+    "topicId": "cnc_p478",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "董存瑞炸的是什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "敌人的一艘军舰"
+      },
+      {
+        "key": "B",
+        "text": "一座石灰窑"
+      },
+      {
+        "key": "C",
+        "text": "狼牙山上的机枪"
+      },
+      {
+        "key": "D",
+        "text": "封锁道路的暗堡"
+      }
+    ],
+    "answer": "D",
+    "explanation": "部队被桥型暗堡的火力压住，前进不了。",
+    "verify": "\"封锁道路的暗堡\""
+  },
+  {
+    "id": "cnc_p478_q2",
+    "topicId": "cnc_p478",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "炸药包放不稳时，他怎样做？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "用手托起炸药包，拉燃导火索"
+      },
+      {
+        "key": "B",
+        "text": "把炸药包交给别人，自己撤下去"
+      },
+      {
+        "key": "C",
+        "text": "趴在地上一动不动"
+      },
+      {
+        "key": "D",
+        "text": "用胸口堵住枪眼"
+      }
+    ],
+    "answer": "A",
+    "explanation": "没有支架，他用自己的身体把炸药包顶在暗堡底下。堵枪眼的是黄继光，烈火里不动的是邱少云。",
+    "verify": "\"用手托起炸药包，拉燃导火索\""
+  },
+  {
+    "id": "cnc_p478_q3",
+    "topicId": "cnc_p478",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "他拉燃导火索时喊了什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "为了新中国，停下"
+      },
+      {
+        "key": "B",
+        "text": "为了新中国，前进"
+      },
+      {
+        "key": "C",
+        "text": "蒙汉情深何忍别"
+      },
+      {
+        "key": "D",
+        "text": "人固有一死"
+      }
+    ],
+    "answer": "B",
+    "explanation": "这一句是在命令同志们冲上去。不是停下，也不是别的课文里的句子。",
+    "verify": "\"为了新中国，前进\""
+  },
+  {
+    "id": "cnc_p478_q4",
+    "topicId": "cnc_p478",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "暗堡被炸毁以后怎样了？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "暗堡还在，战斗改到第二天"
+      },
+      {
+        "key": "B",
+        "text": "他带着炸药包回来了"
+      },
+      {
+        "key": "C",
+        "text": "部队冲了上去，隆化解放了，他牺牲了"
+      },
+      {
+        "key": "D",
+        "text": "敌人自己把桥拆了"
+      }
+    ],
+    "answer": "C",
+    "explanation": "任务完成了，前进的道路打开了。他没有回来。",
+    "verify": "\"部队冲了上去，隆化解放了，他牺牲了\""
+  },
+  {
+    "id": "cnc_p479_q1",
+    "topicId": "cnc_p479",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "这项活动要了解的是什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "革命者奋斗的事迹"
+      },
+      {
+        "key": "B",
+        "text": "家乡春节吃什么"
+      },
+      {
+        "key": "C",
+        "text": "外国名著的梗概怎么写"
+      },
+      {
+        "key": "D",
+        "text": "省略号和破折号的区别"
+      }
+    ],
+    "answer": "A",
+    "explanation": "第四单元的课文就是材料。春节、梗概、标点是别的单元的任务。",
+    "verify": "\"革命者奋斗的事迹\""
+  },
+  {
+    "id": "cnc_p479_q2",
+    "topicId": "cnc_p479",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "哪一种做法符合这项活动？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "把课程表抄在小报上"
+      },
+      {
+        "key": "B",
+        "text": "读完《十六年前的回忆》，用几句话讲李大钊在法庭上的表现"
+      },
+      {
+        "key": "C",
+        "text": "只画一座没有说明的桥"
+      },
+      {
+        "key": "D",
+        "text": "收集同学的生日"
+      }
+    ],
+    "answer": "B",
+    "explanation": "讲的是具体的人、具体的事。课程表和生日说明不了奋斗。",
+    "verify": "\"读完《十六年前的回忆》，用几句话讲李大钊在法庭上的表现\""
+  },
+  {
+    "id": "cnc_p479_q3",
+    "topicId": "cnc_p479",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "办小报时，哪一条最该写上？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "只写一个标题，下面空白"
+      },
+      {
+        "key": "B",
+        "text": "把三篇课文全文贴上"
+      },
+      {
+        "key": "C",
+        "text": "人物做了什么，结果怎样，你为什么记得他"
+      },
+      {
+        "key": "D",
+        "text": "只写活动日期"
+      }
+    ],
+    "answer": "C",
+    "explanation": "标题和日期只是版面。读者要看到事迹和你的理解。全文照贴也还没有经过你的整理。",
+    "verify": "\"人物做了什么，结果怎样，你为什么记得他\""
+  },
+  {
+    "id": "cnc_p479_q4",
+    "topicId": "cnc_p479",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "哪一位不是用来完成这项活动的合适人物？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "李大钊"
+      },
+      {
+        "key": "B",
+        "text": "张思德"
+      },
+      {
+        "key": "C",
+        "text": "董存瑞"
+      },
+      {
+        "key": "D",
+        "text": "把刷墙变成游戏的汤姆"
+      }
+    ],
+    "answer": "D",
+    "explanation": "汤姆是第二单元名著里的孩子。后面三位才是本单元写到的革命者。",
+    "verify": "\"把刷墙变成游戏的汤姆\""
+  },
+  {
+    "id": "cnc_p480_q1",
+    "topicId": "cnc_p480",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "《十六年前的回忆》的开头和结尾都落到哪一天？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "腊月二十三"
+      },
+      {
+        "key": "B",
+        "text": "一九二七年四月二十八日"
+      },
+      {
+        "key": "C",
+        "text": "一九四九年十月一日"
+      },
+      {
+        "key": "D",
+        "text": "一个普通的星期天"
+      }
+    ],
+    "answer": "B",
+    "explanation": "开头说永远忘不了这一天，结尾又回到父亲的被难。这就是前后呼应。",
+    "verify": "\"一九二七年四月二十八日\""
+  },
+  {
+    "id": "cnc_p480_q2",
+    "topicId": "cnc_p480",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "《石灰吟》借石灰说出的志向是什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "希望马戴上金络脑"
+      },
+      {
+        "key": "B",
+        "text": "希望竹子不要挨风"
+      },
+      {
+        "key": "C",
+        "text": "纵然粉身碎骨，也要留下清白"
+      },
+      {
+        "key": "D",
+        "text": "希望蜡烛分给所有百姓"
+      }
+    ],
+    "answer": "C",
+    "explanation": "清白在人间是石灰吟的落点。金络脑是《马诗》，任尔东西南北风是《竹石》。",
+    "verify": "\"纵然粉身碎骨，也要留下清白\""
+  },
+  {
+    "id": "cnc_p480_q3",
+    "topicId": "cnc_p480",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "《竹石》把竹子写成什么样的人？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "见到风就倒下"
+      },
+      {
+        "key": "B",
+        "text": "只顾颜色好不好看"
+      },
+      {
+        "key": "C",
+        "text": "想离开青山"
+      },
+      {
+        "key": "D",
+        "text": "根扎在破岩里，什么样的风都吹不倒"
+      }
+    ],
+    "answer": "D",
+    "explanation": "咬定、立根、还坚劲，都是在写站得住。",
+    "verify": "\"根扎在破岩里，什么样的风都吹不倒\""
+  },
+  {
+    "id": "cnc_p480_q4",
+    "topicId": "cnc_p480",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "「良药苦口利于病」的下一句是哪一句？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "忠言逆耳利于行"
+      },
+      {
+        "key": "B",
+        "text": "树欲静而风不止"
+      },
+      {
+        "key": "C",
+        "text": "少壮不努力"
+      },
+      {
+        "key": "D",
+        "text": "春风又绿江南岸"
+      }
+    ],
+    "answer": "A",
+    "explanation": "苦口的药能治病，不中听的忠告有利于做事。树欲静是另一句谚语。",
+    "verify": "\"忠言逆耳利于行\""
+  },
+  {
+    "id": "cnc_p481_q1",
+    "topicId": "cnc_p481",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "弈秋是怎样的人？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "两个学生里成绩好的那个"
+      },
+      {
+        "key": "B",
+        "text": "孔子的学生"
+      },
+      {
+        "key": "C",
+        "text": "全国最擅长下棋的人"
+      },
+      {
+        "key": "D",
+        "text": "来辩太阳远近的孩子"
+      }
+    ],
+    "answer": "C",
+    "explanation": "通国之善弈者，就是全国棋下得最好的人。他是老师，不是学生。",
+    "verify": "\"全国最擅长下棋的人\""
+  },
+  {
+    "id": "cnc_p481_q2",
+    "topicId": "cnc_p481",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "两个人一起学，结果不同的原因是什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "一个比另一个聪明很多"
+      },
+      {
+        "key": "B",
+        "text": "弈秋只把方法教给了一个人"
+      },
+      {
+        "key": "C",
+        "text": "他们学的根本不是下棋"
+      },
+      {
+        "key": "D",
+        "text": "一个专心听弈秋讲，一个心里想着有天鹅飞来、要拉弓去射"
+      }
+    ],
+    "answer": "D",
+    "explanation": "其一人专心致志，惟弈秋之为听。另一个虽听之，一心以为有鸿鹄将至。",
+    "verify": "\"一个专心听弈秋讲，一个心里想着有天鹅飞来、要拉弓去射\""
+  },
+  {
+    "id": "cnc_p481_q3",
+    "topicId": "cnc_p481",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "「为是其智弗若与？曰：非然也」是什么意思？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "是因为他的智力不如吗？说：不是这样"
+      },
+      {
+        "key": "B",
+        "text": "是因为他的老师不如吗？说：是的"
+      },
+      {
+        "key": "C",
+        "text": "是因为太阳近吗？说：不能判断"
+      },
+      {
+        "key": "D",
+        "text": "是因为天鹅飞走了吗？说：飞走了"
+      }
+    ],
+    "answer": "A",
+    "explanation": "非然也，就是并非如此。差别在专心不专心。太阳远近是《两小儿辩日》。",
+    "verify": "\"是因为他的智力不如吗？说：不是这样\""
+  },
+  {
+    "id": "cnc_p481_q4",
+    "topicId": "cnc_p481",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "这则短文出自哪里？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "《列子》"
+      },
+      {
+        "key": "B",
+        "text": "《孟子》"
+      },
+      {
+        "key": "C",
+        "text": "《论语》"
+      },
+      {
+        "key": "D",
+        "text": "《史记》"
+      }
+    ],
+    "answer": "B",
+    "explanation": "学弈选自《孟子·告子上》。《两小儿辩日》才出自《列子》。",
+    "verify": "\"《孟子》\""
+  },
+  {
+    "id": "cnc_p482_q1",
+    "topicId": "cnc_p482",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "课文要证明的观点是哪一句？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "只要碰到偶然现象，真理就自动出现"
+      },
+      {
+        "key": "B",
+        "text": "科学家不需要做实验"
+      },
+      {
+        "key": "C",
+        "text": "真理只存在于书本上"
+      },
+      {
+        "key": "D",
+        "text": "真理诞生于一百个问号之后"
+      }
+    ],
+    "answer": "D",
+    "explanation": "题目就是观点。偶然的现象只是问号的开头。",
+    "verify": "\"真理诞生于一百个问号之后\""
+  },
+  {
+    "id": "cnc_p482_q2",
+    "topicId": "cnc_p482",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "波义耳抓住的是什么现象，后来做成了什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "盐酸溅上的紫罗兰花瓣变红了，他后来制成石蕊试纸"
+      },
+      {
+        "key": "B",
+        "text": "洗澡水打着旋，他发现地球自转"
+      },
+      {
+        "key": "C",
+        "text": "儿子睡觉时眼珠在转，他发现人在做梦"
+      },
+      {
+        "key": "D",
+        "text": "地图上的海岸线能拼起来"
+      }
+    ],
+    "answer": "A",
+    "explanation": "花瓣变色引出一串问题，实验以后才有石蕊试纸。洗澡水和海岸线不是他的发现。",
+    "verify": "\"盐酸溅上的紫罗兰花瓣变红了，他后来制成石蕊试纸\""
+  },
+  {
+    "id": "cnc_p482_q3",
+    "topicId": "cnc_p482",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "魏格纳从什么现象提出了大陆漂移？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "紫罗兰花瓣变了颜色"
+      },
+      {
+        "key": "B",
+        "text": "南美洲东海岸的凸出部分和非洲西海岸的凹陷部分能拼到一起"
+      },
+      {
+        "key": "C",
+        "text": "北半球的洗澡水逆时针旋转"
+      },
+      {
+        "key": "D",
+        "text": "睡觉的人眼珠会动"
+      }
+    ],
+    "answer": "B",
+    "explanation": "他觉得这不会是巧合，继续寻找证据，提出大陆漂移学说。",
+    "verify": "\"南美洲东海岸的凸出部分和非洲西海岸的凹陷部分能拼到一起\""
+  },
+  {
+    "id": "cnc_p482_q4",
+    "topicId": "cnc_p482",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "三个事例相同的地方是什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "三个人都是中国古代的棋手"
+      },
+      {
+        "key": "B",
+        "text": "他们一开始就知道答案"
+      },
+      {
+        "key": "C",
+        "text": "都是从常见现象里发现问题，追问下去，经过研究才得到结论"
+      },
+      {
+        "key": "D",
+        "text": "结论都是偶然撞上的，没有研究"
+      }
+    ],
+    "answer": "C",
+    "explanation": "看见、发问、反复研究、得出结论，这个顺序三件事是一样的。",
+    "verify": "\"都是从常见现象里发现问题，追问下去，经过研究才得到结论\""
+  },
+  {
+    "id": "cnc_p483_q1",
+    "topicId": "cnc_p483",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "中心是「同学之间互相帮助」。哪一项材料该留下？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "同桌把笔记借给我，并讲了那道题。"
+      },
+      {
+        "key": "B",
+        "text": "星期天我看了一场电影。"
+      },
+      {
+        "key": "C",
+        "text": "我家的猫很胖。"
+      },
+      {
+        "key": "D",
+        "text": "昨天的风很大。"
+      }
+    ],
+    "answer": "A",
+    "explanation": "借笔记、讲题能表现互相帮助。电影、猫和风与这个中心无关。",
+    "verify": "\"同桌把笔记借给我，并讲了那道题。\""
+  },
+  {
+    "id": "cnc_p483_q2",
+    "topicId": "cnc_p483",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "中心是「这次实验让我更细心」。哪一句跑题了？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "我第一次把步骤看反了。"
+      },
+      {
+        "key": "B",
+        "text": "放学后我在操场踢了半小时球。"
+      },
+      {
+        "key": "C",
+        "text": "第二次我对着清单做，才成功。"
+      },
+      {
+        "key": "D",
+        "text": "我明白细心比赶时间重要。"
+      }
+    ],
+    "answer": "B",
+    "explanation": "踢球和实验、细心没有关系。看错步骤和第二次成功都在写这个中心。",
+    "verify": "\"放学后我在操场踢了半小时球。\""
+  },
+  {
+    "id": "cnc_p483_q3",
+    "topicId": "cnc_p483",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "材料太多时该怎样？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "全部照单写上"
+      },
+      {
+        "key": "B",
+        "text": "把中心改成每一件事"
+      },
+      {
+        "key": "C",
+        "text": "删掉不能表现中心的内容"
+      },
+      {
+        "key": "D",
+        "text": "只留一个和中心无关的例子"
+      }
+    ],
+    "answer": "C",
+    "explanation": "围绕中心选择，文章才集中。",
+    "verify": "\"删掉不能表现中心的内容\""
+  },
+  {
+    "id": "cnc_p483_q4",
+    "topicId": "cnc_p483",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "哪一段是围绕一个中心选材的？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "先写爸爸守时，再写我家的猫，最后写昨天的动画片。"
+      },
+      {
+        "key": "B",
+        "text": "守时。"
+      },
+      {
+        "key": "C",
+        "text": "爸爸猫动画片。"
+      },
+      {
+        "key": "D",
+        "text": "为了写「爸爸守时」，写他提前到车站，又写他从不迟到。"
+      }
+    ],
+    "answer": "D",
+    "explanation": "提前到和从不迟到都在写守时。猫和动画片是另一些中心。",
+    "verify": "\"为了写「爸爸守时」，写他提前到车站，又写他从不迟到。\""
+  },
+  {
+    "id": "cnc_p484_q1",
+    "topicId": "cnc_p484",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "辩论开头最好先怎样？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "先讲一个和题目无关的笑话"
+      },
+      {
+        "key": "B",
+        "text": "用一句话表明自己同意还是反对"
+      },
+      {
+        "key": "C",
+        "text": "先请对方承认自己错了"
+      },
+      {
+        "key": "D",
+        "text": "先把声音提高，不说内容"
+      }
+    ],
+    "answer": "B",
+    "explanation": "听众要先知道你站在哪一边。笑话和空提高声音都还没有观点。",
+    "verify": "\"用一句话表明自己同意还是反对\""
+  },
+  {
+    "id": "cnc_p484_q2",
+    "topicId": "cnc_p484",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "哪一种是在讲理由？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "你从来就没对过。"
+      },
+      {
+        "key": "B",
+        "text": "我不高兴听你说。"
+      },
+      {
+        "key": "C",
+        "text": "《学弈》里两个人一起学，不专心的那个学不会，所以学习主要靠专心。"
+      },
+      {
+        "key": "D",
+        "text": "这个问题没有什么好辩的。"
+      }
+    ],
+    "answer": "C",
+    "explanation": "用课文里的结果说明看法，对方才听得见理由。指责人，不是反驳观点。",
+    "verify": "\"《学弈》里两个人一起学，不专心的那个学不会，所以学习主要靠专心。\""
+  },
+  {
+    "id": "cnc_p484_q3",
+    "topicId": "cnc_p484",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "听完对方以后，较合适的做法是哪一种？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "不听，马上重复自己的第一句话"
+      },
+      {
+        "key": "B",
+        "text": "笑他的口音"
+      },
+      {
+        "key": "C",
+        "text": "把话题改成昨天的球赛"
+      },
+      {
+        "key": "D",
+        "text": "针对他刚说的那一条理由，说出自己的不同看法"
+      }
+    ],
+    "answer": "D",
+    "explanation": "辩论是对着理由说。重复、嘲笑、换话题，都没有回应他。",
+    "verify": "\"针对他刚说的那一条理由，说出自己的不同看法\""
+  },
+  {
+    "id": "cnc_p484_q4",
+    "topicId": "cnc_p484",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "哪一种说法不像辩论，倒像在骂人？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "你这么笨，还来辩什么。"
+      },
+      {
+        "key": "B",
+        "text": "我认为偶然碰到现象还不等于发现了真理，因为课文里的科学家都又做了研究。"
+      },
+      {
+        "key": "C",
+        "text": "你说专心不重要，可是《学弈》里不专心的那个并没有学会。"
+      },
+      {
+        "key": "D",
+        "text": "我同意前半句，后半句我想补一个例子。"
+      }
+    ],
+    "answer": "A",
+    "explanation": "说人笨，攻击的是人。后面三句都还在说观点和例子。",
+    "verify": "\"你这么笨，还来辩什么。\""
+  },
+  {
+    "id": "cnc_p485_q1",
+    "topicId": "cnc_p485",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "回忆往事，材料应该怎样选？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "把六年的课程表都写上"
+      },
+      {
+        "key": "B",
+        "text": "编一个没有发生过的英雄故事"
+      },
+      {
+        "key": "C",
+        "text": "选一件自己真正经历过、现在还记得住细节的事"
+      },
+      {
+        "key": "D",
+        "text": "抄一篇课文当自己的回忆"
+      }
+    ],
+    "answer": "C",
+    "explanation": "真实、具体，读的人才知道是你的小学生活。编故事和抄课文都不是回忆。",
+    "verify": "\"选一件自己真正经历过、现在还记得住细节的事\""
+  },
+  {
+    "id": "cnc_p485_q2",
+    "topicId": "cnc_p485",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "哪一段更像回忆？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "小学生活丰富多彩，既快乐又难忘。"
+      },
+      {
+        "key": "B",
+        "text": "回忆往事。"
+      },
+      {
+        "key": "C",
+        "text": "我们学校有教学楼。"
+      },
+      {
+        "key": "D",
+        "text": "四年级那个下雨的下午，林晓把她的伞塞给我，自己淋着跑回了教室。"
+      }
+    ],
+    "answer": "D",
+    "explanation": "下雨、塞伞、淋着跑，是一件事。丰富多彩谁都可以写。",
+    "verify": "\"四年级那个下雨的下午，林晓把她的伞塞给我，自己淋着跑回了教室。\""
+  },
+  {
+    "id": "cnc_p485_q3",
+    "topicId": "cnc_p485",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "除了事情的经过，还应该写出什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "当时自己的心情，或现在再看这件事的感受"
+      },
+      {
+        "key": "B",
+        "text": "学校的邮政编码"
+      },
+      {
+        "key": "C",
+        "text": "全班同学的出生月份"
+      },
+      {
+        "key": "D",
+        "text": "当天的课程表"
+      }
+    ],
+    "answer": "A",
+    "explanation": "心情让这件事成为你的回忆。编码、月份和课程表说明不了你记得什么。",
+    "verify": "\"当时自己的心情，或现在再看这件事的感受\""
+  },
+  {
+    "id": "cnc_p485_q4",
+    "topicId": "cnc_p485",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "哪一种写法把往事写散了？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "整段都写那次拔河怎样落后、怎样追上"
+      },
+      {
+        "key": "B",
+        "text": "先写一次拔河，再写我家的猫，最后写昨天的电视"
+      },
+      {
+        "key": "C",
+        "text": "只写拔河里你记住的一个同学"
+      },
+      {
+        "key": "D",
+        "text": "写完拔河，补一句你现在还记得那声加油"
+      }
+    ],
+    "answer": "B",
+    "explanation": "猫和电视把中心拉开了。另外三种都还在那一次拔河上。",
+    "verify": "\"先写一次拔河，再写我家的猫，最后写昨天的电视\""
+  },
+  {
+    "id": "cnc_p486_q1",
+    "topicId": "cnc_p486",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "依依惜别的话主要说给谁？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "从没见过的名人"
+      },
+      {
+        "key": "B",
+        "text": "课文里的鲁滨逊"
+      },
+      {
+        "key": "C",
+        "text": "考试试卷"
+      },
+      {
+        "key": "D",
+        "text": "朝夕相处的老师或同学"
+      }
+    ],
+    "answer": "D",
+    "explanation": "惜别是因为马上要分开。名人和试卷都不是一起度过小学生活的人。",
+    "verify": "\"朝夕相处的老师或同学\""
+  },
+  {
+    "id": "cnc_p486_q2",
+    "topicId": "cnc_p486",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "哪一句听得出是在对一个具体的人说？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "你教我改作文的那个中午，红笔圈出的那句，我现在还会写。"
+      },
+      {
+        "key": "B",
+        "text": "祝你前途无量。"
+      },
+      {
+        "key": "C",
+        "text": "岁月如歌。"
+      },
+      {
+        "key": "D",
+        "text": "珍重。"
+      }
+    ],
+    "answer": "A",
+    "explanation": "改作文、红笔、那一句，只有你们俩对得上。四个字的祝愿可以送给任何人。",
+    "verify": "\"你教我改作文的那个中午，红笔圈出的那句，我现在还会写。\""
+  },
+  {
+    "id": "cnc_p486_q3",
+    "topicId": "cnc_p486",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "惜别里可以有祝福，但祝福最好怎样？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "换成更长的成语"
+      },
+      {
+        "key": "B",
+        "text": "接着一件事说，让人知道你为什么这样祝他"
+      },
+      {
+        "key": "C",
+        "text": "把祝福写三遍"
+      },
+      {
+        "key": "D",
+        "text": "不提任何人名"
+      }
+    ],
+    "answer": "B",
+    "explanation": "因为你改作文从不嫌烦，所以我祝你以后也遇到耐心的人。这样祝福才有着落。",
+    "verify": "\"接着一件事说，让人知道你为什么这样祝他\""
+  },
+  {
+    "id": "cnc_p486_q4",
+    "topicId": "cnc_p486",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "哪一种不像惜别？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "想起一起值日时他总是最后锁门"
+      },
+      {
+        "key": "B",
+        "text": "告诉老师，你还记得她讲过的一个故事"
+      },
+      {
+        "key": "C",
+        "text": "列出他这次考试没及格的每一道题"
+      },
+      {
+        "key": "D",
+        "text": "说分开以后会记得这件小事"
+      }
+    ],
+    "answer": "C",
+    "explanation": "算错题是在算账，不是惜别。后面三种都在记共同的日子。",
+    "verify": "\"列出他这次考试没及格的每一道题\""
+  },
+  {
+    "id": "cnc_p487_q1",
+    "topicId": "cnc_p487",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "哪一句更像认真写过的赠言？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "你借我橡皮的那天，我才发现你总是先看见别人的难处。"
+      },
+      {
+        "key": "B",
+        "text": "前程似锦。"
+      },
+      {
+        "key": "C",
+        "text": "万事如意。"
+      },
+      {
+        "key": "D",
+        "text": "好好学习。"
+      }
+    ],
+    "answer": "A",
+    "explanation": "带着那块橡皮的事，读的人知道你在说他。只剩四个字的祝愿太宽，谁都可以用。",
+    "verify": "\"你借我橡皮的那天，我才发现你总是先看见别人的难处。\""
+  },
+  {
+    "id": "cnc_p487_q2",
+    "topicId": "cnc_p487",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "赠言最好不要怎样写？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "写出他帮过你的一件小事"
+      },
+      {
+        "key": "B",
+        "text": "抄一句和这个人毫无关系的空话"
+      },
+      {
+        "key": "C",
+        "text": "写出你记住的一句话"
+      },
+      {
+        "key": "D",
+        "text": "写出对他的祝愿，并说清为什么"
+      }
+    ],
+    "answer": "B",
+    "explanation": "空话不是不能写，但只有空话，就看不出是写给谁的。",
+    "verify": "\"抄一句和这个人毫无关系的空话\""
+  },
+  {
+    "id": "cnc_p487_q3",
+    "topicId": "cnc_p487",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "写给老师的赠言，哪一种内容合适？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "祝您以后不要再当老师。"
+      },
+      {
+        "key": "B",
+        "text": "今天的天气不错。"
+      },
+      {
+        "key": "C",
+        "text": "记得您把我叫到黑板前，耐心地重讲那道题。"
+      },
+      {
+        "key": "D",
+        "text": "您的办公室在二楼。"
+      }
+    ],
+    "answer": "C",
+    "explanation": "重讲那道题，是你们之间的事。天气和楼层不是赠言。",
+    "verify": "\"记得您把我叫到黑板前，耐心地重讲那道题。\""
+  },
+  {
+    "id": "cnc_p487_q4",
+    "topicId": "cnc_p487",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "「难忘小学生活」里的赠言，中心应当是什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "把所有同学都批评一遍"
+      },
+      {
+        "key": "B",
+        "text": "只写自己的家庭地址"
+      },
+      {
+        "key": "C",
+        "text": "抄一份课程表"
+      },
+      {
+        "key": "D",
+        "text": "对这个人的感谢、祝福或记住的一件事"
+      }
+    ],
+    "answer": "D",
+    "explanation": "赠言是说给具体的人听的。课程表和地址不是要说的话。",
+    "verify": "\"对这个人的感谢、祝福或记住的一件事\""
+  },
+  {
+    "id": "cnc_p488_q1",
+    "topicId": "cnc_p488",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "「昔我往矣」的下一句是哪一句？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "雨雪霏霏"
+      },
+      {
+        "key": "B",
+        "text": "杨柳依依"
+      },
+      {
+        "key": "C",
+        "text": "今我来思"
+      },
+      {
+        "key": "D",
+        "text": "行道迟迟"
+      }
+    ],
+    "answer": "B",
+    "explanation": "出发的时候是春天，柳枝轻柔。雨雪是回来的时候。",
+    "verify": "\"杨柳依依\""
+  },
+  {
+    "id": "cnc_p488_q2",
+    "topicId": "cnc_p488",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "「今我来思」的下一句是哪一句？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "杨柳依依"
+      },
+      {
+        "key": "B",
+        "text": "载渴载饥"
+      },
+      {
+        "key": "C",
+        "text": "雨雪霏霏"
+      },
+      {
+        "key": "D",
+        "text": "莫知我哀"
+      }
+    ],
+    "answer": "C",
+    "explanation": "回来时雨雪很大。载渴载饥是再后面的句子。思在这里是语气词，不是思考。",
+    "verify": "\"雨雪霏霏\""
+  },
+  {
+    "id": "cnc_p488_q3",
+    "topicId": "cnc_p488",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "「行道迟迟」的下一句是哪一句？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "我心伤悲"
+      },
+      {
+        "key": "B",
+        "text": "莫知我哀"
+      },
+      {
+        "key": "C",
+        "text": "杨柳依依"
+      },
+      {
+        "key": "D",
+        "text": "载渴载饥"
+      }
+    ],
+    "answer": "D",
+    "explanation": "路走得很慢，又渴又饿。心伤悲是第三联的上句。",
+    "verify": "\"载渴载饥\""
+  },
+  {
+    "id": "cnc_p488_q4",
+    "topicId": "cnc_p488",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "这段节选出自哪里？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "《诗经》"
+      },
+      {
+        "key": "B",
+        "text": "《孟子》"
+      },
+      {
+        "key": "C",
+        "text": "李白的诗"
+      },
+      {
+        "key": "D",
+        "text": "杜甫的诗"
+      }
+    ],
+    "answer": "A",
+    "explanation": "采薇是《诗经·小雅》里的一首。不要因为写了杨柳就记成后来的诗人。",
+    "verify": "\"《诗经》\""
+  },
+  {
+    "id": "cnc_p489_q1",
+    "topicId": "cnc_p489",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "「渭城朝雨浥轻尘」的下一句是哪一句？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "劝君更尽一杯酒"
+      },
+      {
+        "key": "B",
+        "text": "客舍青青柳色青"
+      },
+      {
+        "key": "C",
+        "text": "客舍青青柳色新"
+      },
+      {
+        "key": "D",
+        "text": "西出阳关无故人"
+      }
+    ],
+    "answer": "C",
+    "explanation": "清晨的雨沾湿了尘土，客舍边的柳色显得新。无故人是最后一句。",
+    "verify": "\"客舍青青柳色新\""
+  },
+  {
+    "id": "cnc_p489_q2",
+    "topicId": "cnc_p489",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "「劝君更尽一杯酒」的下一句是哪一句？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "西出阳关无故人在"
+      },
+      {
+        "key": "B",
+        "text": "客舍青青柳色新"
+      },
+      {
+        "key": "C",
+        "text": "劝君更进一杯酒"
+      },
+      {
+        "key": "D",
+        "text": "西出阳关无故人"
+      }
+    ],
+    "answer": "D",
+    "explanation": "再喝一杯，因为出了阳关就难遇故人。诗中是更尽，不是更进。无故人后面不要加字。",
+    "verify": "\"西出阳关无故人\""
+  },
+  {
+    "id": "cnc_p489_q3",
+    "topicId": "cnc_p489",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "这首诗的作者是谁？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "王维"
+      },
+      {
+        "key": "B",
+        "text": "王昌龄"
+      },
+      {
+        "key": "C",
+        "text": "王建"
+      },
+      {
+        "key": "D",
+        "text": "王安石"
+      }
+    ],
+    "answer": "A",
+    "explanation": "送元二去安西的是王维。不要因为姓王就和王建、王安石记成一个人。",
+    "verify": "\"王维\""
+  },
+  {
+    "id": "cnc_p489_q4",
+    "topicId": "cnc_p489",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "诗人为什么要再劝一杯酒？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "他们在家里过年"
+      },
+      {
+        "key": "B",
+        "text": "朋友要去安西，出了阳关就难见到熟人"
+      },
+      {
+        "key": "C",
+        "text": "雨下得太大，不能出门"
+      },
+      {
+        "key": "D",
+        "text": "他想把酒换成茶"
+      }
+    ],
+    "answer": "B",
+    "explanation": "西出阳关无故人，是送别的原因。这不是春节，也不是品茶。",
+    "verify": "\"朋友要去安西，出了阳关就难见到熟人\""
+  },
+  {
+    "id": "cnc_p490_q1",
+    "topicId": "cnc_p490",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "「好雨知时节」的下一句是哪一句？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "随风潜入夜"
+      },
+      {
+        "key": "B",
+        "text": "当春才发生"
+      },
+      {
+        "key": "C",
+        "text": "润物细无声"
+      },
+      {
+        "key": "D",
+        "text": "当春乃发生"
+      }
+    ],
+    "answer": "D",
+    "explanation": "雨知道季节，春天到了就来了。诗中是乃，不是才。潜入夜是第二联。",
+    "verify": "\"当春乃发生\""
+  },
+  {
+    "id": "cnc_p490_q2",
+    "topicId": "cnc_p490",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "「随风潜入夜」的下一句是哪一句？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "润物细无声"
+      },
+      {
+        "key": "B",
+        "text": "润物细无声息"
+      },
+      {
+        "key": "C",
+        "text": "野径云俱黑"
+      },
+      {
+        "key": "D",
+        "text": "花重锦官城"
+      }
+    ],
+    "answer": "A",
+    "explanation": "雨跟着风在夜里悄悄来，滋润万物却没有声响。不要在无声后面加息。",
+    "verify": "\"润物细无声\""
+  },
+  {
+    "id": "cnc_p490_q3",
+    "topicId": "cnc_p490",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "「晓看红湿处」的下一句是哪一句？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "花重锦官城外"
+      },
+      {
+        "key": "B",
+        "text": "花重锦官城"
+      },
+      {
+        "key": "C",
+        "text": "江船火独明"
+      },
+      {
+        "key": "D",
+        "text": "花重锦官城中"
+      }
+    ],
+    "answer": "B",
+    "explanation": "早晨看见花被雨打湿，沉甸甸地开在成都。锦官城就是成都。不要加外或中。",
+    "verify": "\"花重锦官城\""
+  },
+  {
+    "id": "cnc_p490_q4",
+    "topicId": "cnc_p490",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "这首诗的作者是谁？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "王维"
+      },
+      {
+        "key": "B",
+        "text": "杜牧"
+      },
+      {
+        "key": "C",
+        "text": "杜甫"
+      },
+      {
+        "key": "D",
+        "text": "李白"
+      }
+    ],
+    "answer": "C",
+    "explanation": "春夜喜雨是杜甫的。杜牧写过别的诗，不要只因为姓杜就记成他。",
+    "verify": "\"杜甫\""
+  },
+  {
+    "id": "cnc_p491_q1",
+    "topicId": "cnc_p491",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "「京口瓜洲一水间」的下一句是哪一句？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "钟山只隔数重山"
+      },
+      {
+        "key": "B",
+        "text": "春风又绿江南岸"
+      },
+      {
+        "key": "C",
+        "text": "钟山只隔数重山外"
+      },
+      {
+        "key": "D",
+        "text": "明月何时照我还"
+      }
+    ],
+    "answer": "A",
+    "explanation": "京口和瓜洲隔着一条江，钟山也不过隔着几重山。照我还是最后一句。",
+    "verify": "\"钟山只隔数重山\""
+  },
+  {
+    "id": "cnc_p491_q2",
+    "topicId": "cnc_p491",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "「春风又绿江南岸」的下一句是哪一句？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "明月何时照我归"
+      },
+      {
+        "key": "B",
+        "text": "明月何时照我还"
+      },
+      {
+        "key": "C",
+        "text": "春风又到江南岸"
       },
       {
         "key": "D",
         "text": "两山排闼送青来"
       }
     ],
-    "answer": "D",
-    "explanation": "两座山像推门一样把青翠送进来。不是送春，也不是送翠。",
-    "verify": "\"两山排闼送青来\""
+    "answer": "B",
+    "explanation": "绿是吹绿。下句是照我还，不是照我归。又到、排闼都不是这首。",
+    "verify": "\"明月何时照我还\""
   },
   {
-    "id": "cnc_p473_q3",
-    "topicId": "cnc_p473",
+    "id": "cnc_p491_q3",
+    "topicId": "cnc_p491",
     "difficulty": "standard",
     "type": "choice",
-    "prompt": "《书湖阴先生壁》的作者是谁？",
+    "prompt": "这首诗的作者是谁？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "杜甫"
+      },
+      {
+        "key": "B",
+        "text": "叶绍翁"
+      },
+      {
+        "key": "C",
+        "text": "王安石"
+      },
+      {
+        "key": "D",
+        "text": "王维"
+      }
+    ],
+    "answer": "C",
+    "explanation": "泊船瓜洲是王安石的。他在上册还有《书湖阴先生壁》，两首不要并成一首。",
+    "verify": "\"王安石\""
+  },
+  {
+    "id": "cnc_p491_q4",
+    "topicId": "cnc_p491",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "「绿」在「春风又绿江南岸」里是什么意思？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "绿色的名词，没有动作"
+      },
+      {
+        "key": "B",
+        "text": "再来一次"
+      },
+      {
+        "key": "C",
+        "text": "把山推开"
+      },
+      {
+        "key": "D",
+        "text": "吹绿"
+      }
+    ],
+    "answer": "D",
+    "explanation": "春风使江南的岸又变绿了。绿在这里是动词。排闼送青是《书湖阴先生壁》。",
+    "verify": "\"吹绿\""
+  },
+  {
+    "id": "cnc_p492_q1",
+    "topicId": "cnc_p492",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "「应怜屐齿印苍苔」的下一句是哪一句？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "春色满园关不住"
+      },
+      {
+        "key": "B",
+        "text": "小扣柴扉久不开"
+      },
+      {
+        "key": "C",
+        "text": "小叩柴门久不开"
+      },
+      {
+        "key": "D",
+        "text": "一枝红杏出墙来"
+      }
+    ],
+    "answer": "B",
+    "explanation": "大概是爱惜地上的苍苔，所以柴门敲了很久也不开。诗中是小扣、柴扉，不是小叩、柴门。",
+    "verify": "\"小扣柴扉久不开\""
+  },
+  {
+    "id": "cnc_p492_q2",
+    "topicId": "cnc_p492",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "「春色满园关不住」的下一句是哪一句？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "一枝红杏出墙外"
+      },
+      {
+        "key": "B",
+        "text": "小扣柴扉久不开"
+      },
+      {
+        "key": "C",
+        "text": "一枝红杏出墙来"
+      },
+      {
+        "key": "D",
+        "text": "一枝红杏出墙头"
+      }
+    ],
+    "answer": "C",
+    "explanation": "园门关得住，春色关不住，一枝红杏伸到墙外来。诗中是出墙来。",
+    "verify": "\"一枝红杏出墙来\""
+  },
+  {
+    "id": "cnc_p492_q3",
+    "topicId": "cnc_p492",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "《游园不值》的作者是谁？",
     "choices": [
       {
         "key": "A",
@@ -211326,47 +213454,159 @@
       },
       {
         "key": "B",
-        "text": "于谦"
+        "text": "杜甫"
       },
       {
         "key": "C",
-        "text": "郑燮"
+        "text": "叶绍翁的老师苏轼"
       },
       {
         "key": "D",
-        "text": "王建"
+        "text": "叶绍翁"
       }
     ],
-    "answer": "A",
-    "explanation": "这首是王安石的。《石灰吟》是于谦的，《竹石》是郑燮的。",
-    "verify": "\"王安石\""
+    "answer": "D",
+    "explanation": "这首是叶绍翁的。春风又绿是王安石，不要因为都写春天记成一个人。",
+    "verify": "\"叶绍翁\""
   },
   {
-    "id": "cnc_p473_q4",
-    "topicId": "cnc_p473",
+    "id": "cnc_p492_q4",
+    "topicId": "cnc_p492",
     "difficulty": "standard",
     "type": "choice",
-    "prompt": "「两山排闼送青来」里的「排闼」是什么意思？",
+    "prompt": "「不值」在诗题里是什么意思？",
     "choices": [
       {
         "key": "A",
-        "text": "把山推倒"
+        "text": "没有遇到要访的人"
       },
       {
         "key": "B",
-        "text": "推开门"
+        "text": "园子不值钱"
       },
       {
         "key": "C",
-        "text": "把田围起来"
+        "text": "花开得不值一看"
       },
       {
         "key": "D",
-        "text": "把花栽好"
+        "text": "主人不值得拜访"
+      }
+    ],
+    "answer": "A",
+    "explanation": "值是相遇。游园不值，就是来游园，却没遇见主人。",
+    "verify": "\"没有遇到要访的人\""
+  },
+  {
+    "id": "cnc_p493_q1",
+    "topicId": "cnc_p493",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "「水是眼波横」的下一句是哪一句？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "山是眉峰竖"
+      },
+      {
+        "key": "B",
+        "text": "欲问行人去那边"
+      },
+      {
+        "key": "C",
+        "text": "山是眉峰聚"
+      },
+      {
+        "key": "D",
+        "text": "眉眼盈盈处"
+      }
+    ],
+    "answer": "C",
+    "explanation": "水像横着的眼波，山像聚着的眉峰。去那边是再后面的问句。",
+    "verify": "\"山是眉峰聚\""
+  },
+  {
+    "id": "cnc_p493_q2",
+    "topicId": "cnc_p493",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "「欲问行人去那边」的下一句是哪一句？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "眉眼盈盈处去"
+      },
+      {
+        "key": "B",
+        "text": "才始送春归"
+      },
+      {
+        "key": "C",
+        "text": "千万和春住"
+      },
+      {
+        "key": "D",
+        "text": "眉眼盈盈处"
+      }
+    ],
+    "answer": "D",
+    "explanation": "要问行人去哪里，就是去山水相接、像眉眼那样的地方。不要在盈盈处后面加字。",
+    "verify": "\"眉眼盈盈处\""
+  },
+  {
+    "id": "cnc_p493_q3",
+    "topicId": "cnc_p493",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "「若到江南赶上春」的下一句是哪一句？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "千万和春住"
+      },
+      {
+        "key": "B",
+        "text": "千万与春住"
+      },
+      {
+        "key": "C",
+        "text": "又送君归去"
+      },
+      {
+        "key": "D",
+        "text": "劝君更尽一杯酒"
+      }
+    ],
+    "answer": "A",
+    "explanation": "赶上了江南的春天，就千万和春天待在一起。更尽一杯酒是王维的诗。",
+    "verify": "\"千万和春住\""
+  },
+  {
+    "id": "cnc_p493_q4",
+    "topicId": "cnc_p493",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "这首词的作者是谁？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "王维"
+      },
+      {
+        "key": "B",
+        "text": "王观"
+      },
+      {
+        "key": "C",
+        "text": "辛弃疾"
+      },
+      {
+        "key": "D",
+        "text": "苏轼"
       }
     ],
     "answer": "B",
-    "explanation": "闼是门。排闼就是推门而入。山色像推开门送进来。",
-    "verify": "\"推开门\""
+    "explanation": "送鲍浩然去浙东的是王观。王维写的是《送元二使安西》，两首送别不要记成一个人。",
+    "verify": "\"王观\""
   }
 ]
