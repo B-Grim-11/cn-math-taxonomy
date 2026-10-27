@@ -288,12 +288,48 @@ test('题库：isTestable 看题库；有题库时 hasBank 为 true，回退模�
   assert.strictEqual(G.bank.T[0].type, 'legacy');
 });
 
-test('第一题答对 → 掌握，并推断祖先掌握；只问 1 题', () => {
-  const [s, seq] = run2(E.createSession(G2, ['T']), { T: ['correct'] });
+test('confirm=1：第一题答对 → 掌握，并推断祖先掌握；只问 1 题', () => {
+  const [s, seq] = run2(E.createSession(G2, ['T'], { confirm: 1 }), { T: ['correct'] });
   assert.deepStrictEqual(seq, ['T#1']);
   ['T', 'P1', 'P2', 'R'].forEach((id) => assert.strictEqual(E.statusOf(s, id), 'mastered', id));
   assert.strictEqual(s.status.T.src, 'direct');
   assert.strictEqual(s.status.R.src, 'inferred');
+});
+
+test('默认 confirm=3：连续答对 3 题才掌握；只对 1 题不算掌握、继续出题', () => {
+  let s = E.createSession(G2, ['T']);
+  assert.strictEqual(s.confirm, 3);
+  assert.strictEqual(E.needConfirm(G2, s, 'T'), 3);
+  s = E.applyAnswer(G2, s, 'T', 'correct');
+  assert.strictEqual(s.status.T, undefined);
+  assert.strictEqual(E.nextQuestion(G2, s), 'T');
+  assert.strictEqual(E.nextItem(G2, s).attempt, 2);
+  s = E.applyAnswer(G2, s, 'T', 'correct');
+  assert.strictEqual(s.status.T, undefined);
+  s = E.applyAnswer(G2, s, 'T', 'correct');
+  assert.strictEqual(E.statusOf(s, 'T'), 'mastered');
+  ['P1', 'P2', 'R'].forEach((id) => assert.strictEqual(E.statusOf(s, id), 'mastered', id));
+  assert.strictEqual(E.nextQuestion(G2, s), null);
+});
+
+test('confirm=3 但题库只有 2 题：答对 2 题即掌握', () => {
+  const topics2 = [mk('M', { diagnostic_question: undefined })];
+  const qs2 = [mq('M', 1, 's'), mq('M', 2, 'b')];
+  const Gx = E.buildGraph(topics2, [], qs2);
+  let s2 = E.createSession(Gx, ['M'], { confirm: 3 });
+  assert.strictEqual(E.needConfirm(Gx, s2, 'M'), 2);
+  s2 = E.applyAnswer(Gx, s2, 'M', 'correct');
+  assert.strictEqual(s2.status.M, undefined);
+  s2 = E.applyAnswer(Gx, s2, 'M', 'correct');
+  assert.strictEqual(E.statusOf(s2, 'M'), 'mastered');
+});
+
+test('confirm 非法值回退到默认 3；可选 2/3/5', () => {
+  assert.strictEqual(E.clampConfirm(2), 2);
+  assert.strictEqual(E.clampConfirm(5), 5);
+  assert.strictEqual(E.clampConfirm(4), 3);
+  assert.strictEqual(E.clampConfirm('x'), 3);
+  assert.strictEqual(E.createSession(G2, ['T'], { confirm: 5 }).confirm, 5);
 });
 
 test('第一题错 → 再出第二题（同一知识点），此时还没有结论、不回溯', () => {
@@ -308,7 +344,8 @@ test('第一题错 → 再出第二题（同一知识点），此时还没有结
 });
 
 test('错 + 错 → 薄弱，并向先修回溯（P1、P2 依次，再深入 R）', () => {
-  const [s, seq] = run2(E.createSession(G2, ['T']), {
+  // confirm=1：先修答对一次即掌握，方便检查回溯顺序
+  const [s, seq] = run2(E.createSession(G2, ['T'], { confirm: 1 }), {
     T: ['wrong', 'skip'], P1: ['wrong', 'wrong'], R: ['correct'], P2: ['correct']
   });
   assert.deepStrictEqual(seq, ['T#1', 'T#2', 'P1#1', 'P1#2', 'R#1', 'P2#1']);
@@ -336,7 +373,7 @@ test('错 + 对 → 不稳（shaky），且不向先修回溯', () => {
 });
 
 test('不稳的先修若同时被别处判为薄弱，路径含它及其后代', () => {
-  const [s] = run2(E.createSession(G2, ['T']), {
+  const [s] = run2(E.createSession(G2, ['T'], { confirm: 1 }), {
     T: ['wrong', 'wrong'], P1: ['wrong', 'correct'], P2: ['wrong', 'wrong'], R: ['correct']
   });
   assert.strictEqual(E.statusOf(s, 'P1'), 'shaky');
@@ -1180,8 +1217,11 @@ test('带题库的图：每个正式知识点可测、外部节点不可测；ha
 console.log('带题库的真实诊断');
 
 /** 学生：known 一次答对；flaky 第一题错第二题对；其余两题都错 */
-function simulateBank(targets, known, flaky, limit, seed) {
-  let s = E.createSession(RGQ, targets, { limit: limit, seed: seed == null ? 'sim' : seed });
+function simulateBank(targets, known, flaky, limit, seed, confirm) {
+  let s = E.createSession(RGQ, targets, {
+    limit: limit, seed: seed == null ? 'sim' : seed,
+    confirm: confirm == null ? E.DEFAULT_CONFIRM : confirm
+  });
   const asked = [];
   for (let guard = 0; guard < 2000; guard++) {
     const it = E.nextItem(RGQ, s);
@@ -1215,9 +1255,10 @@ test('小学回溯：答错初中「正数与负数」会问到小学，学习�
   assertTopological(sum.path.map((p) => p.id), RGQ);
 });
 
-test('带题库：一致的学生 + 无限题量 => 薄弱集合与根因精确还原；会的 1 题、不会的 2 题', () => {
+test('带题库：一致的学生 + 无限题量 => 薄弱集合与根因精确还原；会的 confirm 题、不会的 2 题', () => {
   const rand = rng(20261018);
   let cases = 0;
+  const conf = E.DEFAULT_CONFIRM;
   for (let round = 0; round < 3; round++) {
     const known = makeStudent(rand, [0.04, 0.12, 0.3][round]);
     formal.forEach((t) => {
@@ -1234,7 +1275,10 @@ test('带题库：一致的学生 + 无限题量 => 薄弱集合与根因精确�
       assert.deepStrictEqual(sorted(sum.roots.map((r) => r.id)), sorted(expectRoots), '根因 ' + t.id);
       const perTopic = {};
       asked.forEach((a) => { const id = a.split('#')[0]; perTopic[id] = (perTopic[id] || 0) + 1; });
-      Object.keys(perTopic).forEach((id) => assert.strictEqual(perTopic[id], known.has(id) ? 1 : 2, id));
+      Object.keys(perTopic).forEach((id) => {
+        const want = known.has(id) ? E.needConfirm(RGQ, s, id) : 2;
+        assert.strictEqual(perTopic[id], want, id);
+      });
       const pathIds = sum.path.map((p) => p.id);
       assertTopological(pathIds, RGQ);
       sum.weak.forEach((id) => assert.ok(pathIds.includes(id), '薄弱点应在路径中 ' + id));
@@ -1242,6 +1286,7 @@ test('带题库：一致的学生 + 无限题量 => 薄弱集合与根因精确�
     });
   }
   assert.ok(cases >= 900);
+  assert.strictEqual(conf, 3);
 });
 
 test('带题库：任何一个知识点“第一题错、第二题对” => 不稳、只问 2 题、不回溯先修、进学习路径', () => {
@@ -1261,7 +1306,7 @@ test('带题库：任何一个知识点“第一题错、第二题对” => 不�
   assert.ok(withPrereq > 200);
 });
 
-test('带题库：混合学生（会 / 不稳 / 不会）——每个点最多 2 题，记录的状态与学生一致', () => {
+test('带题库：混合学生（会 / 不稳 / 不会）——会的点最多 confirm 题，其余最多 2 题；状态与学生一致', () => {
   const rand = rng(99);
   const known = makeStudent(rand, 0.1);
   const flaky = new Set(topics.filter((t) => !t.external && !known.has(t.id) && rand() < 0.3).map((t) => t.id));
@@ -1269,7 +1314,10 @@ test('带题库：混合学生（会 / 不稳 / 不会）——每个点最多 2
     const { s, asked } = simulateBank([t.id], known, flaky, 9999);
     const cnt = {};
     asked.forEach((a) => { const id = a.split('#')[0]; cnt[id] = (cnt[id] || 0) + 1; });
-    Object.keys(cnt).forEach((id) => assert.ok(cnt[id] <= 2, id));
+    Object.keys(cnt).forEach((id) => {
+      const maxN = known.has(id) ? E.needConfirm(RGQ, s, id) : 2;
+      assert.ok(cnt[id] <= maxN, id + ' ' + cnt[id] + ' > ' + maxN);
+    });
     Object.keys(s.status).forEach((id) => {
       const st = s.status[id];
       if (st.src !== 'direct') { assert.strictEqual(st.s, 'mastered'); return; }
@@ -1338,8 +1386,11 @@ test('带题库：重测时避开已出过的题（avoid 里的题尽量不再�
 
 console.log('整年级 / 整册筛查');
 
-function screenRun(spec, student, limit, seed) {
-  let s = E.createSession(RGQ, spec.ids, { mode: 'screen', limit: limit, seed: seed == null ? 'scr' : seed });
+function screenRun(spec, student, limit, seed, confirm) {
+  let s = E.createSession(RGQ, spec.ids, {
+    mode: 'screen', limit: limit, seed: seed == null ? 'scr' : seed,
+    confirm: confirm == null ? E.DEFAULT_CONFIRM : confirm
+  });
   for (let guard = 0; guard < 2000; guard++) {
     const it = E.nextItem(RGQ, s);
     if (!it) break;
@@ -1456,15 +1507,22 @@ test('筛查：题量不超过上限（一年级 / 七年级 / 七上；全错�
 });
 
 test('筛查：全对的学生只需很少几题（答对即推断先修）；一年级默认上限内能问完', () => {
+  // confirm=1：验证「答对即推断先修」仍能把整年级压到很少题
   const g7 = E.gradeTargets(RGQ, '七年级');
-  const s = screenRun(g7, allRight, 40);
+  const s = screenRun(g7, allRight, 40, 'scr', 1);
   const sum = E.summarize(RGQ, s);
   assert.ok(sum.asked < g7.ids.length / 2, '全对却问了 ' + sum.asked);
   assert.strictEqual(sum.mastered.length, g7.ids.length);
+  // 默认 confirm=3：题量够时仍能问完一年级（indexStudent）
   const g1 = E.gradeTargets(RGQ, '一年级');
-  const s1 = screenRun(g1, indexStudent, E.SCREEN_LIMIT);
+  const s1 = screenRun(g1, indexStudent, Math.max(E.SCREEN_LIMIT, g1.ids.length * E.DEFAULT_CONFIRM));
   assert.strictEqual(E.summarize(RGQ, s1).finished, true);
   assert.strictEqual(E.summarize(RGQ, s1).untested.length, 0);
+  // 默认 confirm=3 + 上限 40：七年级全对无法在一题掌握的旧意义上问完，但 asked 仍 < 知识点数×confirm
+  const s3 = screenRun(g7, allRight, 40);
+  const sum3 = E.summarize(RGQ, s3);
+  assert.ok(sum3.asked <= 40);
+  assert.ok(sum3.mastered.length > 0);
 });
 
 test('筛查：到上限没测到的点标「未测」，且题量 = 上限', () => {
