@@ -1746,12 +1746,6 @@
     "reason": "学习「圆柱的体积」需要先掌握「长方体和正方体的体积」。"
   },
   {
-    "topicId": "cnm_p208",
-    "prerequisiteId": "cnm_p207",
-    "strength": "hard",
-    "reason": "学习「圆柱的表面积」需要先掌握「圆柱的体积」。"
-  },
-  {
     "topicId": "cnm_p209",
     "prerequisiteId": "cnm_p207",
     "strength": "hard",
@@ -21520,5 +21514,65 @@
     "prerequisiteId": "cnm_p247",
     "strength": "soft",
     "reason": "「分数、小数混合运算及运算律」对学习「分数乘法的应用」有帮助，但不会前者也可以开始学后者。"
+  },
+  {
+    "topicId": "cnm_p208",
+    "prerequisiteId": "cnm_p206",
+    "strength": "hard",
+    "reason": "学习「圆柱的表面积」需要先掌握「圆柱的认识」。"
+  },
+  {
+    "topicId": "cnm_p208",
+    "prerequisiteId": "cnm_p190",
+    "strength": "soft",
+    "reason": "求圆柱侧面积常用底面周长×高，宜先熟悉「圆的周长」。"
+  },
+  {
+    "topicId": "cnm_p248",
+    "prerequisiteId": "cnm_p206",
+    "strength": "hard",
+    "reason": "学习「圆锥的认识」宜先掌握「圆柱的认识」，对照底面与高。"
+  },
+  {
+    "topicId": "cnm_p248",
+    "prerequisiteId": "cnm_p188",
+    "strength": "hard",
+    "reason": "圆锥底面是圆，需先掌握「圆的认识」。"
+  },
+  {
+    "topicId": "cnm_p209",
+    "prerequisiteId": "cnm_p248",
+    "strength": "hard",
+    "reason": "学习「圆锥的体积」需要先掌握「圆锥的认识」。"
+  },
+  {
+    "topicId": "cnm_p249",
+    "prerequisiteId": "cnm_p212",
+    "strength": "hard",
+    "reason": "图形放大缩小与比例尺同属按比变换，需先掌握「比例尺」。"
+  },
+  {
+    "topicId": "cnm_p249",
+    "prerequisiteId": "cnm_p210",
+    "strength": "soft",
+    "reason": "理解对应边成比例，宜先熟悉「比例的意义和基本性质」。"
+  },
+  {
+    "topicId": "cnm_p250",
+    "prerequisiteId": "cnm_p185",
+    "strength": "hard",
+    "reason": "齿数比是比，需先掌握「比的意义」。"
+  },
+  {
+    "topicId": "cnm_p250",
+    "prerequisiteId": "cnm_p190",
+    "strength": "hard",
+    "reason": "车轮周长用圆的周长，需先掌握「圆的周长」。"
+  },
+  {
+    "topicId": "cnm_p250",
+    "prerequisiteId": "cnm_p213",
+    "strength": "soft",
+    "reason": "档位与行进关系可联系正比例思考。"
   }
 ]

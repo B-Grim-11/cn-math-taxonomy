@@ -11666,25 +11666,24 @@
     "topicId": "cnm_p209",
     "difficulty": "basic",
     "type": "choice",
-    "prompt": "圆锥的底面是什么形状？",
+    "prompt": "等底等高的圆锥体积是同底同高圆柱体积的几分之几？",
     "choices": [
       {
         "key": "A",
-        "text": "是一个圆"
+        "text": "三分之一"
       },
       {
         "key": "B",
-        "text": "是一个正方形"
+        "text": "二分之一"
       },
       {
         "key": "C",
-        "text": "是两个圆"
+        "text": "两倍"
       }
     ],
     "answer": "A",
-    "explanation": "圆锥有一个圆形底面和一个顶点。",
-    "verify": "'是一个圆'",
-    "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 172\"><path d=\"M 64 136 A 68 18 0 0 0 200 136\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-dasharray=\"7 5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"132\" y1=\"26\" x2=\"64\" y2=\"136\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"132\" y1=\"26\" x2=\"200\" y2=\"136\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M 64 136 A 68 18 0 0 1 200 136\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+    "explanation": "等底等高时，圆锥体积是圆柱的三分之一。",
+    "verify": "'三分之一'"
   },
   {
     "id": "cnm_p209_q2",
@@ -213898,5 +213897,225 @@
     "answer": "A",
     "explanation": "提取 0.4：（1/4＋3/4）×0.4＝1×0.4＝0.4。",
     "verify": "(1/4+3/4)*Fraction(2,5)"
+  },
+  {
+    "id": "cnm_p248_q1",
+    "topicId": "cnm_p248",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "圆锥的底面是什么形状？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "是一个圆"
+      },
+      {
+        "key": "B",
+        "text": "是一个正方形"
+      },
+      {
+        "key": "C",
+        "text": "是两个圆"
+      }
+    ],
+    "answer": "A",
+    "explanation": "圆锥有一个圆形底面和一个顶点。",
+    "verify": "'是一个圆'"
+  },
+  {
+    "id": "cnm_p248_q2",
+    "topicId": "cnm_p248",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "圆锥有几个顶点？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1 个"
+      },
+      {
+        "key": "B",
+        "text": "2 个"
+      },
+      {
+        "key": "C",
+        "text": "0 个"
+      }
+    ],
+    "answer": "A",
+    "explanation": "圆锥只有一个顶点。",
+    "verify": "'1 个'"
+  },
+  {
+    "id": "cnm_p248_q3",
+    "topicId": "cnm_p248",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "圆锥的高是指哪一段距离？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "从顶点到底面圆心的距离"
+      },
+      {
+        "key": "B",
+        "text": "底面圆的直径"
+      },
+      {
+        "key": "C",
+        "text": "侧面母线的长度"
+      },
+      {
+        "key": "D",
+        "text": "底面圆的周长"
+      }
+    ],
+    "answer": "A",
+    "explanation": "高是顶点到底面圆心的垂直距离。",
+    "verify": "'从顶点到底面圆心的距离'"
+  },
+  {
+    "id": "cnm_p248_q4",
+    "topicId": "cnm_p248",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "下面哪个物体的形状近似圆锥？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "易拉罐"
+      },
+      {
+        "key": "B",
+        "text": "球"
+      },
+      {
+        "key": "C",
+        "text": "漏斗"
+      },
+      {
+        "key": "D",
+        "text": "魔方"
+      }
+    ],
+    "answer": "C",
+    "explanation": "漏斗上部近似圆锥；易拉罐是圆柱，球是球体，魔方是正方体。",
+    "verify": "'漏斗'"
+  },
+  {
+    "id": "cnm_p249_q1",
+    "topicId": "cnm_p249",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "把边长 2 厘米的正方形按 1:3 放大，新正方形边长是多少厘米？计算：2×3＝？",
+    "answer": "6",
+    "explanation": "按 1:3 放大，对应边变为原来的 3 倍：2×3＝6。",
+    "verify": "2*3"
+  },
+  {
+    "id": "cnm_p249_q2",
+    "topicId": "cnm_p249",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "一条线段长 12 厘米，按 2:1 缩小后长多少厘米？计算：12÷2＝？",
+    "answer": "6",
+    "explanation": "按 2:1 缩小，新长度是原来的 1/2：12÷2＝6。",
+    "verify": "12/2"
+  },
+  {
+    "id": "cnm_p249_q3",
+    "topicId": "cnm_p249",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "长方形长 5 厘米、宽 3 厘米，按 1:2 放大后，长是多少厘米？计算：5×2＝？",
+    "answer": "10",
+    "explanation": "对应边都变为 2 倍，长 5×2＝10 厘米。",
+    "verify": "5*2"
+  },
+  {
+    "id": "cnm_p249_q4",
+    "topicId": "cnm_p249",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "把一个三角形按比放大后，哪一项一定不变？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "各边的长度"
+      },
+      {
+        "key": "B",
+        "text": "各角的度数"
+      },
+      {
+        "key": "C",
+        "text": "面积"
+      },
+      {
+        "key": "D",
+        "text": "周长"
+      }
+    ],
+    "answer": "B",
+    "explanation": "放大或缩小后形状不变，对应角相等；边长、周长、面积都会变。",
+    "verify": "'各角的度数'"
+  },
+  {
+    "id": "cnm_p250_q1",
+    "topicId": "cnm_p250",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "自行车前齿轮 48 齿、后齿轮 16 齿。脚蹬转 1 圈，后轮大约转几圈？计算：48÷16＝？",
+    "answer": "3",
+    "explanation": "齿数比 48:16＝3:1，脚蹬转 1 圈，后轮约转 3 圈。",
+    "verify": "48/16"
+  },
+  {
+    "id": "cnm_p250_q2",
+    "topicId": "cnm_p250",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "后轮周长约 2 米。脚蹬转 1 圈后轮转 3 圈，大约前进多少米？计算：2×3＝？",
+    "answer": "6",
+    "explanation": "2×3＝6 米。",
+    "verify": "2*3"
+  },
+  {
+    "id": "cnm_p250_q3",
+    "topicId": "cnm_p250",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "同一辆变速车，后齿轮齿数变多（前齿轮不变）时，一般会怎样？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "脚蹬一圈，车轮转得更少，骑起来更省力"
+      },
+      {
+        "key": "B",
+        "text": "脚蹬一圈，车轮转得更多"
+      },
+      {
+        "key": "C",
+        "text": "齿数比对骑行没有影响"
+      },
+      {
+        "key": "D",
+        "text": "车轮周长会变长"
+      }
+    ],
+    "answer": "A",
+    "explanation": "后齿轮变多，传动比变小，脚蹬一圈车轮转得少，更省力但更慢。",
+    "verify": "'脚蹬一圈，车轮转得更少，骑起来更省力'"
+  },
+  {
+    "id": "cnm_p250_q4",
+    "topicId": "cnm_p250",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "前齿轮 36 齿、后齿轮 12 齿。要让后轮转 6 圈，脚蹬大约要转几圈？计算：6÷(36÷12)＝？",
+    "answer": "2",
+    "explanation": "传动比 36÷12＝3，后轮转 6 圈需脚蹬 6÷3＝2 圈。",
+    "verify": "6/(36/12)"
   }
 ]
