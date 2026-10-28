@@ -845,7 +845,7 @@ Q_DIFFICULTY_ALIASES = {"advanced": "challenge"}  # 旧名，与 challenge 同�
 Q_TYPES = ("numeric", "choice", "short", "self")
 Q_FIELDS = {"id", "topicId", "difficulty", "type", "prompt", "answer", "choices", "accept",
             "explanation", "verify", "unordered", "fixed_from_source", "figure", "hideChoiceText", "percent"}
-# 与知识点无关的纯整数/小数四则（不含分数写法 a/b）；五、六年级 challenge 不得直接「计算：…＝？」
+# 与知识点无关的纯整数/小数四则（不含分数写法 a/b）；四、五、六年级 challenge 不得直接「计算：…＝？」
 PURE_ARITH_PROMPT_RE = re.compile(
     r"^(计算：)?\d+(?:\.\d+)?(?:\s*[＋+\-－×*÷]\s*\d+(?:\.\d+)?)+＝？(?:（用小数作答）)?$"
 )
@@ -987,10 +987,10 @@ def question_errors(questions, topics_by_id, require_coverage=True):
             ds = {q.get("difficulty") for q in qs}
             if qs and not {"basic", "standard"} <= ds:
                 errs.append("%s(%s) 的难度需至少含 basic 和 standard" % (tid, t.get("name")))
-            # 五、六年级数学：三档齐全；禁止与知识点无关的纯整数/小数四则；拓展不得直接「计算：…＝？」
-            if t.get("grade") in (5, 6) and str(tid).startswith("cnm_") and not (
+            # 四、五、六年级数学：三档齐全；禁止与知识点无关的纯整数/小数四则；拓展不得直接「计算：…＝？」
+            if t.get("grade") in (4, 5, 6) and str(tid).startswith("cnm_") and not (
                     is_english_id(tid) or is_physics_id(tid) or is_chinese_id(tid)):
-                label = "五" if t.get("grade") == 5 else "六"
+                label = {4: "四", 5: "五", 6: "六"}[t.get("grade")]
                 if qs and ("standard" not in ds or "challenge" not in ds):
                     errs.append("%s(%s) %s年级题库需至少含 1 道 standard 和 1 道 challenge" % (
                         tid, t.get("name"), label))

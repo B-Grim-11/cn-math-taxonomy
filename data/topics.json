@@ -2824,8 +2824,8 @@
       "知道每四个数位是一级"
     ],
     "diagnostic_question": {
-      "question": "10000 的千位是几？",
-      "answer": "0"
+      "question": "10000 的万位上是数字几？",
+      "answer": "1"
     },
     "external": false,
     "standards": [
@@ -2849,7 +2849,7 @@
       "四舍五入时能看清要看哪一位"
     ],
     "diagnostic_question": {
-      "question": "计算：230000÷10000＝？",
+      "question": "230000 改写成用万作单位，是多少万？",
       "answer": "23"
     },
     "external": false,
@@ -2885,7 +2885,7 @@
     ],
     "external": false,
     "diagnostic_question": {
-      "question": "1 亿里面有几个一千万？计算：100000000÷10000000＝？",
+      "question": "1 亿里面有几个一千万？",
       "answer": "10"
     }
   },
@@ -2903,8 +2903,8 @@
       "知道 1 度是度量角的单位"
     ],
     "diagnostic_question": {
-      "question": "一个直角是 90 度，一个角是 30 度。这个角比直角小多少度？",
-      "answer": "60"
+      "question": "用量角器量角时，量角器的中心要对准角的哪一部分？",
+      "answer": "顶点"
     },
     "external": false,
     "standards": [
@@ -2953,7 +2953,7 @@
       "能把两部分积加起来"
     ],
     "diagnostic_question": {
-      "question": "计算：12×11＝？",
+      "question": "12×11 的积是多少？",
       "answer": "132"
     },
     "external": false,
@@ -2978,7 +2978,7 @@
       "能列出乘法并计算"
     ],
     "diagnostic_question": {
-      "question": "计算：16×12＝？",
+      "question": "每排 16 个座位，有 12 排。一共有多少个座位？",
       "answer": "192"
     },
     "external": false,
@@ -3003,8 +3003,8 @@
       "能估算积大约是多少"
     ],
     "diagnostic_question": {
-      "question": "计算：123×10＝？",
-      "answer": "1230"
+      "question": "123×11 的积是多少？",
+      "answer": "1353"
     },
     "external": false,
     "standards": [
@@ -3035,7 +3035,7 @@
     ],
     "external": false,
     "diagnostic_question": {
-      "question": "估算 49×21：把两个数看作 50 和 20，积大约是多少？计算：50×20＝？",
+      "question": "估算 49×21：把两个数看作 50 和 20，积大约是多少？",
       "answer": "1000"
     }
   },
@@ -3085,7 +3085,7 @@
     ],
     "external": false,
     "diagnostic_question": {
-      "question": "一班有男生 23 人、女生 21 人。一共有多少人？计算：23＋21＝？",
+      "question": "一班有男生 23 人、女生 21 人。一共有多少人？",
       "answer": "44"
     }
   },
@@ -3110,7 +3110,7 @@
     ],
     "external": false,
     "diagnostic_question": {
-      "question": "每支笔 6 元，买 12 支要多少元？计算：6×12＝？",
+      "question": "每支笔 6 元，买 12 支要多少元？",
       "answer": "72"
     }
   },
@@ -3254,8 +3254,8 @@
       "能说出哪一组更多"
     ],
     "diagnostic_question": {
-      "question": "计算：18－12＝？",
-      "answer": "6"
+      "question": "复式条形统计图和单式条形统计图相比，主要多了什么用处？",
+      "answer": "可以同时比较两组数据"
     },
     "external": false,
     "standards": [
@@ -3287,7 +3287,7 @@
     ],
     "external": false,
     "diagnostic_question": {
-      "question": "从起点向东走 30 米，再继续向东走 45 米。这时离起点多少米？计算：30＋45＝？",
+      "question": "从起点向东走 30 米，再继续向东走 45 米。这时离起点多少米？",
       "answer": "75"
     }
   },
@@ -3331,7 +3331,7 @@
       "能用除法求另一个因数"
     ],
     "diagnostic_question": {
-      "question": "计算：36－15＝？",
+      "question": "两个数相加得 36，其中一个加数是 15。另一个加数是多少？",
       "answer": "21"
     },
     "external": false,
@@ -3406,7 +3406,7 @@
       "能用结合律把加法算得简便"
     ],
     "diagnostic_question": {
-      "question": "计算：28＋72＝？",
+      "question": "28＋72 可以交换成 72＋28，得数是多少？",
       "answer": "100"
     },
     "external": false,
@@ -3431,7 +3431,7 @@
       "能用结合律把乘法算得简便"
     ],
     "diagnostic_question": {
-      "question": "计算：25×4＝？",
+      "question": "25×4 的积是多少？",
       "answer": "100"
     },
     "external": false,
@@ -3456,7 +3456,7 @@
       "能把两个积合并成一个积"
     ],
     "diagnostic_question": {
-      "question": "计算：25×4＋25×6＝？",
+      "question": "25×4＋25×6 可以写成 25×（4＋6），得数是多少？",
       "answer": "250"
     },
     "external": false,
@@ -3481,7 +3481,7 @@
       "能用分配律拆数或并数"
     ],
     "diagnostic_question": {
-      "question": "计算：99×5＝？",
+      "question": "99×5 可以看成（100－1）×5。得数是多少？",
       "answer": "495"
     },
     "external": false,
@@ -3506,8 +3506,8 @@
       "能指出小数点左边是整数部分"
     ],
     "diagnostic_question": {
-      "question": "计算：0.3＋0.4＝？（用小数作答）",
-      "answer": "0.7"
+      "question": "把 1 米平均分成 10 份，其中 1 份是多少米？（用小数作答）",
+      "answer": "0.1"
     },
     "external": false,
     "standards": [
@@ -3535,8 +3535,8 @@
       "知道整数部分大的小数更大"
     ],
     "diagnostic_question": {
-      "question": "计算：3.5－2.8＝？（用小数作答）",
-      "answer": "0.7"
+      "question": "3.5 和 2.8 比较，较大的那个数是多少？（用小数作答）",
+      "answer": "3.5"
     },
     "external": false,
     "standards": [
@@ -3561,7 +3561,7 @@
       "能把一个数扩大到 100 倍"
     ],
     "diagnostic_question": {
-      "question": "计算：1.2×10＝？（用小数作答）",
+      "question": "小数点向右移动一位，1.2 变成多少？",
       "answer": "12"
     },
     "external": false,
@@ -3587,7 +3587,7 @@
       "能保留一位小数"
     ],
     "diagnostic_question": {
-      "question": "3.8 四舍五入到个位，看十分位。十分位是 8，要进 1。个位 3 加 1 是多少？计算：3＋1＝？",
+      "question": "3.8 四舍五入到个位，近似数是多少？",
       "answer": "4"
     },
     "external": false,
@@ -3688,7 +3688,7 @@
       "能计算一位或两位小数的加减"
     ],
     "diagnostic_question": {
-      "question": "计算：1.25＋0.4＝？（用小数作答）",
+      "question": "1.25＋0.4 的得数是多少？（用小数作答）",
       "answer": "1.65"
     },
     "external": false,
@@ -3717,7 +3717,7 @@
       "能用小数表示结果"
     ],
     "diagnostic_question": {
-      "question": "计算：10－3.6＝？（用小数作答）",
+      "question": "妈妈带 10 元，买了 3.6 元的本子。还剩多少元？（用小数作答）",
       "answer": "6.4"
     },
     "external": false,
@@ -3829,7 +3829,7 @@
       "能计算三位数除以两位数"
     ],
     "diagnostic_question": {
-      "question": "计算：96÷12＝？",
+      "question": "96÷12 的商是多少？",
       "answer": "8"
     },
     "external": false,
@@ -3854,7 +3854,7 @@
       "能用它把除法化简单"
     ],
     "diagnostic_question": {
-      "question": "计算：80÷20＝？",
+      "question": "80÷20 的商是多少？",
       "answer": "4"
     },
     "external": false,
