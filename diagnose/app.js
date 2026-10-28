@@ -24,7 +24,7 @@
   ];
   const RESULT_LABEL = { correct: '对', wrong: '错', skip: '不会' };
   const STATUS_LABEL = { mastered: '已掌握', shaky: '不稳', weak: '薄弱', unknown: '未测' };
-  const DIFF_LABEL = { basic: '基础', standard: '标准', advanced: '提高' };
+  const DIFF_LABEL = { basic: '基础', standard: '提高', challenge: '拓展', advanced: '拓展' };
   const TYPE_LABEL = { numeric: '数值题', choice: '选择题', short: '短答题', self: '开放题', legacy: '诊断题' };
 
   const root = document.getElementById('root');
@@ -532,7 +532,7 @@
       });
       box.append(
         h('h2', { text: '按年级整体诊断' }),
-        h('p', { class: 'muted' }, '不选具体知识点，在一个年级（或一册）里抽查：每个知识点连续答对 ' + getSettings().confirm + ' 题才算掌握（可在上方改），答错只在所选范围内回溯先修，最后按章汇总出哪几章薄弱。适合期初摸底、学期末复习。'),
+        h('p', { class: 'muted' }, '本测评检查本年级知识点是否掌握，不是竞赛拔高。按「基础 / 提高 / 拓展」出题：先出提高题，答对再出拓展题确认掌握；答错会先补基础题，仍错会回到前面年级的相关知识点。每个知识点连续答对 ' + getSettings().confirm + ' 题才算掌握（可在上方改），最后按章汇总出哪几章薄弱。适合期初摸底、学期末复习。'),
         tabs('年级', subject === 'physics'
           ? [['八', '八年级'], ['九', '九年级'], ['必修一', '必修一'], ['必修二', '必修二'], ['必修三', '必修三'],
             ['选必一', '选必一'], ['选必二', '选必二'], ['选必三', '选必三']]
@@ -628,20 +628,42 @@
   }
 
   /* ------------------------------------------------------------ 出题页 */
+  function targetMinGrade() {
+    let m = Infinity;
+    (session.targets || []).forEach(function (tid) {
+      const x = D.graph.byId[tid];
+      if (x && typeof x.grade === 'number' && x.grade < m) m = x.grade;
+    });
+    return m;
+  }
+  function isPrereqKnowledge(id) {
+    const t = D.graph.byId[id];
+    if (!t || !session || (session.targets || []).indexOf(id) >= 0) return false;
+    return typeof t.grade === 'number' && t.grade < targetMinGrade();
+  }
   function reasonFor(item) {
     const id = item.topicId;
     const need = E.needConfirm(D.graph, session, id);
     const prev = session.attempts[id] || [];
     const hadFail = prev.some(function (a) { return a.result !== 'correct'; });
-    if (hadFail) return '前面有题没答对，再出一道' + (item.question.difficulty === 'basic' ? '更基础' : '同级或更容易') + '的题确认：这一题也错才算薄弱，答对则标为「不稳」。';
-    if (item.attempt > 1) return '同一知识点需连续答对 ' + need + ' 题才算掌握（当前第 ' + item.attempt + ' 题）。';
+    const diff = item.question && item.question.difficulty;
+    if (isPrereqKnowledge(id)) {
+      return '这是前面年级的前置知识：因为本年级相关知识点还没过关，先回来检查它。';
+    }
+    if (hadFail) return '前面有题没答对，再出一道' + (diff === 'basic' ? '基础' : '同级或更容易') + '的题确认：这一题也错才算薄弱，答对则标为「不稳」。';
+    if (item.attempt > 1) {
+      if (diff === 'challenge' || diff === 'advanced') {
+        return '上一题已答对，再出一道拓展题确认掌握（当前第 ' + item.attempt + ' 题，连续答对 ' + need + ' 题才算掌握）。';
+      }
+      return '同一知识点需连续答对 ' + need + ' 题才算掌握（当前第 ' + item.attempt + ' 题）。';
+    }
     for (let i = session.answers.length - 1; i >= 0; i--) {
       const a = session.answers[i];
       if (a.result === 'correct') continue;
       const p = D.graph.prereqs[a.id].find(function (x) { return x.id === id; });
       if (p && E.statusOf(session, a.id) === 'weak') return '因为「' + nameOf(a.id) + '」确认后仍没通过，现在检查它的' + (p.strength === 'hard' ? '硬' : '软') + '先修知识点。';
     }
-    if (session.mode === 'screen') return '整体诊断：在所选范围内抽查知识点（离章末近的先测，连续答对会连带跳过它的先修）。';
+    if (session.mode === 'screen') return '整体诊断：先测本年级知识点（离章末近的先测）。先出提高题，答对再出拓展题确认；答错先补基础题。';
     if (session.targets.length > 1) return '这是所选章节的知识点（离章末最近的先测，连续答对会连带跳过它的先修）。';
     return session.targets.indexOf(id) >= 0 ? '这是你选择的目标知识点，先从它开始测（连续答对 ' + need + ' 题才算掌握）。' : '检查目标的先修知识点。';
   }
@@ -686,6 +708,7 @@
       h('div', { class: 'progress' }, h('i', { style: 'width:' + Math.round(n / session.limit * 100) + '%' })),
       h('h2', { class: 'q-title' }, t.name, ' ', h('span', { class: 'tag', text: t.chapter })),
       h('div', { class: 'row small', style: 'margin:2px 0' },
+        isPrereqKnowledge(id) ? h('span', { class: 'tag ext', text: '前置知识' }) : null,
         h('span', { class: 'tag diff-' + q.difficulty, text: DIFF_LABEL[q.difficulty] || q.difficulty }),
         h('span', { class: 'tag', text: TYPE_LABEL[q.type] || q.type }),
         h('span', { class: 'tag', text: '本知识点第 ' + item.attempt + ' / ' + E.needConfirm(D.graph, session, id) + ' 题' })),
@@ -931,6 +954,7 @@
     const out = [];
     if (targetSet.has(id)) out.push(tag('target', '目标'));
     if (rootSet.has(id)) out.push(tag('root', '根因'));
+    if (isPrereqKnowledge(id)) out.push(tag('ext', '前置知识'));
     out.push(tag(st, STATUS_LABEL[st]));
     if (D.graph.byId[id].external) out.push(tag('ext', '小学'));
     return out;
@@ -991,7 +1015,7 @@
       sum.roots.length ? sum.roots.map(function (r) {
         const notes = h('div');
         if (r.pendingPrereqs.length) notes.append(h('div', { class: 'notice', text: '它的先修「' + r.pendingPrereqs.map(nameOf).join('」「') + '」没来得及测（题量用完），真正的根因可能更靠前。' }));
-        if (r.outOfScopePrereqs.length) notes.append(h('div', { class: 'notice', text: '它的先修「' + r.outOfScopePrereqs.map(nameOf).join('」「') + '」不在所选范围内，没有检查。' }));
+        if (r.outOfScopePrereqs.length) notes.append(h('div', { class: 'notice', text: '它的前置知识「' + r.outOfScopePrereqs.map(nameOf).join('」「') + '」不在所选范围内，没有检查。' }));
         if (r.externalPrereqs.length) notes.append(h('div', { class: 'muted small', text: '小学先修（无诊断题，未测）：' + r.externalPrereqs.map(nameOf).join('、') }));
         return topicItem(r.id, statusTags(r.id, rootSet, targetSet), notes);
       }) : h('p', { text: targetsMastered ? '没有。' : '暂未发现。' })));
@@ -1062,7 +1086,7 @@
     return h('div', { class: 'card', id: 'chapters' },
       h('h2', { text: '按章汇总' }),
       h('p', { class: 'muted small' }, '每章的知识点掌握情况，薄弱多的章排在前面；点开看具体是哪几个知识点。色条从左到右：掌握、不稳、薄弱、未测。'),
-      outOfScope.length ? h('p', { class: 'notice', id: 'out-of-scope' }, '部分薄弱点的先修在所选范围之外，未检查（涉及 ' + outOfScope.length + ' 个薄弱点，如「' +
+      outOfScope.length ? h('p', { class: 'notice', id: 'out-of-scope' }, '部分薄弱点的前置知识在所选年级之外，未检查（涉及 ' + outOfScope.length + ' 个薄弱点，如「' +
         outOfScope.slice(0, 3).map(function (r) { return nameOf(r.id); }).join('」「') + '」）。可对这些知识点单独做诊断，沿先修继续往前查。') : null,
       chapters.map(function (c) {
         return h('details', { class: 'topic chap-sum', open: c.weak > 0 || c.shaky > 0 },

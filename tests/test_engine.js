@@ -385,27 +385,32 @@ test('不稳的先修若同时被别处判为薄弱，路径含它及其后代',
   assertTopological(sum.path.map((p) => p.id), G2);
 });
 
-test('第二题优先 basic；第一题已是 basic 时取同难度，没有就取最容易的剩余题', () => {
-  const firstDiffs = new Set();
+test('第一题优先 standard；答对再出 challenge；答错再出 basic', () => {
   for (let i = 0; i < 60; i++) {
-    const s1 = E.applyAnswer(G2, E.createSession(G2, ['P2'], { seed: 'k' + i }), 'P2', 'wrong');
-    const first = E.questionById(G2, s1.answers[0].qid);
-    firstDiffs.add(first.difficulty);
-    assert.notStrictEqual(first.difficulty, 'advanced', '有非 advanced 题时第一题不出 advanced');
-    const second = E.nextItem(G2, s1).question;
-    if (first.difficulty === 'standard') assert.strictEqual(second.id, 'P2_q3', '第二题应是唯一的 basic');
-    else assert.strictEqual(second.difficulty, 'standard', '第一题是 basic 时没有别的 basic，取同级以上最容易的');
+    const s0 = E.createSession(G2, ['P2'], { seed: 'k' + i });
+    const first = E.nextItem(G2, s0).question;
+    assert.strictEqual(first.difficulty, 'standard', '有 standard 时第一题应是 standard');
+    const sWrong = E.applyAnswer(G2, s0, 'P2', 'wrong');
+    assert.strictEqual(E.nextItem(G2, sWrong).question.id, 'P2_q3', '答错后应出唯一的 basic');
+    const sRight = E.applyAnswer(G2, s0, 'P2', 'correct');
+    assert.strictEqual(E.nextItem(G2, sRight).question.difficulty, 'advanced', '答对后应出拓展档');
   }
-  assert.ok(firstDiffs.has('standard') && firstDiffs.has('basic'), '随机应能抽到不同难度');
-  // 没有 basic 时取同难度：标准×3 + 提高×1
+  // 没有 standard 时第一题退到 basic（仍不出拓展）
   const topics3 = [mk('M', { diagnostic_question: undefined })];
+  const qsB = [mq('M', 1, 'b'), mq('M', 2, 'b'), mq('M', 3, 'a')];
+  const GB = E.buildGraph(topics3, [], qsB);
+  for (let i = 0; i < 20; i++) {
+    const it = E.nextItem(GB, E.createSession(GB, ['M'], { seed: i }));
+    assert.strictEqual(it.question.difficulty, 'basic');
+  }
+  // 没有 basic 时，答错后取同难度 standard
   const qs3 = [mq('M', 1, 's'), mq('M', 2, 's'), mq('M', 3, 's'), mq('M', 4, 'a')];
   const G3 = E.buildGraph(topics3, [], qs3);
   for (let i = 0; i < 20; i++) {
     const s1 = E.applyAnswer(G3, E.createSession(G3, ['M'], { seed: i }), 'M', 'wrong');
     assert.strictEqual(E.nextItem(G3, s1).question.difficulty, 'standard');
   }
-  // 第一题是 standard 且存在更容易的非 basic 题不可能（只有 3 档）；提高题只在没有其它选择时才出
+  // 只有拓展档时才出拓展
   const qs4 = [mq('M', 1, 'a'), mq('M', 2, 'a')];
   const G4 = E.buildGraph(topics3, [], qs4);
   const s4 = E.applyAnswer(G4, E.createSession(G4, ['M'], { seed: 1 }), 'M', 'wrong');
@@ -646,13 +651,13 @@ function bfsAncestors(id) {
   return seen;
 }
 
-test('数据可加载：小学 241 + 初中 315 + 高中必修 143 + 选择性必修 128，没有外部节点；课标含第一学段', () => {
+test('数据可加载：小学 253 + 初中 315 + 高中必修 143 + 选择性必修 128，没有外部节点；课标含第一学段', () => {
   const mathTopics = topics.filter((t) => String(t.id).startsWith('cnm_'));
   const mathDeps = deps.filter((d) => String(d.topicId).startsWith('cnm_'));
-  assert.strictEqual(mathTopics.length, 827);
-  assert.strictEqual(mathDeps.length, 1364);
+  assert.strictEqual(mathTopics.length, 839);
+  assert.strictEqual(mathDeps.length, 1397);
   assert.strictEqual(topics.filter((t) => t.external).length, 0);
-  assert.strictEqual(mathTopics.filter((t) => t.grade <= 6).length, 241);
+  assert.strictEqual(mathTopics.filter((t) => t.grade <= 6).length, 253);
   assert.strictEqual(mathTopics.filter((t) => t.grade >= 7 && t.grade <= 9).length, 315);
   assert.strictEqual(mathTopics.filter((t) => t.grade === 10 || t.grade === 11).length, 143);
   assert.strictEqual(mathTopics.filter((t) => t.grade >= 12).length, 128);
@@ -992,6 +997,9 @@ test('题库：每个正式知识点至少 3 题；id 唯一且格式正确；�
     assert.ok(qs.length >= 3, t.id + ' 只有 ' + qs.length + ' 题');
     const ds = new Set(qs.map((q) => q.difficulty));
     assert.ok(ds.has('basic') && ds.has('standard'), t.id + ' 缺少 basic 或 standard');
+    if ((t.grade === 5 || t.grade === 6) && String(t.id).startsWith('cnm_p')) {
+      assert.ok(ds.has('challenge'), t.id + ' 缺少 challenge');
+    }
     assert.ok(qs.some((q) => q.id === t.id + '_q1'), t.id + ' 缺 q1');
     assert.ok(qs.filter((q) => q.id !== t.id + '_q1').some((q) => q.difficulty === 'basic'), t.id + ' 除 q1 外没有 basic');
   });
@@ -1001,7 +1009,7 @@ test('题库：type / difficulty 合法；必填字段非空；numeric + choice 
   let auto = 0;
   questions.forEach((q) => {
     assert.ok(['numeric', 'choice', 'short', 'self'].includes(q.type), q.id);
-    assert.ok(['basic', 'standard', 'advanced'].includes(q.difficulty), q.id);
+    assert.ok(['basic', 'standard', 'challenge', 'advanced'].includes(q.difficulty), q.id);
     ['prompt', 'answer', 'explanation'].forEach((f) => assert.ok(typeof q[f] === 'string' && q[f].trim(), q.id + ' ' + f));
     if (q.type === 'numeric' || q.type === 'choice') auto++;
   });
@@ -1375,7 +1383,7 @@ test('带题库：重测时避开已出过的题（avoid 里的题尽量不再�
     total++;
     if (it.attempt === 1 && seen.includes(it.question.id)) {
       // 只有当该知识点的非 advanced 题全都出过时才可能重复
-      const fresh = RGQ.bank[it.topicId].filter((q) => !seen.includes(q.id) && q.difficulty !== 'advanced');
+      const fresh = RGQ.bank[it.topicId].filter((q) => !seen.includes(q.id) && q.difficulty !== 'advanced' && q.difficulty !== 'challenge');
       assert.strictEqual(fresh.length, 0, it.topicId + ' 还有没出过的题却重复了');
       repeats++;
     }

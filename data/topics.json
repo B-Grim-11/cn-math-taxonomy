@@ -181,11 +181,11 @@
   },
   {
     "id": "cnm_p008",
-    "name": "6到10各数的认识",
+    "name": "6～10各数的认识",
     "domain": "数与代数",
     "grade": 1,
     "semester": "上",
-    "chapter": "一年级上册 第2单元 6到10的认识和加、减法",
+    "chapter": "一年级上册 第2单元 6～10的认识和加、减法",
     "type": "conceptual",
     "description": "能认、读、写 6 到 10，知道 10 是由 10 个一组成的。",
     "mastery_criteria": [
@@ -210,7 +210,7 @@
     "domain": "数与代数",
     "grade": 1,
     "semester": "上",
-    "chapter": "一年级上册 第2单元 6到10的认识和加、减法",
+    "chapter": "一年级上册 第2单元 6～10的认识和加、减法",
     "type": "procedural",
     "description": "会比较 10 以内两个数的大小。",
     "mastery_criteria": [
@@ -235,7 +235,7 @@
     "domain": "数与代数",
     "grade": 1,
     "semester": "上",
-    "chapter": "一年级上册 第2单元 6到10的认识和加、减法",
+    "chapter": "一年级上册 第2单元 6～10的认识和加、减法",
     "type": "procedural",
     "description": "会计算得数不超过 10 的加法。",
     "mastery_criteria": [
@@ -264,7 +264,7 @@
     "domain": "数与代数",
     "grade": 1,
     "semester": "上",
-    "chapter": "一年级上册 第2单元 6到10的认识和加、减法",
+    "chapter": "一年级上册 第2单元 6～10的认识和加、减法",
     "type": "procedural",
     "description": "会计算 10 以内的减法。",
     "mastery_criteria": [
@@ -289,7 +289,7 @@
     "domain": "数与代数",
     "grade": 1,
     "semester": "上",
-    "chapter": "一年级上册 第2单元 6到10的认识和加、减法",
+    "chapter": "一年级上册 第2单元 6～10的认识和加、减法",
     "type": "procedural",
     "description": "会计算三个数的连加、连减，从左往右算。",
     "mastery_criteria": [
@@ -314,7 +314,7 @@
     "domain": "数与代数",
     "grade": 1,
     "semester": "上",
-    "chapter": "一年级上册 第2单元 6到10的认识和加、减法",
+    "chapter": "一年级上册 第2单元 6～10的认识和加、减法",
     "type": "procedural",
     "description": "会计算 10 以内的加减混合，从左往右依次算。",
     "mastery_criteria": [
@@ -368,7 +368,7 @@
     "domain": "综合与实践",
     "grade": 1,
     "semester": "上",
-    "chapter": "一年级上册 综合与实践 我的教室",
+    "chapter": "一年级上册 综合与实践 数学游戏",
     "type": "application",
     "description": "会用上、下、前、后、左、右描述物体的相对位置。",
     "mastery_criteria": [
@@ -389,11 +389,11 @@
   },
   {
     "id": "cnm_p016",
-    "name": "11到20各数的认识",
+    "name": "11～20各数的认识",
     "domain": "数与代数",
     "grade": 1,
     "semester": "上",
-    "chapter": "一年级上册 第4单元 11到20的认识",
+    "chapter": "一年级上册 第4单元 11～20的认识",
     "type": "conceptual",
     "description": "能认读写 11 到 20，知道十几是 1 个十和几个一。",
     "mastery_criteria": [
@@ -418,7 +418,7 @@
     "domain": "数与代数",
     "grade": 1,
     "semester": "上",
-    "chapter": "一年级上册 第4单元 11到20的认识",
+    "chapter": "一年级上册 第4单元 11～20的认识",
     "type": "conceptual",
     "description": "知道两位数里十位上的数表示几个十，个位上的数表示几个一。",
     "mastery_criteria": [
@@ -443,7 +443,7 @@
     "domain": "数与代数",
     "grade": 1,
     "semester": "上",
-    "chapter": "一年级上册 第4单元 11到20的认识",
+    "chapter": "一年级上册 第4单元 11～20的认识",
     "type": "procedural",
     "description": "会计算十几加几、十几加整十这类不进位的加法。",
     "mastery_criteria": [
@@ -543,13 +543,13 @@
   },
   {
     "id": "cnm_p022",
-    "name": "用数介绍和简单分类",
+    "name": "找一找、分一分",
     "domain": "综合与实践",
     "grade": 1,
     "semester": "上",
-    "chapter": "一年级上册 综合与实践 数学游戏分享",
+    "chapter": "一年级上册 综合与实践 数学游戏",
     "type": "modeling",
-    "description": "能在游戏里用数介绍自己身边的事物，并按一种标准把物品分成两类。",
+    "description": "能在校园、操场等地方找一找、数一数，用数介绍身边的事物，并按一种标准把物品分成两类。",
     "mastery_criteria": [
       "能用数说出身边事物的个数",
       "能说出自己分类用的标准"
@@ -3890,8 +3890,8 @@
     ],
     "external": false,
     "diagnostic_question": {
-      "question": "一个组合体下层有 4 个小正方体，上层有 2 个。一共有几个小正方体？计算：4＋2＝？",
-      "answer": "6"
+      "question": "只看从正面看到的形状，能不能一定确定组合体的样子？",
+      "answer": "不一定能"
     }
   },
   {
@@ -3908,8 +3908,8 @@
       "能根据因数的小数位数点上小数点"
     ],
     "diagnostic_question": {
-      "question": "计算：0.3×4＝？（用小数作答）",
-      "answer": "1.2"
+      "question": "小数乘整数，积的小数位数怎样确定？",
+      "answer": "和小数因数的小数位数一样"
     },
     "external": false,
     "standards": [
@@ -3933,8 +3933,8 @@
       "能根据两个因数的小数位数确定积的小数点"
     ],
     "diagnostic_question": {
-      "question": "计算：0.3×0.4＝？（用小数作答）",
-      "answer": "0.12"
+      "question": "小数乘小数，积的小数位数等于什么？",
+      "answer": "两个因数小数位数的和"
     },
     "external": false,
     "standards": [
@@ -3958,8 +3958,8 @@
       "能用小数写出得数"
     ],
     "diagnostic_question": {
-      "question": "计算：2.5×6＝？（用小数作答）",
-      "answer": "15"
+      "question": "每小时行 2.4 千米，行 3 小时。一共多少千米？（用小数作答）",
+      "answer": "7.2"
     },
     "external": false,
     "standards": [
@@ -3987,8 +3987,8 @@
       "能把商写成小数"
     ],
     "diagnostic_question": {
-      "question": "计算：0.8÷2＝？（用小数作答）",
-      "answer": "0.4"
+      "question": "小数除以整数，商的小数点要怎样？",
+      "answer": "和被除数的小数点对齐"
     },
     "external": false,
     "standards": [
@@ -4012,8 +4012,8 @@
       "能算出一个数除以小数的商"
     ],
     "diagnostic_question": {
-      "question": "计算：0.8÷0.2＝？（用小数作答）",
-      "answer": "4"
+      "question": "除数是小数时，应先怎样做再除？",
+      "answer": "把除数变成整数"
     },
     "external": false,
     "standards": [
@@ -4037,7 +4037,7 @@
       "能用小数或整数写出商"
     ],
     "diagnostic_question": {
-      "question": "计算：7.2÷8＝？（用小数作答）",
+      "question": "7.2 升果汁平均分给 8 人。每人多少升？（用小数作答）",
       "answer": "0.9"
     },
     "external": false,
@@ -4073,7 +4073,7 @@
     ],
     "external": false,
     "diagnostic_question": {
-      "question": "一个图形旋转之后，大小和形状怎样？",
+      "question": "一个图形平移、旋转或作轴对称之后，大小和形状怎样？",
       "answer": "大小和形状都不变"
     }
   },
@@ -4120,7 +4120,7 @@
       "能用这个性质把未知数单独留在一边"
     ],
     "diagnostic_question": {
-      "question": "方程两边同时加上同一个数，相等关系怎样？",
+      "question": "等式两边同时加上或减去同一个数，相等关系怎样？",
       "answer": "相等关系不变"
     },
     "external": false,
@@ -4145,7 +4145,7 @@
       "能判断土地面积常用公顷"
     ],
     "diagnostic_question": {
-      "question": "公顷是什么单位？",
+      "question": "公顷和平方千米是什么单位？",
       "answer": "面积单位"
     },
     "external": false,
@@ -4178,7 +4178,7 @@
     ],
     "external": false,
     "diagnostic_question": {
-      "question": "平行四边形的高是什么？",
+      "question": "平行四边形的高是哪一种线段？",
       "answer": "从一边上一点到对边的垂直线段"
     }
   },
@@ -4271,7 +4271,7 @@
       "能把分块面积合并"
     ],
     "diagnostic_question": {
-      "question": "一个组合图形可以分成两个长方形，面积分别是 12 平方厘米和 8 平方厘米。这个组合图形的面积是多少平方厘米？",
+      "question": "一个组合图形分成两个长方形，面积分别是 12 平方厘米和 8 平方厘米。这个组合图形的面积是多少平方厘米？",
       "answer": "20"
     },
     "external": false,
@@ -4303,7 +4303,7 @@
     ],
     "external": false,
     "diagnostic_question": {
-      "question": "正三角形每个角是 60°。围绕一个点拼正三角形，几个正好拼满一周？计算：360÷60＝？",
+      "question": "正三角形每个内角是 60 度。围绕一个点拼正三角形，几个正好拼满一周？",
       "answer": "6"
     }
   },
@@ -4322,7 +4322,7 @@
     ],
     "diagnostic_question": {
       "question": "一定发生的事情，可能性怎样？",
-      "answer": "可能性是确定的，一定会发生"
+      "answer": "一定会发生"
     },
     "external": false,
     "standards": [
@@ -4350,8 +4350,8 @@
       "知道可能性相等时机会一样大"
     ],
     "diagnostic_question": {
-      "question": "可能性相等时，几种结果怎样？",
-      "answer": "每种结果的机会一样大"
+      "question": "两种结果的数量一样多时，可能性怎样？",
+      "answer": "两种结果的机会一样大"
     },
     "external": false,
     "standards": [
@@ -4375,8 +4375,8 @@
       "能把积保留到指定的位数"
     ],
     "diagnostic_question": {
-      "question": "计算：1.6×2.4＝？（用小数作答）",
-      "answer": "3.84"
+      "question": "1.6 乘 2.4 的积，用四舍五入法保留一位小数是多少？（用小数作答）",
+      "answer": "3.8"
     },
     "external": false,
     "standards": [
@@ -4431,7 +4431,7 @@
       "能检验求出的解代回原方程"
     ],
     "diagnostic_question": {
-      "question": "计算：40－17＝？",
+      "question": "解方程 x＋17＝40。x 是多少？",
       "answer": "23"
     },
     "external": false,
@@ -4457,8 +4457,8 @@
       "能列出方程并求出未知数"
     ],
     "diagnostic_question": {
-      "question": "买 4 个同样的文具盒付了 28 元。每个多少元？计算：28÷4＝？",
-      "answer": "7"
+      "question": "小明原来有 x 张邮票，又买了 18 张，现在一共有 50 张。下面哪个方程列得对？",
+      "answer": "x＋18＝50"
     },
     "external": false,
     "standards": [
@@ -4487,8 +4487,8 @@
       "能先分清是两端都种还是只种一端"
     ],
     "diagnostic_question": {
-      "question": "植树问题要先分清什么？",
-      "answer": "两端都种、还是只种一端"
+      "question": "两端都种树时，棵数和间隔数是什么关系？",
+      "answer": "棵数比间隔数多 1"
     },
     "external": false,
     "standards": [
@@ -4513,8 +4513,8 @@
       "能判断哪一个物体和给出的视图相符"
     ],
     "diagnostic_question": {
-      "question": "从正面、侧面、上面看简单物体，会怎样？",
-      "answer": "看到的形状可能不一样"
+      "question": "从正面、侧面、上面看同一个简单物体，看到的形状怎样？",
+      "answer": "可能不一样"
     },
     "external": false,
     "standards": [
@@ -4563,7 +4563,7 @@
       "能根据个位判断是不是 5 的倍数"
     ],
     "diagnostic_question": {
-      "question": "偶数的个位是哪些数字？",
+      "question": "2 的倍数，个位是哪些数字？",
       "answer": "0、2、4、6 或 8"
     },
     "external": false,
@@ -4588,7 +4588,7 @@
       "能根据数字和判断是不是 3 的倍数"
     ],
     "diagnostic_question": {
-      "question": "计算：1＋2＋3＝？",
+      "question": "判断 123 是不是 3 的倍数，要先算各位数字之和。1＋2＋3 是多少？",
       "answer": "6"
     },
     "external": false,
@@ -4620,7 +4620,8 @@
     "standards": [
       {
         "id": "cms-2022:3.NA.01",
-        "confidence": "exact"
+        "confidence": "exact",
+        "note": "对应新版第2单元小节「解决问题（探索和的奇偶性）」。"
       }
     ]
   },
@@ -4655,7 +4656,7 @@
     "domain": "数与代数",
     "grade": 5,
     "semester": "下",
-    "chapter": "五年级下册 第2单元 因数与倍数",
+    "chapter": "五年级下册 第4单元 分数的意义和性质",
     "type": "procedural",
     "description": "会求两个数的公因数和最大公因数。",
     "mastery_criteria": [
@@ -4663,14 +4664,15 @@
       "能说出最大公因数"
     ],
     "diagnostic_question": {
-      "question": "计算：12÷6＝？",
-      "answer": "2"
+      "question": "12 和 18 的最大公因数是多少？",
+      "answer": "6"
     },
     "external": false,
     "standards": [
       {
         "id": "cms-2022:3.NA.01",
-        "confidence": "exact"
+        "confidence": "exact",
+        "note": "新版五下把最大公因数放在第4单元约分处讲，本图谱由原第2单元改挂第4单元。"
       }
     ]
   },
@@ -4680,7 +4682,7 @@
     "domain": "数与代数",
     "grade": 5,
     "semester": "下",
-    "chapter": "五年级下册 第2单元 因数与倍数",
+    "chapter": "五年级下册 第4单元 分数的意义和性质",
     "type": "procedural",
     "description": "会求两个数的公倍数和最小公倍数。",
     "mastery_criteria": [
@@ -4695,7 +4697,8 @@
     "standards": [
       {
         "id": "cms-2022:3.NA.01",
-        "confidence": "exact"
+        "confidence": "exact",
+        "note": "新版五下把最小公倍数放在第4单元通分处讲，本图谱由原第2单元改挂第4单元。"
       }
     ]
   },
@@ -4714,7 +4717,7 @@
     ],
     "diagnostic_question": {
       "question": "长方体有几个面？",
-      "answer": "6个"
+      "answer": "6 个"
     },
     "external": false,
     "standards": [
@@ -4738,7 +4741,7 @@
       "能算出正方体六个面的总面积"
     ],
     "diagnostic_question": {
-      "question": "计算：（5×4＋5×3＋4×3）×2＝？",
+      "question": "长 5 厘米、宽 4 厘米、高 3 厘米的长方体，表面积是多少平方厘米？",
       "answer": "94"
     },
     "external": false,
@@ -4817,8 +4820,8 @@
       "知道 1 升＝1000 毫升"
     ],
     "diagnostic_question": {
-      "question": "计算：1×1000＝？",
-      "answer": "1000"
+      "question": "容积指的是什么？",
+      "answer": "容器里面能容纳物体的体积"
     },
     "external": false,
     "standards": [
@@ -4842,7 +4845,7 @@
       "能在具体量里说出一个分数表示多少"
     ],
     "diagnostic_question": {
-      "question": "把一张纸平均分成若干份，涂色的有 5 份，涂色部分是这张纸的 5/8。这张纸被平均分成了几份？",
+      "question": "把一张纸平均分成 8 份，涂色的有 5 份。平均分成了几份？",
       "answer": "8"
     },
     "external": false,
@@ -4859,7 +4862,7 @@
   },
   {
     "id": "cnm_p166",
-    "name": "真分数、假分数和带分数",
+    "name": "真分数和假分数",
     "domain": "数与代数",
     "grade": 5,
     "semester": "下",
@@ -4878,7 +4881,8 @@
     "standards": [
       {
         "id": "cms-2022:3.NA.02",
-        "confidence": "exact"
+        "confidence": "exact",
+        "note": "新版目录作「真分数和假分数」，带分数不单列。"
       }
     ]
   },
@@ -4896,8 +4900,8 @@
       "能说出分数大小不变"
     ],
     "diagnostic_question": {
-      "question": "计算：1×3＝？",
-      "answer": "3"
+      "question": "把 1/2 的分子和分母同时乘 3，得到的新分数，分母是多少？",
+      "answer": "6"
     },
     "external": false,
     "standards": [
@@ -4921,7 +4925,7 @@
       "能把分数约成最简分数"
     ],
     "diagnostic_question": {
-      "question": "计算：6÷8＝？",
+      "question": "把 6/8 约成最简分数。最简分数是多少？",
       "answer": "3/4"
     },
     "external": false,
@@ -4946,14 +4950,15 @@
       "能比较同分子分数"
     ],
     "diagnostic_question": {
-      "question": "计算：3/5－1/5＝？",
-      "answer": "2/5"
+      "question": "比较 3/5 和 1/5 的大小，较大的那个分数是多少？",
+      "answer": "3/5"
     },
     "external": false,
     "standards": [
       {
         "id": "cms-2022:3.NA.02",
-        "confidence": "exact"
+        "confidence": "exact",
+        "note": "新版目录未单列，仍挂第4单元。"
       }
     ]
   },
@@ -4971,7 +4976,7 @@
       "能把一位小数写成十分之几"
     ],
     "diagnostic_question": {
-      "question": "计算：3÷10＝？（用小数作答）",
+      "question": "把 3/10 写成小数是多少？（用小数作答）",
       "answer": "0.3"
     },
     "external": false,
@@ -4996,7 +5001,7 @@
       "能按顺时针或逆时针描述旋转"
     ],
     "diagnostic_question": {
-      "question": "旋转之后，图形的大小和形状怎样？",
+      "question": "图形旋转之后，大小和形状怎样？",
       "answer": "大小和形状都不变"
     },
     "external": false,
@@ -5017,7 +5022,7 @@
     "domain": "数与代数",
     "grade": 5,
     "semester": "下",
-    "chapter": "五年级下册 第6单元 分数的加法和减法",
+    "chapter": "五年级下册 第4单元 分数的意义和性质",
     "type": "procedural",
     "description": "会把异分母分数化成分母相同的分数，公分母常用最小公倍数。",
     "mastery_criteria": [
@@ -5032,7 +5037,8 @@
     "standards": [
       {
         "id": "cms-2022:3.NA.04",
-        "confidence": "exact"
+        "confidence": "exact",
+        "note": "新版五下把通分放在第4单元分数的意义和性质，本图谱由原第6单元改挂第4单元。"
       }
     ]
   },
@@ -5125,8 +5131,8 @@
       "能算出至少称几次"
     ],
     "diagnostic_question": {
-      "question": "找次品时每次要怎样做？",
-      "answer": "把物品分成三份来称"
+      "question": "用天平找 1 个较重或较轻的次品，每次最好怎样分？",
+      "answer": "分成三份来称"
     },
     "external": false,
     "standards": [
@@ -5139,7 +5145,7 @@
   },
   {
     "id": "cnm_p136",
-    "name": "用数对确定位置",
+    "name": "用有序数对确定位置",
     "domain": "图形与几何",
     "grade": 6,
     "semester": "上",
@@ -5158,13 +5164,14 @@
     "standards": [
       {
         "id": "cms-2022:3.GG.09",
-        "confidence": "exact"
+        "confidence": "exact",
+        "note": "新版目录作「用有序数对确定位置」。"
       }
     ]
   },
   {
     "id": "cnm_p180",
-    "name": "根据方向和距离确定位置",
+    "name": "用方向和距离确定位置",
     "domain": "图形与几何",
     "grade": 6,
     "semester": "上",
@@ -5176,14 +5183,15 @@
       "能按方向和距离算出行走的路程"
     ],
     "diagnostic_question": {
-      "question": "计算：300＋200＝？",
-      "answer": "500"
+      "question": "「北偏东 30 度」是从哪一条方向线开始、向哪边偏？",
+      "answer": "从正北方向向东偏 30 度"
     },
     "external": false,
     "standards": [
       {
         "id": "cms-2022:3.GG.08",
-        "confidence": "exact"
+        "confidence": "exact",
+        "note": "新版目录作「用方向和距离确定位置」。"
       }
     ]
   },
@@ -5201,8 +5209,8 @@
       "能把各段距离加起来"
     ],
     "diagnostic_question": {
-      "question": "计算：200＋150＋50＝？",
-      "answer": "400"
+      "question": "从家向东走到学校，再向北走到图书馆。从家到图书馆的第二段朝哪个方向？",
+      "answer": "北"
     },
     "external": false,
     "standards": [
@@ -5239,7 +5247,7 @@
   },
   {
     "id": "cnm_p178",
-    "name": "分数乘分数",
+    "name": "一个数乘分数",
     "domain": "数与代数",
     "grade": 6,
     "semester": "上",
@@ -5258,7 +5266,8 @@
     "standards": [
       {
         "id": "cms-2022:3.NA.04",
-        "confidence": "exact"
+        "confidence": "exact",
+        "note": "新版目录作「一个数乘分数」（含分数乘分数）。"
       }
     ]
   },
@@ -5359,7 +5368,7 @@
       "能列式并算出结果"
     ],
     "diagnostic_question": {
-      "question": "计算：12÷（3/4）＝？",
+      "question": "一个数的 3/4 是 12。这个数是多少？",
       "answer": "16"
     },
     "external": false,
@@ -5488,7 +5497,7 @@
       "能根据直径求周长"
     ],
     "diagnostic_question": {
-      "question": "半径 2 厘米的圆，周长是多少厘米？圆周率按 314/100。",
+      "question": "半径 2 厘米的圆，周长是多少厘米？圆周率按 314/100。（用小数作答）",
       "answer": "12.56"
     },
     "external": false,
@@ -5513,8 +5522,8 @@
       "能代入半径或直径计算"
     ],
     "diagnostic_question": {
-      "question": "半径 1 厘米的圆，周长是多少厘米？圆周率按 314/100。",
-      "answer": "6.28"
+      "question": "自行车车轮的直径是 50 厘米。车轮滚动一周，大约前进多少厘米？圆周率按 314/100。",
+      "answer": "157"
     },
     "external": false,
     "standards": [
@@ -5538,7 +5547,7 @@
       "能算出简单的圆面积"
     ],
     "diagnostic_question": {
-      "question": "半径 2 厘米的圆，面积是多少平方厘米？圆周率按 314/100。",
+      "question": "半径 2 厘米的圆，面积是多少平方厘米？圆周率按 314/100。（用小数作答）",
       "answer": "12.56"
     },
     "external": false,
@@ -5563,8 +5572,8 @@
       "能比较圆心角较大时扇形也较大"
     ],
     "diagnostic_question": {
-      "question": "计算：2＋1＝？",
-      "answer": "3"
+      "question": "扇形是由什么围成的图形？",
+      "answer": "两条半径和一段弧"
     },
     "external": false,
     "standards": [
@@ -5596,8 +5605,8 @@
     ],
     "external": false,
     "diagnostic_question": {
-      "question": "跑道一圈 400 米，跑 5 圈一共多少米？计算：400×5＝？",
-      "answer": "2000"
+      "question": "小明跳远三次的成绩是 3.2 米、3.5 米、3.4 米，取最好成绩。最好成绩是多少米？（用小数作答）",
+      "answer": "3.5"
     }
   },
   {
@@ -5640,7 +5649,7 @@
       "能把小数化成百分数"
     ],
     "diagnostic_question": {
-      "question": "把百分数 35% 化成小数，是多少？",
+      "question": "把百分数 35% 化成小数，是多少？（用小数作答）",
       "answer": "0.35"
     },
     "external": false,
@@ -5692,7 +5701,7 @@
       "能把得数写成百分数"
     ],
     "diagnostic_question": {
-      "question": "计算：20÷80×100＝？",
+      "question": "40 人里有 10 人达标。达标率是百分之几？（只写百分号前面的数）",
       "answer": "25"
     },
     "external": false,
@@ -5718,7 +5727,7 @@
       "能算出原来的数"
     ],
     "diagnostic_question": {
-      "question": "计算：20÷0.4＝？（用小数作答）",
+      "question": "一个数的 40% 是 20。这个数是多少？",
       "answer": "50"
     },
     "external": false,
@@ -5770,7 +5779,7 @@
       "能算出一年的利息"
     ],
     "diagnostic_question": {
-      "question": "200 的 3% 是多少？",
+      "question": "把 200 元存一年，年利率 3%。一年的利息是多少元？",
       "answer": "6"
     },
     "external": false,
@@ -5830,9 +5839,139 @@
     ],
     "external": false,
     "diagnostic_question": {
-      "question": "一个水龙头每天漏水 2 升，30 天一共漏水多少升？计算：2×30＝？",
+      "question": "一个水龙头每天漏水 2 升，30 天一共漏水多少升？",
       "answer": "60"
     }
+  },
+  {
+    "id": "cnm_p243",
+    "name": "同分母分数加减",
+    "domain": "数与代数",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第6单元 分数的加法和减法",
+    "type": "procedural",
+    "description": "会计算同分母分数的加法和减法，分母不变，只把分子相加或相减，结果能约分的要约成最简分数。",
+    "mastery_criteria": [
+      "能算出同分母分数相加相减",
+      "能把得数约成最简分数"
+    ],
+    "diagnostic_question": {
+      "question": "计算：3/8＋1/8＝？",
+      "answer": "1/2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:3.NA.04",
+        "confidence": "exact",
+        "note": "新版五下第6单元从同分母分数加减起步，三上只学分母相同且得数不超过 1 的简单情形。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p244",
+    "name": "探索图形",
+    "domain": "综合与实践",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 综合与实践 探索图形",
+    "type": "reasoning",
+    "description": "用小正方体拼摆、剪开展开等活动，探索长方体和正方体的棱长、体积、表面积和展开图之间的关系。",
+    "mastery_criteria": [
+      "能由拼摆的块数推出长、宽、高",
+      "能算出两个正方体并排拼合后的表面积"
+    ],
+    "diagnostic_question": {
+      "question": "用 8 个棱长 1 厘米的小正方体拼成一个大正方体。大正方体的棱长是多少厘米？",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:3.GG.05",
+        "confidence": "inferred",
+        "note": "新版五下综合与实践「探索图形」；按拼摆、展开类活动自编，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p245",
+    "name": "怎样通知最快",
+    "domain": "综合与实践",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 综合与实践 怎样通知最快",
+    "type": "reasoning",
+    "description": "会用「已经知道通知的人也一起打电话」的办法安排通知，知道每过一轮知道的人数最多翻一倍，能推出最少需要几轮。",
+    "mastery_criteria": [
+      "能算出每一轮结束后最多有几人知道通知",
+      "能推出通知若干人最少需要几轮"
+    ],
+    "diagnostic_question": {
+      "question": "老师先打电话通知 1 位同学，用了 1 分钟。这时一共有几人知道这条通知（含老师）？",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:3.NA.06",
+        "confidence": "inferred",
+        "note": "新版五下综合与实践「怎样通知最快」；按打电话通知的最优安排自编，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p246",
+    "name": "倒数的认识",
+    "domain": "数与代数",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第3单元 分数除法",
+    "type": "conceptual",
+    "description": "知道乘积是 1 的两个数互为倒数，会求一个数（整数或分数）的倒数。",
+    "mastery_criteria": [
+      "能判断两个数是否互为倒数",
+      "会求整数或分数的倒数"
+    ],
+    "diagnostic_question": {
+      "question": "3/4 的倒数是多少？",
+      "answer": "4/3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:3.NA.04",
+        "confidence": "inferred",
+        "note": "新版六上第3单元首节「倒数的认识」；内容要求未点名倒数，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p247",
+    "name": "分数、小数混合运算及运算律",
+    "domain": "数与代数",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第2单元 分数乘法",
+    "type": "procedural",
+    "description": "会进行分数与小数的混合运算，能用乘法运算律使计算简便。",
+    "mastery_criteria": [
+      "能正确计算分数与小数的两步混合运算",
+      "能用运算律进行简便计算"
+    ],
+    "diagnostic_question": {
+      "question": "计算：0.5×2/5＝？",
+      "answer": "1/5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:3.NA.04",
+        "confidence": "inferred",
+        "note": "新版六上第2单元小节「分数、小数混合运算及运算律」；按目录自编，待核。"
+      }
+    ]
   },
   {
     "id": "cnm_p216",
@@ -5840,7 +5979,7 @@
     "domain": "综合与实践",
     "grade": 6,
     "semester": "上",
-    "chapter": "六年级上册 第7单元 数学广角——鸽巢问题",
+    "chapter": "六年级上册 第6单元 复习与关联",
     "type": "reasoning",
     "description": "知道物体数比抽屉数多时，必有一个抽屉至少放两个物体。",
     "mastery_criteria": [
@@ -5856,7 +5995,7 @@
       {
         "id": "cms-2022:3.NA.06",
         "confidence": "inferred",
-        "note": "鸽巢问题是现行六年级下册数学广角，内容要求没有同名条款，待核。"
+        "note": "新版六上无独立数学广角单元；鸽巢问题见第6单元复习与关联「应用提升」，本图谱改挂此处（原误挂第7单元数学广角）。内容要求没有同名条款，待核。"
       }
     ]
   },
@@ -5899,7 +6038,7 @@
       "能用底面积×高求体积"
     ],
     "diagnostic_question": {
-      "question": "底面半径 2 厘米、高 5 厘米的圆柱，体积是多少立方厘米？圆周率按 314/100。",
+      "question": "底面半径 2 厘米、高 5 厘米的圆柱，体积是多少立方厘米？圆周率按 314/100。（用小数作答）",
       "answer": "62.8"
     },
     "external": false,
@@ -5924,14 +6063,40 @@
       "能把侧面积和底面积相加"
     ],
     "diagnostic_question": {
-      "question": "计算：12.56＋12.56＝？（用小数作答）",
-      "answer": "25.12"
+      "question": "圆柱的表面积包括哪几个面？",
+      "answer": "两个底面和一个侧面"
     },
     "external": false,
     "standards": [
       {
         "id": "cms-2022:3.GG.05",
         "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p248",
+    "name": "圆锥的认识",
+    "domain": "图形与几何",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第3单元 圆柱与圆锥",
+    "type": "conceptual",
+    "description": "认识圆锥的底面、高和顶点，知道底面是圆，从顶点到底面圆心的距离是高。",
+    "mastery_criteria": [
+      "能说出圆锥的底面是一个圆",
+      "能指出圆锥的高和顶点"
+    ],
+    "diagnostic_question": {
+      "question": "圆锥的底面是什么形状？",
+      "answer": "是一个圆"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:3.GG.05",
+        "confidence": "exact",
+        "note": "现行六下第3单元「圆锥的认识」；新版六下未出，按 dzkbw xs6x_new 小节补点。"
       }
     ]
   },
@@ -5943,14 +6108,14 @@
     "semester": "下",
     "chapter": "六年级下册 第3单元 圆柱与圆锥",
     "type": "procedural",
-    "description": "知道圆锥的体积是等底等高圆柱体积的三分之一。",
+    "description": "知道圆锥的体积是等底等高圆柱体积的三分之一，会用公式计算圆锥体积。",
     "mastery_criteria": [
       "能说出圆锥体积等于等底等高圆柱的三分之一",
       "能计算简单的圆锥体积"
     ],
     "diagnostic_question": {
-      "question": "圆锥的底面是什么形状？",
-      "answer": "是一个圆"
+      "question": "等底等高的圆锥体积是同底同高圆柱体积的几分之几？",
+      "answer": "三分之一"
     },
     "external": false,
     "standards": [
@@ -6024,7 +6189,7 @@
       "能按比算出各部分"
     ],
     "diagnostic_question": {
-      "question": "计算：30÷（2＋3）×2＝？",
+      "question": "把 30 按 2：3 分成两份，与 2 对应的那一份是多少？",
       "answer": "12"
     },
     "external": false,
@@ -6074,7 +6239,7 @@
       "能求出未知项"
     ],
     "diagnostic_question": {
-      "question": "2：3＝8：x。x 是多少？计算：8×3÷2＝？",
+      "question": "2：3＝8：x。x 是多少？",
       "answer": "12"
     },
     "external": false,
@@ -6115,6 +6280,32 @@
       {
         "id": "cms-2022:3.NA.08",
         "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p249",
+    "name": "图形的放大与缩小",
+    "domain": "图形与几何",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第4单元 比例",
+    "type": "procedural",
+    "description": "会按给定的比把简单图形放大或缩小，知道对应边成比例、对应角相等。",
+    "mastery_criteria": [
+      "能按给定的比算出放大或缩小后的边长",
+      "知道放大或缩小后图形的形状不变"
+    ],
+    "diagnostic_question": {
+      "question": "把边长 2 厘米的正方形按 1:3 放大，新正方形边长是多少厘米？",
+      "answer": "6"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:3.GG.04",
+        "confidence": "inferred",
+        "note": "现行六下第4单元「图形的放大与缩小」；按目录自编，待核。新版六下未出。"
       }
     ]
   },
@@ -6184,7 +6375,7 @@
       "能列出比例并求出未知数"
     ],
     "diagnostic_question": {
-      "question": "3 本笔记本 12 元，同样的笔记本 5 本多少元？计算：12÷3×5＝？",
+      "question": "3 本同样的笔记本 12 元，5 本多少元？",
       "answer": "20"
     },
     "external": false,
@@ -6192,6 +6383,151 @@
       {
         "id": "cms-2022:3.NA.08",
         "confidence": "exact"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p250",
+    "name": "自行车里的数学",
+    "domain": "综合与实践",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 综合与实践 自行车里的数学",
+    "type": "reasoning",
+    "description": "综合运用圆、比例等知识，探究普通自行车和变速自行车中齿数比与行进距离的关系。",
+    "mastery_criteria": [
+      "能根据齿数比判断踏一圈车轮大约转几圈",
+      "能比较不同档位下骑行同样距离谁更省力或更快"
+    ],
+    "diagnostic_question": {
+      "question": "自行车前齿轮 48 齿、后齿轮 16 齿。脚蹬转 1 圈，后轮大约转几圈？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:3.NA.08",
+        "confidence": "inferred",
+        "note": "现行六下综合与实践「自行车里的数学」；按齿数比与行进关系自编，待核。新版六下未出。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p251",
+    "name": "5、4、3、2加几",
+    "domain": "数与代数",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "一年级上册 第5单元 20以内的进位加法",
+    "type": "procedural",
+    "description": "会用凑十法计算 5、4、3、2 加几（得数在 11 到 14），如 4＋9、3＋8：可先把大数放在前面，再凑十。",
+    "mastery_criteria": [
+      "能把 4＋9 看成 9＋4 再凑十",
+      "能算出 5、4、3、2 加几的得数"
+    ],
+    "diagnostic_question": {
+      "question": "计算：4＋9＝？",
+      "answer": "13"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:1.NA.04",
+        "confidence": "exact",
+        "note": "依据 dzkbw xs1s_2024（2024 秋）小节补点。"
+      },
+      {
+        "id": "cms-2022:1.NA.07",
+        "confidence": "inferred",
+        "note": "依据 dzkbw xs1s_2024（2024 秋）小节补点。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p252",
+    "name": "逆向用加法解决问题",
+    "domain": "数与代数",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "一年级上册 第5单元 20以内的进位加法",
+    "type": "application",
+    "description": "已知总数和其中一部分，求另一部分时，会想「加几等于总数」来解决问题，如 9＋□＝15。",
+    "mastery_criteria": [
+      "能说出已知什么、要求什么",
+      "能用「想加算减」求出另一部分"
+    ],
+    "diagnostic_question": {
+      "question": "9＋□＝15，□ 里应填几？",
+      "answer": "6"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:1.NA.03",
+        "confidence": "exact",
+        "note": "依据 dzkbw xs1s_2024（2024 秋）小节补点。"
+      },
+      {
+        "id": "cms-2022:1.NA.07",
+        "confidence": "exact",
+        "note": "依据 dzkbw xs1s_2024（2024 秋）小节补点。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p253",
+    "name": "用加减法解决问题",
+    "domain": "数与代数",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "一年级上册 第2单元 6～10的认识和加、减法",
+    "type": "application",
+    "description": "会从图画和生活情境中找出已知的数和要求的问题，用 10 以内的加法或减法解决，并说出得数的意思。",
+    "mastery_criteria": [
+      "能分清「合起来」用加法、「去掉」用减法",
+      "能列出算式并算出得数"
+    ],
+    "diagnostic_question": {
+      "question": "树上有 6 只鸟，又飞来 3 只。现在有几只？计算：6＋3＝？",
+      "answer": "9"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:1.NA.07",
+        "confidence": "exact",
+        "note": "依据 dzkbw xs1s_2024（2024 秋）小节补点。"
+      },
+      {
+        "id": "cms-2022:1.NA.04",
+        "confidence": "inferred",
+        "note": "依据 dzkbw xs1s_2024（2024 秋）小节补点。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p254",
+    "name": "拼一拼",
+    "domain": "图形与几何",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "一年级上册 第3单元 认识立体图形",
+    "type": "application",
+    "description": "会用长方体、正方体、圆柱和球等立体图形拼搭简单的物体，知道哪些形状能稳稳叠放、哪些容易滚动。",
+    "mastery_criteria": [
+      "能用积木拼出简单的物体",
+      "知道球容易滚动，不适合叠在下面"
+    ],
+    "diagnostic_question": {
+      "question": "球、圆柱、长方体、正方体中，哪一个怎么放都会滚动？",
+      "answer": "球"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:1.GG.01",
+        "confidence": "inferred",
+        "note": "依据 dzkbw xs1s_2024（2024 秋）小节补点。"
       }
     ]
   },
@@ -6235,8 +6571,8 @@
       "能按规律算出下一项"
     ],
     "diagnostic_question": {
-      "question": "用小圆点摆正方形点阵：第 1 个图有 1 个点，第 2 个图有 4 个点，第 3 个图有 9 个点。第 2 个图比第 1 个图多几个点？",
-      "answer": "3"
+      "question": "用小圆点摆正方形点阵：第 1 个图有 1 个点，第 2 个图有 4 个点，第 3 个图有 9 个点。第 5 个图有多少个点？",
+      "answer": "25"
     },
     "external": false,
     "standards": [

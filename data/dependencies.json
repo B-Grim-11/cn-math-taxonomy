@@ -39,13 +39,13 @@
     "topicId": "cnm_p008",
     "prerequisiteId": "cnm_p001",
     "strength": "hard",
-    "reason": "学习「6到10各数的认识」需要先掌握「1到5各数的认识」。"
+    "reason": "学习「6～10各数的认识」需要先掌握「1到5各数的认识」。"
   },
   {
     "topicId": "cnm_p009",
     "prerequisiteId": "cnm_p008",
     "strength": "hard",
-    "reason": "学习「10以内数的比较」需要先掌握「6到10各数的认识」。"
+    "reason": "学习「10以内数的比较」需要先掌握「6～10各数的认识」。"
   },
   {
     "topicId": "cnm_p009",
@@ -63,7 +63,7 @@
     "topicId": "cnm_p010",
     "prerequisiteId": "cnm_p008",
     "strength": "hard",
-    "reason": "学习「10以内的加法」需要先掌握「6到10各数的认识」。"
+    "reason": "学习「10以内的加法」需要先掌握「6～10各数的认识」。"
   },
   {
     "topicId": "cnm_p011",
@@ -105,13 +105,13 @@
     "topicId": "cnm_p016",
     "prerequisiteId": "cnm_p008",
     "strength": "hard",
-    "reason": "学习「11到20各数的认识」需要先掌握「6到10各数的认识」。"
+    "reason": "学习「11～20各数的认识」需要先掌握「6～10各数的认识」。"
   },
   {
     "topicId": "cnm_p017",
     "prerequisiteId": "cnm_p016",
     "strength": "hard",
-    "reason": "学习「十位和个位」需要先掌握「11到20各数的认识」。"
+    "reason": "学习「十位和个位」需要先掌握「11～20各数的认识」。"
   },
   {
     "topicId": "cnm_p018",
@@ -147,7 +147,7 @@
     "topicId": "cnm_p022",
     "prerequisiteId": "cnm_p008",
     "strength": "hard",
-    "reason": "学习「用数介绍和简单分类」需要先掌握「6到10各数的认识」。"
+    "reason": "学习「找一找、分一分」需要先掌握「6～10各数的认识」。"
   },
   {
     "topicId": "cnm_p023",
@@ -189,7 +189,7 @@
     "topicId": "cnm_p028",
     "prerequisiteId": "cnm_p016",
     "strength": "hard",
-    "reason": "学习「100以内数的认识」需要先掌握「11到20各数的认识」。"
+    "reason": "学习「100以内数的认识」需要先掌握「11～20各数的认识」。"
   },
   {
     "topicId": "cnm_p029",
@@ -273,7 +273,7 @@
     "topicId": "cnm_p037",
     "prerequisiteId": "cnm_p022",
     "strength": "hard",
-    "reason": "学习「分类与整理」需要先掌握「用数介绍和简单分类」。"
+    "reason": "学习「分类与整理」需要先掌握「找一找、分一分」。"
   },
   {
     "topicId": "cnm_p037",
@@ -297,7 +297,7 @@
     "topicId": "cnm_p040",
     "prerequisiteId": "cnm_p008",
     "strength": "hard",
-    "reason": "学习「认识厘米」需要先掌握「6到10各数的认识」。"
+    "reason": "学习「认识厘米」需要先掌握「6～10各数的认识」。"
   },
   {
     "topicId": "cnm_p041",
@@ -1071,7 +1071,7 @@
     "topicId": "cnm_p136",
     "prerequisiteId": "cnm_p082",
     "strength": "hard",
-    "reason": "学习「用数对确定位置」需要先掌握「东北、东南、西北、西南」。"
+    "reason": "学习「用有序数对确定位置」需要先掌握「东北、东南、西北、西南」。"
   },
   {
     "topicId": "cnm_p137",
@@ -1323,7 +1323,7 @@
     "topicId": "cnm_p166",
     "prerequisiteId": "cnm_p165",
     "strength": "hard",
-    "reason": "学习「真分数、假分数和带分数」需要先掌握「分数的意义」。"
+    "reason": "学习「真分数和假分数」需要先掌握「分数的意义」。"
   },
   {
     "topicId": "cnm_p167",
@@ -1449,19 +1449,19 @@
     "topicId": "cnm_p178",
     "prerequisiteId": "cnm_p177",
     "strength": "hard",
-    "reason": "学习「分数乘分数」需要先掌握「分数乘整数」。"
+    "reason": "学习「一个数乘分数」需要先掌握「分数乘整数」。"
   },
   {
     "topicId": "cnm_p178",
     "prerequisiteId": "cnm_p133",
     "strength": "hard",
-    "reason": "学习「分数乘分数」需要先掌握「小数乘小数」。"
+    "reason": "学习「一个数乘分数」需要先掌握「小数乘小数」。"
   },
   {
     "topicId": "cnm_p179",
     "prerequisiteId": "cnm_p178",
     "strength": "hard",
-    "reason": "学习「分数乘法的应用」需要先掌握「分数乘分数」。"
+    "reason": "学习「分数乘法的应用」需要先掌握「一个数乘分数」。"
   },
   {
     "topicId": "cnm_p179",
@@ -1473,25 +1473,25 @@
     "topicId": "cnm_p180",
     "prerequisiteId": "cnm_p136",
     "strength": "hard",
-    "reason": "学习「根据方向和距离确定位置」需要先掌握「用数对确定位置」。"
+    "reason": "学习「用方向和距离确定位置」需要先掌握「用有序数对确定位置」。"
   },
   {
     "topicId": "cnm_p180",
     "prerequisiteId": "cnm_p099",
     "strength": "hard",
-    "reason": "学习「根据方向和距离确定位置」需要先掌握「线段、直线和射线」。"
+    "reason": "学习「用方向和距离确定位置」需要先掌握「线段、直线和射线」。"
   },
   {
     "topicId": "cnm_p181",
     "prerequisiteId": "cnm_p180",
     "strength": "hard",
-    "reason": "学习「描述简单路线图」需要先掌握「根据方向和距离确定位置」。"
+    "reason": "学习「描述简单路线图」需要先掌握「用方向和距离确定位置」。"
   },
   {
     "topicId": "cnm_p182",
     "prerequisiteId": "cnm_p178",
     "strength": "hard",
-    "reason": "学习「分数除以整数」需要先掌握「分数乘分数」。"
+    "reason": "学习「分数除以整数」需要先掌握「一个数乘分数」。"
   },
   {
     "topicId": "cnm_p183",
@@ -1746,12 +1746,6 @@
     "reason": "学习「圆柱的体积」需要先掌握「长方体和正方体的体积」。"
   },
   {
-    "topicId": "cnm_p208",
-    "prerequisiteId": "cnm_p207",
-    "strength": "hard",
-    "reason": "学习「圆柱的表面积」需要先掌握「圆柱的体积」。"
-  },
-  {
     "topicId": "cnm_p209",
     "prerequisiteId": "cnm_p207",
     "strength": "hard",
@@ -1785,7 +1779,7 @@
     "topicId": "cnm_p212",
     "prerequisiteId": "cnm_p180",
     "strength": "hard",
-    "reason": "学习「比例尺」需要先掌握「根据方向和距离确定位置」。"
+    "reason": "学习「比例尺」需要先掌握「用方向和距离确定位置」。"
   },
   {
     "topicId": "cnm_p213",
@@ -1917,7 +1911,7 @@
     "topicId": "cnm_081",
     "prerequisiteId": "cnm_p136",
     "strength": "hard",
-    "reason": "学习「有序数对」需要先会小学的「用数对确定位置」。小学已学用数对表示位置。"
+    "reason": "学习「有序数对」需要先会小学的「用有序数对确定位置」。小学已学用数对表示位置。"
   },
   {
     "topicId": "cnm_102",
@@ -13326,6 +13320,60 @@
     "reason": "学习「水是生命之源」需要先掌握「分数乘法的应用」。"
   },
   {
+    "topicId": "cnm_p243",
+    "prerequisiteId": "cnm_p080",
+    "strength": "hard",
+    "reason": "学习「同分母分数加减」需要先掌握「同分母分数的初步加减」。"
+  },
+  {
+    "topicId": "cnm_p243",
+    "prerequisiteId": "cnm_p165",
+    "strength": "hard",
+    "reason": "学习「同分母分数加减」需要先掌握「分数的意义」。"
+  },
+  {
+    "topicId": "cnm_p243",
+    "prerequisiteId": "cnm_p168",
+    "strength": "soft",
+    "reason": "学习「同分母分数加减」需要先掌握「约分」。"
+  },
+  {
+    "topicId": "cnm_p173",
+    "prerequisiteId": "cnm_p243",
+    "strength": "hard",
+    "reason": "学习「异分母分数加减」需要先掌握「同分母分数加减」。"
+  },
+  {
+    "topicId": "cnm_p244",
+    "prerequisiteId": "cnm_p160",
+    "strength": "hard",
+    "reason": "学习「探索图形」需要先掌握「长方体和正方体的认识」。"
+  },
+  {
+    "topicId": "cnm_p244",
+    "prerequisiteId": "cnm_p161",
+    "strength": "soft",
+    "reason": "学习「探索图形」需要先掌握「长方体的表面积」。"
+  },
+  {
+    "topicId": "cnm_p245",
+    "prerequisiteId": "cnm_p057",
+    "strength": "hard",
+    "reason": "学习「怎样通知最快」需要先掌握「乘加乘减的运算顺序」。"
+  },
+  {
+    "topicId": "cnm_p245",
+    "prerequisiteId": "cnm_p174",
+    "strength": "soft",
+    "reason": "学习「怎样通知最快」需要先掌握「分数加减混合」。"
+  },
+  {
+    "topicId": "cnm_p176",
+    "prerequisiteId": "cnm_p245",
+    "strength": "soft",
+    "reason": "学习「找次品」需要先掌握「怎样通知最快」。"
+  },
+  {
     "topicId": "cnm_p058",
     "prerequisiteId": "cnm_p223",
     "strength": "hard",
@@ -21424,5 +21472,155 @@
     "prerequisiteId": "cnc_p483",
     "strength": "hard",
     "reason": "写毕业赠言之前，要先会围绕一个意思选择材料。"
+  },
+  {
+    "topicId": "cnm_p246",
+    "prerequisiteId": "cnm_p178",
+    "strength": "hard",
+    "reason": "学习「倒数的认识」需要先掌握「一个数乘分数」。"
+  },
+  {
+    "topicId": "cnm_p246",
+    "prerequisiteId": "cnm_p177",
+    "strength": "soft",
+    "reason": "「分数乘整数」对学习「倒数的认识」有帮助，但不会前者也可以开始学后者。"
+  },
+  {
+    "topicId": "cnm_p182",
+    "prerequisiteId": "cnm_p246",
+    "strength": "hard",
+    "reason": "学习「分数除以整数」需要先掌握「倒数的认识」。"
+  },
+  {
+    "topicId": "cnm_p247",
+    "prerequisiteId": "cnm_p178",
+    "strength": "hard",
+    "reason": "学习「分数、小数混合运算及运算律」需要先掌握「一个数乘分数」。"
+  },
+  {
+    "topicId": "cnm_p247",
+    "prerequisiteId": "cnm_p133",
+    "strength": "hard",
+    "reason": "学习「分数、小数混合运算及运算律」需要先掌握「小数乘小数」。"
+  },
+  {
+    "topicId": "cnm_p247",
+    "prerequisiteId": "cnm_p117",
+    "strength": "soft",
+    "reason": "「用运算律简便计算」对学习「分数、小数混合运算及运算律」有帮助，但不会前者也可以开始学后者。"
+  },
+  {
+    "topicId": "cnm_p179",
+    "prerequisiteId": "cnm_p247",
+    "strength": "soft",
+    "reason": "「分数、小数混合运算及运算律」对学习「分数乘法的应用」有帮助，但不会前者也可以开始学后者。"
+  },
+  {
+    "topicId": "cnm_p208",
+    "prerequisiteId": "cnm_p206",
+    "strength": "hard",
+    "reason": "学习「圆柱的表面积」需要先掌握「圆柱的认识」。"
+  },
+  {
+    "topicId": "cnm_p208",
+    "prerequisiteId": "cnm_p190",
+    "strength": "soft",
+    "reason": "求圆柱侧面积常用底面周长×高，宜先熟悉「圆的周长」。"
+  },
+  {
+    "topicId": "cnm_p248",
+    "prerequisiteId": "cnm_p206",
+    "strength": "hard",
+    "reason": "学习「圆锥的认识」宜先掌握「圆柱的认识」，对照底面与高。"
+  },
+  {
+    "topicId": "cnm_p248",
+    "prerequisiteId": "cnm_p188",
+    "strength": "hard",
+    "reason": "圆锥底面是圆，需先掌握「圆的认识」。"
+  },
+  {
+    "topicId": "cnm_p209",
+    "prerequisiteId": "cnm_p248",
+    "strength": "hard",
+    "reason": "学习「圆锥的体积」需要先掌握「圆锥的认识」。"
+  },
+  {
+    "topicId": "cnm_p249",
+    "prerequisiteId": "cnm_p212",
+    "strength": "hard",
+    "reason": "图形放大缩小与比例尺同属按比变换，需先掌握「比例尺」。"
+  },
+  {
+    "topicId": "cnm_p249",
+    "prerequisiteId": "cnm_p210",
+    "strength": "soft",
+    "reason": "理解对应边成比例，宜先熟悉「比例的意义和基本性质」。"
+  },
+  {
+    "topicId": "cnm_p250",
+    "prerequisiteId": "cnm_p185",
+    "strength": "hard",
+    "reason": "齿数比是比，需先掌握「比的意义」。"
+  },
+  {
+    "topicId": "cnm_p250",
+    "prerequisiteId": "cnm_p190",
+    "strength": "hard",
+    "reason": "车轮周长用圆的周长，需先掌握「圆的周长」。"
+  },
+  {
+    "topicId": "cnm_p250",
+    "prerequisiteId": "cnm_p213",
+    "strength": "soft",
+    "reason": "档位与行进关系可联系正比例思考。"
+  },
+  {
+    "topicId": "cnm_p251",
+    "prerequisiteId": "cnm_p021",
+    "strength": "hard",
+    "reason": "学习「5、4、3、2加几」需要先掌握「8、7、6加几」。"
+  },
+  {
+    "topicId": "cnm_p252",
+    "prerequisiteId": "cnm_p021",
+    "strength": "hard",
+    "reason": "学习「逆向用加法解决问题」需要先掌握「8、7、6加几」。"
+  },
+  {
+    "topicId": "cnm_p252",
+    "prerequisiteId": "cnm_p251",
+    "strength": "hard",
+    "reason": "学习「逆向用加法解决问题」需要先掌握「5、4、3、2加几」。"
+  },
+  {
+    "topicId": "cnm_p253",
+    "prerequisiteId": "cnm_p010",
+    "strength": "hard",
+    "reason": "学习「用加减法解决问题」需要先掌握「10以内的加法」。"
+  },
+  {
+    "topicId": "cnm_p253",
+    "prerequisiteId": "cnm_p011",
+    "strength": "hard",
+    "reason": "学习「用加减法解决问题」需要先掌握「10以内的减法」。"
+  },
+  {
+    "topicId": "cnm_p254",
+    "prerequisiteId": "cnm_p014",
+    "strength": "hard",
+    "reason": "学习「拼一拼」需要先掌握「认识长方体、正方体、圆柱和球」。"
+  },
+  {
+    "topicId": "cnm_p027",
+    "prerequisiteId": "cnm_p251",
+    "strength": "soft",
+    "reason": "「5、4、3、2加几」对学习「十几减5、4、3、2」有帮助，但不会前者也可以开始学后者。"
+  },
+  {
+    "topicId": "cnm_p025",
+    "prerequisiteId": "cnm_p252",
+    "strength": "soft",
+    "reason": "「逆向用加法解决问题」中的「想加算减」对学习「十几减9」有帮助，但不会前者也可以开始学后者。"
   }
 ]
