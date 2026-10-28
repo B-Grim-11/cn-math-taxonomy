@@ -214117,5 +214117,257 @@
     "answer": "2",
     "explanation": "传动比 36÷12＝3，后轮转 6 圈需脚蹬 6÷3＝2 圈。",
     "verify": "6/(36/12)"
+  },
+  {
+    "id": "cnm_p251_q1",
+    "topicId": "cnm_p251",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "计算：4＋9＝？",
+    "answer": "13",
+    "explanation": "4＋9 可以看成 9＋4，9＋1＝10，10＋3＝13。",
+    "verify": "4+9"
+  },
+  {
+    "id": "cnm_p251_q2",
+    "topicId": "cnm_p251",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "计算：5＋7＝？",
+    "answer": "12",
+    "explanation": "5＋7 可以看成 7＋5，7＋3＝10，10＋2＝12。",
+    "verify": "5+7"
+  },
+  {
+    "id": "cnm_p251_q3",
+    "topicId": "cnm_p251",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "算 3＋9 时，先看成 9＋3。9 再加几就凑成 10？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "3"
+      },
+      {
+        "key": "D",
+        "text": "10"
+      }
+    ],
+    "answer": "B",
+    "explanation": "9＋1＝10，所以先拿 1，再加剩下的 2，得 12。",
+    "verify": "'1'"
+  },
+  {
+    "id": "cnm_p251_q4",
+    "topicId": "cnm_p251",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "有 2 个红球，又拿来 9 个蓝球。一共有多少个？计算：2＋9＝？",
+    "answer": "11",
+    "explanation": "2＋9 可以看成 9＋2，9＋1＝10，10＋1＝11。",
+    "verify": "2+9"
+  },
+  {
+    "id": "cnm_p252_q1",
+    "topicId": "cnm_p252",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "9＋□＝15，□ 里应填几？",
+    "answer": "6",
+    "explanation": "想：9 加几得 15？9＋6＝15，所以填 6。",
+    "verify": "15-9"
+  },
+  {
+    "id": "cnm_p252_q2",
+    "topicId": "cnm_p252",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "□＋8＝13，□ 里应填几？",
+    "answer": "5",
+    "explanation": "想：几加 8 得 13？5＋8＝13，所以填 5。",
+    "verify": "13-8"
+  },
+  {
+    "id": "cnm_p252_q3",
+    "topicId": "cnm_p252",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "停车场里有 8 辆车，再开来几辆就有 14 辆？想：8＋□＝14，□＝？",
+    "answer": "6",
+    "explanation": "8＋6＝14，再开来 6 辆。",
+    "verify": "14-8"
+  },
+  {
+    "id": "cnm_p252_q4",
+    "topicId": "cnm_p252",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "小明有 9 本书，想凑成 16 本，还要几本？下面哪个算式能算出来？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "16－9"
+      },
+      {
+        "key": "B",
+        "text": "16＋9"
+      },
+      {
+        "key": "C",
+        "text": "9＋16"
+      }
+    ],
+    "answer": "A",
+    "explanation": "要求的是 9 加几得 16，可以用 16－9 算，也可以想 9＋□＝16。",
+    "verify": "'16－9'"
+  },
+  {
+    "id": "cnm_p253_q1",
+    "topicId": "cnm_p253",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "树上有 6 只鸟，又飞来 3 只。现在有几只？计算：6＋3＝？",
+    "answer": "9",
+    "explanation": "把两部分合起来，用加法：6＋3＝9。",
+    "verify": "6+3"
+  },
+  {
+    "id": "cnm_p253_q2",
+    "topicId": "cnm_p253",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "盘子里有 9 个苹果，吃掉 4 个。还剩几个？计算：9－4＝？",
+    "answer": "5",
+    "explanation": "吃掉就是去掉一部分，用减法：9－4＝5。",
+    "verify": "9-4"
+  },
+  {
+    "id": "cnm_p253_q3",
+    "topicId": "cnm_p253",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "一共有 10 个气球，飞走了 3 个。还剩几个？计算：10－3＝？",
+    "answer": "7",
+    "explanation": "10－3＝7。",
+    "verify": "10-3"
+  },
+  {
+    "id": "cnm_p253_q4",
+    "topicId": "cnm_p253",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "有 7 个桃，吃了 2 个。要求还剩几个，列哪个算式？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "7＋2"
+      },
+      {
+        "key": "B",
+        "text": "7－2"
+      },
+      {
+        "key": "C",
+        "text": "2－7"
+      }
+    ],
+    "answer": "B",
+    "explanation": "吃了就是去掉，要求还剩几个，用减法：7－2。",
+    "verify": "'7－2'"
+  },
+  {
+    "id": "cnm_p254_q1",
+    "topicId": "cnm_p254",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "球、圆柱、长方体、正方体中，哪一个怎么放都会滚动？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "长方体"
+      },
+      {
+        "key": "B",
+        "text": "正方体"
+      },
+      {
+        "key": "C",
+        "text": "球"
+      },
+      {
+        "key": "D",
+        "text": "圆柱"
+      }
+    ],
+    "answer": "C",
+    "explanation": "球的表面是弯弯的，怎么放都会滚。",
+    "verify": "'球'"
+  },
+  {
+    "id": "cnm_p254_q2",
+    "topicId": "cnm_p254",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "球的上面能稳稳地放一块长方体吗？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "能，一定放得稳"
+      },
+      {
+        "key": "B",
+        "text": "不能，球会滚动"
+      },
+      {
+        "key": "C",
+        "text": "能，只要放得快"
+      }
+    ],
+    "answer": "B",
+    "explanation": "球会滚动，放在球上面的积木会掉下来。",
+    "verify": "'不能，球会滚动'"
+  },
+  {
+    "id": "cnm_p254_q3",
+    "topicId": "cnm_p254",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "想搭一座又高又稳的塔，应该选哪些积木往上叠？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "长方体和正方体"
+      },
+      {
+        "key": "B",
+        "text": "球和球"
+      },
+      {
+        "key": "C",
+        "text": "球和圆柱"
+      }
+    ],
+    "answer": "A",
+    "explanation": "长方体和正方体有平平的面，叠起来稳。",
+    "verify": "'长方体和正方体'"
+  },
+  {
+    "id": "cnm_p254_q4",
+    "topicId": "cnm_p254",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "用 3 块正方体积木叠成一座塔，旁边再摆 2 块。一共用了几块？计算：3＋2＝？",
+    "answer": "5",
+    "explanation": "把两部分合起来，3＋2＝5。",
+    "verify": "3+2"
   }
 ]

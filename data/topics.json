@@ -181,11 +181,11 @@
   },
   {
     "id": "cnm_p008",
-    "name": "6到10各数的认识",
+    "name": "6～10各数的认识",
     "domain": "数与代数",
     "grade": 1,
     "semester": "上",
-    "chapter": "一年级上册 第2单元 6到10的认识和加、减法",
+    "chapter": "一年级上册 第2单元 6～10的认识和加、减法",
     "type": "conceptual",
     "description": "能认、读、写 6 到 10，知道 10 是由 10 个一组成的。",
     "mastery_criteria": [
@@ -210,7 +210,7 @@
     "domain": "数与代数",
     "grade": 1,
     "semester": "上",
-    "chapter": "一年级上册 第2单元 6到10的认识和加、减法",
+    "chapter": "一年级上册 第2单元 6～10的认识和加、减法",
     "type": "procedural",
     "description": "会比较 10 以内两个数的大小。",
     "mastery_criteria": [
@@ -235,7 +235,7 @@
     "domain": "数与代数",
     "grade": 1,
     "semester": "上",
-    "chapter": "一年级上册 第2单元 6到10的认识和加、减法",
+    "chapter": "一年级上册 第2单元 6～10的认识和加、减法",
     "type": "procedural",
     "description": "会计算得数不超过 10 的加法。",
     "mastery_criteria": [
@@ -264,7 +264,7 @@
     "domain": "数与代数",
     "grade": 1,
     "semester": "上",
-    "chapter": "一年级上册 第2单元 6到10的认识和加、减法",
+    "chapter": "一年级上册 第2单元 6～10的认识和加、减法",
     "type": "procedural",
     "description": "会计算 10 以内的减法。",
     "mastery_criteria": [
@@ -289,7 +289,7 @@
     "domain": "数与代数",
     "grade": 1,
     "semester": "上",
-    "chapter": "一年级上册 第2单元 6到10的认识和加、减法",
+    "chapter": "一年级上册 第2单元 6～10的认识和加、减法",
     "type": "procedural",
     "description": "会计算三个数的连加、连减，从左往右算。",
     "mastery_criteria": [
@@ -314,7 +314,7 @@
     "domain": "数与代数",
     "grade": 1,
     "semester": "上",
-    "chapter": "一年级上册 第2单元 6到10的认识和加、减法",
+    "chapter": "一年级上册 第2单元 6～10的认识和加、减法",
     "type": "procedural",
     "description": "会计算 10 以内的加减混合，从左往右依次算。",
     "mastery_criteria": [
@@ -368,7 +368,7 @@
     "domain": "综合与实践",
     "grade": 1,
     "semester": "上",
-    "chapter": "一年级上册 综合与实践 我的教室",
+    "chapter": "一年级上册 综合与实践 数学游戏",
     "type": "application",
     "description": "会用上、下、前、后、左、右描述物体的相对位置。",
     "mastery_criteria": [
@@ -389,11 +389,11 @@
   },
   {
     "id": "cnm_p016",
-    "name": "11到20各数的认识",
+    "name": "11～20各数的认识",
     "domain": "数与代数",
     "grade": 1,
     "semester": "上",
-    "chapter": "一年级上册 第4单元 11到20的认识",
+    "chapter": "一年级上册 第4单元 11～20的认识",
     "type": "conceptual",
     "description": "能认读写 11 到 20，知道十几是 1 个十和几个一。",
     "mastery_criteria": [
@@ -418,7 +418,7 @@
     "domain": "数与代数",
     "grade": 1,
     "semester": "上",
-    "chapter": "一年级上册 第4单元 11到20的认识",
+    "chapter": "一年级上册 第4单元 11～20的认识",
     "type": "conceptual",
     "description": "知道两位数里十位上的数表示几个十，个位上的数表示几个一。",
     "mastery_criteria": [
@@ -443,7 +443,7 @@
     "domain": "数与代数",
     "grade": 1,
     "semester": "上",
-    "chapter": "一年级上册 第4单元 11到20的认识",
+    "chapter": "一年级上册 第4单元 11～20的认识",
     "type": "procedural",
     "description": "会计算十几加几、十几加整十这类不进位的加法。",
     "mastery_criteria": [
@@ -543,13 +543,13 @@
   },
   {
     "id": "cnm_p022",
-    "name": "用数介绍和简单分类",
+    "name": "找一找、分一分",
     "domain": "综合与实践",
     "grade": 1,
     "semester": "上",
-    "chapter": "一年级上册 综合与实践 数学游戏分享",
+    "chapter": "一年级上册 综合与实践 数学游戏",
     "type": "modeling",
-    "description": "能在游戏里用数介绍自己身边的事物，并按一种标准把物品分成两类。",
+    "description": "能在校园、操场等地方找一找、数一数，用数介绍身边的事物，并按一种标准把物品分成两类。",
     "mastery_criteria": [
       "能用数说出身边事物的个数",
       "能说出自己分类用的标准"
@@ -6409,6 +6409,125 @@
         "id": "cms-2022:3.NA.08",
         "confidence": "inferred",
         "note": "现行六下综合与实践「自行车里的数学」；按齿数比与行进关系自编，待核。新版六下未出。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p251",
+    "name": "5、4、3、2加几",
+    "domain": "数与代数",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "一年级上册 第5单元 20以内的进位加法",
+    "type": "procedural",
+    "description": "会用凑十法计算 5、4、3、2 加几（得数在 11 到 14），如 4＋9、3＋8：可先把大数放在前面，再凑十。",
+    "mastery_criteria": [
+      "能把 4＋9 看成 9＋4 再凑十",
+      "能算出 5、4、3、2 加几的得数"
+    ],
+    "diagnostic_question": {
+      "question": "计算：4＋9＝？",
+      "answer": "13"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:1.NA.04",
+        "confidence": "exact",
+        "note": "依据 dzkbw xs1s_2024（2024 秋）小节补点。"
+      },
+      {
+        "id": "cms-2022:1.NA.07",
+        "confidence": "inferred",
+        "note": "依据 dzkbw xs1s_2024（2024 秋）小节补点。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p252",
+    "name": "逆向用加法解决问题",
+    "domain": "数与代数",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "一年级上册 第5单元 20以内的进位加法",
+    "type": "application",
+    "description": "已知总数和其中一部分，求另一部分时，会想「加几等于总数」来解决问题，如 9＋□＝15。",
+    "mastery_criteria": [
+      "能说出已知什么、要求什么",
+      "能用「想加算减」求出另一部分"
+    ],
+    "diagnostic_question": {
+      "question": "9＋□＝15，□ 里应填几？",
+      "answer": "6"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:1.NA.03",
+        "confidence": "exact",
+        "note": "依据 dzkbw xs1s_2024（2024 秋）小节补点。"
+      },
+      {
+        "id": "cms-2022:1.NA.07",
+        "confidence": "exact",
+        "note": "依据 dzkbw xs1s_2024（2024 秋）小节补点。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p253",
+    "name": "用加减法解决问题",
+    "domain": "数与代数",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "一年级上册 第2单元 6～10的认识和加、减法",
+    "type": "application",
+    "description": "会从图画和生活情境中找出已知的数和要求的问题，用 10 以内的加法或减法解决，并说出得数的意思。",
+    "mastery_criteria": [
+      "能分清「合起来」用加法、「去掉」用减法",
+      "能列出算式并算出得数"
+    ],
+    "diagnostic_question": {
+      "question": "树上有 6 只鸟，又飞来 3 只。现在有几只？计算：6＋3＝？",
+      "answer": "9"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:1.NA.07",
+        "confidence": "exact",
+        "note": "依据 dzkbw xs1s_2024（2024 秋）小节补点。"
+      },
+      {
+        "id": "cms-2022:1.NA.04",
+        "confidence": "inferred",
+        "note": "依据 dzkbw xs1s_2024（2024 秋）小节补点。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p254",
+    "name": "拼一拼",
+    "domain": "图形与几何",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "一年级上册 第3单元 认识立体图形",
+    "type": "application",
+    "description": "会用长方体、正方体、圆柱和球等立体图形拼搭简单的物体，知道哪些形状能稳稳叠放、哪些容易滚动。",
+    "mastery_criteria": [
+      "能用积木拼出简单的物体",
+      "知道球容易滚动，不适合叠在下面"
+    ],
+    "diagnostic_question": {
+      "question": "球、圆柱、长方体、正方体中，哪一个怎么放都会滚动？",
+      "answer": "球"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:1.GG.01",
+        "confidence": "inferred",
+        "note": "依据 dzkbw xs1s_2024（2024 秋）小节补点。"
       }
     ]
   },
