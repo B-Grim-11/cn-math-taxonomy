@@ -572,16 +572,16 @@
   },
   {
     "id": "cnm_p023",
-    "name": "认识长方形、正方形、三角形和圆",
+    "name": "认识平面图形",
     "domain": "图形与几何",
     "grade": 1,
     "semester": "下",
     "chapter": "一年级下册 第1单元 认识平面图形",
     "type": "conceptual",
-    "description": "能辨认长方形、正方形、三角形和圆。",
+    "description": "能辨认长方形、正方形、平行四边形、三角形和圆。",
     "mastery_criteria": [
-      "能按名称指出这四种平面图形",
-      "能说出三角形有 3 条边"
+      "能按名称指出这五种平面图形",
+      "能说出平行四边形有 4 条边"
     ],
     "diagnostic_question": {
       "question": "下面哪一个是三角形？",
@@ -597,7 +597,7 @@
   },
   {
     "id": "cnm_p024",
-    "name": "平面图形的拼组",
+    "name": "图形的拼组",
     "domain": "图形与几何",
     "grade": 1,
     "semester": "下",
@@ -701,20 +701,20 @@
   },
   {
     "id": "cnm_p028",
-    "name": "100以内数的认识",
+    "name": "数数、数的组成",
     "domain": "数与代数",
     "grade": 1,
     "semester": "下",
     "chapter": "一年级下册 第3单元 100以内数的认识",
     "type": "conceptual",
-    "description": "能数、读、写 100 以内的数，知道数的组成。",
+    "description": "会一个一个、十个十个地数 100 以内的数，知道一个两位数由几个十和几个一组成。",
     "mastery_criteria": [
-      "能从几十数到 100",
+      "能从几十接着数几个",
       "能说出一个两位数由几个十和几个一组成"
     ],
     "diagnostic_question": {
-      "question": "39 的后面一个数是几？",
-      "answer": "40"
+      "question": "46 由 4 个十和几个一组成？",
+      "answer": "6"
     },
     "external": false,
     "standards": [
@@ -726,16 +726,16 @@
   },
   {
     "id": "cnm_p029",
-    "name": "100以内数的大小",
+    "name": "数的顺序、比较大小",
     "domain": "数与代数",
     "grade": 1,
     "semester": "下",
     "chapter": "一年级下册 第3单元 100以内数的认识",
     "type": "procedural",
-    "description": "会比较 100 以内数的大小，先看十位，十位相同再看个位。",
+    "description": "会按顺序数 100 以内的数，比较它们的大小，并用「大一些」「少一些」「大得多」说说相差的程度。",
     "mastery_criteria": [
-      "能比较两个两位数的大小",
-      "能说出多一些、少一些大约差多少"
+      "能说出一个数的前面一个和后面一个",
+      "能用大一些、少一些、大得多说说相差的程度"
     ],
     "diagnostic_question": {
       "question": "在 47、74、39、58 这几个数中，最大的数是几？",
@@ -751,13 +751,13 @@
   },
   {
     "id": "cnm_p030",
-    "name": "整十数的加减",
+    "name": "简单的加、减法",
     "domain": "数与代数",
     "grade": 1,
     "semester": "下",
     "chapter": "一年级下册 第3单元 100以内数的认识",
     "type": "procedural",
-    "description": "会计算整十数加、减整十数，以及整十数加一位数。",
+    "description": "会计算整十数加、减整十数，以及整十数加一位数和相应的减法。",
     "mastery_criteria": [
       "能口算整十数加减整十数",
       "能计算整十数加一位数"
@@ -776,7 +776,7 @@
   },
   {
     "id": "cnm_p031",
-    "name": "100以内口算加法",
+    "name": "口算加法",
     "domain": "数与代数",
     "grade": 1,
     "semester": "下",
@@ -801,7 +801,7 @@
   },
   {
     "id": "cnm_p032",
-    "name": "100以内口算减法",
+    "name": "口算减法",
     "domain": "数与代数",
     "grade": 1,
     "semester": "下",
@@ -826,7 +826,7 @@
   },
   {
     "id": "cnm_p033",
-    "name": "100以内笔算加法",
+    "name": "笔算加法",
     "domain": "数与代数",
     "grade": 1,
     "semester": "下",
@@ -851,7 +851,7 @@
   },
   {
     "id": "cnm_p034",
-    "name": "100以内笔算减法",
+    "name": "笔算减法",
     "domain": "数与代数",
     "grade": 1,
     "semester": "下",
@@ -876,16 +876,16 @@
   },
   {
     "id": "cnm_p035",
-    "name": "部分与总数",
+    "name": "部分与整体",
     "domain": "数与代数",
     "grade": 1,
     "semester": "下",
     "chapter": "一年级下册 第6单元 数量间的加减关系",
     "type": "application",
-    "description": "知道部分加部分等于总数，总数减去一个部分等于另一个部分。",
+    "description": "知道部分加部分等于整体（总数），整体减去一个部分等于另一个部分。",
     "mastery_criteria": [
       "能根据总数和一部分求出另一部分",
-      "能用加减表示部分与总数的关系"
+      "能用加减表示部分与整体的关系"
     ],
     "diagnostic_question": {
       "question": "男生 16 人，女生 14 人。全班一共有多少人？",
@@ -6528,6 +6528,167 @@
         "id": "cms-2022:1.GG.01",
         "confidence": "inferred",
         "note": "依据 dzkbw xs1s_2024（2024 秋）小节补点。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p255",
+    "name": "七巧板",
+    "domain": "图形与几何",
+    "grade": 1,
+    "semester": "下",
+    "chapter": "一年级下册 第1单元 认识平面图形",
+    "type": "application",
+    "description": "一套七巧板是 5 个三角形、1 个正方形、1 个平行四边形，会用它们拼学过的图形。",
+    "mastery_criteria": [
+      "能说出一套七巧板有 7 块",
+      "能说出里面有三角形、正方形和平行四边形"
+    ],
+    "diagnostic_question": {
+      "question": "一套七巧板有几块？",
+      "answer": "7块"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:1.GG.01",
+        "confidence": "exact",
+        "note": "依据 dzkbw xs1x_2025（2025 春）小节补点。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p256",
+    "name": "解决含有多余信息的问题",
+    "domain": "数与代数",
+    "grade": 1,
+    "semester": "下",
+    "chapter": "一年级下册 第2单元 20以内的退位减法",
+    "type": "application",
+    "description": "解决问题时能找出有用的条件，不用多余的信息，再用退位减法算出得数。",
+    "mastery_criteria": [
+      "能指出哪个数与问题无关",
+      "能只用有用的数做退位减法"
+    ],
+    "diagnostic_question": {
+      "question": "盘子里有 14 个苹果和 5 个梨。吃了 9 个苹果。苹果还剩几个？",
+      "answer": "5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:1.NA.07",
+        "confidence": "exact",
+        "note": "依据 dzkbw xs1x_2025（2025 春）小节补点。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p257",
+    "name": "读法和写法",
+    "domain": "数与代数",
+    "grade": 1,
+    "semester": "下",
+    "chapter": "一年级下册 第3单元 100以内数的认识",
+    "type": "conceptual",
+    "description": "会读写 100 以内的数，知道十位和个位上的数字表示几个十、几个一。",
+    "mastery_criteria": [
+      "能根据十位、个位写出两位数",
+      "能说出一个两位数十位上是几"
+    ],
+    "diagnostic_question": {
+      "question": "十位上是 3、个位上是 5，这个数写作多少？",
+      "answer": "35"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:1.NA.01",
+        "confidence": "exact",
+        "note": "依据 dzkbw xs1x_2025（2025 春）小节补点。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p258",
+    "name": "100的认识",
+    "domain": "数与代数",
+    "grade": 1,
+    "semester": "下",
+    "chapter": "一年级下册 第3单元 100以内数的认识",
+    "type": "conceptual",
+    "description": "知道 10 个十是 100，100 是 99 的后面一个数，会读写 100。",
+    "mastery_criteria": [
+      "能说出 10 个十是 100",
+      "能说出 100 前面一个数是 99"
+    ],
+    "diagnostic_question": {
+      "question": "10 个十是多少？",
+      "answer": "100"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:1.NA.01",
+        "confidence": "exact",
+        "note": "依据 dzkbw xs1x_2025（2025 春）小节补点。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p259",
+    "name": "用连减解决问题",
+    "domain": "数与代数",
+    "grade": 1,
+    "semester": "下",
+    "chapter": "一年级下册 第4单元 100以内的口算加、减法",
+    "type": "application",
+    "description": "会用连减解决「先拿走一些，再拿走一些」或「分给几人、装几袋」后还剩多少的问题。",
+    "mastery_criteria": [
+      "能连续减去相同的一份",
+      "能说出还剩多少"
+    ],
+    "diagnostic_question": {
+      "question": "有 16 块饼干，每人分 3 块，先分给 2 人。还剩几块？",
+      "answer": "10"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:1.NA.07",
+        "confidence": "exact",
+        "note": "依据 dzkbw xs1x_2025（2025 春）小节补点。"
+      },
+      {
+        "id": "cms-2022:1.NA.04",
+        "confidence": "inferred",
+        "note": "依据 dzkbw xs1x_2025（2025 春）小节补点。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p260",
+    "name": "买卖我做主",
+    "domain": "综合与实践",
+    "grade": 1,
+    "semester": "下",
+    "chapter": "一年级下册 综合与实践 欢乐购物街",
+    "type": "application",
+    "description": "在购物情境里会算要付多少元、找回多少元，并判断钱够不够。",
+    "mastery_criteria": [
+      "能算付出的钱减价钱得到找回的钱",
+      "能把两样商品的价钱加起来"
+    ],
+    "diagnostic_question": {
+      "question": "一块橡皮 2 元，付出 5 元。应找回多少元？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:1.IP.02",
+        "confidence": "inferred",
+        "note": "依据 dzkbw xs1x_2025（2025 春）小节补点。"
       }
     ]
   },
