@@ -1182,7 +1182,7 @@
  {
   "difficulty": "standard",
   "type": "choice",
-  "prompt": "长方形有几条边？",
+  "prompt": "平行四边形有几条边？",
   "choices": [
    {
     "key": "A",
@@ -1198,36 +1198,34 @@
    }
   ],
   "answer": "B",
-  "explanation": "长方形有 4 条边。",
+  "explanation": "平行四边形有 4 条边。",
   "verify": "'4条'",
   "id": "cnm_p023_q3",
-  "topicId": "cnm_p023",
-  "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 170\"><rect x=\"26\" y=\"42\" width=\"168\" height=\"86\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"none\"/><rect x=\"26\" y=\"42\" width=\"168\" height=\"86\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  "topicId": "cnm_p023"
  },
  {
   "difficulty": "challenge",
   "type": "choice",
-  "prompt": "正方形的四条边怎样？",
+  "prompt": "下面哪一个是平行四边形？",
   "choices": [
    {
     "key": "A",
-    "text": "四条边都相等"
+    "text": "对边斜斜的四边形"
    },
    {
     "key": "B",
-    "text": "只有三条边"
+    "text": "圆"
    },
    {
     "key": "C",
-    "text": "没有角"
+    "text": "三角形"
    }
   ],
   "answer": "A",
-  "explanation": "正方形四条边一样长，还有 4 个角。",
-  "verify": "'四条边都相等'",
+  "explanation": "平行四边形有 4 条边，对边斜斜的，不是圆，也不是三角形。",
+  "verify": "'对边斜斜的四边形'",
   "id": "cnm_p023_q4",
-  "topicId": "cnm_p023",
-  "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 170\"><rect x=\"50\" y=\"24\" width=\"120\" height=\"120\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"none\"/><rect x=\"50\" y=\"24\" width=\"120\" height=\"120\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"64\" y1=\"24\" x2=\"64\" y2=\"38\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"64\" y1=\"38\" x2=\"50\" y2=\"38\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"110\" y1=\"16\" x2=\"110\" y2=\"32\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"178\" y1=\"84\" x2=\"162\" y2=\"84\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"110\" y1=\"152\" x2=\"110\" y2=\"136\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"42\" y1=\"84\" x2=\"58\" y2=\"84\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  "topicId": "cnm_p023"
  },
  {
   "difficulty": "basic",
@@ -1420,40 +1418,40 @@
  {
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "39 的后面一个数是几？",
-  "answer": "40",
-  "explanation": "39 再添 1 是 40。",
-  "verify": "39+1",
+  "prompt": "46 由 4 个十和几个一组成？",
+  "answer": "6",
+  "explanation": "46 是 4 个十和 6 个一。",
+  "verify": "6",
   "id": "cnm_p028_q1",
   "topicId": "cnm_p028"
  },
  {
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "50 的前面一个数是几？",
-  "answer": "49",
-  "explanation": "50 的前面是 49。",
-  "verify": "50-1",
+  "prompt": "从 37 接着往后数 3 个，数到的是几？",
+  "answer": "40",
+  "explanation": "接着数是 38、39、40，第 3 个是 40。",
+  "verify": "37+3",
   "id": "cnm_p028_q2",
   "topicId": "cnm_p028"
  },
  {
   "difficulty": "standard",
   "type": "numeric",
-  "prompt": "十位上是 4、个位上是 6，这个两位数是多少？",
-  "answer": "46",
-  "explanation": "4 个十和 6 个一是 46。",
-  "verify": "40+6",
+  "prompt": "7 个十和 0 个一组成的数是多少？",
+  "answer": "70",
+  "explanation": "7 个十是 70，0 个一不用再加。",
+  "verify": "70",
   "id": "cnm_p028_q3",
   "topicId": "cnm_p028"
  },
  {
   "difficulty": "challenge",
   "type": "numeric",
-  "prompt": "39 和 41 中间的数是几？",
-  "answer": "40",
-  "explanation": "39 的后面、41 的前面都是 40。",
-  "verify": "39+1",
+  "prompt": "4 个十和 8 个一，再添 1 个一。现在是多少？",
+  "answer": "49",
+  "explanation": "先是 48，再添 1 个一是 49。",
+  "verify": "40+8+1",
   "id": "cnm_p028_q4",
   "topicId": "cnm_p028"
  },
@@ -1488,20 +1486,34 @@
  {
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "40 和 20 比，40 比 20 大多少？",
-  "answer": "20",
-  "explanation": "先看十位，4 个十比 2 个十大 20。",
-  "verify": "40-20",
+  "prompt": "39 的后面一个数是几？",
+  "answer": "40",
+  "explanation": "39 再添 1 是 40，所以 39 的后面是 40。",
+  "verify": "39+1",
   "id": "cnm_p029_q2",
   "topicId": "cnm_p029"
  },
  {
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "小华拍球 28 下，小丽拍球 20 下。小华比小丽多几下？",
-  "answer": "8",
-  "explanation": "十位相同，比个位：28－20＝8。",
-  "verify": "28-20",
+  "type": "choice",
+  "prompt": "一班有 40 人，二班有 38 人。二班比一班怎样？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "少一些"
+   },
+   {
+    "key": "B",
+    "text": "少得多"
+   },
+   {
+    "key": "C",
+    "text": "多得多"
+   }
+  ],
+  "answer": "A",
+  "explanation": "40 和 38 只差 2，二班比一班少一些，不是少得多。",
+  "verify": "'少一些'",
   "id": "cnm_p029_q3",
   "topicId": "cnm_p029"
  },
@@ -2182,5 +2194,301 @@
   "verify": "'立着放'",
   "id": "cnm_p254_q4",
   "topicId": "cnm_p254"
+ },
+ {
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "一套七巧板有几块？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "5块"
+   },
+   {
+    "key": "B",
+    "text": "7块"
+   },
+   {
+    "key": "C",
+    "text": "10块"
+   }
+  ],
+  "answer": "B",
+  "explanation": "一套七巧板有 7 块。",
+  "verify": "'7块'",
+  "id": "cnm_p255_q1",
+  "topicId": "cnm_p255"
+ },
+ {
+  "difficulty": "basic",
+  "type": "numeric",
+  "prompt": "一套七巧板里，三角形有几块？",
+  "answer": "5",
+  "explanation": "七巧板里有 5 个三角形。",
+  "verify": "5",
+  "id": "cnm_p255_q2",
+  "topicId": "cnm_p255"
+ },
+ {
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "七巧板里除了三角形，还有哪两种图形？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "正方形和平行四边形"
+   },
+   {
+    "key": "B",
+    "text": "圆形和球"
+   },
+   {
+    "key": "C",
+    "text": "长方体和圆柱"
+   }
+  ],
+  "answer": "A",
+  "explanation": "一套七巧板是三角形、正方形和平行四边形。",
+  "verify": "'正方形和平行四边形'",
+  "id": "cnm_p255_q3",
+  "topicId": "cnm_p255"
+ },
+ {
+  "difficulty": "challenge",
+  "type": "numeric",
+  "prompt": "一套七巧板有 5 个三角形、1 个正方形和 1 个平行四边形。一共有几种图形？",
+  "answer": "3",
+  "explanation": "三角形、正方形、平行四边形是 3 种。问的是几种，不是几块。",
+  "verify": "3",
+  "id": "cnm_p255_q4",
+  "topicId": "cnm_p255"
+ },
+ {
+  "difficulty": "basic",
+  "type": "numeric",
+  "prompt": "盘子里有 14 个苹果和 5 个梨。吃了 9 个苹果。苹果还剩几个？",
+  "answer": "5",
+  "explanation": "梨的 5 个用不上。苹果 14－9＝5。",
+  "verify": "14-9",
+  "id": "cnm_p256_q1",
+  "topicId": "cnm_p256"
+ },
+ {
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "文具盒里有 16 支铅笔、3 块橡皮。用去 7 支铅笔。哪一个数不用来算还剩的铅笔？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "3块橡皮"
+   },
+   {
+    "key": "B",
+    "text": "16支铅笔"
+   },
+   {
+    "key": "C",
+    "text": "7支铅笔"
+   }
+  ],
+  "answer": "A",
+  "explanation": "问的是铅笔还剩几支，橡皮的块数是多余的。",
+  "verify": "'3块橡皮'",
+  "id": "cnm_p256_q2",
+  "topicId": "cnm_p256"
+ },
+ {
+  "difficulty": "standard",
+  "type": "numeric",
+  "prompt": "小明有 13 支铅笔、4 块橡皮。送出 6 支铅笔。铅笔还剩几支？",
+  "answer": "7",
+  "explanation": "橡皮的 4 块不用。13－6＝7。",
+  "verify": "13-6",
+  "id": "cnm_p256_q3",
+  "topicId": "cnm_p256"
+ },
+ {
+  "difficulty": "challenge",
+  "type": "numeric",
+  "prompt": "花瓶里有 15 朵红花、8 朵黄花。拿走 9 朵红花，又放进 2 朵黄花。红花还剩几朵？",
+  "answer": "6",
+  "explanation": "黄花原来的 8 朵和又放进的 2 朵都不改变红花。15－9＝6。",
+  "verify": "15-9",
+  "id": "cnm_p256_q4",
+  "topicId": "cnm_p256"
+ },
+ {
+  "difficulty": "basic",
+  "type": "numeric",
+  "prompt": "十位上是 3、个位上是 5，这个数写作多少？",
+  "answer": "35",
+  "explanation": "3 个十和 5 个一写成 35。",
+  "verify": "30+5",
+  "id": "cnm_p257_q1",
+  "topicId": "cnm_p257"
+ },
+ {
+  "difficulty": "basic",
+  "type": "numeric",
+  "prompt": "60 的十位上是几？",
+  "answer": "6",
+  "explanation": "60 是 6 个十，十位上是 6。",
+  "verify": "6",
+  "id": "cnm_p257_q2",
+  "topicId": "cnm_p257"
+ },
+ {
+  "difficulty": "standard",
+  "type": "numeric",
+  "prompt": "读作「五十八」的数，写作多少？",
+  "answer": "58",
+  "explanation": "五十八写作 58。",
+  "verify": "58",
+  "id": "cnm_p257_q3",
+  "topicId": "cnm_p257"
+ },
+ {
+  "difficulty": "challenge",
+  "type": "numeric",
+  "prompt": "把 4 个十和 7 个一写成一个数，再交换十位和个位。新的数是多少？",
+  "answer": "74",
+  "explanation": "先写成 47，十位和个位对调是 74。",
+  "verify": "70+4",
+  "id": "cnm_p257_q4",
+  "topicId": "cnm_p257"
+ },
+ {
+  "difficulty": "basic",
+  "type": "numeric",
+  "prompt": "10 个十是多少？",
+  "answer": "100",
+  "explanation": "10 个十是 100。",
+  "verify": "10*10",
+  "id": "cnm_p258_q1",
+  "topicId": "cnm_p258"
+ },
+ {
+  "difficulty": "basic",
+  "type": "numeric",
+  "prompt": "100 的前面一个数是几？",
+  "answer": "99",
+  "explanation": "100 再往前一个是 99。",
+  "verify": "100-1",
+  "id": "cnm_p258_q2",
+  "topicId": "cnm_p258"
+ },
+ {
+  "difficulty": "standard",
+  "type": "numeric",
+  "prompt": "99 再添 1 是多少？",
+  "answer": "100",
+  "explanation": "99 的后面一个数是 100。",
+  "verify": "99+1",
+  "id": "cnm_p258_q3",
+  "topicId": "cnm_p258"
+ },
+ {
+  "difficulty": "challenge",
+  "type": "numeric",
+  "prompt": "9 个十再加 10 个一，是多少？",
+  "answer": "100",
+  "explanation": "9 个十是 90，10 个一又凑成 1 个十，合起来是 100。",
+  "verify": "90+10",
+  "id": "cnm_p258_q4",
+  "topicId": "cnm_p258"
+ },
+ {
+  "difficulty": "basic",
+  "type": "numeric",
+  "prompt": "有 16 块饼干，每人分 3 块，先分给 2 人。还剩几块？",
+  "answer": "10",
+  "explanation": "分给 2 人就是减去两个 3：16－3－3＝10。",
+  "verify": "16-3-3",
+  "id": "cnm_p259_q1",
+  "topicId": "cnm_p259"
+ },
+ {
+  "difficulty": "basic",
+  "type": "numeric",
+  "prompt": "30 个皮球，先拿走 10 个，再拿走 10 个。还剩多少个？",
+  "answer": "10",
+  "explanation": "30－10－10＝10。",
+  "verify": "30-10-10",
+  "id": "cnm_p259_q2",
+  "topicId": "cnm_p259"
+ },
+ {
+  "difficulty": "standard",
+  "type": "numeric",
+  "prompt": "有 28 个橘子，每 9 个装一袋，装了 2 袋。还剩几个？",
+  "answer": "10",
+  "explanation": "装 2 袋要减两个 9：28－9－9＝10。",
+  "verify": "28-9-9",
+  "id": "cnm_p259_q3",
+  "topicId": "cnm_p259"
+ },
+ {
+  "difficulty": "challenge",
+  "type": "numeric",
+  "prompt": "有 25 颗糖，每次分出 8 颗，分了 3 次。还剩几颗？",
+  "answer": "1",
+  "explanation": "分 3 次要连减三次：25－8－8－8＝1。",
+  "verify": "25-8-8-8",
+  "id": "cnm_p259_q4",
+  "topicId": "cnm_p259"
+ },
+ {
+  "difficulty": "basic",
+  "type": "numeric",
+  "prompt": "一块橡皮 2 元，付出 5 元。应找回多少元？",
+  "answer": "3",
+  "explanation": "付出的钱减价钱：5－2＝3（元）。",
+  "verify": "5-2",
+  "id": "cnm_p260_q1",
+  "topicId": "cnm_p260"
+ },
+ {
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "想买 8 元的彩笔，口袋里有 10 元。钱够不够？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "够，还剩 2 元"
+   },
+   {
+    "key": "B",
+    "text": "不够"
+   },
+   {
+    "key": "C",
+    "text": "正好用完"
+   }
+  ],
+  "answer": "A",
+  "explanation": "10 比 8 多，10－8＝2，所以够，还剩 2 元。",
+  "verify": "'够，还剩 2 元'",
+  "id": "cnm_p260_q2",
+  "topicId": "cnm_p260"
+ },
+ {
+  "difficulty": "standard",
+  "type": "numeric",
+  "prompt": "买一个 4 元的皮球和一盒 5 元的彩笔。一共要付多少元？",
+  "answer": "9",
+  "explanation": "两样价钱加起来：4＋5＝9（元）。",
+  "verify": "4+5",
+  "id": "cnm_p260_q3",
+  "topicId": "cnm_p260"
+ },
+ {
+  "difficulty": "challenge",
+  "type": "numeric",
+  "prompt": "有 20 元，买一本 6 元的本子和一块 3 元的橡皮。还剩多少元？",
+  "answer": "11",
+  "explanation": "两样一共 6＋3＝9 元，20－9＝11 元。",
+  "verify": "20-6-3",
+  "id": "cnm_p260_q4",
+  "topicId": "cnm_p260"
  }
 ]
