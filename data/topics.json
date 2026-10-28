@@ -3890,8 +3890,8 @@
     ],
     "external": false,
     "diagnostic_question": {
-      "question": "一个组合体下层有 4 个小正方体，上层有 2 个。一共有几个小正方体？计算：4＋2＝？",
-      "answer": "6"
+      "question": "只看从正面看到的形状，能不能一定确定组合体的样子？",
+      "answer": "不一定能"
     }
   },
   {
@@ -3908,8 +3908,8 @@
       "能根据因数的小数位数点上小数点"
     ],
     "diagnostic_question": {
-      "question": "计算：0.3×4＝？（用小数作答）",
-      "answer": "1.2"
+      "question": "小数乘整数，积的小数位数怎样确定？",
+      "answer": "和小数因数的小数位数一样"
     },
     "external": false,
     "standards": [
@@ -3933,8 +3933,8 @@
       "能根据两个因数的小数位数确定积的小数点"
     ],
     "diagnostic_question": {
-      "question": "计算：0.3×0.4＝？（用小数作答）",
-      "answer": "0.12"
+      "question": "小数乘小数，积的小数位数等于什么？",
+      "answer": "两个因数小数位数的和"
     },
     "external": false,
     "standards": [
@@ -3958,8 +3958,8 @@
       "能用小数写出得数"
     ],
     "diagnostic_question": {
-      "question": "计算：2.5×6＝？（用小数作答）",
-      "answer": "15"
+      "question": "每小时行 2.4 千米，行 3 小时。一共多少千米？（用小数作答）",
+      "answer": "7.2"
     },
     "external": false,
     "standards": [
@@ -3987,8 +3987,8 @@
       "能把商写成小数"
     ],
     "diagnostic_question": {
-      "question": "计算：0.8÷2＝？（用小数作答）",
-      "answer": "0.4"
+      "question": "小数除以整数，商的小数点要怎样？",
+      "answer": "和被除数的小数点对齐"
     },
     "external": false,
     "standards": [
@@ -4012,8 +4012,8 @@
       "能算出一个数除以小数的商"
     ],
     "diagnostic_question": {
-      "question": "计算：0.8÷0.2＝？（用小数作答）",
-      "answer": "4"
+      "question": "除数是小数时，应先怎样做再除？",
+      "answer": "把除数变成整数"
     },
     "external": false,
     "standards": [
@@ -4037,7 +4037,7 @@
       "能用小数或整数写出商"
     ],
     "diagnostic_question": {
-      "question": "计算：7.2÷8＝？（用小数作答）",
+      "question": "7.2 升果汁平均分给 8 人。每人多少升？（用小数作答）",
       "answer": "0.9"
     },
     "external": false,
@@ -4073,7 +4073,7 @@
     ],
     "external": false,
     "diagnostic_question": {
-      "question": "一个图形旋转之后，大小和形状怎样？",
+      "question": "一个图形平移、旋转或作轴对称之后，大小和形状怎样？",
       "answer": "大小和形状都不变"
     }
   },
@@ -4120,7 +4120,7 @@
       "能用这个性质把未知数单独留在一边"
     ],
     "diagnostic_question": {
-      "question": "方程两边同时加上同一个数，相等关系怎样？",
+      "question": "等式两边同时加上或减去同一个数，相等关系怎样？",
       "answer": "相等关系不变"
     },
     "external": false,
@@ -4145,7 +4145,7 @@
       "能判断土地面积常用公顷"
     ],
     "diagnostic_question": {
-      "question": "公顷是什么单位？",
+      "question": "公顷和平方千米是什么单位？",
       "answer": "面积单位"
     },
     "external": false,
@@ -4178,7 +4178,7 @@
     ],
     "external": false,
     "diagnostic_question": {
-      "question": "平行四边形的高是什么？",
+      "question": "平行四边形的高是哪一种线段？",
       "answer": "从一边上一点到对边的垂直线段"
     }
   },
@@ -4271,7 +4271,7 @@
       "能把分块面积合并"
     ],
     "diagnostic_question": {
-      "question": "一个组合图形可以分成两个长方形，面积分别是 12 平方厘米和 8 平方厘米。这个组合图形的面积是多少平方厘米？",
+      "question": "一个组合图形分成两个长方形，面积分别是 12 平方厘米和 8 平方厘米。这个组合图形的面积是多少平方厘米？",
       "answer": "20"
     },
     "external": false,
@@ -4303,7 +4303,7 @@
     ],
     "external": false,
     "diagnostic_question": {
-      "question": "正三角形每个角是 60°。围绕一个点拼正三角形，几个正好拼满一周？计算：360÷60＝？",
+      "question": "正三角形每个内角是 60 度。围绕一个点拼正三角形，几个正好拼满一周？",
       "answer": "6"
     }
   },
@@ -4322,7 +4322,7 @@
     ],
     "diagnostic_question": {
       "question": "一定发生的事情，可能性怎样？",
-      "answer": "可能性是确定的，一定会发生"
+      "answer": "一定会发生"
     },
     "external": false,
     "standards": [
@@ -4350,8 +4350,8 @@
       "知道可能性相等时机会一样大"
     ],
     "diagnostic_question": {
-      "question": "可能性相等时，几种结果怎样？",
-      "answer": "每种结果的机会一样大"
+      "question": "两种结果的数量一样多时，可能性怎样？",
+      "answer": "两种结果的机会一样大"
     },
     "external": false,
     "standards": [
@@ -4375,8 +4375,8 @@
       "能把积保留到指定的位数"
     ],
     "diagnostic_question": {
-      "question": "计算：1.6×2.4＝？（用小数作答）",
-      "answer": "3.84"
+      "question": "1.6 乘 2.4 的积，用四舍五入法保留一位小数是多少？（用小数作答）",
+      "answer": "3.8"
     },
     "external": false,
     "standards": [
@@ -4431,7 +4431,7 @@
       "能检验求出的解代回原方程"
     ],
     "diagnostic_question": {
-      "question": "计算：40－17＝？",
+      "question": "解方程 x＋17＝40。x 是多少？",
       "answer": "23"
     },
     "external": false,
@@ -4457,8 +4457,8 @@
       "能列出方程并求出未知数"
     ],
     "diagnostic_question": {
-      "question": "买 4 个同样的文具盒付了 28 元。每个多少元？计算：28÷4＝？",
-      "answer": "7"
+      "question": "小明原来有 x 张邮票，又买了 18 张，现在一共有 50 张。下面哪个方程列得对？",
+      "answer": "x＋18＝50"
     },
     "external": false,
     "standards": [
@@ -4487,8 +4487,8 @@
       "能先分清是两端都种还是只种一端"
     ],
     "diagnostic_question": {
-      "question": "植树问题要先分清什么？",
-      "answer": "两端都种、还是只种一端"
+      "question": "两端都种树时，棵数和间隔数是什么关系？",
+      "answer": "棵数比间隔数多 1"
     },
     "external": false,
     "standards": [
@@ -4513,8 +4513,8 @@
       "能判断哪一个物体和给出的视图相符"
     ],
     "diagnostic_question": {
-      "question": "从正面、侧面、上面看简单物体，会怎样？",
-      "answer": "看到的形状可能不一样"
+      "question": "从正面、侧面、上面看同一个简单物体，看到的形状怎样？",
+      "answer": "可能不一样"
     },
     "external": false,
     "standards": [
@@ -4563,7 +4563,7 @@
       "能根据个位判断是不是 5 的倍数"
     ],
     "diagnostic_question": {
-      "question": "偶数的个位是哪些数字？",
+      "question": "2 的倍数，个位是哪些数字？",
       "answer": "0、2、4、6 或 8"
     },
     "external": false,
@@ -4588,7 +4588,7 @@
       "能根据数字和判断是不是 3 的倍数"
     ],
     "diagnostic_question": {
-      "question": "计算：1＋2＋3＝？",
+      "question": "判断 123 是不是 3 的倍数，要先算各位数字之和。1＋2＋3 是多少？",
       "answer": "6"
     },
     "external": false,
@@ -4664,8 +4664,8 @@
       "能说出最大公因数"
     ],
     "diagnostic_question": {
-      "question": "计算：12÷6＝？",
-      "answer": "2"
+      "question": "12 和 18 的最大公因数是多少？",
+      "answer": "6"
     },
     "external": false,
     "standards": [
@@ -4717,7 +4717,7 @@
     ],
     "diagnostic_question": {
       "question": "长方体有几个面？",
-      "answer": "6个"
+      "answer": "6 个"
     },
     "external": false,
     "standards": [
@@ -4741,7 +4741,7 @@
       "能算出正方体六个面的总面积"
     ],
     "diagnostic_question": {
-      "question": "计算：（5×4＋5×3＋4×3）×2＝？",
+      "question": "长 5 厘米、宽 4 厘米、高 3 厘米的长方体，表面积是多少平方厘米？",
       "answer": "94"
     },
     "external": false,
@@ -4820,8 +4820,8 @@
       "知道 1 升＝1000 毫升"
     ],
     "diagnostic_question": {
-      "question": "计算：1×1000＝？",
-      "answer": "1000"
+      "question": "容积指的是什么？",
+      "answer": "容器里面能容纳物体的体积"
     },
     "external": false,
     "standards": [
@@ -4845,7 +4845,7 @@
       "能在具体量里说出一个分数表示多少"
     ],
     "diagnostic_question": {
-      "question": "把一张纸平均分成若干份，涂色的有 5 份，涂色部分是这张纸的 5/8。这张纸被平均分成了几份？",
+      "question": "把一张纸平均分成 8 份，涂色的有 5 份。平均分成了几份？",
       "answer": "8"
     },
     "external": false,
@@ -4900,8 +4900,8 @@
       "能说出分数大小不变"
     ],
     "diagnostic_question": {
-      "question": "计算：1×3＝？",
-      "answer": "3"
+      "question": "把 1/2 的分子和分母同时乘 3，得到的新分数，分母是多少？",
+      "answer": "6"
     },
     "external": false,
     "standards": [
@@ -4925,7 +4925,7 @@
       "能把分数约成最简分数"
     ],
     "diagnostic_question": {
-      "question": "计算：6÷8＝？",
+      "question": "把 6/8 约成最简分数。最简分数是多少？",
       "answer": "3/4"
     },
     "external": false,
@@ -4950,8 +4950,8 @@
       "能比较同分子分数"
     ],
     "diagnostic_question": {
-      "question": "计算：3/5－1/5＝？",
-      "answer": "2/5"
+      "question": "比较 3/5 和 1/5 的大小，较大的那个分数是多少？",
+      "answer": "3/5"
     },
     "external": false,
     "standards": [
@@ -4976,7 +4976,7 @@
       "能把一位小数写成十分之几"
     ],
     "diagnostic_question": {
-      "question": "计算：3÷10＝？（用小数作答）",
+      "question": "把 3/10 写成小数是多少？（用小数作答）",
       "answer": "0.3"
     },
     "external": false,
@@ -5001,7 +5001,7 @@
       "能按顺时针或逆时针描述旋转"
     ],
     "diagnostic_question": {
-      "question": "旋转之后，图形的大小和形状怎样？",
+      "question": "图形旋转之后，大小和形状怎样？",
       "answer": "大小和形状都不变"
     },
     "external": false,
@@ -5131,8 +5131,8 @@
       "能算出至少称几次"
     ],
     "diagnostic_question": {
-      "question": "找次品时每次要怎样做？",
-      "answer": "把物品分成三份来称"
+      "question": "用天平找 1 个较重或较轻的次品，每次最好怎样分？",
+      "answer": "分成三份来称"
     },
     "external": false,
     "standards": [
@@ -5883,7 +5883,7 @@
       "能算出两个正方体并排拼合后的表面积"
     ],
     "diagnostic_question": {
-      "question": "用 8 个棱长 1 厘米的小正方体拼成一个大正方体，大正方体的棱长是多少厘米？",
+      "question": "用 8 个棱长 1 厘米的小正方体拼成一个大正方体。大正方体的棱长是多少厘米？",
       "answer": "2"
     },
     "external": false,

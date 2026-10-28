@@ -997,7 +997,7 @@ test('题库：每个正式知识点至少 3 题；id 唯一且格式正确；�
     assert.ok(qs.length >= 3, t.id + ' 只有 ' + qs.length + ' 题');
     const ds = new Set(qs.map((q) => q.difficulty));
     assert.ok(ds.has('basic') && ds.has('standard'), t.id + ' 缺少 basic 或 standard');
-    if (t.grade === 6 && String(t.id).startsWith('cnm_p')) {
+    if ((t.grade === 5 || t.grade === 6) && String(t.id).startsWith('cnm_p')) {
       assert.ok(ds.has('challenge'), t.id + ' 缺少 challenge');
     }
     assert.ok(qs.some((q) => q.id === t.id + '_q1'), t.id + ' 缺 q1');
