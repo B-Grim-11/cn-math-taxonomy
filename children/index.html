@@ -39,6 +39,29 @@
   <h1>孩子档案</h1>
   <p class="lede">给每个孩子建一份档案。诊断页选好当前孩子，结果就按孩子分开保存，之后可以回看每次的记录和还没补上的知识点。</p>
   <p id="back" class="quiet-link" hidden></p>
+  <section class="kid-backup" aria-labelledby="backup-title">
+    <h2 id="backup-title">备份与恢复</h2>
+    <p>导出所有孩子的资料和各学科诊断记录，在其他浏览器中导入即可继续查看。</p>
+    <button type="button" id="export-backup">导出全部档案</button>
+    <p id="export-status" class="small" role="status" hidden></p>
+    <div class="kid-import">
+      <label for="import-backup">导入备份文件</label>
+      <input type="file" id="import-backup" accept=".json,application/json" aria-describedby="import-note">
+      <p id="import-note" class="muted small">选择本站导出的 JSON 备份（最大 10 MB）。先预览，再确认合并；已有档案和其他孩子的记录会保留。</p>
+      <p id="import-error" class="err small" role="alert" hidden></p>
+      <div id="import-preview" class="kid-import-preview" hidden>
+        <h3>导入预览</h3>
+        <p id="import-summary"></p>
+        <ul id="import-children"></ul>
+        <p class="muted small">相同档案保留本机资料；同一条诊断记录采用较新的结果，时间相同则保留本机结果。历史记录不会因合并被截断。</p>
+        <div class="kid-actions">
+          <button type="button" id="confirm-import" class="primary" disabled>确认合并导入</button>
+          <button type="button" id="cancel-import">取消</button>
+        </div>
+      </div>
+      <p id="import-status" class="small" role="status" hidden></p>
+    </div>
+  </section>
   <div id="list" aria-live="polite"></div>
   <section class="kid-form" id="form-card" aria-labelledby="form-title">
     <h2 id="form-title">添加孩子</h2>
@@ -57,7 +80,7 @@
       </div>
     </form>
   </section>
-  <p class="muted small kid-note">档案和诊断记录只保存在这台设备的浏览器里，不上传，也没有账号。清除浏览器数据，或者换一台设备，档案不会跟过去。</p>
+  <p class="muted small kid-note">档案和诊断记录保存在当前浏览器中，不上传，也没有账号。清除浏览器数据或更换设备前，请先导出备份，再在新浏览器中导入。</p>
 </main>
 <footer class="site-footer">
   <p><a href="https://github.com/xiaoyang111222/cn-math-taxonomy/issues/new/choose">提交 Issue</a></p>
