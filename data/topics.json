@@ -39,8 +39,8 @@
       "知道相等就是同样多"
     ],
     "diagnostic_question": {
-      "question": "计算：4－2＝？",
-      "answer": "2"
+      "question": "4 和 2 比，哪个数大？",
+      "answer": "4"
     },
     "external": false,
     "standards": [
@@ -64,8 +64,8 @@
       "能指出从左边数第几个"
     ],
     "diagnostic_question": {
-      "question": "4 的后面一个数是几？",
-      "answer": "5"
+      "question": "从左数，排在最前面的是第几个？",
+      "answer": "第1个"
     },
     "external": false,
     "standards": [
@@ -114,7 +114,7 @@
       "知道 0 比 1 小"
     ],
     "diagnostic_question": {
-      "question": "计算：3－3＝？",
+      "question": "0 表示一个也没有。盘子里一个苹果也没有，用哪个数表示？",
       "answer": "0"
     },
     "external": false,
@@ -139,8 +139,8 @@
       "知道加法是把两部分合起来"
     ],
     "diagnostic_question": {
-      "question": "计算：2＋3＝？",
-      "answer": "5"
+      "question": "有 2 朵花，又放进来 1 朵。一共有多少朵？",
+      "answer": "3"
     },
     "external": false,
     "standards": [
@@ -168,7 +168,7 @@
       "知道减法是去掉一部分"
     ],
     "diagnostic_question": {
-      "question": "计算：5－2＝？",
+      "question": "有 5 个气球，拿走 2 个。还剩几个？",
       "answer": "3"
     },
     "external": false,
@@ -218,8 +218,8 @@
       "会用减法求出多几或少几"
     ],
     "diagnostic_question": {
-      "question": "计算：9－6＝？",
-      "answer": "3"
+      "question": "比 7 大又比 9 小的数是几？",
+      "answer": "8"
     },
     "external": false,
     "standards": [
@@ -243,7 +243,7 @@
       "能解决把两部分合起来的简单问题"
     ],
     "diagnostic_question": {
-      "question": "计算：6＋3＝？",
+      "question": "有 6 支铅笔，又放进 3 支。一共有几支？",
       "answer": "9"
     },
     "external": false,
@@ -272,7 +272,7 @@
       "能解决从总数里去掉一部分的问题"
     ],
     "diagnostic_question": {
-      "question": "计算：10－3＝？",
+      "question": "有 10 颗糖，拿走 3 颗。还剩几颗？",
       "answer": "7"
     },
     "external": false,
@@ -297,7 +297,7 @@
       "能按从左到右计算连减"
     ],
     "diagnostic_question": {
-      "question": "计算：2＋3＋4＝？",
+      "question": "先有 2 只鸟，又飞来 3 只，再飞来 4 只。现在有几只？",
       "answer": "9"
     },
     "external": false,
@@ -322,7 +322,7 @@
       "能检查得数有没有超过 10"
     ],
     "diagnostic_question": {
-      "question": "计算：5＋3－2＝？",
+      "question": "有 5 支笔，又买来 3 支，送出 2 支。还剩几支？",
       "answer": "6"
     },
     "external": false,
@@ -451,7 +451,7 @@
       "知道个位和个位相加"
     ],
     "diagnostic_question": {
-      "question": "计算：12＋3＝？",
+      "question": "有 12 支彩笔，又拿来 3 支。一共有几支？",
       "answer": "15"
     },
     "external": false,
@@ -501,7 +501,7 @@
       "能说出凑十的过程"
     ],
     "diagnostic_question": {
-      "question": "计算：9＋2＝？",
+      "question": "有 9 张贴纸，又放进 2 张。一共有多少张？",
       "answer": "11"
     },
     "external": false,
@@ -526,7 +526,7 @@
       "能把进位加法用在简单问题里"
     ],
     "diagnostic_question": {
-      "question": "计算：8＋3＝？",
+      "question": "8 个苹果，又拿来 3 个。一共有几个？",
       "answer": "11"
     },
     "external": false,
@@ -609,8 +609,8 @@
       "能数出拼组时用了几个图形"
     ],
     "diagnostic_question": {
-      "question": "用 2 个三角形和 2 个正方形拼成一幅小房子图，一共用了几个图形？",
-      "answer": "4"
+      "question": "两个完全一样的三角形，有时可以拼成一个四边形。这种拼法用到的图形是什么？",
+      "answer": "三角形"
     },
     "external": false,
     "standards": [
@@ -635,7 +635,7 @@
     ],
     "diagnostic_question": {
       "question": "破十法是先把十几分成 10 和几。算 13－9，先把 13 分成 10 和几？",
-      "answer": "先把十几分成 10 和几"
+      "answer": "3"
     },
     "external": false,
     "standards": [
@@ -659,7 +659,7 @@
       "能用想加算减来检查"
     ],
     "diagnostic_question": {
-      "question": "计算：14－8＝？",
+      "question": "有 14 个皮球，拿走 8 个。还剩几个？",
       "answer": "6"
     },
     "external": false,
@@ -684,7 +684,7 @@
       "能解决十几减几的简单问题"
     ],
     "diagnostic_question": {
-      "question": "计算：13－5＝？",
+      "question": "有 13 颗糖，拿走 5 颗。还剩几颗？",
       "answer": "8"
     },
     "external": false,
@@ -738,8 +738,8 @@
       "能说出多一些、少一些大约差多少"
     ],
     "diagnostic_question": {
-      "question": "计算：40－20＝？",
-      "answer": "20"
+      "question": "在 47、74、39、58 这几个数中，最大的数是几？",
+      "answer": "74"
     },
     "external": false,
     "standards": [
@@ -763,7 +763,7 @@
       "能计算整十数加一位数"
     ],
     "diagnostic_question": {
-      "question": "计算：30＋20＝？",
+      "question": "3 捆小棒再加 2 捆，每捆 10 根。一共有多少根？",
       "answer": "50"
     },
     "external": false,
@@ -838,7 +838,7 @@
       "个位满十会向十位进 1"
     ],
     "diagnostic_question": {
-      "question": "计算：23＋14＝？",
+      "question": "一班 23 人、二班 14 人一起做值日。两班一共有多少人？",
       "answer": "37"
     },
     "external": false,
@@ -863,7 +863,7 @@
       "能用加法验算减法"
     ],
     "diagnostic_question": {
-      "question": "计算：67－24＝？",
+      "question": "有 67 张纸，用去 24 张。还剩多少张？",
       "answer": "43"
     },
     "external": false,
@@ -888,8 +888,8 @@
       "能用加减表示部分与总数的关系"
     ],
     "diagnostic_question": {
-      "question": "计算：20＋15＝？",
-      "answer": "35"
+      "question": "男生 16 人，女生 14 人。全班一共有多少人？",
+      "answer": "30"
     },
     "external": false,
     "standards": [
@@ -917,7 +917,7 @@
       "能列出减法算式并说清单位"
     ],
     "diagnostic_question": {
-      "question": "计算：15－9＝？ 15 比 9 多几？",
+      "question": "15 比 9 多几？",
       "answer": "6"
     },
     "standards": [
@@ -1058,7 +1058,7 @@
       "能用口诀算出表内乘法"
     ],
     "diagnostic_question": {
-      "question": "计算：2×6＝？",
+      "question": "每行 2 个座位，有 6 行。一共有多少个座位？",
       "answer": "12"
     },
     "external": false,
@@ -1083,7 +1083,7 @@
       "能列出乘法算式并计算"
     ],
     "diagnostic_question": {
-      "question": "计算：3×6＝？",
+      "question": "每组 3 人，有 6 组。一共有多少人？",
       "answer": "18"
     },
     "external": false,
@@ -1112,7 +1112,7 @@
       "能按顺序计算两步式子"
     ],
     "diagnostic_question": {
-      "question": "先乘除、后加减。算式里既有乘法又有加减法，要先算什么？",
+      "question": "算式里既有乘法又有加减法，要按怎样的顺序算？",
       "answer": "先算乘除，再算加减"
     },
     "external": false,
@@ -1171,7 +1171,7 @@
       "能解决平均分和包含除两类简单问题"
     ],
     "diagnostic_question": {
-      "question": "计算：18÷3＝？",
+      "question": "18 颗糖平均分给 3 人。每人几颗？",
       "answer": "6"
     },
     "external": false,
@@ -1196,7 +1196,7 @@
       "能判断一道除法算得对不对"
     ],
     "diagnostic_question": {
-      "question": "计算：6×4＝？",
+      "question": "小丽算出 24÷4＝6。用乘法验算，商 6 乘除数 4 等于多少？",
       "answer": "24"
     },
     "external": false,
@@ -1325,7 +1325,7 @@
       "能用口诀计算表内乘法"
     ],
     "diagnostic_question": {
-      "question": "计算：7×8＝？",
+      "question": "每行 7 个座位，有 8 行。一共有多少个座位？",
       "answer": "56"
     },
     "external": false,
@@ -1350,7 +1350,7 @@
       "能解决平均分的问题"
     ],
     "diagnostic_question": {
-      "question": "计算：56÷7＝？",
+      "question": "56 个气球平均分成 7 份。每份有多少个？",
       "answer": "8"
     },
     "external": false,
@@ -1375,8 +1375,8 @@
       "能把几分换算成秒"
     ],
     "diagnostic_question": {
-      "question": "钟面上分针走一圈是多久？",
-      "answer": "60分"
+      "question": "秒针走一圈是多久？",
+      "answer": "1分"
     },
     "external": false,
     "standards": [
@@ -1427,7 +1427,7 @@
       "同一小时内的经过时间会算"
     ],
     "diagnostic_question": {
-      "question": "计算：35－20＝？",
+      "question": "从 3 时 20 分到 3 时 35 分，经过了多少分？",
       "answer": "15"
     },
     "external": false,
@@ -1478,7 +1478,7 @@
       "能检查余数小于除数"
     ],
     "diagnostic_question": {
-      "question": "先写商，再写余数。商和余数：14÷4",
+      "question": "14 颗糖，每 4 颗装一袋。先写商，再写余数。",
       "answer": "3，2"
     },
     "external": false,
@@ -1503,7 +1503,7 @@
       "能写出商和余数"
     ],
     "diagnostic_question": {
-      "question": "23 个皮球，每 5 个装一袋。先写商，再写余数。商和余数：23÷5",
+      "question": "23 个皮球，每 5 个装一袋。先写商，再写余数。",
       "answer": "4，3"
     },
     "external": false,
@@ -1582,8 +1582,8 @@
       "能按从小到大排列几个数"
     ],
     "diagnostic_question": {
-      "question": "计算：1000－999＝？",
-      "answer": "1"
+      "question": "999 和 1000 比，哪个大？",
+      "answer": "1000"
     },
     "external": false,
     "standards": [
@@ -1632,7 +1632,7 @@
       "能估算两位数加法大约是多少"
     ],
     "diagnostic_question": {
-      "question": "计算：300＋400＝？",
+      "question": "图书馆运来 300 本和 400 本。两批一共多少本？",
       "answer": "700"
     },
     "external": false,
@@ -1661,7 +1661,7 @@
       "能用减法比较两个较大的数"
     ],
     "diagnostic_question": {
-      "question": "计算：800－300＝？",
+      "question": "书架上有 800 本书，搬走 300 本。还剩多少本？",
       "answer": "500"
     },
     "external": false,
@@ -1711,7 +1711,7 @@
       "连续进位时不错位"
     ],
     "diagnostic_question": {
-      "question": "计算：234＋125＝？",
+      "question": "两个仓库分别有 234 箱和 125 箱。一共有多少箱？",
       "answer": "359"
     },
     "external": false,
@@ -1740,8 +1740,8 @@
       "能用加法验算减法"
     ],
     "diagnostic_question": {
-      "question": "笔算加法算完后，常用什么方法验算？",
-      "answer": "用减法：和减去一个加数，看是否等于另一个加数"
+      "question": "书架上有 756 本书，搬走 234 本。还剩多少本？",
+      "answer": "522"
     },
     "external": false,
     "standards": [
@@ -1794,7 +1794,7 @@
       "能按规律写出下一个数"
     ],
     "diagnostic_question": {
-      "question": "一列数 2，5，8。每次增加的一样多，8 的后面是多少？计算：8＋3＝？",
+      "question": "一列数 2，5，8。每次增加的一样多，8 的后面是多少？",
       "answer": "11"
     },
     "external": false,
@@ -1877,7 +1877,7 @@
     ],
     "external": false,
     "diagnostic_question": {
-      "question": "计算：36－8＋12＝？",
+      "question": "只有加减法的算式 36－8＋12，要从左往右算。结果是多少？",
       "answer": "40"
     }
   },
@@ -1920,8 +1920,8 @@
       "能列出综合算式或分步算式"
     ],
     "diagnostic_question": {
-      "question": "计算：20＋15－8＝？",
-      "answer": "27"
+      "question": "书店运来 25 本，又运来 17 本，卖出 13 本。还剩多少本？",
+      "answer": "29"
     },
     "external": false,
     "standards": [
@@ -2101,7 +2101,7 @@
       "能解决单价、数量一类的乘法问题"
     ],
     "diagnostic_question": {
-      "question": "计算：24×2＝？",
+      "question": "每盒彩笔 24 元，买 2 盒。一共多少元？",
       "answer": "48"
     },
     "external": false,
@@ -2126,7 +2126,7 @@
       "末尾有 0 时积的末尾也有 0"
     ],
     "diagnostic_question": {
-      "question": "计算：30×4＝？",
+      "question": "每盒 30 支笔，买 4 盒。一共多少支？",
       "answer": "120"
     },
     "external": false,
@@ -2331,7 +2331,7 @@
       "能算出同分母分数相减"
     ],
     "diagnostic_question": {
-      "question": "计算：1/5＋2/5＝？",
+      "question": "1/5 加上 2/5 是多少？",
       "answer": "3/5"
     },
     "external": false,
@@ -2356,7 +2356,7 @@
       "能用乘法表示倍"
     ],
     "diagnostic_question": {
-      "question": "计算：6×3＝？",
+      "question": "6 的 3 倍是多少？",
       "answer": "18"
     },
     "external": false,
@@ -2411,8 +2411,8 @@
       "能用乘法算出搭配种数"
     ],
     "diagnostic_question": {
-      "question": "搭配时交换顺序，如果顺序不同算不同，就要怎样数？",
-      "answer": "如果顺序不同算不同，就要分开数"
+      "question": "数两种事物的搭配时，怎样才不会重复，也不会漏掉？",
+      "answer": "按顺序一种一种地配"
     },
     "external": false,
     "standards": [
@@ -2462,7 +2462,7 @@
       "能判断商是几位数"
     ],
     "diagnostic_question": {
-      "question": "计算：48÷2＝？",
+      "question": "48 支铅笔平均分给 2 个组。每组多少支？",
       "answer": "24"
     },
     "external": false,
@@ -2487,7 +2487,7 @@
       "能写出单位并检查余数"
     ],
     "diagnostic_question": {
-      "question": "计算：96÷3＝？",
+      "question": "96 人平均分成 3 组。每组多少人？",
       "answer": "32"
     },
     "external": false,
@@ -2670,8 +2670,8 @@
       "能算出一行或一列的合计"
     ],
     "diagnostic_question": {
-      "question": "计算：12＋9＝？",
-      "answer": "21"
+      "question": "复式统计表：一班男生 14 人、女生 12 人，二班男生 13 人、女生 15 人。一班女生有几人？",
+      "answer": "12"
     },
     "external": false,
     "standards": [
@@ -2724,7 +2724,7 @@
       "能说出 24 时就是第二天 0 时"
     ],
     "diagnostic_question": {
-      "question": "计算：12＋1＝？",
+      "question": "下午 1 时，用 24 时记时法表示是几时？",
       "answer": "13"
     },
     "external": false,
@@ -2749,8 +2749,8 @@
       "能比较一位小数的大小"
     ],
     "diagnostic_question": {
-      "question": "计算：0.1＋0.2＝？（用小数作答）",
-      "answer": "0.3"
+      "question": "0.1 元是几角？",
+      "answer": "1"
     },
     "external": false,
     "standards": [
@@ -2774,8 +2774,8 @@
       "得数的小数点位置不错"
     ],
     "diagnostic_question": {
-      "question": "计算：0.7＋0.2＝？（用小数作答）",
-      "answer": "0.9"
+      "question": "一支笔 0.6 元，一块橡皮 0.2 元。一共多少元？",
+      "answer": "0.8"
     },
     "external": false,
     "standards": [
@@ -2799,8 +2799,8 @@
       "能根据一个方向说出相反方向"
     ],
     "diagnostic_question": {
-      "question": "东和西是什么关系？东北的相反方向是哪一种关系？",
-      "answer": "相反的方向"
+      "question": "东北方向的相反方向是哪个方向？",
+      "answer": "西南"
     },
     "external": false,
     "standards": [
@@ -6426,7 +6426,7 @@
       "能算出 5、4、3、2 加几的得数"
     ],
     "diagnostic_question": {
-      "question": "计算：4＋9＝？",
+      "question": "4 个红球，又拿来 9 个蓝球。一共有多少个？",
       "answer": "13"
     },
     "external": false,
@@ -6488,7 +6488,7 @@
       "能列出算式并算出得数"
     ],
     "diagnostic_question": {
-      "question": "树上有 6 只鸟，又飞来 3 只。现在有几只？计算：6＋3＝？",
+      "question": "树上有 6 只鸟，又飞来 3 只。现在有几只？",
       "answer": "9"
     },
     "external": false,
