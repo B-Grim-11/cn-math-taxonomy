@@ -15,8 +15,9 @@
  *         judgeAnswer(user, reference) -> 同上（只按参考答案文本判，旧接口）
  *
  * 每个知识点需连续答对 confirm 题才判掌握（默认 3，可选 2/3/5；题库更少时以题库为准）：
- *   连续答对满额 -> 掌握（并推断祖先掌握）；中途错 / 不会 -> 再出一道同级或更容易的题确认：
+ *   连续答对满额 -> 掌握（并推断祖先掌握）；中途错 / 不会 -> 再出一道更基础的题确认：
  *   确认题对 -> 不稳（shaky，不向先修回溯）；确认题也错 -> 薄弱（weak，向先修回溯，hard 先于 soft）。
+ *   选题：第一题优先 standard（提高）；连续答对再出 challenge（拓展）确认掌握；答错先补 basic。
  */
 (function (root, factory) {
   if (typeof module !== 'undefined' && module.exports) module.exports = factory();
@@ -26,7 +27,7 @@
 
   /* ------------------------------------------------------------------ 图 */
 
-  const DIFF_RANK = { basic: 0, standard: 1, advanced: 2 };
+  const DIFF_RANK = { basic: 0, standard: 1, challenge: 2, advanced: 2 };
 
   function qNum(q) { const m = /_q(\d+)$/.exec(q.id); return m ? parseInt(m[1], 10) : 0; }
 
@@ -227,9 +228,10 @@
   /**
    * 给知识点 id 选第 attempt 题。
    *  - 已在本次会话里出过的题不再出；
-   *  - 掌握确认（尚未错过）：优先没出过（session.avoid 之外）的题，并尽量避开 advanced；
+   *  - 第一题：优先 standard（提高），没有再退到 basic，尽量不出拓展；
+   *  - 连续答对、尚未错过：优先 challenge（拓展）确认掌握，再 standard，再 basic；
    *  - 错过之后的确认题：同级或更容易——优先 basic，其次与第一题同难度，再其次其它更容易的，最后才是更难的（取最容易的）；
-   *    难度优先于“没出过”，同档里仍优先没出过的；
+   *    难度优先于“没出过”，同档里仍优先没出过（session.avoid 之外）的；
    *  - 档内用 seed 决定的伪随机数选一道。
    */
   function pickQuestion(graph, session, id, attempt) {
@@ -242,13 +244,20 @@
       const f = list.filter(function (q) { return !avoid.has(q.id); });
       return f.length ? f : list;
     };
+    const pickRank = function (list, ranks) {
+      for (let i = 0; i < ranks.length; i++) {
+        const hit = list.filter(function (q) { return rankOf(q) === ranks[i]; });
+        if (hit.length) return freshFirst(hit);
+      }
+      return freshFirst(list);
+    };
     const prev = session.attempts[id] || [];
     const hadFail = prev.some(function (a) { return a.result !== 'correct'; });
     let cand;
     if (attempt <= 1 || !hadFail) {
-      cand = freshFirst(pool);
-      const nonAdv = cand.filter(function (q) { return rankOf(q) < 2; });
-      if (nonAdv.length) cand = nonAdv;
+      const base = freshFirst(pool);
+      if (attempt <= 1) cand = pickRank(base, [1, 0]);
+      else cand = pickRank(base, [2, 1, 0]);
     } else {
       const first = all.find(function (q) { return q.id === tried[0]; });
       const r0 = first ? rankOf(first) : 1;

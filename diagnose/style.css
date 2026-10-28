@@ -63,9 +63,9 @@ button.choice.picked { border-color: var(--brand); background: var(--brand-soft)
 .tag.ext { background: var(--junior-soft); color: var(--text); }
 .tag.diff-basic { background: var(--ok-bg); color: var(--ok); }
 .tag.diff-standard { background: var(--junior-soft); color: var(--text); }
-.tag.diff-advanced { background: #fae8ff; color: #86198f; }
+.tag.diff-challenge, .tag.diff-advanced { background: #fae8ff; color: #86198f; }
 @media (prefers-color-scheme: dark) {
-  .tag.diff-advanced { background: #581c87; color: #f5d0fe; }
+  .tag.diff-challenge, .tag.diff-advanced { background: #581c87; color: #f5d0fe; }
 }
 
 .stats { display: flex; gap: 10px; flex-wrap: wrap; margin: 10px 0; }

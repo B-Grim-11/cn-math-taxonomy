@@ -5183,8 +5183,8 @@
       "能按方向和距离算出行走的路程"
     ],
     "diagnostic_question": {
-      "question": "计算：300＋200＝？",
-      "answer": "500"
+      "question": "「北偏东 30 度」是从哪一条方向线开始、向哪边偏？",
+      "answer": "从正北方向向东偏 30 度"
     },
     "external": false,
     "standards": [
@@ -5209,8 +5209,8 @@
       "能把各段距离加起来"
     ],
     "diagnostic_question": {
-      "question": "计算：200＋150＋50＝？",
-      "answer": "400"
+      "question": "从家向东走到学校，再向北走到图书馆。从家到图书馆的第二段朝哪个方向？",
+      "answer": "北"
     },
     "external": false,
     "standards": [
@@ -5368,7 +5368,7 @@
       "能列式并算出结果"
     ],
     "diagnostic_question": {
-      "question": "计算：12÷（3/4）＝？",
+      "question": "一个数的 3/4 是 12。这个数是多少？",
       "answer": "16"
     },
     "external": false,
@@ -5497,7 +5497,7 @@
       "能根据直径求周长"
     ],
     "diagnostic_question": {
-      "question": "半径 2 厘米的圆，周长是多少厘米？圆周率按 314/100。",
+      "question": "半径 2 厘米的圆，周长是多少厘米？圆周率按 314/100。（用小数作答）",
       "answer": "12.56"
     },
     "external": false,
@@ -5522,8 +5522,8 @@
       "能代入半径或直径计算"
     ],
     "diagnostic_question": {
-      "question": "半径 1 厘米的圆，周长是多少厘米？圆周率按 314/100。",
-      "answer": "6.28"
+      "question": "自行车车轮的直径是 50 厘米。车轮滚动一周，大约前进多少厘米？圆周率按 314/100。",
+      "answer": "157"
     },
     "external": false,
     "standards": [
@@ -5547,7 +5547,7 @@
       "能算出简单的圆面积"
     ],
     "diagnostic_question": {
-      "question": "半径 2 厘米的圆，面积是多少平方厘米？圆周率按 314/100。",
+      "question": "半径 2 厘米的圆，面积是多少平方厘米？圆周率按 314/100。（用小数作答）",
       "answer": "12.56"
     },
     "external": false,
@@ -5572,8 +5572,8 @@
       "能比较圆心角较大时扇形也较大"
     ],
     "diagnostic_question": {
-      "question": "计算：2＋1＝？",
-      "answer": "3"
+      "question": "扇形是由什么围成的图形？",
+      "answer": "两条半径和一段弧"
     },
     "external": false,
     "standards": [
@@ -5605,8 +5605,8 @@
     ],
     "external": false,
     "diagnostic_question": {
-      "question": "跑道一圈 400 米，跑 5 圈一共多少米？计算：400×5＝？",
-      "answer": "2000"
+      "question": "小明跳远三次的成绩是 3.2 米、3.5 米、3.4 米，取最好成绩。最好成绩是多少米？（用小数作答）",
+      "answer": "3.5"
     }
   },
   {
@@ -5649,7 +5649,7 @@
       "能把小数化成百分数"
     ],
     "diagnostic_question": {
-      "question": "把百分数 35% 化成小数，是多少？",
+      "question": "把百分数 35% 化成小数，是多少？（用小数作答）",
       "answer": "0.35"
     },
     "external": false,
@@ -5701,7 +5701,7 @@
       "能把得数写成百分数"
     ],
     "diagnostic_question": {
-      "question": "计算：20÷80×100＝？",
+      "question": "40 人里有 10 人达标。达标率是百分之几？（只写百分号前面的数）",
       "answer": "25"
     },
     "external": false,
@@ -5727,7 +5727,7 @@
       "能算出原来的数"
     ],
     "diagnostic_question": {
-      "question": "计算：20÷0.4＝？（用小数作答）",
+      "question": "一个数的 40% 是 20。这个数是多少？",
       "answer": "50"
     },
     "external": false,
@@ -5779,7 +5779,7 @@
       "能算出一年的利息"
     ],
     "diagnostic_question": {
-      "question": "200 的 3% 是多少？",
+      "question": "把 200 元存一年，年利率 3%。一年的利息是多少元？",
       "answer": "6"
     },
     "external": false,
@@ -5839,7 +5839,7 @@
     ],
     "external": false,
     "diagnostic_question": {
-      "question": "一个水龙头每天漏水 2 升，30 天一共漏水多少升？计算：2×30＝？",
+      "question": "一个水龙头每天漏水 2 升，30 天一共漏水多少升？",
       "answer": "60"
     }
   },
@@ -6038,7 +6038,7 @@
       "能用底面积×高求体积"
     ],
     "diagnostic_question": {
-      "question": "底面半径 2 厘米、高 5 厘米的圆柱，体积是多少立方厘米？圆周率按 314/100。",
+      "question": "底面半径 2 厘米、高 5 厘米的圆柱，体积是多少立方厘米？圆周率按 314/100。（用小数作答）",
       "answer": "62.8"
     },
     "external": false,
@@ -6063,8 +6063,8 @@
       "能把侧面积和底面积相加"
     ],
     "diagnostic_question": {
-      "question": "计算：12.56＋12.56＝？（用小数作答）",
-      "answer": "25.12"
+      "question": "圆柱的表面积包括哪几个面？",
+      "answer": "两个底面和一个侧面"
     },
     "external": false,
     "standards": [
@@ -6189,7 +6189,7 @@
       "能按比算出各部分"
     ],
     "diagnostic_question": {
-      "question": "计算：30÷（2＋3）×2＝？",
+      "question": "把 30 按 2：3 分成两份，与 2 对应的那一份是多少？",
       "answer": "12"
     },
     "external": false,
@@ -6239,7 +6239,7 @@
       "能求出未知项"
     ],
     "diagnostic_question": {
-      "question": "2：3＝8：x。x 是多少？计算：8×3÷2＝？",
+      "question": "2：3＝8：x。x 是多少？",
       "answer": "12"
     },
     "external": false,
@@ -6375,7 +6375,7 @@
       "能列出比例并求出未知数"
     ],
     "diagnostic_question": {
-      "question": "3 本笔记本 12 元，同样的笔记本 5 本多少元？计算：12÷3×5＝？",
+      "question": "3 本同样的笔记本 12 元，5 本多少元？",
       "answer": "20"
     },
     "external": false,
@@ -6571,8 +6571,8 @@
       "能按规律算出下一项"
     ],
     "diagnostic_question": {
-      "question": "用小圆点摆正方形点阵：第 1 个图有 1 个点，第 2 个图有 4 个点，第 3 个图有 9 个点。第 2 个图比第 1 个图多几个点？",
-      "answer": "3"
+      "question": "用小圆点摆正方形点阵：第 1 个图有 1 个点，第 2 个图有 4 个点，第 3 个图有 9 个点。第 5 个图有多少个点？",
+      "answer": "25"
     },
     "external": false,
     "standards": [
