@@ -26,6 +26,7 @@ import sci_g6  # noqa: E402,F401
 import sci_edges  # noqa: E402,F401
 from sci_lib import HARD, MATH, CODE_OF, STANDARD_ROWS, TOPICS, chapter, check_question, materialise_questions  # noqa: E402
 from verify_questions import verify_all  # noqa: E402
+from sci_figs import FIGS  # noqa: E402
 
 ZH_CODES = {
     "PY": "拼音", "SZ": "识字写字", "CY": "词语", "JZ": "句子",
@@ -238,6 +239,9 @@ def main():
         diag_answer = None
         for n, item in enumerate(made, start=1):
             q, shown = build_question(tid, n, item, slot=i + n)
+            fig = FIGS.get((spec["key"], n))
+            if fig:
+                q["figure"] = fig
             built.append(q)
             if n == 1:
                 diag_answer = shown

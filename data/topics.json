@@ -63525,7 +63525,7 @@
       "能用观察或实验的结果解释简单现象"
     ],
     "diagnostic_question": {
-      "question": "用天平比较轻重，往下沉的一边物体怎样？",
+      "question": "如图，用天平比较两样东西的轻重，往下沉的一边物体怎样？",
       "answer": "更重"
     },
     "external": false,
@@ -64504,7 +64504,7 @@
     ],
     "diagnostic_question": {
       "question": "磁铁能吸起下面哪个物品？",
-      "answer": "回形针（铁）"
+      "answer": "铁回形针"
     },
     "external": false,
     "subject": "science",
@@ -65790,7 +65790,7 @@
       "能用观察或实验的结果解释简单现象"
     ],
     "diagnostic_question": {
-      "question": "把塞着纸团的杯子竖直倒扣压入水中，纸团会湿吗？",
+      "question": "如图，把塞着纸团的杯子竖直倒扣压入水中，纸团会湿吗？",
       "answer": "不会湿"
     },
     "external": false,
@@ -66417,8 +66417,8 @@
       "能把特征和生活环境、功能联系起来"
     ],
     "diagnostic_question": {
-      "question": "果实是由花的哪一部分发育来的？",
-      "answer": "子房"
+      "question": "如图是一朵花的结构，将来发育成果实的是哪一部分？",
+      "answer": "④ 子房"
     },
     "external": false,
     "subject": "science",
@@ -68919,8 +68919,8 @@
       "能用模型或观测记录解释简单现象"
     ],
     "diagnostic_question": {
-      "question": "发生日食时，三个天体的位置是怎样的？",
-      "answer": "月球在太阳和地球之间"
+      "question": "如图，发生日食时，运行到太阳和地球之间、挡住太阳光的天体 X 是什么？",
+      "answer": "月球"
     },
     "external": false,
     "subject": "science",
@@ -69055,7 +69055,7 @@
     ],
     "diagnostic_question": {
       "question": "蜡烛燃烧时，下面哪个现象说明有新物质生成？",
-      "answer": "罩在火焰上方的冷玻璃片出现水珠和黑色物质"
+      "answer": "罩在火焰上方的干冷玻璃片上出现小水珠"
     },
     "external": false,
     "subject": "science",
