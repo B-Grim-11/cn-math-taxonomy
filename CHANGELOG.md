@@ -1,5 +1,11 @@
 # 变更日志
 
+## 2026-10-29（新增小学道德与法治）
+
+- 2026-10-29：新增小学道德与法治（统编版一上至六下，`cnd_p001`–`cnd_p159`，159 个知识点、636 题、先修边 171 条、课标条目 18 条 `cds-2022:`）。一上按 2024 秋修订目录，一下按 2025 春，二上按 2025 秋，二下/三下按 2026 春，三上按 2025 秋，四上/五上/六上按 2026 秋；四下、五下、六下修订版未发行，暂按现行统编目录。首页、知识图谱、诊断加上「道法」切换（琥珀色主题）；`validate.py` 增加道德与法治的 id、领域、年级和课标校验；测试补上按年级目标和档案恢复。可复跑：`scripts/mor_build.py`。本地提交，未推送、未部署。
+
+
+
 ## 2026-10-29（小学英语四上/四下/六上/六下 densify）
 
 - 2026-10-29：小学英语按 dzkbw PEP 目录 densify（本地，未上线）。四上 2025 秋 `pep4s_2025` 按 Part A/B/C/Reading 补点，24→38（含复习 Let's help!）；四下 2026 春 `pep4x_2026` 第6单元改挂 On the farm，并补家规/农场活动等 6 点，18→24；六上 2026 秋 `pep6s_2026` 补 Healthy life / Getting together / Managing money / Exploring space 薄单元，27→33；六下现行 `peps6x` 补全 Unit3 Where did you go（原缺，+6）、Unit2 Last weekend 由 2→6，并加复习 Mike's happy days，14→25。新增 `cne_p209`–`cne_p245` 共 37 点、148 题、先修边净增约 63 条（小学英语先修现 317：hard 91，soft 226）。单元名同步 `scripts/en_lib.py` UNITS。可复跑：`scripts/en_densify_g46.py`、`scripts/en_densify_g6x_u2.py`。没有删除知识点。小学英语现 **245** 点、**980** 题。

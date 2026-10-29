@@ -70806,5 +70806,4299 @@
         "note": "教科版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
       }
     ]
+  },
+  {
+    "id": "cnd_p001",
+    "name": "开开心心上学去",
+    "domain": "学校生活",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "一年级上册 第1单元 我是小学生啦",
+    "type": "conceptual",
+    "description": "理解并践行「开开心心上学去」一课的基本要求，落实学校生活方面的正确做法。",
+    "mastery_criteria": [
+      "能说出校园或班级中的正确做法",
+      "能说明为什么要这样做"
+    ],
+    "diagnostic_question": {
+      "question": "第一天去上学，最合适的做法是？",
+      "answer": "按时到校，认识老师和同学"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.XX.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ],
+    "root_reason": "一年级道德与法治从认识小学生活开始，前面没有更早的小学道德与法治知识点。"
+  },
+  {
+    "id": "cnd_p002",
+    "name": "我向国旗敬个礼",
+    "domain": "公民与国家",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "一年级上册 第1单元 我是小学生啦",
+    "type": "procedural",
+    "description": "理解并践行「我向国旗敬个礼」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "升国旗时，正确的做法是？",
+      "answer": "立正敬礼，安静注视国旗"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p003",
+    "name": "这是我们的校园",
+    "domain": "学校生活",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "一年级上册 第1单元 我是小学生啦",
+    "type": "application",
+    "description": "理解并践行「这是我们的校园」一课的基本要求，落实学校生活方面的正确做法。",
+    "mastery_criteria": [
+      "能说出校园或班级中的正确做法",
+      "能说明为什么要这样做"
+    ],
+    "diagnostic_question": {
+      "question": "校园里常见的地方有？",
+      "answer": "教室、操场、图书馆等"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.XX.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p004",
+    "name": "平平安安回家来",
+    "domain": "生活与安全",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "一年级上册 第1单元 我是小学生啦",
+    "type": "reasoning",
+    "description": "理解并践行「平平安安回家来」一课的基本要求，落实生活与安全方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的安全或健康做法",
+      "能在情境中选择正确行为"
+    ],
+    "diagnostic_question": {
+      "question": "放学过马路时，应该怎么做？",
+      "answer": "走人行横道，红灯停绿灯行"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.LS.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p005",
+    "name": "老师，您好！",
+    "domain": "学校生活",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "一年级上册 第2单元 过好校园生活",
+    "type": "conceptual",
+    "description": "理解并践行「老师，您好！」一课的基本要求，落实学校生活方面的正确做法。",
+    "mastery_criteria": [
+      "能说出校园或班级中的正确做法",
+      "能说明为什么要这样做"
+    ],
+    "diagnostic_question": {
+      "question": "见到老师，有礼貌的做法是？",
+      "answer": "主动说“老师好”"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.XX.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p006",
+    "name": "拉拉手，交朋友",
+    "domain": "学校生活",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "一年级上册 第2单元 过好校园生活",
+    "type": "conceptual",
+    "description": "理解并践行「拉拉手，交朋友」一课的基本要求，落实学校生活方面的正确做法。",
+    "mastery_criteria": [
+      "能说出校园或班级中的正确做法",
+      "能说明为什么要这样做"
+    ],
+    "diagnostic_question": {
+      "question": "交新朋友时，比较好的做法是？",
+      "answer": "微笑、自我介绍、一起玩"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.XX.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p007",
+    "name": "上课了，好好学",
+    "domain": "学校生活",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "一年级上册 第2单元 过好校园生活",
+    "type": "procedural",
+    "description": "理解并践行「上课了，好好学」一课的基本要求，落实学校生活方面的正确做法。",
+    "mastery_criteria": [
+      "能说出校园或班级中的正确做法",
+      "能说明为什么要这样做"
+    ],
+    "diagnostic_question": {
+      "question": "上课铃响了，应该？",
+      "answer": "迅速回教室坐好准备上课"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.XX.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p008",
+    "name": "课余生活真丰富",
+    "domain": "学校生活",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "一年级上册 第2单元 过好校园生活",
+    "type": "application",
+    "description": "理解并践行「课余生活真丰富」一课的基本要求，落实学校生活方面的正确做法。",
+    "mastery_criteria": [
+      "能说出校园或班级中的正确做法",
+      "能说明为什么要这样做"
+    ],
+    "diagnostic_question": {
+      "question": "课余时间适合做什么？",
+      "answer": "阅读、运动或参加兴趣活动"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.XX.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p009",
+    "name": "作息有规律",
+    "domain": "生活与安全",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "一年级上册 第3单元 养成良好习惯",
+    "type": "reasoning",
+    "description": "理解并践行「作息有规律」一课的基本要求，落实生活与安全方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的安全或健康做法",
+      "能在情境中选择正确行为"
+    ],
+    "diagnostic_question": {
+      "question": "比较合理的作息是？",
+      "answer": "按时睡觉起床，保证充足睡眠"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.LS.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p010",
+    "name": "吃饭有讲究",
+    "domain": "生活与安全",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "一年级上册 第3单元 养成良好习惯",
+    "type": "conceptual",
+    "description": "理解并践行「吃饭有讲究」一课的基本要求，落实生活与安全方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的安全或健康做法",
+      "能在情境中选择正确行为"
+    ],
+    "diagnostic_question": {
+      "question": "吃饭时较好的习惯是？",
+      "answer": "细嚼慢咽，不挑食，不浪费"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.LS.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p011",
+    "name": "对人有礼貌",
+    "domain": "社会规则",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "一年级上册 第3单元 养成良好习惯",
+    "type": "conceptual",
+    "description": "理解并践行「对人有礼貌」一课的基本要求，落实社会规则方面的正确做法。",
+    "mastery_criteria": [
+      "能说出公共场合应遵守的规则",
+      "能判断违反规则的行为并改正"
+    ],
+    "diagnostic_question": {
+      "question": "见到长辈，有礼貌的做法是？",
+      "answer": "主动问好"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.SH.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p012",
+    "name": "玩也有学问",
+    "domain": "生活与安全",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "一年级上册 第3单元 养成良好习惯",
+    "type": "procedural",
+    "description": "理解并践行「玩也有学问」一课的基本要求，落实生活与安全方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的安全或健康做法",
+      "能在情境中选择正确行为"
+    ],
+    "diagnostic_question": {
+      "question": "一起玩时正确做法是？",
+      "answer": "遵守规则，轮流分享"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.LS.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p013",
+    "name": "我们小点儿声",
+    "domain": "社会规则",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "一年级上册 第4单元 我们讲文明",
+    "type": "application",
+    "description": "理解并践行「我们小点儿声」一课的基本要求，落实社会规则方面的正确做法。",
+    "mastery_criteria": [
+      "能说出公共场合应遵守的规则",
+      "能判断违反规则的行为并改正"
+    ],
+    "diagnostic_question": {
+      "question": "在图书馆应怎么做？",
+      "answer": "轻声说话或保持安静"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.SH.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p014",
+    "name": "人人爱护公物",
+    "domain": "社会规则",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "一年级上册 第4单元 我们讲文明",
+    "type": "reasoning",
+    "description": "理解并践行「人人爱护公物」一课的基本要求，落实社会规则方面的正确做法。",
+    "mastery_criteria": [
+      "能说出公共场合应遵守的规则",
+      "能判断违反规则的行为并改正"
+    ],
+    "diagnostic_question": {
+      "question": "学校课桌椅属于？",
+      "answer": "公物，大家共同使用"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.SH.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p015",
+    "name": "我们不乱扔",
+    "domain": "社会规则",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "一年级上册 第4单元 我们讲文明",
+    "type": "conceptual",
+    "description": "理解并践行「我们不乱扔」一课的基本要求，落实社会规则方面的正确做法。",
+    "mastery_criteria": [
+      "能说出公共场合应遵守的规则",
+      "能判断违反规则的行为并改正"
+    ],
+    "diagnostic_question": {
+      "question": "零食包装袋应怎么处理？",
+      "answer": "扔进垃圾桶"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.SH.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p016",
+    "name": "大家排好队",
+    "domain": "社会规则",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "一年级上册 第4单元 我们讲文明",
+    "type": "conceptual",
+    "description": "理解并践行「大家排好队」一课的基本要求，落实社会规则方面的正确做法。",
+    "mastery_criteria": [
+      "能说出公共场合应遵守的规则",
+      "能判断违反规则的行为并改正"
+    ],
+    "diagnostic_question": {
+      "question": "打饭时人多，正确做法是？",
+      "answer": "自觉排队，不插队"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.SH.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p017",
+    "name": "有个新目标",
+    "domain": "生活与安全",
+    "grade": 1,
+    "semester": "下",
+    "chapter": "一年级下册 第1单元 我有新面貌",
+    "type": "conceptual",
+    "description": "理解并践行「有个新目标」一课的基本要求，落实生活与安全方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的安全或健康做法",
+      "能在情境中选择正确行为"
+    ],
+    "diagnostic_question": {
+      "question": "保持身心健康，应当？",
+      "answer": "适度运动、充足睡眠、心态积极"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.LS.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p018",
+    "name": "做事要仔细",
+    "domain": "生活与安全",
+    "grade": 1,
+    "semester": "下",
+    "chapter": "一年级下册 第1单元 我有新面貌",
+    "type": "procedural",
+    "description": "理解并践行「做事要仔细」一课的基本要求，落实生活与安全方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的安全或健康做法",
+      "能在情境中选择正确行为"
+    ],
+    "diagnostic_question": {
+      "question": "保持身心健康，应当？",
+      "answer": "适度运动、充足睡眠、心态积极"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.LS.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p019",
+    "name": "错了就要改",
+    "domain": "生活与安全",
+    "grade": 1,
+    "semester": "下",
+    "chapter": "一年级下册 第1单元 我有新面貌",
+    "type": "application",
+    "description": "理解并践行「错了就要改」一课的基本要求，落实生活与安全方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的安全或健康做法",
+      "能在情境中选择正确行为"
+    ],
+    "diagnostic_question": {
+      "question": "保持身心健康，应当？",
+      "answer": "适度运动、充足睡眠、心态积极"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.LS.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p020",
+    "name": "我们有精神",
+    "domain": "生活与安全",
+    "grade": 1,
+    "semester": "下",
+    "chapter": "一年级下册 第1单元 我有新面貌",
+    "type": "reasoning",
+    "description": "理解并践行「我们有精神」一课的基本要求，落实生活与安全方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的安全或健康做法",
+      "能在情境中选择正确行为"
+    ],
+    "diagnostic_question": {
+      "question": "保持身心健康，应当？",
+      "answer": "适度运动、充足睡眠、心态积极"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.LS.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p021",
+    "name": "和大家在一起",
+    "domain": "学校生活",
+    "grade": 1,
+    "semester": "下",
+    "chapter": "一年级下册 第2单元 我们一起长大",
+    "type": "conceptual",
+    "description": "理解并践行「和大家在一起」一课的基本要求，落实学校生活方面的正确做法。",
+    "mastery_criteria": [
+      "能说出校园或班级中的正确做法",
+      "能说明为什么要这样做"
+    ],
+    "diagnostic_question": {
+      "question": "家人之所以珍贵，是因为？",
+      "answer": "互相关爱、共同生活"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.XX.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p022",
+    "name": "请帮我一下",
+    "domain": "学校生活",
+    "grade": 1,
+    "semester": "下",
+    "chapter": "一年级下册 第2单元 我们一起长大",
+    "type": "conceptual",
+    "description": "理解并践行「请帮我一下」一课的基本要求，落实学校生活方面的正确做法。",
+    "mastery_criteria": [
+      "能说出校园或班级中的正确做法",
+      "能说明为什么要这样做"
+    ],
+    "diagnostic_question": {
+      "question": "同学搬不动椅子，你可以？",
+      "answer": "主动过去帮忙"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.XX.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p023",
+    "name": "我们爱分享",
+    "domain": "学校生活",
+    "grade": 1,
+    "semester": "下",
+    "chapter": "一年级下册 第2单元 我们一起长大",
+    "type": "procedural",
+    "description": "理解并践行「我们爱分享」一课的基本要求，落实学校生活方面的正确做法。",
+    "mastery_criteria": [
+      "能说出校园或班级中的正确做法",
+      "能说明为什么要这样做"
+    ],
+    "diagnostic_question": {
+      "question": "有好吃的点心，较好的做法是？",
+      "answer": "和同伴一起分享"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.XX.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p024",
+    "name": "大家来合作",
+    "domain": "学校生活",
+    "grade": 1,
+    "semester": "下",
+    "chapter": "一年级下册 第2单元 我们一起长大",
+    "type": "application",
+    "description": "理解并践行「大家来合作」一课的基本要求，落实学校生活方面的正确做法。",
+    "mastery_criteria": [
+      "能说出校园或班级中的正确做法",
+      "能说明为什么要这样做"
+    ],
+    "diagnostic_question": {
+      "question": "小组完成任务，正确做法是？",
+      "answer": "分工合作，互相配合"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.XX.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p025",
+    "name": "这是我的家",
+    "domain": "家庭与亲情",
+    "grade": 1,
+    "semester": "下",
+    "chapter": "一年级下册 第3单元 幸福一家人",
+    "type": "reasoning",
+    "description": "理解并践行「这是我的家」一课的基本要求，落实家庭与亲情方面的正确做法。",
+    "mastery_criteria": [
+      "能说出关爱家人、分担家务的做法",
+      "能在情境中选择体贴家人的行为"
+    ],
+    "diagnostic_question": {
+      "question": "家人之所以珍贵，是因为？",
+      "answer": "互相关爱、共同生活"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.JT.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p026",
+    "name": "相亲相爱一家人",
+    "domain": "家庭与亲情",
+    "grade": 1,
+    "semester": "下",
+    "chapter": "一年级下册 第3单元 幸福一家人",
+    "type": "conceptual",
+    "description": "理解并践行「相亲相爱一家人」一课的基本要求，落实家庭与亲情方面的正确做法。",
+    "mastery_criteria": [
+      "能说出关爱家人、分担家务的做法",
+      "能在情境中选择体贴家人的行为"
+    ],
+    "diagnostic_question": {
+      "question": "家人之所以珍贵，是因为？",
+      "answer": "互相关爱、共同生活"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.JT.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p027",
+    "name": "让我自己来整理",
+    "domain": "家庭与亲情",
+    "grade": 1,
+    "semester": "下",
+    "chapter": "一年级下册 第3单元 幸福一家人",
+    "type": "conceptual",
+    "description": "理解并践行「让我自己来整理」一课的基本要求，落实家庭与亲情方面的正确做法。",
+    "mastery_criteria": [
+      "能说出关爱家人、分担家务的做法",
+      "能在情境中选择体贴家人的行为"
+    ],
+    "diagnostic_question": {
+      "question": "自己的玩具玩完后应？",
+      "answer": "放回原处整理好"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.JT.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p028",
+    "name": "学做家务活",
+    "domain": "家庭与亲情",
+    "grade": 1,
+    "semester": "下",
+    "chapter": "一年级下册 第3单元 幸福一家人",
+    "type": "procedural",
+    "description": "理解并践行「学做家务活」一课的基本要求，落实家庭与亲情方面的正确做法。",
+    "mastery_criteria": [
+      "能说出关爱家人、分担家务的做法",
+      "能在情境中选择体贴家人的行为"
+    ],
+    "diagnostic_question": {
+      "question": "自己的玩具玩完后应？",
+      "answer": "放回原处整理好"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.JT.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p029",
+    "name": "快乐儿童节",
+    "domain": "公民与国家",
+    "grade": 1,
+    "semester": "下",
+    "chapter": "一年级下册 第4单元 争做中国好儿童",
+    "type": "application",
+    "description": "理解并践行「快乐儿童节」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "少先队员的标志是？",
+      "answer": "红领巾"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p030",
+    "name": "光荣的少先队",
+    "domain": "公民与国家",
+    "grade": 1,
+    "semester": "下",
+    "chapter": "一年级下册 第4单元 争做中国好儿童",
+    "type": "reasoning",
+    "description": "理解并践行「光荣的少先队」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "少先队员的标志是？",
+      "answer": "红领巾"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p031",
+    "name": "戴上红领巾",
+    "domain": "公民与国家",
+    "grade": 1,
+    "semester": "下",
+    "chapter": "一年级下册 第4单元 争做中国好儿童",
+    "type": "conceptual",
+    "description": "理解并践行「戴上红领巾」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "少先队员的标志是？",
+      "answer": "红领巾"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p032",
+    "name": "学先锋 做先锋",
+    "domain": "公民与国家",
+    "grade": 1,
+    "semester": "下",
+    "chapter": "一年级下册 第4单元 争做中国好儿童",
+    "type": "conceptual",
+    "description": "理解并践行「学先锋 做先锋」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "少先队员的标志是？",
+      "answer": "红领巾"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p033",
+    "name": "假期有收获",
+    "domain": "生活与安全",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "二年级上册 第1单元 过好节假日",
+    "type": "conceptual",
+    "description": "理解并践行「假期有收获」一课的基本要求，落实生活与安全方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的安全或健康做法",
+      "能在情境中选择正确行为"
+    ],
+    "diagnostic_question": {
+      "question": "过节假日较好的安排是？",
+      "answer": "劳逸结合，做有意义的事"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.LS.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p034",
+    "name": "教师节快乐",
+    "domain": "学校生活",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "二年级上册 第1单元 过好节假日",
+    "type": "procedural",
+    "description": "理解并践行「教师节快乐」一课的基本要求，落实学校生活方面的正确做法。",
+    "mastery_criteria": [
+      "能说出校园或班级中的正确做法",
+      "能说明为什么要这样做"
+    ],
+    "diagnostic_question": {
+      "question": "教师节是为了？",
+      "answer": "感谢老师的辛勤教导"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.XX.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p035",
+    "name": "团团圆圆过中秋",
+    "domain": "家庭与亲情",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "二年级上册 第1单元 过好节假日",
+    "type": "application",
+    "description": "理解并践行「团团圆圆过中秋」一课的基本要求，落实家庭与亲情方面的正确做法。",
+    "mastery_criteria": [
+      "能说出关爱家人、分担家务的做法",
+      "能在情境中选择体贴家人的行为"
+    ],
+    "diagnostic_question": {
+      "question": "中秋节人们常做的事情是？",
+      "answer": "家人团圆，赏月吃月饼"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.JT.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p036",
+    "name": "欢欢喜喜庆国庆",
+    "domain": "公民与国家",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "二年级上册 第1单元 过好节假日",
+    "type": "reasoning",
+    "description": "理解并践行「欢欢喜喜庆国庆」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "国庆节是纪念什么？",
+      "answer": "中华人民共和国成立"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p037",
+    "name": "这是我们班",
+    "domain": "学校生活",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "二年级上册 第2单元 我爱我们班",
+    "type": "conceptual",
+    "description": "理解并践行「这是我们班」一课的基本要求，落实学校生活方面的正确做法。",
+    "mastery_criteria": [
+      "能说出校园或班级中的正确做法",
+      "能说明为什么要这样做"
+    ],
+    "diagnostic_question": {
+      "question": "班集体需要大家怎样？",
+      "answer": "互相关心，共同维护班级荣誉"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.XX.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p038",
+    "name": "班级生活有规则",
+    "domain": "学校生活",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "二年级上册 第2单元 我爱我们班",
+    "type": "conceptual",
+    "description": "理解并践行「班级生活有规则」一课的基本要求，落实学校生活方面的正确做法。",
+    "mastery_criteria": [
+      "能说出校园或班级中的正确做法",
+      "能说明为什么要这样做"
+    ],
+    "diagnostic_question": {
+      "question": "班集体需要大家怎样？",
+      "answer": "互相关心，共同维护班级荣誉"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.XX.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p039",
+    "name": "我是班级值日生",
+    "domain": "学校生活",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "二年级上册 第2单元 我爱我们班",
+    "type": "procedural",
+    "description": "理解并践行「我是班级值日生」一课的基本要求，落实学校生活方面的正确做法。",
+    "mastery_criteria": [
+      "能说出校园或班级中的正确做法",
+      "能说明为什么要这样做"
+    ],
+    "diagnostic_question": {
+      "question": "班集体需要大家怎样？",
+      "answer": "互相关心，共同维护班级荣誉"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.XX.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p040",
+    "name": "我为班级作贡献",
+    "domain": "学校生活",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "二年级上册 第2单元 我爱我们班",
+    "type": "application",
+    "description": "理解并践行「我为班级作贡献」一课的基本要求，落实学校生活方面的正确做法。",
+    "mastery_criteria": [
+      "能说出校园或班级中的正确做法",
+      "能说明为什么要这样做"
+    ],
+    "diagnostic_question": {
+      "question": "班集体需要大家怎样？",
+      "answer": "互相关心，共同维护班级荣誉"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.XX.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p041",
+    "name": "我爱家乡山和水",
+    "domain": "自然与环境",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "二年级上册 第3单元 我的家乡美",
+    "type": "reasoning",
+    "description": "理解并践行「我爱家乡山和水」一课的基本要求，落实自然与环境方面的正确做法。",
+    "mastery_criteria": [
+      "能说出爱护自然或节约资源的做法",
+      "能在生活中选择环保行为"
+    ],
+    "diagnostic_question": {
+      "question": "家人之所以珍贵，是因为？",
+      "answer": "互相关爱、共同生活"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.ZR.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p042",
+    "name": "家乡物产养育我",
+    "domain": "自然与环境",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "二年级上册 第3单元 我的家乡美",
+    "type": "conceptual",
+    "description": "理解并践行「家乡物产养育我」一课的基本要求，落实自然与环境方面的正确做法。",
+    "mastery_criteria": [
+      "能说出爱护自然或节约资源的做法",
+      "能在生活中选择环保行为"
+    ],
+    "diagnostic_question": {
+      "question": "家人之所以珍贵，是因为？",
+      "answer": "互相关爱、共同生活"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.ZR.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p043",
+    "name": "可亲可敬的家乡人",
+    "domain": "社会规则",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "二年级上册 第3单元 我的家乡美",
+    "type": "conceptual",
+    "description": "理解并践行「可亲可敬的家乡人」一课的基本要求，落实社会规则方面的正确做法。",
+    "mastery_criteria": [
+      "能说出公共场合应遵守的规则",
+      "能判断违反规则的行为并改正"
+    ],
+    "diagnostic_question": {
+      "question": "家人之所以珍贵，是因为？",
+      "answer": "互相关爱、共同生活"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.SH.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p044",
+    "name": "家乡新变化",
+    "domain": "公民与国家",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "二年级上册 第3单元 我的家乡美",
+    "type": "procedural",
+    "description": "理解并践行「家乡新变化」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "家人之所以珍贵，是因为？",
+      "answer": "互相关爱、共同生活"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p045",
+    "name": "美丽中国我们的家",
+    "domain": "公民与国家",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "二年级上册 第4单元 我爱我们的祖国",
+    "type": "application",
+    "description": "理解并践行「美丽中国我们的家」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "家人之所以珍贵，是因为？",
+      "answer": "互相关爱、共同生活"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p046",
+    "name": "我们都是中国人",
+    "domain": "公民与国家",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "二年级上册 第4单元 我爱我们的祖国",
+    "type": "reasoning",
+    "description": "理解并践行「我们都是中国人」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "我们的祖国是？",
+      "answer": "中华人民共和国"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p047",
+    "name": "红红火火中国年",
+    "domain": "公民与国家",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "二年级上册 第4单元 我爱我们的祖国",
+    "type": "conceptual",
+    "description": "理解并践行「红红火火中国年」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "中国年（春节）的传统习俗有？",
+      "answer": "贴春联、吃年夜饭、拜年等"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p048",
+    "name": "祖国，我为您自豪",
+    "domain": "公民与国家",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "二年级上册 第4单元 我爱我们的祖国",
+    "type": "conceptual",
+    "description": "理解并践行「祖国，我为您自豪」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "我们的祖国是？",
+      "answer": "中华人民共和国"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p049",
+    "name": "身心健康很重要",
+    "domain": "生活与安全",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下册 第1单元 我乐观我向上",
+    "type": "conceptual",
+    "description": "理解并践行「身心健康很重要」一课的基本要求，落实生活与安全方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的安全或健康做法",
+      "能在情境中选择正确行为"
+    ],
+    "diagnostic_question": {
+      "question": "保持身心健康，应当？",
+      "answer": "适度运动、充足睡眠、心态积极"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.LS.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p050",
+    "name": "学做“快乐鸟”",
+    "domain": "生活与安全",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下册 第1单元 我乐观我向上",
+    "type": "procedural",
+    "description": "理解并践行「学做“快乐鸟”」一课的基本要求，落实生活与安全方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的安全或健康做法",
+      "能在情境中选择正确行为"
+    ],
+    "diagnostic_question": {
+      "question": "保持身心健康，应当？",
+      "answer": "适度运动、充足睡眠、心态积极"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.LS.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p051",
+    "name": "做个“开心果”",
+    "domain": "生活与安全",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下册 第1单元 我乐观我向上",
+    "type": "application",
+    "description": "理解并践行「做个“开心果”」一课的基本要求，落实生活与安全方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的安全或健康做法",
+      "能在情境中选择正确行为"
+    ],
+    "diagnostic_question": {
+      "question": "保持身心健康，应当？",
+      "answer": "适度运动、充足睡眠、心态积极"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.LS.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p052",
+    "name": "坚持才会有收获",
+    "domain": "生活与安全",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下册 第1单元 我乐观我向上",
+    "type": "reasoning",
+    "description": "理解并践行「坚持才会有收获」一课的基本要求，落实生活与安全方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的安全或健康做法",
+      "能在情境中选择正确行为"
+    ],
+    "diagnostic_question": {
+      "question": "保持身心健康，应当？",
+      "answer": "适度运动、充足睡眠、心态积极"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.LS.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p053",
+    "name": "亲近大自然",
+    "domain": "自然与环境",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下册 第2单元 大自然，谢谢您",
+    "type": "conceptual",
+    "description": "理解并践行「亲近大自然」一课的基本要求，落实自然与环境方面的正确做法。",
+    "mastery_criteria": [
+      "能说出爱护自然或节约资源的做法",
+      "能在生活中选择环保行为"
+    ],
+    "diagnostic_question": {
+      "question": "家人之所以珍贵，是因为？",
+      "answer": "互相关爱、共同生活"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.ZR.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p054",
+    "name": "爱护动植物",
+    "domain": "自然与环境",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下册 第2单元 大自然，谢谢您",
+    "type": "conceptual",
+    "description": "理解并践行「爱护动植物」一课的基本要求，落实自然与环境方面的正确做法。",
+    "mastery_criteria": [
+      "能说出爱护自然或节约资源的做法",
+      "能在生活中选择环保行为"
+    ],
+    "diagnostic_question": {
+      "question": "亲近大自然时，正确做法是？",
+      "answer": "观察欣赏，不伤害动植物"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.ZR.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p055",
+    "name": "小水滴的诉说",
+    "domain": "自然与环境",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下册 第2单元 大自然，谢谢您",
+    "type": "procedural",
+    "description": "理解并践行「小水滴的诉说」一课的基本要求，落实自然与环境方面的正确做法。",
+    "mastery_criteria": [
+      "能说出爱护自然或节约资源的做法",
+      "能在生活中选择环保行为"
+    ],
+    "diagnostic_question": {
+      "question": "亲近大自然时，正确做法是？",
+      "answer": "观察欣赏，不伤害动植物"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.ZR.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p056",
+    "name": "我是一张纸",
+    "domain": "自然与环境",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下册 第2单元 大自然，谢谢您",
+    "type": "application",
+    "description": "理解并践行「我是一张纸」一课的基本要求，落实自然与环境方面的正确做法。",
+    "mastery_criteria": [
+      "能说出爱护自然或节约资源的做法",
+      "能在生活中选择环保行为"
+    ],
+    "diagnostic_question": {
+      "question": "亲近大自然时，正确做法是？",
+      "answer": "观察欣赏，不伤害动植物"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.ZR.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p057",
+    "name": "勤俭传家好",
+    "domain": "社会规则",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下册 第3单元 传统美德我弘扬",
+    "type": "reasoning",
+    "description": "理解并践行「勤俭传家好」一课的基本要求，落实社会规则方面的正确做法。",
+    "mastery_criteria": [
+      "能说出公共场合应遵守的规则",
+      "能判断违反规则的行为并改正"
+    ],
+    "diagnostic_question": {
+      "question": "家人之所以珍贵，是因为？",
+      "answer": "互相关爱、共同生活"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.SH.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p058",
+    "name": "诚信贵如金",
+    "domain": "社会规则",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下册 第3单元 传统美德我弘扬",
+    "type": "conceptual",
+    "description": "理解并践行「诚信贵如金」一课的基本要求，落实社会规则方面的正确做法。",
+    "mastery_criteria": [
+      "能说出公共场合应遵守的规则",
+      "能判断违反规则的行为并改正"
+    ],
+    "diagnostic_question": {
+      "question": "勤俭节约的正确理解是？",
+      "answer": "该用则用，不浪费"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.SH.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p059",
+    "name": "少年当自强",
+    "domain": "生活与安全",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下册 第3单元 传统美德我弘扬",
+    "type": "conceptual",
+    "description": "理解并践行「少年当自强」一课的基本要求，落实生活与安全方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的安全或健康做法",
+      "能在情境中选择正确行为"
+    ],
+    "diagnostic_question": {
+      "question": "保持身心健康，应当？",
+      "answer": "适度运动、充足睡眠、心态积极"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.LS.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p060",
+    "name": "见贤要思齐",
+    "domain": "社会规则",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下册 第3单元 传统美德我弘扬",
+    "type": "procedural",
+    "description": "理解并践行「见贤要思齐」一课的基本要求，落实社会规则方面的正确做法。",
+    "mastery_criteria": [
+      "能说出公共场合应遵守的规则",
+      "能判断违反规则的行为并改正"
+    ],
+    "diagnostic_question": {
+      "question": "学习「见贤要思齐」一课，最重要的是？",
+      "answer": "把正确的做法落实到日常生活中"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.SH.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p061",
+    "name": "每个人都有梦想",
+    "domain": "生活与安全",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下册 第4单元 播下梦想的种子",
+    "type": "application",
+    "description": "理解并践行「每个人都有梦想」一课的基本要求，落实生活与安全方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的安全或健康做法",
+      "能在情境中选择正确行为"
+    ],
+    "diagnostic_question": {
+      "question": "保持身心健康，应当？",
+      "answer": "适度运动、充足睡眠、心态积极"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.LS.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p062",
+    "name": "我们共同的梦想",
+    "domain": "公民与国家",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下册 第4单元 播下梦想的种子",
+    "type": "reasoning",
+    "description": "理解并践行「我们共同的梦想」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "保持身心健康，应当？",
+      "answer": "适度运动、充足睡眠、心态积极"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p063",
+    "name": "梦想接力棒",
+    "domain": "公民与国家",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下册 第4单元 播下梦想的种子",
+    "type": "conceptual",
+    "description": "理解并践行「梦想接力棒」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "保持身心健康，应当？",
+      "answer": "适度运动、充足睡眠、心态积极"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p064",
+    "name": "实现梦想从现在做起",
+    "domain": "生活与安全",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下册 第4单元 播下梦想的种子",
+    "type": "conceptual",
+    "description": "理解并践行「实现梦想从现在做起」一课的基本要求，落实生活与安全方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的安全或健康做法",
+      "能在情境中选择正确行为"
+    ],
+    "diagnostic_question": {
+      "question": "保持身心健康，应当？",
+      "answer": "适度运动、充足睡眠、心态积极"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:1.LS.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p065",
+    "name": "学习伴我成长",
+    "domain": "学校生活",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第1单元 做学习的主人",
+    "type": "conceptual",
+    "description": "理解并践行「学习伴我成长」一课的基本要求，落实学校生活方面的正确做法。",
+    "mastery_criteria": [
+      "能说出校园或班级中的正确做法",
+      "能说明为什么要这样做"
+    ],
+    "diagnostic_question": {
+      "question": "做学习的主人，意味着？",
+      "answer": "主动学习，寻找适合自己的方法"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:2.XX.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p066",
+    "name": "我学习，我快乐",
+    "domain": "学校生活",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第1单元 做学习的主人",
+    "type": "procedural",
+    "description": "理解并践行「我学习，我快乐」一课的基本要求，落实学校生活方面的正确做法。",
+    "mastery_criteria": [
+      "能说出校园或班级中的正确做法",
+      "能说明为什么要这样做"
+    ],
+    "diagnostic_question": {
+      "question": "保持身心健康，应当？",
+      "answer": "适度运动、充足睡眠、心态积极"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:2.XX.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p067",
+    "name": "学习有方法",
+    "domain": "学校生活",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第1单元 做学习的主人",
+    "type": "application",
+    "description": "理解并践行「学习有方法」一课的基本要求，落实学校生活方面的正确做法。",
+    "mastery_criteria": [
+      "能说出校园或班级中的正确做法",
+      "能说明为什么要这样做"
+    ],
+    "diagnostic_question": {
+      "question": "做学习的主人，意味着？",
+      "answer": "主动学习，寻找适合自己的方法"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:2.XX.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p068",
+    "name": "科技力量大",
+    "domain": "生活与安全",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第2单元 爱科学 学科学",
+    "type": "reasoning",
+    "description": "理解并践行「科技力量大」一课的基本要求，落实生活与安全方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的安全或健康做法",
+      "能在情境中选择正确行为"
+    ],
+    "diagnostic_question": {
+      "question": "做学习的主人，意味着？",
+      "answer": "主动学习，寻找适合自己的方法"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:2.LS.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p069",
+    "name": "走近科学家",
+    "domain": "生活与安全",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第2单元 爱科学 学科学",
+    "type": "conceptual",
+    "description": "理解并践行「走近科学家」一课的基本要求，落实生活与安全方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的安全或健康做法",
+      "能在情境中选择正确行为"
+    ],
+    "diagnostic_question": {
+      "question": "家人之所以珍贵，是因为？",
+      "answer": "互相关爱、共同生活"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:2.LS.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p070",
+    "name": "从小爱科学",
+    "domain": "生活与安全",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第2单元 爱科学 学科学",
+    "type": "conceptual",
+    "description": "理解并践行「从小爱科学」一课的基本要求，落实生活与安全方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的安全或健康做法",
+      "能在情境中选择正确行为"
+    ],
+    "diagnostic_question": {
+      "question": "做学习的主人，意味着？",
+      "answer": "主动学习，寻找适合自己的方法"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:2.LS.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p071",
+    "name": "走近我们的老师",
+    "domain": "学校生活",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第3单元 在集体中成长",
+    "type": "procedural",
+    "description": "理解并践行「走近我们的老师」一课的基本要求，落实学校生活方面的正确做法。",
+    "mastery_criteria": [
+      "能说出校园或班级中的正确做法",
+      "能说明为什么要这样做"
+    ],
+    "diagnostic_question": {
+      "question": "学习「走近我们的老师」一课，最重要的是？",
+      "answer": "把正确的做法落实到日常生活中"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:2.XX.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p072",
+    "name": "同学相伴",
+    "domain": "学校生活",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第3单元 在集体中成长",
+    "type": "application",
+    "description": "理解并践行「同学相伴」一课的基本要求，落实学校生活方面的正确做法。",
+    "mastery_criteria": [
+      "能说出校园或班级中的正确做法",
+      "能说明为什么要这样做"
+    ],
+    "diagnostic_question": {
+      "question": "真正的好朋友应当？",
+      "answer": "互相尊重、守信、一起进步"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:2.XX.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p073",
+    "name": "让我们的学校更美好",
+    "domain": "学校生活",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第3单元 在集体中成长",
+    "type": "reasoning",
+    "description": "理解并践行「让我们的学校更美好」一课的基本要求，落实学校生活方面的正确做法。",
+    "mastery_criteria": [
+      "能说出校园或班级中的正确做法",
+      "能说明为什么要这样做"
+    ],
+    "diagnostic_question": {
+      "question": "学习「让我们的学校更美好」一课，最重要的是？",
+      "answer": "把正确的做法落实到日常生活中"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:2.XX.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p074",
+    "name": "公共场所的文明素养",
+    "domain": "社会规则",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第4单元 公共生活靠大家",
+    "type": "conceptual",
+    "description": "理解并践行「公共场所的文明素养」一课的基本要求，落实社会规则方面的正确做法。",
+    "mastery_criteria": [
+      "能说出公共场合应遵守的规则",
+      "能判断违反规则的行为并改正"
+    ],
+    "diagnostic_question": {
+      "question": "公共场所应做到？",
+      "answer": "文明言行，遵守秩序，照顾他人"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:2.SH.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p075",
+    "name": "我们都是热心人",
+    "domain": "社会规则",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第4单元 公共生活靠大家",
+    "type": "conceptual",
+    "description": "理解并践行「我们都是热心人」一课的基本要求，落实社会规则方面的正确做法。",
+    "mastery_criteria": [
+      "能说出公共场合应遵守的规则",
+      "能判断违反规则的行为并改正"
+    ],
+    "diagnostic_question": {
+      "question": "公共场所应做到？",
+      "answer": "文明言行，遵守秩序，照顾他人"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:2.SH.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p076",
+    "name": "生活离不开规则",
+    "domain": "社会规则",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第4单元 公共生活靠大家",
+    "type": "procedural",
+    "description": "理解并践行「生活离不开规则」一课的基本要求，落实社会规则方面的正确做法。",
+    "mastery_criteria": [
+      "能说出公共场合应遵守的规则",
+      "能判断违反规则的行为并改正"
+    ],
+    "diagnostic_question": {
+      "question": "公共场所应做到？",
+      "answer": "文明言行，遵守秩序，照顾他人"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:2.SH.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p077",
+    "name": "安全记心上",
+    "domain": "生活与安全",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第4单元 公共生活靠大家",
+    "type": "application",
+    "description": "理解并践行「安全记心上」一课的基本要求，落实生活与安全方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的安全或健康做法",
+      "能在情境中选择正确行为"
+    ],
+    "diagnostic_question": {
+      "question": "生命为什么最宝贵？",
+      "answer": "生命只有一次，是做好一切事情的前提"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:2.LS.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p078",
+    "name": "我们的生活越来越幸福",
+    "domain": "公民与国家",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下册 第1单元 共建美好生活",
+    "type": "conceptual",
+    "description": "理解并践行「我们的生活越来越幸福」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "学习「我们的生活越来越幸福」一课，最重要的是？",
+      "answer": "把正确的做法落实到日常生活中"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:2.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p079",
+    "name": "幸福生活是奋斗出来的",
+    "domain": "公民与国家",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下册 第1单元 共建美好生活",
+    "type": "procedural",
+    "description": "理解并践行「幸福生活是奋斗出来的」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "学习「幸福生活是奋斗出来的」一课，最重要的是？",
+      "answer": "把正确的做法落实到日常生活中"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:2.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p080",
+    "name": "一切靠劳动",
+    "domain": "生活与安全",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下册 第2单元 劳动最光荣",
+    "type": "application",
+    "description": "理解并践行「一切靠劳动」一课的基本要求，落实生活与安全方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的安全或健康做法",
+      "能在情境中选择正确行为"
+    ],
+    "diagnostic_question": {
+      "question": "劳动最光荣意味着？",
+      "answer": "尊重劳动和劳动者，自己也爱劳动"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:2.LS.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p081",
+    "name": "致敬劳动者",
+    "domain": "社会规则",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下册 第2单元 劳动最光荣",
+    "type": "reasoning",
+    "description": "理解并践行「致敬劳动者」一课的基本要求，落实社会规则方面的正确做法。",
+    "mastery_criteria": [
+      "能说出公共场合应遵守的规则",
+      "能判断违反规则的行为并改正"
+    ],
+    "diagnostic_question": {
+      "question": "劳动最光荣意味着？",
+      "answer": "尊重劳动和劳动者，自己也爱劳动"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:2.SH.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p082",
+    "name": "从小爱劳动",
+    "domain": "生活与安全",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下册 第2单元 劳动最光荣",
+    "type": "conceptual",
+    "description": "理解并践行「从小爱劳动」一课的基本要求，落实生活与安全方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的安全或健康做法",
+      "能在情境中选择正确行为"
+    ],
+    "diagnostic_question": {
+      "question": "劳动最光荣意味着？",
+      "answer": "尊重劳动和劳动者，自己也爱劳动"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:2.LS.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p083",
+    "name": "少让父母操心",
+    "domain": "家庭与亲情",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下册 第3单元 我是家庭一员",
+    "type": "conceptual",
+    "description": "理解并践行「少让父母操心」一课的基本要求，落实家庭与亲情方面的正确做法。",
+    "mastery_criteria": [
+      "能说出关爱家人、分担家务的做法",
+      "能在情境中选择体贴家人的行为"
+    ],
+    "diagnostic_question": {
+      "question": "家人之所以珍贵，是因为？",
+      "answer": "互相关爱、共同生活"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:2.JT.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p084",
+    "name": "我的家庭贡献与责任",
+    "domain": "家庭与亲情",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下册 第3单元 我是家庭一员",
+    "type": "procedural",
+    "description": "理解并践行「我的家庭贡献与责任」一课的基本要求，落实家庭与亲情方面的正确做法。",
+    "mastery_criteria": [
+      "能说出关爱家人、分担家务的做法",
+      "能在情境中选择体贴家人的行为"
+    ],
+    "diagnostic_question": {
+      "question": "家人之所以珍贵，是因为？",
+      "answer": "互相关爱、共同生活"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:2.JT.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p085",
+    "name": "弘扬家庭美德",
+    "domain": "家庭与亲情",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下册 第3单元 我是家庭一员",
+    "type": "application",
+    "description": "理解并践行「弘扬家庭美德」一课的基本要求，落实家庭与亲情方面的正确做法。",
+    "mastery_criteria": [
+      "能说出关爱家人、分担家务的做法",
+      "能在情境中选择体贴家人的行为"
+    ],
+    "diagnostic_question": {
+      "question": "家人之所以珍贵，是因为？",
+      "answer": "互相关爱、共同生活"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:2.JT.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p086",
+    "name": "学会倾听",
+    "domain": "社会规则",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下册 第4单元 我们来交往",
+    "type": "reasoning",
+    "description": "理解并践行「学会倾听」一课的基本要求，落实社会规则方面的正确做法。",
+    "mastery_criteria": [
+      "能说出公共场合应遵守的规则",
+      "能判断违反规则的行为并改正"
+    ],
+    "diagnostic_question": {
+      "question": "公共场所应做到？",
+      "answer": "文明言行，遵守秩序，照顾他人"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:2.SH.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p087",
+    "name": "学会表达",
+    "domain": "社会规则",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下册 第4单元 我们来交往",
+    "type": "conceptual",
+    "description": "理解并践行「学会表达」一课的基本要求，落实社会规则方面的正确做法。",
+    "mastery_criteria": [
+      "能说出公共场合应遵守的规则",
+      "能判断违反规则的行为并改正"
+    ],
+    "diagnostic_question": {
+      "question": "公共场所应做到？",
+      "answer": "文明言行，遵守秩序，照顾他人"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:2.SH.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p088",
+    "name": "同学要互助",
+    "domain": "学校生活",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下册 第4单元 我们来交往",
+    "type": "conceptual",
+    "description": "理解并践行「同学要互助」一课的基本要求，落实学校生活方面的正确做法。",
+    "mastery_criteria": [
+      "能说出校园或班级中的正确做法",
+      "能说明为什么要这样做"
+    ],
+    "diagnostic_question": {
+      "question": "真正的好朋友应当？",
+      "answer": "互相尊重、守信、一起进步"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:2.XX.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p089",
+    "name": "待人要诚信",
+    "domain": "社会规则",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下册 第4单元 我们来交往",
+    "type": "procedural",
+    "description": "理解并践行「待人要诚信」一课的基本要求，落实社会规则方面的正确做法。",
+    "mastery_criteria": [
+      "能说出公共场合应遵守的规则",
+      "能判断违反规则的行为并改正"
+    ],
+    "diagnostic_question": {
+      "question": "勤俭节约的正确理解是？",
+      "answer": "该用则用，不浪费"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:2.SH.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p090",
+    "name": "热爱班集体",
+    "domain": "学校生活",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第1单元 我们的班集体",
+    "type": "conceptual",
+    "description": "理解并践行「热爱班集体」一课的基本要求，落实学校生活方面的正确做法。",
+    "mastery_criteria": [
+      "能说出校园或班级中的正确做法",
+      "能说明为什么要这样做"
+    ],
+    "diagnostic_question": {
+      "question": "班集体需要大家怎样？",
+      "answer": "互相关心，共同维护班级荣誉"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:2.XX.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p091",
+    "name": "选举班委会",
+    "domain": "学校生活",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第1单元 我们的班集体",
+    "type": "procedural",
+    "description": "理解并践行「选举班委会」一课的基本要求，落实学校生活方面的正确做法。",
+    "mastery_criteria": [
+      "能说出校园或班级中的正确做法",
+      "能说明为什么要这样做"
+    ],
+    "diagnostic_question": {
+      "question": "班集体需要大家怎样？",
+      "answer": "互相关心，共同维护班级荣誉"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:3.XX.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p092",
+    "name": "协商决定班级事务",
+    "domain": "学校生活",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第1单元 我们的班集体",
+    "type": "application",
+    "description": "理解并践行「协商决定班级事务」一课的基本要求，落实学校生活方面的正确做法。",
+    "mastery_criteria": [
+      "能说出校园或班级中的正确做法",
+      "能说明为什么要这样做"
+    ],
+    "diagnostic_question": {
+      "question": "班集体需要大家怎样？",
+      "answer": "互相关心，共同维护班级荣誉"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:3.XX.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p093",
+    "name": "我是独特的",
+    "domain": "生活与安全",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第2单元 少年在成长",
+    "type": "reasoning",
+    "description": "理解并践行「我是独特的」一课的基本要求，落实生活与安全方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的安全或健康做法",
+      "能在情境中选择正确行为"
+    ],
+    "diagnostic_question": {
+      "question": "保持身心健康，应当？",
+      "answer": "适度运动、充足睡眠、心态积极"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:2.LS.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p094",
+    "name": "生命最宝贵",
+    "domain": "生活与安全",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第2单元 少年在成长",
+    "type": "conceptual",
+    "description": "理解并践行「生命最宝贵」一课的基本要求，落实生活与安全方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的安全或健康做法",
+      "能在情境中选择正确行为"
+    ],
+    "diagnostic_question": {
+      "question": "生命为什么最宝贵？",
+      "answer": "生命只有一次，是做好一切事情的前提"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:2.LS.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p095",
+    "name": "自我保护，免受伤害",
+    "domain": "生活与安全",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第2单元 少年在成长",
+    "type": "conceptual",
+    "description": "理解并践行「自我保护，免受伤害」一课的基本要求，落实生活与安全方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的安全或健康做法",
+      "能在情境中选择正确行为"
+    ],
+    "diagnostic_question": {
+      "question": "生命为什么最宝贵？",
+      "answer": "生命只有一次，是做好一切事情的前提"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:2.LS.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p096",
+    "name": "神奇的世界",
+    "domain": "生活与安全",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第3单元 生活在信息社会",
+    "type": "procedural",
+    "description": "理解并践行「神奇的世界」一课的基本要求，落实生活与安全方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的安全或健康做法",
+      "能在情境中选择正确行为"
+    ],
+    "diagnostic_question": {
+      "question": "信息社会给生活带来的便利有？",
+      "answer": "查资料、通信、购物更方便"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:2.LS.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p097",
+    "name": "别让它抢走太多",
+    "domain": "生活与安全",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第3单元 生活在信息社会",
+    "type": "application",
+    "description": "理解并践行「别让它抢走太多」一课的基本要求，落实生活与安全方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的安全或健康做法",
+      "能在情境中选择正确行为"
+    ],
+    "diagnostic_question": {
+      "question": "学习「别让它抢走太多」一课，最重要的是？",
+      "answer": "把正确的做法落实到日常生活中"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:2.LS.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p098",
+    "name": "安全文明上网",
+    "domain": "生活与安全",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第3单元 生活在信息社会",
+    "type": "reasoning",
+    "description": "理解并践行「安全文明上网」一课的基本要求，落实生活与安全方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的安全或健康做法",
+      "能在情境中选择正确行为"
+    ],
+    "diagnostic_question": {
+      "question": "生命为什么最宝贵？",
+      "answer": "生命只有一次，是做好一切事情的前提"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:2.LS.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p099",
+    "name": "购物有学问",
+    "domain": "社会规则",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第4单元 做文明的消费者",
+    "type": "conceptual",
+    "description": "理解并践行「购物有学问」一课的基本要求，落实社会规则方面的正确做法。",
+    "mastery_criteria": [
+      "能说出公共场合应遵守的规则",
+      "能判断违反规则的行为并改正"
+    ],
+    "diagnostic_question": {
+      "question": "勤俭节约的正确理解是？",
+      "answer": "该用则用，不浪费"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:2.SH.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p100",
+    "name": "学会合理消费",
+    "domain": "社会规则",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第4单元 做文明的消费者",
+    "type": "conceptual",
+    "description": "理解并践行「学会合理消费」一课的基本要求，落实社会规则方面的正确做法。",
+    "mastery_criteria": [
+      "能说出公共场合应遵守的规则",
+      "能判断违反规则的行为并改正"
+    ],
+    "diagnostic_question": {
+      "question": "勤俭节约的正确理解是？",
+      "answer": "该用则用，不浪费"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:2.SH.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p101",
+    "name": "反对浪费",
+    "domain": "社会规则",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第4单元 做文明的消费者",
+    "type": "procedural",
+    "description": "理解并践行「反对浪费」一课的基本要求，落实社会规则方面的正确做法。",
+    "mastery_criteria": [
+      "能说出公共场合应遵守的规则",
+      "能判断违反规则的行为并改正"
+    ],
+    "diagnostic_question": {
+      "question": "勤俭节约的正确理解是？",
+      "answer": "该用则用，不浪费"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:2.SH.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p102",
+    "name": "我们的好朋友",
+    "domain": "学校生活",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第1单元 同伴与交往",
+    "type": "conceptual",
+    "description": "理解并践行「我们的好朋友」一课的基本要求，落实学校生活方面的正确做法。",
+    "mastery_criteria": [
+      "能说出校园或班级中的正确做法",
+      "能说明为什么要这样做"
+    ],
+    "diagnostic_question": {
+      "question": "真正的好朋友应当？",
+      "answer": "互相尊重、守信、一起进步"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:2.XX.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p103",
+    "name": "说话要算数",
+    "domain": "社会规则",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第1单元 同伴与交往",
+    "type": "procedural",
+    "description": "理解并践行「说话要算数」一课的基本要求，落实社会规则方面的正确做法。",
+    "mastery_criteria": [
+      "能说出公共场合应遵守的规则",
+      "能判断违反规则的行为并改正"
+    ],
+    "diagnostic_question": {
+      "question": "勤俭节约的正确理解是？",
+      "answer": "该用则用，不浪费"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:2.SH.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p104",
+    "name": "当冲突发生",
+    "domain": "社会规则",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第1单元 同伴与交往",
+    "type": "application",
+    "description": "理解并践行「当冲突发生」一课的基本要求，落实社会规则方面的正确做法。",
+    "mastery_criteria": [
+      "能说出公共场合应遵守的规则",
+      "能判断违反规则的行为并改正"
+    ],
+    "diagnostic_question": {
+      "question": "真正的好朋友应当？",
+      "answer": "互相尊重、守信、一起进步"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:2.SH.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p105",
+    "name": "买东西的学问",
+    "domain": "社会规则",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第2单元 做聪明的消费者",
+    "type": "reasoning",
+    "description": "理解并践行「买东西的学问」一课的基本要求，落实社会规则方面的正确做法。",
+    "mastery_criteria": [
+      "能说出公共场合应遵守的规则",
+      "能判断违反规则的行为并改正"
+    ],
+    "diagnostic_question": {
+      "question": "勤俭节约的正确理解是？",
+      "answer": "该用则用，不浪费"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:2.SH.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p106",
+    "name": "合理消费",
+    "domain": "社会规则",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第2单元 做聪明的消费者",
+    "type": "conceptual",
+    "description": "理解并践行「合理消费」一课的基本要求，落实社会规则方面的正确做法。",
+    "mastery_criteria": [
+      "能说出公共场合应遵守的规则",
+      "能判断违反规则的行为并改正"
+    ],
+    "diagnostic_question": {
+      "question": "勤俭节约的正确理解是？",
+      "answer": "该用则用，不浪费"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:2.SH.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p107",
+    "name": "有多少浪费本可以避免",
+    "domain": "社会规则",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第2单元 做聪明的消费者",
+    "type": "conceptual",
+    "description": "理解并践行「有多少浪费本可以避免」一课的基本要求，落实社会规则方面的正确做法。",
+    "mastery_criteria": [
+      "能说出公共场合应遵守的规则",
+      "能判断违反规则的行为并改正"
+    ],
+    "diagnostic_question": {
+      "question": "勤俭节约的正确理解是？",
+      "answer": "该用则用，不浪费"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:2.SH.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p108",
+    "name": "我们的衣食之源",
+    "domain": "自然与环境",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第3单元 美好生活哪里来",
+    "type": "procedural",
+    "description": "理解并践行「我们的衣食之源」一课的基本要求，落实自然与环境方面的正确做法。",
+    "mastery_criteria": [
+      "能说出爱护自然或节约资源的做法",
+      "能在生活中选择环保行为"
+    ],
+    "diagnostic_question": {
+      "question": "学习「我们的衣食之源」一课，最重要的是？",
+      "answer": "把正确的做法落实到日常生活中"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:2.ZR.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p109",
+    "name": "这些东西哪里来",
+    "domain": "社会规则",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第3单元 美好生活哪里来",
+    "type": "application",
+    "description": "理解并践行「这些东西哪里来」一课的基本要求，落实社会规则方面的正确做法。",
+    "mastery_criteria": [
+      "能说出公共场合应遵守的规则",
+      "能判断违反规则的行为并改正"
+    ],
+    "diagnostic_question": {
+      "question": "学习「这些东西哪里来」一课，最重要的是？",
+      "answer": "把正确的做法落实到日常生活中"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:2.SH.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p110",
+    "name": "生活离不开他们",
+    "domain": "社会规则",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第3单元 美好生活哪里来",
+    "type": "reasoning",
+    "description": "理解并践行「生活离不开他们」一课的基本要求，落实社会规则方面的正确做法。",
+    "mastery_criteria": [
+      "能说出公共场合应遵守的规则",
+      "能判断违反规则的行为并改正"
+    ],
+    "diagnostic_question": {
+      "question": "学习「生活离不开他们」一课，最重要的是？",
+      "answer": "把正确的做法落实到日常生活中"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:2.SH.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p111",
+    "name": "我们当地的风俗",
+    "domain": "公民与国家",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第4单元 感受家乡文化 关心家乡发展",
+    "type": "conceptual",
+    "description": "理解并践行「我们当地的风俗」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "爱家乡，可以怎么做？",
+      "answer": "了解家乡山水物产，不乱扔垃圾"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:2.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p112",
+    "name": "多姿多彩的民间艺术",
+    "domain": "公民与国家",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第4单元 感受家乡文化 关心家乡发展",
+    "type": "conceptual",
+    "description": "理解并践行「多姿多彩的民间艺术」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "爱家乡，可以怎么做？",
+      "answer": "了解家乡山水物产，不乱扔垃圾"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:2.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p113",
+    "name": "家乡的喜与忧",
+    "domain": "自然与环境",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第4单元 感受家乡文化 关心家乡发展",
+    "type": "procedural",
+    "description": "理解并践行「家乡的喜与忧」一课的基本要求，落实自然与环境方面的正确做法。",
+    "mastery_criteria": [
+      "能说出爱护自然或节约资源的做法",
+      "能在生活中选择环保行为"
+    ],
+    "diagnostic_question": {
+      "question": "家人之所以珍贵，是因为？",
+      "answer": "互相关爱、共同生活"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:2.ZR.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p114",
+    "name": "开天辟地的大事变",
+    "domain": "公民与国家",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "五年级上册 第1单元 没有共产党就没有新中国",
+    "type": "conceptual",
+    "description": "理解并践行「开天辟地的大事变」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "1949年10月1日发生了什么大事？",
+      "answer": "中华人民共和国成立"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:3.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p115",
+    "name": "探索中国革命道路",
+    "domain": "公民与国家",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "五年级上册 第1单元 没有共产党就没有新中国",
+    "type": "procedural",
+    "description": "理解并践行「探索中国革命道路」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "我们的祖国是？",
+      "answer": "中华人民共和国"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:3.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p116",
+    "name": "抗日战争的中流砥柱",
+    "domain": "公民与国家",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "五年级上册 第1单元 没有共产党就没有新中国",
+    "type": "application",
+    "description": "理解并践行「抗日战争的中流砥柱」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "1949年10月1日发生了什么大事？",
+      "answer": "中华人民共和国成立"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:3.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p117",
+    "name": "夺取胜利的解放战争",
+    "domain": "公民与国家",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "五年级上册 第1单元 没有共产党就没有新中国",
+    "type": "reasoning",
+    "description": "理解并践行「夺取胜利的解放战争」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "1949年10月1日发生了什么大事？",
+      "answer": "中华人民共和国成立"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:3.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p118",
+    "name": "中国人民站起来了",
+    "domain": "公民与国家",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "五年级上册 第2单元 建设社会主义新中国",
+    "type": "conceptual",
+    "description": "理解并践行「中国人民站起来了」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "我们的祖国是？",
+      "answer": "中华人民共和国"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:3.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p119",
+    "name": "人民当家作主",
+    "domain": "公民与国家",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "五年级上册 第2单元 建设社会主义新中国",
+    "type": "conceptual",
+    "description": "理解并践行「人民当家作主」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "家人之所以珍贵，是因为？",
+      "answer": "互相关爱、共同生活"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:3.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p120",
+    "name": "社会主义好",
+    "domain": "公民与国家",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "五年级上册 第2单元 建设社会主义新中国",
+    "type": "procedural",
+    "description": "理解并践行「社会主义好」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "1949年10月1日发生了什么大事？",
+      "answer": "中华人民共和国成立"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:3.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p121",
+    "name": "改革开放展宏图",
+    "domain": "公民与国家",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "五年级上册 第3单元 进行改革开放",
+    "type": "application",
+    "description": "理解并践行「改革开放展宏图」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "1949年10月1日发生了什么大事？",
+      "answer": "中华人民共和国成立"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:3.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p122",
+    "name": "综合国力日益提升",
+    "domain": "公民与国家",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "五年级上册 第3单元 进行改革开放",
+    "type": "reasoning",
+    "description": "理解并践行「综合国力日益提升」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "1949年10月1日发生了什么大事？",
+      "answer": "中华人民共和国成立"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:3.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p123",
+    "name": "祖国统一大业不断推进",
+    "domain": "公民与国家",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "五年级上册 第3单元 进行改革开放",
+    "type": "conceptual",
+    "description": "理解并践行「祖国统一大业不断推进」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "我们的祖国是？",
+      "answer": "中华人民共和国"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:3.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p124",
+    "name": "走进新时代",
+    "domain": "公民与国家",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "五年级上册 第4单元 开创新时代",
+    "type": "conceptual",
+    "description": "理解并践行「走进新时代」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "1949年10月1日发生了什么大事？",
+      "answer": "中华人民共和国成立"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:3.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p125",
+    "name": "历史性成就",
+    "domain": "公民与国家",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "五年级上册 第4单元 开创新时代",
+    "type": "procedural",
+    "description": "理解并践行「历史性成就」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "1949年10月1日发生了什么大事？",
+      "answer": "中华人民共和国成立"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:3.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p126",
+    "name": "开启新征程",
+    "domain": "公民与国家",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "五年级上册 第4单元 开创新时代",
+    "type": "application",
+    "description": "理解并践行「开启新征程」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "1949年10月1日发生了什么大事？",
+      "answer": "中华人民共和国成立"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:3.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p127",
+    "name": "读懂彼此的心",
+    "domain": "家庭与亲情",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第1单元 我们一家人",
+    "type": "conceptual",
+    "description": "理解并践行「读懂彼此的心」一课的基本要求，落实家庭与亲情方面的正确做法。",
+    "mastery_criteria": [
+      "能说出关爱家人、分担家务的做法",
+      "能在情境中选择体贴家人的行为"
+    ],
+    "diagnostic_question": {
+      "question": "学习「读懂彼此的心」一课，最重要的是？",
+      "answer": "把正确的做法落实到日常生活中"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:3.JT.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p128",
+    "name": "让我们的家更美好",
+    "domain": "家庭与亲情",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第1单元 我们一家人",
+    "type": "procedural",
+    "description": "理解并践行「让我们的家更美好」一课的基本要求，落实家庭与亲情方面的正确做法。",
+    "mastery_criteria": [
+      "能说出关爱家人、分担家务的做法",
+      "能在情境中选择体贴家人的行为"
+    ],
+    "diagnostic_question": {
+      "question": "家人之所以珍贵，是因为？",
+      "answer": "互相关爱、共同生活"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:3.JT.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p129",
+    "name": "弘扬优秀家风",
+    "domain": "家庭与亲情",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第1单元 我们一家人",
+    "type": "application",
+    "description": "理解并践行「弘扬优秀家风」一课的基本要求，落实家庭与亲情方面的正确做法。",
+    "mastery_criteria": [
+      "能说出关爱家人、分担家务的做法",
+      "能在情境中选择体贴家人的行为"
+    ],
+    "diagnostic_question": {
+      "question": "家人之所以珍贵，是因为？",
+      "answer": "互相关爱、共同生活"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:3.JT.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p130",
+    "name": "我们的公共生活",
+    "domain": "社会规则",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第2单元 公共生活靠大家",
+    "type": "reasoning",
+    "description": "理解并践行「我们的公共生活」一课的基本要求，落实社会规则方面的正确做法。",
+    "mastery_criteria": [
+      "能说出公共场合应遵守的规则",
+      "能判断违反规则的行为并改正"
+    ],
+    "diagnostic_question": {
+      "question": "公共场所应做到？",
+      "answer": "文明言行，遵守秩序，照顾他人"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:3.SH.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p131",
+    "name": "建立良好的公共秩序",
+    "domain": "社会规则",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第2单元 公共生活靠大家",
+    "type": "conceptual",
+    "description": "理解并践行「建立良好的公共秩序」一课的基本要求，落实社会规则方面的正确做法。",
+    "mastery_criteria": [
+      "能说出公共场合应遵守的规则",
+      "能判断违反规则的行为并改正"
+    ],
+    "diagnostic_question": {
+      "question": "公共场所应做到？",
+      "answer": "文明言行，遵守秩序，照顾他人"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:3.SH.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p132",
+    "name": "我参与 我奉献",
+    "domain": "社会规则",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第2单元 公共生活靠大家",
+    "type": "conceptual",
+    "description": "理解并践行「我参与 我奉献」一课的基本要求，落实社会规则方面的正确做法。",
+    "mastery_criteria": [
+      "能说出公共场合应遵守的规则",
+      "能判断违反规则的行为并改正"
+    ],
+    "diagnostic_question": {
+      "question": "学习「我参与 我奉献」一课，最重要的是？",
+      "answer": "把正确的做法落实到日常生活中"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:3.SH.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p133",
+    "name": "不甘屈辱 奋勇抗争",
+    "domain": "公民与国家",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第3单元 百年追梦 复兴中华",
+    "type": "procedural",
+    "description": "理解并践行「不甘屈辱 奋勇抗争」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "1949年10月1日发生了什么大事？",
+      "answer": "中华人民共和国成立"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:3.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p134",
+    "name": "推翻帝制 民族觉醒",
+    "domain": "公民与国家",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第3单元 百年追梦 复兴中华",
+    "type": "application",
+    "description": "理解并践行「推翻帝制 民族觉醒」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "我们的祖国是？",
+      "answer": "中华人民共和国"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:3.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p135",
+    "name": "中国有了共产党",
+    "domain": "公民与国家",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第3单元 百年追梦 复兴中华",
+    "type": "reasoning",
+    "description": "理解并践行「中国有了共产党」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "我们的祖国是？",
+      "answer": "中华人民共和国"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:3.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p136",
+    "name": "夺取抗日战争和人民解放战争的胜利",
+    "domain": "公民与国家",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第3单元 百年追梦 复兴中华",
+    "type": "conceptual",
+    "description": "理解并践行「夺取抗日战争和人民解放战争的胜利」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "1949年10月1日发生了什么大事？",
+      "answer": "中华人民共和国成立"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:3.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p137",
+    "name": "屹立在世界的东方",
+    "domain": "公民与国家",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第3单元 百年追梦 复兴中华",
+    "type": "conceptual",
+    "description": "理解并践行「屹立在世界的东方」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "信息社会给生活带来的便利有？",
+      "answer": "查资料、通信、购物更方便"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:3.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p138",
+    "name": "富起来到强起来",
+    "domain": "公民与国家",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第3单元 百年追梦 复兴中华",
+    "type": "procedural",
+    "description": "理解并践行「富起来到强起来」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "学习「富起来到强起来」一课，最重要的是？",
+      "answer": "把正确的做法落实到日常生活中"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:3.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p139",
+    "name": "法律是什么",
+    "domain": "公民与国家",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第1单元 生活中的法律",
+    "type": "conceptual",
+    "description": "理解并践行「法律是什么」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "法律是什么？",
+      "answer": "由国家制定或认可、具有强制力的行为规范"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:3.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p140",
+    "name": "法律作用大",
+    "domain": "公民与国家",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第1单元 生活中的法律",
+    "type": "procedural",
+    "description": "理解并践行「法律作用大」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "法律是什么？",
+      "answer": "由国家制定或认可、具有强制力的行为规范"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:3.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p141",
+    "name": "宪法是根本法",
+    "domain": "公民与国家",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第1单元 生活中的法律",
+    "type": "application",
+    "description": "理解并践行「宪法是根本法」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "法律是什么？",
+      "answer": "由国家制定或认可、具有强制力的行为规范"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:3.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p142",
+    "name": "我是中国公民",
+    "domain": "公民与国家",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第2单元 公民与国家",
+    "type": "reasoning",
+    "description": "理解并践行「我是中国公民」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "我们的祖国是？",
+      "answer": "中华人民共和国"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:3.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p143",
+    "name": "公民的基本权利和义务",
+    "domain": "公民与国家",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第2单元 公民与国家",
+    "type": "conceptual",
+    "description": "理解并践行「公民的基本权利和义务」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "法律是什么？",
+      "answer": "由国家制定或认可、具有强制力的行为规范"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:3.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p144",
+    "name": "了解国家机构",
+    "domain": "公民与国家",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第2单元 公民与国家",
+    "type": "conceptual",
+    "description": "理解并践行「了解国家机构」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "家人之所以珍贵，是因为？",
+      "answer": "互相关爱、共同生活"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:3.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p145",
+    "name": "未成年人需特殊保护",
+    "domain": "公民与国家",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第3单元 我们受特殊保护",
+    "type": "procedural",
+    "description": "理解并践行「未成年人需特殊保护」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "生命为什么最宝贵？",
+      "answer": "生命只有一次，是做好一切事情的前提"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:3.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p146",
+    "name": "专门法律来保护",
+    "domain": "公民与国家",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第3单元 我们受特殊保护",
+    "type": "application",
+    "description": "理解并践行「专门法律来保护」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "生命为什么最宝贵？",
+      "answer": "生命只有一次，是做好一切事情的前提"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:3.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p147",
+    "name": "特殊关爱 助我成长",
+    "domain": "公民与国家",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第3单元 我们受特殊保护",
+    "type": "reasoning",
+    "description": "理解并践行「特殊关爱 助我成长」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "学习「特殊关爱 助我成长」一课，最重要的是？",
+      "answer": "把正确的做法落实到日常生活中"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:3.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p148",
+    "name": "用好法律 维护权利",
+    "domain": "公民与国家",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第4单元 知法守法 依法维权",
+    "type": "conceptual",
+    "description": "理解并践行「用好法律 维护权利」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "法律是什么？",
+      "answer": "由国家制定或认可、具有强制力的行为规范"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:3.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p149",
+    "name": "做守法公民",
+    "domain": "公民与国家",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第4单元 知法守法 依法维权",
+    "type": "conceptual",
+    "description": "理解并践行「做守法公民」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "法律是什么？",
+      "answer": "由国家制定或认可、具有强制力的行为规范"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:3.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p150",
+    "name": "学会尊重",
+    "domain": "社会规则",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第1单元 完善自我 健康成长",
+    "type": "conceptual",
+    "description": "理解并践行「学会尊重」一课的基本要求，落实社会规则方面的正确做法。",
+    "mastery_criteria": [
+      "能说出公共场合应遵守的规则",
+      "能判断违反规则的行为并改正"
+    ],
+    "diagnostic_question": {
+      "question": "公共场所应做到？",
+      "answer": "文明言行，遵守秩序，照顾他人"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:3.SH.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p151",
+    "name": "学会宽容",
+    "domain": "社会规则",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第1单元 完善自我 健康成长",
+    "type": "procedural",
+    "description": "理解并践行「学会宽容」一课的基本要求，落实社会规则方面的正确做法。",
+    "mastery_criteria": [
+      "能说出公共场合应遵守的规则",
+      "能判断违反规则的行为并改正"
+    ],
+    "diagnostic_question": {
+      "question": "公共场所应做到？",
+      "answer": "文明言行，遵守秩序，照顾他人"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:3.SH.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p152",
+    "name": "学会反思",
+    "domain": "生活与安全",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第1单元 完善自我 健康成长",
+    "type": "application",
+    "description": "理解并践行「学会反思」一课的基本要求，落实生活与安全方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的安全或健康做法",
+      "能在情境中选择正确行为"
+    ],
+    "diagnostic_question": {
+      "question": "公共场所应做到？",
+      "answer": "文明言行，遵守秩序，照顾他人"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:3.LS.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p153",
+    "name": "地球——我们的家园",
+    "domain": "自然与环境",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第2单元 爱护地球 共同责任",
+    "type": "reasoning",
+    "description": "理解并践行「地球——我们的家园」一课的基本要求，落实自然与环境方面的正确做法。",
+    "mastery_criteria": [
+      "能说出爱护自然或节约资源的做法",
+      "能在生活中选择环保行为"
+    ],
+    "diagnostic_question": {
+      "question": "家人之所以珍贵，是因为？",
+      "answer": "互相关爱、共同生活"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:3.ZR.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p154",
+    "name": "应对自然灾害",
+    "domain": "自然与环境",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第2单元 爱护地球 共同责任",
+    "type": "conceptual",
+    "description": "理解并践行「应对自然灾害」一课的基本要求，落实自然与环境方面的正确做法。",
+    "mastery_criteria": [
+      "能说出爱护自然或节约资源的做法",
+      "能在生活中选择环保行为"
+    ],
+    "diagnostic_question": {
+      "question": "亲近大自然时，正确做法是？",
+      "answer": "观察欣赏，不伤害动植物"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:3.ZR.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p155",
+    "name": "探访古代文明",
+    "domain": "公民与国家",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第3单元 多样文明 多彩生活",
+    "type": "conceptual",
+    "description": "理解并践行「探访古代文明」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "公共场所应做到？",
+      "answer": "文明言行，遵守秩序，照顾他人"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:3.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p156",
+    "name": "多元文化 多样魅力",
+    "domain": "公民与国家",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第3单元 多样文明 多彩生活",
+    "type": "procedural",
+    "description": "理解并践行「多元文化 多样魅力」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "爱护地球，我们可以？",
+      "answer": "节约资源、保护环境、应对灾害有准备"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:3.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p157",
+    "name": "科技发展 造福人类",
+    "domain": "生活与安全",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第4单元 让世界更美好",
+    "type": "application",
+    "description": "理解并践行「科技发展 造福人类」一课的基本要求，落实生活与安全方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的安全或健康做法",
+      "能在情境中选择正确行为"
+    ],
+    "diagnostic_question": {
+      "question": "做学习的主人，意味着？",
+      "answer": "主动学习，寻找适合自己的方法"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:3.LS.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p158",
+    "name": "日益重要的国际组织",
+    "domain": "公民与国家",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第4单元 让世界更美好",
+    "type": "reasoning",
+    "description": "理解并践行「日益重要的国际组织」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "爱护地球，我们可以？",
+      "answer": "节约资源、保护环境、应对灾害有准备"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:3.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_p159",
+    "name": "我们爱和平",
+    "domain": "公民与国家",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第4单元 让世界更美好",
+    "type": "conceptual",
+    "description": "理解并践行「我们爱和平」一课的基本要求，落实公民与国家方面的正确做法。",
+    "mastery_criteria": [
+      "能说出与本课相关的基本常识",
+      "能说明自己可以怎样做一名好学生或小公民"
+    ],
+    "diagnostic_question": {
+      "question": "爱护地球，我们可以？",
+      "answer": "节约资源、保护环境、应对灾害有准备"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:3.GM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
   }
 ]

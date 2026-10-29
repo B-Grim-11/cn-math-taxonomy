@@ -106,6 +106,17 @@ body.subject-chinese {
   --logo-fold: #ffffff;
 }
 
+body.subject-morality {
+  --brand: #c2410c;
+  --brand-strong: #9a3412;
+  --brand-soft: #fff7ed;
+  --on-brand: #ffffff;
+  --focus: #c2410c;
+  --accent: #c2410c;
+  --logo-sheet: #ffedd5;
+  --logo-fold: #ffffff;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     color-scheme: dark;
@@ -203,6 +214,16 @@ body.subject-chinese {
     --accent: #fda4af;
     --logo-sheet: #6b1230;
     --logo-fold: #9f1239;
+  }
+  body.subject-morality {
+    --brand: #fdba74;
+    --brand-strong: #fed7aa;
+    --brand-soft: #7c2d12;
+    --on-brand: #431407;
+    --focus: #fed7aa;
+    --accent: #fdba74;
+    --logo-sheet: #9a3412;
+    --logo-fold: #c2410c;
   }
 }
 

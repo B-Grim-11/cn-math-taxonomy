@@ -385,4 +385,12 @@ test('科学学科的诊断记录可以备份和恢复', () => {
   assert.ok(stored(storage, RECORD_KEY)['child-b'].some((r) => r.subject === 'science'));
 });
 
+test('道德与法治学科的诊断记录可以备份和恢复', () => {
+  const data = backup();
+  data.records['child-b'] = data.records['child-b'].concat([{ key: 'morality|seed|target', subject: 'morality', mode: 'target', targets: ['cnd_p001'], weak: [], savedAt: '2026-10-29T00:00:00.000Z' }]);
+  const { api, storage } = load();
+  importInto(api, api.parseBackup(JSON.stringify(data)));
+  assert.ok(stored(storage, RECORD_KEY)['child-b'].some((r) => r.subject === 'morality'));
+});
+
 console.log('\n' + passed + ' passed, 0 failed');
