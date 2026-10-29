@@ -1363,13 +1363,13 @@
   },
   {
     "id": "cnm_p061",
-    "name": "秒的认识",
-    "domain": "数与代数",
+    "name": "认识时间",
+    "domain": "综合与实践",
     "grade": 2,
     "semester": "下",
     "chapter": "二年级下册 综合与实践 时间在哪里",
     "type": "conceptual",
-    "description": "认识时间单位秒，知道秒针走一圈是 1 分。",
+    "description": "认识时间单位秒，知道秒针走一圈是 1 分，能进行分与秒的简单换算。",
     "mastery_criteria": [
       "能说出 1 分等于 60 秒",
       "能把几分换算成秒"
@@ -1382,15 +1382,15 @@
     "standards": [
       {
         "id": "cms-2022:1.IP.03",
-        "confidence": "inferred",
-        "note": "课标把时、分、秒放在第一学段主题活动「时间在哪里」。2024 一、二年级上册已核目录里没有独立钟表单元；现行人教三年级上册第 1 单元才系统学习，暂按现行册次，待核。"
+        "confidence": "exact",
+        "note": "依据 dzkbw xs2x_2026（2026 春）小节补点。"
       }
     ]
   },
   {
     "id": "cnm_p062",
     "name": "时、分、秒的进率",
-    "domain": "数与代数",
+    "domain": "综合与实践",
     "grade": 2,
     "semester": "下",
     "chapter": "二年级下册 综合与实践 时间在哪里",
@@ -1415,16 +1415,16 @@
   },
   {
     "id": "cnm_p063",
-    "name": "经过时间",
-    "domain": "数与代数",
+    "name": "我与时间的故事",
+    "domain": "综合与实践",
     "grade": 2,
     "semester": "下",
     "chapter": "二年级下册 综合与实践 时间在哪里",
     "type": "application",
-    "description": "会计算从某一时刻到另一时刻经过了多少分。",
+    "description": "能结合生活故事计算经过的时间，并用时、分说出自己的时间经历。",
     "mastery_criteria": [
-      "能用结束时刻减开始时刻求经过时间",
-      "同一小时内的经过时间会算"
+      "能算出同一时内经过多少分",
+      "能说出跨过整点时经过多少分"
     ],
     "diagnostic_question": {
       "question": "从 3 时 20 分到 3 时 35 分，经过了多少分？",
@@ -1441,16 +1441,16 @@
   },
   {
     "id": "cnm_p050",
-    "name": "有余数除法的意义",
+    "name": "有余数的除法",
     "domain": "数与代数",
     "grade": 2,
     "semester": "下",
     "chapter": "二年级下册 第1单元 有余数的除法",
     "type": "conceptual",
-    "description": "知道平均分后有剩下时，剩下的数叫余数，余数要比除数小。",
+    "description": "认识有余数的除法，知道余数必须比除数小，会写出商和余数。",
     "mastery_criteria": [
-      "能说出商和余数各表示什么",
-      "知道余数一定比除数小"
+      "能说出余数比除数小",
+      "能写出有余数除法的商和余数"
     ],
     "diagnostic_question": {
       "question": "有余数的除法里，余数和除数谁比较小？",
@@ -1545,16 +1545,16 @@
   },
   {
     "id": "cnm_p053",
-    "name": "万以内数的认识",
+    "name": "1000以内数的认识",
     "domain": "数与代数",
     "grade": 2,
     "semester": "下",
     "chapter": "二年级下册 第3单元 万以内数的认识",
     "type": "conceptual",
-    "description": "能认、读、写万以内的数，知道千位、百位、十位、个位。",
+    "description": "能认、读、写 1000 以内的数，知道百位、十位、个位，认识 1000。",
     "mastery_criteria": [
-      "能读出万以内的数",
-      "能说出各个数位上的数字表示多少"
+      "能读出 1000 以内的数",
+      "知道 999 的后面是 1000"
     ],
     "diagnostic_question": {
       "question": "999 的后面一个数是几？",
@@ -1699,13 +1699,13 @@
   },
   {
     "id": "cnm_p071",
-    "name": "三位数加法笔算",
+    "name": "加法",
     "domain": "数与代数",
     "grade": 2,
     "semester": "下",
     "chapter": "二年级下册 第4单元 万以内的加法和减法",
     "type": "procedural",
-    "description": "会用竖式计算三位数加三位数，连续进位也会算。",
+    "description": "会用竖式计算三位数加三位数（含连续进位），解决万以内加法问题。",
     "mastery_criteria": [
       "能把相同数位对齐",
       "连续进位时不错位"
@@ -1728,16 +1728,16 @@
   },
   {
     "id": "cnm_p072",
-    "name": "三位数减法笔算",
+    "name": "减法",
     "domain": "数与代数",
     "grade": 2,
     "semester": "下",
     "chapter": "二年级下册 第4单元 万以内的加法和减法",
     "type": "procedural",
-    "description": "会用竖式计算三位数减三位数，包括连续退位。",
+    "description": "会用竖式计算三位数减三位数（含连续退位），解决万以内减法问题。",
     "mastery_criteria": [
-      "能计算三位数减法",
-      "能用加法验算减法"
+      "能把相同数位对齐",
+      "连续退位时不错位"
     ],
     "diagnostic_question": {
       "question": "书架上有 756 本书，搬走 234 本。还剩多少本？",
@@ -1788,7 +1788,7 @@
     "semester": "下",
     "chapter": "二年级下册 第5单元 复习与关联",
     "type": "reasoning",
-    "description": "能发现一列数每次增加或减少相同的数，并写出后面的数。",
+    "description": "能发现一列数每次增加或减少相同的数，并写出后面的数。暂挂「复习与关联·应用提升」，新版目录未单列变化规律，待核。",
     "mastery_criteria": [
       "能说出规律是每次加几或减几",
       "能按规律写出下一个数"
@@ -6932,6 +6932,156 @@
         "id": "cms-2022:1.NA.07",
         "confidence": "exact",
         "note": "依据 dzkbw xs2s_2025（2025 秋）小节补点。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p269",
+    "name": "10000以内数的认识",
+    "domain": "数与代数",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下册 第3单元 万以内数的认识",
+    "type": "conceptual",
+    "description": "能认、读、写 10000 以内的数，知道千位，认识 10000（1 万）。",
+    "mastery_criteria": [
+      "能读出四位数",
+      "知道 9999 的后面是 10000"
+    ],
+    "diagnostic_question": {
+      "question": "9999 的后面一个数是几？",
+      "answer": "10000"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:1.NA.01",
+        "confidence": "exact",
+        "note": "依据 dzkbw xs2x_2026（2026 春）小节补点。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p270",
+    "name": "简单的加、减法",
+    "domain": "数与代数",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下册 第3单元 万以内数的认识",
+    "type": "procedural",
+    "description": "会计算整千、整百的简单加减（如 3000＋2000、4500＋300），体会数的组成。",
+    "mastery_criteria": [
+      "能算整千数加减",
+      "能算整百数加在四位数上"
+    ],
+    "diagnostic_question": {
+      "question": "图书馆运来 3000 本故事书，又运来 2000 本。一共多少本？",
+      "answer": "5000"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:1.NA.04",
+        "confidence": "exact",
+        "note": "依据 dzkbw xs2x_2026（2026 春）小节补点。"
+      },
+      {
+        "id": "cms-2022:1.NA.01",
+        "confidence": "inferred",
+        "note": "依据 dzkbw xs2x_2026（2026 春）小节补点。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p271",
+    "name": "数独游戏",
+    "domain": "数与代数",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下册 第4单元 万以内的加法和减法",
+    "type": "reasoning",
+    "description": "会在简单数独（或填数）游戏中，根据「每行每列数字不重复」推出空格里的数。",
+    "mastery_criteria": [
+      "知道一行里的数一般不重复",
+      "能根据已有数字推出空格"
+    ],
+    "diagnostic_question": {
+      "question": "数独小游戏里，每一行里的数一般要怎样？",
+      "answer": "不重复"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:1.NA.06",
+        "confidence": "inferred",
+        "note": "依据 dzkbw xs2x_2026（2026 春）小节补点。"
+      },
+      {
+        "id": "cms-2022:1.NA.02",
+        "confidence": "inferred",
+        "note": "依据 dzkbw xs2x_2026（2026 春）小节补点。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p272",
+    "name": "连环画分享会",
+    "domain": "综合与实践",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下册 综合与实践 数学连环画",
+    "type": "modeling",
+    "description": "能用连环画讲简单的乘除或加减故事，并写出对应的算式。",
+    "mastery_criteria": [
+      "能给故事配上合适的算式",
+      "能看连环画说出用乘法还是除法"
+    ],
+    "diagnostic_question": {
+      "question": "用连环画讲一个「每盘 4 个，有 3 盘」的故事，下一格最适合画什么算式？",
+      "answer": "4×3＝12"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:1.IP.06",
+        "confidence": "exact",
+        "note": "依据 dzkbw xs2x_2026（2026 春）小节补点。"
+      },
+      {
+        "id": "cms-2022:1.NA.07",
+        "confidence": "inferred",
+        "note": "依据 dzkbw xs2x_2026（2026 春）小节补点。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p273",
+    "name": "我的时间小书",
+    "domain": "综合与实践",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下册 综合与实践 时间在哪里",
+    "type": "modeling",
+    "description": "会记录一天里各件事用的时间，整理成「时间小书」，并进行简单加减或换算。",
+    "mastery_criteria": [
+      "能记录两件事各用多少分",
+      "能算出合计或相差的时间"
+    ],
+    "diagnostic_question": {
+      "question": "做「我的时间小书」时，可以记录什么？",
+      "answer": "自己一天里做各件事用了多少时间"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:1.IP.03",
+        "confidence": "exact",
+        "note": "依据 dzkbw xs2x_2026（2026 春）小节补点。"
+      },
+      {
+        "id": "cms-2022:1.IP.06",
+        "confidence": "inferred",
+        "note": "依据 dzkbw xs2x_2026（2026 春）小节补点。"
       }
     ]
   },

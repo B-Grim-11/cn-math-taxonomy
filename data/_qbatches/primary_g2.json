@@ -936,20 +936,20 @@
   {
     "difficulty": "standard",
     "type": "numeric",
-    "prompt": "3400 的百位是几？",
-    "answer": "4",
-    "explanation": "从右数，个、十、百，3400 的百位是 4。",
-    "verify": "4",
+    "prompt": "340 的百位是几？",
+    "answer": "3",
+    "explanation": "从右数，个、十、百，340 的百位是 3。",
+    "verify": "3",
     "id": "cnm_p053_q3",
     "topicId": "cnm_p053"
   },
   {
     "difficulty": "challenge",
     "type": "numeric",
-    "prompt": "5060 的千位是几？",
-    "answer": "5",
-    "explanation": "5060 是 5 个千、0 个百、6 个十、0 个一，千位是 5。",
-    "verify": "5",
+    "prompt": "506 的个位、十位、百位分别是几？写出这个三位数。",
+    "answer": "506",
+    "explanation": "百位 5、十位 0、个位 6，合起来是 506。",
+    "verify": "506",
     "id": "cnm_p053_q4",
     "topicId": "cnm_p053"
   },
@@ -2120,5 +2120,275 @@
     "verify": "9*6+3",
     "id": "cnm_p268_q4",
     "topicId": "cnm_p268"
+  },
+  {
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "9999 的后面一个数是几？",
+    "answer": "10000",
+    "explanation": "9999 再添 1 是 10000，也就是 1 万。",
+    "verify": "9999+1",
+    "id": "cnm_p269_q1",
+    "topicId": "cnm_p269"
+  },
+  {
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "10000 里面有几个千？",
+    "answer": "10",
+    "explanation": "1 万＝10 个千。",
+    "verify": "10000//1000",
+    "id": "cnm_p269_q2",
+    "topicId": "cnm_p269"
+  },
+  {
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "7080 的千位是几？",
+    "answer": "7",
+    "explanation": "7080 是 7 个千、0 个百、8 个十、0 个一。",
+    "verify": "7",
+    "id": "cnm_p269_q3",
+    "topicId": "cnm_p269"
+  },
+  {
+    "difficulty": "challenge",
+    "type": "numeric",
+    "prompt": "由 9 个千、9 个百、9 个十和 9 个一组成的数再添 1，是多少？",
+    "answer": "10000",
+    "explanation": "先组成 9999，再添 1 是 10000。",
+    "verify": "9999+1",
+    "id": "cnm_p269_q4",
+    "topicId": "cnm_p269"
+  },
+  {
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "图书馆运来 3000 本故事书，又运来 2000 本。一共多少本？",
+    "answer": "5000",
+    "explanation": "3 个千加 2 个千是 5 个千，等于 5000。",
+    "verify": "3000+2000",
+    "id": "cnm_p270_q1",
+    "topicId": "cnm_p270"
+  },
+  {
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "仓库有 8000 箱，运走 3000 箱。还剩多少箱？",
+    "answer": "5000",
+    "explanation": "8 个千减 3 个千是 5 个千。",
+    "verify": "8000-3000",
+    "id": "cnm_p270_q2",
+    "topicId": "cnm_p270"
+  },
+  {
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "操场上有 4500 人，又来了 300 人。现在有多少人？",
+    "answer": "4800",
+    "explanation": "4500 再加 3 个百是 4800。",
+    "verify": "4500+300",
+    "id": "cnm_p270_q3",
+    "topicId": "cnm_p270"
+  },
+  {
+    "difficulty": "challenge",
+    "type": "numeric",
+    "prompt": "停车场有 6000 辆车，先开走 500 辆，又开来 1000 辆。现在有多少辆？",
+    "answer": "6500",
+    "explanation": "先算 6000－500＝5500，再加 1000 得 6500。",
+    "verify": "6000-500+1000",
+    "id": "cnm_p270_q4",
+    "topicId": "cnm_p270"
+  },
+  {
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "数独小游戏里，每一行里的数一般要怎样？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "不重复"
+      },
+      {
+        "key": "B",
+        "text": "必须都是偶数"
+      },
+      {
+        "key": "C",
+        "text": "必须从小到大排"
+      }
+    ],
+    "answer": "A",
+    "explanation": "每一行、每一列里的数通常不能重复。",
+    "verify": "'不重复'",
+    "id": "cnm_p271_q1",
+    "topicId": "cnm_p271"
+  },
+  {
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "一行要填 1、2、3。已经有 1 和 3，空格应填几？",
+    "answer": "2",
+    "explanation": "1、2、3 里还缺 2。",
+    "verify": "2",
+    "id": "cnm_p271_q2",
+    "topicId": "cnm_p271"
+  },
+  {
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "一行要填 1 到 4。已经有 1、4、2，空格应填几？",
+    "answer": "3",
+    "explanation": "1 到 4 里还缺 3。",
+    "verify": "3",
+    "id": "cnm_p271_q3",
+    "topicId": "cnm_p271"
+  },
+  {
+    "difficulty": "challenge",
+    "type": "choice",
+    "prompt": "小格里已经写了 5。同一行另一个空格还能再填 5 吗？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "不能，同一行一般不重复"
+      },
+      {
+        "key": "B",
+        "text": "能，想填几次都行"
+      },
+      {
+        "key": "C",
+        "text": "只能填 0"
+      }
+    ],
+    "answer": "A",
+    "explanation": "同一行的数一般不能重复，所以不能再填 5。",
+    "verify": "'不能，同一行一般不重复'",
+    "id": "cnm_p271_q4",
+    "topicId": "cnm_p271"
+  },
+  {
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "用连环画讲一个「每盘 4 个，有 3 盘」的故事，下一格最适合画什么算式？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "4×3＝12"
+      },
+      {
+        "key": "B",
+        "text": "4＋3＝7"
+      },
+      {
+        "key": "C",
+        "text": "4－3＝1"
+      }
+    ],
+    "answer": "A",
+    "explanation": "每盘个数相同，求一共用乘法。",
+    "verify": "'4×3＝12'",
+    "id": "cnm_p272_q1",
+    "topicId": "cnm_p272"
+  },
+  {
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "连环画里：小兔采了 8 个胡萝卜，送给朋友 3 个。还剩几个？",
+    "answer": "5",
+    "explanation": "8－3＝5。",
+    "verify": "8-3",
+    "id": "cnm_p272_q2",
+    "topicId": "cnm_p272"
+  },
+  {
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "画「把 12 块饼干平均分给 3 人」时，最后一格应写出什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "12÷3＝4"
+      },
+      {
+        "key": "B",
+        "text": "12×3＝36"
+      },
+      {
+        "key": "C",
+        "text": "12＋3＝15"
+      }
+    ],
+    "answer": "A",
+    "explanation": "平均分用除法，每人 4 块。",
+    "verify": "'12÷3＝4'",
+    "id": "cnm_p272_q3",
+    "topicId": "cnm_p272"
+  },
+  {
+    "difficulty": "challenge",
+    "type": "numeric",
+    "prompt": "故事：每袋 6 个橘子，买了 4 袋，吃掉 5 个。还剩多少个？",
+    "answer": "19",
+    "explanation": "先 6×4＝24，再 24－5＝19。",
+    "verify": "6*4-5",
+    "id": "cnm_p272_q4",
+    "topicId": "cnm_p272"
+  },
+  {
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "做「我的时间小书」时，可以记录什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "自己一天里做各件事用了多少时间"
+      },
+      {
+        "key": "B",
+        "text": "只写喜欢的颜色"
+      },
+      {
+        "key": "C",
+        "text": "只抄乘法口诀"
+      }
+    ],
+    "answer": "A",
+    "explanation": "时间小书用来记录和整理自己与时间有关的事。",
+    "verify": "'自己一天里做各件事用了多少时间'",
+    "id": "cnm_p273_q1",
+    "topicId": "cnm_p273"
+  },
+  {
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "小书里写：读故事 20 分，写字 15 分。两件事一共多少分？",
+    "answer": "35",
+    "explanation": "20＋15＝35（分）。",
+    "verify": "20+15",
+    "id": "cnm_p273_q2",
+    "topicId": "cnm_p273"
+  },
+  {
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "起床到出门一共用了 25 分，其中洗脸 10 分。穿衣服大约用了多少分？",
+    "answer": "15",
+    "explanation": "25－10＝15（分）。",
+    "verify": "25-10",
+    "id": "cnm_p273_q3",
+    "topicId": "cnm_p273"
+  },
+  {
+    "difficulty": "challenge",
+    "type": "numeric",
+    "prompt": "小书记录：跳绳 3 分。3 分是多少秒？",
+    "answer": "180",
+    "explanation": "1 分＝60 秒，3 分＝180 秒。",
+    "verify": "3*60",
+    "id": "cnm_p273_q4",
+    "topicId": "cnm_p273"
   }
 ]

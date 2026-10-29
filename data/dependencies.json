@@ -369,13 +369,13 @@
     "topicId": "cnm_p050",
     "prerequisiteId": "cnm_p046",
     "strength": "hard",
-    "reason": "学习「有余数除法的意义」需要先掌握「用2～6的乘法口诀求商」。"
+    "reason": "学习「有余数的除法」需要先掌握「用2～6的乘法口诀求商」。"
   },
   {
     "topicId": "cnm_p051",
     "prerequisiteId": "cnm_p050",
     "strength": "hard",
-    "reason": "学习「用口诀求商和余数」需要先掌握「有余数除法的意义」。"
+    "reason": "学习「用口诀求商和余数」需要先掌握「有余数的除法」。"
   },
   {
     "topicId": "cnm_p052",
@@ -387,13 +387,13 @@
     "topicId": "cnm_p053",
     "prerequisiteId": "cnm_p028",
     "strength": "hard",
-    "reason": "学习「万以内数的认识」需要先掌握「数数、数的组成」。"
+    "reason": "学习「1000以内数的认识」需要先掌握「数数、数的组成」。"
   },
   {
     "topicId": "cnm_p054",
     "prerequisiteId": "cnm_p053",
     "strength": "hard",
-    "reason": "学习「万以内数的大小比较」需要先掌握「万以内数的认识」。"
+    "reason": "学习「万以内数的大小比较」需要先掌握「1000以内数的认识」。"
   },
   {
     "topicId": "cnm_p054",
@@ -405,7 +405,7 @@
     "topicId": "cnm_p055",
     "prerequisiteId": "cnm_p053",
     "strength": "hard",
-    "reason": "学习「万以内数的组成」需要先掌握「万以内数的认识」。"
+    "reason": "学习「万以内数的组成」需要先掌握「1000以内数的认识」。"
   },
   {
     "topicId": "cnm_p056",
@@ -465,25 +465,25 @@
     "topicId": "cnm_p061",
     "prerequisiteId": "cnm_p028",
     "strength": "hard",
-    "reason": "学习「秒的认识」需要先掌握「数数、数的组成」。"
+    "reason": "学习「认识时间」需要先掌握「数数、数的组成」。"
   },
   {
     "topicId": "cnm_p062",
     "prerequisiteId": "cnm_p061",
     "strength": "hard",
-    "reason": "学习「时、分、秒的进率」需要先掌握「秒的认识」。"
+    "reason": "学习「时、分、秒的进率」需要先掌握「认识时间」。"
   },
   {
     "topicId": "cnm_p063",
     "prerequisiteId": "cnm_p062",
     "strength": "hard",
-    "reason": "学习「经过时间」需要先掌握「时、分、秒的进率」。"
+    "reason": "学习「我与时间的故事」需要先掌握「时、分、秒的进率」。"
   },
   {
     "topicId": "cnm_p063",
     "prerequisiteId": "cnm_p032",
     "strength": "hard",
-    "reason": "学习「经过时间」需要先掌握「口算减法」。"
+    "reason": "学习「我与时间的故事」需要先掌握「口算减法」。"
   },
   {
     "topicId": "cnm_p064",
@@ -495,7 +495,7 @@
     "topicId": "cnm_p064",
     "prerequisiteId": "cnm_p053",
     "strength": "hard",
-    "reason": "学习「几百几十的口算加法」需要先掌握「万以内数的认识」。"
+    "reason": "学习「几百几十的口算加法」需要先掌握「1000以内数的认识」。"
   },
   {
     "topicId": "cnm_p065",
@@ -543,19 +543,19 @@
     "topicId": "cnm_p071",
     "prerequisiteId": "cnm_p064",
     "strength": "hard",
-    "reason": "学习「三位数加法笔算」需要先掌握「几百几十的口算加法」。"
+    "reason": "学习「加法」需要先掌握「几百几十的口算加法」。"
   },
   {
     "topicId": "cnm_p072",
     "prerequisiteId": "cnm_p065",
     "strength": "hard",
-    "reason": "学习「三位数减法笔算」需要先掌握「几百几十的口算减法」。"
+    "reason": "学习「减法」需要先掌握「几百几十的口算减法」。"
   },
   {
     "topicId": "cnm_p072",
     "prerequisiteId": "cnm_p071",
     "strength": "hard",
-    "reason": "学习「三位数减法笔算」需要先掌握「三位数加法笔算」。"
+    "reason": "学习「减法」需要先掌握「加法」。"
   },
   {
     "topicId": "cnm_p073",
@@ -573,7 +573,7 @@
     "topicId": "cnm_p074",
     "prerequisiteId": "cnm_p071",
     "strength": "hard",
-    "reason": "学习「多位数乘一位数」需要先掌握「三位数加法笔算」。"
+    "reason": "学习「多位数乘一位数」需要先掌握「加法」。"
   },
   {
     "topicId": "cnm_p075",
@@ -585,7 +585,7 @@
     "topicId": "cnm_p076",
     "prerequisiteId": "cnm_p053",
     "strength": "hard",
-    "reason": "学习「数字编码」需要先掌握「万以内数的认识」。"
+    "reason": "学习「数字编码」需要先掌握「1000以内数的认识」。"
   },
   {
     "topicId": "cnm_p077",
@@ -741,7 +741,7 @@
     "topicId": "cnm_p096",
     "prerequisiteId": "cnm_p053",
     "strength": "hard",
-    "reason": "学习「亿以内数的认识」需要先掌握「万以内数的认识」。"
+    "reason": "学习「亿以内数的认识」需要先掌握「1000以内数的认识」。"
   },
   {
     "topicId": "cnm_p097",
@@ -861,7 +861,7 @@
     "topicId": "cnm_p114",
     "prerequisiteId": "cnm_p071",
     "strength": "hard",
-    "reason": "学习「加法交换律和结合律」需要先掌握「三位数加法笔算」。"
+    "reason": "学习「加法交换律和结合律」需要先掌握「加法」。"
   },
   {
     "topicId": "cnm_p115",
@@ -1671,7 +1671,7 @@
     "topicId": "cnm_p201",
     "prerequisiteId": "cnm_p053",
     "strength": "hard",
-    "reason": "学习「认识负数」需要先掌握「万以内数的认识」。"
+    "reason": "学习「认识负数」需要先掌握「1000以内数的认识」。"
   },
   {
     "topicId": "cnm_p201",
@@ -1821,7 +1821,7 @@
     "topicId": "cnm_p216",
     "prerequisiteId": "cnm_p050",
     "strength": "soft",
-    "reason": "「有余数除法的意义」对学习「鸽巢问题」有帮助，但不会前者也可以开始学后者。"
+    "reason": "「有余数的除法」对学习「鸽巢问题」有帮助，但不会前者也可以开始学后者。"
   },
   {
     "topicId": "cnm_001",
@@ -13059,13 +13059,13 @@
     "topicId": "cnm_p220",
     "prerequisiteId": "cnm_p071",
     "strength": "hard",
-    "reason": "学习「加减法各部分间的关系」需要先掌握「三位数加法笔算」。"
+    "reason": "学习「加减法各部分间的关系」需要先掌握「加法」。"
   },
   {
     "topicId": "cnm_p220",
     "prerequisiteId": "cnm_p072",
     "strength": "hard",
-    "reason": "学习「加减法各部分间的关系」需要先掌握「三位数减法笔算」。"
+    "reason": "学习「加减法各部分间的关系」需要先掌握「减法」。"
   },
   {
     "topicId": "cnm_p221",
@@ -13179,7 +13179,7 @@
     "topicId": "cnm_p230",
     "prerequisiteId": "cnm_p071",
     "strength": "soft",
-    "reason": "学习「加法模型」需要先掌握「三位数加法笔算」。"
+    "reason": "学习「加法模型」需要先掌握「加法」。"
   },
   {
     "topicId": "cnm_p231",
@@ -23488,5 +23488,83 @@
     "prerequisiteId": "cnm_p265",
     "strength": "soft",
     "reason": "「认识线段」对学习「线段、直线和射线」有帮助，但不会前者也可以开始学后者。"
+  },
+  {
+    "topicId": "cnm_p269",
+    "prerequisiteId": "cnm_p053",
+    "strength": "hard",
+    "reason": "学习「10000以内数的认识」需要先掌握「1000以内数的认识」。"
+  },
+  {
+    "topicId": "cnm_p054",
+    "prerequisiteId": "cnm_p269",
+    "strength": "soft",
+    "reason": "「10000以内数的认识」对学习「万以内数的大小比较」有帮助，但不会前者也可以开始学后者。"
+  },
+  {
+    "topicId": "cnm_p055",
+    "prerequisiteId": "cnm_p269",
+    "strength": "soft",
+    "reason": "「10000以内数的认识」对学习「万以内数的组成」有帮助，但不会前者也可以开始学后者。"
+  },
+  {
+    "topicId": "cnm_p270",
+    "prerequisiteId": "cnm_p053",
+    "strength": "hard",
+    "reason": "学习「简单的加、减法」需要先掌握「1000以内数的认识」。"
+  },
+  {
+    "topicId": "cnm_p270",
+    "prerequisiteId": "cnm_p269",
+    "strength": "hard",
+    "reason": "学习「简单的加、减法」需要先掌握「10000以内数的认识」。"
+  },
+  {
+    "topicId": "cnm_p064",
+    "prerequisiteId": "cnm_p270",
+    "strength": "soft",
+    "reason": "「简单的加、减法」对学习「几百几十的口算加法」有帮助，但不会前者也可以开始学后者。"
+  },
+  {
+    "topicId": "cnm_p271",
+    "prerequisiteId": "cnm_p054",
+    "strength": "hard",
+    "reason": "学习「数独游戏」需要先掌握「万以内数的大小比较」。"
+  },
+  {
+    "topicId": "cnm_p271",
+    "prerequisiteId": "cnm_p055",
+    "strength": "soft",
+    "reason": "「万以内数的组成」对学习「数独游戏」有帮助，但不会前者也可以开始学后者。"
+  },
+  {
+    "topicId": "cnm_p272",
+    "prerequisiteId": "cnm_p219",
+    "strength": "hard",
+    "reason": "学习「连环画分享会」需要先掌握「数量间的乘除关系」。"
+  },
+  {
+    "topicId": "cnm_p272",
+    "prerequisiteId": "cnm_p048",
+    "strength": "soft",
+    "reason": "「选择一种运算解决问题」对学习「连环画分享会」有帮助，但不会前者也可以开始学后者。"
+  },
+  {
+    "topicId": "cnm_p273",
+    "prerequisiteId": "cnm_p062",
+    "strength": "hard",
+    "reason": "学习「我的时间小书」需要先掌握「时、分、秒的进率」。"
+  },
+  {
+    "topicId": "cnm_p273",
+    "prerequisiteId": "cnm_p063",
+    "strength": "soft",
+    "reason": "「我与时间的故事」对学习「我的时间小书」有帮助，但不会前者也可以开始学后者。"
+  },
+  {
+    "topicId": "cnm_p096",
+    "prerequisiteId": "cnm_p269",
+    "strength": "soft",
+    "reason": "「10000以内数的认识」对学习「亿以内数的认识」有帮助，但不会前者也可以开始学后者。"
   }
 ]
