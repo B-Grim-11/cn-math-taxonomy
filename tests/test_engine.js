@@ -1427,6 +1427,11 @@ test('gradeTargets：一年级 = 一上 + 一下，七上只含七上；写法�
   const g1zh = E.gradeTargets(RGQ, '一年级', 'chinese');
   assert.strictEqual(g1zh.ids.length, 79); // 一上 41 + 一下 38
   assert.ok(g1zh.ids.every((id) => id.startsWith('cnc_')));
+  const g1sci = E.gradeTargets(RGQ, '一年级', 'science');
+  assert.strictEqual(g1sci.ids.length, 30); // 一上 15 + 一下 15
+  assert.ok(g1sci.ids.every((id) => id.startsWith('cns_')));
+  const g6sci = E.gradeTargets(RGQ, '六下', 'science');
+  assert.ok(g6sci.ids.length >= 15 && g6sci.ids.every((id) => RGQ.byId[id].grade === 6 && RGQ.byId[id].semester === '下'));
   const g7 = E.gradeTargets(RGQ, '七年级');
   assert.strictEqual(g7.ids.length, formal.filter((t) => t.grade === 7 && String(t.id).startsWith('cnm_')).length);
   assert.ok(g7.ids.every((id) => id.startsWith('cnm_')));

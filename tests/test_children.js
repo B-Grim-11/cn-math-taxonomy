@@ -377,4 +377,12 @@ test('拒绝危险对象键与超大文件，支持 UTF-8 BOM', () => {
   assert.equal({}.polluted, undefined);
 });
 
+test('科学学科的诊断记录可以备份和恢复', () => {
+  const data = backup();
+  data.records['child-b'] = data.records['child-b'].concat([{ key: 'science|seed|target', subject: 'science', mode: 'target', targets: ['cns_p001'], weak: [], savedAt: '2026-10-22T00:00:00.000Z' }]);
+  const { api, storage } = load();
+  importInto(api, api.parseBackup(JSON.stringify(data)));
+  assert.ok(stored(storage, RECORD_KEY)['child-b'].some((r) => r.subject === 'science'));
+});
+
 console.log('\n' + passed + ' passed, 0 failed');

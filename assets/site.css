@@ -84,6 +84,17 @@ body.subject-english {
   --logo-fold: #ffffff;
 }
 
+body.subject-science {
+  --brand: #047857;
+  --brand-strong: #065f46;
+  --brand-soft: #ecfdf5;
+  --on-brand: #ffffff;
+  --focus: #047857;
+  --accent: #047857;
+  --logo-sheet: #d1fae5;
+  --logo-fold: #ffffff;
+}
+
 body.subject-chinese {
   --brand: #9f1239;
   --brand-strong: #881337;
@@ -172,6 +183,16 @@ body.subject-chinese {
     --accent: #a5b4fc;
     --logo-sheet: #2a2870;
     --logo-fold: #3c3a96;
+  }
+  body.subject-science {
+    --brand: #6ee7b7;
+    --brand-strong: #a7f3d0;
+    --brand-soft: #064e3b;
+    --on-brand: #022c22;
+    --focus: #a7f3d0;
+    --accent: #6ee7b7;
+    --logo-sheet: #065f46;
+    --logo-fold: #047857;
   }
   body.subject-chinese {
     --brand: #fda4af;
