@@ -11,6 +11,16 @@
   var submitBtn = document.getElementById('f-submit');
   var cancelBtn = document.getElementById('f-cancel');
   var formTitle = document.getElementById('form-title');
+  var exportBtn = document.getElementById('export-backup');
+  var exportStatus = document.getElementById('export-status');
+  var importFile = document.getElementById('import-backup');
+  var importPreview = document.getElementById('import-preview');
+  var importError = document.getElementById('import-error');
+  var importStatus = document.getElementById('import-status');
+  var confirmImport = document.getElementById('confirm-import');
+  var pendingBackup = null;
+  var pendingPreview = null;
+  var fileRequest = 0;
   var editing = null;
 
   function el(tag, cls, text) {
@@ -114,6 +124,8 @@
   function render() {
     var kids = CC.list();
     var cur = CC.current();
+    exportBtn.disabled = !kids.length;
+    exportStatus.hidden = true;
     listBox.textContent = '';
     if (!kids.length) {
       listBox.appendChild(el('p', 'kid-empty', '还没有孩子。在下面填昵称和年级，添加第一个。'));
@@ -138,6 +150,101 @@
     render();
   });
   cancelBtn.addEventListener('click', function () { resetForm(); render(); });
+
+  function clearImport(keepFile) {
+    fileRequest++;
+    pendingBackup = null;
+    pendingPreview = null;
+    if (keepFile !== true) importFile.value = '';
+    importPreview.hidden = true;
+    importError.hidden = true;
+    importStatus.hidden = true;
+    confirmImport.disabled = true;
+  }
+  function showImportError(error) {
+    importError.textContent = (error && error.message) || '导入失败，档案未改变。';
+    importError.hidden = false;
+  }
+  function previewBackup(backup) {
+    var preview = CC.previewImport(backup);
+    pendingBackup = backup;
+    pendingPreview = preview;
+    document.getElementById('import-summary').textContent =
+      '新增 ' + preview.addedChildren + ' 个孩子，合并 ' + preview.matchedChildren + ' 个已有档案；' +
+      '新增 ' + preview.addedRecords + ' 条记录，更新 ' + preview.updatedRecords + ' 条记录。';
+    var children = document.getElementById('import-children');
+    children.textContent = '';
+    preview.children.forEach(function (c) {
+      var action = c.action === 'rename' ? '同名档案，将改名为「' + c.name + '」' : c.action === 'merge' ? '合并到已有档案' : '新增档案';
+      children.appendChild(el('li', null, c.sourceName + '：' + action + '，合并后 ' + c.records + ' 条记录'));
+    });
+    importPreview.hidden = false;
+    confirmImport.disabled = false;
+  }
+  importFile.addEventListener('change', function () {
+    var file = importFile.files[0];
+    clearImport(true);
+    if (!file) return;
+    var request = fileRequest;
+    if (file.size > CC.MAX_BACKUP_BYTES) { importFile.value = ''; showImportError(new Error('备份文件不能超过 10 MB。')); return; }
+    importStatus.textContent = '正在读取备份文件…';
+    importStatus.hidden = false;
+    file.text().then(function (text) {
+      if (request !== fileRequest) return;
+      importStatus.hidden = true;
+      previewBackup(CC.parseBackup(text));
+    }).catch(function (error) {
+      if (request !== fileRequest) return;
+      importStatus.hidden = true;
+      importFile.value = '';
+      showImportError(error);
+    });
+  });
+  document.getElementById('cancel-import').addEventListener('click', clearImport);
+  confirmImport.addEventListener('click', function () {
+    if (!pendingBackup || !pendingPreview) return;
+    confirmImport.disabled = true;
+    importError.hidden = true;
+    try {
+      var result = CC.importBackup(pendingBackup, pendingPreview.token);
+      clearImport();
+      resetForm();
+      render();
+      importStatus.textContent = '导入完成：新增 ' + result.addedChildren + ' 个孩子，合并 ' + result.matchedChildren +
+        ' 个已有档案，新增 ' + result.addedRecords + ' 条记录，更新 ' + result.updatedRecords + ' 条记录。';
+      importStatus.hidden = false;
+    } catch (error) {
+      // 失败后重新计算预览，防止其他页面的修改让旧预览失效。
+      try { previewBackup(pendingBackup); }
+      catch (previewError) { pendingPreview = null; importPreview.hidden = true; }
+      showImportError(error);
+    }
+  });
+
+  exportBtn.addEventListener('click', function () {
+    var url = null;
+    var link = null;
+    try {
+      var backup = CC.exportBackup();
+      var blob = new Blob([JSON.stringify(backup, null, 2)], { type: 'application/json;charset=utf-8' });
+      url = URL.createObjectURL(blob);
+      link = el('a');
+      link.href = url;
+      link.download = 'children-backup-' + backup.exportedAt.replace(/[:.]/g, '-') + '.json';
+      document.body.appendChild(link);
+      link.click();
+      exportStatus.className = 'small';
+      exportStatus.textContent = '已生成备份文件，请在浏览器下载列表中查看。';
+    } catch (e) {
+      exportStatus.className = 'small err';
+      exportStatus.textContent = (e && e.message) || '导出失败，请重试。';
+    } finally {
+      if (link) link.remove();
+      // 给浏览器时间接管下载，再释放临时地址。
+      if (url) setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
+      exportStatus.hidden = false;
+    }
+  });
 
   resetForm();
   render();

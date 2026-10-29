@@ -651,13 +651,13 @@ function bfsAncestors(id) {
   return seen;
 }
 
-test('数据可加载：小学 253 + 初中 315 + 高中必修 143 + 选择性必修 128，没有外部节点；课标含第一学段', () => {
+test('数据可加载：小学 259 + 初中 315 + 高中必修 143 + 选择性必修 128，没有外部节点；课标含第一学段', () => {
   const mathTopics = topics.filter((t) => String(t.id).startsWith('cnm_'));
   const mathDeps = deps.filter((d) => String(d.topicId).startsWith('cnm_'));
-  assert.strictEqual(mathTopics.length, 839);
-  assert.strictEqual(mathDeps.length, 1397);
+  assert.strictEqual(mathTopics.length, 845);
+  assert.strictEqual(mathDeps.length, 1406);
   assert.strictEqual(topics.filter((t) => t.external).length, 0);
-  assert.strictEqual(mathTopics.filter((t) => t.grade <= 6).length, 253);
+  assert.strictEqual(mathTopics.filter((t) => t.grade <= 6).length, 259);
   assert.strictEqual(mathTopics.filter((t) => t.grade >= 7 && t.grade <= 9).length, 315);
   assert.strictEqual(mathTopics.filter((t) => t.grade === 10 || t.grade === 11).length, 143);
   assert.strictEqual(mathTopics.filter((t) => t.grade >= 12).length, 128);
@@ -997,7 +997,7 @@ test('题库：每个正式知识点至少 3 题；id 唯一且格式正确；�
     assert.ok(qs.length >= 3, t.id + ' 只有 ' + qs.length + ' 题');
     const ds = new Set(qs.map((q) => q.difficulty));
     assert.ok(ds.has('basic') && ds.has('standard'), t.id + ' 缺少 basic 或 standard');
-    if ((t.grade === 5 || t.grade === 6) && String(t.id).startsWith('cnm_p')) {
+    if (t.grade >= 1 && t.grade <= 6 && String(t.id).startsWith('cnm_p')) {
       assert.ok(ds.has('challenge'), t.id + ' 缺少 challenge');
     }
     assert.ok(qs.some((q) => q.id === t.id + '_q1'), t.id + ' 缺 q1');
