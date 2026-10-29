@@ -25126,5 +25126,311 @@
     "prerequisiteId": "cnd_p137",
     "strength": "hard",
     "reason": "国家发展历程前后相承。"
+  },
+  {
+    "topicId": "cne_p246",
+    "prerequisiteId": "cne_p152",
+    "strength": "hard",
+    "reason": "先会祈使句，再学 must / mustn't。"
+  },
+  {
+    "topicId": "cne_p246",
+    "prerequisiteId": "cne_p151",
+    "strength": "soft",
+    "reason": "先认规则用词。"
+  },
+  {
+    "topicId": "cne_p247",
+    "prerequisiteId": "cne_p246",
+    "strength": "hard",
+    "reason": "先会 must 班规，再做海报读写。"
+  },
+  {
+    "topicId": "cne_p247",
+    "prerequisiteId": "cne_p154",
+    "strength": "soft",
+    "reason": "先会读规则。"
+  },
+  {
+    "topicId": "cne_p248",
+    "prerequisiteId": "cne_p089",
+    "strength": "hard",
+    "reason": "先会问几点，再说该做什么。"
+  },
+  {
+    "topicId": "cne_p248",
+    "prerequisiteId": "cne_p090",
+    "strength": "soft",
+    "reason": "先会说时刻和该做的事。"
+  },
+  {
+    "topicId": "cne_p249",
+    "prerequisiteId": "cne_p248",
+    "strength": "hard",
+    "reason": "先会 It's time，再读时间表。"
+  },
+  {
+    "topicId": "cne_p249",
+    "prerequisiteId": "cne_p091",
+    "strength": "soft",
+    "reason": "先会读作息时刻。"
+  },
+  {
+    "topicId": "cne_p250",
+    "prerequisiteId": "cne_p105",
+    "strength": "hard",
+    "reason": "先会 How much，再练完整购物句。"
+  },
+  {
+    "topicId": "cne_p250",
+    "prerequisiteId": "cne_p106",
+    "strength": "soft",
+    "reason": "先会在商店购物。"
+  },
+  {
+    "topicId": "cne_p251",
+    "prerequisiteId": "cne_p250",
+    "strength": "hard",
+    "reason": "先会购物对话，再读价签。"
+  },
+  {
+    "topicId": "cne_p251",
+    "prerequisiteId": "cne_p107",
+    "strength": "soft",
+    "reason": "先会读价签。"
+  },
+  {
+    "topicId": "cne_p252",
+    "prerequisiteId": "cne_p096",
+    "strength": "soft",
+    "reason": "先认农场词，再扩动物与作物。"
+  },
+  {
+    "topicId": "cne_p253",
+    "prerequisiteId": "cne_p097",
+    "strength": "soft",
+    "reason": "先接触 These/Those，再练 There be。"
+  },
+  {
+    "topicId": "cne_p253",
+    "prerequisiteId": "cne_p252",
+    "strength": "hard",
+    "reason": "先认农场词，再说有什么。"
+  },
+  {
+    "topicId": "cne_p254",
+    "prerequisiteId": "cne_p088",
+    "strength": "soft",
+    "reason": "先认一天活动，再学周末计划词。"
+  },
+  {
+    "topicId": "cne_p255",
+    "prerequisiteId": "cne_p254",
+    "strength": "hard",
+    "reason": "先认计划词，再说 will 打算。"
+  },
+  {
+    "topicId": "cne_p255",
+    "prerequisiteId": "cne_p090",
+    "strength": "soft",
+    "reason": "先会说该做的事。"
+  },
+  {
+    "topicId": "cne_p256",
+    "prerequisiteId": "cne_p255",
+    "strength": "hard",
+    "reason": "先会用 will 说打算，再讨论计划。"
+  },
+  {
+    "topicId": "cne_p257",
+    "prerequisiteId": "cne_p256",
+    "strength": "hard",
+    "reason": "读懂计划前先会讨论计划。"
+  },
+  {
+    "topicId": "cne_p258",
+    "prerequisiteId": "cne_p133",
+    "strength": "soft",
+    "reason": "先认一天活动，再学频率词。"
+  },
+  {
+    "topicId": "cne_p259",
+    "prerequisiteId": "cne_p258",
+    "strength": "hard",
+    "reason": "先认频率词，再练作息句。"
+  },
+  {
+    "topicId": "cne_p259",
+    "prerequisiteId": "cne_p135",
+    "strength": "soft",
+    "reason": "先会谈论作息。"
+  },
+  {
+    "topicId": "cne_p260",
+    "prerequisiteId": "cne_p137",
+    "strength": "soft",
+    "reason": "先认季节词，再学季节活动。"
+  },
+  {
+    "topicId": "cne_p261",
+    "prerequisiteId": "cne_p138",
+    "strength": "hard",
+    "reason": "先会谈最喜欢的季节，再说理由。"
+  },
+  {
+    "topicId": "cne_p261",
+    "prerequisiteId": "cne_p260",
+    "strength": "soft",
+    "reason": "理由常涉及季节活动。"
+  },
+  {
+    "topicId": "cne_p262",
+    "prerequisiteId": "cne_p261",
+    "strength": "hard",
+    "reason": "读懂理由前先会 Why/Because。"
+  },
+  {
+    "topicId": "cne_p262",
+    "prerequisiteId": "cne_p139",
+    "strength": "soft",
+    "reason": "先会读季节短文。"
+  },
+  {
+    "topicId": "cne_p263",
+    "prerequisiteId": "cne_p140",
+    "strength": "hard",
+    "reason": "先认部分月份，再扩更多月份。"
+  },
+  {
+    "topicId": "cne_p264",
+    "prerequisiteId": "cne_p142",
+    "strength": "soft",
+    "reason": "先会谈节日在几月。"
+  },
+  {
+    "topicId": "cne_p264",
+    "prerequisiteId": "cne_p263",
+    "strength": "hard",
+    "reason": "先认更多月份。"
+  },
+  {
+    "topicId": "cne_p265",
+    "prerequisiteId": "cne_p144",
+    "strength": "hard",
+    "reason": "先会基础序数词，再学更多序数词。"
+  },
+  {
+    "topicId": "cne_p266",
+    "prerequisiteId": "cne_p145",
+    "strength": "hard",
+    "reason": "先会说日期，再问生日。"
+  },
+  {
+    "topicId": "cne_p266",
+    "prerequisiteId": "cne_p265",
+    "strength": "soft",
+    "reason": "生日日期常用序数词。"
+  },
+  {
+    "topicId": "cne_p267",
+    "prerequisiteId": "cne_p266",
+    "strength": "hard",
+    "reason": "先会说生日日期，再读日程。"
+  },
+  {
+    "topicId": "cne_p267",
+    "prerequisiteId": "cne_p146",
+    "strength": "soft",
+    "reason": "先会读日期通知。"
+  },
+  {
+    "topicId": "cne_p268",
+    "prerequisiteId": "cne_p148",
+    "strength": "hard",
+    "reason": "先会现在进行时结构，再练 -ing 变化。"
+  },
+  {
+    "topicId": "cne_p269",
+    "prerequisiteId": "cne_p149",
+    "strength": "hard",
+    "reason": "先会 Whose 与正在做的事。"
+  },
+  {
+    "topicId": "cne_p269",
+    "prerequisiteId": "cne_p268",
+    "strength": "soft",
+    "reason": "描述动作常用 -ing。"
+  },
+  {
+    "topicId": "cne_p270",
+    "prerequisiteId": "cne_p151",
+    "strength": "soft",
+    "reason": "四下已学班级规则词，五下再学安静做事词。"
+  },
+  {
+    "topicId": "cne_p270",
+    "prerequisiteId": "cne_p148",
+    "strength": "soft",
+    "reason": "本单元常与正在做的事一起出现。"
+  },
+  {
+    "topicId": "cne_p271",
+    "prerequisiteId": "cne_p270",
+    "strength": "hard",
+    "reason": "先认安静做事词，再练 Keep/No。"
+  },
+  {
+    "topicId": "cne_p271",
+    "prerequisiteId": "cne_p152",
+    "strength": "soft",
+    "reason": "先接触过祈使句。"
+  },
+  {
+    "topicId": "cne_p272",
+    "prerequisiteId": "cne_p271",
+    "strength": "hard",
+    "reason": "先会 Keep/No 句式，再说场合规则。"
+  },
+  {
+    "topicId": "cne_p272",
+    "prerequisiteId": "cne_p153",
+    "strength": "soft",
+    "reason": "四下已练说过规则。"
+  },
+  {
+    "topicId": "cne_p273",
+    "prerequisiteId": "cne_p148",
+    "strength": "hard",
+    "reason": "先会现在进行时。"
+  },
+  {
+    "topicId": "cne_p273",
+    "prerequisiteId": "cne_p272",
+    "strength": "hard",
+    "reason": "先会说规则。"
+  },
+  {
+    "topicId": "cne_p274",
+    "prerequisiteId": "cne_p272",
+    "strength": "hard",
+    "reason": "先会说基本规则，再学排队轮流。"
+  },
+  {
+    "topicId": "cne_p275",
+    "prerequisiteId": "cne_p273",
+    "strength": "hard",
+    "reason": "读懂规则前先会进行时与守规。"
+  },
+  {
+    "topicId": "cne_p275",
+    "prerequisiteId": "cne_p274",
+    "strength": "soft",
+    "reason": "短文可能含排队轮流。"
+  },
+  {
+    "topicId": "cne_p275",
+    "prerequisiteId": "cne_p154",
+    "strength": "soft",
+    "reason": "四下已练读规则。"
   }
 ]

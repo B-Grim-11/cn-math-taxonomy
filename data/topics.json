@@ -25669,6 +25669,60 @@
     ]
   },
   {
+    "id": "cne_p246",
+    "name": "must 与 mustn't 说班规",
+    "domain": "语法",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第1单元 Class rules",
+    "type": "procedural",
+    "description": "用 must / mustn't 说明教室里必须做和不能做的事（Part B）。",
+    "mastery_criteria": [
+      "能选出正确的 must / mustn't 句子",
+      "能区分必须与禁止"
+    ],
+    "diagnostic_question": {
+      "question": "想说「我们必须听老师讲」，应选哪一句？",
+      "answer": "We must listen to the teacher."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.GR.06",
+        "confidence": "inferred",
+        "note": "依据 dzkbw pep4x_2026（2026 春）单元目录补点，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p247",
+    "name": "制作班级规则海报",
+    "domain": "读写",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第1单元 Class rules",
+    "type": "application",
+    "description": "读懂班级规则海报，并能选出适合写进海报的句子（Project）。",
+    "mastery_criteria": [
+      "能根据海报表述选出规则",
+      "能判断哪句适合写进班规海报"
+    ],
+    "diagnostic_question": {
+      "question": "海报上写 Keep the classroom clean. 这是在要求？",
+      "answer": "保持教室干净"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.RW.02",
+        "confidence": "inferred",
+        "note": "依据 dzkbw pep4x_2026（2026 春）单元目录补点，待核。"
+      }
+    ]
+  },
+  {
     "id": "cne_p199",
     "name": "家规：have to 与 can't",
     "domain": "语法",
@@ -25884,6 +25938,60 @@
     ]
   },
   {
+    "id": "cne_p248",
+    "name": "It's time to 该做什么",
+    "domain": "日常表达",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第3单元 Time for school",
+    "type": "application",
+    "description": "用 It's time to … / It's time for … 说出该做的事。",
+    "mastery_criteria": [
+      "能选出正确的 It's time 句子",
+      "能区分 time to 与 time for"
+    ],
+    "diagnostic_question": {
+      "question": "想说「该起床了」，应选哪一句？",
+      "answer": "It's time to get up."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.FU.02",
+        "confidence": "inferred",
+        "note": "依据 dzkbw pep4x_2026（2026 春）单元目录补点，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p249",
+    "name": "读懂作息时间表",
+    "domain": "读写",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第3单元 Time for school",
+    "type": "application",
+    "description": "读简单作息表或短文，找出几点该做什么。",
+    "mastery_criteria": [
+      "能根据时间表选出活动",
+      "能选出和短文一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：7:00 get up. 7:30 breakfast. 七点半做什么？",
+      "answer": "吃早饭"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.RW.02",
+        "confidence": "inferred",
+        "note": "依据 dzkbw pep4x_2026（2026 春）单元目录补点，待核。"
+      }
+    ]
+  },
+  {
     "id": "cne_p104",
     "name": "商店物品",
     "domain": "词汇",
@@ -25987,6 +26095,60 @@
         "id": "ces-2022:1.RW.02",
         "confidence": "inferred",
         "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p250",
+    "name": "购物用语 I'll take",
+    "domain": "日常表达",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第4单元 Going shopping",
+    "type": "application",
+    "description": "用 Can I help you? / How much …? / I'll take … 完成简单购物对话。",
+    "mastery_criteria": [
+      "能选出正确的购物答句",
+      "能读懂简短购物对话"
+    ],
+    "diagnostic_question": {
+      "question": "店员问 Can I help you? 想买钢笔，应选哪一句？",
+      "answer": "I'd like a pen, please."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.FU.02",
+        "confidence": "inferred",
+        "note": "依据 dzkbw pep4x_2026（2026 春）单元目录补点，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p251",
+    "name": "读懂购物小票与价签",
+    "domain": "读写",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第4单元 Going shopping",
+    "type": "application",
+    "description": "读价签或简短购物记录，找出物品和价格。",
+    "mastery_criteria": [
+      "能根据价签选出价格",
+      "能选出和记录一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "价签：ruler — 3 yuan. 尺子多少钱？",
+      "answer": "3 元"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.RW.02",
+        "confidence": "inferred",
+        "note": "依据 dzkbw pep4x_2026（2026 春）单元目录补点，待核。"
       }
     ]
   },
@@ -26098,6 +26260,60 @@
     ]
   },
   {
+    "id": "cne_p252",
+    "name": "农场动物与作物",
+    "domain": "词汇",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第5单元 Farms and us",
+    "type": "conceptual",
+    "description": "认读 hen、cow、horse、tomato、potato、carrot 等农场动物与作物词（Part B）。",
+    "mastery_criteria": [
+      "能选出农场词的意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「奶牛」？",
+      "answer": "cow"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.01",
+        "confidence": "inferred",
+        "note": "依据 dzkbw pep4x_2026（2026 春）单元目录补点，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p253",
+    "name": "There be 说农场有什么",
+    "domain": "语法",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第5单元 Farms and us",
+    "type": "procedural",
+    "description": "用 There is / There are 描述农场里有什么。",
+    "mastery_criteria": [
+      "能选出正确的 There be 句子",
+      "能区分 is 与 are"
+    ],
+    "diagnostic_question": {
+      "question": "想说「农场里有一匹马」，应选哪一句？",
+      "answer": "There is a horse on the farm."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.GR.03",
+        "confidence": "inferred",
+        "note": "依据 dzkbw pep4x_2026（2026 春）单元目录补点，待核。"
+      }
+    ]
+  },
+  {
     "id": "cne_p200",
     "name": "从农场到餐桌的食物",
     "domain": "词汇",
@@ -26194,6 +26410,114 @@
     "diagnostic_question": {
       "question": "读一读：On the farm we milk cows and feed chickens. 我们做什么？",
       "answer": "挤牛奶和喂鸡"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.RW.02",
+        "confidence": "inferred",
+        "note": "依据 dzkbw pep4x_2026（2026 春）单元目录补点，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p254",
+    "name": "周末计划词汇",
+    "domain": "词汇",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 复习 A great weekend plan",
+    "type": "conceptual",
+    "description": "认读 picnic、cinema、museum、visit、plan 等周末计划相关词（Revision）。",
+    "mastery_criteria": [
+      "能选出周末计划词的意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "picnic 的意思是？",
+      "answer": "野餐"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.01",
+        "confidence": "inferred",
+        "note": "依据 dzkbw pep4x_2026（2026 春）单元目录补点，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p255",
+    "name": "用 will 说周末打算",
+    "domain": "日常表达",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 复习 A great weekend plan",
+    "type": "application",
+    "description": "用 I will … / We will … 说出周末打算做的事。",
+    "mastery_criteria": [
+      "能选出正确的 will 计划句",
+      "能读懂简短打算"
+    ],
+    "diagnostic_question": {
+      "question": "想说「我们周末将去野餐」，应选哪一句？",
+      "answer": "We will have a picnic this weekend."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.FU.02",
+        "confidence": "inferred",
+        "note": "依据 dzkbw pep4x_2026（2026 春）单元目录补点，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p256",
+    "name": "讨论精彩周末计划",
+    "domain": "日常表达",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 复习 A great weekend plan",
+    "type": "application",
+    "description": "综合用 What will you do …? / Let's … 讨论一个精彩的周末计划。",
+    "mastery_criteria": [
+      "能选出询问周末计划的问句",
+      "能选出合适的建议句"
+    ],
+    "diagnostic_question": {
+      "question": "想问「你周末将做什么？」，应选哪一句？",
+      "answer": "What will you do this weekend?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.FU.02",
+        "confidence": "inferred",
+        "note": "依据 dzkbw pep4x_2026（2026 春）单元目录补点，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p257",
+    "name": "读懂周末计划短文",
+    "domain": "读写",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 复习 A great weekend plan",
+    "type": "application",
+    "description": "读周末计划短文或海报，找出时间、地点和活动。",
+    "mastery_criteria": [
+      "能根据短文选出计划内容",
+      "能选出和短文一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：On Saturday we will have a picnic. 星期六计划做什么？",
+      "answer": "野餐"
     },
     "external": false,
     "subject": "english",
@@ -27277,6 +27601,60 @@
     ]
   },
   {
+    "id": "cne_p258",
+    "name": "频率词 often usually sometimes",
+    "domain": "词汇",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第1单元 My day",
+    "type": "conceptual",
+    "description": "认读 often、usually、sometimes、always、never 等频率词，描述作息习惯（Part B）。",
+    "mastery_criteria": [
+      "能选出频率词的意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "often 的意思是？",
+      "answer": "经常"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.VO.01",
+        "confidence": "inferred",
+        "note": "依据 dzkbw peps5x（现行五下，新版未上线）单元目录补点，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p259",
+    "name": "用频率词谈作息",
+    "domain": "日常表达",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第1单元 My day",
+    "type": "application",
+    "description": "用 I usually / often … at … 描述自己的一天。",
+    "mastery_criteria": [
+      "能选出带频率词的作息句",
+      "能读懂频率与时间"
+    ],
+    "diagnostic_question": {
+      "question": "想说「我通常六点起床」，应选哪一句？",
+      "answer": "I usually get up at 6 o'clock."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.FU.02",
+        "confidence": "inferred",
+        "note": "依据 dzkbw peps5x（现行五下，新版未上线）单元目录补点，待核。"
+      }
+    ]
+  },
+  {
     "id": "cne_p137",
     "name": "季节",
     "domain": "词汇",
@@ -27354,6 +27732,87 @@
         "id": "ces-2022:2.RW.01",
         "confidence": "inferred",
         "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p260",
+    "name": "季节活动词汇",
+    "domain": "词汇",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第2单元 My favourite season",
+    "type": "conceptual",
+    "description": "认读 plant flowers、swim、pick apples、make a snowman 等季节活动（Part B）。",
+    "mastery_criteria": [
+      "能选出季节活动的意思",
+      "能把活动与季节对应"
+    ],
+    "diagnostic_question": {
+      "question": "「堆雪人」用哪一组？",
+      "answer": "make a snowman"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.VO.01",
+        "confidence": "inferred",
+        "note": "依据 dzkbw peps5x（现行五下，新版未上线）单元目录补点，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p261",
+    "name": "Why 与 because 说理由",
+    "domain": "语法",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第2单元 My favourite season",
+    "type": "procedural",
+    "description": "用 Why do you like …? / Because … 说明喜欢某季节的原因。",
+    "mastery_criteria": [
+      "能选出正确的 Why / Because 问答",
+      "能读懂简单理由"
+    ],
+    "diagnostic_question": {
+      "question": "想问「你为什么喜欢夏天？」，应选哪一句？",
+      "answer": "Why do you like summer?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.GR.02",
+        "confidence": "inferred",
+        "note": "依据 dzkbw peps5x（现行五下，新版未上线）单元目录补点，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p262",
+    "name": "读懂季节与理由短文",
+    "domain": "读写",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第2单元 My favourite season",
+    "type": "application",
+    "description": "读季节短文，找出最喜欢的季节、活动和原因。",
+    "mastery_criteria": [
+      "能根据短文选出季节信息",
+      "能选出和短文一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：I like summer best because I can swim. 最喜欢哪个季节？",
+      "answer": "夏天"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.RW.01",
+        "confidence": "inferred",
+        "note": "依据 dzkbw peps5x（现行五下，新版未上线）单元目录补点，待核。"
       }
     ]
   },
@@ -27465,6 +27924,60 @@
     ]
   },
   {
+    "id": "cne_p263",
+    "name": "更多月份",
+    "domain": "词汇",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第3单元 My school calendar",
+    "type": "conceptual",
+    "description": "认读 January、February、April、June、July、August、September、November 等更多月份。",
+    "mastery_criteria": [
+      "能选出月份单词的意思",
+      "能按顺序判断月份"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「一月」？",
+      "answer": "January"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.VO.01",
+        "confidence": "inferred",
+        "note": "依据 dzkbw peps5x（现行五下，新版未上线）单元目录补点，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p264",
+    "name": "谈论校历活动月份",
+    "domain": "日常表达",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第3单元 My school calendar",
+    "type": "application",
+    "description": "用 When is …? / It's in … 谈论校历上的活动在几月。",
+    "mastery_criteria": [
+      "能选出正确的月份问答",
+      "能读懂校历活动句"
+    ],
+    "diagnostic_question": {
+      "question": "想问「运动会在几月？」，应选哪一句？",
+      "answer": "When is the sports meet?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.FU.02",
+        "confidence": "inferred",
+        "note": "依据 dzkbw peps5x（现行五下，新版未上线）单元目录补点，待核。"
+      }
+    ]
+  },
+  {
     "id": "cne_p144",
     "name": "序数词",
     "domain": "语法",
@@ -27541,6 +28054,87 @@
         "id": "ces-2022:2.RW.01",
         "confidence": "inferred",
         "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p265",
+    "name": "更多序数词",
+    "domain": "语法",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第4单元 When is the art show",
+    "type": "procedural",
+    "description": "认读 fifth、twelfth、 twentieth、twenty-first、thirtieth 等更多序数词。",
+    "mastery_criteria": [
+      "能选出序数词读法",
+      "能区分基数词与序数词"
+    ],
+    "diagnostic_question": {
+      "question": "12th 怎么读？",
+      "answer": "twelfth"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.GR.04",
+        "confidence": "inferred",
+        "note": "依据 dzkbw peps5x（现行五下，新版未上线）单元目录补点，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p266",
+    "name": "When is your birthday",
+    "domain": "日常表达",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第4单元 When is the art show",
+    "type": "application",
+    "description": "用 When is your birthday? / My birthday is on … 询问和回答生日。",
+    "mastery_criteria": [
+      "能选出正确的生日问答",
+      "能用 on + 月 + 序数词说日期"
+    ],
+    "diagnostic_question": {
+      "question": "想问「你的生日是哪一天？」，应选哪一句？",
+      "answer": "When is your birthday?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.FU.02",
+        "confidence": "inferred",
+        "note": "依据 dzkbw peps5x（现行五下，新版未上线）单元目录补点，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p267",
+    "name": "读懂活动日程表",
+    "domain": "读写",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第4单元 When is the art show",
+    "type": "application",
+    "description": "读活动通知或日程，找出几月几日有什么活动。",
+    "mastery_criteria": [
+      "能根据通知选出日期",
+      "能选出和通知一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：The art show is on April 1st. 艺术节是哪一天？",
+      "answer": "4 月 1 日"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.RW.01",
+        "confidence": "inferred",
+        "note": "依据 dzkbw peps5x（现行五下，新版未上线）单元目录补点，待核。"
       }
     ]
   },
@@ -27647,6 +28241,222 @@
         "id": "ces-2022:2.RW.01",
         "confidence": "inferred",
         "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p270",
+    "name": "安静做事用词",
+    "domain": "词汇",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第6单元 Work quietly",
+    "type": "conceptual",
+    "description": "认读 quietly、loudly、keep、clean、turn、right 等与安静做事、公共秩序有关的词。",
+    "mastery_criteria": [
+      "能选出规则相关词的意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "quietly 的意思是？",
+      "answer": "安静地"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.VO.01",
+        "confidence": "inferred",
+        "note": "依据 dzkbw peps5x（现行五下，新版未上线）单元目录补点，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p271",
+    "name": "Keep 与 No 类规则",
+    "domain": "语法",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第6单元 Work quietly",
+    "type": "procedural",
+    "description": "用 Keep … / No + doing / Talk quietly 等表达公共场所规则。",
+    "mastery_criteria": [
+      "能选出正确的规则句式",
+      "能区分 Keep 与 No"
+    ],
+    "diagnostic_question": {
+      "question": "想说「禁止饮食」，应选哪一句？",
+      "answer": "No eating or drinking."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.GR.07",
+        "confidence": "inferred",
+        "note": "依据 dzkbw peps5x（现行五下，新版未上线）单元目录补点，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p272",
+    "name": "说图书馆与教室规则",
+    "domain": "日常表达",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第6单元 Work quietly",
+    "type": "application",
+    "description": "用祈使句说出图书馆、教室里应安静做事时的规则。",
+    "mastery_criteria": [
+      "能选出合适的规则句子",
+      "能判断场合该用哪条规则"
+    ],
+    "diagnostic_question": {
+      "question": "在图书馆应选哪一句？",
+      "answer": "Talk quietly."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.FU.02",
+        "confidence": "inferred",
+        "note": "依据 dzkbw peps5x（现行五下，新版未上线）单元目录补点，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p273",
+    "name": "正在做与遵守规则",
+    "domain": "日常表达",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第6单元 Work quietly",
+    "type": "application",
+    "description": "把现在进行时与规则结合：描述别人正在做什么，并判断是否守规。",
+    "mastery_criteria": [
+      "能选出进行时描述",
+      "能判断行为是否符合规则"
+    ],
+    "diagnostic_question": {
+      "question": "想说「他们正在安静地看书」，应选哪一句？",
+      "answer": "They are reading quietly."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.FU.02",
+        "confidence": "inferred",
+        "note": "依据 dzkbw peps5x（现行五下，新版未上线）单元目录补点，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p274",
+    "name": "排队与轮流",
+    "domain": "日常表达",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第6单元 Work quietly",
+    "type": "application",
+    "description": "用 take turns、wait in line、Keep to the right 等表达排队与轮流。",
+    "mastery_criteria": [
+      "能选出排队轮流相关句子",
+      "能读懂简短秩序提示"
+    ],
+    "diagnostic_question": {
+      "question": "想说「请排队」，应选哪一句？",
+      "answer": "Please wait in line."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.FU.02",
+        "confidence": "inferred",
+        "note": "依据 dzkbw peps5x（现行五下，新版未上线）单元目录补点，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p275",
+    "name": "读懂公共场所规则",
+    "domain": "读写",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第6单元 Work quietly",
+    "type": "application",
+    "description": "读图书馆、教室或公园规则短文，找出可以做和不可以做的事。",
+    "mastery_criteria": [
+      "能根据短文选出规则",
+      "能选出和短文一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：Talk quietly. Do not eat. 不可以做什么？",
+      "answer": "吃东西"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.RW.01",
+        "confidence": "inferred",
+        "note": "依据 dzkbw peps5x（现行五下，新版未上线）单元目录补点，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p268",
+    "name": "现在分词变化",
+    "domain": "语法",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第5单元 Whose dog is it",
+    "type": "procedural",
+    "description": "掌握 run→running、swim→swimming、write→writing、take→taking 等常见 -ing 变化。",
+    "mastery_criteria": [
+      "能选出正确的 -ing 形式",
+      "能判断双写或去 e"
+    ],
+    "diagnostic_question": {
+      "question": "run 的现在分词是？",
+      "answer": "running"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.GR.06",
+        "confidence": "inferred",
+        "note": "依据 dzkbw peps5x（现行五下，新版未上线）单元目录补点，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p269",
+    "name": "看图说谁的与正在做什么",
+    "domain": "日常表达",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下册 第5单元 Whose dog is it",
+    "type": "application",
+    "description": "综合用 Whose … is it? 与 What is … doing? 描述图中人物和物品。",
+    "mastery_criteria": [
+      "能选出正确的综合问答",
+      "能读懂简短看图描述"
+    ],
+    "diagnostic_question": {
+      "question": "想问「它正在做什么？」，应选哪一句？",
+      "answer": "What is it doing?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.FU.02",
+        "confidence": "inferred",
+        "note": "依据 dzkbw peps5x（现行五下，新版未上线）单元目录补点，待核。"
       }
     ]
   },
