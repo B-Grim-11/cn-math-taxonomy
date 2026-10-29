@@ -23722,5 +23722,383 @@
     "prerequisiteId": "cnm_p092",
     "strength": "soft",
     "reason": "「作息时间表中的秘密」对学习「年历设计师」有帮助，但不会前者也可以开始学后者。"
+  },
+  {
+    "topicId": "cne_p209",
+    "prerequisiteId": "cne_p080",
+    "strength": "soft",
+    "reason": "先认识家人职业，再学家务活动词。"
+  },
+  {
+    "topicId": "cne_p210",
+    "prerequisiteId": "cne_p209",
+    "strength": "hard",
+    "reason": "先认家务词，再说帮忙句子。"
+  },
+  {
+    "topicId": "cne_p210",
+    "prerequisiteId": "cne_p082",
+    "strength": "soft",
+    "reason": "先会介绍家人，再谈帮忙。"
+  },
+  {
+    "topicId": "cne_p211",
+    "prerequisiteId": "cne_p210",
+    "strength": "hard",
+    "reason": "读懂帮忙介绍前先会帮忙句。"
+  },
+  {
+    "topicId": "cne_p212",
+    "prerequisiteId": "cne_p067",
+    "strength": "soft",
+    "reason": "先会描述朋友，再学品质词。"
+  },
+  {
+    "topicId": "cne_p213",
+    "prerequisiteId": "cne_p212",
+    "strength": "hard",
+    "reason": "先认品质词，再用来介绍朋友。"
+  },
+  {
+    "topicId": "cne_p213",
+    "prerequisiteId": "cne_p069",
+    "strength": "soft",
+    "reason": "先会介绍朋友。"
+  },
+  {
+    "topicId": "cne_p214",
+    "prerequisiteId": "cne_p072",
+    "strength": "soft",
+    "reason": "先认识家里的房间，再学社区场所。"
+  },
+  {
+    "topicId": "cne_p215",
+    "prerequisiteId": "cne_p214",
+    "strength": "hard",
+    "reason": "先认社区场所，再说人们做什么。"
+  },
+  {
+    "topicId": "cne_p216",
+    "prerequisiteId": "cne_p210",
+    "strength": "soft",
+    "reason": "先会帮忙做家务，再谈帮忙社区。"
+  },
+  {
+    "topicId": "cne_p216",
+    "prerequisiteId": "cne_p084",
+    "strength": "soft",
+    "reason": "先认识学校/社区场所。"
+  },
+  {
+    "topicId": "cne_p217",
+    "prerequisiteId": "cne_p216",
+    "strength": "hard",
+    "reason": "读懂帮手介绍前先会说帮忙。"
+  },
+  {
+    "topicId": "cne_p218",
+    "prerequisiteId": "cne_p092",
+    "strength": "hard",
+    "reason": "先会天气词，再说不同天气做什么。"
+  },
+  {
+    "topicId": "cne_p218",
+    "prerequisiteId": "cne_p094",
+    "strength": "soft",
+    "reason": "先会谈天气建议。"
+  },
+  {
+    "topicId": "cne_p219",
+    "prerequisiteId": "cne_p218",
+    "strength": "hard",
+    "reason": "读懂提醒前先会说不同天气做什么。"
+  },
+  {
+    "topicId": "cne_p220",
+    "prerequisiteId": "cne_p100",
+    "strength": "soft",
+    "reason": "先认衣服，再学季节活动。"
+  },
+  {
+    "topicId": "cne_p221",
+    "prerequisiteId": "cne_p220",
+    "strength": "hard",
+    "reason": "读懂旅行卡片前先会季节活动词。"
+  },
+  {
+    "topicId": "cne_p221",
+    "prerequisiteId": "cne_p102",
+    "strength": "soft",
+    "reason": "先会谈论穿着。"
+  },
+  {
+    "topicId": "cne_p222",
+    "prerequisiteId": "cne_p211",
+    "strength": "soft",
+    "reason": "先读懂家庭帮忙。"
+  },
+  {
+    "topicId": "cne_p222",
+    "prerequisiteId": "cne_p217",
+    "strength": "soft",
+    "reason": "先读懂社区/学校帮手。"
+  },
+  {
+    "topicId": "cne_p229",
+    "prerequisiteId": "cne_p199",
+    "strength": "soft",
+    "reason": "与 have to / can't 家规同单元，先接触规则词。"
+  },
+  {
+    "topicId": "cne_p230",
+    "prerequisiteId": "cne_p199",
+    "strength": "hard",
+    "reason": "先懂 have to 与 can't，再练说家规。"
+  },
+  {
+    "topicId": "cne_p230",
+    "prerequisiteId": "cne_p229",
+    "strength": "hard",
+    "reason": "先认家规用词。"
+  },
+  {
+    "topicId": "cne_p231",
+    "prerequisiteId": "cne_p230",
+    "strength": "hard",
+    "reason": "读懂家规前先会说 have to。"
+  },
+  {
+    "topicId": "cne_p232",
+    "prerequisiteId": "cne_p096",
+    "strength": "soft",
+    "reason": "先认农场词，再学农场活动。"
+  },
+  {
+    "topicId": "cne_p233",
+    "prerequisiteId": "cne_p232",
+    "strength": "hard",
+    "reason": "先认农场活动词，再说句子。"
+  },
+  {
+    "topicId": "cne_p234",
+    "prerequisiteId": "cne_p233",
+    "strength": "hard",
+    "reason": "读懂农场短文前先会说活动。"
+  },
+  {
+    "topicId": "cne_p234",
+    "prerequisiteId": "cne_p200",
+    "strength": "soft",
+    "reason": "与从农场到餐桌内容衔接。"
+  },
+  {
+    "topicId": "cne_p238",
+    "prerequisiteId": "cne_p163",
+    "strength": "soft",
+    "reason": "先接触周末计划，再学聚会词。"
+  },
+  {
+    "topicId": "cne_p235",
+    "prerequisiteId": "cne_p176",
+    "strength": "soft",
+    "reason": "与 should 提建议同单元。"
+  },
+  {
+    "topicId": "cne_p236",
+    "prerequisiteId": "cne_p176",
+    "strength": "hard",
+    "reason": "先会 should，再练健康建议。"
+  },
+  {
+    "topicId": "cne_p236",
+    "prerequisiteId": "cne_p235",
+    "strength": "hard",
+    "reason": "先认健康词汇。"
+  },
+  {
+    "topicId": "cne_p237",
+    "prerequisiteId": "cne_p236",
+    "strength": "hard",
+    "reason": "读懂短文前先会健康建议。"
+  },
+  {
+    "topicId": "cne_p237",
+    "prerequisiteId": "cne_p178",
+    "strength": "soft",
+    "reason": "先会读感受和建议。"
+  },
+  {
+    "topicId": "cne_p239",
+    "prerequisiteId": "cne_p201",
+    "strength": "hard",
+    "reason": "先认金钱词汇。"
+  },
+  {
+    "topicId": "cne_p239",
+    "prerequisiteId": "cne_p202",
+    "strength": "soft",
+    "reason": "先会说价格数量。"
+  },
+  {
+    "topicId": "cne_p240",
+    "prerequisiteId": "cne_p205",
+    "strength": "hard",
+    "reason": "先会 will 说未来太空生活。"
+  },
+  {
+    "topicId": "cne_p240",
+    "prerequisiteId": "cne_p204",
+    "strength": "soft",
+    "reason": "先认太空词汇。"
+  },
+  {
+    "topicId": "cne_p223",
+    "prerequisiteId": "cne_p189",
+    "strength": "soft",
+    "reason": "先接触不规则过去式，再记假期短语。"
+  },
+  {
+    "topicId": "cne_p223",
+    "prerequisiteId": "cne_p187",
+    "strength": "soft",
+    "reason": "先会谈上周末。"
+  },
+  {
+    "topicId": "cne_p224",
+    "prerequisiteId": "cne_p186",
+    "strength": "hard",
+    "reason": "先会 Did 提问。"
+  },
+  {
+    "topicId": "cne_p224",
+    "prerequisiteId": "cne_p223",
+    "strength": "soft",
+    "reason": "先接触假期活动词。"
+  },
+  {
+    "topicId": "cne_p225",
+    "prerequisiteId": "cne_p224",
+    "strength": "hard",
+    "reason": "先会问去向，再问活动。"
+  },
+  {
+    "topicId": "cne_p225",
+    "prerequisiteId": "cne_p223",
+    "strength": "hard",
+    "reason": "回答要用假期活动词。"
+  },
+  {
+    "topicId": "cne_p226",
+    "prerequisiteId": "cne_p224",
+    "strength": "hard",
+    "reason": "先会问去向。"
+  },
+  {
+    "topicId": "cne_p226",
+    "prerequisiteId": "cne_p159",
+    "strength": "soft",
+    "reason": "先认识交通工具。"
+  },
+  {
+    "topicId": "cne_p227",
+    "prerequisiteId": "cne_p225",
+    "strength": "hard",
+    "reason": "先会问做什么。"
+  },
+  {
+    "topicId": "cne_p227",
+    "prerequisiteId": "cne_p226",
+    "strength": "hard",
+    "reason": "先会问怎么去、和谁去。"
+  },
+  {
+    "topicId": "cne_p228",
+    "prerequisiteId": "cne_p227",
+    "strength": "hard",
+    "reason": "读懂旅行短文前先会谈论旅行。"
+  },
+  {
+    "topicId": "cne_p228",
+    "prerequisiteId": "cne_p188",
+    "strength": "soft",
+    "reason": "先会读上周末日记。"
+  },
+  {
+    "topicId": "cne_p241",
+    "prerequisiteId": "cne_p185",
+    "strength": "soft",
+    "reason": "先接触规则动词过去式。"
+  },
+  {
+    "topicId": "cne_p241",
+    "prerequisiteId": "cne_p189",
+    "strength": "soft",
+    "reason": "先接触不规则过去式。"
+  },
+  {
+    "topicId": "cne_p242",
+    "prerequisiteId": "cne_p186",
+    "strength": "hard",
+    "reason": "先会 Did 提问。"
+  },
+  {
+    "topicId": "cne_p242",
+    "prerequisiteId": "cne_p241",
+    "strength": "hard",
+    "reason": "问句里要用周末活动词。"
+  },
+  {
+    "topicId": "cne_p243",
+    "prerequisiteId": "cne_p242",
+    "strength": "soft",
+    "reason": "先会问是否做某事，再评价周末。"
+  },
+  {
+    "topicId": "cne_p243",
+    "prerequisiteId": "cne_p187",
+    "strength": "hard",
+    "reason": "与谈论上周末衔接。"
+  },
+  {
+    "topicId": "cne_p244",
+    "prerequisiteId": "cne_p241",
+    "strength": "hard",
+    "reason": "先认周末活动词。"
+  },
+  {
+    "topicId": "cne_p244",
+    "prerequisiteId": "cne_p243",
+    "strength": "hard",
+    "reason": "先会评价周末。"
+  },
+  {
+    "topicId": "cne_p244",
+    "prerequisiteId": "cne_p187",
+    "strength": "hard",
+    "reason": "与谈论上周末综合。"
+  },
+  {
+    "topicId": "cne_p245",
+    "prerequisiteId": "cne_p183",
+    "strength": "soft",
+    "reason": "先会询问身高比较。"
+  },
+  {
+    "topicId": "cne_p245",
+    "prerequisiteId": "cne_p244",
+    "strength": "soft",
+    "reason": "先会说周末安排。"
+  },
+  {
+    "topicId": "cne_p245",
+    "prerequisiteId": "cne_p227",
+    "strength": "soft",
+    "reason": "先会谈论假期旅行。"
+  },
+  {
+    "topicId": "cne_p188",
+    "prerequisiteId": "cne_p241",
+    "strength": "soft",
+    "reason": "读日记前先认周末活动词。"
   }
 ]

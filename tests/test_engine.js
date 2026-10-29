@@ -674,7 +674,7 @@ test('英语：小学 197、初中 180–260、高中 220–320，不与数学�
   const primary = enTopics.filter((t) => String(t.id).startsWith('cne_p'));
   const junior = enTopics.filter((t) => String(t.id).startsWith('cne_j'));
   const seniorEn = enTopics.filter((t) => String(t.id).startsWith('cne_h'));
-  assert.strictEqual(primary.length, 208);
+  assert.strictEqual(primary.length, 245);
   assert.ok(junior.length >= 180 && junior.length <= 260, '初中英语知识点 ' + junior.length);
   assert.ok(seniorEn.length >= 220 && seniorEn.length <= 320, '高中英语知识点 ' + seniorEn.length);
   assert.strictEqual(enTopics.length, primary.length + junior.length + seniorEn.length);

@@ -24649,6 +24649,87 @@
     ]
   },
   {
+    "id": "cne_p209",
+    "name": "家务活动",
+    "domain": "词汇",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第1单元 Helping at home",
+    "type": "conceptual",
+    "description": "认读 cook、clean、wash、sweep 等家务活动词（Part B How can we help our family?）。",
+    "mastery_criteria": [
+      "能选出家务活动词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「打扫」？",
+      "answer": "clean"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.01",
+        "confidence": "inferred",
+        "note": "依据 dzkbw pep4s_2025（2025 秋）Part A/B/C/Reading 补点，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p210",
+    "name": "帮忙做家务",
+    "domain": "日常表达",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第1单元 Helping at home",
+    "type": "application",
+    "description": "用 I can help … / Let me … 说自己能帮家里做什么（Part B）。",
+    "mastery_criteria": [
+      "能选出正确的帮忙句子",
+      "能读懂帮忙做家务的对话"
+    ],
+    "diagnostic_question": {
+      "question": "想说「我可以帮忙做饭」，应选哪一句？",
+      "answer": "I can help cook."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.FU.02",
+        "confidence": "inferred",
+        "note": "依据 dzkbw pep4s_2025（2025 秋）Part A/B/C/Reading 补点，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p211",
+    "name": "读懂快乐家庭介绍",
+    "domain": "读写",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第1单元 Helping at home",
+    "type": "application",
+    "description": "读家庭海报或短介绍，找出家人和他们做的家务（Part C / Reading time）。",
+    "mastery_criteria": [
+      "能根据短文选出家人做的事",
+      "能选出和短文一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：My dad can cook. My mum can clean. 谁会做饭？",
+      "answer": "爸爸"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.RW.02",
+        "confidence": "inferred",
+        "note": "依据 dzkbw pep4s_2025（2025 秋）Part A/B/C/Reading 补点，待核。"
+      }
+    ]
+  },
+  {
     "id": "cne_p067",
     "name": "描述朋友",
     "domain": "词汇",
@@ -24752,6 +24833,60 @@
         "id": "ces-2022:1.RW.02",
         "confidence": "inferred",
         "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p212",
+    "name": "朋友的品质",
+    "domain": "词汇",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第2单元 My friends",
+    "type": "conceptual",
+    "description": "认读 kind、helpful、funny、honest 等选择朋友时的品质词（Part B）。",
+    "mastery_criteria": [
+      "能选出品质词的意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「友好善良的」？",
+      "answer": "kind"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.01",
+        "confidence": "inferred",
+        "note": "依据 dzkbw pep4s_2025（2025 秋）Part A/B/C/Reading 补点，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p213",
+    "name": "介绍并选择朋友",
+    "domain": "日常表达",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第2单元 My friends",
+    "type": "application",
+    "description": "用 He/She is … 说明为什么选某人为朋友，并读懂朋友小书要点（Part B/C）。",
+    "mastery_criteria": [
+      "能选出介绍朋友品质的句子",
+      "能读懂选择朋友的理由"
+    ],
+    "diagnostic_question": {
+      "question": "想说「她乐于助人」，应选哪一句？",
+      "answer": "She is helpful."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.FU.02",
+        "confidence": "inferred",
+        "note": "依据 dzkbw pep4s_2025（2025 秋）Part A/B/C/Reading 补点，待核。"
       }
     ]
   },
@@ -24863,6 +24998,60 @@
     ]
   },
   {
+    "id": "cne_p214",
+    "name": "社区场所",
+    "domain": "词汇",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第3单元 Places we live in",
+    "type": "conceptual",
+    "description": "认读 park、shop、hospital、library 等社区场所词（Part A What can we see in a community?）。",
+    "mastery_criteria": [
+      "能选出场所词的中文意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "哪个单词的意思是「医院」？",
+      "answer": "hospital"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.01",
+        "confidence": "inferred",
+        "note": "依据 dzkbw pep4s_2025（2025 秋）Part A/B/C/Reading 补点，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p215",
+    "name": "社区里人们做什么",
+    "domain": "日常表达",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第3单元 Places we live in",
+    "type": "application",
+    "description": "说社区里人们在公园、商店、医院等做什么（Part B）。",
+    "mastery_criteria": [
+      "能选出与场所匹配的活动句",
+      "能读懂社区短句"
+    ],
+    "diagnostic_question": {
+      "question": "在图书馆人们常常做什么？",
+      "answer": "read books"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.FU.03",
+        "confidence": "inferred",
+        "note": "依据 dzkbw pep4s_2025（2025 秋）Part A/B/C/Reading 补点，待核。"
+      }
+    ]
+  },
+  {
     "id": "cne_p084",
     "name": "学校场所",
     "domain": "词汇",
@@ -24966,6 +25155,60 @@
         "id": "ces-2022:1.RW.02",
         "confidence": "inferred",
         "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p216",
+    "name": "年轻人如何帮助社区",
+    "domain": "日常表达",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第4单元 Helping in the community",
+    "type": "application",
+    "description": "用 We can help … 说年轻人能为社区做什么（Part B）。",
+    "mastery_criteria": [
+      "能选出帮助社区的句子",
+      "能读懂帮助社区的短句"
+    ],
+    "diagnostic_question": {
+      "question": "想说「我们可以帮助打扫公园」，应选哪一句？",
+      "answer": "We can help clean the park."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.FU.02",
+        "confidence": "inferred",
+        "note": "依据 dzkbw pep4s_2025（2025 秋）Part A/B/C/Reading 补点，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p217",
+    "name": "读懂学校帮手介绍",
+    "domain": "读写",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第4单元 Helping in the community",
+    "type": "application",
+    "description": "读学校帮手海报或短文，找出谁在帮忙、帮什么（Part C Project）。",
+    "mastery_criteria": [
+      "能根据短文选出帮手和职责",
+      "能选出和短文一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：Miss White is a school helper. She helps in the library. 怀特老师在哪里帮忙？",
+      "answer": "图书馆"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.RW.02",
+        "confidence": "inferred",
+        "note": "依据 dzkbw pep4s_2025（2025 秋）Part A/B/C/Reading 补点，待核。"
       }
     ]
   },
@@ -25077,6 +25320,60 @@
     ]
   },
   {
+    "id": "cne_p218",
+    "name": "不同天气做什么",
+    "domain": "日常表达",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第5单元 The weather and us",
+    "type": "application",
+    "description": "根据天气说出适宜活动，如 rainy → stay inside（Part B）。",
+    "mastery_criteria": [
+      "能选出与天气匹配的活动",
+      "能读懂天气建议句"
+    ],
+    "diagnostic_question": {
+      "question": "下雨天适合做什么？",
+      "answer": "stay inside"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.FU.03",
+        "confidence": "inferred",
+        "note": "依据 dzkbw pep4s_2025（2025 秋）Part A/B/C/Reading 补点，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p219",
+    "name": "恶劣天气提醒",
+    "domain": "读写",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第5单元 The weather and us",
+    "type": "application",
+    "description": "读坏天气提醒卡，找出要注意的事（Part C Project）。",
+    "mastery_criteria": [
+      "能根据提醒卡选出正确做法",
+      "能选出和文字一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：Rainy day! Take an umbrella. 下雨天要带什么？",
+      "answer": "雨伞"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.RW.02",
+        "confidence": "inferred",
+        "note": "依据 dzkbw pep4s_2025（2025 秋）Part A/B/C/Reading 补点，待核。"
+      }
+    ]
+  },
+  {
     "id": "cne_p100",
     "name": "衣服",
     "domain": "词汇",
@@ -25180,6 +25477,87 @@
         "id": "ces-2022:1.RW.02",
         "confidence": "inferred",
         "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p222",
+    "name": "复习：一起帮忙",
+    "domain": "读写",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 复习 Let's help!",
+    "type": "application",
+    "description": "综合复习帮忙家人、朋友和社区的短文，找出谁在帮忙、帮什么（Revision Let's help!）。",
+    "mastery_criteria": [
+      "能综合读懂帮忙主题短文",
+      "能选出和短文一致的信息"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：I help at home. I clean. I help in the park too. 我在哪里帮忙？",
+      "answer": "家里和公园"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.RW.02",
+        "confidence": "inferred",
+        "note": "依据 dzkbw pep4s_2025（2025 秋）Part A/B/C/Reading 补点，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p220",
+    "name": "季节里的活动",
+    "domain": "词汇",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第6单元 Changing for the seasons",
+    "type": "conceptual",
+    "description": "认读 swim、fly a kite、make a snowman、pick apples 等季节活动（Part B）。",
+    "mastery_criteria": [
+      "能选出季节活动词的意思",
+      "能把活动和季节粗略对应"
+    ],
+    "diagnostic_question": {
+      "question": "「堆雪人」用哪一组词？",
+      "answer": "make a snowman"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.01",
+        "confidence": "inferred",
+        "note": "依据 dzkbw pep4s_2025（2025 秋）Part A/B/C/Reading 补点，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p221",
+    "name": "读懂旅行卡片",
+    "domain": "读写",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上册 第6单元 Changing for the seasons",
+    "type": "application",
+    "description": "读季节旅行卡片，找出季节、穿着和活动（Part C Project）。",
+    "mastery_criteria": [
+      "能根据卡片选出季节和活动",
+      "能选出和卡片一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：Season: summer. Wear: T-shirt. Do: swim. 卡片里的季节是？",
+      "answer": "夏天"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.RW.02",
+        "confidence": "inferred",
+        "note": "依据 dzkbw pep4s_2025（2025 秋）Part A/B/C/Reading 补点，待核。"
       }
     ]
   },
@@ -25314,6 +25692,87 @@
         "id": "ces-2022:2.GR.07",
         "confidence": "inferred",
         "note": "新版人教教材该单元的语言点，按最接近的课标条目对应，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p229",
+    "name": "家规用词",
+    "domain": "词汇",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第2单元 Family rules",
+    "type": "conceptual",
+    "description": "认读 make the bed、do housework、keep quiet、go to bed early 等家规相关表达。",
+    "mastery_criteria": [
+      "能选出家规相关词的意思",
+      "能根据中文选出英文表达"
+    ],
+    "diagnostic_question": {
+      "question": "「整理床铺」用哪一组词？",
+      "answer": "make the bed"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.01",
+        "confidence": "inferred",
+        "note": "依据 dzkbw pep4x_2026（2026 春）单元目录补点，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p230",
+    "name": "用 have to 说家规",
+    "domain": "日常表达",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第2单元 Family rules",
+    "type": "application",
+    "description": "用 have to / don't have to / can't 说出家里的规则。",
+    "mastery_criteria": [
+      "能选出正确的家规句子",
+      "能区分必须做和不能做"
+    ],
+    "diagnostic_question": {
+      "question": "想说「我必须早睡」，应选哪一句？",
+      "answer": "I have to go to bed early."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.FU.02",
+        "confidence": "inferred",
+        "note": "依据 dzkbw pep4x_2026（2026 春）单元目录补点，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p231",
+    "name": "读懂家规短文",
+    "domain": "读写",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第2单元 Family rules",
+    "type": "application",
+    "description": "读家规列表或短文，找出必须做和不能做的事。",
+    "mastery_criteria": [
+      "能根据短文选出家规",
+      "能选出和短文一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：I have to make the bed. I can't play football inside. 我必须做什么？",
+      "answer": "整理床铺"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.RW.02",
+        "confidence": "inferred",
+        "note": "依据 dzkbw pep4x_2026（2026 春）单元目录补点，待核。"
       }
     ]
   },
@@ -25644,9 +26103,9 @@
     "domain": "词汇",
     "grade": 4,
     "semester": "下",
-    "chapter": "四年级下册 第6单元 From farm to table",
+    "chapter": "四年级下册 第6单元 On the farm",
     "type": "conceptual",
-    "description": "认读 rice、wheat、milk、egg、bread 等食物及来源。",
+    "description": "认读 rice、wheat、milk、egg、bread 等食物及来源（挂新版第6单元 On the farm）。",
     "mastery_criteria": [
       "能在选择题中选出正确的一项",
       "能在新版教材单元语境中运用"
@@ -25662,6 +26121,87 @@
         "id": "ces-2022:1.VO.01",
         "confidence": "inferred",
         "note": "新版人教教材该单元的语言点，按最接近的课标条目对应，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p232",
+    "name": "农场活动",
+    "domain": "词汇",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第6单元 On the farm",
+    "type": "conceptual",
+    "description": "认读 milk cows、pick vegetables、feed chickens、plant seeds 等农场活动（On the farm）。",
+    "mastery_criteria": [
+      "能选出农场活动的意思",
+      "能根据中文选出英文表达"
+    ],
+    "diagnostic_question": {
+      "question": "「挤牛奶」用哪一组词？",
+      "answer": "milk cows"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.01",
+        "confidence": "inferred",
+        "note": "依据 dzkbw pep4x_2026（2026 春）单元目录补点，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p233",
+    "name": "在农场做什么",
+    "domain": "日常表达",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第6单元 On the farm",
+    "type": "application",
+    "description": "用 I can … / We … on the farm 说在农场做的事。",
+    "mastery_criteria": [
+      "能选出农场活动句子",
+      "能读懂农场对话"
+    ],
+    "diagnostic_question": {
+      "question": "想说「我可以在农场喂鸡」，应选哪一句？",
+      "answer": "I can feed chickens on the farm."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.FU.02",
+        "confidence": "inferred",
+        "note": "依据 dzkbw pep4x_2026（2026 春）单元目录补点，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p234",
+    "name": "读懂农场劳动短文",
+    "domain": "读写",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下册 第6单元 On the farm",
+    "type": "application",
+    "description": "读农场短文，找出人们在农场做的劳动。",
+    "mastery_criteria": [
+      "能根据短文选出农场活动",
+      "能选出和短文一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：On the farm we milk cows and feed chickens. 我们做什么？",
+      "answer": "挤牛奶和喂鸡"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.RW.02",
+        "confidence": "inferred",
+        "note": "依据 dzkbw pep4x_2026（2026 春）单元目录补点，待核。"
       }
     ]
   },
@@ -27457,6 +27997,33 @@
     ]
   },
   {
+    "id": "cne_p238",
+    "name": "聚会与邀请词汇",
+    "domain": "词汇",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第2单元 Getting together",
+    "type": "conceptual",
+    "description": "认读 party、invite、together、join、celebrate 等聚会相关词（Getting together）。",
+    "mastery_criteria": [
+      "能选出聚会词的意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "invite 的意思是？",
+      "answer": "邀请"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.VO.01",
+        "confidence": "inferred",
+        "note": "依据 dzkbw pep6s_2026（2026 秋）单元目录补点，待核。"
+      }
+    ]
+  },
+  {
     "id": "cne_p176",
     "name": "should 提建议",
     "domain": "语法",
@@ -27506,6 +28073,87 @@
         "id": "ces-2022:2.RW.01",
         "confidence": "inferred",
         "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p235",
+    "name": "健康生活词汇",
+    "domain": "词汇",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第3单元 Healthy life",
+    "type": "conceptual",
+    "description": "认读 healthy、exercise、sleep、diet、habit 等健康生活词（Healthy life）。",
+    "mastery_criteria": [
+      "能选出健康生活词的意思",
+      "能根据中文选出英文单词"
+    ],
+    "diagnostic_question": {
+      "question": "healthy 的意思是？",
+      "answer": "健康的"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.VO.01",
+        "confidence": "inferred",
+        "note": "依据 dzkbw pep6s_2026（2026 秋）单元目录补点，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p236",
+    "name": "健康习惯建议",
+    "domain": "日常表达",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第3单元 Healthy life",
+    "type": "application",
+    "description": "用 You should … / You shouldn't … 给出健康生活建议。",
+    "mastery_criteria": [
+      "能选出正确的健康建议句",
+      "能区分应该和不应该"
+    ],
+    "diagnostic_question": {
+      "question": "想建议多锻炼，应选哪一句？",
+      "answer": "You should exercise more."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.FU.02",
+        "confidence": "inferred",
+        "note": "依据 dzkbw pep6s_2026（2026 秋）单元目录补点，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p237",
+    "name": "读懂健康生活短文",
+    "domain": "读写",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第3单元 Healthy life",
+    "type": "application",
+    "description": "读健康生活短文，找出好习惯和建议。",
+    "mastery_criteria": [
+      "能根据短文选出健康习惯",
+      "能选出和短文一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：Tom exercises every day. He sleeps early. 汤姆有什么好习惯？",
+      "answer": "天天锻炼、早睡"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.RW.01",
+        "confidence": "inferred",
+        "note": "依据 dzkbw pep6s_2026（2026 秋）单元目录补点，待核。"
       }
     ]
   },
@@ -27591,6 +28239,33 @@
     ]
   },
   {
+    "id": "cne_p239",
+    "name": "谈论存钱计划",
+    "domain": "日常表达",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第4单元 Managing money well",
+    "type": "application",
+    "description": "用 I want to save … / I will spend … on … 谈论零花钱计划。",
+    "mastery_criteria": [
+      "能选出正确的存钱/花钱句子",
+      "能读懂简单计划句"
+    ],
+    "diagnostic_question": {
+      "question": "想说「我想存钱买书」，应选哪一句？",
+      "answer": "I want to save money for books."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.FU.02",
+        "confidence": "inferred",
+        "note": "依据 dzkbw pep6s_2026（2026 秋）单元目录补点，待核。"
+      }
+    ]
+  },
+  {
     "id": "cne_p204",
     "name": "太空词汇",
     "domain": "词汇",
@@ -27668,6 +28343,33 @@
         "id": "ces-2022:2.RW.01",
         "confidence": "inferred",
         "note": "新版人教教材该单元的语言点，按最接近的课标条目对应，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p240",
+    "name": "谈论太空探索",
+    "domain": "日常表达",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第5单元 Exploring space",
+    "type": "application",
+    "description": "用 will / be going to 谈论未来的太空旅行或探索。",
+    "mastery_criteria": [
+      "能选出谈论未来太空的句子",
+      "能读懂简单太空计划句"
+    ],
+    "diagnostic_question": {
+      "question": "想说「将来人们会去火星」，应选哪一句？",
+      "answer": "People will go to Mars."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.FU.02",
+        "confidence": "inferred",
+        "note": "依据 dzkbw pep6s_2026（2026 秋）单元目录补点，待核。"
       }
     ]
   },
@@ -27992,6 +28694,87 @@
     ]
   },
   {
+    "id": "cne_p241",
+    "name": "周末活动词汇",
+    "domain": "词汇",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第2单元 Last weekend",
+    "type": "conceptual",
+    "description": "认读 cleaned my room、washed my clothes、stayed at home、had a cold、slept、read a book 等周末活动（Unit2 Part A/B）。",
+    "mastery_criteria": [
+      "能选出周末活动短语的意思",
+      "能根据中文选出英文短语"
+    ],
+    "diagnostic_question": {
+      "question": "「打扫房间」的过去式短语是？",
+      "answer": "cleaned my room"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.VO.01",
+        "confidence": "inferred",
+        "note": "依据 dzkbw peps6x（现行六下）Unit2 Last weekend / Recycle 补点，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p242",
+    "name": "Did you 问周末活动",
+    "domain": "语法",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第2单元 Last weekend",
+    "type": "procedural",
+    "description": "用 Did you …? / Yes, I did. / No, I didn't. 询问和回答上周末是否做某事。",
+    "mastery_criteria": [
+      "能选出正确的 Did 问句",
+      "能用 did / didn't 简短回答"
+    ],
+    "diagnostic_question": {
+      "question": "想问「你上周末打扫房间了吗？」，应选哪一句？",
+      "answer": "Did you clean your room last weekend?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.GR.07",
+        "confidence": "inferred",
+        "note": "依据 dzkbw peps6x（现行六下）Unit2 Last weekend / Recycle 补点，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p243",
+    "name": "How was your weekend",
+    "domain": "日常表达",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第2单元 Last weekend",
+    "type": "application",
+    "description": "用 How was your weekend? / It was good/fine/OK. / It wasn't good. 评价上周末。",
+    "mastery_criteria": [
+      "能选出正确的评价问句和答句",
+      "能读懂简短周末评价"
+    ],
+    "diagnostic_question": {
+      "question": "想问「你周末过得怎么样？」，应选哪一句？",
+      "answer": "How was your weekend?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.FU.02",
+        "confidence": "inferred",
+        "note": "依据 dzkbw peps6x（现行六下）Unit2 Last weekend / Recycle 补点，待核。"
+      }
+    ]
+  },
+  {
     "id": "cne_p187",
     "name": "谈论上周末",
     "domain": "日常表达",
@@ -28019,6 +28802,33 @@
     ]
   },
   {
+    "id": "cne_p244",
+    "name": "用过去式说周末安排",
+    "domain": "日常表达",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第2单元 Last weekend",
+    "type": "application",
+    "description": "综合用过去式说出上周末做了什么、没做什么，并简单评价。",
+    "mastery_criteria": [
+      "能选出完整的周末经历句子",
+      "能读懂简短周末对话"
+    ],
+    "diagnostic_question": {
+      "question": "想说「我上周末洗衣服了，很忙」，应选哪一句？",
+      "answer": "I washed my clothes last weekend. It was busy."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.FU.02",
+        "confidence": "inferred",
+        "note": "依据 dzkbw peps6x（现行六下）Unit2 Last weekend / Recycle 补点，待核。"
+      }
+    ]
+  },
+  {
     "id": "cne_p188",
     "name": "读懂上周末日记",
     "domain": "读写",
@@ -28042,6 +28852,168 @@
         "id": "ces-2022:2.RW.01",
         "confidence": "inferred",
         "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p223",
+    "name": "假期活动词汇",
+    "domain": "词汇",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第3单元 Where did you go",
+    "type": "conceptual",
+    "description": "认读 rode a horse、went camping、went fishing、hurt my foot、took pictures、bought gifts 等假期活动（Unit3 Part A/B）。",
+    "mastery_criteria": [
+      "能选出假期活动短语的意思",
+      "能根据中文选出英文短语"
+    ],
+    "diagnostic_question": {
+      "question": "「骑马」的过去式短语是？",
+      "answer": "rode a horse"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.VO.01",
+        "confidence": "inferred",
+        "note": "依据 dzkbw peps6x（现行六下）Unit3 Where did you go 补点，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p224",
+    "name": "Where did you go 问去向",
+    "domain": "语法",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第3单元 Where did you go",
+    "type": "procedural",
+    "description": "用 Where did you go …? / I went to … 询问和回答过去去过的地方。",
+    "mastery_criteria": [
+      "能选出正确的过去去向问句",
+      "能用 went to 回答"
+    ],
+    "diagnostic_question": {
+      "question": "想问「你去了哪里？」，应选哪一句？",
+      "answer": "Where did you go?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.GR.07",
+        "confidence": "inferred",
+        "note": "依据 dzkbw peps6x（现行六下）Unit3 Where did you go 补点，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p225",
+    "name": "What did you do 问活动",
+    "domain": "日常表达",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第3单元 Where did you go",
+    "type": "application",
+    "description": "用 What did you do …? / I rode … / I went … 询问和回答过去做的事。",
+    "mastery_criteria": [
+      "能选出正确的过去活动问句",
+      "能用过去式短语回答"
+    ],
+    "diagnostic_question": {
+      "question": "想问「你在那里做了什么？」，应选哪一句？",
+      "answer": "What did you do there?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.FU.02",
+        "confidence": "inferred",
+        "note": "依据 dzkbw peps6x（现行六下）Unit3 Where did you go 补点，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p226",
+    "name": "怎么去的与和谁去的",
+    "domain": "日常表达",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第3单元 Where did you go",
+    "type": "application",
+    "description": "用 How did you go …? / Who did you go with? 询问出行方式和同伴。",
+    "mastery_criteria": [
+      "能选出正确的问句",
+      "能用 by plane / with my parents 等回答"
+    ],
+    "diagnostic_question": {
+      "question": "想问「你怎么去的？」，应选哪一句？",
+      "answer": "How did you go there?"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.FU.02",
+        "confidence": "inferred",
+        "note": "依据 dzkbw peps6x（现行六下）Unit3 Where did you go 补点，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p227",
+    "name": "谈论假期旅行",
+    "domain": "日常表达",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第3单元 Where did you go",
+    "type": "application",
+    "description": "综合用 Where / What / How / Who 谈论一次假期旅行经历。",
+    "mastery_criteria": [
+      "能选出完整的旅行对话答句",
+      "能读懂简短旅行对话"
+    ],
+    "diagnostic_question": {
+      "question": "对话：—Where did you go over the holiday? —____.",
+      "answer": "I went to Hangzhou."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.FU.02",
+        "confidence": "inferred",
+        "note": "依据 dzkbw peps6x（现行六下）Unit3 Where did you go 补点，待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p228",
+    "name": "读懂假期旅行短文",
+    "domain": "读写",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第3单元 Where did you go",
+    "type": "application",
+    "description": "读假期旅行短文或日记，找出地点、同伴、交通方式和活动。",
+    "mastery_criteria": [
+      "能根据短文选出旅行信息",
+      "能选出和短文一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：Last holiday I went to Sanya with my parents by plane. I went swimming. 我去了哪里？",
+      "answer": "三亚"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.RW.01",
+        "confidence": "inferred",
+        "note": "依据 dzkbw peps6x（现行六下）Unit3 Where did you go 补点，待核。"
       }
     ]
   },
@@ -28202,6 +29174,33 @@
         "id": "ces-2022:2.RW.02",
         "confidence": "inferred",
         "note": "用文字把图意或短文写进题干，考查认读和理解。册次待核。"
+      }
+    ]
+  },
+  {
+    "id": "cne_p245",
+    "name": "复习：Mike 的快乐日子",
+    "domain": "读写",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 复习 Mike's happy days",
+    "type": "application",
+    "description": "综合复习比较级、上周末和假期旅行：读 Mike's happy days 类短文，找出身高比较、周末活动和旅行经历。",
+    "mastery_criteria": [
+      "能根据短文选出比较或过去经历信息",
+      "能选出和短文一致的句子"
+    ],
+    "diagnostic_question": {
+      "question": "读一读：Mike is taller than before. Last weekend he cleaned his room. 迈克上周末做什么？",
+      "answer": "打扫房间"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.RW.01",
+        "confidence": "inferred",
+        "note": "依据 dzkbw peps6x（现行六下）Unit2 Last weekend / Recycle 补点，待核。"
       }
     ]
   },

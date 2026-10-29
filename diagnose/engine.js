@@ -529,6 +529,9 @@
     if (pm) return { volume: pm[1] + pm[2], chapterNo: pm[3], chapterName: pm[4], section: '' };
     const pi = /^([一二三四五六])年级([上下])册 (综合与实践) (.+)$/.exec(s);
     if (pi) return { volume: pi[1] + pi[2], chapterNo: pi[3], chapterName: pi[4], section: '' };
+    // 小学英语复习 / Recycle（如「四年级上册 复习 Let's help!」）
+    const prev = /^([一二三四五六])年级([上下])册 (复习) (.+)$/.exec(s);
+    if (prev) return { volume: prev[1] + prev[2], chapterNo: prev[3], chapterName: prev[4], section: '' };
     // 高中英语按册名解析，避免「第1单元 Teenage Life」被空格拆成章名和节。
     const enHs = /^(必修第([一二三])册|选择性必修第([一二三四])册) (欢迎单元|第\d+单元) (.+)$/.exec(s);
     if (enHs) {
