@@ -1832,16 +1832,16 @@
   },
   {
     "id": "cnm_p222",
-    "name": "长方体纸盒的展开图",
+    "name": "长方体纸盒的展开",
     "domain": "图形与几何",
     "grade": 3,
     "semester": "上",
     "chapter": "三年级上册 第1单元 观察物体",
     "type": "conceptual",
-    "description": "知道把长方体、正方体纸盒沿棱剪开可以展成平面图形，展开图由 6 个面组成，相对的面完全一样。",
+    "description": "知道把长方体、正方体纸盒沿棱剪开可以展成平面图形，展开由 6 个面组成，相对的面完全一样。",
     "mastery_criteria": [
-      "能说出纸盒有 6 个面",
-      "能指出展开图中相对的面"
+      "能说出长方体展开有 6 个面",
+      "知道相对的面完全一样"
     ],
     "standards": [
       {
@@ -1858,16 +1858,16 @@
   },
   {
     "id": "cnm_p223",
-    "name": "同级运算与两级运算的运算顺序",
+    "name": "同级运算与两级运算",
     "domain": "数与代数",
     "grade": 3,
     "semester": "上",
     "chapter": "三年级上册 第2单元 混合运算",
     "type": "procedural",
-    "description": "知道只有加减或只有乘除的算式从左往右算；既有乘除又有加减时先算乘除再算加减。",
+    "description": "知道只有加减或只有乘除要从左往右算；有乘除又有加减时，先算乘除再算加减。",
     "mastery_criteria": [
-      "能说出同级运算从左往右算",
-      "能说出两级运算先乘除后加减"
+      "能按从左往右算同级运算",
+      "能先乘除后加减算两级运算"
     ],
     "standards": [
       {
@@ -1883,16 +1883,16 @@
   },
   {
     "id": "cnm_p058",
-    "name": "带小括号的两步运算",
+    "name": "含有小括号的两级运算",
     "domain": "数与代数",
     "grade": 3,
     "semester": "上",
     "chapter": "三年级上册 第2单元 混合运算",
     "type": "procedural",
-    "description": "知道小括号里的运算要先算。",
+    "description": "知道小括号里的运算要先算，再按两级运算顺序算。",
     "mastery_criteria": [
       "能先算小括号里面的",
-      "能计算带小括号的两步式子"
+      "能完成含小括号的两级运算"
     ],
     "diagnostic_question": {
       "question": "小括号要怎样算？",
@@ -1908,16 +1908,16 @@
   },
   {
     "id": "cnm_p059",
-    "name": "两步加减应用",
+    "name": "用混合运算解决问题",
     "domain": "数与代数",
     "grade": 3,
     "semester": "上",
     "chapter": "三年级上册 第2单元 混合运算",
     "type": "application",
-    "description": "能用两步加减解决「先合起来再去掉」或「先去掉再合起来」的问题。",
+    "description": "能用同级或两级混合运算解决两步实际问题，并能用两种思路想。",
     "mastery_criteria": [
-      "能分清先算哪一步",
-      "能列出综合算式或分步算式"
+      "能列出两步算式",
+      "能说出先算哪一步"
     ],
     "diagnostic_question": {
       "question": "书店运来 25 本，又运来 17 本，卖出 13 本。还剩多少本？",
@@ -1933,16 +1933,16 @@
   },
   {
     "id": "cnm_p067",
-    "name": "毫米",
+    "name": "毫米的认识",
     "domain": "图形与几何",
     "grade": 3,
     "semester": "上",
     "chapter": "三年级上册 第3单元 毫米、分米和千米",
     "type": "procedural",
-    "description": "认识毫米，知道 1 厘米＝10 毫米。",
+    "description": "认识毫米，知道 1 厘米＝10 毫米，会进行厘米与毫米的简单换算。",
     "mastery_criteria": [
       "能说出 1 厘米等于 10 毫米",
-      "能把几厘米换算成毫米"
+      "能把几厘米换成毫米"
     ],
     "diagnostic_question": {
       "question": "3 厘米是多少毫米？",
@@ -1958,16 +1958,16 @@
   },
   {
     "id": "cnm_p068",
-    "name": "分米",
+    "name": "分米的认识及单位换算",
     "domain": "图形与几何",
     "grade": 3,
     "semester": "上",
     "chapter": "三年级上册 第3单元 毫米、分米和千米",
     "type": "procedural",
-    "description": "认识分米，知道 1 分米＝10 厘米。",
+    "description": "认识分米，知道 1 分米＝10 厘米，会进行分米与厘米的简单换算。",
     "mastery_criteria": [
       "能说出 1 分米等于 10 厘米",
-      "能在厘米和分米之间换算"
+      "能把几分米换成厘米"
     ],
     "diagnostic_question": {
       "question": "5 分米是多少厘米？",
@@ -1983,16 +1983,16 @@
   },
   {
     "id": "cnm_p069",
-    "name": "千米",
+    "name": "千米的认识及单位换算",
     "domain": "图形与几何",
     "grade": 3,
     "semester": "上",
     "chapter": "三年级上册 第3单元 毫米、分米和千米",
     "type": "procedural",
-    "description": "认识千米，知道 1 千米＝1000 米，适合表示较远的路程。",
+    "description": "认识千米，知道 1 千米＝1000 米，会进行千米与米的简单换算。",
     "mastery_criteria": [
       "能说出 1 千米等于 1000 米",
-      "能把几千米换算成米"
+      "能把几千米换成米"
     ],
     "diagnostic_question": {
       "question": "1 千米等于多少米？",
@@ -2008,16 +2008,16 @@
   },
   {
     "id": "cnm_p056",
-    "name": "克和千克",
+    "name": "认识质量单位",
     "domain": "数与代数",
     "grade": 3,
     "semester": "上",
     "chapter": "三年级上册 综合与实践 曹冲称象的故事",
     "type": "procedural",
-    "description": "认识质量单位克和千克，知道 1 千克＝1000 克。",
+    "description": "认识质量单位克和千克，知道 1 千克＝1000 克，能选用合适的单位。",
     "mastery_criteria": [
       "能说出 1 千克等于 1000 克",
-      "能进行千克和克的简单换算"
+      "能判断物体大约用克还是千克"
     ],
     "diagnostic_question": {
       "question": "1 千克等于多少克？",
@@ -2027,8 +2027,8 @@
     "standards": [
       {
         "id": "cms-2022:2.IP.02",
-        "confidence": "inferred",
-        "note": "课标把克、千克放在第二学段主题活动「曹冲称象」。2024 二年级下册官方目录未核到，本点暂放这里，待核。"
+        "confidence": "exact",
+        "note": "依据 dzkbw xs3s_2025（2025 秋）小节补点。"
       }
     ]
   },
@@ -2040,7 +2040,7 @@
     "semester": "上",
     "chapter": "三年级上册 综合与实践 曹冲称象的故事",
     "type": "conceptual",
-    "description": "认识质量单位吨，知道 1 吨＝1000 千克。",
+    "description": "认识吨，知道 1 吨＝1000 千克，能进行吨与千克的简单换算。",
     "mastery_criteria": [
       "能说出 1 吨等于 1000 千克",
       "能判断很重的物体用吨作单位"
@@ -2060,16 +2060,16 @@
   },
   {
     "id": "cnm_p224",
-    "name": "等量代换（曹冲称象）",
+    "name": "等量代换",
     "domain": "综合与实践",
     "grade": 3,
     "semester": "上",
     "chapter": "三年级上册 综合与实践 曹冲称象的故事",
     "type": "reasoning",
-    "description": "借助曹冲称象的故事体会「等量的等量相等」，会用一个量代替和它相等的量来解决问题。",
+    "description": "能借助曹冲称象等情境理解等量代换，用同样重的物品互相代替。",
     "mastery_criteria": [
-      "能说出曹冲称象为什么称石头就能知道象重",
-      "能用等量代换求出未知的量"
+      "能说出为什么石头能代替大象的重量",
+      "能做简单的等量代换"
     ],
     "standards": [
       {
@@ -2089,16 +2089,16 @@
   },
   {
     "id": "cnm_p074",
-    "name": "多位数乘一位数",
+    "name": "笔算乘法",
     "domain": "数与代数",
     "grade": 3,
     "semester": "上",
     "chapter": "三年级上册 第4单元 多位数乘一位数",
     "type": "procedural",
-    "description": "会计算两、三位数乘一位数，从个位乘起，满几十就向前一位进几。",
+    "description": "会用竖式计算两、三位数乘一位数（含不进位、进位、连续进位），从个位乘起。",
     "mastery_criteria": [
-      "能用竖式计算多位数乘一位数",
-      "能解决单价、数量一类的乘法问题"
+      "能从个位乘起写竖式",
+      "满几十能正确进位"
     ],
     "diagnostic_question": {
       "question": "每盒彩笔 24 元，买 2 盒。一共多少元？",
@@ -2114,16 +2114,16 @@
   },
   {
     "id": "cnm_p075",
-    "name": "因数中间或末尾有 0 的乘法",
+    "name": "因数中间或末尾有0的乘法",
     "domain": "数与代数",
     "grade": 3,
     "semester": "上",
     "chapter": "三年级上册 第4单元 多位数乘一位数",
     "type": "procedural",
-    "description": "会计算中间或末尾有 0 的乘法，0 和任何数相乘得 0。",
+    "description": "会计算因数中间或末尾有 0 的多位数乘一位数。",
     "mastery_criteria": [
-      "知道 0 乘任何数得 0",
-      "末尾有 0 时积的末尾也有 0"
+      "末尾有 0 时能先算再补 0",
+      "中间有 0 时不错位"
     ],
     "diagnostic_question": {
       "question": "每盒 30 支笔，买 4 盒。一共多少支？",
@@ -2139,7 +2139,7 @@
   },
   {
     "id": "cnm_p076",
-    "name": "数字编码",
+    "name": "认识数字编码",
     "domain": "综合与实践",
     "grade": 3,
     "semester": "上",
@@ -2147,8 +2147,8 @@
     "type": "modeling",
     "description": "知道可以用数字给事物编码，编码里的每一位可以表示不同的意思。",
     "mastery_criteria": [
-      "能说出编码是为了区分事物",
-      "能根据简单规则读出编码中的信息"
+      "能说出编码某一位表示什么",
+      "能读懂简单的数字编码"
     ],
     "diagnostic_question": {
       "question": "数字编码是为了什么？",
@@ -2165,16 +2165,16 @@
   },
   {
     "id": "cnm_p099",
-    "name": "线段、直线和射线",
+    "name": "线段、射线、直线的概念",
     "domain": "图形与几何",
     "grade": 3,
     "semester": "上",
     "chapter": "三年级上册 第5单元 线和角",
     "type": "conceptual",
-    "description": "能区分线段、直线和射线，知道两点之间线段最短。",
+    "description": "认识线段、射线和直线，知道端点个数和能否度量、延长。",
     "mastery_criteria": [
       "能说出线段有两个端点",
-      "知道直线没有端点、射线有一个端点"
+      "能区分射线和直线"
     ],
     "diagnostic_question": {
       "question": "线段和直线相比，下面哪一句说的是线段？",
@@ -2215,16 +2215,16 @@
   },
   {
     "id": "cnm_p101",
-    "name": "锐角、直角和钝角",
+    "name": "直角、锐角、钝角",
     "domain": "图形与几何",
     "grade": 3,
     "semester": "上",
     "chapter": "三年级上册 第5单元 线和角",
     "type": "conceptual",
-    "description": "能根据度数辨认锐角、直角、钝角，知道平角和周角。",
+    "description": "认识直角、锐角和钝角，能判断一个角是直角、锐角还是钝角。",
     "mastery_criteria": [
-      "能说出锐角小于 90 度",
-      "能说钝角大于 90 度且小于 180 度"
+      "能辨认直角",
+      "能说出锐角比直角小、钝角比直角大"
     ],
     "diagnostic_question": {
       "question": "直角比锐角怎样？",
@@ -2244,7 +2244,7 @@
   },
   {
     "id": "cnm_p079",
-    "name": "几分之一",
+    "name": "认识几分之一",
     "domain": "数与代数",
     "grade": 3,
     "semester": "上",
@@ -2252,8 +2252,8 @@
     "type": "conceptual",
     "description": "初步认识几分之一，知道把一个整体平均分成几份，其中一份就是几分之一。",
     "mastery_criteria": [
-      "能说出平均分的一份是几分之一",
-      "知道分母表示平均分成的份数"
+      "能说出几分之一表示什么",
+      "能写出简单的几分之一"
     ],
     "diagnostic_question": {
       "question": "分数的分母表示什么？",
@@ -2269,16 +2269,16 @@
   },
   {
     "id": "cnm_p226",
-    "name": "几分之几",
+    "name": "认识几分之几",
     "domain": "数与代数",
     "grade": 3,
     "semester": "上",
     "chapter": "三年级上册 第6单元 分数的初步认识",
     "type": "conceptual",
-    "description": "把一个整体平均分成若干份，表示其中的几份用几分之几，知道分子、分母的含义。",
+    "description": "认识几分之几，知道平均分成几份后取其中几份。",
     "mastery_criteria": [
-      "能用几分之几表示涂色部分",
-      "能说出分子表示取了几份"
+      "能读写几分之几",
+      "能说出分子、分母各表示什么"
     ],
     "standards": [
       {
@@ -2319,16 +2319,16 @@
   },
   {
     "id": "cnm_p080",
-    "name": "同分母分数的初步加减",
+    "name": "同分母分数的加减法",
     "domain": "数与代数",
     "grade": 3,
     "semester": "上",
     "chapter": "三年级上册 第6单元 分数的初步认识",
     "type": "procedural",
-    "description": "会计算分母相同且结果不超过 1 的简单分数加减。",
+    "description": "会计算同分母分数的加法和减法，分母不变、只算分子。",
     "mastery_criteria": [
-      "能算出同分母分数相加",
-      "能算出同分母分数相减"
+      "能算同分母分数加法",
+      "能算同分母分数减法"
     ],
     "diagnostic_question": {
       "question": "1/5 加上 2/5 是多少？",
@@ -2350,7 +2350,7 @@
     "semester": "上",
     "chapter": "三年级上册 第7单元 复习与关联",
     "type": "conceptual",
-    "description": "知道「几倍」就是几个那么多，会求一个数的几倍。",
+    "description": "知道「几倍」就是几个那么多，会求一个数的几倍。旧版独立单元内容，新版 2025 秋目录未单列，暂挂复习与关联·数量关系，待核。",
     "mastery_criteria": [
       "能说出一个数的几倍是多少",
       "能用乘法表示倍"
@@ -2363,7 +2363,8 @@
     "standards": [
       {
         "id": "cms-2022:2.NA.08",
-        "confidence": "exact"
+        "confidence": "exact",
+        "note": "暂挂复习与关联，待核。"
       },
       {
         "id": "cms-2022:1.NA.05",
@@ -2379,7 +2380,7 @@
     "semester": "上",
     "chapter": "三年级上册 第7单元 复习与关联",
     "type": "reasoning",
-    "description": "会用两个圈表示两类事物，重叠部分是两类都有的，求总数时重叠部分只算一次。",
+    "description": "能看懂简单的集合图，知道重叠部分表示两类都有的，会求只算一次的总数。旧版内容，新版 2025 秋目录未单列，暂挂复习与关联，待核。",
     "mastery_criteria": [
       "能指出重叠部分表示什么",
       "求总数时知道重叠部分不能加两次"
@@ -2393,19 +2394,19 @@
       {
         "id": "cms-2022:2.NA.10",
         "confidence": "inferred",
-        "note": "集合是现行教材数学广角，不是课标单列主题，按数量关系解决问题来对应，待核。"
+        "note": "暂挂复习与关联，待核。"
       }
     ]
   },
   {
     "id": "cnm_p095",
-    "name": "简单的搭配",
+    "name": "搭配问题",
     "domain": "综合与实践",
     "grade": 3,
     "semester": "上",
-    "chapter": "三年级上册 第8单元 数学广角——搭配问题",
+    "chapter": "三年级上册 第7单元 复习与关联",
     "type": "reasoning",
-    "description": "能有序地数出两种事物的搭配种数，不重复也不遗漏。",
+    "description": "能有序地数出两种事物的搭配种数，不重复也不遗漏。对应复习与关联中的数学广角：搭配问题。",
     "mastery_criteria": [
       "能按顺序一种一种地配",
       "能用乘法算出搭配种数"
@@ -2419,7 +2420,7 @@
       {
         "id": "cms-2022:2.NA.10",
         "confidence": "inferred",
-        "note": "搭配是现行三年级下册数学广角，课标没有同名主题，待核。"
+        "note": "依据 dzkbw xs3s_2025（2025 秋）小节补点。"
       }
     ]
   },
@@ -7082,6 +7083,198 @@
         "id": "cms-2022:1.IP.06",
         "confidence": "inferred",
         "note": "依据 dzkbw xs2x_2026（2026 春）小节补点。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p274",
+    "name": "根据直观图猜测积木形状",
+    "domain": "图形与几何",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第1单元 观察物体",
+    "type": "reasoning",
+    "description": "能根据从正面、上面等看到的直观图，猜测或说出积木的摆法与个数。",
+    "mastery_criteria": [
+      "能根据正面图估计最少块数",
+      "能把上面图和正面图结合起来想"
+    ],
+    "diagnostic_question": {
+      "question": "从正面看到下面是 3 个正方形连成一排，上面中间再叠 1 个。这堆积木至少用了几个小正方体？",
+      "answer": "4"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:2.GG.06",
+        "confidence": "inferred",
+        "note": "依据 dzkbw xs3s_2025（2025 秋）小节补点。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p275",
+    "name": "口算乘法",
+    "domain": "数与代数",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第4单元 多位数乘一位数",
+    "type": "procedural",
+    "description": "会口算整十、整百数乘一位数等简单的多位数乘一位数。",
+    "mastery_criteria": [
+      "能口算整十乘一位数",
+      "能口算整百乘一位数"
+    ],
+    "diagnostic_question": {
+      "question": "每盒 20 支铅笔，买 3 盒。一共多少支？",
+      "answer": "60"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:2.NA.01",
+        "confidence": "exact",
+        "note": "依据 dzkbw xs3s_2025（2025 秋）小节补点。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p276",
+    "name": "乘法估算",
+    "domain": "数与代数",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第4单元 多位数乘一位数",
+    "type": "application",
+    "description": "能把多位数看成接近的整十、整百数，估算多位数乘一位数的积。",
+    "mastery_criteria": [
+      "能选择合适的整十数来估",
+      "能说出大约是多少"
+    ],
+    "diagnostic_question": {
+      "question": "每箱大约 30 个苹果，买 4 箱。大约一共多少个？",
+      "answer": "120"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:2.NA.01",
+        "confidence": "inferred",
+        "note": "依据 dzkbw xs3s_2025（2025 秋）小节补点。"
+      },
+      {
+        "id": "cms-2022:2.NA.09",
+        "confidence": "inferred",
+        "note": "依据 dzkbw xs3s_2025（2025 秋）小节补点。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p277",
+    "name": "用圆规比较线段的长短",
+    "domain": "图形与几何",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第5单元 线和角",
+    "type": "procedural",
+    "description": "会用圆规量取一条线段的长，并与另一条线段比较长短。",
+    "mastery_criteria": [
+      "知道圆规两脚对准端点",
+      "能根据开口判断哪条更长"
+    ],
+    "diagnostic_question": {
+      "question": "用圆规比较两条线段的长短，圆规两脚应怎样？",
+      "answer": "两脚分别对准一条线段的两个端点，再挪到另一条上比"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:2.GG.01",
+        "confidence": "inferred",
+        "note": "依据 dzkbw xs3s_2025（2025 秋）小节补点。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p278",
+    "name": "认识二分之一",
+    "domain": "数与代数",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第6单元 分数的初步认识",
+    "type": "conceptual",
+    "description": "认识 1/2，知道把一个整体平均分成 2 份，其中一份就是二分之一。",
+    "mastery_criteria": [
+      "能指出平均分成两份中的一份是 1/2",
+      "知道必须平均分才是 1/2"
+    ],
+    "diagnostic_question": {
+      "question": "把一个蛋糕平均分成 2 份，每份是这个蛋糕的几分之几？",
+      "answer": "1/2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:2.NA.02",
+        "confidence": "exact",
+        "note": "依据 dzkbw xs3s_2025（2025 秋）小节补点。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p279",
+    "name": "估测距离",
+    "domain": "图形与几何",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 第3单元 毫米、分米和千米",
+    "type": "application",
+    "description": "能结合千米、米等单位，对生活中的路程做合理估测。",
+    "mastery_criteria": [
+      "能选择合适的单位估路程",
+      "能用加减估算两段路程合计"
+    ],
+    "diagnostic_question": {
+      "question": "从家走到学校大约要 15 分钟，步行速度大约每小时 4 千米。估计家到学校大约几千米比较合适？",
+      "answer": "大约 1 千米"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:2.GG.03",
+        "confidence": "inferred",
+        "note": "依据 dzkbw xs3s_2025（2025 秋）小节补点。"
+      },
+      {
+        "id": "cms-2022:2.NA.09",
+        "confidence": "inferred",
+        "note": "依据 dzkbw xs3s_2025（2025 秋）小节补点。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p280",
+    "name": "编制学号",
+    "domain": "综合与实践",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上册 综合与实践 数字编码",
+    "type": "modeling",
+    "description": "能按班级、座号等规则编制学号，并读懂学号里每一位的意思。",
+    "mastery_criteria": [
+      "能按规则写出学号",
+      "能从学号读出席号或班号"
+    ],
+    "diagnostic_question": {
+      "question": "给全班同学编学号时，下面哪一种更合理？",
+      "answer": "按班级、座位等规则用数字表示"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:2.NA.05",
+        "confidence": "inferred",
+        "note": "依据 dzkbw xs3s_2025（2025 秋）小节补点。"
       }
     ]
   },

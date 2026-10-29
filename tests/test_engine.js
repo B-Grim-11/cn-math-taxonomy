@@ -651,13 +651,13 @@ function bfsAncestors(id) {
   return seen;
 }
 
-test('数据可加载：小学 272 + 初中 315 + 高中必修 143 + 选择性必修 128，没有外部节点；课标含第一学段', () => {
+test('数据可加载：小学 279 + 初中 315 + 高中必修 143 + 选择性必修 128，没有外部节点；课标含第一学段', () => {
   const mathTopics = topics.filter((t) => String(t.id).startsWith('cnm_'));
   const mathDeps = deps.filter((d) => String(d.topicId).startsWith('cnm_'));
-  assert.strictEqual(mathTopics.length, 858);
-  assert.strictEqual(mathDeps.length, 1433);
+  assert.strictEqual(mathTopics.length, 865);
+  assert.strictEqual(mathDeps.length, 1448);
   assert.strictEqual(topics.filter((t) => t.external).length, 0);
-  assert.strictEqual(mathTopics.filter((t) => t.grade <= 6).length, 272);
+  assert.strictEqual(mathTopics.filter((t) => t.grade <= 6).length, 279);
   assert.strictEqual(mathTopics.filter((t) => t.grade >= 7 && t.grade <= 9).length, 315);
   assert.strictEqual(mathTopics.filter((t) => t.grade === 10 || t.grade === 11).length, 143);
   assert.strictEqual(mathTopics.filter((t) => t.grade >= 12).length, 128);

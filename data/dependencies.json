@@ -411,13 +411,13 @@
     "topicId": "cnm_p056",
     "prerequisiteId": "cnm_p028",
     "strength": "hard",
-    "reason": "学习「克和千克」需要先掌握「数数、数的组成」。"
+    "reason": "学习「认识质量单位」需要先掌握「数数、数的组成」。"
   },
   {
     "topicId": "cnm_p056",
     "prerequisiteId": "cnm_p041",
     "strength": "hard",
-    "reason": "学习「克和千克」需要先掌握「认识米及用米量」。"
+    "reason": "学习「认识质量单位」需要先掌握「认识米及用米量」。"
   },
   {
     "topicId": "cnm_p057",
@@ -435,19 +435,19 @@
     "topicId": "cnm_p058",
     "prerequisiteId": "cnm_p057",
     "strength": "hard",
-    "reason": "学习「带小括号的两步运算」需要先掌握「乘加、乘减」。"
+    "reason": "学习「含有小括号的两级运算」需要先掌握「乘加、乘减」。"
   },
   {
     "topicId": "cnm_p059",
     "prerequisiteId": "cnm_p058",
     "strength": "hard",
-    "reason": "学习「两步加减应用」需要先掌握「带小括号的两步运算」。"
+    "reason": "学习「用混合运算解决问题」需要先掌握「含有小括号的两级运算」。"
   },
   {
     "topicId": "cnm_p059",
     "prerequisiteId": "cnm_p035",
     "strength": "hard",
-    "reason": "学习「两步加减应用」需要先掌握「部分与整体」。"
+    "reason": "学习「用混合运算解决问题」需要先掌握「部分与整体」。"
   },
   {
     "topicId": "cnm_p060",
@@ -519,25 +519,25 @@
     "topicId": "cnm_p067",
     "prerequisiteId": "cnm_p040",
     "strength": "hard",
-    "reason": "学习「毫米」需要先掌握「认识厘米及用厘米量」。"
+    "reason": "学习「毫米的认识」需要先掌握「认识厘米及用厘米量」。"
   },
   {
     "topicId": "cnm_p068",
     "prerequisiteId": "cnm_p067",
     "strength": "hard",
-    "reason": "学习「分米」需要先掌握「毫米」。"
+    "reason": "学习「分米的认识及单位换算」需要先掌握「毫米的认识」。"
   },
   {
     "topicId": "cnm_p069",
     "prerequisiteId": "cnm_p041",
     "strength": "hard",
-    "reason": "学习「千米」需要先掌握「认识米及用米量」。"
+    "reason": "学习「千米的认识及单位换算」需要先掌握「认识米及用米量」。"
   },
   {
     "topicId": "cnm_p070",
     "prerequisiteId": "cnm_p056",
     "strength": "hard",
-    "reason": "学习「吨的认识」需要先掌握「克和千克」。"
+    "reason": "学习「吨的认识」需要先掌握「认识质量单位」。"
   },
   {
     "topicId": "cnm_p071",
@@ -567,25 +567,25 @@
     "topicId": "cnm_p074",
     "prerequisiteId": "cnm_p042",
     "strength": "hard",
-    "reason": "学习「多位数乘一位数」需要先掌握「7～9的乘法口诀」。"
+    "reason": "学习「笔算乘法」需要先掌握「7～9的乘法口诀」。"
   },
   {
     "topicId": "cnm_p074",
     "prerequisiteId": "cnm_p071",
     "strength": "hard",
-    "reason": "学习「多位数乘一位数」需要先掌握「加法」。"
+    "reason": "学习「笔算乘法」需要先掌握「加法」。"
   },
   {
     "topicId": "cnm_p075",
     "prerequisiteId": "cnm_p074",
     "strength": "hard",
-    "reason": "学习「因数中间或末尾有 0 的乘法」需要先掌握「多位数乘一位数」。"
+    "reason": "学习「因数中间或末尾有0的乘法」需要先掌握「笔算乘法」。"
   },
   {
     "topicId": "cnm_p076",
     "prerequisiteId": "cnm_p053",
     "strength": "hard",
-    "reason": "学习「数字编码」需要先掌握「1000以内数的认识」。"
+    "reason": "学习「认识数字编码」需要先掌握「1000以内数的认识」。"
   },
   {
     "topicId": "cnm_p077",
@@ -608,14 +608,14 @@
   {
     "topicId": "cnm_p079",
     "prerequisiteId": "cnm_p043",
-    "strength": "hard",
-    "reason": "学习「几分之一」需要先掌握「除法的意义」。"
+    "strength": "soft",
+    "reason": "「除法的意义」对学习「认识几分之一」有帮助，但不会前者也可以开始学后者。"
   },
   {
     "topicId": "cnm_p080",
     "prerequisiteId": "cnm_p079",
     "strength": "hard",
-    "reason": "学习「同分母分数的初步加减」需要先掌握「几分之一」。"
+    "reason": "学习「同分母分数的加减法」需要先掌握「认识几分之一」。"
   },
   {
     "topicId": "cnm_p081",
@@ -639,7 +639,7 @@
     "topicId": "cnm_p083",
     "prerequisiteId": "cnm_p074",
     "strength": "hard",
-    "reason": "学习「除数是一位数的除法」需要先掌握「多位数乘一位数」。"
+    "reason": "学习「除数是一位数的除法」需要先掌握「笔算乘法」。"
   },
   {
     "topicId": "cnm_p084",
@@ -663,7 +663,7 @@
     "topicId": "cnm_p086",
     "prerequisiteId": "cnm_p074",
     "strength": "hard",
-    "reason": "学习「两位数乘两位数」需要先掌握「多位数乘一位数」。"
+    "reason": "学习「两位数乘两位数」需要先掌握「笔算乘法」。"
   },
   {
     "topicId": "cnm_p087",
@@ -687,7 +687,7 @@
     "topicId": "cnm_p089",
     "prerequisiteId": "cnm_p074",
     "strength": "hard",
-    "reason": "学习「长方形和正方形的面积」需要先掌握「多位数乘一位数」。"
+    "reason": "学习「长方形和正方形的面积」需要先掌握「笔算乘法」。"
   },
   {
     "topicId": "cnm_p090",
@@ -699,7 +699,7 @@
     "topicId": "cnm_p090",
     "prerequisiteId": "cnm_p068",
     "strength": "hard",
-    "reason": "学习「面积单位的换算」需要先掌握「分米」。"
+    "reason": "学习「面积单位的换算」需要先掌握「分米的认识及单位换算」。"
   },
   {
     "topicId": "cnm_p091",
@@ -717,7 +717,7 @@
     "topicId": "cnm_p093",
     "prerequisiteId": "cnm_p079",
     "strength": "hard",
-    "reason": "学习「一位小数的初步认识」需要先掌握「几分之一」。"
+    "reason": "学习「一位小数的初步认识」需要先掌握「认识几分之一」。"
   },
   {
     "topicId": "cnm_p093",
@@ -735,7 +735,7 @@
     "topicId": "cnm_p095",
     "prerequisiteId": "cnm_p039",
     "strength": "hard",
-    "reason": "学习「简单的搭配」需要先掌握「2～6的乘法口诀」。"
+    "reason": "学习「搭配问题」需要先掌握「2～6的乘法口诀」。"
   },
   {
     "topicId": "cnm_p096",
@@ -753,25 +753,25 @@
     "topicId": "cnm_p098",
     "prerequisiteId": "cnm_p090",
     "strength": "hard",
-    "reason": "学习「公顷和平方千米」需要先掌握「面积单位的换算」。"
+    "reason": "学习「公顷和平方千米的认识及单位换算」需要先掌握「面积单位的换算」。"
   },
   {
     "topicId": "cnm_p098",
     "prerequisiteId": "cnm_p069",
     "strength": "hard",
-    "reason": "学习「公顷和平方千米」需要先掌握「千米」。"
+    "reason": "学习「公顷和平方千米的认识及单位换算」需要先掌握「千米的认识及单位换算」。"
   },
   {
     "topicId": "cnm_p099",
     "prerequisiteId": "cnm_p040",
     "strength": "hard",
-    "reason": "学习「线段、直线和射线」需要先掌握「认识厘米及用厘米量」。"
+    "reason": "学习「线段、射线、直线的概念」需要先掌握「认识厘米及用厘米量」。"
   },
   {
     "topicId": "cnm_p100",
     "prerequisiteId": "cnm_p099",
     "strength": "hard",
-    "reason": "学习「角的度量」需要先掌握「线段、直线和射线」。"
+    "reason": "学习「角的度量」需要先掌握「线段、射线、直线的概念」。"
   },
   {
     "topicId": "cnm_p102",
@@ -783,7 +783,7 @@
     "topicId": "cnm_p103",
     "prerequisiteId": "cnm_p101",
     "strength": "hard",
-    "reason": "学习「垂直」需要先掌握「锐角、直角和钝角」。"
+    "reason": "学习「垂直」需要先掌握「直角、锐角、钝角」。"
   },
   {
     "topicId": "cnm_p104",
@@ -825,7 +825,7 @@
     "topicId": "cnm_p110",
     "prerequisiteId": "cnm_p059",
     "strength": "hard",
-    "reason": "学习「四则运算各部分间的关系」需要先掌握「两步加减应用」。"
+    "reason": "学习「四则运算各部分间的关系」需要先掌握「用混合运算解决问题」。"
   },
   {
     "topicId": "cnm_p111",
@@ -975,7 +975,7 @@
     "topicId": "cnm_p127",
     "prerequisiteId": "cnm_p099",
     "strength": "hard",
-    "reason": "学习「轴对称」需要先掌握「线段、直线和射线」。"
+    "reason": "学习「轴对称」需要先掌握「线段、射线、直线的概念」。"
   },
   {
     "topicId": "cnm_p128",
@@ -1023,7 +1023,7 @@
     "topicId": "cnm_p132",
     "prerequisiteId": "cnm_p074",
     "strength": "hard",
-    "reason": "学习「小数乘整数」需要先掌握「多位数乘一位数」。"
+    "reason": "学习「小数乘整数」需要先掌握「笔算乘法」。"
   },
   {
     "topicId": "cnm_p133",
@@ -1209,7 +1209,7 @@
     "topicId": "cnm_p151",
     "prerequisiteId": "cnm_p099",
     "strength": "hard",
-    "reason": "学习「植树问题」需要先掌握「线段、直线和射线」。"
+    "reason": "学习「植树问题」需要先掌握「线段、射线、直线的概念」。"
   },
   {
     "topicId": "cnm_p152",
@@ -1305,7 +1305,7 @@
     "topicId": "cnm_p165",
     "prerequisiteId": "cnm_p079",
     "strength": "hard",
-    "reason": "学习「分数的意义」需要先掌握「几分之一」。"
+    "reason": "学习「分数的意义」需要先掌握「认识几分之一」。"
   },
   {
     "topicId": "cnm_p165",
@@ -1395,7 +1395,7 @@
     "topicId": "cnm_p173",
     "prerequisiteId": "cnm_p080",
     "strength": "hard",
-    "reason": "学习「异分母分数加减」需要先掌握「同分母分数的初步加减」。"
+    "reason": "学习「异分母分数加减」需要先掌握「同分母分数的加减法」。"
   },
   {
     "topicId": "cnm_p174",
@@ -1407,7 +1407,7 @@
     "topicId": "cnm_p174",
     "prerequisiteId": "cnm_p058",
     "strength": "hard",
-    "reason": "学习「分数加减混合」需要先掌握「带小括号的两步运算」。"
+    "reason": "学习「分数加减混合」需要先掌握「含有小括号的两级运算」。"
   },
   {
     "topicId": "cnm_p175",
@@ -1473,7 +1473,7 @@
     "topicId": "cnm_p180",
     "prerequisiteId": "cnm_p099",
     "strength": "hard",
-    "reason": "学习「用方向和距离确定位置」需要先掌握「线段、直线和射线」。"
+    "reason": "学习「用方向和距离确定位置」需要先掌握「线段、射线、直线的概念」。"
   },
   {
     "topicId": "cnm_p181",
@@ -1533,7 +1533,7 @@
     "topicId": "cnm_p188",
     "prerequisiteId": "cnm_p099",
     "strength": "hard",
-    "reason": "学习「圆的认识」需要先掌握「线段、直线和射线」。"
+    "reason": "学习「圆的认识」需要先掌握「线段、射线、直线的概念」。"
   },
   {
     "topicId": "cnm_p189",
@@ -1587,7 +1587,7 @@
     "topicId": "cnm_p193",
     "prerequisiteId": "cnm_p101",
     "strength": "hard",
-    "reason": "学习「扇形的认识」需要先掌握「锐角、直角和钝角」。"
+    "reason": "学习「扇形的认识」需要先掌握「直角、锐角、钝角」。"
   },
   {
     "topicId": "cnm_p194",
@@ -13083,43 +13083,43 @@
     "topicId": "cnm_p222",
     "prerequisiteId": "cnm_p221",
     "strength": "hard",
-    "reason": "学习「长方体纸盒的展开图」需要先掌握「观察简单的立体积木」。"
+    "reason": "学习「长方体纸盒的展开」需要先掌握「观察简单的立体积木」。"
   },
   {
     "topicId": "cnm_p222",
     "prerequisiteId": "cnm_p014",
     "strength": "hard",
-    "reason": "学习「长方体纸盒的展开图」需要先掌握「认识长方体、正方体、圆柱和球」。"
+    "reason": "学习「长方体纸盒的展开」需要先掌握「认识长方体、正方体、圆柱和球」。"
   },
   {
     "topicId": "cnm_p223",
     "prerequisiteId": "cnm_p057",
     "strength": "hard",
-    "reason": "学习「同级运算与两级运算的运算顺序」需要先掌握「乘加、乘减」。"
+    "reason": "学习「同级运算与两级运算」需要先掌握「乘加、乘减」。"
   },
   {
     "topicId": "cnm_p223",
     "prerequisiteId": "cnm_p220",
     "strength": "soft",
-    "reason": "学习「同级运算与两级运算的运算顺序」需要先掌握「加减法各部分间的关系」。"
+    "reason": "学习「同级运算与两级运算」需要先掌握「加减法各部分间的关系」。"
   },
   {
     "topicId": "cnm_p224",
     "prerequisiteId": "cnm_p219",
     "strength": "hard",
-    "reason": "学习「等量代换（曹冲称象）」需要先掌握「数量间的乘除关系」。"
+    "reason": "学习「等量代换」需要先掌握「数量间的乘除关系」。"
   },
   {
     "topicId": "cnm_p224",
     "prerequisiteId": "cnm_p056",
     "strength": "soft",
-    "reason": "学习「等量代换（曹冲称象）」需要先掌握「克和千克」。"
+    "reason": "学习「等量代换」需要先掌握「认识质量单位」。"
   },
   {
     "topicId": "cnm_p225",
     "prerequisiteId": "cnm_p099",
     "strength": "hard",
-    "reason": "学习「角的认识」需要先掌握「线段、直线和射线」。"
+    "reason": "学习「角的认识」需要先掌握「线段、射线、直线的概念」。"
   },
   {
     "topicId": "cnm_p225",
@@ -13131,19 +13131,19 @@
     "topicId": "cnm_p226",
     "prerequisiteId": "cnm_p079",
     "strength": "hard",
-    "reason": "学习「几分之几」需要先掌握「几分之一」。"
+    "reason": "学习「认识几分之几」需要先掌握「认识几分之一」。"
   },
   {
     "topicId": "cnm_p227",
     "prerequisiteId": "cnm_p226",
     "strength": "hard",
-    "reason": "学习「简单的分数大小比较」需要先掌握「几分之几」。"
+    "reason": "学习「简单的分数大小比较」需要先掌握「认识几分之几」。"
   },
   {
     "topicId": "cnm_p227",
     "prerequisiteId": "cnm_p079",
     "strength": "hard",
-    "reason": "学习「简单的分数大小比较」需要先掌握「几分之一」。"
+    "reason": "学习「简单的分数大小比较」需要先掌握「认识几分之一」。"
   },
   {
     "topicId": "cnm_p228",
@@ -13203,7 +13203,7 @@
     "topicId": "cnm_p232",
     "prerequisiteId": "cnm_p101",
     "strength": "hard",
-    "reason": "学习「平角、周角和角的分类」需要先掌握「锐角、直角和钝角」。"
+    "reason": "学习「平角、周角和角的分类」需要先掌握「直角、锐角、钝角」。"
   },
   {
     "topicId": "cnm_p233",
@@ -13317,7 +13317,7 @@
     "topicId": "cnm_p243",
     "prerequisiteId": "cnm_p080",
     "strength": "hard",
-    "reason": "学习「同分母分数加减」需要先掌握「同分母分数的初步加减」。"
+    "reason": "学习「同分母分数加减」需要先掌握「同分母分数的加减法」。"
   },
   {
     "topicId": "cnm_p243",
@@ -13371,19 +13371,19 @@
     "topicId": "cnm_p058",
     "prerequisiteId": "cnm_p223",
     "strength": "hard",
-    "reason": "学习「带小括号的两步运算」需要先掌握「同级运算与两级运算的运算顺序」。"
+    "reason": "学习「含有小括号的两级运算」需要先掌握「同级运算与两级运算」。"
   },
   {
     "topicId": "cnm_p101",
     "prerequisiteId": "cnm_p225",
     "strength": "hard",
-    "reason": "学习「锐角、直角和钝角」需要先掌握「角的认识」。"
+    "reason": "学习「直角、锐角、钝角」需要先掌握「角的认识」。"
   },
   {
     "topicId": "cnm_p080",
     "prerequisiteId": "cnm_p226",
     "strength": "soft",
-    "reason": "学习「同分母分数的初步加减」需要先掌握「几分之几」。"
+    "reason": "学习「同分母分数的加减法」需要先掌握「认识几分之几」。"
   },
   {
     "topicId": "cnm_p077",
@@ -13431,13 +13431,13 @@
     "topicId": "cnm_053",
     "prerequisiteId": "cnm_p099",
     "strength": "hard",
-    "reason": "学习「直线、射线、线段」需要先掌握「线段、直线和射线」。"
+    "reason": "学习「直线、射线、线段」需要先掌握「线段、射线、直线的概念」。"
   },
   {
     "topicId": "cnm_051",
     "prerequisiteId": "cnm_p222",
     "strength": "soft",
-    "reason": "学习「从不同方向看与立体图形的展开图」需要先掌握「长方体纸盒的展开图」。"
+    "reason": "学习「从不同方向看与立体图形的展开图」需要先掌握「长方体纸盒的展开」。"
   },
   {
     "topicId": "cnm_051",
@@ -23487,7 +23487,7 @@
     "topicId": "cnm_p099",
     "prerequisiteId": "cnm_p265",
     "strength": "soft",
-    "reason": "「认识线段」对学习「线段、直线和射线」有帮助，但不会前者也可以开始学后者。"
+    "reason": "「认识线段」对学习「线段、射线、直线的概念」有帮助，但不会前者也可以开始学后者。"
   },
   {
     "topicId": "cnm_p269",
@@ -23566,5 +23566,95 @@
     "prerequisiteId": "cnm_p269",
     "strength": "soft",
     "reason": "「10000以内数的认识」对学习「亿以内数的认识」有帮助，但不会前者也可以开始学后者。"
+  },
+  {
+    "topicId": "cnm_p274",
+    "prerequisiteId": "cnm_p221",
+    "strength": "hard",
+    "reason": "学习「根据直观图猜测积木形状」需要先掌握「观察简单的立体积木」。"
+  },
+  {
+    "topicId": "cnm_p222",
+    "prerequisiteId": "cnm_p274",
+    "strength": "soft",
+    "reason": "「根据直观图猜测积木形状」对学习「长方体纸盒的展开」有帮助，但不会前者也可以开始学后者。"
+  },
+  {
+    "topicId": "cnm_p275",
+    "prerequisiteId": "cnm_p042",
+    "strength": "hard",
+    "reason": "学习「口算乘法」需要先掌握「7～9的乘法口诀」。"
+  },
+  {
+    "topicId": "cnm_p275",
+    "prerequisiteId": "cnm_p039",
+    "strength": "soft",
+    "reason": "「2～6的乘法口诀」对学习「口算乘法」有帮助，但不会前者也可以开始学后者。"
+  },
+  {
+    "topicId": "cnm_p074",
+    "prerequisiteId": "cnm_p275",
+    "strength": "hard",
+    "reason": "学习「笔算乘法」需要先掌握「口算乘法」。"
+  },
+  {
+    "topicId": "cnm_p276",
+    "prerequisiteId": "cnm_p275",
+    "strength": "hard",
+    "reason": "学习「乘法估算」需要先掌握「口算乘法」。"
+  },
+  {
+    "topicId": "cnm_p276",
+    "prerequisiteId": "cnm_p074",
+    "strength": "soft",
+    "reason": "「笔算乘法」对学习「乘法估算」有帮助，但不会前者也可以开始学后者。"
+  },
+  {
+    "topicId": "cnm_p277",
+    "prerequisiteId": "cnm_p099",
+    "strength": "hard",
+    "reason": "学习「用圆规比较线段的长短」需要先掌握「线段、射线、直线的概念」。"
+  },
+  {
+    "topicId": "cnm_p277",
+    "prerequisiteId": "cnm_p265",
+    "strength": "soft",
+    "reason": "「认识线段」对学习「用圆规比较线段的长短」有帮助，但不会前者也可以开始学后者。"
+  },
+  {
+    "topicId": "cnm_p278",
+    "prerequisiteId": "cnm_p043",
+    "strength": "hard",
+    "reason": "学习「认识二分之一」需要先掌握「除法的意义」。"
+  },
+  {
+    "topicId": "cnm_p079",
+    "prerequisiteId": "cnm_p278",
+    "strength": "hard",
+    "reason": "学习「认识几分之一」需要先掌握「认识二分之一」。"
+  },
+  {
+    "topicId": "cnm_p279",
+    "prerequisiteId": "cnm_p069",
+    "strength": "hard",
+    "reason": "学习「估测距离」需要先掌握「千米的认识及单位换算」。"
+  },
+  {
+    "topicId": "cnm_p279",
+    "prerequisiteId": "cnm_p041",
+    "strength": "soft",
+    "reason": "「认识米及用米量」对学习「估测距离」有帮助，但不会前者也可以开始学后者。"
+  },
+  {
+    "topicId": "cnm_p280",
+    "prerequisiteId": "cnm_p076",
+    "strength": "hard",
+    "reason": "学习「编制学号」需要先掌握「认识数字编码」。"
+  },
+  {
+    "topicId": "cnm_p280",
+    "prerequisiteId": "cnm_p053",
+    "strength": "soft",
+    "reason": "「1000以内数的认识」对学习「编制学号」有帮助，但不会前者也可以开始学后者。"
   }
 ]
