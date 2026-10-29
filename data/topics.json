@@ -2451,16 +2451,16 @@
   },
   {
     "id": "cnm_p083",
-    "name": "除数是一位数的除法",
+    "name": "笔算除法",
     "domain": "数与代数",
     "grade": 3,
     "semester": "下",
     "chapter": "三年级下册 第2单元 除数是一位数的除法",
     "type": "procedural",
-    "description": "会计算两、三位数除以一位数，从高位除起。",
+    "description": "会用竖式计算除数是一位数的除法，从高位除起，商的位置写对。",
     "mastery_criteria": [
-      "能用竖式计算除数是一位数的除法",
-      "能判断商是几位数"
+      "能从高位除起写竖式",
+      "商的数位不错位"
     ],
     "diagnostic_question": {
       "question": "48 支铅笔平均分给 2 个组。每组多少支？",
@@ -2482,7 +2482,7 @@
     "semester": "下",
     "chapter": "三年级下册 第2单元 除数是一位数的除法",
     "type": "application",
-    "description": "能用除数是一位数的除法解决平均分和包含除问题。",
+    "description": "能用除数是一位数的除法解决平均分、包含等实际问题。",
     "mastery_criteria": [
       "能判断用除法",
       "能写出单位并检查余数"
@@ -2505,16 +2505,16 @@
   },
   {
     "id": "cnm_p229",
-    "name": "多边形的认识",
+    "name": "多边形",
     "domain": "图形与几何",
     "grade": 3,
     "semester": "下",
     "chapter": "三年级下册 第3单元 长方形和正方形",
     "type": "conceptual",
-    "description": "认识由线段围成的封闭图形是多边形，知道几边形就有几条边、几个角。",
+    "description": "认识多边形，知道几边形有几条边、几个角。",
     "mastery_criteria": [
-      "能说出多边形的边数和角数",
-      "能按边数说出图形名称"
+      "能说出几边形的边数",
+      "知道边数和角数相同"
     ],
     "standards": [
       {
@@ -2536,7 +2536,7 @@
     "semester": "下",
     "chapter": "三年级下册 第3单元 长方形和正方形",
     "type": "conceptual",
-    "description": "知道长方形对边相等、四个角是直角，正方形四条边相等。",
+    "description": "认识长方形和正方形的特征：对边相等、四个角都是直角；正方形四边相等。",
     "mastery_criteria": [
       "能说出长方形对边相等",
       "能说出正方形四条边都相等"
@@ -2559,16 +2559,16 @@
   },
   {
     "id": "cnm_p078",
-    "name": "长方形和正方形的周长",
+    "name": "周长",
     "domain": "图形与几何",
     "grade": 3,
     "semester": "下",
     "chapter": "三年级下册 第3单元 长方形和正方形",
     "type": "procedural",
-    "description": "会计算长方形、正方形的周长。",
+    "description": "知道周长是围成图形一周的长度，会求长方形和正方形的周长。",
     "mastery_criteria": [
-      "能说出周长是一周边线的长度",
-      "能用公式计算长方形和正方形的周长"
+      "能说出周长的含义",
+      "会用（长＋宽）×2 或边长×4 求周长"
     ],
     "diagnostic_question": {
       "question": "周长是什么？",
@@ -2584,16 +2584,16 @@
   },
   {
     "id": "cnm_p088",
-    "name": "面积的意义",
+    "name": "面积和面积单位",
     "domain": "图形与几何",
     "grade": 3,
     "semester": "下",
     "chapter": "三年级下册 第4单元 图形的面积",
     "type": "conceptual",
-    "description": "知道面积是物体表面或封闭图形的大小，比较面积要使用统一的面积单位。",
+    "description": "知道面积是物体表面或封闭图形的大小，认识常用面积单位。",
     "mastery_criteria": [
       "能区分周长和面积",
-      "知道比较面积要用同一单位"
+      "知道要用面积单位表示大小"
     ],
     "diagnostic_question": {
       "question": "面积要用什么来表示大小？",
@@ -2634,16 +2634,16 @@
   },
   {
     "id": "cnm_p090",
-    "name": "面积单位的换算",
+    "name": "面积单位间的进率",
     "domain": "图形与几何",
     "grade": 3,
     "semester": "下",
     "chapter": "三年级下册 第4单元 图形的面积",
     "type": "procedural",
-    "description": "知道平方厘米、平方分米、平方米，会做相邻单位的换算。",
+    "description": "知道相邻面积单位间的进率（如 1 平方米＝100 平方分米），会简单换算。",
     "mastery_criteria": [
-      "知道相邻面积单位进率是 100",
-      "能把平方米换算成平方分米"
+      "能说出常用进率",
+      "能把平方米换成平方分米"
     ],
     "diagnostic_question": {
       "question": "2 平方米是多少平方分米？",
@@ -2659,16 +2659,16 @@
   },
   {
     "id": "cnm_p085",
-    "name": "复式统计表",
+    "name": "数据的收集与整理",
     "domain": "统计与概率",
     "grade": 3,
     "semester": "下",
     "chapter": "三年级下册 第5单元 数据的收集与整理",
     "type": "procedural",
-    "description": "会把两类数据整理成复式统计表，并能从表里回答合计、谁多谁少。",
+    "description": "能收集简单数据并整理成统计表（含复式统计表），从表中获取信息。",
     "mastery_criteria": [
-      "能读出表中某一格的数",
-      "能算出一行或一列的合计"
+      "能从表中读出指定数据",
+      "会求合计或比较两类数据"
     ],
     "diagnostic_question": {
       "question": "复式统计表：一班男生 14 人、女生 12 人，二班男生 13 人、女生 15 人。一班女生有几人？",
@@ -2678,26 +2678,23 @@
     "standards": [
       {
         "id": "cms-2022:2.SP.01",
-        "confidence": "exact"
-      },
-      {
-        "id": "cms-2022:2.SP.02",
-        "confidence": "exact"
+        "confidence": "exact",
+        "note": "依据 dzkbw xs3x_2026（2026 春）小节补点。"
       }
     ]
   },
   {
     "id": "cnm_p091",
-    "name": "年、月、日",
+    "name": "年历中的秘密",
     "domain": "数与代数",
     "grade": 3,
     "semester": "下",
     "chapter": "三年级下册 综合与实践 年、月、日的秘密",
     "type": "conceptual",
-    "description": "知道一年有 12 个月，大月 31 天、小月 30 天，平年 2 月 28 天。",
+    "description": "认识年、月、日，知道平年、闰年和各月天数，能从年历中发现规律。",
     "mastery_criteria": [
       "能说出一年有 12 个月",
-      "能区分平年 2 月和闰年 2 月"
+      "知道平年、闰年 2 月的天数"
     ],
     "diagnostic_question": {
       "question": "一年有几个月？",
@@ -2713,16 +2710,16 @@
   },
   {
     "id": "cnm_p092",
-    "name": "24时记时法",
+    "name": "作息时间表中的秘密",
     "domain": "数与代数",
     "grade": 3,
     "semester": "下",
     "chapter": "三年级下册 综合与实践 年、月、日的秘密",
     "type": "procedural",
-    "description": "会用 24 时记时法，知道下午 1 时是 13 时。",
+    "description": "会用 24 时记时法读写时刻，能结合作息时间表计算经过的时间。",
     "mastery_criteria": [
-      "能把下午的时刻改成 24 时记时法",
-      "能说出 24 时就是第二天 0 时"
+      "能把下午时刻写成 24 时记时",
+      "能算出跨过整点经过几小时"
     ],
     "diagnostic_question": {
       "question": "下午 1 时，用 24 时记时法表示是几时？",
@@ -2738,16 +2735,16 @@
   },
   {
     "id": "cnm_p093",
-    "name": "一位小数的初步认识",
+    "name": "认识小数",
     "domain": "数与代数",
     "grade": 3,
     "semester": "下",
     "chapter": "三年级下册 第6单元 小数的初步认识",
     "type": "conceptual",
-    "description": "结合元角或米、分米，初步知道零点几是十分之几。",
+    "description": "初步认识一位小数，能结合元角分、米和分米等写出小数。",
     "mastery_criteria": [
-      "能把 1 角写成 0.1 元",
-      "能比较一位小数的大小"
+      "能读写一位小数",
+      "知道 0.1 表示十分之一"
     ],
     "diagnostic_question": {
       "question": "0.1 元是几角？",
@@ -2763,16 +2760,16 @@
   },
   {
     "id": "cnm_p094",
-    "name": "一位小数的加减",
+    "name": "简单的小数加、减法",
     "domain": "数与代数",
     "grade": 3,
     "semester": "下",
     "chapter": "三年级下册 第6单元 小数的初步认识",
     "type": "procedural",
-    "description": "会计算一位小数的加法和减法，小数点对齐。",
+    "description": "会计算简单的一位小数加法和减法，小数点对齐。",
     "mastery_criteria": [
-      "能把小数点对齐再加减",
-      "得数的小数点位置不错"
+      "能把小数点对齐再算",
+      "能解决简单的小数加减问题"
     ],
     "diagnostic_question": {
       "question": "一支笔 0.6 元，一块橡皮 0.2 元。一共多少元？",
@@ -2794,7 +2791,7 @@
     "semester": "下",
     "chapter": "三年级下册 第7单元 复习与关联",
     "type": "application",
-    "description": "在东、南、西、北的基础上认识东北、东南、西北、西南。",
+    "description": "认识东北、东南、西北、西南四个方向。新版 2026 春目录未单列方向单元，暂挂复习与关联·图形的认识与测量，待核。",
     "mastery_criteria": [
       "能指出四个斜向",
       "能根据一个方向说出相反方向"
@@ -2806,8 +2803,9 @@
     "external": false,
     "standards": [
       {
-        "id": "cms-2022:2.IP.03",
-        "confidence": "exact"
+        "id": "cms-2022:2.GG.04",
+        "confidence": "inferred",
+        "note": "暂挂复习与关联，待核。"
       }
     ]
   },
@@ -7275,6 +7273,136 @@
         "id": "cms-2022:2.NA.05",
         "confidence": "inferred",
         "note": "依据 dzkbw xs3s_2025（2025 秋）小节补点。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p281",
+    "name": "剪纸",
+    "domain": "图形与几何",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下册 第1单元 生活中的运动现象",
+    "type": "application",
+    "description": "能结合剪纸活动体会轴对称，通过对折剪出两边一样的图案。",
+    "mastery_criteria": [
+      "知道对折剪纸与轴对称有关",
+      "能说出展开后两边一样"
+    ],
+    "diagnostic_question": {
+      "question": "把一张纸对折后再剪图案，展开后两边一样。这种剪纸主要用到哪种现象？",
+      "answer": "轴对称"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:2.GG.05",
+        "confidence": "inferred",
+        "note": "依据 dzkbw xs3x_2026（2026 春）小节补点。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p282",
+    "name": "口算除法",
+    "domain": "数与代数",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下册 第2单元 除数是一位数的除法",
+    "type": "procedural",
+    "description": "会口算整十、整百数除以一位数等简单的除数是一位数的除法。",
+    "mastery_criteria": [
+      "能口算整十除以一位数",
+      "能口算整百除以一位数"
+    ],
+    "diagnostic_question": {
+      "question": "80÷4，可以口算。商是多少？",
+      "answer": "20"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:2.NA.01",
+        "confidence": "exact",
+        "note": "依据 dzkbw xs3x_2026（2026 春）小节补点。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p283",
+    "name": "拼图游戏",
+    "domain": "图形与几何",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下册 第3单元 长方形和正方形",
+    "type": "application",
+    "description": "能用长方形、正方形等拼成新图形，并求拼成图形的边长或周长。",
+    "mastery_criteria": [
+      "能说出拼成后新图形的边长",
+      "能求简单拼图的周长"
+    ],
+    "diagnostic_question": {
+      "question": "用几个同样的小正方形拼成一个更大的正方形。下面哪种说法对？",
+      "answer": "拼成后外边一圈的长度是新图形的周长"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:2.GG.02",
+        "confidence": "inferred",
+        "note": "依据 dzkbw xs3x_2026（2026 春）小节补点。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p284",
+    "name": "小数的大小比较",
+    "domain": "数与代数",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下册 第6单元 小数的初步认识",
+    "type": "reasoning",
+    "description": "会比较一位小数的大小，能找出一组小数中的最大或最小。",
+    "mastery_criteria": [
+      "能比较两个一位小数的大小",
+      "能在三个小数中找出最大的"
+    ],
+    "diagnostic_question": {
+      "question": "0.3 和 0.5 哪个大？",
+      "answer": "0.5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:2.NA.02",
+        "confidence": "inferred",
+        "note": "依据 dzkbw xs3x_2026（2026 春）小节补点。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p285",
+    "name": "年历设计师",
+    "domain": "综合与实践",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下册 综合与实践 年、月、日的秘密",
+    "type": "modeling",
+    "description": "能根据平年、闰年和各月天数设计或完善简单年历。",
+    "mastery_criteria": [
+      "设计前能先判断平年或闰年",
+      "知道要按星期排列日期"
+    ],
+    "diagnostic_question": {
+      "question": "设计一张年历时，下面哪一项通常要先确定？",
+      "answer": "这一年是平年还是闰年"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:2.IP.03",
+        "confidence": "inferred",
+        "note": "依据 dzkbw xs3x_2026（2026 春）小节补点。"
       }
     ]
   },

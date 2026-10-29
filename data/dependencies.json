@@ -597,13 +597,13 @@
     "topicId": "cnm_p078",
     "prerequisiteId": "cnm_p077",
     "strength": "hard",
-    "reason": "学习「长方形和正方形的周长」需要先掌握「长方形和正方形的特征」。"
+    "reason": "学习「周长」需要先掌握「长方形和正方形的特征」。"
   },
   {
     "topicId": "cnm_p078",
     "prerequisiteId": "cnm_p033",
     "strength": "hard",
-    "reason": "学习「长方形和正方形的周长」需要先掌握「笔算加法」。"
+    "reason": "学习「周长」需要先掌握「笔算加法」。"
   },
   {
     "topicId": "cnm_p079",
@@ -632,32 +632,32 @@
   {
     "topicId": "cnm_p083",
     "prerequisiteId": "cnm_p044",
-    "strength": "hard",
-    "reason": "学习「除数是一位数的除法」需要先掌握「用7～9的乘法口诀求商」。"
+    "strength": "soft",
+    "reason": "「用7～9的乘法口诀求商」对学习「笔算除法」有帮助，但不会前者也可以开始学后者。"
   },
   {
     "topicId": "cnm_p083",
     "prerequisiteId": "cnm_p074",
     "strength": "hard",
-    "reason": "学习「除数是一位数的除法」需要先掌握「笔算乘法」。"
+    "reason": "学习「笔算除法」需要先掌握「笔算乘法」。"
   },
   {
     "topicId": "cnm_p084",
     "prerequisiteId": "cnm_p083",
     "strength": "hard",
-    "reason": "学习「除法解决实际问题」需要先掌握「除数是一位数的除法」。"
+    "reason": "学习「除法解决实际问题」需要先掌握「笔算除法」。"
   },
   {
     "topicId": "cnm_p085",
     "prerequisiteId": "cnm_p037",
     "strength": "hard",
-    "reason": "学习「复式统计表」需要先掌握「分类与整理」。"
+    "reason": "学习「数据的收集与整理」需要先掌握「分类与整理」。"
   },
   {
     "topicId": "cnm_p085",
     "prerequisiteId": "cnm_p033",
     "strength": "hard",
-    "reason": "学习「复式统计表」需要先掌握「笔算加法」。"
+    "reason": "学习「数据的收集与整理」需要先掌握「笔算加法」。"
   },
   {
     "topicId": "cnm_p086",
@@ -675,13 +675,13 @@
     "topicId": "cnm_p088",
     "prerequisiteId": "cnm_p078",
     "strength": "hard",
-    "reason": "学习「面积的意义」需要先掌握「长方形和正方形的周长」。"
+    "reason": "学习「面积和面积单位」需要先掌握「周长」。"
   },
   {
     "topicId": "cnm_p089",
     "prerequisiteId": "cnm_p088",
     "strength": "hard",
-    "reason": "学习「长方形和正方形的面积」需要先掌握「面积的意义」。"
+    "reason": "学习「长方形和正方形的面积」需要先掌握「面积和面积单位」。"
   },
   {
     "topicId": "cnm_p089",
@@ -693,43 +693,43 @@
     "topicId": "cnm_p090",
     "prerequisiteId": "cnm_p089",
     "strength": "hard",
-    "reason": "学习「面积单位的换算」需要先掌握「长方形和正方形的面积」。"
+    "reason": "学习「面积单位间的进率」需要先掌握「长方形和正方形的面积」。"
   },
   {
     "topicId": "cnm_p090",
     "prerequisiteId": "cnm_p068",
     "strength": "hard",
-    "reason": "学习「面积单位的换算」需要先掌握「分米的认识及单位换算」。"
+    "reason": "学习「面积单位间的进率」需要先掌握「分米的认识及单位换算」。"
   },
   {
     "topicId": "cnm_p091",
     "prerequisiteId": "cnm_p062",
     "strength": "hard",
-    "reason": "学习「年、月、日」需要先掌握「时、分、秒的进率」。"
+    "reason": "学习「年历中的秘密」需要先掌握「时、分、秒的进率」。"
   },
   {
     "topicId": "cnm_p092",
     "prerequisiteId": "cnm_p091",
     "strength": "hard",
-    "reason": "学习「24时记时法」需要先掌握「年、月、日」。"
+    "reason": "学习「作息时间表中的秘密」需要先掌握「年历中的秘密」。"
   },
   {
     "topicId": "cnm_p093",
     "prerequisiteId": "cnm_p079",
     "strength": "hard",
-    "reason": "学习「一位小数的初步认识」需要先掌握「认识几分之一」。"
+    "reason": "学习「认识小数」需要先掌握「认识几分之一」。"
   },
   {
     "topicId": "cnm_p093",
     "prerequisiteId": "cnm_p036",
     "strength": "hard",
-    "reason": "学习「一位小数的初步认识」需要先掌握「认识人民币」。"
+    "reason": "学习「认识小数」需要先掌握「认识人民币」。"
   },
   {
     "topicId": "cnm_p094",
     "prerequisiteId": "cnm_p093",
     "strength": "hard",
-    "reason": "学习「一位小数的加减」需要先掌握「一位小数的初步认识」。"
+    "reason": "学习「简单的小数加、减法」需要先掌握「认识小数」。"
   },
   {
     "topicId": "cnm_p095",
@@ -753,7 +753,7 @@
     "topicId": "cnm_p098",
     "prerequisiteId": "cnm_p090",
     "strength": "hard",
-    "reason": "学习「公顷和平方千米的认识及单位换算」需要先掌握「面积单位的换算」。"
+    "reason": "学习「公顷和平方千米的认识及单位换算」需要先掌握「面积单位间的进率」。"
   },
   {
     "topicId": "cnm_p098",
@@ -801,7 +801,7 @@
     "topicId": "cnm_p106",
     "prerequisiteId": "cnm_p083",
     "strength": "hard",
-    "reason": "学习「除数是两位数的除法」需要先掌握「除数是一位数的除法」。"
+    "reason": "学习「除数是两位数的除法」需要先掌握「笔算除法」。"
   },
   {
     "topicId": "cnm_p106",
@@ -819,7 +819,7 @@
     "topicId": "cnm_p108",
     "prerequisiteId": "cnm_p085",
     "strength": "hard",
-    "reason": "学习「条形统计图」需要先掌握「复式统计表」。"
+    "reason": "学习「条形统计图」需要先掌握「数据的收集与整理」。"
   },
   {
     "topicId": "cnm_p110",
@@ -891,7 +891,7 @@
     "topicId": "cnm_p118",
     "prerequisiteId": "cnm_p093",
     "strength": "hard",
-    "reason": "学习「小数的意义」需要先掌握「一位小数的初步认识」。"
+    "reason": "学习「小数的意义」需要先掌握「认识小数」。"
   },
   {
     "topicId": "cnm_p119",
@@ -951,7 +951,7 @@
     "topicId": "cnm_p125",
     "prerequisiteId": "cnm_p094",
     "strength": "hard",
-    "reason": "学习「小数加减法」需要先掌握「一位小数的加减」。"
+    "reason": "学习「小数加减法」需要先掌握「简单的小数加、减法」。"
   },
   {
     "topicId": "cnm_p125",
@@ -1287,7 +1287,7 @@
     "topicId": "cnm_p162",
     "prerequisiteId": "cnm_p090",
     "strength": "hard",
-    "reason": "学习「体积单位」需要先掌握「面积单位的换算」。"
+    "reason": "学习「体积单位」需要先掌握「面积单位间的进率」。"
   },
   {
     "topicId": "cnm_p163",
@@ -1911,7 +1911,7 @@
     "topicId": "cnm_102",
     "prerequisiteId": "cnm_p085",
     "strength": "hard",
-    "reason": "学习「全面调查与抽样调查」需要先会小学的「复式统计表」。小学已学数据收集与整理。"
+    "reason": "学习「全面调查与抽样调查」需要先会小学的「数据的收集与整理」。小学已学数据收集与整理。"
   },
   {
     "topicId": "cnm_105",
@@ -1929,7 +1929,7 @@
     "topicId": "cnm_106",
     "prerequisiteId": "cnm_p085",
     "strength": "hard",
-    "reason": "学习「频数分布表与数据分组」需要先会小学的「复式统计表」。对数据分组整理要以小学学过的统计表和统计图知识为基础。"
+    "reason": "学习「频数分布表与数据分组」需要先会小学的「数据的收集与整理」。对数据分组整理要以小学学过的统计表和统计图知识为基础。"
   },
   {
     "topicId": "cnm_110",
@@ -13161,13 +13161,13 @@
     "topicId": "cnm_p229",
     "prerequisiteId": "cnm_p023",
     "strength": "hard",
-    "reason": "学习「多边形的认识」需要先掌握「认识平面图形」。"
+    "reason": "学习「多边形」需要先掌握「认识平面图形」。"
   },
   {
     "topicId": "cnm_p229",
     "prerequisiteId": "cnm_p225",
     "strength": "soft",
-    "reason": "学习「多边形的认识」需要先掌握「角的认识」。"
+    "reason": "学习「多边形」需要先掌握「角的认识」。"
   },
   {
     "topicId": "cnm_p230",
@@ -13389,7 +13389,7 @@
     "topicId": "cnm_p077",
     "prerequisiteId": "cnm_p229",
     "strength": "soft",
-    "reason": "学习「长方形和正方形的特征」需要先掌握「多边形的认识」。"
+    "reason": "学习「长方形和正方形的特征」需要先掌握「多边形」。"
   },
   {
     "topicId": "cnm_p111",
@@ -23656,5 +23656,71 @@
     "prerequisiteId": "cnm_p053",
     "strength": "soft",
     "reason": "「1000以内数的认识」对学习「编制学号」有帮助，但不会前者也可以开始学后者。"
+  },
+  {
+    "topicId": "cnm_p281",
+    "prerequisiteId": "cnm_p228",
+    "strength": "hard",
+    "reason": "学习「剪纸」需要先掌握「生活中的运动现象」。"
+  },
+  {
+    "topicId": "cnm_p281",
+    "prerequisiteId": "cnm_p024",
+    "strength": "soft",
+    "reason": "「图形的拼组」对学习「剪纸」有帮助，但不会前者也可以开始学后者。"
+  },
+  {
+    "topicId": "cnm_p282",
+    "prerequisiteId": "cnm_p044",
+    "strength": "hard",
+    "reason": "学习「口算除法」需要先掌握「用7～9的乘法口诀求商」。"
+  },
+  {
+    "topicId": "cnm_p282",
+    "prerequisiteId": "cnm_p046",
+    "strength": "soft",
+    "reason": "「用2～6的乘法口诀求商」对学习「口算除法」有帮助，但不会前者也可以开始学后者。"
+  },
+  {
+    "topicId": "cnm_p083",
+    "prerequisiteId": "cnm_p282",
+    "strength": "hard",
+    "reason": "学习「笔算除法」需要先掌握「口算除法」。"
+  },
+  {
+    "topicId": "cnm_p283",
+    "prerequisiteId": "cnm_p078",
+    "strength": "hard",
+    "reason": "学习「拼图游戏」需要先掌握「周长」。"
+  },
+  {
+    "topicId": "cnm_p283",
+    "prerequisiteId": "cnm_p077",
+    "strength": "soft",
+    "reason": "「长方形和正方形的特征」对学习「拼图游戏」有帮助，但不会前者也可以开始学后者。"
+  },
+  {
+    "topicId": "cnm_p284",
+    "prerequisiteId": "cnm_p093",
+    "strength": "hard",
+    "reason": "学习「小数的大小比较」需要先掌握「认识小数」。"
+  },
+  {
+    "topicId": "cnm_p094",
+    "prerequisiteId": "cnm_p284",
+    "strength": "soft",
+    "reason": "「小数的大小比较」对学习「简单的小数加、减法」有帮助，但不会前者也可以开始学后者。"
+  },
+  {
+    "topicId": "cnm_p285",
+    "prerequisiteId": "cnm_p091",
+    "strength": "hard",
+    "reason": "学习「年历设计师」需要先掌握「年历中的秘密」。"
+  },
+  {
+    "topicId": "cnm_p285",
+    "prerequisiteId": "cnm_p092",
+    "strength": "soft",
+    "reason": "「作息时间表中的秘密」对学习「年历设计师」有帮助，但不会前者也可以开始学后者。"
   }
 ]
