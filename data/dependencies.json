@@ -285,97 +285,91 @@
     "topicId": "cnm_p038",
     "prerequisiteId": "cnm_p012",
     "strength": "hard",
-    "reason": "学习「乘法的意义」需要先掌握「连加和连减」。"
+    "reason": "学习「乘法的初步认识」需要先掌握「连加和连减」。"
   },
   {
     "topicId": "cnm_p039",
     "prerequisiteId": "cnm_p038",
     "strength": "hard",
-    "reason": "学习「2到6的乘法口诀」需要先掌握「乘法的意义」。"
+    "reason": "学习「2～6的乘法口诀」需要先掌握「乘法的初步认识」。"
   },
   {
     "topicId": "cnm_p040",
     "prerequisiteId": "cnm_p008",
     "strength": "hard",
-    "reason": "学习「认识厘米」需要先掌握「6～10各数的认识」。"
+    "reason": "学习「认识厘米及用厘米量」需要先掌握「6～10各数的认识」。"
   },
   {
     "topicId": "cnm_p041",
     "prerequisiteId": "cnm_p040",
     "strength": "hard",
-    "reason": "学习「认识米」需要先掌握「认识厘米」。"
+    "reason": "学习「认识米及用米量」需要先掌握「认识厘米及用厘米量」。"
   },
   {
     "topicId": "cnm_p042",
     "prerequisiteId": "cnm_p039",
     "strength": "hard",
-    "reason": "学习「7、8、9的乘法口诀」需要先掌握「2到6的乘法口诀」。"
+    "reason": "学习「7～9的乘法口诀」需要先掌握「2～6的乘法口诀」。"
   },
   {
     "topicId": "cnm_p043",
     "prerequisiteId": "cnm_p038",
     "strength": "hard",
-    "reason": "学习「除法的意义」需要先掌握「乘法的意义」。"
+    "reason": "学习「除法的意义」需要先掌握「乘法的初步认识」。"
   },
   {
     "topicId": "cnm_p044",
     "prerequisiteId": "cnm_p042",
     "strength": "hard",
-    "reason": "学习「用7、8、9的口诀求商」需要先掌握「7、8、9的乘法口诀」。"
+    "reason": "学习「用7～9的乘法口诀求商」需要先掌握「7～9的乘法口诀」。"
   },
   {
     "topicId": "cnm_p044",
     "prerequisiteId": "cnm_p043",
     "strength": "hard",
-    "reason": "学习「用7、8、9的口诀求商」需要先掌握「除法的意义」。"
+    "reason": "学习「用7～9的乘法口诀求商」需要先掌握「除法的意义」。"
   },
   {
     "topicId": "cnm_p045",
     "prerequisiteId": "cnm_p041",
     "strength": "hard",
-    "reason": "学习「用身体上的长度估测」需要先掌握「认识米」。"
+    "reason": "学习「寻找、测量、运用身体尺」需要先掌握「认识米及用米量」。"
   },
   {
     "topicId": "cnm_p046",
     "prerequisiteId": "cnm_p039",
     "strength": "hard",
-    "reason": "学习「用1到6的口诀求商」需要先掌握「2到6的乘法口诀」。"
+    "reason": "学习「用2～6的乘法口诀求商」需要先掌握「2～6的乘法口诀」。"
   },
   {
     "topicId": "cnm_p046",
     "prerequisiteId": "cnm_p043",
     "strength": "hard",
-    "reason": "学习「用1到6的口诀求商」需要先掌握「除法的意义」。"
+    "reason": "学习「用2～6的乘法口诀求商」需要先掌握「除法的意义」。"
   },
   {
     "topicId": "cnm_p047",
     "prerequisiteId": "cnm_p046",
     "strength": "hard",
-    "reason": "学习「用乘法验算除法」需要先掌握「用1到6的口诀求商」。"
-  },
-  {
-    "topicId": "cnm_p047",
-    "prerequisiteId": "cnm_p044",
-    "strength": "hard",
-    "reason": "学习「用乘法验算除法」需要先掌握「用7、8、9的口诀求商」。"
+    "reason": "学习「除法的基本应用」需要先掌握「用2～6的乘法口诀求商」。"
   },
   {
     "topicId": "cnm_p048",
     "prerequisiteId": "cnm_p039",
     "strength": "hard",
-    "reason": "学习「表内乘法解决实际问题」需要先掌握「2到6的乘法口诀」。"
+    "reason": "学习「选择一种运算解决问题」需要先掌握「2～6的乘法口诀」。"
   },
   {
     "topicId": "cnm_p049",
     "prerequisiteId": "cnm_p015",
     "strength": "hard",
-    "reason": "学习「东、南、西、北」需要先掌握「上下前后左右」。"
+    "reason": "学习「认识东、南、西、北」需要先掌握「上下前后左右」。"
   },
   {
     "topicId": "cnm_p050",
     "prerequisiteId": "cnm_p046",
     "strength": "hard",
-    "reason": "学习「有余数除法的意义」需要先掌握「用1到6的口诀求商」。"
+    "reason": "学习「有余数除法的意义」需要先掌握「用2～6的乘法口诀求商」。"
   },
   {
     "topicId": "cnm_p051",
@@ -423,25 +417,25 @@
     "topicId": "cnm_p056",
     "prerequisiteId": "cnm_p041",
     "strength": "hard",
-    "reason": "学习「克和千克」需要先掌握「认识米」。"
+    "reason": "学习「克和千克」需要先掌握「认识米及用米量」。"
   },
   {
     "topicId": "cnm_p057",
     "prerequisiteId": "cnm_p039",
     "strength": "hard",
-    "reason": "学习「乘加乘减的运算顺序」需要先掌握「2到6的乘法口诀」。"
+    "reason": "学习「乘加、乘减」需要先掌握「2～6的乘法口诀」。"
   },
   {
     "topicId": "cnm_p057",
     "prerequisiteId": "cnm_p031",
     "strength": "hard",
-    "reason": "学习「乘加乘减的运算顺序」需要先掌握「口算加法」。"
+    "reason": "学习「乘加、乘减」需要先掌握「口算加法」。"
   },
   {
     "topicId": "cnm_p058",
     "prerequisiteId": "cnm_p057",
     "strength": "hard",
-    "reason": "学习「带小括号的两步运算」需要先掌握「乘加乘减的运算顺序」。"
+    "reason": "学习「带小括号的两步运算」需要先掌握「乘加、乘减」。"
   },
   {
     "topicId": "cnm_p059",
@@ -525,7 +519,7 @@
     "topicId": "cnm_p067",
     "prerequisiteId": "cnm_p040",
     "strength": "hard",
-    "reason": "学习「毫米」需要先掌握「认识厘米」。"
+    "reason": "学习「毫米」需要先掌握「认识厘米及用厘米量」。"
   },
   {
     "topicId": "cnm_p068",
@@ -537,7 +531,7 @@
     "topicId": "cnm_p069",
     "prerequisiteId": "cnm_p041",
     "strength": "hard",
-    "reason": "学习「千米」需要先掌握「认识米」。"
+    "reason": "学习「千米」需要先掌握「认识米及用米量」。"
   },
   {
     "topicId": "cnm_p070",
@@ -567,13 +561,13 @@
     "topicId": "cnm_p073",
     "prerequisiteId": "cnm_p042",
     "strength": "hard",
-    "reason": "学习「倍的认识」需要先掌握「7、8、9的乘法口诀」。"
+    "reason": "学习「倍的认识」需要先掌握「7～9的乘法口诀」。"
   },
   {
     "topicId": "cnm_p074",
     "prerequisiteId": "cnm_p042",
     "strength": "hard",
-    "reason": "学习「多位数乘一位数」需要先掌握「7、8、9的乘法口诀」。"
+    "reason": "学习「多位数乘一位数」需要先掌握「7～9的乘法口诀」。"
   },
   {
     "topicId": "cnm_p074",
@@ -633,13 +627,13 @@
     "topicId": "cnm_p082",
     "prerequisiteId": "cnm_p049",
     "strength": "hard",
-    "reason": "学习「东北、东南、西北、西南」需要先掌握「东、南、西、北」。"
+    "reason": "学习「东北、东南、西北、西南」需要先掌握「认识东、南、西、北」。"
   },
   {
     "topicId": "cnm_p083",
     "prerequisiteId": "cnm_p044",
     "strength": "hard",
-    "reason": "学习「除数是一位数的除法」需要先掌握「用7、8、9的口诀求商」。"
+    "reason": "学习「除数是一位数的除法」需要先掌握「用7～9的乘法口诀求商」。"
   },
   {
     "topicId": "cnm_p083",
@@ -741,7 +735,7 @@
     "topicId": "cnm_p095",
     "prerequisiteId": "cnm_p039",
     "strength": "hard",
-    "reason": "学习「简单的搭配」需要先掌握「2到6的乘法口诀」。"
+    "reason": "学习「简单的搭配」需要先掌握「2～6的乘法口诀」。"
   },
   {
     "topicId": "cnm_p096",
@@ -771,7 +765,7 @@
     "topicId": "cnm_p099",
     "prerequisiteId": "cnm_p040",
     "strength": "hard",
-    "reason": "学习「线段、直线和射线」需要先掌握「认识厘米」。"
+    "reason": "学习「线段、直线和射线」需要先掌握「认识厘米及用厘米量」。"
   },
   {
     "topicId": "cnm_p100",
@@ -1425,7 +1419,7 @@
     "topicId": "cnm_p176",
     "prerequisiteId": "cnm_p057",
     "strength": "hard",
-    "reason": "学习「找次品」需要先掌握「乘加乘减的运算顺序」。"
+    "reason": "学习「找次品」需要先掌握「乘加、乘减」。"
   },
   {
     "topicId": "cnm_p176",
@@ -13047,13 +13041,13 @@
     "topicId": "cnm_p219",
     "prerequisiteId": "cnm_p048",
     "strength": "hard",
-    "reason": "学习「数量间的乘除关系」需要先掌握「表内乘法解决实际问题」。"
+    "reason": "学习「数量间的乘除关系」需要先掌握「选择一种运算解决问题」。"
   },
   {
     "topicId": "cnm_p219",
     "prerequisiteId": "cnm_p044",
     "strength": "hard",
-    "reason": "学习「数量间的乘除关系」需要先掌握「用7、8、9的口诀求商」。"
+    "reason": "学习「数量间的乘除关系」需要先掌握「用7～9的乘法口诀求商」。"
   },
   {
     "topicId": "cnm_p219",
@@ -13101,7 +13095,7 @@
     "topicId": "cnm_p223",
     "prerequisiteId": "cnm_p057",
     "strength": "hard",
-    "reason": "学习「同级运算与两级运算的运算顺序」需要先掌握「乘加乘减的运算顺序」。"
+    "reason": "学习「同级运算与两级运算的运算顺序」需要先掌握「乘加、乘减」。"
   },
   {
     "topicId": "cnm_p223",
@@ -13233,7 +13227,7 @@
     "topicId": "cnm_p235",
     "prerequisiteId": "cnm_p049",
     "strength": "hard",
-    "reason": "学习「寻找宝藏」需要先掌握「东、南、西、北」。"
+    "reason": "学习「寻找宝藏」需要先掌握「认识东、南、西、北」。"
   },
   {
     "topicId": "cnm_p235",
@@ -13359,7 +13353,7 @@
     "topicId": "cnm_p245",
     "prerequisiteId": "cnm_p057",
     "strength": "hard",
-    "reason": "学习「怎样通知最快」需要先掌握「乘加乘减的运算顺序」。"
+    "reason": "学习「怎样通知最快」需要先掌握「乘加、乘减」。"
   },
   {
     "topicId": "cnm_p245",
@@ -23404,5 +23398,95 @@
     "prerequisiteId": "cns_p174",
     "strength": "hard",
     "reason": "完成塔台工程，要先经历过明确问题、设计、制作、测试、改进的工程过程。"
+  },
+  {
+    "topicId": "cnm_p261",
+    "prerequisiteId": "cnm_p037",
+    "strength": "hard",
+    "reason": "学习「逐层分类」需要先掌握「分类与整理」。"
+  },
+  {
+    "topicId": "cnm_p262",
+    "prerequisiteId": "cnm_p039",
+    "strength": "hard",
+    "reason": "学习「用乘法解决购物问题」需要先掌握「2～6的乘法口诀」。"
+  },
+  {
+    "topicId": "cnm_p262",
+    "prerequisiteId": "cnm_p048",
+    "strength": "hard",
+    "reason": "学习「用乘法解决购物问题」需要先掌握「选择一种运算解决问题」。"
+  },
+  {
+    "topicId": "cnm_p263",
+    "prerequisiteId": "cnm_p038",
+    "strength": "hard",
+    "reason": "学习「平均分（包含）」需要先掌握「乘法的初步认识」。"
+  },
+  {
+    "topicId": "cnm_p264",
+    "prerequisiteId": "cnm_p038",
+    "strength": "hard",
+    "reason": "学习「平均分（等分）」需要先掌握「乘法的初步认识」。"
+  },
+  {
+    "topicId": "cnm_p043",
+    "prerequisiteId": "cnm_p263",
+    "strength": "hard",
+    "reason": "学习「除法的意义」需要先掌握「平均分（包含）」。"
+  },
+  {
+    "topicId": "cnm_p043",
+    "prerequisiteId": "cnm_p264",
+    "strength": "hard",
+    "reason": "学习「除法的意义」需要先掌握「平均分（等分）」。"
+  },
+  {
+    "topicId": "cnm_p265",
+    "prerequisiteId": "cnm_p040",
+    "strength": "hard",
+    "reason": "学习「认识线段」需要先掌握「认识厘米及用厘米量」。"
+  },
+  {
+    "topicId": "cnm_p266",
+    "prerequisiteId": "cnm_p041",
+    "strength": "hard",
+    "reason": "学习「用估量解决问题」需要先掌握「认识米及用米量」。"
+  },
+  {
+    "topicId": "cnm_p266",
+    "prerequisiteId": "cnm_p040",
+    "strength": "soft",
+    "reason": "「认识厘米及用厘米量」对学习「用估量解决问题」有帮助，但不会前者也可以开始学后者。"
+  },
+  {
+    "topicId": "cnm_p267",
+    "prerequisiteId": "cnm_p049",
+    "strength": "hard",
+    "reason": "学习「设计导游路线」需要先掌握「认识东、南、西、北」。"
+  },
+  {
+    "topicId": "cnm_p268",
+    "prerequisiteId": "cnm_p042",
+    "strength": "hard",
+    "reason": "学习「解决连续两问的问题」需要先掌握「7～9的乘法口诀」。"
+  },
+  {
+    "topicId": "cnm_p268",
+    "prerequisiteId": "cnm_p044",
+    "strength": "hard",
+    "reason": "学习「解决连续两问的问题」需要先掌握「用7～9的乘法口诀求商」。"
+  },
+  {
+    "topicId": "cnm_p045",
+    "prerequisiteId": "cnm_p266",
+    "strength": "soft",
+    "reason": "「用估量解决问题」对学习「寻找、测量、运用身体尺」有帮助，但不会前者也可以开始学后者。"
+  },
+  {
+    "topicId": "cnm_p099",
+    "prerequisiteId": "cnm_p265",
+    "strength": "soft",
+    "reason": "「认识线段」对学习「线段、直线和射线」有帮助，但不会前者也可以开始学后者。"
   }
 ]

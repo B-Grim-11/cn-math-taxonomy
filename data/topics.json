@@ -994,9 +994,9 @@
     "semester": "上",
     "chapter": "二年级上册 第1单元 分类与整理",
     "type": "conceptual",
-    "description": "能选定一个标准给物品分类，并用表格或数字记下每一类有多少。",
+    "description": "能按给定标准或自选标准给物品分类，并用表格或数字记下每一类有多少。",
     "mastery_criteria": [
-      "能说出分类标准",
+      "能说出分类标准（给定或自选）",
       "能数出每一类的个数并比较多少"
     ],
     "diagnostic_question": {
@@ -1017,16 +1017,16 @@
   },
   {
     "id": "cnm_p038",
-    "name": "乘法的意义",
+    "name": "乘法的初步认识",
     "domain": "数与代数",
     "grade": 2,
     "semester": "上",
-    "chapter": "二年级上册 第2单元 1到6的表内乘法",
+    "chapter": "二年级上册 第2单元 1～6的表内乘法",
     "type": "conceptual",
     "description": "知道乘法是求几个相同加数的和，认识乘号，会读写乘法算式。",
     "mastery_criteria": [
-      "能把相同加数的连加改写成乘法",
-      "能读出乘法算式"
+      "能把几个几写成乘法算式",
+      "能说出乘号的读法"
     ],
     "diagnostic_question": {
       "question": "乘法表示的是什么？",
@@ -1046,16 +1046,16 @@
   },
   {
     "id": "cnm_p039",
-    "name": "2到6的乘法口诀",
+    "name": "2～6的乘法口诀",
     "domain": "数与代数",
     "grade": 2,
     "semester": "上",
-    "chapter": "二年级上册 第2单元 1到6的表内乘法",
+    "chapter": "二年级上册 第2单元 1～6的表内乘法",
     "type": "procedural",
-    "description": "能熟记 2 到 6 的乘法口诀，并用来计算。",
+    "description": "能熟记 2～6 的乘法口诀（含 5 的口诀、2、3、4 的口诀、6 的口诀），并用来计算。",
     "mastery_criteria": [
-      "能背出 2 到 6 的乘法口诀",
-      "能用口诀算出表内乘法"
+      "能背出 2～6 的口诀",
+      "能用口诀算出积"
     ],
     "diagnostic_question": {
       "question": "每行 2 个座位，有 6 行。一共有多少个座位？",
@@ -1071,20 +1071,20 @@
   },
   {
     "id": "cnm_p048",
-    "name": "表内乘法解决实际问题",
+    "name": "选择一种运算解决问题",
     "domain": "数与代数",
     "grade": 2,
     "semester": "上",
-    "chapter": "二年级上册 第2单元 1到6的表内乘法",
+    "chapter": "二年级上册 第2单元 1～6的表内乘法",
     "type": "application",
-    "description": "能用表内乘法解决「几个几」的实际问题。",
+    "description": "能根据实际问题判断用加法还是乘法，并列出算式解决问题。",
     "mastery_criteria": [
-      "能判断题目是在求几个相同加数的和",
-      "能列出乘法算式并计算"
+      "能分清「几个几」用乘法、「合起来」用加法",
+      "能列出算式并算出得数"
     ],
     "diagnostic_question": {
-      "question": "每组 3 人，有 6 组。一共有多少人？",
-      "answer": "18"
+      "question": "每组 3 人，有 6 组。求一共多少人，用哪种运算更合适？",
+      "answer": "乘法"
     },
     "external": false,
     "standards": [
@@ -1100,16 +1100,16 @@
   },
   {
     "id": "cnm_p057",
-    "name": "乘加乘减的运算顺序",
+    "name": "乘加、乘减",
     "domain": "数与代数",
     "grade": 2,
     "semester": "上",
-    "chapter": "二年级上册 第2单元 1到6的表内乘法",
+    "chapter": "二年级上册 第2单元 1～6的表内乘法",
     "type": "procedural",
     "description": "知道算式里有乘法和加减法时，先算乘法，再算加减法。",
     "mastery_criteria": [
       "能说出先乘后加减",
-      "能按顺序计算两步式子"
+      "能正确计算乘加、乘减"
     ],
     "diagnostic_question": {
       "question": "算式里既有乘法又有加减法，要按怎样的顺序算？",
@@ -1134,16 +1134,16 @@
     "domain": "数与代数",
     "grade": 2,
     "semester": "上",
-    "chapter": "二年级上册 第3单元 1到6的表内除法",
+    "chapter": "二年级上册 第3单元 1～6的表内除法",
     "type": "conceptual",
-    "description": "知道除法是乘法的逆运算，可以表示平均分。",
+    "description": "知道除法表示平均分，会读写除法算式，知道被除数、除数和商。",
     "mastery_criteria": [
       "能说出平均分要用除法",
-      "知道除法与乘法的关系"
+      "会读除法算式并说出各部分名称"
     ],
     "diagnostic_question": {
       "question": "除法表示的是什么？",
-      "answer": "把总数平均分成几份，求每一份"
+      "answer": "把总数平均分成几份，求每一份或求能分成几份"
     },
     "external": false,
     "standards": [
@@ -1159,16 +1159,16 @@
   },
   {
     "id": "cnm_p046",
-    "name": "用1到6的口诀求商",
+    "name": "用2～6的乘法口诀求商",
     "domain": "数与代数",
     "grade": 2,
     "semester": "上",
-    "chapter": "二年级上册 第3单元 1到6的表内除法",
+    "chapter": "二年级上册 第3单元 1～6的表内除法",
     "type": "procedural",
-    "description": "会用 1 到 6 的乘法口诀求商。",
+    "description": "会用 2～6 的乘法口诀求商。",
     "mastery_criteria": [
-      "能用 2 到 6 的口诀求商",
-      "能解决平均分和包含除两类简单问题"
+      "能想口诀说出商",
+      "能正确计算表内除法"
     ],
     "diagnostic_question": {
       "question": "18 颗糖平均分给 3 人。每人几颗？",
@@ -1184,16 +1184,16 @@
   },
   {
     "id": "cnm_p047",
-    "name": "用乘法验算除法",
+    "name": "除法的基本应用",
     "domain": "数与代数",
     "grade": 2,
     "semester": "上",
-    "chapter": "二年级上册 第3单元 1到6的表内除法",
-    "type": "procedural",
-    "description": "会用「商×除数＝被除数」检查除法。",
+    "chapter": "二年级上册 第3单元 1～6的表内除法",
+    "type": "application",
+    "description": "会用表内除法解决简单实际问题，并用「商×除数＝被除数」验算。",
     "mastery_criteria": [
-      "能说出用乘法验算除法",
-      "能判断一道除法算得对不对"
+      "能看懂平均分的问题并列式",
+      "会用乘法验算除法"
     ],
     "diagnostic_question": {
       "question": "小丽算出 24÷4＝6。用乘法验算，商 6 乘除数 4 等于多少？",
@@ -1213,7 +1213,7 @@
   },
   {
     "id": "cnm_p049",
-    "name": "东、南、西、北",
+    "name": "认识东、南、西、北",
     "domain": "综合与实践",
     "grade": 2,
     "semester": "上",
@@ -1238,7 +1238,7 @@
   },
   {
     "id": "cnm_p040",
-    "name": "认识厘米",
+    "name": "认识厘米及用厘米量",
     "domain": "图形与几何",
     "grade": 2,
     "semester": "上",
@@ -1246,8 +1246,8 @@
     "type": "procedural",
     "description": "认识长度单位厘米，会用直尺量整厘米的长度。",
     "mastery_criteria": [
-      "知道 1 厘米大约有多长",
-      "会量出物体是几厘米"
+      "知道 1 厘米大约多长",
+      "会用直尺量整厘米"
     ],
     "diagnostic_question": {
       "question": "1 厘米大约有多长？",
@@ -1263,16 +1263,16 @@
   },
   {
     "id": "cnm_p041",
-    "name": "认识米",
+    "name": "认识米及用米量",
     "domain": "图形与几何",
     "grade": 2,
     "semester": "上",
     "chapter": "二年级上册 第4单元 厘米和米",
     "type": "procedural",
-    "description": "认识米，知道 1 米＝100 厘米，会选择米或厘米。",
+    "description": "认识米，知道 1 米＝100 厘米，会选择米或厘米来量。",
     "mastery_criteria": [
-      "能说出 1 米等于 100 厘米",
-      "能把几米换算成厘米"
+      "知道 1 米＝100 厘米",
+      "能选择合适的单位"
     ],
     "diagnostic_question": {
       "question": "1 米等于多少厘米？",
@@ -1288,16 +1288,16 @@
   },
   {
     "id": "cnm_p045",
-    "name": "用身体上的长度估测",
+    "name": "寻找、测量、运用身体尺",
     "domain": "综合与实践",
     "grade": 2,
     "semester": "上",
     "chapter": "二年级上册 综合与实践 身体上的尺子",
     "type": "modeling",
-    "description": "知道一拃、一步等身体上的长度可以用来估测，估测结果要说明单位。",
+    "description": "会测量身体上的长度（一拃、一步等），并用来估测其他物体。",
     "mastery_criteria": [
-      "能用一拃或一步估一估长度",
-      "知道估测和用尺量可以对照"
+      "能量出自己的一拃或一步大约多长",
+      "会用身体尺估测并说明单位"
     ],
     "diagnostic_question": {
       "question": "1 厘米大约有多长？用身体上的尺子估测时，最短的一截常常接近什么？",
@@ -1313,16 +1313,16 @@
   },
   {
     "id": "cnm_p042",
-    "name": "7、8、9的乘法口诀",
+    "name": "7～9的乘法口诀",
     "domain": "数与代数",
     "grade": 2,
     "semester": "上",
-    "chapter": "二年级上册 第5单元 7到9的表内乘、除法",
+    "chapter": "二年级上册 第5单元 7～9的表内乘、除法",
     "type": "procedural",
     "description": "能熟记 7、8、9 的乘法口诀。",
     "mastery_criteria": [
-      "能背出 7、8、9 的乘法口诀",
-      "能用口诀计算表内乘法"
+      "能背出 7、8、9 的口诀",
+      "能用口诀算出积"
     ],
     "diagnostic_question": {
       "question": "每行 7 个座位，有 8 行。一共有多少个座位？",
@@ -1338,16 +1338,16 @@
   },
   {
     "id": "cnm_p044",
-    "name": "用7、8、9的口诀求商",
+    "name": "用7～9的乘法口诀求商",
     "domain": "数与代数",
     "grade": 2,
     "semester": "上",
-    "chapter": "二年级上册 第5单元 7到9的表内乘、除法",
+    "chapter": "二年级上册 第5单元 7～9的表内乘、除法",
     "type": "procedural",
     "description": "会用 7、8、9 的乘法口诀求商。",
     "mastery_criteria": [
-      "能用口诀算出表内除法",
-      "能解决平均分的问题"
+      "能想 7、8、9 的口诀说出商",
+      "能正确计算"
     ],
     "diagnostic_question": {
       "question": "56 个气球平均分成 7 份。每份有多少个？",
@@ -6689,6 +6689,249 @@
         "id": "cms-2022:1.IP.02",
         "confidence": "inferred",
         "note": "依据 dzkbw xs1x_2025（2025 春）小节补点。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p261",
+    "name": "逐层分类",
+    "domain": "统计与概率",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "二年级上册 第1单元 分类与整理",
+    "type": "conceptual",
+    "description": "能先按一个标准分类，再在某一类里按另一个标准继续分（逐层分类）。",
+    "mastery_criteria": [
+      "能说出每一层用的分类标准",
+      "能数出最后一层每一类的个数"
+    ],
+    "diagnostic_question": {
+      "question": "先按颜色分成红、蓝两类，再把红色里按大小分开。这是在做什么？",
+      "answer": "逐层分类"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:1.SP.01",
+        "confidence": "exact",
+        "note": "依据 dzkbw xs2s_2025（2025 秋）小节补点。"
+      },
+      {
+        "id": "cms-2022:2.SP.01",
+        "confidence": "inferred",
+        "note": "依据 dzkbw xs2s_2025（2025 秋）小节补点。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p262",
+    "name": "用乘法解决购物问题",
+    "domain": "数与代数",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "二年级上册 第2单元 1～6的表内乘法",
+    "type": "application",
+    "description": "会用表内乘法解决「单价×数量」一类的购物问题，有时还要再加或再减。",
+    "mastery_criteria": [
+      "能看出相同加数用乘法算总价",
+      "能算出应付或剩余的钱"
+    ],
+    "diagnostic_question": {
+      "question": "每支铅笔 2 元，买 5 支。一共要付多少元？",
+      "answer": "10"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:1.NA.05",
+        "confidence": "exact",
+        "note": "依据 dzkbw xs2s_2025（2025 秋）小节补点。"
+      },
+      {
+        "id": "cms-2022:1.NA.07",
+        "confidence": "exact",
+        "note": "依据 dzkbw xs2s_2025（2025 秋）小节补点。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p263",
+    "name": "平均分（包含）",
+    "domain": "数与代数",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "二年级上册 第3单元 1～6的表内除法",
+    "type": "conceptual",
+    "description": "知道「每几个一份」求能分成几份，是包含除意义的平均分。",
+    "mastery_criteria": [
+      "能说出每份几个、求份数",
+      "能用圆片等分一分"
+    ],
+    "diagnostic_question": {
+      "question": "12 颗糖，每 3 颗分给一个人。问能分给几个人。这是哪种平均分？",
+      "answer": "按每份几个来分，求能分成几份（包含）"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:1.NA.03",
+        "confidence": "exact",
+        "note": "依据 dzkbw xs2s_2025（2025 秋）小节补点。"
+      },
+      {
+        "id": "cms-2022:1.NA.05",
+        "confidence": "exact",
+        "note": "依据 dzkbw xs2s_2025（2025 秋）小节补点。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p264",
+    "name": "平均分（等分）",
+    "domain": "数与代数",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "二年级上册 第3单元 1～6的表内除法",
+    "type": "conceptual",
+    "description": "知道「平均分成几份」求每份几个，是等分意义的平均分。",
+    "mastery_criteria": [
+      "能说出分成几份、求每份几个",
+      "能把总数平均分成几份"
+    ],
+    "diagnostic_question": {
+      "question": "12 颗糖平均分给 3 人，求每人几颗。这是哪种平均分？",
+      "answer": "按分成几份来分，求每份几个（等分）"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:1.NA.03",
+        "confidence": "exact",
+        "note": "依据 dzkbw xs2s_2025（2025 秋）小节补点。"
+      },
+      {
+        "id": "cms-2022:1.NA.05",
+        "confidence": "exact",
+        "note": "依据 dzkbw xs2s_2025（2025 秋）小节补点。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p265",
+    "name": "认识线段",
+    "domain": "图形与几何",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "二年级上册 第4单元 厘米和米",
+    "type": "conceptual",
+    "description": "认识线段，知道线段有两个端点，会量整厘米的线段。",
+    "mastery_criteria": [
+      "能指出线段的两个端点",
+      "会量线段的长度"
+    ],
+    "diagnostic_question": {
+      "question": "直尺上两个刻度点之间的那一段，可以看成什么？",
+      "answer": "线段"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:1.GG.02",
+        "confidence": "exact",
+        "note": "依据 dzkbw xs2s_2025（2025 秋）小节补点。"
+      },
+      {
+        "id": "cms-2022:1.GG.03",
+        "confidence": "inferred",
+        "note": "依据 dzkbw xs2s_2025（2025 秋）小节补点。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p266",
+    "name": "用估量解决问题",
+    "domain": "图形与几何",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "二年级上册 第4单元 厘米和米",
+    "type": "application",
+    "description": "会先估测物体大约多长，再选择米或厘米测量，并比较估的和量的结果。",
+    "mastery_criteria": [
+      "能先估再量",
+      "能说出估的和量的大约差多少"
+    ],
+    "diagnostic_question": {
+      "question": "要知道教室门大约有多高，先怎么做比较合适？",
+      "answer": "先估一估大约几米，再用尺量一量核对"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:1.GG.02",
+        "confidence": "exact",
+        "note": "依据 dzkbw xs2s_2025（2025 秋）小节补点。"
+      },
+      {
+        "id": "cms-2022:1.GG.03",
+        "confidence": "exact",
+        "note": "依据 dzkbw xs2s_2025（2025 秋）小节补点。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p267",
+    "name": "设计导游路线",
+    "domain": "综合与实践",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "二年级上册 综合与实践 校园小导游",
+    "type": "modeling",
+    "description": "能根据东南西北设计简单的校园导游路线，并说出怎么走。",
+    "mastery_criteria": [
+      "能看图说出景点方向",
+      "能说出转向后朝哪个方向"
+    ],
+    "diagnostic_question": {
+      "question": "校园导游图上，从校门口向东走到教学楼。图上通常向哪边画？",
+      "answer": "向右"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:1.IP.04",
+        "confidence": "exact",
+        "note": "依据 dzkbw xs2s_2025（2025 秋）小节补点。"
+      }
+    ]
+  },
+  {
+    "id": "cnm_p268",
+    "name": "解决连续两问的问题",
+    "domain": "数与代数",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "二年级上册 第5单元 7～9的表内乘、除法",
+    "type": "application",
+    "description": "会解决需要连续回答两个问题的表内乘除实际问题，如先求总数再求剩余。",
+    "mastery_criteria": [
+      "能分清先求什么、再求什么",
+      "能分两步列出算式"
+    ],
+    "diagnostic_question": {
+      "question": "每盒 7 支笔，有 3 盒。一共有多少支？又送人 5 支，还剩多少支？先求一共，再求还剩。还剩多少支？",
+      "answer": "16"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:1.NA.05",
+        "confidence": "exact",
+        "note": "依据 dzkbw xs2s_2025（2025 秋）小节补点。"
+      },
+      {
+        "id": "cms-2022:1.NA.07",
+        "confidence": "exact",
+        "note": "依据 dzkbw xs2s_2025（2025 秋）小节补点。"
       }
     ]
   },
