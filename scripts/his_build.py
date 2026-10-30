@@ -23,6 +23,7 @@ import his_g8  # noqa: E402,F401
 import his_g9  # noqa: E402,F401
 import his_edges  # noqa: E402,F401
 from his_lib import HARD, CODE_OF, STANDARD_ROWS, TOPICS, chapter, check_question, materialise_questions  # noqa: E402
+from his_figs import figure_for  # noqa: E402
 from verify_questions import verify_all  # noqa: E402
 
 CHAPTER_RE = re.compile(r"^([一二三四五六七八九])年级([上下全])册 (第\d+单元|预备单元\d) (.+)$")
@@ -212,6 +213,9 @@ def main():
         diag_answer = None
         for n, item in enumerate(made, start=1):
             q, shown = build_question(tid, n, item, slot=i + n)
+            fig = figure_for(q)
+            if fig:
+                q["figure"] = fig
             built.append(q)
             if n == 1:
                 diag_answer = shown
