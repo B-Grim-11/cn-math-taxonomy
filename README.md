@@ -126,7 +126,8 @@ scripts/second_pass.py       独立第二遍复核的辅助脚本（出盲解题
 CHANGELOG.md             按日期记录的变更日志（含 id 变动说明）
 index.html               首页（实时统计、三步说明、按年级进入）
 manifest.webmanifest, sw.js, assets/pwa.*, assets/icons/   PWA：添加到桌面、离线缓存（说明见 docs/pwa.md）
-children/, assets/children.js     孩子档案、历史诊断记录与薄弱知识点（只存本机 localStorage）
+children/, assets/children.js     孩子档案、盲区与历史（薄弱 / 不稳汇总、一键再测；只存本机 localStorage）
+assets/blindspots.js              站内错题盲区汇总：本机账本 + 档案 + 未完成会话答错；首页 / 诊断 / 档案共用
 assets/stats-config.js, assets/stats.js   统计钩子（默认不发任何统计请求，配置见 docs/pwa.md）
 explore/                 知识图谱浏览（index.html、app.js；局部先修图）
 assets/site.css          全站配色、字号、导航（浏览页与诊断页共用）
@@ -332,7 +333,7 @@ screenshots/             首页、知识图谱与诊断页截图（01–05 诊�
 
 ## 诊断小工具（第四轮；第五轮改为每个知识点最多 2 题）
 
-`diagnose/` 是一个基于上述数据的静态、可离线的诊断页面：选一个目标知识点（或整个章节），按先修关系自适应出题（同一知识点连续答对默认 3 题才掌握并跳过全部祖先，开始页可选 2/3/5；答错则再出一道同级或更容易的确认题——确认题也错才算薄弱并回溯到先修，hard 先于 soft；确认题答对标为「不稳」，不回溯），给出薄弱的根因、不稳的知识点、按年级从低到高排列的学习路径（同一年级里先修在前）、相关课标条目原文，以及一张用 Cytoscape 画的路径图（文字列表仍在）。目标可以选择小学、初中、高中必修或选择性必修知识点；答错会继续问到更早的学段；每题作答后显示解析和参考答案；进度保存在 localStorage，可导出 JSON、打印，或生成分享图。核心算法与判题在 `diagnose/engine.js`（纯函数，浏览器与 Node 通用），由 `node tests/test_engine.js` 测试。
+`diagnose/` 是一个基于上述数据的静态、可离线的诊断页面：选一个目标知识点（或整个章节），按先修关系自适应出题（同一知识点连续答对默认 3 题才掌握并跳过全部祖先，开始页可选 2/3/5；答错则再出一道同级或更容易的确认题——确认题也错才算薄弱并回溯到先修，hard 先于 soft；确认题答对标为「不稳」，不回溯），给出薄弱的根因、不稳的知识点、按年级从低到高排列的学习路径（同一年级里先修在前）、相关课标条目原文，以及一张用 Cytoscape 画的路径图（文字列表仍在）。目标可以选择小学、初中、高中必修或选择性必修知识点；答错会继续问到更早的学段；每题作答后显示解析和参考答案；进度保存在 localStorage，可导出 JSON、打印，或生成分享图。核心算法与判题在 `diagnose/engine.js`（纯函数，浏览器与 Node 通用），由 `node tests/test_engine.js` 测试。**站内盲区汇总**：每次诊断结果会把薄弱 / 不稳记入本机（`cnmBlind.local.v1`），也可并入孩子档案记录；首页、诊断开始页和结果页、以及 `children/history.html`（盲区与历史）可按知识点或章一键再测。数据只留在浏览器，不上传。相关测试：`node tests/test_blindspots.js`。
 
 ```bash
 python3 -m http.server 8000

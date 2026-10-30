@@ -111,6 +111,56 @@
     box.textContent = message;
   }
 
+
+  function renderBlindHome(allTopics) {
+    var box = document.getElementById('blind-home');
+    var list = document.getElementById('blind-home-list');
+    var actions = document.getElementById('blind-home-actions');
+    if (!box || !list || !actions || !window.CnmBlind) return;
+    var nameOf = {};
+    (allTopics || []).forEach(function (t) { nameOf[t.id] = t.name; });
+    var rows = window.CnmBlind.list({ subject: subject, limit: 8 });
+    if (!rows.length) {
+      box.hidden = true;
+      list.replaceChildren();
+      actions.replaceChildren();
+      return;
+    }
+    box.hidden = false;
+    list.replaceChildren();
+    rows.forEach(function (row) {
+      var li = document.createElement('li');
+      li.className = 'blind-home-item';
+      var name = document.createElement('a');
+      name.className = 'blind-home-name';
+      name.href = window.CnmBlind.diagnoseHref([row.id], row.subject || subject);
+      name.textContent = nameOf[row.id] || row.id;
+      li.appendChild(name);
+      var meta = document.createElement('span');
+      meta.className = 'blind-home-meta';
+      var bits = [row.status === 'weak' ? (row.root ? '根因' : '薄弱') : '不稳'];
+      if (row.wrongs) bits.push('答错 ' + row.wrongs + ' 次');
+      meta.textContent = bits.join(' · ');
+      li.appendChild(meta);
+      list.appendChild(li);
+    });
+    actions.replaceChildren();
+    var cur = window.CnmChildren && window.CnmChildren.current && window.CnmChildren.current();
+    var all = document.createElement('a');
+    all.className = 'btn';
+    all.href = window.CnmBlind.historyHref(cur && cur.id, 'children/');
+    all.textContent = '查看全部盲区';
+    actions.appendChild(all);
+    var weakIds = rows.filter(function (r) { return r.status === 'weak'; }).slice(0, 5).map(function (r) { return r.id; });
+    if (weakIds.length) {
+      var re = document.createElement('a');
+      re.className = 'btn btn-primary';
+      re.href = window.CnmBlind.diagnoseHref(weakIds, subject);
+      re.textContent = '再测本页薄弱点';
+      actions.appendChild(re);
+    }
+  }
+
   Promise.all([
     fetch('data/topics.json'),
     fetch('data/dependencies.json'),
@@ -122,6 +172,7 @@
     });
     return Promise.all(responses.map(function (response) { return response.json(); }));
   }).then(function (data) {
+    var allTopics = data[0];
     var topics = data[0];
     var deps = data[1];
     var questions = data[2];
@@ -218,6 +269,7 @@
       addCard(13, '高中', '选必二', 'is-senior', '选择性必修第二册', 'explore/?grade=13');
       addCard(14, '高中', '选必三', 'is-senior', '选择性必修第三册', 'explore/?grade=14');
     }
+    renderBlindHome(allTopics);
   }).catch(function (error) {
     fail('数据没有加载成功（' + (error && error.message ? error.message : error) + '）。请在项目根目录运行 python3 -m http.server 8000，再用浏览器打开，不要直接双击 html 文件。');
   });

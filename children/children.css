@@ -1,4 +1,4 @@
-/* 孩子档案、历史与薄弱点页。配色、字号来自 assets/site.css。 */
+/* 孩子档案、盲区与历史页。配色、字号来自 assets/site.css。 */
 
 main.kids { width: min(760px, 100%); margin: 0 auto; padding: 20px 16px 56px; }
 .kids h1 { margin: 0 0 8px; font-size: 1.5rem; letter-spacing: -0.02em; }
@@ -89,3 +89,8 @@ main.kids { width: min(760px, 100%); margin: 0 auto; padding: 20px 16px 56px; }
 .rec-topics li { margin: 2px 0; overflow-wrap: anywhere; }
 .rec-topics a { color: var(--brand-strong); font-weight: 650; }
 .rec-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+
+
+.wk-chapter { margin: 14px 0 18px; }
+.wk-chapter-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 12px; margin-bottom: 4px; }
+.wk-chapter-title { margin: 0; font-size: 1.02rem; }

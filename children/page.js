@@ -101,7 +101,7 @@
       use.addEventListener('click', function () { CC.setCurrent(c.id); render(); });
       row.appendChild(use);
     }
-    var hist = el('a', 'btn', '历史与薄弱点');
+    var hist = el('a', 'btn', '盲区与历史');
     hist.href = 'history.html?child=' + encodeURIComponent(c.id);
     row.appendChild(hist);
     var edit = el('button', null, '编辑');

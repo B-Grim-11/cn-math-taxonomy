@@ -303,14 +303,14 @@
             CC.setCurrent(id);
             renderResult();
           }),
-          cur ? h('a', { class: 'btn', href: childrenHref('history.html?child=' + encodeURIComponent(cur.id)), text: '历史与薄弱点' }) : null));
+          cur ? h('a', { class: 'btn', href: childrenHref('history.html?child=' + encodeURIComponent(cur.id)), text: '盲区与历史' }) : null));
     }
     return h('div', { class: 'card child-bar no-print', id: 'child-bar' },
       h('div', { class: 'row' },
         h('label', { for: 'child-select' }, '当前孩子'),
         childSelect(function (id) { CC.setCurrent(id); renderStart(); }),
         h('span', { class: 'grow' }),
-        cur ? h('a', { class: 'btn', href: childrenHref('history.html?child=' + encodeURIComponent(cur.id)), text: '历史与薄弱点' }) : null,
+        cur ? h('a', { class: 'btn', href: childrenHref('history.html?child=' + encodeURIComponent(cur.id)), text: '盲区与历史' }) : null,
         h('a', { class: 'btn', href: childrenHref(fromQuery()), text: '孩子档案' })),
       h('p', { class: 'muted small', style: 'margin:8px 0 0' },
         cur ? '诊断做完，结果会保存到「' + cur.name + '」的档案里。' : '选了“不保存到档案”时，诊断结果不会存下来。'));
@@ -325,6 +325,62 @@
       counts: { weak: sum.weak.length, shaky: sum.shaky.length, mastered: sum.mastered.length, untested: sum.untested.length },
       weak: sum.weak, roots: sum.roots.map(function (r) { return r.id; }), shaky: sum.shaky, mastered: sum.mastered
     });
+  }
+  function noteBlind(sum) {
+    if (demo || !sum || !sum.asked || !window.CnmBlind) return;
+    window.CnmBlind.noteResult({
+      subject: subject, key: recordKey(), label: sessionMeta.label, demo: demo,
+      weak: sum.weak, shaky: sum.shaky, mastered: sum.mastered,
+      roots: sum.roots.map(function (r) { return r.id; }),
+      answers: session.answers
+    });
+  }
+  function diagnoseHrefFor(ids) {
+    if (window.CnmBlind) return window.CnmBlind.diagnoseHref(ids, subject, './');
+    const list = (Array.isArray(ids) ? ids : [ids]).filter(Boolean);
+    let q = 'target=' + list.map(encodeURIComponent).join(',');
+    if (subject !== 'math') q = 'subject=' + subject + '&' + q;
+    return './?' + q;
+  }
+  function blindStartCard() {
+    if (!window.CnmBlind) return null;
+    const rows = window.CnmBlind.list({ subject: subject, limit: 6 });
+    if (!rows.length) return null;
+    const cur = CC.current();
+    const more = window.CnmBlind.historyHref(cur && cur.id, '../children/');
+    return h('div', { class: 'card', id: 'blind-start' },
+      h('h2', { text: '本机盲区（最近薄弱点）' }),
+      h('p', { class: 'muted small' }, '根据本机诊断记录汇总，数据只留在这台浏览器。点「再测」会按该知识点重新诊断。'),
+      h('ul', { class: 'blind-list' }, rows.map(function (row) {
+        return h('li', { class: 'blind-item' },
+          h('span', { class: 'blind-name', text: nameOf(row.id) }),
+          ' ',
+          h('span', { class: 'tag ' + (row.status === 'weak' ? 'weak' : 'shaky'), text: row.status === 'weak' ? (row.root ? '根因' : '薄弱') : '不稳' }),
+          row.wrongs ? h('span', { class: 'muted small', text: ' · 答错 ' + row.wrongs + ' 次' }) : null,
+          ' ',
+          h('a', { class: 'blind-retest', href: diagnoseHrefFor([row.id]), text: '再测' }));
+      })),
+      h('p', { class: 'row' },
+        h('a', { class: 'btn', href: more, text: '查看全部盲区' }),
+        rows[0] ? h('a', { class: 'btn btn-primary', href: diagnoseHrefFor(rows.filter(function (r) { return r.status === 'weak'; }).slice(0, 5).map(function (r) { return r.id; })), text: '再测前几个薄弱点' }) : null));
+  }
+  function blindResultCard(sum) {
+    const weakIds = (sum.weak || []).slice();
+    const rootIds = (sum.roots || []).map(function (r) { return r.id; });
+    const shakyIds = (sum.shaky || []).slice();
+    if (!weakIds.length && !shakyIds.length) return null;
+    const cur = CC.current();
+    const hist = window.CnmBlind ? window.CnmBlind.historyHref(cur && cur.id, '../children/') : '../children/history.html';
+    return h('div', { class: 'card no-print', id: 'blind-result' },
+      h('h2', { text: '盲区再测' }),
+      h('p', { class: 'muted small' }, '把本轮判为薄弱或不稳的知识点收进本机盲区汇总，可一键再测。不会上传答题内容。'),
+      rootIds.length ? h('p', null,
+        h('a', { class: 'btn btn-primary', href: diagnoseHrefFor(rootIds), text: '再测薄弱根因（' + rootIds.length + '）' })) : null,
+      weakIds.length && weakIds.join(',') !== rootIds.join(',') ? h('p', null,
+        h('a', { class: 'btn', href: diagnoseHrefFor(weakIds.slice(0, 8)), text: '再测薄弱知识点（' + Math.min(8, weakIds.length) + (weakIds.length > 8 ? '+' : '') + '）' })) : null,
+      shakyIds.length ? h('p', null,
+        h('a', { class: 'btn', href: diagnoseHrefFor(shakyIds.slice(0, 8)), text: '再测不稳知识点（' + Math.min(8, shakyIds.length) + (shakyIds.length > 8 ? '+' : '') + '）' })) : null,
+      h('p', null, h('a', { href: hist, text: '打开本机盲区汇总' })));
   }
 
   /* ------------------------------------------------------------ 会话 */
@@ -458,6 +514,8 @@
     }
     if (errMsg) page.append(h('p', { class: 'err', text: errMsg }));
     page.append(childBar('start'));
+    const startBlind = blindStartCard();
+    if (startBlind) page.append(startBlind);
 
     const st = getSettings();
     const limitInput = h('input', { type: 'number', min: LIMIT_MIN, max: LIMIT_MAX, step: 1, value: String(st.limit), id: 'limit-input', 'aria-label': '题量上限' });
@@ -998,6 +1056,7 @@
     const page = h('div');
     if (demo) page.append(demoBanner());
     saveToChild(sum);
+    noteBlind(sum);
     page.append(childBar('result'));
 
     const targetsMastered = session.targets.every(function (id) { return E.statusOf(session, id) === 'mastered'; });
@@ -1037,6 +1096,8 @@
         h('button', { onclick: function () { if (confirm('重新开始会清除当前进度，确定吗？')) restart(); } }, '重新开始'),
         session.answers.length ? h('button', { onclick: function () { rebuild(session.answers.slice(0, -1)); } }, '撤销上一题') : null));
     page.append(summaryCard);
+    const blindCard = blindResultCard(sum);
+    if (blindCard) page.append(blindCard);
     if (screen) page.append(chaptersCard(chapters, outOfScope));
 
     page.append(h('div', { class: 'card', id: 'roots' },
@@ -1128,8 +1189,10 @@
               seg('m', c.mastered, c.total), seg('s', c.shaky, c.total), seg('w', c.weak, c.total), seg('u', c.untested, c.total))),
           h('div', { class: 'body' },
             h('div', { class: 'muted small', text: '共 ' + c.total + ' 个知识点' }),
-            c.weakIds.length ? h('div', { class: 'chap-names' }, tag('weak', '薄弱'), nameList(c.weakIds)) : null,
-            c.shakyIds.length ? h('div', { class: 'chap-names' }, tag('shaky', '不稳'), nameList(c.shakyIds)) : null,
+            c.weakIds.length ? h('div', { class: 'chap-names' }, tag('weak', '薄弱'), nameList(c.weakIds),
+              ' ', h('a', { class: 'blind-retest no-print', href: diagnoseHrefFor(c.weakIds), text: '再测本章薄弱' })) : null,
+            c.shakyIds.length ? h('div', { class: 'chap-names' }, tag('shaky', '不稳'), nameList(c.shakyIds),
+              ' ', h('a', { class: 'blind-retest no-print', href: diagnoseHrefFor(c.shakyIds), text: '再测本章不稳' })) : null,
             !c.weakIds.length && !c.shakyIds.length ? h('div', { class: 'muted small', text: c.untested ? '没有发现薄弱或不稳的点，另有 ' + c.untested + ' 个没测到。' : '没有发现薄弱或不稳的点。' }) : null));
       }));
   }

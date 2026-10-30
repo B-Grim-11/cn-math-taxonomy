@@ -128,6 +128,11 @@ node scripts/screenshot.js     # 需要本机 Chrome/Chromium（可用 CHROME=�
 
 `version: 2`、`mode`（`target` 或 `screen`）、`label`、`targets`、`limit`、`seed`、`asked`、`finished`、`limitReached`、`answers`（每题：`order`、`topicId`、`questionId`、`difficulty`、`type`、`prompt`、`userAnswer`、`result`、`referenceAnswer`、`explanation`）、`weakRoots`（含掌握标准、课标 id、未测先修、范围外先修 `outOfScopePrereqs`）、`path`（带序号、状态）、`weak`、`shaky`、`chapters`（仅整体诊断：每章的 `label`、各状态数量，以及 `weakTopics` / `shakyTopics` / `untestedTopics`）、`mastered`（直接 / 推断）、`untested`、`standards`（id + 原文）。
 
+
+## 盲区再测
+
+结果页会把本轮薄弱 / 不稳写入本机盲区账本（`cnmBlind.local.v1`，由 `assets/blindspots.js` 维护），并提供「再测薄弱根因 / 薄弱点 / 不稳点」入口；开始页若已有盲区会列出最近几条。整体筛查的按章汇总里，薄弱 / 不稳章可「再测本章」。全部汇总见 `children/history.html`。不上传答题内容；演示模式（`demo=1`）不写入。
+
 ## 局限
 
 - **每知识点确认题数默认为 3**（可选 2 / 3 / 5）：题库每个知识点 4–5 题。选择题仍有蒙对概率，「不稳」只是提示，结果是“线索”不是“结论”。重测多次会遇到重复的题。
