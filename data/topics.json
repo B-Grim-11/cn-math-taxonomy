@@ -75910,5 +75910,3624 @@
         "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
       }
     ]
+  },
+  {
+    "id": "cnh_j001",
+    "name": "远古时期的人类活动",
+    "domain": "中国古代史",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第1单元 史前时期：原始社会与中华文明的起源",
+    "type": "conceptual",
+    "description": "知道元谋人、北京人和山顶洞人的地点与主要特征。",
+    "mastery_criteria": [
+      "能说出本课的时间、人物或地点",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "我国境内目前已知最早的古人类是？",
+      "answer": "元谋人"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CA.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ],
+    "root_reason": "七年级上册从史前时期讲起，远古时期的人类活动是初中历史的起点，前面没有更早的初中历史知识点。"
+  },
+  {
+    "id": "cnh_j002",
+    "name": "原始农业与史前社会",
+    "domain": "中国古代史",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第1单元 史前时期：原始社会与中华文明的起源",
+    "type": "conceptual",
+    "description": "知道河姆渡、半坡等原始农耕居民的生产生活。",
+    "mastery_criteria": [
+      "能说出本课的时间、人物或地点",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "河姆渡人生活的大致地点是？",
+      "answer": "浙江余姚"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CA.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j003",
+    "name": "中华文明的起源",
+    "domain": "中国古代史",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第1单元 史前时期：原始社会与中华文明的起源",
+    "type": "reasoning",
+    "description": "知道良渚等考古发现所反映的早期文明。",
+    "mastery_criteria": [
+      "能说出本课的时间、人物或地点",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "教材用来说明中华文明起源的重要考古文化是？",
+      "answer": "良渚文化"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CA.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j004",
+    "name": "夏商西周王朝的更替",
+    "domain": "中国古代史",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第2单元 夏商周时期：奴隶制王朝的更替和向封建社会的过渡",
+    "type": "conceptual",
+    "description": "知道夏、商、西周的建立、都城和更替。",
+    "mastery_criteria": [
+      "能说出本课的时间、人物或地点",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "我国历史上第一个奴隶制王朝是？",
+      "answer": "夏朝"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CA.02",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j005",
+    "name": "动荡变化中的春秋时期",
+    "domain": "中国古代史",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第2单元 夏商周时期：奴隶制王朝的更替和向封建社会的过渡",
+    "type": "conceptual",
+    "description": "知道春秋时期王室衰微和霸主争霸的基本史实。",
+    "mastery_criteria": [
+      "能说出本课的时间、人物或地点",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "公元前770年，周平王东迁洛邑，历史进入？",
+      "answer": "春秋时期"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CA.02",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j006",
+    "name": "战国时期的社会变革",
+    "domain": "中国古代史",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第2单元 夏商周时期：奴隶制王朝的更替和向封建社会的过渡",
+    "type": "reasoning",
+    "description": "知道战国七雄、商鞅变法和都江堰。",
+    "mastery_criteria": [
+      "能说出本课的时间、人物或地点",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "战国初期，三家分晋后形成的诸侯国包括？",
+      "answer": "韩、赵、魏"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CA.02",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j007",
+    "name": "百家争鸣",
+    "domain": "中国古代史",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第2单元 夏商周时期：奴隶制王朝的更替和向封建社会的过渡",
+    "type": "conceptual",
+    "description": "知道儒、道、墨、法诸家的代表人物和主要主张。",
+    "mastery_criteria": [
+      "能说出本课的时间、人物或地点",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "孔子的核心思想是？",
+      "answer": "仁"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CA.02",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j008",
+    "name": "夏商周时期的科技与文化",
+    "domain": "中国古代史",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第2单元 夏商周时期：奴隶制王朝的更替和向封建社会的过渡",
+    "type": "conceptual",
+    "description": "知道甲骨文、青铜器和夏商周时期的重要文化成就。",
+    "mastery_criteria": [
+      "能说出本课的时间、人物或地点",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "我国已发现的古代文字中，年代最早、体系较完整的是？",
+      "answer": "甲骨文"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CA.02",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j009",
+    "name": "秦统一中国",
+    "domain": "中国古代史",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第3单元 秦汉时期：统一多民族封建国家的建立和巩固",
+    "type": "conceptual",
+    "description": "知道秦的统一和巩固统一的措施。",
+    "mastery_criteria": [
+      "能说出本课的时间、人物或地点",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "秦统一六国是在公元前哪一年？",
+      "answer": "公元前221年"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CA.03",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j010",
+    "name": "秦末农民大起义",
+    "domain": "中国古代史",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第3单元 秦汉时期：统一多民族封建国家的建立和巩固",
+    "type": "reasoning",
+    "description": "知道陈胜、吴广起义和秦朝灭亡的基本过程。",
+    "mastery_criteria": [
+      "能说出本课的时间、人物或地点",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "陈胜、吴广起义爆发的地点是？",
+      "answer": "大泽乡"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CA.03",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j011",
+    "name": "西汉建立和“文景之治”",
+    "domain": "中国古代史",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第3单元 秦汉时期：统一多民族封建国家的建立和巩固",
+    "type": "conceptual",
+    "description": "知道西汉建立和文景之治的休养生息。",
+    "mastery_criteria": [
+      "能说出本课的时间、人物或地点",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "西汉的建立者是？",
+      "answer": "刘邦"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CA.03",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j012",
+    "name": "大一统王朝的巩固",
+    "domain": "中国古代史",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第3单元 秦汉时期：统一多民族封建国家的建立和巩固",
+    "type": "reasoning",
+    "description": "知道汉武帝在政治、思想和经济上巩固大一统的措施。",
+    "mastery_criteria": [
+      "能说出本课的时间、人物或地点",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "汉武帝接受主父偃的建议，实行？",
+      "answer": "推恩令"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CA.03",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j013",
+    "name": "东汉的兴衰",
+    "domain": "中国古代史",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第3单元 秦汉时期：统一多民族封建国家的建立和巩固",
+    "type": "conceptual",
+    "description": "知道东汉建立、光武中兴和后期的衰亡。",
+    "mastery_criteria": [
+      "能说出本课的时间、人物或地点",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "东汉的建立者是？",
+      "answer": "刘秀"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CA.03",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j014",
+    "name": "丝绸之路的开通与经营西域",
+    "domain": "中国古代史",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第3单元 秦汉时期：统一多民族封建国家的建立和巩固",
+    "type": "conceptual",
+    "description": "知道张骞通西域、丝绸之路和西域都护。",
+    "mastery_criteria": [
+      "能说出本课的时间、人物或地点",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "两次出使西域的是？",
+      "answer": "张骞"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CA.03",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j015",
+    "name": "秦汉时期的科技与文化",
+    "domain": "中国古代史",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第3单元 秦汉时期：统一多民族封建国家的建立和巩固",
+    "type": "conceptual",
+    "description": "知道造纸术的改进和秦汉医学、史学、数学成就。",
+    "mastery_criteria": [
+      "能说出本课的时间、人物或地点",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "改进造纸术、使纸的使用更普遍的是？",
+      "answer": "蔡伦"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CA.03",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j016",
+    "name": "三国鼎立",
+    "domain": "中国古代史",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第4单元 三国两晋南北朝时期：孕育统一和民族交融",
+    "type": "conceptual",
+    "description": "知道官渡之战、赤壁之战和三国建立。",
+    "mastery_criteria": [
+      "能说出本课的时间、人物或地点",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "200年官渡之战的结果是？",
+      "answer": "曹操以少胜多，打败袁绍"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CA.04",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j017",
+    "name": "西晋的短暂统一和北方各族的内迁",
+    "domain": "中国古代史",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第4单元 三国两晋南北朝时期：孕育统一和民族交融",
+    "type": "reasoning",
+    "description": "知道西晋统一、灭亡和北方各族内迁。",
+    "mastery_criteria": [
+      "能说出本课的时间、人物或地点",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "西晋统一全国是在？",
+      "answer": "280年"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CA.04",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j018",
+    "name": "东晋南朝政治和江南地区开发",
+    "domain": "中国古代史",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第4单元 三国两晋南北朝时期：孕育统一和民族交融",
+    "type": "conceptual",
+    "description": "知道东晋建立和江南地区的开发。",
+    "mastery_criteria": [
+      "能说出本课的时间、人物或地点",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "东晋的建立者是？",
+      "answer": "司马睿"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CA.04",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j019",
+    "name": "北朝政治和北方民族大交融",
+    "domain": "中国古代史",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第4单元 三国两晋南北朝时期：孕育统一和民族交融",
+    "type": "reasoning",
+    "description": "知道北魏统一北方和孝文帝改革。",
+    "mastery_criteria": [
+      "能说出本课的时间、人物或地点",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "439年统一北方的政权是？",
+      "answer": "北魏"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CA.04",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j020",
+    "name": "三国两晋南北朝时期的科技与文化",
+    "domain": "中国古代史",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第4单元 三国两晋南北朝时期：孕育统一和民族交融",
+    "type": "conceptual",
+    "description": "知道祖冲之、贾思勰和这一时期的书法艺术。",
+    "mastery_criteria": [
+      "能说出本课的时间、人物或地点",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "把圆周率计算到小数点后第七位的是？",
+      "answer": "祖冲之"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CA.04",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j021",
+    "name": "从考古发现看中华文明的起源与形成",
+    "domain": "中国古代史",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第4单元 三国两晋南北朝时期：孕育统一和民族交融",
+    "type": "application",
+    "description": "知道用考古材料认识中华文明起源的方法。",
+    "mastery_criteria": [
+      "能说出本课的时间、人物或地点",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "活动课强调认识早期文明，应当主要依据？",
+      "answer": "考古发现的遗址、遗物和相关研究"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CA.04",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j022",
+    "name": "隋朝统一与灭亡",
+    "domain": "中国古代史",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第1单元 隋唐时期：繁荣与开放的时代",
+    "type": "conceptual",
+    "description": "知道隋朝统一、大运河和隋朝灭亡。",
+    "mastery_criteria": [
+      "能说出本课的时间、人物或地点",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "581年建立隋朝的是？",
+      "answer": "杨坚"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CA.05",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j023",
+    "name": "唐朝建立与“贞观之治”",
+    "domain": "中国古代史",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第1单元 隋唐时期：繁荣与开放的时代",
+    "type": "conceptual",
+    "description": "知道唐朝建立和贞观之治。",
+    "mastery_criteria": [
+      "能说出本课的时间、人物或地点",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "618年建立唐朝的是？",
+      "answer": "李渊"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CA.05",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j024",
+    "name": "“开元盛世”",
+    "domain": "中国古代史",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第1单元 隋唐时期：繁荣与开放的时代",
+    "type": "reasoning",
+    "description": "知道唐玄宗前期的开元盛世。",
+    "mastery_criteria": [
+      "能说出本课的时间、人物或地点",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "开元盛世出现在谁统治的前期？",
+      "answer": "唐玄宗"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CA.05",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j025",
+    "name": "安史之乱与唐朝衰亡",
+    "domain": "中国古代史",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第1单元 隋唐时期：繁荣与开放的时代",
+    "type": "reasoning",
+    "description": "知道安史之乱和唐朝灭亡。",
+    "mastery_criteria": [
+      "能说出本课的时间、人物或地点",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "安史之乱爆发于？",
+      "answer": "755年"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CA.05",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j026",
+    "name": "隋唐时期的民族交往与交融",
+    "domain": "中国古代史",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第1单元 隋唐时期：繁荣与开放的时代",
+    "type": "conceptual",
+    "description": "知道文成公主入藏和唐朝与周边民族的交往。",
+    "mastery_criteria": [
+      "能说出本课的时间、人物或地点",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "文成公主入藏，嫁给的是？",
+      "answer": "松赞干布"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CA.05",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j027",
+    "name": "隋唐时期的中外文化交流",
+    "domain": "中国古代史",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第1单元 隋唐时期：繁荣与开放的时代",
+    "type": "conceptual",
+    "description": "知道玄奘西行、鉴真东渡和遣唐使。",
+    "mastery_criteria": [
+      "能说出本课的时间、人物或地点",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "玄奘西行的目的地是？",
+      "answer": "天竺"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CA.05",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j028",
+    "name": "隋唐时期的科技与文化",
+    "domain": "中国古代史",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第1单元 隋唐时期：繁荣与开放的时代",
+    "type": "conceptual",
+    "description": "知道赵州桥、雕版印刷和唐诗。",
+    "mastery_criteria": [
+      "能说出本课的时间、人物或地点",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "设计赵州桥的是？",
+      "answer": "李春"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CA.05",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j029",
+    "name": "北宋的政治",
+    "domain": "中国古代史",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第2单元 辽宋夏金元时期：民族关系发展和社会变化",
+    "type": "conceptual",
+    "description": "知道北宋建立和加强中央集权的办法。",
+    "mastery_criteria": [
+      "能说出本课的时间、人物或地点",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "960年陈桥驿兵变后建立北宋的是？",
+      "answer": "赵匡胤"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CA.06",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j030",
+    "name": "辽、西夏与北宋并立",
+    "domain": "中国古代史",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第2单元 辽宋夏金元时期：民族关系发展和社会变化",
+    "type": "conceptual",
+    "description": "知道辽、西夏的建立和宋与它们的和议。",
+    "mastery_criteria": [
+      "能说出本课的时间、人物或地点",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "916年建立契丹政权的是？",
+      "answer": "耶律阿保机"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CA.06",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j031",
+    "name": "金与南宋对峙",
+    "domain": "中国古代史",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第2单元 辽宋夏金元时期：民族关系发展和社会变化",
+    "type": "reasoning",
+    "description": "知道靖康之变、南宋建立和岳飞抗金。",
+    "mastery_criteria": [
+      "能说出本课的时间、人物或地点",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "1115年建立金朝的是？",
+      "answer": "完颜阿骨打"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CA.06",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j032",
+    "name": "元朝的建立与统一",
+    "domain": "中国古代史",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第2单元 辽宋夏金元时期：民族关系发展和社会变化",
+    "type": "conceptual",
+    "description": "知道蒙古兴起、元朝统一和行省制度。",
+    "mastery_criteria": [
+      "能说出本课的时间、人物或地点",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "1206年统一蒙古各部的是？",
+      "answer": "铁木真"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CA.06",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j033",
+    "name": "辽宋夏金元时期经济的繁荣",
+    "domain": "中国古代史",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第2单元 辽宋夏金元时期：民族关系发展和社会变化",
+    "type": "conceptual",
+    "description": "知道宋元时期农业、手工业和商业的发展。",
+    "mastery_criteria": [
+      "能说出本课的时间、人物或地点",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "北宋前期出现在四川地区、被看作世界上最早纸币的是？",
+      "answer": "交子"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CA.06",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j034",
+    "name": "辽宋夏金元时期的对外交流",
+    "domain": "中国古代史",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第2单元 辽宋夏金元时期：民族关系发展和社会变化",
+    "type": "conceptual",
+    "description": "知道海上丝绸之路和宋元港口。",
+    "mastery_criteria": [
+      "能说出本课的时间、人物或地点",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "宋元时期海外贸易兴盛，重要港口有？",
+      "answer": "广州和泉州"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CA.06",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j035",
+    "name": "辽宋夏金元时期的科技与文化",
+    "domain": "中国古代史",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第2单元 辽宋夏金元时期：民族关系发展和社会变化",
+    "type": "conceptual",
+    "description": "知道活字印刷、指南针、火药和宋元文学。",
+    "mastery_criteria": [
+      "能说出本课的时间、人物或地点",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "发明活字印刷术的是？",
+      "answer": "毕昇"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CA.06",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j036",
+    "name": "明朝的统治",
+    "domain": "中国古代史",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第3单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+    "type": "conceptual",
+    "description": "知道明朝建立和君主权力的加强。",
+    "mastery_criteria": [
+      "能说出本课的时间、人物或地点",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "1368年建立明朝的是？",
+      "answer": "朱元璋"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CA.07",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j037",
+    "name": "明朝的对外关系",
+    "domain": "中国古代史",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第3单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+    "type": "conceptual",
+    "description": "知道郑和远航和戚继光抗倭。",
+    "mastery_criteria": [
+      "能说出本课的时间、人物或地点",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "1405年开始率领船队七次远航的是？",
+      "answer": "郑和"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CA.07",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j038",
+    "name": "明朝的灭亡和清朝的建立",
+    "domain": "中国古代史",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第3单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+    "type": "reasoning",
+    "description": "知道后金建立、清军入关和郑成功收复台湾。",
+    "mastery_criteria": [
+      "能说出本课的时间、人物或地点",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "1616年统一女真各部、建立后金的是？",
+      "answer": "努尔哈赤"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CA.07",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j039",
+    "name": "清朝的边疆治理",
+    "domain": "中国古代史",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第3单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+    "type": "conceptual",
+    "description": "知道清朝巩固边疆的措施。",
+    "mastery_criteria": [
+      "能说出本课的时间、人物或地点",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "1689年中俄签订的平等条约是？",
+      "answer": "《尼布楚条约》"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CA.07",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j040",
+    "name": "清朝君主专制的强化",
+    "domain": "中国古代史",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第3单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+    "type": "reasoning",
+    "description": "知道军机处和文字狱。",
+    "mastery_criteria": [
+      "能说出本课的时间、人物或地点",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "设立军机处的皇帝是？",
+      "answer": "雍正帝"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CA.07",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j041",
+    "name": "明清时期社会经济的发展",
+    "domain": "中国古代史",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第3单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+    "type": "conceptual",
+    "description": "知道明清农业、手工业和商业的发展。",
+    "mastery_criteria": [
+      "能说出本课的时间、人物或地点",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "明朝后期张居正推行的赋税改革是？",
+      "answer": "一条鞭法"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CA.07",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j042",
+    "name": "明清时期的科技与文化",
+    "domain": "中国古代史",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第3单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+    "type": "conceptual",
+    "description": "知道李时珍、宋应星、徐光启和明清小说。",
+    "mastery_criteria": [
+      "能说出本课的时间、人物或地点",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "《本草纲目》的作者是？",
+      "answer": "李时珍"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CA.07",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j043",
+    "name": "我国传统节日的起源与传承",
+    "domain": "中国古代史",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第3单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+    "type": "application",
+    "description": "知道主要传统节日的习俗及其由来。",
+    "mastery_criteria": [
+      "能说出本课的时间、人物或地点",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "端午节常见的习俗是？",
+      "answer": "吃粽子、赛龙舟"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CA.07",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j044",
+    "name": "鸦片战争",
+    "domain": "中国近代史",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第1单元 中国开始沦为半殖民地半封建社会",
+    "type": "reasoning",
+    "description": "知道虎门销烟、《南京条约》和鸦片战争的结果。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、条约或事件",
+      "能把原因和结果对应到教材中的史实"
+    ],
+    "diagnostic_question": {
+      "question": "1839年在虎门销毁鸦片的是？",
+      "answer": "林则徐"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CN.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j045",
+    "name": "第二次鸦片战争",
+    "domain": "中国近代史",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第1单元 中国开始沦为半殖民地半封建社会",
+    "type": "reasoning",
+    "description": "知道第二次鸦片战争和火烧圆明园。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、条约或事件",
+      "能把原因和结果对应到教材中的史实"
+    ],
+    "diagnostic_question": {
+      "question": "1856年到1860年发动第二次鸦片战争的主要国家是？",
+      "answer": "英国和法国"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CN.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j046",
+    "name": "太平天国运动",
+    "domain": "中国近代史",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第1单元 中国开始沦为半殖民地半封建社会",
+    "type": "conceptual",
+    "description": "知道金田起义、定都天京和天京事变。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、条约或事件",
+      "能把原因和结果对应到教材中的史实"
+    ],
+    "diagnostic_question": {
+      "question": "1851年洪秀全在哪里发动起义？",
+      "answer": "金田"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CN.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j047",
+    "name": "洋务运动和边疆危机",
+    "domain": "中国近代史",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第2单元 早期现代化的初步探索和民族危机加剧",
+    "type": "conceptual",
+    "description": "知道洋务运动的口号、企业和新疆建省。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、条约或事件",
+      "能把原因和结果对应到教材中的史实"
+    ],
+    "diagnostic_question": {
+      "question": "洋务派前期提出的口号是？",
+      "answer": "自强"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CN.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j048",
+    "name": "甲午中日战争与列强瓜分中国狂潮",
+    "domain": "中国近代史",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第2单元 早期现代化的初步探索和民族危机加剧",
+    "type": "reasoning",
+    "description": "知道黄海海战和《马关条约》。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、条约或事件",
+      "能把原因和结果对应到教材中的史实"
+    ],
+    "diagnostic_question": {
+      "question": "甲午中日战争爆发于？",
+      "answer": "1894年"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CN.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j049",
+    "name": "戊戌变法",
+    "domain": "中国近代史",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第2单元 早期现代化的初步探索和民族危机加剧",
+    "type": "conceptual",
+    "description": "知道公车上书和戊戌变法的基本史实。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、条约或事件",
+      "能把原因和结果对应到教材中的史实"
+    ],
+    "diagnostic_question": {
+      "question": "1895年康有为、梁启超领导的上书是？",
+      "answer": "公车上书"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CN.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j050",
+    "name": "义和团运动和八国联军侵华",
+    "domain": "中国近代史",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第2单元 早期现代化的初步探索和民族危机加剧",
+    "type": "conceptual",
+    "description": "知道义和团运动和《辛丑条约》。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、条约或事件",
+      "能把原因和结果对应到教材中的史实"
+    ],
+    "diagnostic_question": {
+      "question": "1900年侵华的八国联军以哪国军官为统帅？",
+      "answer": "德国"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CN.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j051",
+    "name": "中国同盟会",
+    "domain": "中国近代史",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第3单元 资产阶级民主革命与中华民国的建立",
+    "type": "conceptual",
+    "description": "知道兴中会、同盟会和三民主义。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、条约或事件",
+      "能把原因和结果对应到教材中的史实"
+    ],
+    "diagnostic_question": {
+      "question": "1894年孙中山在檀香山建立的团体是？",
+      "answer": "兴中会"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CN.02",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j052",
+    "name": "辛亥革命",
+    "domain": "中国近代史",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第3单元 资产阶级民主革命与中华民国的建立",
+    "type": "reasoning",
+    "description": "知道武昌起义和中华民国成立。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、条约或事件",
+      "能把原因和结果对应到教材中的史实"
+    ],
+    "diagnostic_question": {
+      "question": "1911年10月10日爆发的起义是？",
+      "answer": "武昌起义"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CN.02",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j053",
+    "name": "帝制复辟与军阀割据",
+    "domain": "中国近代史",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第3单元 资产阶级民主革命与中华民国的建立",
+    "type": "conceptual",
+    "description": "知道袁世凯称帝、张勋复辟和军阀割据。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、条约或事件",
+      "能把原因和结果对应到教材中的史实"
+    ],
+    "diagnostic_question": {
+      "question": "1915年底袁世凯复辟帝制，年号是？",
+      "answer": "洪宪"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CN.02",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j054",
+    "name": "五四运动",
+    "domain": "中国近代史",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第4单元 新民主主义革命的兴起",
+    "type": "conceptual",
+    "description": "知道巴黎和会与五四运动。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、条约或事件",
+      "能把原因和结果对应到教材中的史实"
+    ],
+    "diagnostic_question": {
+      "question": "五四运动爆发于？",
+      "answer": "1919年5月4日"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CN.02",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j055",
+    "name": "中国共产党诞生",
+    "domain": "中国近代史",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第4单元 新民主主义革命的兴起",
+    "type": "reasoning",
+    "description": "知道中共一大和党的成立。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、条约或事件",
+      "能把原因和结果对应到教材中的史实"
+    ],
+    "diagnostic_question": {
+      "question": "中共一大开幕的地点是？",
+      "answer": "上海"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CN.02",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j056",
+    "name": "国共合作与北伐战争",
+    "domain": "中国近代史",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第5单元 从国共合作到农村革命根据地的建立",
+    "type": "conceptual",
+    "description": "知道国民党一大、黄埔军校和北伐。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、条约或事件",
+      "能把原因和结果对应到教材中的史实"
+    ],
+    "diagnostic_question": {
+      "question": "1924年标志着国共第一次合作正式形成的会议是？",
+      "answer": "国民党一大"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CN.02",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j057",
+    "name": "毛泽东开辟井冈山道路",
+    "domain": "中国近代史",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第5单元 从国共合作到农村革命根据地的建立",
+    "type": "reasoning",
+    "description": "知道南昌起义、秋收起义和井冈山会师。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、条约或事件",
+      "能把原因和结果对应到教材中的史实"
+    ],
+    "diagnostic_question": {
+      "question": "1927年8月1日爆发的起义是？",
+      "answer": "南昌起义"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CN.02",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j058",
+    "name": "中国工农红军长征与遵义会议",
+    "domain": "中国近代史",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第5单元 从国共合作到农村革命根据地的建立",
+    "type": "reasoning",
+    "description": "知道长征的起止和遵义会议。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、条约或事件",
+      "能把原因和结果对应到教材中的史实"
+    ],
+    "diagnostic_question": {
+      "question": "1934年10月中央红军开始长征的出发地是？",
+      "answer": "瑞金"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CN.02",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j059",
+    "name": "从九一八事变到西安事变",
+    "domain": "中国近代史",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第6单元 中华民族的抗日战争",
+    "type": "conceptual",
+    "description": "知道九一八事变和西安事变。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、条约或事件",
+      "能把原因和结果对应到教材中的史实"
+    ],
+    "diagnostic_question": {
+      "question": "1931年9月18日日本炸毁柳条湖一段铁路，随即进攻？",
+      "answer": "沈阳北大营"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CN.03",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j060",
+    "name": "七七事变与全民族抗战",
+    "domain": "中国近代史",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第6单元 中华民族的抗日战争",
+    "type": "reasoning",
+    "description": "知道七七事变、淞沪会战和南京大屠杀。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、条约或事件",
+      "能把原因和结果对应到教材中的史实"
+    ],
+    "diagnostic_question": {
+      "question": "1937年7月7日日本进攻宛平城，这一事件称为？",
+      "answer": "七七事变"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CN.03",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j061",
+    "name": "全民族抗战中的正面战场和敌后战场",
+    "domain": "中国近代史",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第6单元 中华民族的抗日战争",
+    "type": "conceptual",
+    "description": "知道两个战场的代表性战役。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、条约或事件",
+      "能把原因和结果对应到教材中的史实"
+    ],
+    "diagnostic_question": {
+      "question": "1937年9月林彪率领的平型关大捷属于？",
+      "answer": "敌后战场的伏击战"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CN.03",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j062",
+    "name": "抗日战争的胜利",
+    "domain": "中国近代史",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第6单元 中华民族的抗日战争",
+    "type": "conceptual",
+    "description": "知道日本投降和台湾光复。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、条约或事件",
+      "能把原因和结果对应到教材中的史实"
+    ],
+    "diagnostic_question": {
+      "question": "1945年8月15日发生的事情是？",
+      "answer": "日本天皇宣布无条件投降"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CN.03",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j063",
+    "name": "国民党挑起内战",
+    "domain": "中国近代史",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第7单元 人民解放战争",
+    "type": "conceptual",
+    "description": "知道重庆谈判和全面内战爆发。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、条约或事件",
+      "能把原因和结果对应到教材中的史实"
+    ],
+    "diagnostic_question": {
+      "question": "1945年毛泽东赴重庆谈判，签订的文件是？",
+      "answer": "双十协定"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CN.03",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j064",
+    "name": "人民解放战争的胜利",
+    "domain": "中国近代史",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第7单元 人民解放战争",
+    "type": "reasoning",
+    "description": "知道挺进大别山、三大战役和渡江战役。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、条约或事件",
+      "能把原因和结果对应到教材中的史实"
+    ],
+    "diagnostic_question": {
+      "question": "1947年夏，刘伯承、邓小平率军挺进的地区是？",
+      "answer": "大别山"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CN.03",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j065",
+    "name": "探寻红色文化的历史基因",
+    "domain": "中国近代史",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第7单元 人民解放战争",
+    "type": "application",
+    "description": "知道用红色遗址和文物了解革命史实的方法。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、条约或事件",
+      "能把原因和结果对应到教材中的史实"
+    ],
+    "diagnostic_question": {
+      "question": "探寻红色文化，应当把遗址放回？",
+      "answer": "具体的历史事件中去理解"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CN.03",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j066",
+    "name": "中华人民共和国成立",
+    "domain": "中国现代史",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第1单元 中华人民共和国成立和社会主义制度建立",
+    "type": "conceptual",
+    "description": "知道政协会议、开国大典和西藏和平解放。",
+    "mastery_criteria": [
+      "能说出本课的关键年代和基本史实",
+      "能把政策或事件与教材中的时间对应起来"
+    ],
+    "diagnostic_question": {
+      "question": "1949年9月中国人民政治协商会议通过的文件是？",
+      "answer": "《中国人民政治协商会议共同纲领》"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j067",
+    "name": "巩固人民民主政权",
+    "domain": "中国现代史",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第1单元 中华人民共和国成立和社会主义制度建立",
+    "type": "conceptual",
+    "description": "知道抗美援朝和土地改革。",
+    "mastery_criteria": [
+      "能说出本课的关键年代和基本史实",
+      "能把政策或事件与教材中的时间对应起来"
+    ],
+    "diagnostic_question": {
+      "question": "1950年10月中国人民志愿军赴朝作战，司令员是？",
+      "answer": "彭德怀"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j068",
+    "name": "社会主义制度建立",
+    "domain": "中国现代史",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第1单元 中华人民共和国成立和社会主义制度建立",
+    "type": "reasoning",
+    "description": "知道一五计划、三大改造和1954年宪法。",
+    "mastery_criteria": [
+      "能说出本课的关键年代和基本史实",
+      "能把政策或事件与教材中的时间对应起来"
+    ],
+    "diagnostic_question": {
+      "question": "第一个五年计划的时间是？",
+      "answer": "1953年到1957年"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j069",
+    "name": "独立自主的和平外交",
+    "domain": "中国现代史",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第1单元 中华人民共和国成立和社会主义制度建立",
+    "type": "conceptual",
+    "description": "知道和平共处五项原则和万隆会议。",
+    "mastery_criteria": [
+      "能说出本课的关键年代和基本史实",
+      "能把政策或事件与教材中的时间对应起来"
+    ],
+    "diagnostic_question": {
+      "question": "1953年底周恩来首次提出和平共处五项原则，是在接见哪国代表团时？",
+      "answer": "印度"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j070",
+    "name": "艰辛探索与曲折发展",
+    "domain": "中国现代史",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第2单元 社会主义建设道路的探索",
+    "type": "conceptual",
+    "description": "知道探索中的失误和文化大革命的起止时间。",
+    "mastery_criteria": [
+      "能说出本课的关键年代和基本史实",
+      "能把政策或事件与教材中的时间对应起来"
+    ],
+    "diagnostic_question": {
+      "question": "1958年提出的建设口号和运动包括？",
+      "answer": "总路线、大跃进、人民公社化运动"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j071",
+    "name": "社会主义建设的巨大成就和先锋模范",
+    "domain": "中国现代史",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第2单元 社会主义建设道路的探索",
+    "type": "conceptual",
+    "description": "知道建设成就和焦裕禄、王进喜、邓稼先等人物。",
+    "mastery_criteria": [
+      "能说出本课的关键年代和基本史实",
+      "能把政策或事件与教材中的时间对应起来"
+    ],
+    "diagnostic_question": {
+      "question": "在兰考带领群众治理风沙的县委书记是？",
+      "answer": "焦裕禄"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j072",
+    "name": "国防现代化起步和外交工作新突破",
+    "domain": "中国现代史",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第2单元 社会主义建设道路的探索",
+    "type": "conceptual",
+    "description": "知道两弹一星和20世纪70年代的外交突破。",
+    "mastery_criteria": [
+      "能说出本课的关键年代和基本史实",
+      "能把政策或事件与教材中的时间对应起来"
+    ],
+    "diagnostic_question": {
+      "question": "我国第一颗原子弹爆炸成功是在？",
+      "answer": "1964年"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j073",
+    "name": "伟大的历史转折",
+    "domain": "中国现代史",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第3单元 改革开放与中国特色社会主义的开创",
+    "type": "reasoning",
+    "description": "知道十一届三中全会。",
+    "mastery_criteria": [
+      "能说出本课的关键年代和基本史实",
+      "能把政策或事件与教材中的时间对应起来"
+    ],
+    "diagnostic_question": {
+      "question": "十一届三中全会召开于？",
+      "answer": "1978年12月"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CM.02",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j074",
+    "name": "改革开放的起步",
+    "domain": "中国现代史",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第3单元 改革开放与中国特色社会主义的开创",
+    "type": "conceptual",
+    "description": "知道家庭联产承包责任制和经济特区。",
+    "mastery_criteria": [
+      "能说出本课的关键年代和基本史实",
+      "能把政策或事件与教材中的时间对应起来"
+    ],
+    "diagnostic_question": {
+      "question": "家庭联产承包责任制最早在安徽得到突破的村子是？",
+      "answer": "凤阳小岗村"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CM.02",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j075",
+    "name": "改革开放和社会主义现代化建设的全面展开",
+    "domain": "中国现代史",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第3单元 改革开放与中国特色社会主义的开创",
+    "type": "conceptual",
+    "description": "知道沿海开放城市和改革从农村推向城市。",
+    "mastery_criteria": [
+      "能说出本课的关键年代和基本史实",
+      "能把政策或事件与教材中的时间对应起来"
+    ],
+    "diagnostic_question": {
+      "question": "1984年进一步开放的是？",
+      "answer": "14个沿海港口城市"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CM.02",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j076",
+    "name": "社会主义初级阶段基本路线",
+    "domain": "中国现代史",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第3单元 改革开放与中国特色社会主义的开创",
+    "type": "conceptual",
+    "description": "知道党的十三大和基本路线。",
+    "mastery_criteria": [
+      "能说出本课的关键年代和基本史实",
+      "能把政策或事件与教材中的时间对应起来"
+    ],
+    "diagnostic_question": {
+      "question": "提出社会主义初级阶段基本路线的会议是？",
+      "answer": "中共十三大"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CM.02",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j077",
+    "name": "加快改革开放和社会主义现代化建设步伐",
+    "domain": "中国现代史",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第4单元 中国特色社会主义迈向21世纪",
+    "type": "reasoning",
+    "description": "知道南方谈话和中共十四大。",
+    "mastery_criteria": [
+      "能说出本课的关键年代和基本史实",
+      "能把政策或事件与教材中的时间对应起来"
+    ],
+    "diagnostic_question": {
+      "question": "1992年邓小平视察南方并发表谈话，强调？",
+      "answer": "计划和市场都是经济手段"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CM.02",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j078",
+    "name": "中国特色社会主义事业取得新成就",
+    "domain": "中国现代史",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第4单元 中国特色社会主义迈向21世纪",
+    "type": "conceptual",
+    "description": "知道十五大、香港回归和澳门回归。",
+    "mastery_criteria": [
+      "能说出本课的关键年代和基本史实",
+      "能把政策或事件与教材中的时间对应起来"
+    ],
+    "diagnostic_question": {
+      "question": "1997年中共十五大把什么确立为党的指导思想？",
+      "answer": "邓小平理论"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CM.02",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j079",
+    "name": "国防和外交工作新局面",
+    "domain": "中国现代史",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第4单元 中国特色社会主义迈向21世纪",
+    "type": "conceptual",
+    "description": "知道新时期的军队建设和大国外交进展。",
+    "mastery_criteria": [
+      "能说出本课的关键年代和基本史实",
+      "能把政策或事件与教材中的时间对应起来"
+    ],
+    "diagnostic_question": {
+      "question": "1997年7月1日进驻香港的是？",
+      "answer": "中国人民解放军驻香港部队"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CM.02",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j080",
+    "name": "开始全面建设小康社会",
+    "domain": "中国现代史",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第5单元 在新形势下坚持和发展中国特色社会主义",
+    "type": "conceptual",
+    "description": "知道加入世贸组织和中共十六大。",
+    "mastery_criteria": [
+      "能说出本课的关键年代和基本史实",
+      "能把政策或事件与教材中的时间对应起来"
+    ],
+    "diagnostic_question": {
+      "question": "中国加入世界贸易组织是在？",
+      "answer": "2001年"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CM.02",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j081",
+    "name": "夺取全面建设小康社会新胜利",
+    "domain": "中国现代史",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第5单元 在新形势下坚持和发展中国特色社会主义",
+    "type": "conceptual",
+    "description": "知道科学发展观和这一时期的重大成就。",
+    "mastery_criteria": [
+      "能说出本课的关键年代和基本史实",
+      "能把政策或事件与教材中的时间对应起来"
+    ],
+    "diagnostic_question": {
+      "question": "2007年中共十七大把什么写入党章？",
+      "answer": "科学发展观"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CM.02",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j082",
+    "name": "推进国防军队建设和外交工作",
+    "domain": "中国现代史",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第5单元 在新形势下坚持和发展中国特色社会主义",
+    "type": "conceptual",
+    "description": "知道新世纪国防和外交的重要举措。",
+    "mastery_criteria": [
+      "能说出本课的关键年代和基本史实",
+      "能把政策或事件与教材中的时间对应起来"
+    ],
+    "diagnostic_question": {
+      "question": "2008年12月起，中国海军在哪一海域护航？",
+      "answer": "亚丁湾、索马里海域"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CM.02",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j083",
+    "name": "擘画中国梦宏伟蓝图",
+    "domain": "中国现代史",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第6单元 中国特色社会主义进入新时代",
+    "type": "conceptual",
+    "description": "知道中共十八大和中国梦。",
+    "mastery_criteria": [
+      "能说出本课的关键年代和基本史实",
+      "能把政策或事件与教材中的时间对应起来"
+    ],
+    "diagnostic_question": {
+      "question": "中共十八大召开于？",
+      "answer": "2012年"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CM.03",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j084",
+    "name": "决胜全面建成小康社会",
+    "domain": "中国现代史",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第6单元 中国特色社会主义进入新时代",
+    "type": "reasoning",
+    "description": "知道脱贫攻坚和中共十九大。",
+    "mastery_criteria": [
+      "能说出本课的关键年代和基本史实",
+      "能把政策或事件与教材中的时间对应起来"
+    ],
+    "diagnostic_question": {
+      "question": "中共十九大召开于？",
+      "answer": "2017年"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CM.03",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j085",
+    "name": "维护国家安全和推进祖国统一",
+    "domain": "中国现代史",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第6单元 中国特色社会主义进入新时代",
+    "type": "conceptual",
+    "description": "知道总体国家安全观和祖国统一的方针。",
+    "mastery_criteria": [
+      "能说出本课的关键年代和基本史实",
+      "能把政策或事件与教材中的时间对应起来"
+    ],
+    "diagnostic_question": {
+      "question": "2005年全国人民代表大会通过的相关法律是？",
+      "answer": "《反分裂国家法》"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CM.03",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j086",
+    "name": "构建人类命运共同体与中国特色大国外交",
+    "domain": "中国现代史",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第6单元 中国特色社会主义进入新时代",
+    "type": "conceptual",
+    "description": "知道一带一路和人类命运共同体。",
+    "mastery_criteria": [
+      "能说出本课的关键年代和基本史实",
+      "能把政策或事件与教材中的时间对应起来"
+    ],
+    "diagnostic_question": {
+      "question": "2013年提出的国际合作设想是？",
+      "answer": "丝绸之路经济带和21世纪海上丝绸之路"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CM.03",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j087",
+    "name": "实现第一个百年奋斗目标",
+    "domain": "中国现代史",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第7单元 全面建设社会主义现代化国家",
+    "type": "conceptual",
+    "description": "知道全面建成小康社会和建党一百年。",
+    "mastery_criteria": [
+      "能说出本课的关键年代和基本史实",
+      "能把政策或事件与教材中的时间对应起来"
+    ],
+    "diagnostic_question": {
+      "question": "第一个百年奋斗目标实现的时间节点是？",
+      "answer": "2021年中国共产党成立100年"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CM.03",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j088",
+    "name": "开启全面建设社会主义现代化国家新征程",
+    "domain": "中国现代史",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第7单元 全面建设社会主义现代化国家",
+    "type": "reasoning",
+    "description": "知道中国式现代化和新征程的目标。",
+    "mastery_criteria": [
+      "能说出本课的关键年代和基本史实",
+      "能把政策或事件与教材中的时间对应起来"
+    ],
+    "diagnostic_question": {
+      "question": "中共二十大提出以什么全面推进中华民族伟大复兴？",
+      "answer": "中国式现代化"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CM.03",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j089",
+    "name": "新时代社会生活的巨大变化",
+    "domain": "中国现代史",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第7单元 全面建设社会主义现代化国家",
+    "type": "application",
+    "description": "知道从衣食住行的变化认识时代。",
+    "mastery_criteria": [
+      "能说出本课的关键年代和基本史实",
+      "能把政策或事件与教材中的时间对应起来"
+    ],
+    "diagnostic_question": {
+      "question": "观察新时代社会生活，可以从哪些方面入手？",
+      "answer": "交通、通信、居住和消费方式"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:CM.03",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j090",
+    "name": "从原始社会到奴隶社会",
+    "domain": "世界古代史",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第1单元 文明的产生和古代亚非文明",
+    "type": "conceptual",
+    "description": "知道早期人类和奴隶社会产生的基本标志。",
+    "mastery_criteria": [
+      "能说出本课的文明、人物或制度",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "目前所知最早的人类化石主要发现于？",
+      "answer": "非洲"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:WA.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j091",
+    "name": "古代两河流域",
+    "domain": "世界古代史",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第1单元 文明的产生和古代亚非文明",
+    "type": "conceptual",
+    "description": "知道古巴比伦和《汉谟拉比法典》。",
+    "mastery_criteria": [
+      "能说出本课的文明、人物或制度",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "两河是指？",
+      "answer": "幼发拉底河和底格里斯河"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:WA.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j092",
+    "name": "古代埃及",
+    "domain": "世界古代史",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第1单元 文明的产生和古代亚非文明",
+    "type": "conceptual",
+    "description": "知道古埃及的统一、金字塔和象形文字。",
+    "mastery_criteria": [
+      "能说出本课的文明、人物或制度",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "古埃及文明发源于？",
+      "answer": "尼罗河流域"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:WA.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j093",
+    "name": "古代印度",
+    "domain": "世界古代史",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第1单元 文明的产生和古代亚非文明",
+    "type": "conceptual",
+    "description": "知道种姓制度和佛教的产生。",
+    "mastery_criteria": [
+      "能说出本课的文明、人物或制度",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "古代印度种姓制度中居于首位的是？",
+      "answer": "婆罗门"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:WA.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j094",
+    "name": "古代希腊",
+    "domain": "世界古代史",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第2单元 古代欧洲文明",
+    "type": "conceptual",
+    "description": "知道雅典民主政治和亚历山大东征。",
+    "mastery_criteria": [
+      "能说出本课的文明、人物或制度",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "公元前5世纪雅典民主政治达到高峰，与哪位执政者有关？",
+      "answer": "伯里克利"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:WA.02",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j095",
+    "name": "古代罗马",
+    "domain": "世界古代史",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第2单元 古代欧洲文明",
+    "type": "conceptual",
+    "description": "知道罗马共和国、罗马帝国和西罗马帝国灭亡。",
+    "mastery_criteria": [
+      "能说出本课的文明、人物或制度",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "公元前509年，罗马建立？",
+      "answer": "共和国"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:WA.02",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j096",
+    "name": "法兰克王国和西欧封建制度",
+    "domain": "世界古代史",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第3单元 封建时代的欧洲",
+    "type": "conceptual",
+    "description": "知道法兰克王国、封君封臣和查理曼帝国的分裂。",
+    "mastery_criteria": [
+      "能说出本课的文明、人物或制度",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "481年建立法兰克王国的是？",
+      "answer": "克洛维"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:WA.02",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j097",
+    "name": "西欧的城市和大学",
+    "domain": "世界古代史",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第3单元 封建时代的欧洲",
+    "type": "conceptual",
+    "description": "知道西欧城市自治和大学的兴起。",
+    "mastery_criteria": [
+      "能说出本课的文明、人物或制度",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "10世纪以后西欧城市争取自治，常用的方式是？",
+      "answer": "金钱赎买和武力斗争"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:WA.02",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j098",
+    "name": "拜占庭帝国",
+    "domain": "世界古代史",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第3单元 封建时代的欧洲",
+    "type": "conceptual",
+    "description": "知道拜占庭帝国的兴衰和1453年的灭亡。",
+    "mastery_criteria": [
+      "能说出本课的文明、人物或制度",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "拜占庭帝国的都城是？",
+      "answer": "君士坦丁堡"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:WA.02",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j099",
+    "name": "封建时代的日本",
+    "domain": "世界古代史",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第4单元 中古时期的亚洲、非洲和美洲",
+    "type": "conceptual",
+    "description": "知道大化改新和幕府统治。",
+    "mastery_criteria": [
+      "能说出本课的文明、人物或制度",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "646年开始的日本改革是？",
+      "answer": "大化改新"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:WA.02",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j100",
+    "name": "阿拉伯帝国",
+    "domain": "世界古代史",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第4单元 中古时期的亚洲、非洲和美洲",
+    "type": "conceptual",
+    "description": "知道伊斯兰教的创立和阿拉伯帝国的扩张。",
+    "mastery_criteria": [
+      "能说出本课的文明、人物或制度",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "7世纪初创立伊斯兰教的是？",
+      "answer": "穆罕默德"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:WA.02",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j101",
+    "name": "中古时期的非洲和美洲",
+    "domain": "世界古代史",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第4单元 中古时期的亚洲、非洲和美洲",
+    "type": "conceptual",
+    "description": "知道加纳等非洲古国和玛雅、阿兹特克、印加。",
+    "mastery_criteria": [
+      "能说出本课的文明、人物或制度",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "中古西非相继兴起的古国有？",
+      "answer": "加纳、马里、桑海"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:WA.02",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j102",
+    "name": "西欧经济社会发展与文艺复兴运动",
+    "domain": "世界近代史",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第5单元 走向近代",
+    "type": "conceptual",
+    "description": "知道文艺复兴的发源地和代表人物。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、人物或文件",
+      "能把事件与结果对应到教材中的史实"
+    ],
+    "diagnostic_question": {
+      "question": "文艺复兴开始于？",
+      "answer": "14世纪的意大利"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:WN.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j103",
+    "name": "探寻新航路",
+    "domain": "世界近代史",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第5单元 走向近代",
+    "type": "reasoning",
+    "description": "知道迪亚士、哥伦布、达·伽马和麦哲伦船队。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、人物或文件",
+      "能把事件与结果对应到教材中的史实"
+    ],
+    "diagnostic_question": {
+      "question": "1487年迪亚士到达？",
+      "answer": "非洲好望角"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:WN.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j104",
+    "name": "早期殖民掠夺",
+    "domain": "世界近代史",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第5单元 走向近代",
+    "type": "conceptual",
+    "description": "知道新航路开辟后的早期殖民和三角贸易。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、人物或文件",
+      "能把事件与结果对应到教材中的史实"
+    ],
+    "diagnostic_question": {
+      "question": "最早进行殖民扩张的国家是？",
+      "answer": "西班牙和葡萄牙"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:WN.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j105",
+    "name": "英国资产阶级革命",
+    "domain": "世界近代史",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第6单元 资本主义制度的初步确立",
+    "type": "conceptual",
+    "description": "知道英国革命的开始、光荣革命和《权利法案》。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、人物或文件",
+      "能把事件与结果对应到教材中的史实"
+    ],
+    "diagnostic_question": {
+      "question": "1640年英国资产阶级革命开始的标志是？",
+      "answer": "议会重新召开"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:WN.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j106",
+    "name": "美国的独立",
+    "domain": "世界近代史",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第6单元 资本主义制度的初步确立",
+    "type": "conceptual",
+    "description": "知道独立战争、《独立宣言》和1787年宪法。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、人物或文件",
+      "能把事件与结果对应到教材中的史实"
+    ],
+    "diagnostic_question": {
+      "question": "1775年来克星顿枪声标志？",
+      "answer": "美国独立战争开始"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:WN.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j107",
+    "name": "法国大革命和拿破仑帝国",
+    "domain": "世界近代史",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第6单元 资本主义制度的初步确立",
+    "type": "reasoning",
+    "description": "知道法国大革命的开始和拿破仑帝国。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、人物或文件",
+      "能把事件与结果对应到教材中的史实"
+    ],
+    "diagnostic_question": {
+      "question": "1789年7月14日巴黎人民攻占？",
+      "answer": "巴士底狱"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:WN.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j108",
+    "name": "第一次工业革命",
+    "domain": "世界近代史",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第7单元 第一次工业革命和马克思主义的诞生",
+    "type": "conceptual",
+    "description": "知道珍妮机、改良蒸汽机和火车。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、人物或文件",
+      "能把事件与结果对应到教材中的史实"
+    ],
+    "diagnostic_question": {
+      "question": "1765年哈格里夫斯发明的机器是？",
+      "answer": "珍妮机"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:WN.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j109",
+    "name": "马克思主义的诞生",
+    "domain": "世界近代史",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第7单元 第一次工业革命和马克思主义的诞生",
+    "type": "reasoning",
+    "description": "知道《共产党宣言》发表的时间和作者。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、人物或文件",
+      "能把事件与结果对应到教材中的史实"
+    ],
+    "diagnostic_question": {
+      "question": "1848年发表的文献是？",
+      "answer": "《共产党宣言》"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:WN.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j110",
+    "name": "第一国际和巴黎公社",
+    "domain": "世界近代史",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第7单元 第一次工业革命和马克思主义的诞生",
+    "type": "conceptual",
+    "description": "知道第一国际的成立和巴黎公社。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、人物或文件",
+      "能把事件与结果对应到教材中的史实"
+    ],
+    "diagnostic_question": {
+      "question": "1864年成立的国际工人组织是？",
+      "answer": "第一国际"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:WN.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j111",
+    "name": "唱响“国际歌”",
+    "domain": "世界近代史",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第7单元 第一次工业革命和马克思主义的诞生",
+    "type": "application",
+    "description": "知道《国际歌》与巴黎公社的关系。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、人物或文件",
+      "能把事件与结果对应到教材中的史实"
+    ],
+    "diagnostic_question": {
+      "question": "《国际歌》的词作者是？",
+      "answer": "欧仁·鲍狄埃"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:WN.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j112",
+    "name": "殖民地人民的反抗斗争",
+    "domain": "世界近代史",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第1单元 殖民地人民的反抗与资本主义制度的扩展",
+    "type": "conceptual",
+    "description": "知道拉丁美洲独立运动和印度民族大起义。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、人物或文件",
+      "能把事件与结果对应到教材中的史实"
+    ],
+    "diagnostic_question": {
+      "question": "19世纪初领导西属拉丁美洲独立的北部领导人是？",
+      "answer": "玻利瓦尔"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:WN.02",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j113",
+    "name": "俄国的改革",
+    "domain": "世界近代史",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第1单元 殖民地人民的反抗与资本主义制度的扩展",
+    "type": "conceptual",
+    "description": "知道1861年俄国农奴制改革。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、人物或文件",
+      "能把事件与结果对应到教材中的史实"
+    ],
+    "diagnostic_question": {
+      "question": "1861年签署废除农奴制法令的沙皇是？",
+      "answer": "亚历山大二世"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:WN.02",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j114",
+    "name": "美国内战",
+    "domain": "世界近代史",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第1单元 殖民地人民的反抗与资本主义制度的扩展",
+    "type": "reasoning",
+    "description": "知道南北战争和林肯的两项法令。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、人物或文件",
+      "能把事件与结果对应到教材中的史实"
+    ],
+    "diagnostic_question": {
+      "question": "美国内战爆发于？",
+      "answer": "1861年"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:WN.02",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j115",
+    "name": "日本明治维新",
+    "domain": "世界近代史",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第1单元 殖民地人民的反抗与资本主义制度的扩展",
+    "type": "conceptual",
+    "description": "知道明治维新的时间和主要措施。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、人物或文件",
+      "能把事件与结果对应到教材中的史实"
+    ],
+    "diagnostic_question": {
+      "question": "明治维新开始于？",
+      "answer": "1868年"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:WN.02",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j116",
+    "name": "第二次工业革命",
+    "domain": "世界近代史",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第2单元 第二次工业革命和近代科学文化",
+    "type": "conceptual",
+    "description": "知道电力、内燃机、汽车和飞机。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、人物或文件",
+      "能把事件与结果对应到教材中的史实"
+    ],
+    "diagnostic_question": {
+      "question": "第二次工业革命开始于？",
+      "answer": "19世纪六七十年代"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:WN.02",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j117",
+    "name": "工业化国家的社会变化",
+    "domain": "世界近代史",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第2单元 第二次工业革命和近代科学文化",
+    "type": "conceptual",
+    "description": "知道工业化带来的社会变化。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、人物或文件",
+      "能把事件与结果对应到教材中的史实"
+    ],
+    "diagnostic_question": {
+      "question": "第二次工业革命后，主要资本主义国家出现了？",
+      "answer": "垄断组织"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:WN.02",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j118",
+    "name": "近代科学与文化",
+    "domain": "世界近代史",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第2单元 第二次工业革命和近代科学文化",
+    "type": "conceptual",
+    "description": "知道达尔文进化论和爱因斯坦相对论。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、人物或文件",
+      "能把事件与结果对应到教材中的史实"
+    ],
+    "diagnostic_question": {
+      "question": "1859年出版《物种起源》的是？",
+      "answer": "达尔文"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:WN.02",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j119",
+    "name": "第一次世界大战",
+    "domain": "世界现代史",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第3单元 第一次世界大战和战后初期的世界",
+    "type": "reasoning",
+    "description": "知道萨拉热窝事件和第一次世界大战的双方。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、组织或事件",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "1914年6月萨拉热窝事件中被刺杀的是？",
+      "answer": "奥匈帝国皇储斐迪南大公"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:WM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j120",
+    "name": "列宁与十月革命",
+    "domain": "世界现代史",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第3单元 第一次世界大战和战后初期的世界",
+    "type": "conceptual",
+    "description": "知道二月革命和十月革命。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、组织或事件",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "1917年3月俄国二月革命推翻的是？",
+      "answer": "沙皇专制"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:WM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j121",
+    "name": "《凡尔赛条约》和《九国公约》",
+    "domain": "世界现代史",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第3单元 第一次世界大战和战后初期的世界",
+    "type": "conceptual",
+    "description": "知道巴黎和会、华盛顿会议和战后秩序。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、组织或事件",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "1919年巴黎和会与德国签订的条约是？",
+      "answer": "《凡尔赛条约》"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:WM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j122",
+    "name": "苏联的社会主义建设",
+    "domain": "世界现代史",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第3单元 第一次世界大战和战后初期的世界",
+    "type": "conceptual",
+    "description": "知道新经济政策、苏联成立和五年计划。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、组织或事件",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "1921年苏俄开始实行？",
+      "answer": "新经济政策"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:WM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j123",
+    "name": "亚非拉民族民主运动的高涨",
+    "domain": "世界现代史",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第3单元 第一次世界大战和战后初期的世界",
+    "type": "conceptual",
+    "description": "知道甘地的非暴力不合作和这一时期的民族运动。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、组织或事件",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "印度非暴力不合作运动的领导人是？",
+      "answer": "甘地"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:WM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j124",
+    "name": "罗斯福新政",
+    "domain": "世界现代史",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第4单元 经济大危机和第二次世界大战",
+    "type": "conceptual",
+    "description": "知道1929年经济大危机和新政的内容。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、组织或事件",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "资本主义世界经济大危机开始于？",
+      "answer": "1929年"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:WM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j125",
+    "name": "法西斯国家的侵略扩张",
+    "domain": "世界现代史",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第4单元 经济大危机和第二次世界大战",
+    "type": "reasoning",
+    "description": "知道德意日法西斯化和慕尼黑协定。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、组织或事件",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "1922年在意大利建立法西斯政权的是？",
+      "answer": "墨索里尼"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:WM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j126",
+    "name": "第二次世界大战",
+    "domain": "世界现代史",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第4单元 经济大危机和第二次世界大战",
+    "type": "conceptual",
+    "description": "知道二战的爆发、转折和结束。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、组织或事件",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "1939年9月1日德国突袭波兰，标志？",
+      "answer": "第二次世界大战全面爆发"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:WM.01",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j127",
+    "name": "冷战",
+    "domain": "世界现代史",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第5单元 二战后的世界变化",
+    "type": "reasoning",
+    "description": "知道杜鲁门主义、北约和华约。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、组织或事件",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "1947年杜鲁门主义出台，通常被看作？",
+      "answer": "冷战开始的标志"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:WM.02",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j128",
+    "name": "二战后资本主义的新变化",
+    "domain": "世界现代史",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第5单元 二战后的世界变化",
+    "type": "conceptual",
+    "description": "知道欧洲联合和福利国家。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、组织或事件",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "1967年成立的欧洲共同体，后来发展为？",
+      "answer": "欧洲联盟"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:WM.02",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j129",
+    "name": "社会主义的发展与挫折",
+    "domain": "世界现代史",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第5单元 二战后的世界变化",
+    "type": "conceptual",
+    "description": "知道东欧剧变和苏联解体的时间。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、组织或事件",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "1991年发生的事情是？",
+      "answer": "苏联解体"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:WM.02",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j130",
+    "name": "亚非拉国家的新发展",
+    "domain": "世界现代史",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第5单元 二战后的世界变化",
+    "type": "conceptual",
+    "description": "知道印度独立、南非种族隔离制度的结束和拉美国家维护主权。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、组织或事件",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "1947年印度和巴基斯坦分治，印度领导人是？",
+      "answer": "尼赫鲁"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:WM.02",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j131",
+    "name": "联合国与世界贸易组织",
+    "domain": "世界现代史",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第6单元 走向和平发展的世界",
+    "type": "conceptual",
+    "description": "知道联合国和世界贸易组织的成立时间与职能。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、组织或事件",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "联合国成立于？",
+      "answer": "1945年"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:WM.02",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j132",
+    "name": "冷战后的世界格局",
+    "domain": "世界现代史",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第6单元 走向和平发展的世界",
+    "type": "reasoning",
+    "description": "知道两极格局结束后的多极化趋势。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、组织或事件",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "冷战后世界格局的趋势是？",
+      "answer": "多极化"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:WM.02",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j133",
+    "name": "不断发展的现代社会",
+    "domain": "世界现代史",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第6单元 走向和平发展的世界",
+    "type": "conceptual",
+    "description": "知道现代社会在科技、全球化和生态方面的变化。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、组织或事件",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "20世纪90年代以来加快的经济现象是？",
+      "answer": "经济全球化"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:WM.02",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnh_j134",
+    "name": "时事溯源",
+    "domain": "世界现代史",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第6单元 走向和平发展的世界",
+    "type": "application",
+    "description": "知道把时事放回历史背景中理解的方法。",
+    "mastery_criteria": [
+      "能说出本课的关键年代、组织或事件",
+      "能判断与教材表述相符的史实"
+    ],
+    "diagnostic_question": {
+      "question": "时事溯源要求先做的是？",
+      "answer": "查清事件发生的时间和相关各方"
+    },
+    "external": false,
+    "subject": "history",
+    "standards": [
+      {
+        "id": "chs-2022:WM.02",
+        "confidence": "inferred",
+        "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
   }
 ]

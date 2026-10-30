@@ -6,7 +6,7 @@
   var MAX_TOPICS = 200;
   var SUBJECT_NAME = {
     math: '数学', chinese: '语文', science: '科学',
-    morality: '道德与法治', english: '英语', physics: '物理'
+    morality: '道德与法治', history: '历史', english: '英语', physics: '物理'
   };
   var SESSION_KEYS = [
     { key: 'cnmDiagnose.session.v2', subject: 'math' },
@@ -14,7 +14,8 @@
     { key: 'cnpDiagnose.session.v2', subject: 'physics' },
     { key: 'cncDiagnose.session.v2', subject: 'chinese' },
     { key: 'cnsDiagnose.session.v1', subject: 'science' },
-    { key: 'cndDiagnose.session.v1', subject: 'morality' }
+    { key: 'cndDiagnose.session.v1', subject: 'morality' },
+    { key: 'cnhDiagnose.session.v1', subject: 'history' }
   ];
 
   function read(k, fallback) {
@@ -34,6 +35,7 @@
     if (id.indexOf('cnc_') === 0) return 'chinese';
     if (id.indexOf('cns_') === 0) return 'science';
     if (id.indexOf('cnd_') === 0) return 'morality';
+    if (id.indexOf('cnh_') === 0) return 'history';
     return 'math';
   }
 

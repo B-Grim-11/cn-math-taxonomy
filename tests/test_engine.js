@@ -1437,6 +1437,12 @@ test('gradeTargets：一年级 = 一上 + 一下，七上只含七上；写法�
   assert.ok(g1mor.ids.every((id) => id.startsWith('cnd_')));
   const g6mor = E.gradeTargets(RGQ, '六下', 'morality');
   assert.ok(g6mor.ids.length >= 10 && g6mor.ids.every((id) => RGQ.byId[id].grade === 6 && RGQ.byId[id].semester === '下'));
+  const g7his = E.gradeTargets(RGQ, '七上', 'history');
+  assert.strictEqual(g7his.ids.length, 21);
+  assert.ok(g7his.ids.every((id) => id.startsWith('cnh_')));
+  const g9his = E.gradeTargets(RGQ, '九下', 'history');
+  assert.strictEqual(g9his.ids.length, 23);
+  assert.ok(g9his.ids.every((id) => id.startsWith('cnh_') && RGQ.byId[id].grade === 9 && RGQ.byId[id].semester === '下'));
   const g7 = E.gradeTargets(RGQ, '七年级');
   assert.strictEqual(g7.ids.length, formal.filter((t) => t.grade === 7 && String(t.id).startsWith('cnm_')).length);
   assert.ok(g7.ids.every((id) => id.startsWith('cnm_')));

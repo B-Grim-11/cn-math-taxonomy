@@ -117,6 +117,17 @@ body.subject-morality {
   --logo-fold: #ffffff;
 }
 
+body.subject-history {
+  --brand: #6b5344;
+  --brand-strong: #4a382c;
+  --brand-soft: #f6f1ea;
+  --on-brand: #ffffff;
+  --focus: #6b5344;
+  --accent: #6b5344;
+  --logo-sheet: #efe4d6;
+  --logo-fold: #ffffff;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     color-scheme: dark;
@@ -224,6 +235,16 @@ body.subject-morality {
     --accent: #fdba74;
     --logo-sheet: #9a3412;
     --logo-fold: #c2410c;
+  }
+  body.subject-history {
+    --brand: #d6c3ad;
+    --brand-strong: #e7d7c6;
+    --brand-soft: #3f3228;
+    --on-brand: #2a211b;
+    --focus: #e7d7c6;
+    --accent: #d6c3ad;
+    --logo-sheet: #4a382c;
+    --logo-fold: #6b5344;
   }
 }
 
