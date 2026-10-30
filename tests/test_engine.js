@@ -651,13 +651,13 @@ function bfsAncestors(id) {
   return seen;
 }
 
-test('数据可加载：小学 259 + 初中 315 + 高中必修 143 + 选择性必修 128，没有外部节点；课标含第一学段', () => {
+test('数据可加载：小学 284 + 初中 315 + 高中必修 143 + 选择性必修 128，没有外部节点；课标含第一学段', () => {
   const mathTopics = topics.filter((t) => String(t.id).startsWith('cnm_'));
   const mathDeps = deps.filter((d) => String(d.topicId).startsWith('cnm_'));
-  assert.strictEqual(mathTopics.length, 845);
-  assert.strictEqual(mathDeps.length, 1406);
+  assert.strictEqual(mathTopics.length, 870);
+  assert.strictEqual(mathDeps.length, 1459);
   assert.strictEqual(topics.filter((t) => t.external).length, 0);
-  assert.strictEqual(mathTopics.filter((t) => t.grade <= 6).length, 259);
+  assert.strictEqual(mathTopics.filter((t) => t.grade <= 6).length, 284);
   assert.strictEqual(mathTopics.filter((t) => t.grade >= 7 && t.grade <= 9).length, 315);
   assert.strictEqual(mathTopics.filter((t) => t.grade === 10 || t.grade === 11).length, 143);
   assert.strictEqual(mathTopics.filter((t) => t.grade >= 12).length, 128);
@@ -674,7 +674,7 @@ test('英语：小学 197、初中 180–260、高中 220–320，不与数学�
   const primary = enTopics.filter((t) => String(t.id).startsWith('cne_p'));
   const junior = enTopics.filter((t) => String(t.id).startsWith('cne_j'));
   const seniorEn = enTopics.filter((t) => String(t.id).startsWith('cne_h'));
-  assert.strictEqual(primary.length, 208);
+  assert.strictEqual(primary.length, 275);
   assert.ok(junior.length >= 180 && junior.length <= 260, '初中英语知识点 ' + junior.length);
   assert.ok(seniorEn.length >= 220 && seniorEn.length <= 320, '高中英语知识点 ' + seniorEn.length);
   assert.strictEqual(enTopics.length, primary.length + junior.length + seniorEn.length);
@@ -1427,6 +1427,16 @@ test('gradeTargets：一年级 = 一上 + 一下，七上只含七上；写法�
   const g1zh = E.gradeTargets(RGQ, '一年级', 'chinese');
   assert.strictEqual(g1zh.ids.length, 79); // 一上 41 + 一下 38
   assert.ok(g1zh.ids.every((id) => id.startsWith('cnc_')));
+  const g1sci = E.gradeTargets(RGQ, '一年级', 'science');
+  assert.strictEqual(g1sci.ids.length, 30); // 一上 15 + 一下 15
+  assert.ok(g1sci.ids.every((id) => id.startsWith('cns_')));
+  const g6sci = E.gradeTargets(RGQ, '六下', 'science');
+  assert.ok(g6sci.ids.length >= 15 && g6sci.ids.every((id) => RGQ.byId[id].grade === 6 && RGQ.byId[id].semester === '下'));
+  const g1mor = E.gradeTargets(RGQ, '一年级', 'morality');
+  assert.strictEqual(g1mor.ids.length, 32); // 一上 16 + 一下 16
+  assert.ok(g1mor.ids.every((id) => id.startsWith('cnd_')));
+  const g6mor = E.gradeTargets(RGQ, '六下', 'morality');
+  assert.ok(g6mor.ids.length >= 10 && g6mor.ids.every((id) => RGQ.byId[id].grade === 6 && RGQ.byId[id].semester === '下'));
   const g7 = E.gradeTargets(RGQ, '七年级');
   assert.strictEqual(g7.ids.length, formal.filter((t) => t.grade === 7 && String(t.id).startsWith('cnm_')).length);
   assert.ok(g7.ids.every((id) => id.startsWith('cnm_')));

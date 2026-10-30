@@ -285,103 +285,97 @@
     "topicId": "cnm_p038",
     "prerequisiteId": "cnm_p012",
     "strength": "hard",
-    "reason": "学习「乘法的意义」需要先掌握「连加和连减」。"
+    "reason": "学习「乘法的初步认识」需要先掌握「连加和连减」。"
   },
   {
     "topicId": "cnm_p039",
     "prerequisiteId": "cnm_p038",
     "strength": "hard",
-    "reason": "学习「2到6的乘法口诀」需要先掌握「乘法的意义」。"
+    "reason": "学习「2～6的乘法口诀」需要先掌握「乘法的初步认识」。"
   },
   {
     "topicId": "cnm_p040",
     "prerequisiteId": "cnm_p008",
     "strength": "hard",
-    "reason": "学习「认识厘米」需要先掌握「6～10各数的认识」。"
+    "reason": "学习「认识厘米及用厘米量」需要先掌握「6～10各数的认识」。"
   },
   {
     "topicId": "cnm_p041",
     "prerequisiteId": "cnm_p040",
     "strength": "hard",
-    "reason": "学习「认识米」需要先掌握「认识厘米」。"
+    "reason": "学习「认识米及用米量」需要先掌握「认识厘米及用厘米量」。"
   },
   {
     "topicId": "cnm_p042",
     "prerequisiteId": "cnm_p039",
     "strength": "hard",
-    "reason": "学习「7、8、9的乘法口诀」需要先掌握「2到6的乘法口诀」。"
+    "reason": "学习「7～9的乘法口诀」需要先掌握「2～6的乘法口诀」。"
   },
   {
     "topicId": "cnm_p043",
     "prerequisiteId": "cnm_p038",
     "strength": "hard",
-    "reason": "学习「除法的意义」需要先掌握「乘法的意义」。"
+    "reason": "学习「除法的意义」需要先掌握「乘法的初步认识」。"
   },
   {
     "topicId": "cnm_p044",
     "prerequisiteId": "cnm_p042",
     "strength": "hard",
-    "reason": "学习「用7、8、9的口诀求商」需要先掌握「7、8、9的乘法口诀」。"
+    "reason": "学习「用7～9的乘法口诀求商」需要先掌握「7～9的乘法口诀」。"
   },
   {
     "topicId": "cnm_p044",
     "prerequisiteId": "cnm_p043",
     "strength": "hard",
-    "reason": "学习「用7、8、9的口诀求商」需要先掌握「除法的意义」。"
+    "reason": "学习「用7～9的乘法口诀求商」需要先掌握「除法的意义」。"
   },
   {
     "topicId": "cnm_p045",
     "prerequisiteId": "cnm_p041",
     "strength": "hard",
-    "reason": "学习「用身体上的长度估测」需要先掌握「认识米」。"
+    "reason": "学习「寻找、测量、运用身体尺」需要先掌握「认识米及用米量」。"
   },
   {
     "topicId": "cnm_p046",
     "prerequisiteId": "cnm_p039",
     "strength": "hard",
-    "reason": "学习「用1到6的口诀求商」需要先掌握「2到6的乘法口诀」。"
+    "reason": "学习「用2～6的乘法口诀求商」需要先掌握「2～6的乘法口诀」。"
   },
   {
     "topicId": "cnm_p046",
     "prerequisiteId": "cnm_p043",
     "strength": "hard",
-    "reason": "学习「用1到6的口诀求商」需要先掌握「除法的意义」。"
+    "reason": "学习「用2～6的乘法口诀求商」需要先掌握「除法的意义」。"
   },
   {
     "topicId": "cnm_p047",
     "prerequisiteId": "cnm_p046",
     "strength": "hard",
-    "reason": "学习「用乘法验算除法」需要先掌握「用1到6的口诀求商」。"
-  },
-  {
-    "topicId": "cnm_p047",
-    "prerequisiteId": "cnm_p044",
-    "strength": "hard",
-    "reason": "学习「用乘法验算除法」需要先掌握「用7、8、9的口诀求商」。"
+    "reason": "学习「除法的基本应用」需要先掌握「用2～6的乘法口诀求商」。"
   },
   {
     "topicId": "cnm_p048",
     "prerequisiteId": "cnm_p039",
     "strength": "hard",
-    "reason": "学习「表内乘法解决实际问题」需要先掌握「2到6的乘法口诀」。"
+    "reason": "学习「选择一种运算解决问题」需要先掌握「2～6的乘法口诀」。"
   },
   {
     "topicId": "cnm_p049",
     "prerequisiteId": "cnm_p015",
     "strength": "hard",
-    "reason": "学习「东、南、西、北」需要先掌握「上下前后左右」。"
+    "reason": "学习「认识东、南、西、北」需要先掌握「上下前后左右」。"
   },
   {
     "topicId": "cnm_p050",
     "prerequisiteId": "cnm_p046",
     "strength": "hard",
-    "reason": "学习「有余数除法的意义」需要先掌握「用1到6的口诀求商」。"
+    "reason": "学习「有余数的除法」需要先掌握「用2～6的乘法口诀求商」。"
   },
   {
     "topicId": "cnm_p051",
     "prerequisiteId": "cnm_p050",
     "strength": "hard",
-    "reason": "学习「用口诀求商和余数」需要先掌握「有余数除法的意义」。"
+    "reason": "学习「用口诀求商和余数」需要先掌握「有余数的除法」。"
   },
   {
     "topicId": "cnm_p052",
@@ -393,13 +387,13 @@
     "topicId": "cnm_p053",
     "prerequisiteId": "cnm_p028",
     "strength": "hard",
-    "reason": "学习「万以内数的认识」需要先掌握「数数、数的组成」。"
+    "reason": "学习「1000以内数的认识」需要先掌握「数数、数的组成」。"
   },
   {
     "topicId": "cnm_p054",
     "prerequisiteId": "cnm_p053",
     "strength": "hard",
-    "reason": "学习「万以内数的大小比较」需要先掌握「万以内数的认识」。"
+    "reason": "学习「万以内数的大小比较」需要先掌握「1000以内数的认识」。"
   },
   {
     "topicId": "cnm_p054",
@@ -411,49 +405,49 @@
     "topicId": "cnm_p055",
     "prerequisiteId": "cnm_p053",
     "strength": "hard",
-    "reason": "学习「万以内数的组成」需要先掌握「万以内数的认识」。"
+    "reason": "学习「万以内数的组成」需要先掌握「1000以内数的认识」。"
   },
   {
     "topicId": "cnm_p056",
     "prerequisiteId": "cnm_p028",
     "strength": "hard",
-    "reason": "学习「克和千克」需要先掌握「数数、数的组成」。"
+    "reason": "学习「认识质量单位」需要先掌握「数数、数的组成」。"
   },
   {
     "topicId": "cnm_p056",
     "prerequisiteId": "cnm_p041",
     "strength": "hard",
-    "reason": "学习「克和千克」需要先掌握「认识米」。"
+    "reason": "学习「认识质量单位」需要先掌握「认识米及用米量」。"
   },
   {
     "topicId": "cnm_p057",
     "prerequisiteId": "cnm_p039",
     "strength": "hard",
-    "reason": "学习「乘加乘减的运算顺序」需要先掌握「2到6的乘法口诀」。"
+    "reason": "学习「乘加、乘减」需要先掌握「2～6的乘法口诀」。"
   },
   {
     "topicId": "cnm_p057",
     "prerequisiteId": "cnm_p031",
     "strength": "hard",
-    "reason": "学习「乘加乘减的运算顺序」需要先掌握「口算加法」。"
+    "reason": "学习「乘加、乘减」需要先掌握「口算加法」。"
   },
   {
     "topicId": "cnm_p058",
     "prerequisiteId": "cnm_p057",
     "strength": "hard",
-    "reason": "学习「带小括号的两步运算」需要先掌握「乘加乘减的运算顺序」。"
+    "reason": "学习「含有小括号的两级运算」需要先掌握「乘加、乘减」。"
   },
   {
     "topicId": "cnm_p059",
     "prerequisiteId": "cnm_p058",
     "strength": "hard",
-    "reason": "学习「两步加减应用」需要先掌握「带小括号的两步运算」。"
+    "reason": "学习「用混合运算解决问题」需要先掌握「含有小括号的两级运算」。"
   },
   {
     "topicId": "cnm_p059",
     "prerequisiteId": "cnm_p035",
     "strength": "hard",
-    "reason": "学习「两步加减应用」需要先掌握「部分与整体」。"
+    "reason": "学习「用混合运算解决问题」需要先掌握「部分与整体」。"
   },
   {
     "topicId": "cnm_p060",
@@ -471,25 +465,25 @@
     "topicId": "cnm_p061",
     "prerequisiteId": "cnm_p028",
     "strength": "hard",
-    "reason": "学习「秒的认识」需要先掌握「数数、数的组成」。"
+    "reason": "学习「认识时间」需要先掌握「数数、数的组成」。"
   },
   {
     "topicId": "cnm_p062",
     "prerequisiteId": "cnm_p061",
     "strength": "hard",
-    "reason": "学习「时、分、秒的进率」需要先掌握「秒的认识」。"
+    "reason": "学习「时、分、秒的进率」需要先掌握「认识时间」。"
   },
   {
     "topicId": "cnm_p063",
     "prerequisiteId": "cnm_p062",
     "strength": "hard",
-    "reason": "学习「经过时间」需要先掌握「时、分、秒的进率」。"
+    "reason": "学习「我与时间的故事」需要先掌握「时、分、秒的进率」。"
   },
   {
     "topicId": "cnm_p063",
     "prerequisiteId": "cnm_p032",
     "strength": "hard",
-    "reason": "学习「经过时间」需要先掌握「口算减法」。"
+    "reason": "学习「我与时间的故事」需要先掌握「口算减法」。"
   },
   {
     "topicId": "cnm_p064",
@@ -501,7 +495,7 @@
     "topicId": "cnm_p064",
     "prerequisiteId": "cnm_p053",
     "strength": "hard",
-    "reason": "学习「几百几十的口算加法」需要先掌握「万以内数的认识」。"
+    "reason": "学习「几百几十的口算加法」需要先掌握「1000以内数的认识」。"
   },
   {
     "topicId": "cnm_p065",
@@ -525,73 +519,73 @@
     "topicId": "cnm_p067",
     "prerequisiteId": "cnm_p040",
     "strength": "hard",
-    "reason": "学习「毫米」需要先掌握「认识厘米」。"
+    "reason": "学习「毫米的认识」需要先掌握「认识厘米及用厘米量」。"
   },
   {
     "topicId": "cnm_p068",
     "prerequisiteId": "cnm_p067",
     "strength": "hard",
-    "reason": "学习「分米」需要先掌握「毫米」。"
+    "reason": "学习「分米的认识及单位换算」需要先掌握「毫米的认识」。"
   },
   {
     "topicId": "cnm_p069",
     "prerequisiteId": "cnm_p041",
     "strength": "hard",
-    "reason": "学习「千米」需要先掌握「认识米」。"
+    "reason": "学习「千米的认识及单位换算」需要先掌握「认识米及用米量」。"
   },
   {
     "topicId": "cnm_p070",
     "prerequisiteId": "cnm_p056",
     "strength": "hard",
-    "reason": "学习「吨的认识」需要先掌握「克和千克」。"
+    "reason": "学习「吨的认识」需要先掌握「认识质量单位」。"
   },
   {
     "topicId": "cnm_p071",
     "prerequisiteId": "cnm_p064",
     "strength": "hard",
-    "reason": "学习「三位数加法笔算」需要先掌握「几百几十的口算加法」。"
+    "reason": "学习「加法」需要先掌握「几百几十的口算加法」。"
   },
   {
     "topicId": "cnm_p072",
     "prerequisiteId": "cnm_p065",
     "strength": "hard",
-    "reason": "学习「三位数减法笔算」需要先掌握「几百几十的口算减法」。"
+    "reason": "学习「减法」需要先掌握「几百几十的口算减法」。"
   },
   {
     "topicId": "cnm_p072",
     "prerequisiteId": "cnm_p071",
     "strength": "hard",
-    "reason": "学习「三位数减法笔算」需要先掌握「三位数加法笔算」。"
+    "reason": "学习「减法」需要先掌握「加法」。"
   },
   {
     "topicId": "cnm_p073",
     "prerequisiteId": "cnm_p042",
     "strength": "hard",
-    "reason": "学习「倍的认识」需要先掌握「7、8、9的乘法口诀」。"
+    "reason": "学习「倍的认识」需要先掌握「7～9的乘法口诀」。"
   },
   {
     "topicId": "cnm_p074",
     "prerequisiteId": "cnm_p042",
     "strength": "hard",
-    "reason": "学习「多位数乘一位数」需要先掌握「7、8、9的乘法口诀」。"
+    "reason": "学习「笔算乘法」需要先掌握「7～9的乘法口诀」。"
   },
   {
     "topicId": "cnm_p074",
     "prerequisiteId": "cnm_p071",
     "strength": "hard",
-    "reason": "学习「多位数乘一位数」需要先掌握「三位数加法笔算」。"
+    "reason": "学习「笔算乘法」需要先掌握「加法」。"
   },
   {
     "topicId": "cnm_p075",
     "prerequisiteId": "cnm_p074",
     "strength": "hard",
-    "reason": "学习「因数中间或末尾有 0 的乘法」需要先掌握「多位数乘一位数」。"
+    "reason": "学习「因数中间或末尾有0的乘法」需要先掌握「笔算乘法」。"
   },
   {
     "topicId": "cnm_p076",
     "prerequisiteId": "cnm_p053",
     "strength": "hard",
-    "reason": "学习「数字编码」需要先掌握「万以内数的认识」。"
+    "reason": "学习「认识数字编码」需要先掌握「1000以内数的认识」。"
   },
   {
     "topicId": "cnm_p077",
@@ -603,25 +597,25 @@
     "topicId": "cnm_p078",
     "prerequisiteId": "cnm_p077",
     "strength": "hard",
-    "reason": "学习「长方形和正方形的周长」需要先掌握「长方形和正方形的特征」。"
+    "reason": "学习「周长」需要先掌握「长方形和正方形的特征」。"
   },
   {
     "topicId": "cnm_p078",
     "prerequisiteId": "cnm_p033",
     "strength": "hard",
-    "reason": "学习「长方形和正方形的周长」需要先掌握「笔算加法」。"
+    "reason": "学习「周长」需要先掌握「笔算加法」。"
   },
   {
     "topicId": "cnm_p079",
     "prerequisiteId": "cnm_p043",
-    "strength": "hard",
-    "reason": "学习「几分之一」需要先掌握「除法的意义」。"
+    "strength": "soft",
+    "reason": "「除法的意义」对学习「认识几分之一」有帮助，但不会前者也可以开始学后者。"
   },
   {
     "topicId": "cnm_p080",
     "prerequisiteId": "cnm_p079",
     "strength": "hard",
-    "reason": "学习「同分母分数的初步加减」需要先掌握「几分之一」。"
+    "reason": "学习「同分母分数的加减法」需要先掌握「认识几分之一」。"
   },
   {
     "topicId": "cnm_p081",
@@ -633,43 +627,43 @@
     "topicId": "cnm_p082",
     "prerequisiteId": "cnm_p049",
     "strength": "hard",
-    "reason": "学习「东北、东南、西北、西南」需要先掌握「东、南、西、北」。"
+    "reason": "学习「东北、东南、西北、西南」需要先掌握「认识东、南、西、北」。"
   },
   {
     "topicId": "cnm_p083",
     "prerequisiteId": "cnm_p044",
-    "strength": "hard",
-    "reason": "学习「除数是一位数的除法」需要先掌握「用7、8、9的口诀求商」。"
+    "strength": "soft",
+    "reason": "「用7～9的乘法口诀求商」对学习「笔算除法」有帮助，但不会前者也可以开始学后者。"
   },
   {
     "topicId": "cnm_p083",
     "prerequisiteId": "cnm_p074",
     "strength": "hard",
-    "reason": "学习「除数是一位数的除法」需要先掌握「多位数乘一位数」。"
+    "reason": "学习「笔算除法」需要先掌握「笔算乘法」。"
   },
   {
     "topicId": "cnm_p084",
     "prerequisiteId": "cnm_p083",
     "strength": "hard",
-    "reason": "学习「除法解决实际问题」需要先掌握「除数是一位数的除法」。"
+    "reason": "学习「除法解决实际问题」需要先掌握「笔算除法」。"
   },
   {
     "topicId": "cnm_p085",
     "prerequisiteId": "cnm_p037",
     "strength": "hard",
-    "reason": "学习「复式统计表」需要先掌握「分类与整理」。"
+    "reason": "学习「数据的收集与整理」需要先掌握「分类与整理」。"
   },
   {
     "topicId": "cnm_p085",
     "prerequisiteId": "cnm_p033",
     "strength": "hard",
-    "reason": "学习「复式统计表」需要先掌握「笔算加法」。"
+    "reason": "学习「数据的收集与整理」需要先掌握「笔算加法」。"
   },
   {
     "topicId": "cnm_p086",
     "prerequisiteId": "cnm_p074",
     "strength": "hard",
-    "reason": "学习「两位数乘两位数」需要先掌握「多位数乘一位数」。"
+    "reason": "学习「两位数乘两位数」需要先掌握「笔算乘法」。"
   },
   {
     "topicId": "cnm_p087",
@@ -681,73 +675,73 @@
     "topicId": "cnm_p088",
     "prerequisiteId": "cnm_p078",
     "strength": "hard",
-    "reason": "学习「面积的意义」需要先掌握「长方形和正方形的周长」。"
+    "reason": "学习「面积和面积单位」需要先掌握「周长」。"
   },
   {
     "topicId": "cnm_p089",
     "prerequisiteId": "cnm_p088",
     "strength": "hard",
-    "reason": "学习「长方形和正方形的面积」需要先掌握「面积的意义」。"
+    "reason": "学习「长方形和正方形的面积」需要先掌握「面积和面积单位」。"
   },
   {
     "topicId": "cnm_p089",
     "prerequisiteId": "cnm_p074",
     "strength": "hard",
-    "reason": "学习「长方形和正方形的面积」需要先掌握「多位数乘一位数」。"
+    "reason": "学习「长方形和正方形的面积」需要先掌握「笔算乘法」。"
   },
   {
     "topicId": "cnm_p090",
     "prerequisiteId": "cnm_p089",
     "strength": "hard",
-    "reason": "学习「面积单位的换算」需要先掌握「长方形和正方形的面积」。"
+    "reason": "学习「面积单位间的进率」需要先掌握「长方形和正方形的面积」。"
   },
   {
     "topicId": "cnm_p090",
     "prerequisiteId": "cnm_p068",
     "strength": "hard",
-    "reason": "学习「面积单位的换算」需要先掌握「分米」。"
+    "reason": "学习「面积单位间的进率」需要先掌握「分米的认识及单位换算」。"
   },
   {
     "topicId": "cnm_p091",
     "prerequisiteId": "cnm_p062",
     "strength": "hard",
-    "reason": "学习「年、月、日」需要先掌握「时、分、秒的进率」。"
+    "reason": "学习「年历中的秘密」需要先掌握「时、分、秒的进率」。"
   },
   {
     "topicId": "cnm_p092",
     "prerequisiteId": "cnm_p091",
     "strength": "hard",
-    "reason": "学习「24时记时法」需要先掌握「年、月、日」。"
+    "reason": "学习「作息时间表中的秘密」需要先掌握「年历中的秘密」。"
   },
   {
     "topicId": "cnm_p093",
     "prerequisiteId": "cnm_p079",
     "strength": "hard",
-    "reason": "学习「一位小数的初步认识」需要先掌握「几分之一」。"
+    "reason": "学习「认识小数」需要先掌握「认识几分之一」。"
   },
   {
     "topicId": "cnm_p093",
     "prerequisiteId": "cnm_p036",
     "strength": "hard",
-    "reason": "学习「一位小数的初步认识」需要先掌握「认识人民币」。"
+    "reason": "学习「认识小数」需要先掌握「认识人民币」。"
   },
   {
     "topicId": "cnm_p094",
     "prerequisiteId": "cnm_p093",
     "strength": "hard",
-    "reason": "学习「一位小数的加减」需要先掌握「一位小数的初步认识」。"
+    "reason": "学习「简单的小数加、减法」需要先掌握「认识小数」。"
   },
   {
     "topicId": "cnm_p095",
     "prerequisiteId": "cnm_p039",
     "strength": "hard",
-    "reason": "学习「简单的搭配」需要先掌握「2到6的乘法口诀」。"
+    "reason": "学习「搭配问题」需要先掌握「2～6的乘法口诀」。"
   },
   {
     "topicId": "cnm_p096",
     "prerequisiteId": "cnm_p053",
     "strength": "hard",
-    "reason": "学习「亿以内数的认识」需要先掌握「万以内数的认识」。"
+    "reason": "学习「亿以内数的认识」需要先掌握「1000以内数的认识」。"
   },
   {
     "topicId": "cnm_p097",
@@ -759,25 +753,25 @@
     "topicId": "cnm_p098",
     "prerequisiteId": "cnm_p090",
     "strength": "hard",
-    "reason": "学习「公顷和平方千米」需要先掌握「面积单位的换算」。"
+    "reason": "学习「公顷和平方千米的认识及单位换算」需要先掌握「面积单位间的进率」。"
   },
   {
     "topicId": "cnm_p098",
     "prerequisiteId": "cnm_p069",
     "strength": "hard",
-    "reason": "学习「公顷和平方千米」需要先掌握「千米」。"
+    "reason": "学习「公顷和平方千米的认识及单位换算」需要先掌握「千米的认识及单位换算」。"
   },
   {
     "topicId": "cnm_p099",
     "prerequisiteId": "cnm_p040",
     "strength": "hard",
-    "reason": "学习「线段、直线和射线」需要先掌握「认识厘米」。"
+    "reason": "学习「线段、射线、直线的概念」需要先掌握「认识厘米及用厘米量」。"
   },
   {
     "topicId": "cnm_p100",
     "prerequisiteId": "cnm_p099",
     "strength": "hard",
-    "reason": "学习「角的度量」需要先掌握「线段、直线和射线」。"
+    "reason": "学习「角的度量」需要先掌握「线段、射线、直线的概念」。"
   },
   {
     "topicId": "cnm_p102",
@@ -789,7 +783,7 @@
     "topicId": "cnm_p103",
     "prerequisiteId": "cnm_p101",
     "strength": "hard",
-    "reason": "学习「垂直」需要先掌握「锐角、直角和钝角」。"
+    "reason": "学习「垂直」需要先掌握「直角、锐角、钝角」。"
   },
   {
     "topicId": "cnm_p104",
@@ -807,7 +801,7 @@
     "topicId": "cnm_p106",
     "prerequisiteId": "cnm_p083",
     "strength": "hard",
-    "reason": "学习「除数是两位数的除法」需要先掌握「除数是一位数的除法」。"
+    "reason": "学习「除数是两位数的除法」需要先掌握「笔算除法」。"
   },
   {
     "topicId": "cnm_p106",
@@ -825,13 +819,13 @@
     "topicId": "cnm_p108",
     "prerequisiteId": "cnm_p085",
     "strength": "hard",
-    "reason": "学习「条形统计图」需要先掌握「复式统计表」。"
+    "reason": "学习「条形统计图」需要先掌握「数据的收集与整理」。"
   },
   {
     "topicId": "cnm_p110",
     "prerequisiteId": "cnm_p059",
     "strength": "hard",
-    "reason": "学习「四则运算各部分间的关系」需要先掌握「两步加减应用」。"
+    "reason": "学习「四则运算各部分间的关系」需要先掌握「用混合运算解决问题」。"
   },
   {
     "topicId": "cnm_p111",
@@ -867,7 +861,7 @@
     "topicId": "cnm_p114",
     "prerequisiteId": "cnm_p071",
     "strength": "hard",
-    "reason": "学习「加法交换律和结合律」需要先掌握「三位数加法笔算」。"
+    "reason": "学习「加法交换律和结合律」需要先掌握「加法」。"
   },
   {
     "topicId": "cnm_p115",
@@ -897,7 +891,7 @@
     "topicId": "cnm_p118",
     "prerequisiteId": "cnm_p093",
     "strength": "hard",
-    "reason": "学习「小数的意义」需要先掌握「一位小数的初步认识」。"
+    "reason": "学习「小数的意义」需要先掌握「认识小数」。"
   },
   {
     "topicId": "cnm_p119",
@@ -957,7 +951,7 @@
     "topicId": "cnm_p125",
     "prerequisiteId": "cnm_p094",
     "strength": "hard",
-    "reason": "学习「小数加减法」需要先掌握「一位小数的加减」。"
+    "reason": "学习「小数加减法」需要先掌握「简单的小数加、减法」。"
   },
   {
     "topicId": "cnm_p125",
@@ -981,7 +975,7 @@
     "topicId": "cnm_p127",
     "prerequisiteId": "cnm_p099",
     "strength": "hard",
-    "reason": "学习「轴对称」需要先掌握「线段、直线和射线」。"
+    "reason": "学习「轴对称」需要先掌握「线段、射线、直线的概念」。"
   },
   {
     "topicId": "cnm_p128",
@@ -1029,7 +1023,7 @@
     "topicId": "cnm_p132",
     "prerequisiteId": "cnm_p074",
     "strength": "hard",
-    "reason": "学习「小数乘整数」需要先掌握「多位数乘一位数」。"
+    "reason": "学习「小数乘整数」需要先掌握「笔算乘法」。"
   },
   {
     "topicId": "cnm_p133",
@@ -1215,7 +1209,7 @@
     "topicId": "cnm_p151",
     "prerequisiteId": "cnm_p099",
     "strength": "hard",
-    "reason": "学习「植树问题」需要先掌握「线段、直线和射线」。"
+    "reason": "学习「植树问题」需要先掌握「线段、射线、直线的概念」。"
   },
   {
     "topicId": "cnm_p152",
@@ -1293,7 +1287,7 @@
     "topicId": "cnm_p162",
     "prerequisiteId": "cnm_p090",
     "strength": "hard",
-    "reason": "学习「体积单位」需要先掌握「面积单位的换算」。"
+    "reason": "学习「体积单位」需要先掌握「面积单位间的进率」。"
   },
   {
     "topicId": "cnm_p163",
@@ -1311,7 +1305,7 @@
     "topicId": "cnm_p165",
     "prerequisiteId": "cnm_p079",
     "strength": "hard",
-    "reason": "学习「分数的意义」需要先掌握「几分之一」。"
+    "reason": "学习「分数的意义」需要先掌握「认识几分之一」。"
   },
   {
     "topicId": "cnm_p165",
@@ -1401,7 +1395,7 @@
     "topicId": "cnm_p173",
     "prerequisiteId": "cnm_p080",
     "strength": "hard",
-    "reason": "学习「异分母分数加减」需要先掌握「同分母分数的初步加减」。"
+    "reason": "学习「异分母分数加减」需要先掌握「同分母分数的加减法」。"
   },
   {
     "topicId": "cnm_p174",
@@ -1413,7 +1407,7 @@
     "topicId": "cnm_p174",
     "prerequisiteId": "cnm_p058",
     "strength": "hard",
-    "reason": "学习「分数加减混合」需要先掌握「带小括号的两步运算」。"
+    "reason": "学习「分数加减混合」需要先掌握「含有小括号的两级运算」。"
   },
   {
     "topicId": "cnm_p175",
@@ -1425,7 +1419,7 @@
     "topicId": "cnm_p176",
     "prerequisiteId": "cnm_p057",
     "strength": "hard",
-    "reason": "学习「找次品」需要先掌握「乘加乘减的运算顺序」。"
+    "reason": "学习「找次品」需要先掌握「乘加、乘减」。"
   },
   {
     "topicId": "cnm_p176",
@@ -1479,7 +1473,7 @@
     "topicId": "cnm_p180",
     "prerequisiteId": "cnm_p099",
     "strength": "hard",
-    "reason": "学习「用方向和距离确定位置」需要先掌握「线段、直线和射线」。"
+    "reason": "学习「用方向和距离确定位置」需要先掌握「线段、射线、直线的概念」。"
   },
   {
     "topicId": "cnm_p181",
@@ -1539,7 +1533,7 @@
     "topicId": "cnm_p188",
     "prerequisiteId": "cnm_p099",
     "strength": "hard",
-    "reason": "学习「圆的认识」需要先掌握「线段、直线和射线」。"
+    "reason": "学习「圆的认识」需要先掌握「线段、射线、直线的概念」。"
   },
   {
     "topicId": "cnm_p189",
@@ -1593,7 +1587,7 @@
     "topicId": "cnm_p193",
     "prerequisiteId": "cnm_p101",
     "strength": "hard",
-    "reason": "学习「扇形的认识」需要先掌握「锐角、直角和钝角」。"
+    "reason": "学习「扇形的认识」需要先掌握「直角、锐角、钝角」。"
   },
   {
     "topicId": "cnm_p194",
@@ -1677,7 +1671,7 @@
     "topicId": "cnm_p201",
     "prerequisiteId": "cnm_p053",
     "strength": "hard",
-    "reason": "学习「认识负数」需要先掌握「万以内数的认识」。"
+    "reason": "学习「认识负数」需要先掌握「1000以内数的认识」。"
   },
   {
     "topicId": "cnm_p201",
@@ -1827,7 +1821,7 @@
     "topicId": "cnm_p216",
     "prerequisiteId": "cnm_p050",
     "strength": "soft",
-    "reason": "「有余数除法的意义」对学习「鸽巢问题」有帮助，但不会前者也可以开始学后者。"
+    "reason": "「有余数的除法」对学习「鸽巢问题」有帮助，但不会前者也可以开始学后者。"
   },
   {
     "topicId": "cnm_001",
@@ -1917,7 +1911,7 @@
     "topicId": "cnm_102",
     "prerequisiteId": "cnm_p085",
     "strength": "hard",
-    "reason": "学习「全面调查与抽样调查」需要先会小学的「复式统计表」。小学已学数据收集与整理。"
+    "reason": "学习「全面调查与抽样调查」需要先会小学的「数据的收集与整理」。小学已学数据收集与整理。"
   },
   {
     "topicId": "cnm_105",
@@ -1935,7 +1929,7 @@
     "topicId": "cnm_106",
     "prerequisiteId": "cnm_p085",
     "strength": "hard",
-    "reason": "学习「频数分布表与数据分组」需要先会小学的「复式统计表」。对数据分组整理要以小学学过的统计表和统计图知识为基础。"
+    "reason": "学习「频数分布表与数据分组」需要先会小学的「数据的收集与整理」。对数据分组整理要以小学学过的统计表和统计图知识为基础。"
   },
   {
     "topicId": "cnm_110",
@@ -13047,13 +13041,13 @@
     "topicId": "cnm_p219",
     "prerequisiteId": "cnm_p048",
     "strength": "hard",
-    "reason": "学习「数量间的乘除关系」需要先掌握「表内乘法解决实际问题」。"
+    "reason": "学习「数量间的乘除关系」需要先掌握「选择一种运算解决问题」。"
   },
   {
     "topicId": "cnm_p219",
     "prerequisiteId": "cnm_p044",
     "strength": "hard",
-    "reason": "学习「数量间的乘除关系」需要先掌握「用7、8、9的口诀求商」。"
+    "reason": "学习「数量间的乘除关系」需要先掌握「用7～9的乘法口诀求商」。"
   },
   {
     "topicId": "cnm_p219",
@@ -13065,13 +13059,13 @@
     "topicId": "cnm_p220",
     "prerequisiteId": "cnm_p071",
     "strength": "hard",
-    "reason": "学习「加减法各部分间的关系」需要先掌握「三位数加法笔算」。"
+    "reason": "学习「加减法各部分间的关系」需要先掌握「加法」。"
   },
   {
     "topicId": "cnm_p220",
     "prerequisiteId": "cnm_p072",
     "strength": "hard",
-    "reason": "学习「加减法各部分间的关系」需要先掌握「三位数减法笔算」。"
+    "reason": "学习「加减法各部分间的关系」需要先掌握「减法」。"
   },
   {
     "topicId": "cnm_p221",
@@ -13089,43 +13083,43 @@
     "topicId": "cnm_p222",
     "prerequisiteId": "cnm_p221",
     "strength": "hard",
-    "reason": "学习「长方体纸盒的展开图」需要先掌握「观察简单的立体积木」。"
+    "reason": "学习「长方体纸盒的展开」需要先掌握「观察简单的立体积木」。"
   },
   {
     "topicId": "cnm_p222",
     "prerequisiteId": "cnm_p014",
     "strength": "hard",
-    "reason": "学习「长方体纸盒的展开图」需要先掌握「认识长方体、正方体、圆柱和球」。"
+    "reason": "学习「长方体纸盒的展开」需要先掌握「认识长方体、正方体、圆柱和球」。"
   },
   {
     "topicId": "cnm_p223",
     "prerequisiteId": "cnm_p057",
     "strength": "hard",
-    "reason": "学习「同级运算与两级运算的运算顺序」需要先掌握「乘加乘减的运算顺序」。"
+    "reason": "学习「同级运算与两级运算」需要先掌握「乘加、乘减」。"
   },
   {
     "topicId": "cnm_p223",
     "prerequisiteId": "cnm_p220",
     "strength": "soft",
-    "reason": "学习「同级运算与两级运算的运算顺序」需要先掌握「加减法各部分间的关系」。"
+    "reason": "学习「同级运算与两级运算」需要先掌握「加减法各部分间的关系」。"
   },
   {
     "topicId": "cnm_p224",
     "prerequisiteId": "cnm_p219",
     "strength": "hard",
-    "reason": "学习「等量代换（曹冲称象）」需要先掌握「数量间的乘除关系」。"
+    "reason": "学习「等量代换」需要先掌握「数量间的乘除关系」。"
   },
   {
     "topicId": "cnm_p224",
     "prerequisiteId": "cnm_p056",
     "strength": "soft",
-    "reason": "学习「等量代换（曹冲称象）」需要先掌握「克和千克」。"
+    "reason": "学习「等量代换」需要先掌握「认识质量单位」。"
   },
   {
     "topicId": "cnm_p225",
     "prerequisiteId": "cnm_p099",
     "strength": "hard",
-    "reason": "学习「角的认识」需要先掌握「线段、直线和射线」。"
+    "reason": "学习「角的认识」需要先掌握「线段、射线、直线的概念」。"
   },
   {
     "topicId": "cnm_p225",
@@ -13137,19 +13131,19 @@
     "topicId": "cnm_p226",
     "prerequisiteId": "cnm_p079",
     "strength": "hard",
-    "reason": "学习「几分之几」需要先掌握「几分之一」。"
+    "reason": "学习「认识几分之几」需要先掌握「认识几分之一」。"
   },
   {
     "topicId": "cnm_p227",
     "prerequisiteId": "cnm_p226",
     "strength": "hard",
-    "reason": "学习「简单的分数大小比较」需要先掌握「几分之几」。"
+    "reason": "学习「简单的分数大小比较」需要先掌握「认识几分之几」。"
   },
   {
     "topicId": "cnm_p227",
     "prerequisiteId": "cnm_p079",
     "strength": "hard",
-    "reason": "学习「简单的分数大小比较」需要先掌握「几分之一」。"
+    "reason": "学习「简单的分数大小比较」需要先掌握「认识几分之一」。"
   },
   {
     "topicId": "cnm_p228",
@@ -13167,13 +13161,13 @@
     "topicId": "cnm_p229",
     "prerequisiteId": "cnm_p023",
     "strength": "hard",
-    "reason": "学习「多边形的认识」需要先掌握「认识平面图形」。"
+    "reason": "学习「多边形」需要先掌握「认识平面图形」。"
   },
   {
     "topicId": "cnm_p229",
     "prerequisiteId": "cnm_p225",
     "strength": "soft",
-    "reason": "学习「多边形的认识」需要先掌握「角的认识」。"
+    "reason": "学习「多边形」需要先掌握「角的认识」。"
   },
   {
     "topicId": "cnm_p230",
@@ -13185,7 +13179,7 @@
     "topicId": "cnm_p230",
     "prerequisiteId": "cnm_p071",
     "strength": "soft",
-    "reason": "学习「加法模型」需要先掌握「三位数加法笔算」。"
+    "reason": "学习「加法模型」需要先掌握「加法」。"
   },
   {
     "topicId": "cnm_p231",
@@ -13209,7 +13203,7 @@
     "topicId": "cnm_p232",
     "prerequisiteId": "cnm_p101",
     "strength": "hard",
-    "reason": "学习「平角、周角和角的分类」需要先掌握「锐角、直角和钝角」。"
+    "reason": "学习「平角、周角和角的分类」需要先掌握「直角、锐角、钝角」。"
   },
   {
     "topicId": "cnm_p233",
@@ -13233,7 +13227,7 @@
     "topicId": "cnm_p235",
     "prerequisiteId": "cnm_p049",
     "strength": "hard",
-    "reason": "学习「寻找宝藏」需要先掌握「东、南、西、北」。"
+    "reason": "学习「寻找宝藏」需要先掌握「认识东、南、西、北」。"
   },
   {
     "topicId": "cnm_p235",
@@ -13323,7 +13317,7 @@
     "topicId": "cnm_p243",
     "prerequisiteId": "cnm_p080",
     "strength": "hard",
-    "reason": "学习「同分母分数加减」需要先掌握「同分母分数的初步加减」。"
+    "reason": "学习「同分母分数加减」需要先掌握「同分母分数的加减法」。"
   },
   {
     "topicId": "cnm_p243",
@@ -13359,7 +13353,7 @@
     "topicId": "cnm_p245",
     "prerequisiteId": "cnm_p057",
     "strength": "hard",
-    "reason": "学习「怎样通知最快」需要先掌握「乘加乘减的运算顺序」。"
+    "reason": "学习「怎样通知最快」需要先掌握「乘加、乘减」。"
   },
   {
     "topicId": "cnm_p245",
@@ -13377,25 +13371,25 @@
     "topicId": "cnm_p058",
     "prerequisiteId": "cnm_p223",
     "strength": "hard",
-    "reason": "学习「带小括号的两步运算」需要先掌握「同级运算与两级运算的运算顺序」。"
+    "reason": "学习「含有小括号的两级运算」需要先掌握「同级运算与两级运算」。"
   },
   {
     "topicId": "cnm_p101",
     "prerequisiteId": "cnm_p225",
     "strength": "hard",
-    "reason": "学习「锐角、直角和钝角」需要先掌握「角的认识」。"
+    "reason": "学习「直角、锐角、钝角」需要先掌握「角的认识」。"
   },
   {
     "topicId": "cnm_p080",
     "prerequisiteId": "cnm_p226",
     "strength": "soft",
-    "reason": "学习「同分母分数的初步加减」需要先掌握「几分之几」。"
+    "reason": "学习「同分母分数的加减法」需要先掌握「认识几分之几」。"
   },
   {
     "topicId": "cnm_p077",
     "prerequisiteId": "cnm_p229",
     "strength": "soft",
-    "reason": "学习「长方形和正方形的特征」需要先掌握「多边形的认识」。"
+    "reason": "学习「长方形和正方形的特征」需要先掌握「多边形」。"
   },
   {
     "topicId": "cnm_p111",
@@ -13437,13 +13431,13 @@
     "topicId": "cnm_053",
     "prerequisiteId": "cnm_p099",
     "strength": "hard",
-    "reason": "学习「直线、射线、线段」需要先掌握「线段、直线和射线」。"
+    "reason": "学习「直线、射线、线段」需要先掌握「线段、射线、直线的概念」。"
   },
   {
     "topicId": "cnm_051",
     "prerequisiteId": "cnm_p222",
     "strength": "soft",
-    "reason": "学习「从不同方向看与立体图形的展开图」需要先掌握「长方体纸盒的展开图」。"
+    "reason": "学习「从不同方向看与立体图形的展开图」需要先掌握「长方体纸盒的展开」。"
   },
   {
     "topicId": "cnm_051",
@@ -21676,5 +21670,3767 @@
     "prerequisiteId": "cnm_p031",
     "strength": "soft",
     "reason": "「口算加法」对学习「买卖我做主」有帮助，但不会前者也可以开始学后者。"
+  },
+  {
+    "topicId": "cns_p002",
+    "prerequisiteId": "cns_p001",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「我们知道的植物」，再学「观察植物」。"
+  },
+  {
+    "topicId": "cns_p003",
+    "prerequisiteId": "cns_p002",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「观察植物」，再学「植物长在哪里」。"
+  },
+  {
+    "topicId": "cns_p004",
+    "prerequisiteId": "cns_p003",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「植物长在哪里」，再学「给植物画张「像」」。"
+  },
+  {
+    "topicId": "cns_p005",
+    "prerequisiteId": "cns_p004",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「给植物画张「像」」，再学「植物的变化」。"
+  },
+  {
+    "topicId": "cns_p006",
+    "prerequisiteId": "cns_p005",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「植物的变化」，再学「校园里的植物」。"
+  },
+  {
+    "topicId": "cns_p007",
+    "prerequisiteId": "cns_p006",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「校园里的植物」，再学「植物的根、茎、叶」。"
+  },
+  {
+    "topicId": "cns_p008",
+    "prerequisiteId": "cns_p007",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「植物的根、茎、叶」，再学「我们的身体」。"
+  },
+  {
+    "topicId": "cns_p009",
+    "prerequisiteId": "cns_p008",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「我们的身体」，再学「发现生长」。"
+  },
+  {
+    "topicId": "cns_p010",
+    "prerequisiteId": "cns_p009",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「发现生长」，再学「游戏中的观察」。"
+  },
+  {
+    "topicId": "cns_p011",
+    "prerequisiteId": "cns_p010",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「游戏中的观察」，再学「气味告诉我们」。"
+  },
+  {
+    "topicId": "cns_p013",
+    "prerequisiteId": "cns_p012",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「通过感官来发现」，再学「观察与比较」。"
+  },
+  {
+    "topicId": "cns_p014",
+    "prerequisiteId": "cns_p013",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「观察与比较」，再学「做个「时间胶囊」」。"
+  },
+  {
+    "topicId": "cns_p015",
+    "prerequisiteId": "cns_p014",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「做个「时间胶囊」」，再学「保护我们的感官」。"
+  },
+  {
+    "topicId": "cns_p016",
+    "prerequisiteId": "cns_p015",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「保护我们的感官」，再学「观察物体的特征」。"
+  },
+  {
+    "topicId": "cns_p017",
+    "prerequisiteId": "cns_p016",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「观察物体的特征」，再学「给物体分类」。"
+  },
+  {
+    "topicId": "cns_p018",
+    "prerequisiteId": "cns_p017",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「给物体分类」，再学「比较物体的轻重」。"
+  },
+  {
+    "topicId": "cns_p019",
+    "prerequisiteId": "cns_p018",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「比较物体的轻重」，再学「认识物体的形状」。"
+  },
+  {
+    "topicId": "cns_p020",
+    "prerequisiteId": "cns_p019",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「认识物体的形状」，再学「观察一杯水」。"
+  },
+  {
+    "topicId": "cns_p022",
+    "prerequisiteId": "cns_p021",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「哪个流动得快」，再学「它们去哪里了」。"
+  },
+  {
+    "topicId": "cns_p023",
+    "prerequisiteId": "cns_p022",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「它们去哪里了」，再学「物体是用什么做的」。"
+  },
+  {
+    "topicId": "cns_p024",
+    "prerequisiteId": "cns_p023",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「物体是用什么做的」，再学「我们周围的动物」。"
+  },
+  {
+    "topicId": "cns_p025",
+    "prerequisiteId": "cns_p024",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「我们周围的动物」，再学「观察一种动物」。"
+  },
+  {
+    "topicId": "cns_p026",
+    "prerequisiteId": "cns_p025",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「观察一种动物」，再学「给蜗牛建个「家」」。"
+  },
+  {
+    "topicId": "cns_p027",
+    "prerequisiteId": "cns_p026",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「给蜗牛建个「家」」，再学「水中的动物」。"
+  },
+  {
+    "topicId": "cns_p028",
+    "prerequisiteId": "cns_p027",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「水中的动物」，再学「它们吃什么」。"
+  },
+  {
+    "topicId": "cns_p029",
+    "prerequisiteId": "cns_p028",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「它们吃什么」，再学「动物的身体特征」。"
+  },
+  {
+    "topicId": "cns_p031",
+    "prerequisiteId": "cns_p030",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「动物联欢会」，再学「动物的「家」」。"
+  },
+  {
+    "topicId": "cns_p032",
+    "prerequisiteId": "cns_p031",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「动物的「家」」，再学「我们的家」。"
+  },
+  {
+    "topicId": "cns_p033",
+    "prerequisiteId": "cns_p032",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「我们的家」，再学「家里的物品」。"
+  },
+  {
+    "topicId": "cns_p034",
+    "prerequisiteId": "cns_p033",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「家里的物品」，再学「设计小房子」。"
+  },
+  {
+    "topicId": "cns_p037",
+    "prerequisiteId": "cns_p036",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「「小房子」展示会」，再学「牢固的结构」。"
+  },
+  {
+    "topicId": "cns_p038",
+    "prerequisiteId": "cns_p037",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「牢固的结构」，再学「地球家园有什么」。"
+  },
+  {
+    "topicId": "cns_p039",
+    "prerequisiteId": "cns_p038",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「地球家园有什么」，再学「我们的校园」。"
+  },
+  {
+    "topicId": "cns_p040",
+    "prerequisiteId": "cns_p039",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「我们的校园」，再学「我们周围的空气」。"
+  },
+  {
+    "topicId": "cns_p041",
+    "prerequisiteId": "cns_p040",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「我们周围的空气」，再学「不同的天气」。"
+  },
+  {
+    "topicId": "cns_p042",
+    "prerequisiteId": "cns_p041",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「不同的天气」，再学「不同的季节」。"
+  },
+  {
+    "topicId": "cns_p043",
+    "prerequisiteId": "cns_p042",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「不同的季节」，再学「太阳与白天」。"
+  },
+  {
+    "topicId": "cns_p044",
+    "prerequisiteId": "cns_p043",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「太阳与白天」，再学「夜晚的月亮」。"
+  },
+  {
+    "topicId": "cns_p045",
+    "prerequisiteId": "cns_p044",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「夜晚的月亮」，再学「记录天气日历」。"
+  },
+  {
+    "topicId": "cns_p046",
+    "prerequisiteId": "cns_p045",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「记录天气日历」，再学「恐龙的故事」。"
+  },
+  {
+    "topicId": "cns_p047",
+    "prerequisiteId": "cns_p046",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「恐龙的故事」，再学「挖掘恐龙「化石」」。"
+  },
+  {
+    "topicId": "cns_p048",
+    "prerequisiteId": "cns_p047",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「挖掘恐龙「化石」」，再学「测量恐龙「化石」」。"
+  },
+  {
+    "topicId": "cns_p049",
+    "prerequisiteId": "cns_p048",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「测量恐龙「化石」」，再学「拼接恐龙「化石」」。"
+  },
+  {
+    "topicId": "cns_p050",
+    "prerequisiteId": "cns_p049",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「拼接恐龙「化石」」，再学「复原恐龙」。"
+  },
+  {
+    "topicId": "cns_p052",
+    "prerequisiteId": "cns_p051",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「制作恐龙模型」，再学「我们的恐龙公园」。"
+  },
+  {
+    "topicId": "cns_p053",
+    "prerequisiteId": "cns_p052",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「我们的恐龙公园」，再学「化石是怎样形成的」。"
+  },
+  {
+    "topicId": "cns_p054",
+    "prerequisiteId": "cns_p053",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「化石是怎样形成的」，再学「磁铁能吸引什么」。"
+  },
+  {
+    "topicId": "cns_p056",
+    "prerequisiteId": "cns_p055",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「比较磁力的大小」，再学「隔物吸铁」。"
+  },
+  {
+    "topicId": "cns_p058",
+    "prerequisiteId": "cns_p057",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「设计和玩钓鱼玩具」，再学「磁铁的两极」。"
+  },
+  {
+    "topicId": "cns_p060",
+    "prerequisiteId": "cns_p059",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「让小车动起来」，再学「磁铁在生活中的应用」。"
+  },
+  {
+    "topicId": "cns_p061",
+    "prerequisiteId": "cns_p060",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「磁铁在生活中的应用」，再学「我们关心天气」。"
+  },
+  {
+    "topicId": "cns_p062",
+    "prerequisiteId": "cns_p061",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「我们关心天气」，再学「认识气温计」。"
+  },
+  {
+    "topicId": "cns_p064",
+    "prerequisiteId": "cns_p063",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「测量气温」，再学「测量降水量」。"
+  },
+  {
+    "topicId": "cns_p065",
+    "prerequisiteId": "cns_p064",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「测量降水量」，再学「观测风」。"
+  },
+  {
+    "topicId": "cns_p066",
+    "prerequisiteId": "cns_p065",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「观测风」，再学「天气预报与天气的影响」。"
+  },
+  {
+    "topicId": "cns_p067",
+    "prerequisiteId": "cns_p066",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「天气预报与天气的影响」，再学「水到哪里去了」。"
+  },
+  {
+    "topicId": "cns_p070",
+    "prerequisiteId": "cns_p069",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「观察云」，再学「水沸腾了」。"
+  },
+  {
+    "topicId": "cns_p071",
+    "prerequisiteId": "cns_p070",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「水沸腾了」，再学「水结冰了」。"
+  },
+  {
+    "topicId": "cns_p073",
+    "prerequisiteId": "cns_p072",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「冰熔化了」，再学「水能溶解多少物质」。"
+  },
+  {
+    "topicId": "cns_p075",
+    "prerequisiteId": "cns_p074",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「加快溶解」，再学「用水分离」。"
+  },
+  {
+    "topicId": "cns_p076",
+    "prerequisiteId": "cns_p075",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「用水分离」，再学「运动和位置」。"
+  },
+  {
+    "topicId": "cns_p077",
+    "prerequisiteId": "cns_p076",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「运动和位置」，再学「各种各样的运动」。"
+  },
+  {
+    "topicId": "cns_p078",
+    "prerequisiteId": "cns_p077",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「各种各样的运动」，再学「直线运动和曲线运动」。"
+  },
+  {
+    "topicId": "cns_p079",
+    "prerequisiteId": "cns_p078",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「直线运动和曲线运动」，再学「比较运动的快慢」。"
+  },
+  {
+    "topicId": "cns_p080",
+    "prerequisiteId": "cns_p079",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「比较运动的快慢」，再学「运动和能量」。"
+  },
+  {
+    "topicId": "cns_p082",
+    "prerequisiteId": "cns_p081",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「设计和测试「过山车」」，再学「根据太阳辨别方向」。"
+  },
+  {
+    "topicId": "cns_p083",
+    "prerequisiteId": "cns_p082",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「根据太阳辨别方向」，再学「利用自然物辨别方向」。"
+  },
+  {
+    "topicId": "cns_p084",
+    "prerequisiteId": "cns_p083",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「利用自然物辨别方向」，再学「利用磁铁辨别方向」。"
+  },
+  {
+    "topicId": "cns_p085",
+    "prerequisiteId": "cns_p084",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「利用磁铁辨别方向」，再学「磁极与方向」。"
+  },
+  {
+    "topicId": "cns_p087",
+    "prerequisiteId": "cns_p086",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「制作和使用指南针」，再学「不同种类的动物」。"
+  },
+  {
+    "topicId": "cns_p088",
+    "prerequisiteId": "cns_p087",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「不同种类的动物」，再学「动物的繁殖」。"
+  },
+  {
+    "topicId": "cns_p090",
+    "prerequisiteId": "cns_p089",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「蚕的一生」，再学「幼蚕的生长」。"
+  },
+  {
+    "topicId": "cns_p091",
+    "prerequisiteId": "cns_p090",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「幼蚕的生长」，再学「蚕蛾与昆虫的一生」。"
+  },
+  {
+    "topicId": "cns_p093",
+    "prerequisiteId": "cns_p092",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「动物的生命周期」，再学「地球是我们的家园」。"
+  },
+  {
+    "topicId": "cns_p094",
+    "prerequisiteId": "cns_p093",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「地球是我们的家园」，再学「水的星球」。"
+  },
+  {
+    "topicId": "cns_p095",
+    "prerequisiteId": "cns_p094",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「水的星球」，再学「地球的卫星——月球」。"
+  },
+  {
+    "topicId": "cns_p096",
+    "prerequisiteId": "cns_p095",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「地球的卫星——月球」，再学「发光发热的太阳」。"
+  },
+  {
+    "topicId": "cns_p097",
+    "prerequisiteId": "cns_p096",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「发光发热的太阳」，再学「一天中影子的变化」。"
+  },
+  {
+    "topicId": "cns_p098",
+    "prerequisiteId": "cns_p097",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「一天中影子的变化」，再学「地球的「兄弟姐妹」」。"
+  },
+  {
+    "topicId": "cns_p099",
+    "prerequisiteId": "cns_p098",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「地球的「兄弟姐妹」」，再学「制作地球科普海报」。"
+  },
+  {
+    "topicId": "cns_p100",
+    "prerequisiteId": "cns_p099",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「制作地球科普海报」，再学「感受空气」。"
+  },
+  {
+    "topicId": "cns_p101",
+    "prerequisiteId": "cns_p100",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「感受空气」，再学「空气能占据空间吗」。"
+  },
+  {
+    "topicId": "cns_p103",
+    "prerequisiteId": "cns_p102",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「空气占据的空间会改变吗」，再学「空气有质量吗」。"
+  },
+  {
+    "topicId": "cns_p104",
+    "prerequisiteId": "cns_p103",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「空气有质量吗」，再学「空气流动有力量」。"
+  },
+  {
+    "topicId": "cns_p105",
+    "prerequisiteId": "cns_p104",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「空气流动有力量」，再学「我们来做「热气球」」。"
+  },
+  {
+    "topicId": "cns_p107",
+    "prerequisiteId": "cns_p106",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「风的成因」，再学「我们的呼吸与消化」。"
+  },
+  {
+    "topicId": "cns_p108",
+    "prerequisiteId": "cns_p107",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「我们的呼吸与消化」，再学「认识呼吸器官」。"
+  },
+  {
+    "topicId": "cns_p109",
+    "prerequisiteId": "cns_p108",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「认识呼吸器官」，再学「呼吸的变化与肺活量」。"
+  },
+  {
+    "topicId": "cns_p110",
+    "prerequisiteId": "cns_p109",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「呼吸的变化与肺活量」，再学「口腔里的消化」。"
+  },
+  {
+    "topicId": "cns_p111",
+    "prerequisiteId": "cns_p110",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「口腔里的消化」，再学「胃和小肠里的消化」。"
+  },
+  {
+    "topicId": "cns_p113",
+    "prerequisiteId": "cns_p112",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「食物在身体里的旅行」，再学「呵护我们的器官」。"
+  },
+  {
+    "topicId": "cns_p114",
+    "prerequisiteId": "cns_p113",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「呵护我们的器官」，再学「声音是怎样产生的」。"
+  },
+  {
+    "topicId": "cns_p116",
+    "prerequisiteId": "cns_p115",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「声音的强弱」，再学「声音的高低」。"
+  },
+  {
+    "topicId": "cns_p118",
+    "prerequisiteId": "cns_p117",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「设计和改进我们的乐器」，再学「声音的传播」。"
+  },
+  {
+    "topicId": "cns_p119",
+    "prerequisiteId": "cns_p118",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「声音的传播」，再学「保护听力」。"
+  },
+  {
+    "topicId": "cns_p120",
+    "prerequisiteId": "cns_p119",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「保护听力」，再学「种子里孕育着新生命」。"
+  },
+  {
+    "topicId": "cns_p121",
+    "prerequisiteId": "cns_p120",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「种子里孕育着新生命」，再学「种子长出了根」。"
+  },
+  {
+    "topicId": "cns_p122",
+    "prerequisiteId": "cns_p121",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「种子长出了根」，再学「茎和叶」。"
+  },
+  {
+    "topicId": "cns_p123",
+    "prerequisiteId": "cns_p122",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「茎和叶」，再学「开花了」。"
+  },
+  {
+    "topicId": "cns_p125",
+    "prerequisiteId": "cns_p124",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「果实和种子」，再学「种子的传播」。"
+  },
+  {
+    "topicId": "cns_p126",
+    "prerequisiteId": "cns_p125",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「种子的传播」，再学「植物的一生」。"
+  },
+  {
+    "topicId": "cns_p127",
+    "prerequisiteId": "cns_p126",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「植物的一生」，再学「电和我们的生活」。"
+  },
+  {
+    "topicId": "cns_p128",
+    "prerequisiteId": "cns_p127",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「电和我们的生活」，再学「点亮小灯泡」。"
+  },
+  {
+    "topicId": "cns_p131",
+    "prerequisiteId": "cns_p130",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「电路出故障了」，再学「导体和绝缘体」。"
+  },
+  {
+    "topicId": "cns_p133",
+    "prerequisiteId": "cns_p132",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「里面是怎样连接的与安装照明电路」，再学「认识常见的岩石」。"
+  },
+  {
+    "topicId": "cns_p135",
+    "prerequisiteId": "cns_p134",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「岩石的组成」，再学「岩石、沙和黏土」。"
+  },
+  {
+    "topicId": "cns_p138",
+    "prerequisiteId": "cns_p137",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「比较不同的土壤与保护土壤」，再学「研究放大镜」。"
+  },
+  {
+    "topicId": "cns_p139",
+    "prerequisiteId": "cns_p138",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「研究放大镜」，再学「怎样放得更大」。"
+  },
+  {
+    "topicId": "cns_p142",
+    "prerequisiteId": "cns_p141",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「观察细胞」，再学「观察水中的微小生物」。"
+  },
+  {
+    "topicId": "cns_p143",
+    "prerequisiteId": "cns_p142",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「观察水中的微小生物」，再学「微生物与人类」。"
+  },
+  {
+    "topicId": "cns_p144",
+    "prerequisiteId": "cns_p143",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「微生物与人类」，再学「各种各样的工具」。"
+  },
+  {
+    "topicId": "cns_p146",
+    "prerequisiteId": "cns_p145",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「独轮车省力的秘密——杠杆」，再学「巧用斜面」。"
+  },
+  {
+    "topicId": "cns_p147",
+    "prerequisiteId": "cns_p146",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「巧用斜面」，再学「妙用滑轮」。"
+  },
+  {
+    "topicId": "cns_p148",
+    "prerequisiteId": "cns_p147",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「妙用滑轮」，再学「给小车安装方向盘——轮轴」。"
+  },
+  {
+    "topicId": "cns_p149",
+    "prerequisiteId": "cns_p148",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「给小车安装方向盘——轮轴」，再学「社会发展与工具和技术」。"
+  },
+  {
+    "topicId": "cns_p150",
+    "prerequisiteId": "cns_p149",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「社会发展与工具和技术」，再学「拆解我们的小车模型」。"
+  },
+  {
+    "topicId": "cns_p152",
+    "prerequisiteId": "cns_p151",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「用重物驱动小车」，再学「用弹力驱动小车」。"
+  },
+  {
+    "topicId": "cns_p156",
+    "prerequisiteId": "cns_p155",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「设计、制作和评价「月球小车」」，再学「地球的表面」。"
+  },
+  {
+    "topicId": "cns_p158",
+    "prerequisiteId": "cns_p157",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「火山喷发对地表的作用」，再学「地震对地表的作用」。"
+  },
+  {
+    "topicId": "cns_p159",
+    "prerequisiteId": "cns_p158",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「地震对地表的作用」，再学「地球表面的岩石」。"
+  },
+  {
+    "topicId": "cns_p161",
+    "prerequisiteId": "cns_p160",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「岩石的类别与变化」，再学「水和风对地表的作用」。"
+  },
+  {
+    "topicId": "cns_p162",
+    "prerequisiteId": "cns_p161",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「水和风对地表的作用」，再学「种子发芽实验」。"
+  },
+  {
+    "topicId": "cns_p163",
+    "prerequisiteId": "cns_p162",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「种子发芽实验」，再学「比较种子发芽实验」。"
+  },
+  {
+    "topicId": "cns_p164",
+    "prerequisiteId": "cns_p163",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「比较种子发芽实验」，再学「绿豆苗的生长」。"
+  },
+  {
+    "topicId": "cns_p165",
+    "prerequisiteId": "cns_p164",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「绿豆苗的生长」，再学「蚯蚓的选择」。"
+  },
+  {
+    "topicId": "cns_p166",
+    "prerequisiteId": "cns_p165",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「蚯蚓的选择」，再学「当环境改变了」。"
+  },
+  {
+    "topicId": "cns_p167",
+    "prerequisiteId": "cns_p166",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「当环境改变了」，再学「食物链和食物网」。"
+  },
+  {
+    "topicId": "cns_p169",
+    "prerequisiteId": "cns_p168",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「设计和制作生态瓶」，再学「船的历史」。"
+  },
+  {
+    "topicId": "cns_p173",
+    "prerequisiteId": "cns_p172",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「增加船的载重量」，再学「给船装上动力」。"
+  },
+  {
+    "topicId": "cns_p175",
+    "prerequisiteId": "cns_p174",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「设计、制作和测试我们的小船」，再学「地球——宇宙的奇迹」。"
+  },
+  {
+    "topicId": "cns_p176",
+    "prerequisiteId": "cns_p175",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「地球——宇宙的奇迹」，再学「我们面临的环境问题」。"
+  },
+  {
+    "topicId": "cns_p177",
+    "prerequisiteId": "cns_p176",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「我们面临的环境问题」，再学「珍惜水资源」。"
+  },
+  {
+    "topicId": "cns_p178",
+    "prerequisiteId": "cns_p177",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「珍惜水资源」，再学「解决垃圾问题」。"
+  },
+  {
+    "topicId": "cns_p179",
+    "prerequisiteId": "cns_p178",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「解决垃圾问题」，再学「合理利用能源与资源再生」。"
+  },
+  {
+    "topicId": "cns_p180",
+    "prerequisiteId": "cns_p179",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「合理利用能源与资源再生」，再学「温度与水的变化」。"
+  },
+  {
+    "topicId": "cns_p181",
+    "prerequisiteId": "cns_p180",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「温度与水的变化」，再学「水的蒸发和凝结」。"
+  },
+  {
+    "topicId": "cns_p182",
+    "prerequisiteId": "cns_p181",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「水的蒸发和凝结」，再学「温度不同的物体相互接触」。"
+  },
+  {
+    "topicId": "cns_p184",
+    "prerequisiteId": "cns_p183",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「热在金属中的传递」，再学「热在水中的传递」。"
+  },
+  {
+    "topicId": "cns_p185",
+    "prerequisiteId": "cns_p184",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「热在水中的传递」，再学「哪个传热快与做个保温杯」。"
+  },
+  {
+    "topicId": "cns_p186",
+    "prerequisiteId": "cns_p185",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「哪个传热快与做个保温杯」，再学「生长发育的信息」。"
+  },
+  {
+    "topicId": "cns_p187",
+    "prerequisiteId": "cns_p186",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「生长发育的信息」，再学「食物中的营养与均衡膳食」。"
+  },
+  {
+    "topicId": "cns_p188",
+    "prerequisiteId": "cns_p187",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「食物中的营养与均衡膳食」，再学「身体的「总指挥」」。"
+  },
+  {
+    "topicId": "cns_p189",
+    "prerequisiteId": "cns_p188",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「身体的「总指挥」」，再学「睡眠与情绪」。"
+  },
+  {
+    "topicId": "cns_p190",
+    "prerequisiteId": "cns_p189",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「睡眠与情绪」，再学「制订健康生活计划」。"
+  },
+  {
+    "topicId": "cns_p191",
+    "prerequisiteId": "cns_p190",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「制订健康生活计划」，再学「怎样能看到物体」。"
+  },
+  {
+    "topicId": "cns_p194",
+    "prerequisiteId": "cns_p193",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「光能穿透物体吗」，再学「光的反射现象」。"
+  },
+  {
+    "topicId": "cns_p196",
+    "prerequisiteId": "cns_p195",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「设计和制作潜望镜」，再学「制造彩虹」。"
+  },
+  {
+    "topicId": "cns_p197",
+    "prerequisiteId": "cns_p196",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「制造彩虹」，再学「利用地球模型来研究」。"
+  },
+  {
+    "topicId": "cns_p200",
+    "prerequisiteId": "cns_p199",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「哪里先迎来黎明」，再学「影长的四季变化」。"
+  },
+  {
+    "topicId": "cns_p202",
+    "prerequisiteId": "cns_p201",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「地球的公转与四季」，再学「时间在流逝」。"
+  },
+  {
+    "topicId": "cns_p203",
+    "prerequisiteId": "cns_p202",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「时间在流逝」，再学「用水计量时间与制作水钟」。"
+  },
+  {
+    "topicId": "cns_p205",
+    "prerequisiteId": "cns_p204",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「机械摆钟与制作钟摆」，再学「时间与变化」。"
+  },
+  {
+    "topicId": "cns_p206",
+    "prerequisiteId": "cns_p205",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「时间与变化」，再学「了解我们的住房」。"
+  },
+  {
+    "topicId": "cns_p207",
+    "prerequisiteId": "cns_p206",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「了解我们的住房」，再学「认识工程」。"
+  },
+  {
+    "topicId": "cns_p208",
+    "prerequisiteId": "cns_p207",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「认识工程」，再学「建造塔台」。"
+  },
+  {
+    "topicId": "cns_p210",
+    "prerequisiteId": "cns_p209",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「设计、制作、测试和改进塔台模型」，再学「校园生物大搜索与生物分布」。"
+  },
+  {
+    "topicId": "cns_p211",
+    "prerequisiteId": "cns_p210",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「校园生物大搜索与生物分布」，再学「形形色色的植物」。"
+  },
+  {
+    "topicId": "cns_p212",
+    "prerequisiteId": "cns_p211",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「形形色色的植物」，再学「多种多样的动物」。"
+  },
+  {
+    "topicId": "cns_p213",
+    "prerequisiteId": "cns_p212",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「多种多样的动物」，再学「相貌各异的我们」。"
+  },
+  {
+    "topicId": "cns_p214",
+    "prerequisiteId": "cns_p213",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「相貌各异的我们」，再学「古代生物与保护生物多样性」。"
+  },
+  {
+    "topicId": "cns_p215",
+    "prerequisiteId": "cns_p214",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「古代生物与保护生物多样性」，再学「太阳系大家庭与八颗行星」。"
+  },
+  {
+    "topicId": "cns_p216",
+    "prerequisiteId": "cns_p215",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「太阳系大家庭与八颗行星」，再学「日食与月相」。"
+  },
+  {
+    "topicId": "cns_p217",
+    "prerequisiteId": "cns_p216",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「日食与月相」，再学「认识星座与夏季星空」。"
+  },
+  {
+    "topicId": "cns_p218",
+    "prerequisiteId": "cns_p217",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「认识星座与夏季星空」，再学「浩瀚的宇宙与探索宇宙」。"
+  },
+  {
+    "topicId": "cns_p219",
+    "prerequisiteId": "cns_p218",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「浩瀚的宇宙与探索宇宙」，再学「厨房里的物质与变化」。"
+  },
+  {
+    "topicId": "cns_p221",
+    "prerequisiteId": "cns_p220",
+    "strength": "soft",
+    "reason": "按教科版科学的常见教学顺序，先学「产生气体的变化」，再学「发现变化中的新物质与伴随现象」。"
+  },
+  {
+    "topicId": "cns_p007",
+    "prerequisiteId": "cns_p002",
+    "strength": "hard",
+    "reason": "说出根、茎、叶的作用之前，要先会观察植物的各个部分。"
+  },
+  {
+    "topicId": "cns_p012",
+    "prerequisiteId": "cns_p010",
+    "strength": "hard",
+    "reason": "综合使用五种感官之前，要先会用眼睛观察。"
+  },
+  {
+    "topicId": "cns_p012",
+    "prerequisiteId": "cns_p011",
+    "strength": "hard",
+    "reason": "综合使用感官之前，要先会安全地闻气味。"
+  },
+  {
+    "topicId": "cns_p028",
+    "prerequisiteId": "cns_p024",
+    "strength": "hard",
+    "reason": "比较动物吃什么之前，要先认识周围的动物。"
+  },
+  {
+    "topicId": "cns_p030",
+    "prerequisiteId": "cns_p029",
+    "strength": "hard",
+    "reason": "按身体特征给动物分类，要先说出动物的身体特征。"
+  },
+  {
+    "topicId": "cns_p053",
+    "prerequisiteId": "cns_p047",
+    "strength": "hard",
+    "reason": "理解化石的形成，要先知道化石保存在岩石里。"
+  },
+  {
+    "topicId": "cns_p087",
+    "prerequisiteId": "cns_p030",
+    "strength": "hard",
+    "reason": "按脊椎、哺乳等特征分类之前，要先会按简单特征给动物分类。"
+  },
+  {
+    "topicId": "cns_p089",
+    "prerequisiteId": "cns_p088",
+    "strength": "hard",
+    "reason": "认识蚕的一生之前，要先知道卵生等繁殖方式。"
+  },
+  {
+    "topicId": "cns_p091",
+    "prerequisiteId": "cns_p089",
+    "strength": "hard",
+    "reason": "比较完全变态和不完全变态，要先知道蚕的四个阶段。"
+  },
+  {
+    "topicId": "cns_p092",
+    "prerequisiteId": "cns_p091",
+    "strength": "hard",
+    "reason": "概括动物的生命周期，要先认识昆虫的一生。"
+  },
+  {
+    "topicId": "cns_p110",
+    "prerequisiteId": "cns_p107",
+    "strength": "hard",
+    "reason": "研究口腔消化之前，要先知道消化的作用。"
+  },
+  {
+    "topicId": "cns_p112",
+    "prerequisiteId": "cns_p111",
+    "strength": "hard",
+    "reason": "排出完整的消化道顺序，要先认识胃和小肠。"
+  },
+  {
+    "topicId": "cns_p120",
+    "prerequisiteId": "cns_p005",
+    "strength": "hard",
+    "reason": "研究种子孕育新生命，要先知道植物会生长变化。"
+  },
+  {
+    "topicId": "cns_p122",
+    "prerequisiteId": "cns_p007",
+    "strength": "hard",
+    "reason": "研究茎运输水分、叶制造养料，要先知道根、茎、叶的位置。"
+  },
+  {
+    "topicId": "cns_p124",
+    "prerequisiteId": "cns_p123",
+    "strength": "hard",
+    "reason": "理解子房发育成果实，要先认识花的结构。"
+  },
+  {
+    "topicId": "cns_p126",
+    "prerequisiteId": "cns_p124",
+    "strength": "hard",
+    "reason": "概括植物的一生，要先知道果实和种子的形成。"
+  },
+  {
+    "topicId": "cns_p141",
+    "prerequisiteId": "cns_p140",
+    "strength": "hard",
+    "reason": "观察细胞要先会使用显微镜。"
+  },
+  {
+    "topicId": "cns_p140",
+    "prerequisiteId": "cns_p139",
+    "strength": "hard",
+    "reason": "理解显微镜，要先知道两个凸透镜组合能放得更大。"
+  },
+  {
+    "topicId": "cns_p142",
+    "prerequisiteId": "cns_p140",
+    "strength": "hard",
+    "reason": "观察水中微小生物要先会使用显微镜。"
+  },
+  {
+    "topicId": "cns_p162",
+    "prerequisiteId": "cns_p120",
+    "strength": "hard",
+    "reason": "做种子发芽对比实验之前，要先知道种子萌发的条件。"
+  },
+  {
+    "topicId": "cns_p164",
+    "prerequisiteId": "cns_p122",
+    "strength": "hard",
+    "reason": "研究阳光对绿豆苗的影响，要先知道叶利用阳光制造养料。"
+  },
+  {
+    "topicId": "cns_p167",
+    "prerequisiteId": "cns_p028",
+    "strength": "hard",
+    "reason": "写食物链之前，要先知道不同动物吃什么。"
+  },
+  {
+    "topicId": "cns_p168",
+    "prerequisiteId": "cns_p167",
+    "strength": "hard",
+    "reason": "设计生态瓶要先懂得生物之间的食物关系。"
+  },
+  {
+    "topicId": "cns_p187",
+    "prerequisiteId": "cns_p111",
+    "strength": "hard",
+    "reason": "理解营养被吸收利用，要先知道消化和吸收的器官。"
+  },
+  {
+    "topicId": "cns_p211",
+    "prerequisiteId": "cns_p123",
+    "strength": "hard",
+    "reason": "按是否开花给植物分类，要先认识花。"
+  },
+  {
+    "topicId": "cns_p212",
+    "prerequisiteId": "cns_p087",
+    "strength": "hard",
+    "reason": "进一步给动物分类，要先会区分脊椎动物和无脊椎动物。"
+  },
+  {
+    "topicId": "cns_p214",
+    "prerequisiteId": "cns_p053",
+    "strength": "hard",
+    "reason": "用化石研究古代生物多样性，要先知道化石是怎样形成的。"
+  },
+  {
+    "topicId": "cns_p021",
+    "prerequisiteId": "cns_p020",
+    "strength": "hard",
+    "reason": "比较液体流动快慢，要先知道水会流动。"
+  },
+  {
+    "topicId": "cns_p022",
+    "prerequisiteId": "cns_p020",
+    "strength": "hard",
+    "reason": "观察盐、糖在水里消失之前，要先认识水的特征。"
+  },
+  {
+    "topicId": "cns_p055",
+    "prerequisiteId": "cns_p054",
+    "strength": "hard",
+    "reason": "比较磁力大小，要先知道磁铁能吸引什么。"
+  },
+  {
+    "topicId": "cns_p059",
+    "prerequisiteId": "cns_p058",
+    "strength": "hard",
+    "reason": "利用同极相斥、异极相吸，要先知道磁铁有两个磁极。"
+  },
+  {
+    "topicId": "cns_p068",
+    "prerequisiteId": "cns_p067",
+    "strength": "hard",
+    "reason": "理解水蒸气凝结，要先知道水会蒸发成水蒸气。"
+  },
+  {
+    "topicId": "cns_p070",
+    "prerequisiteId": "cns_p062",
+    "strength": "hard",
+    "reason": "测量沸腾时的水温，要先会读温度计。"
+  },
+  {
+    "topicId": "cns_p072",
+    "prerequisiteId": "cns_p071",
+    "strength": "hard",
+    "reason": "研究冰熔化，要先知道水会结冰。"
+  },
+  {
+    "topicId": "cns_p073",
+    "prerequisiteId": "cns_p022",
+    "strength": "hard",
+    "reason": "研究水能溶解多少物质，要先知道有些物质能在水中溶解。"
+  },
+  {
+    "topicId": "cns_p074",
+    "prerequisiteId": "cns_p073",
+    "strength": "hard",
+    "reason": "研究加快溶解，要先认识溶解。"
+  },
+  {
+    "topicId": "cns_p075",
+    "prerequisiteId": "cns_p073",
+    "strength": "hard",
+    "reason": "用溶解、过滤分离混合物，要先知道哪些物质能溶于水。"
+  },
+  {
+    "topicId": "cns_p075",
+    "prerequisiteId": "cns_p067",
+    "strength": "hard",
+    "reason": "用蒸发取回溶解的盐，要先知道水会蒸发。"
+  },
+  {
+    "topicId": "cns_p079",
+    "prerequisiteId": "cns_p076",
+    "strength": "hard",
+    "reason": "比较运动快慢，要先会描述物体的位置和运动。"
+  },
+  {
+    "topicId": "cns_p081",
+    "prerequisiteId": "cns_p080",
+    "strength": "hard",
+    "reason": "设计过山车要先知道运动和能量的关系。"
+  },
+  {
+    "topicId": "cns_p084",
+    "prerequisiteId": "cns_p058",
+    "strength": "hard",
+    "reason": "用磁铁辨别方向，要先知道磁铁有 N、S 两极并会指南北。"
+  },
+  {
+    "topicId": "cns_p085",
+    "prerequisiteId": "cns_p059",
+    "strength": "hard",
+    "reason": "理解磁极与方向，要先知道同极相斥、异极相吸。"
+  },
+  {
+    "topicId": "cns_p086",
+    "prerequisiteId": "cns_p085",
+    "strength": "hard",
+    "reason": "制作指南针要先理解磁极与方向的关系。"
+  },
+  {
+    "topicId": "cns_p101",
+    "prerequisiteId": "cns_p040",
+    "strength": "hard",
+    "reason": "研究空气占据空间，要先认识周围的空气。"
+  },
+  {
+    "topicId": "cns_p102",
+    "prerequisiteId": "cns_p101",
+    "strength": "hard",
+    "reason": "研究空气能否被压缩，要先知道空气占据空间。"
+  },
+  {
+    "topicId": "cns_p105",
+    "prerequisiteId": "cns_p100",
+    "strength": "hard",
+    "reason": "研究热空气上升，要先认识空气的基本特征。"
+  },
+  {
+    "topicId": "cns_p106",
+    "prerequisiteId": "cns_p105",
+    "strength": "hard",
+    "reason": "解释风的成因，要先知道空气受热上升。"
+  },
+  {
+    "topicId": "cns_p115",
+    "prerequisiteId": "cns_p114",
+    "strength": "hard",
+    "reason": "研究声音强弱，要先知道声音由振动产生。"
+  },
+  {
+    "topicId": "cns_p116",
+    "prerequisiteId": "cns_p114",
+    "strength": "hard",
+    "reason": "研究声音高低，要先知道声音由振动产生。"
+  },
+  {
+    "topicId": "cns_p117",
+    "prerequisiteId": "cns_p116",
+    "strength": "hard",
+    "reason": "设计乐器要先懂得改变音高的方法。"
+  },
+  {
+    "topicId": "cns_p117",
+    "prerequisiteId": "cns_p115",
+    "strength": "hard",
+    "reason": "改进乐器音量要先懂得声音强弱与振幅的关系。"
+  },
+  {
+    "topicId": "cns_p129",
+    "prerequisiteId": "cns_p128",
+    "strength": "hard",
+    "reason": "组装带开关的电路，要先会点亮小灯泡。"
+  },
+  {
+    "topicId": "cns_p130",
+    "prerequisiteId": "cns_p129",
+    "strength": "hard",
+    "reason": "查找电路故障，要先会组装简易电路。"
+  },
+  {
+    "topicId": "cns_p132",
+    "prerequisiteId": "cns_p131",
+    "strength": "hard",
+    "reason": "推测盒内连接和安装照明电路，要先会区分导体和绝缘体。"
+  },
+  {
+    "topicId": "cns_p132",
+    "prerequisiteId": "cns_p130",
+    "strength": "hard",
+    "reason": "用检测器推测盒内连接，要先会使用电路检测器。"
+  },
+  {
+    "topicId": "cns_p145",
+    "prerequisiteId": "cns_p144",
+    "strength": "hard",
+    "reason": "研究杠杆要先认识常用工具。"
+  },
+  {
+    "topicId": "cns_p152",
+    "prerequisiteId": "cns_p150",
+    "strength": "hard",
+    "reason": "用弹力驱动小车，要先认识小车的结构。"
+  },
+  {
+    "topicId": "cns_p151",
+    "prerequisiteId": "cns_p150",
+    "strength": "hard",
+    "reason": "用重物驱动小车，要先认识小车的结构。"
+  },
+  {
+    "topicId": "cns_p153",
+    "prerequisiteId": "cns_p152",
+    "strength": "hard",
+    "reason": "弹簧测力计利用弹簧的弹力，要先认识弹力。"
+  },
+  {
+    "topicId": "cns_p154",
+    "prerequisiteId": "cns_p153",
+    "strength": "hard",
+    "reason": "比较摩擦力大小，要先会用测力计测力。"
+  },
+  {
+    "topicId": "cns_p155",
+    "prerequisiteId": "cns_p154",
+    "strength": "hard",
+    "reason": "设计月球车轮子，要先懂得摩擦力的影响因素。"
+  },
+  {
+    "topicId": "cns_p170",
+    "prerequisiteId": "cns_p169",
+    "strength": "hard",
+    "reason": "用浮的材料造船，要先了解船的发展。"
+  },
+  {
+    "topicId": "cns_p171",
+    "prerequisiteId": "cns_p170",
+    "strength": "hard",
+    "reason": "用沉的材料造船，要先知道浮的材料怎样造船。"
+  },
+  {
+    "topicId": "cns_p172",
+    "prerequisiteId": "cns_p171",
+    "strength": "hard",
+    "reason": "增加载重量要先知道空心船形能排开更多水。"
+  },
+  {
+    "topicId": "cns_p174",
+    "prerequisiteId": "cns_p172",
+    "strength": "hard",
+    "reason": "设计小船要先懂得载重量与排水体积的关系。"
+  },
+  {
+    "topicId": "cns_p174",
+    "prerequisiteId": "cns_p173",
+    "strength": "hard",
+    "reason": "设计小船的动力，要先会给船装动力。"
+  },
+  {
+    "topicId": "cns_p180",
+    "prerequisiteId": "cns_p072",
+    "strength": "hard",
+    "reason": "概括水的三态变化，要先认识熔化和结冰。"
+  },
+  {
+    "topicId": "cns_p181",
+    "prerequisiteId": "cns_p068",
+    "strength": "hard",
+    "reason": "理解蒸发吸热、凝结放热，要先认识凝结。"
+  },
+  {
+    "topicId": "cns_p183",
+    "prerequisiteId": "cns_p182",
+    "strength": "hard",
+    "reason": "研究热在金属中的传递，要先知道热从高温传向低温。"
+  },
+  {
+    "topicId": "cns_p184",
+    "prerequisiteId": "cns_p182",
+    "strength": "hard",
+    "reason": "研究热在水中的传递，要先知道热从高温传向低温。"
+  },
+  {
+    "topicId": "cns_p184",
+    "prerequisiteId": "cns_p105",
+    "strength": "hard",
+    "reason": "理解热对流，要先知道受热的空气会上升。"
+  },
+  {
+    "topicId": "cns_p185",
+    "prerequisiteId": "cns_p183",
+    "strength": "hard",
+    "reason": "比较不同材料传热快慢，要先认识热传导。"
+  },
+  {
+    "topicId": "cns_p192",
+    "prerequisiteId": "cns_p191",
+    "strength": "hard",
+    "reason": "研究光的传播，要先知道光源和怎样看到物体。"
+  },
+  {
+    "topicId": "cns_p193",
+    "prerequisiteId": "cns_p192",
+    "strength": "hard",
+    "reason": "区分透明与不透明物体，要先知道光沿直线传播会形成影子。"
+  },
+  {
+    "topicId": "cns_p194",
+    "prerequisiteId": "cns_p192",
+    "strength": "hard",
+    "reason": "研究光的反射，要先知道光沿直线传播。"
+  },
+  {
+    "topicId": "cns_p195",
+    "prerequisiteId": "cns_p194",
+    "strength": "hard",
+    "reason": "制作潜望镜要先懂得平面镜反射光。"
+  },
+  {
+    "topicId": "cns_p220",
+    "prerequisiteId": "cns_p219",
+    "strength": "hard",
+    "reason": "研究产生气体的变化，要先会区分物理变化和化学变化。"
+  },
+  {
+    "topicId": "cns_p221",
+    "prerequisiteId": "cns_p219",
+    "strength": "hard",
+    "reason": "寻找变化中的新物质，要先知道化学变化会产生新物质。"
+  },
+  {
+    "topicId": "cns_p222",
+    "prerequisiteId": "cns_p221",
+    "strength": "hard",
+    "reason": "认识生活中的化学变化，要先会根据现象判断化学变化。"
+  },
+  {
+    "topicId": "cns_p222",
+    "prerequisiteId": "cns_p122",
+    "strength": "hard",
+    "reason": "把光合作用看成化学变化，要先知道叶能制造养料。"
+  },
+  {
+    "topicId": "cns_p043",
+    "prerequisiteId": "cns_p038",
+    "strength": "hard",
+    "reason": "观察太阳之前，要先知道地球家园有什么。"
+  },
+  {
+    "topicId": "cns_p045",
+    "prerequisiteId": "cns_p041",
+    "strength": "hard",
+    "reason": "记录天气日历，要先认识不同的天气。"
+  },
+  {
+    "topicId": "cns_p061",
+    "prerequisiteId": "cns_p041",
+    "strength": "hard",
+    "reason": "描述天气要素，要先认识晴、阴、雨、雪等天气。"
+  },
+  {
+    "topicId": "cns_p063",
+    "prerequisiteId": "cns_p062",
+    "strength": "hard",
+    "reason": "测量气温要先会读气温计。"
+  },
+  {
+    "topicId": "cns_p065",
+    "prerequisiteId": "cns_p040",
+    "strength": "hard",
+    "reason": "观测风之前，要先知道流动的空气就是风。"
+  },
+  {
+    "topicId": "cns_p069",
+    "prerequisiteId": "cns_p068",
+    "strength": "hard",
+    "reason": "理解云的组成，要先知道水蒸气遇冷凝结。"
+  },
+  {
+    "topicId": "cns_p066",
+    "prerequisiteId": "cns_p063",
+    "strength": "hard",
+    "reason": "看懂天气预报的温差，要先会测量气温。"
+  },
+  {
+    "topicId": "cns_p082",
+    "prerequisiteId": "cns_p043",
+    "strength": "hard",
+    "reason": "根据太阳辨别方向，要先知道太阳东升西落。"
+  },
+  {
+    "topicId": "cns_p097",
+    "prerequisiteId": "cns_p082",
+    "strength": "hard",
+    "reason": "研究一天中影子的变化，要先会根据太阳辨别方向。"
+  },
+  {
+    "topicId": "cns_p095",
+    "prerequisiteId": "cns_p044",
+    "strength": "hard",
+    "reason": "认识月球表面，要先观察过夜晚的月亮。"
+  },
+  {
+    "topicId": "cns_p098",
+    "prerequisiteId": "cns_p096",
+    "strength": "hard",
+    "reason": "认识太阳系的行星，要先知道太阳是恒星。"
+  },
+  {
+    "topicId": "cns_p134",
+    "prerequisiteId": "cns_p133",
+    "strength": "hard",
+    "reason": "研究岩石的矿物组成，要先认识常见岩石。"
+  },
+  {
+    "topicId": "cns_p135",
+    "prerequisiteId": "cns_p133",
+    "strength": "hard",
+    "reason": "理解沙和黏土由岩石风化而来，要先认识岩石。"
+  },
+  {
+    "topicId": "cns_p136",
+    "prerequisiteId": "cns_p135",
+    "strength": "hard",
+    "reason": "观察土壤的组成，要先认识沙和黏土。"
+  },
+  {
+    "topicId": "cns_p137",
+    "prerequisiteId": "cns_p136",
+    "strength": "hard",
+    "reason": "比较不同土壤，要先知道土壤的组成。"
+  },
+  {
+    "topicId": "cns_p159",
+    "prerequisiteId": "cns_p133",
+    "strength": "hard",
+    "reason": "了解地表岩石的用途，要先认识常见岩石。"
+  },
+  {
+    "topicId": "cns_p160",
+    "prerequisiteId": "cns_p159",
+    "strength": "hard",
+    "reason": "给岩石分类，要先认识地球表面的岩石。"
+  },
+  {
+    "topicId": "cns_p161",
+    "prerequisiteId": "cns_p156",
+    "strength": "hard",
+    "reason": "研究流水和风改变地表，要先认识地形。"
+  },
+  {
+    "topicId": "cns_p161",
+    "prerequisiteId": "cns_p135",
+    "strength": "hard",
+    "reason": "理解风化、侵蚀，要先知道岩石会破碎成沙和黏土。"
+  },
+  {
+    "topicId": "cns_p157",
+    "prerequisiteId": "cns_p156",
+    "strength": "hard",
+    "reason": "研究火山对地表的作用，要先认识地球的表面。"
+  },
+  {
+    "topicId": "cns_p158",
+    "prerequisiteId": "cns_p156",
+    "strength": "hard",
+    "reason": "研究地震对地表的作用，要先认识地球的表面。"
+  },
+  {
+    "topicId": "cns_p175",
+    "prerequisiteId": "cns_p093",
+    "strength": "hard",
+    "reason": "理解地球是宇宙的奇迹，要先知道地球适合生命的条件。"
+  },
+  {
+    "topicId": "cns_p177",
+    "prerequisiteId": "cns_p094",
+    "strength": "hard",
+    "reason": "珍惜水资源，要先知道地球上可用的淡水很少。"
+  },
+  {
+    "topicId": "cns_p198",
+    "prerequisiteId": "cns_p197",
+    "strength": "hard",
+    "reason": "用模型解释昼夜交替，要先会用地球模型研究。"
+  },
+  {
+    "topicId": "cns_p198",
+    "prerequisiteId": "cns_p097",
+    "strength": "hard",
+    "reason": "解释昼夜和太阳视运动，要先观察过一天中太阳和影子的变化。"
+  },
+  {
+    "topicId": "cns_p199",
+    "prerequisiteId": "cns_p198",
+    "strength": "hard",
+    "reason": "判断哪里先迎来黎明，要先知道地球自西向东自转。"
+  },
+  {
+    "topicId": "cns_p200",
+    "prerequisiteId": "cns_p097",
+    "strength": "hard",
+    "reason": "研究影长的四季变化，要先知道影长与太阳高度有关。"
+  },
+  {
+    "topicId": "cns_p201",
+    "prerequisiteId": "cns_p200",
+    "strength": "hard",
+    "reason": "解释四季的形成，要先观察正午影长的四季变化。"
+  },
+  {
+    "topicId": "cns_p202",
+    "prerequisiteId": "cns_p198",
+    "strength": "hard",
+    "reason": "用昼夜交替计量时间，要先知道昼夜交替的成因。"
+  },
+  {
+    "topicId": "cns_p204",
+    "prerequisiteId": "cns_p203",
+    "strength": "hard",
+    "reason": "研究摆钟之前，要先了解水钟等计时方法的不足。"
+  },
+  {
+    "topicId": "cns_p215",
+    "prerequisiteId": "cns_p098",
+    "strength": "hard",
+    "reason": "认识太阳系大家庭，要先知道地球的兄弟姐妹——八颗行星。"
+  },
+  {
+    "topicId": "cns_p216",
+    "prerequisiteId": "cns_p192",
+    "strength": "hard",
+    "reason": "解释日食，要先知道光沿直线传播。"
+  },
+  {
+    "topicId": "cns_p216",
+    "prerequisiteId": "cns_p095",
+    "strength": "hard",
+    "reason": "解释日食，要先知道月球是地球的卫星。"
+  },
+  {
+    "topicId": "cns_p217",
+    "prerequisiteId": "cns_p083",
+    "strength": "hard",
+    "reason": "用北斗找北极星，要先知道北极星指示北方。"
+  },
+  {
+    "topicId": "cns_p218",
+    "prerequisiteId": "cns_p215",
+    "strength": "hard",
+    "reason": "认识银河系和宇宙，要先认识太阳系。"
+  },
+  {
+    "topicId": "cns_p035",
+    "prerequisiteId": "cns_p034",
+    "strength": "hard",
+    "reason": "建造小房子要先画好设计图。"
+  },
+  {
+    "topicId": "cns_p036",
+    "prerequisiteId": "cns_p035",
+    "strength": "hard",
+    "reason": "展示评价小房子，要先把它建好。"
+  },
+  {
+    "topicId": "cns_p051",
+    "prerequisiteId": "cns_p050",
+    "strength": "hard",
+    "reason": "制作恐龙模型要先复原恐龙的样子。"
+  },
+  {
+    "topicId": "cns_p057",
+    "prerequisiteId": "cns_p056",
+    "strength": "hard",
+    "reason": "设计钓鱼玩具要先知道磁铁能隔物吸铁。"
+  },
+  {
+    "topicId": "cns_p208",
+    "prerequisiteId": "cns_p037",
+    "strength": "hard",
+    "reason": "建造稳固的塔台，要先知道三角形结构牢固。"
+  },
+  {
+    "topicId": "cns_p209",
+    "prerequisiteId": "cns_p208",
+    "strength": "hard",
+    "reason": "设计塔台模型，要先懂得塔台稳固的条件。"
+  },
+  {
+    "topicId": "cns_p209",
+    "prerequisiteId": "cns_p174",
+    "strength": "hard",
+    "reason": "完成塔台工程，要先经历过明确问题、设计、制作、测试、改进的工程过程。"
+  },
+  {
+    "topicId": "cnm_p261",
+    "prerequisiteId": "cnm_p037",
+    "strength": "hard",
+    "reason": "学习「逐层分类」需要先掌握「分类与整理」。"
+  },
+  {
+    "topicId": "cnm_p262",
+    "prerequisiteId": "cnm_p039",
+    "strength": "hard",
+    "reason": "学习「用乘法解决购物问题」需要先掌握「2～6的乘法口诀」。"
+  },
+  {
+    "topicId": "cnm_p262",
+    "prerequisiteId": "cnm_p048",
+    "strength": "hard",
+    "reason": "学习「用乘法解决购物问题」需要先掌握「选择一种运算解决问题」。"
+  },
+  {
+    "topicId": "cnm_p263",
+    "prerequisiteId": "cnm_p038",
+    "strength": "hard",
+    "reason": "学习「平均分（包含）」需要先掌握「乘法的初步认识」。"
+  },
+  {
+    "topicId": "cnm_p264",
+    "prerequisiteId": "cnm_p038",
+    "strength": "hard",
+    "reason": "学习「平均分（等分）」需要先掌握「乘法的初步认识」。"
+  },
+  {
+    "topicId": "cnm_p043",
+    "prerequisiteId": "cnm_p263",
+    "strength": "hard",
+    "reason": "学习「除法的意义」需要先掌握「平均分（包含）」。"
+  },
+  {
+    "topicId": "cnm_p043",
+    "prerequisiteId": "cnm_p264",
+    "strength": "hard",
+    "reason": "学习「除法的意义」需要先掌握「平均分（等分）」。"
+  },
+  {
+    "topicId": "cnm_p265",
+    "prerequisiteId": "cnm_p040",
+    "strength": "hard",
+    "reason": "学习「认识线段」需要先掌握「认识厘米及用厘米量」。"
+  },
+  {
+    "topicId": "cnm_p266",
+    "prerequisiteId": "cnm_p041",
+    "strength": "hard",
+    "reason": "学习「用估量解决问题」需要先掌握「认识米及用米量」。"
+  },
+  {
+    "topicId": "cnm_p266",
+    "prerequisiteId": "cnm_p040",
+    "strength": "soft",
+    "reason": "「认识厘米及用厘米量」对学习「用估量解决问题」有帮助，但不会前者也可以开始学后者。"
+  },
+  {
+    "topicId": "cnm_p267",
+    "prerequisiteId": "cnm_p049",
+    "strength": "hard",
+    "reason": "学习「设计导游路线」需要先掌握「认识东、南、西、北」。"
+  },
+  {
+    "topicId": "cnm_p268",
+    "prerequisiteId": "cnm_p042",
+    "strength": "hard",
+    "reason": "学习「解决连续两问的问题」需要先掌握「7～9的乘法口诀」。"
+  },
+  {
+    "topicId": "cnm_p268",
+    "prerequisiteId": "cnm_p044",
+    "strength": "hard",
+    "reason": "学习「解决连续两问的问题」需要先掌握「用7～9的乘法口诀求商」。"
+  },
+  {
+    "topicId": "cnm_p045",
+    "prerequisiteId": "cnm_p266",
+    "strength": "soft",
+    "reason": "「用估量解决问题」对学习「寻找、测量、运用身体尺」有帮助，但不会前者也可以开始学后者。"
+  },
+  {
+    "topicId": "cnm_p099",
+    "prerequisiteId": "cnm_p265",
+    "strength": "soft",
+    "reason": "「认识线段」对学习「线段、射线、直线的概念」有帮助，但不会前者也可以开始学后者。"
+  },
+  {
+    "topicId": "cnm_p269",
+    "prerequisiteId": "cnm_p053",
+    "strength": "hard",
+    "reason": "学习「10000以内数的认识」需要先掌握「1000以内数的认识」。"
+  },
+  {
+    "topicId": "cnm_p054",
+    "prerequisiteId": "cnm_p269",
+    "strength": "soft",
+    "reason": "「10000以内数的认识」对学习「万以内数的大小比较」有帮助，但不会前者也可以开始学后者。"
+  },
+  {
+    "topicId": "cnm_p055",
+    "prerequisiteId": "cnm_p269",
+    "strength": "soft",
+    "reason": "「10000以内数的认识」对学习「万以内数的组成」有帮助，但不会前者也可以开始学后者。"
+  },
+  {
+    "topicId": "cnm_p270",
+    "prerequisiteId": "cnm_p053",
+    "strength": "hard",
+    "reason": "学习「简单的加、减法」需要先掌握「1000以内数的认识」。"
+  },
+  {
+    "topicId": "cnm_p270",
+    "prerequisiteId": "cnm_p269",
+    "strength": "hard",
+    "reason": "学习「简单的加、减法」需要先掌握「10000以内数的认识」。"
+  },
+  {
+    "topicId": "cnm_p064",
+    "prerequisiteId": "cnm_p270",
+    "strength": "soft",
+    "reason": "「简单的加、减法」对学习「几百几十的口算加法」有帮助，但不会前者也可以开始学后者。"
+  },
+  {
+    "topicId": "cnm_p271",
+    "prerequisiteId": "cnm_p054",
+    "strength": "hard",
+    "reason": "学习「数独游戏」需要先掌握「万以内数的大小比较」。"
+  },
+  {
+    "topicId": "cnm_p271",
+    "prerequisiteId": "cnm_p055",
+    "strength": "soft",
+    "reason": "「万以内数的组成」对学习「数独游戏」有帮助，但不会前者也可以开始学后者。"
+  },
+  {
+    "topicId": "cnm_p272",
+    "prerequisiteId": "cnm_p219",
+    "strength": "hard",
+    "reason": "学习「连环画分享会」需要先掌握「数量间的乘除关系」。"
+  },
+  {
+    "topicId": "cnm_p272",
+    "prerequisiteId": "cnm_p048",
+    "strength": "soft",
+    "reason": "「选择一种运算解决问题」对学习「连环画分享会」有帮助，但不会前者也可以开始学后者。"
+  },
+  {
+    "topicId": "cnm_p273",
+    "prerequisiteId": "cnm_p062",
+    "strength": "hard",
+    "reason": "学习「我的时间小书」需要先掌握「时、分、秒的进率」。"
+  },
+  {
+    "topicId": "cnm_p273",
+    "prerequisiteId": "cnm_p063",
+    "strength": "soft",
+    "reason": "「我与时间的故事」对学习「我的时间小书」有帮助，但不会前者也可以开始学后者。"
+  },
+  {
+    "topicId": "cnm_p096",
+    "prerequisiteId": "cnm_p269",
+    "strength": "soft",
+    "reason": "「10000以内数的认识」对学习「亿以内数的认识」有帮助，但不会前者也可以开始学后者。"
+  },
+  {
+    "topicId": "cnm_p274",
+    "prerequisiteId": "cnm_p221",
+    "strength": "hard",
+    "reason": "学习「根据直观图猜测积木形状」需要先掌握「观察简单的立体积木」。"
+  },
+  {
+    "topicId": "cnm_p222",
+    "prerequisiteId": "cnm_p274",
+    "strength": "soft",
+    "reason": "「根据直观图猜测积木形状」对学习「长方体纸盒的展开」有帮助，但不会前者也可以开始学后者。"
+  },
+  {
+    "topicId": "cnm_p275",
+    "prerequisiteId": "cnm_p042",
+    "strength": "hard",
+    "reason": "学习「口算乘法」需要先掌握「7～9的乘法口诀」。"
+  },
+  {
+    "topicId": "cnm_p275",
+    "prerequisiteId": "cnm_p039",
+    "strength": "soft",
+    "reason": "「2～6的乘法口诀」对学习「口算乘法」有帮助，但不会前者也可以开始学后者。"
+  },
+  {
+    "topicId": "cnm_p074",
+    "prerequisiteId": "cnm_p275",
+    "strength": "hard",
+    "reason": "学习「笔算乘法」需要先掌握「口算乘法」。"
+  },
+  {
+    "topicId": "cnm_p276",
+    "prerequisiteId": "cnm_p275",
+    "strength": "hard",
+    "reason": "学习「乘法估算」需要先掌握「口算乘法」。"
+  },
+  {
+    "topicId": "cnm_p276",
+    "prerequisiteId": "cnm_p074",
+    "strength": "soft",
+    "reason": "「笔算乘法」对学习「乘法估算」有帮助，但不会前者也可以开始学后者。"
+  },
+  {
+    "topicId": "cnm_p277",
+    "prerequisiteId": "cnm_p099",
+    "strength": "hard",
+    "reason": "学习「用圆规比较线段的长短」需要先掌握「线段、射线、直线的概念」。"
+  },
+  {
+    "topicId": "cnm_p277",
+    "prerequisiteId": "cnm_p265",
+    "strength": "soft",
+    "reason": "「认识线段」对学习「用圆规比较线段的长短」有帮助，但不会前者也可以开始学后者。"
+  },
+  {
+    "topicId": "cnm_p278",
+    "prerequisiteId": "cnm_p043",
+    "strength": "hard",
+    "reason": "学习「认识二分之一」需要先掌握「除法的意义」。"
+  },
+  {
+    "topicId": "cnm_p079",
+    "prerequisiteId": "cnm_p278",
+    "strength": "hard",
+    "reason": "学习「认识几分之一」需要先掌握「认识二分之一」。"
+  },
+  {
+    "topicId": "cnm_p279",
+    "prerequisiteId": "cnm_p069",
+    "strength": "hard",
+    "reason": "学习「估测距离」需要先掌握「千米的认识及单位换算」。"
+  },
+  {
+    "topicId": "cnm_p279",
+    "prerequisiteId": "cnm_p041",
+    "strength": "soft",
+    "reason": "「认识米及用米量」对学习「估测距离」有帮助，但不会前者也可以开始学后者。"
+  },
+  {
+    "topicId": "cnm_p280",
+    "prerequisiteId": "cnm_p076",
+    "strength": "hard",
+    "reason": "学习「编制学号」需要先掌握「认识数字编码」。"
+  },
+  {
+    "topicId": "cnm_p280",
+    "prerequisiteId": "cnm_p053",
+    "strength": "soft",
+    "reason": "「1000以内数的认识」对学习「编制学号」有帮助，但不会前者也可以开始学后者。"
+  },
+  {
+    "topicId": "cnm_p281",
+    "prerequisiteId": "cnm_p228",
+    "strength": "hard",
+    "reason": "学习「剪纸」需要先掌握「生活中的运动现象」。"
+  },
+  {
+    "topicId": "cnm_p281",
+    "prerequisiteId": "cnm_p024",
+    "strength": "soft",
+    "reason": "「图形的拼组」对学习「剪纸」有帮助，但不会前者也可以开始学后者。"
+  },
+  {
+    "topicId": "cnm_p282",
+    "prerequisiteId": "cnm_p044",
+    "strength": "hard",
+    "reason": "学习「口算除法」需要先掌握「用7～9的乘法口诀求商」。"
+  },
+  {
+    "topicId": "cnm_p282",
+    "prerequisiteId": "cnm_p046",
+    "strength": "soft",
+    "reason": "「用2～6的乘法口诀求商」对学习「口算除法」有帮助，但不会前者也可以开始学后者。"
+  },
+  {
+    "topicId": "cnm_p083",
+    "prerequisiteId": "cnm_p282",
+    "strength": "hard",
+    "reason": "学习「笔算除法」需要先掌握「口算除法」。"
+  },
+  {
+    "topicId": "cnm_p283",
+    "prerequisiteId": "cnm_p078",
+    "strength": "hard",
+    "reason": "学习「拼图游戏」需要先掌握「周长」。"
+  },
+  {
+    "topicId": "cnm_p283",
+    "prerequisiteId": "cnm_p077",
+    "strength": "soft",
+    "reason": "「长方形和正方形的特征」对学习「拼图游戏」有帮助，但不会前者也可以开始学后者。"
+  },
+  {
+    "topicId": "cnm_p284",
+    "prerequisiteId": "cnm_p093",
+    "strength": "hard",
+    "reason": "学习「小数的大小比较」需要先掌握「认识小数」。"
+  },
+  {
+    "topicId": "cnm_p094",
+    "prerequisiteId": "cnm_p284",
+    "strength": "soft",
+    "reason": "「小数的大小比较」对学习「简单的小数加、减法」有帮助，但不会前者也可以开始学后者。"
+  },
+  {
+    "topicId": "cnm_p285",
+    "prerequisiteId": "cnm_p091",
+    "strength": "hard",
+    "reason": "学习「年历设计师」需要先掌握「年历中的秘密」。"
+  },
+  {
+    "topicId": "cnm_p285",
+    "prerequisiteId": "cnm_p092",
+    "strength": "soft",
+    "reason": "「作息时间表中的秘密」对学习「年历设计师」有帮助，但不会前者也可以开始学后者。"
+  },
+  {
+    "topicId": "cne_p209",
+    "prerequisiteId": "cne_p080",
+    "strength": "soft",
+    "reason": "先认识家人职业，再学家务活动词。"
+  },
+  {
+    "topicId": "cne_p210",
+    "prerequisiteId": "cne_p209",
+    "strength": "hard",
+    "reason": "先认家务词，再说帮忙句子。"
+  },
+  {
+    "topicId": "cne_p210",
+    "prerequisiteId": "cne_p082",
+    "strength": "soft",
+    "reason": "先会介绍家人，再谈帮忙。"
+  },
+  {
+    "topicId": "cne_p211",
+    "prerequisiteId": "cne_p210",
+    "strength": "hard",
+    "reason": "读懂帮忙介绍前先会帮忙句。"
+  },
+  {
+    "topicId": "cne_p212",
+    "prerequisiteId": "cne_p067",
+    "strength": "soft",
+    "reason": "先会描述朋友，再学品质词。"
+  },
+  {
+    "topicId": "cne_p213",
+    "prerequisiteId": "cne_p212",
+    "strength": "hard",
+    "reason": "先认品质词，再用来介绍朋友。"
+  },
+  {
+    "topicId": "cne_p213",
+    "prerequisiteId": "cne_p069",
+    "strength": "soft",
+    "reason": "先会介绍朋友。"
+  },
+  {
+    "topicId": "cne_p214",
+    "prerequisiteId": "cne_p072",
+    "strength": "soft",
+    "reason": "先认识家里的房间，再学社区场所。"
+  },
+  {
+    "topicId": "cne_p215",
+    "prerequisiteId": "cne_p214",
+    "strength": "hard",
+    "reason": "先认社区场所，再说人们做什么。"
+  },
+  {
+    "topicId": "cne_p216",
+    "prerequisiteId": "cne_p210",
+    "strength": "soft",
+    "reason": "先会帮忙做家务，再谈帮忙社区。"
+  },
+  {
+    "topicId": "cne_p216",
+    "prerequisiteId": "cne_p084",
+    "strength": "soft",
+    "reason": "先认识学校/社区场所。"
+  },
+  {
+    "topicId": "cne_p217",
+    "prerequisiteId": "cne_p216",
+    "strength": "hard",
+    "reason": "读懂帮手介绍前先会说帮忙。"
+  },
+  {
+    "topicId": "cne_p218",
+    "prerequisiteId": "cne_p092",
+    "strength": "hard",
+    "reason": "先会天气词，再说不同天气做什么。"
+  },
+  {
+    "topicId": "cne_p218",
+    "prerequisiteId": "cne_p094",
+    "strength": "soft",
+    "reason": "先会谈天气建议。"
+  },
+  {
+    "topicId": "cne_p219",
+    "prerequisiteId": "cne_p218",
+    "strength": "hard",
+    "reason": "读懂提醒前先会说不同天气做什么。"
+  },
+  {
+    "topicId": "cne_p220",
+    "prerequisiteId": "cne_p100",
+    "strength": "soft",
+    "reason": "先认衣服，再学季节活动。"
+  },
+  {
+    "topicId": "cne_p221",
+    "prerequisiteId": "cne_p220",
+    "strength": "hard",
+    "reason": "读懂旅行卡片前先会季节活动词。"
+  },
+  {
+    "topicId": "cne_p221",
+    "prerequisiteId": "cne_p102",
+    "strength": "soft",
+    "reason": "先会谈论穿着。"
+  },
+  {
+    "topicId": "cne_p222",
+    "prerequisiteId": "cne_p211",
+    "strength": "soft",
+    "reason": "先读懂家庭帮忙。"
+  },
+  {
+    "topicId": "cne_p222",
+    "prerequisiteId": "cne_p217",
+    "strength": "soft",
+    "reason": "先读懂社区/学校帮手。"
+  },
+  {
+    "topicId": "cne_p229",
+    "prerequisiteId": "cne_p199",
+    "strength": "soft",
+    "reason": "与 have to / can't 家规同单元，先接触规则词。"
+  },
+  {
+    "topicId": "cne_p230",
+    "prerequisiteId": "cne_p199",
+    "strength": "hard",
+    "reason": "先懂 have to 与 can't，再练说家规。"
+  },
+  {
+    "topicId": "cne_p230",
+    "prerequisiteId": "cne_p229",
+    "strength": "hard",
+    "reason": "先认家规用词。"
+  },
+  {
+    "topicId": "cne_p231",
+    "prerequisiteId": "cne_p230",
+    "strength": "hard",
+    "reason": "读懂家规前先会说 have to。"
+  },
+  {
+    "topicId": "cne_p232",
+    "prerequisiteId": "cne_p096",
+    "strength": "soft",
+    "reason": "先认农场词，再学农场活动。"
+  },
+  {
+    "topicId": "cne_p233",
+    "prerequisiteId": "cne_p232",
+    "strength": "hard",
+    "reason": "先认农场活动词，再说句子。"
+  },
+  {
+    "topicId": "cne_p234",
+    "prerequisiteId": "cne_p233",
+    "strength": "hard",
+    "reason": "读懂农场短文前先会说活动。"
+  },
+  {
+    "topicId": "cne_p234",
+    "prerequisiteId": "cne_p200",
+    "strength": "soft",
+    "reason": "与从农场到餐桌内容衔接。"
+  },
+  {
+    "topicId": "cne_p238",
+    "prerequisiteId": "cne_p163",
+    "strength": "soft",
+    "reason": "先接触周末计划，再学聚会词。"
+  },
+  {
+    "topicId": "cne_p235",
+    "prerequisiteId": "cne_p176",
+    "strength": "soft",
+    "reason": "与 should 提建议同单元。"
+  },
+  {
+    "topicId": "cne_p236",
+    "prerequisiteId": "cne_p176",
+    "strength": "hard",
+    "reason": "先会 should，再练健康建议。"
+  },
+  {
+    "topicId": "cne_p236",
+    "prerequisiteId": "cne_p235",
+    "strength": "hard",
+    "reason": "先认健康词汇。"
+  },
+  {
+    "topicId": "cne_p237",
+    "prerequisiteId": "cne_p236",
+    "strength": "hard",
+    "reason": "读懂短文前先会健康建议。"
+  },
+  {
+    "topicId": "cne_p237",
+    "prerequisiteId": "cne_p178",
+    "strength": "soft",
+    "reason": "先会读感受和建议。"
+  },
+  {
+    "topicId": "cne_p239",
+    "prerequisiteId": "cne_p201",
+    "strength": "hard",
+    "reason": "先认金钱词汇。"
+  },
+  {
+    "topicId": "cne_p239",
+    "prerequisiteId": "cne_p202",
+    "strength": "soft",
+    "reason": "先会说价格数量。"
+  },
+  {
+    "topicId": "cne_p240",
+    "prerequisiteId": "cne_p205",
+    "strength": "hard",
+    "reason": "先会 will 说未来太空生活。"
+  },
+  {
+    "topicId": "cne_p240",
+    "prerequisiteId": "cne_p204",
+    "strength": "soft",
+    "reason": "先认太空词汇。"
+  },
+  {
+    "topicId": "cne_p223",
+    "prerequisiteId": "cne_p189",
+    "strength": "soft",
+    "reason": "先接触不规则过去式，再记假期短语。"
+  },
+  {
+    "topicId": "cne_p223",
+    "prerequisiteId": "cne_p187",
+    "strength": "soft",
+    "reason": "先会谈上周末。"
+  },
+  {
+    "topicId": "cne_p224",
+    "prerequisiteId": "cne_p186",
+    "strength": "hard",
+    "reason": "先会 Did 提问。"
+  },
+  {
+    "topicId": "cne_p224",
+    "prerequisiteId": "cne_p223",
+    "strength": "soft",
+    "reason": "先接触假期活动词。"
+  },
+  {
+    "topicId": "cne_p225",
+    "prerequisiteId": "cne_p224",
+    "strength": "hard",
+    "reason": "先会问去向，再问活动。"
+  },
+  {
+    "topicId": "cne_p225",
+    "prerequisiteId": "cne_p223",
+    "strength": "hard",
+    "reason": "回答要用假期活动词。"
+  },
+  {
+    "topicId": "cne_p226",
+    "prerequisiteId": "cne_p224",
+    "strength": "hard",
+    "reason": "先会问去向。"
+  },
+  {
+    "topicId": "cne_p226",
+    "prerequisiteId": "cne_p159",
+    "strength": "soft",
+    "reason": "先认识交通工具。"
+  },
+  {
+    "topicId": "cne_p227",
+    "prerequisiteId": "cne_p225",
+    "strength": "hard",
+    "reason": "先会问做什么。"
+  },
+  {
+    "topicId": "cne_p227",
+    "prerequisiteId": "cne_p226",
+    "strength": "hard",
+    "reason": "先会问怎么去、和谁去。"
+  },
+  {
+    "topicId": "cne_p228",
+    "prerequisiteId": "cne_p227",
+    "strength": "hard",
+    "reason": "读懂旅行短文前先会谈论旅行。"
+  },
+  {
+    "topicId": "cne_p228",
+    "prerequisiteId": "cne_p188",
+    "strength": "soft",
+    "reason": "先会读上周末日记。"
+  },
+  {
+    "topicId": "cne_p241",
+    "prerequisiteId": "cne_p185",
+    "strength": "soft",
+    "reason": "先接触规则动词过去式。"
+  },
+  {
+    "topicId": "cne_p241",
+    "prerequisiteId": "cne_p189",
+    "strength": "soft",
+    "reason": "先接触不规则过去式。"
+  },
+  {
+    "topicId": "cne_p242",
+    "prerequisiteId": "cne_p186",
+    "strength": "hard",
+    "reason": "先会 Did 提问。"
+  },
+  {
+    "topicId": "cne_p242",
+    "prerequisiteId": "cne_p241",
+    "strength": "hard",
+    "reason": "问句里要用周末活动词。"
+  },
+  {
+    "topicId": "cne_p243",
+    "prerequisiteId": "cne_p242",
+    "strength": "soft",
+    "reason": "先会问是否做某事，再评价周末。"
+  },
+  {
+    "topicId": "cne_p243",
+    "prerequisiteId": "cne_p187",
+    "strength": "hard",
+    "reason": "与谈论上周末衔接。"
+  },
+  {
+    "topicId": "cne_p244",
+    "prerequisiteId": "cne_p241",
+    "strength": "hard",
+    "reason": "先认周末活动词。"
+  },
+  {
+    "topicId": "cne_p244",
+    "prerequisiteId": "cne_p243",
+    "strength": "hard",
+    "reason": "先会评价周末。"
+  },
+  {
+    "topicId": "cne_p244",
+    "prerequisiteId": "cne_p187",
+    "strength": "hard",
+    "reason": "与谈论上周末综合。"
+  },
+  {
+    "topicId": "cne_p245",
+    "prerequisiteId": "cne_p183",
+    "strength": "soft",
+    "reason": "先会询问身高比较。"
+  },
+  {
+    "topicId": "cne_p245",
+    "prerequisiteId": "cne_p244",
+    "strength": "soft",
+    "reason": "先会说周末安排。"
+  },
+  {
+    "topicId": "cne_p245",
+    "prerequisiteId": "cne_p227",
+    "strength": "soft",
+    "reason": "先会谈论假期旅行。"
+  },
+  {
+    "topicId": "cne_p188",
+    "prerequisiteId": "cne_p241",
+    "strength": "soft",
+    "reason": "读日记前先认周末活动词。"
+  },
+  {
+    "topicId": "cnd_p002",
+    "prerequisiteId": "cnd_p001",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「开开心心上学去」，再学「我向国旗敬个礼」。"
+  },
+  {
+    "topicId": "cnd_p003",
+    "prerequisiteId": "cnd_p002",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「我向国旗敬个礼」，再学「这是我们的校园」。"
+  },
+  {
+    "topicId": "cnd_p004",
+    "prerequisiteId": "cnd_p003",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「这是我们的校园」，再学「平平安安回家来」。"
+  },
+  {
+    "topicId": "cnd_p005",
+    "prerequisiteId": "cnd_p004",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「平平安安回家来」，再学「老师，您好！」。"
+  },
+  {
+    "topicId": "cnd_p006",
+    "prerequisiteId": "cnd_p005",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「老师，您好！」，再学「拉拉手，交朋友」。"
+  },
+  {
+    "topicId": "cnd_p007",
+    "prerequisiteId": "cnd_p006",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「拉拉手，交朋友」，再学「上课了，好好学」。"
+  },
+  {
+    "topicId": "cnd_p008",
+    "prerequisiteId": "cnd_p007",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「上课了，好好学」，再学「课余生活真丰富」。"
+  },
+  {
+    "topicId": "cnd_p009",
+    "prerequisiteId": "cnd_p008",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「课余生活真丰富」，再学「作息有规律」。"
+  },
+  {
+    "topicId": "cnd_p010",
+    "prerequisiteId": "cnd_p009",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「作息有规律」，再学「吃饭有讲究」。"
+  },
+  {
+    "topicId": "cnd_p011",
+    "prerequisiteId": "cnd_p010",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「吃饭有讲究」，再学「对人有礼貌」。"
+  },
+  {
+    "topicId": "cnd_p012",
+    "prerequisiteId": "cnd_p011",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「对人有礼貌」，再学「玩也有学问」。"
+  },
+  {
+    "topicId": "cnd_p013",
+    "prerequisiteId": "cnd_p012",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「玩也有学问」，再学「我们小点儿声」。"
+  },
+  {
+    "topicId": "cnd_p014",
+    "prerequisiteId": "cnd_p013",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「我们小点儿声」，再学「人人爱护公物」。"
+  },
+  {
+    "topicId": "cnd_p016",
+    "prerequisiteId": "cnd_p015",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「我们不乱扔」，再学「大家排好队」。"
+  },
+  {
+    "topicId": "cnd_p017",
+    "prerequisiteId": "cnd_p016",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「大家排好队」，再学「有个新目标」。"
+  },
+  {
+    "topicId": "cnd_p018",
+    "prerequisiteId": "cnd_p017",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「有个新目标」，再学「做事要仔细」。"
+  },
+  {
+    "topicId": "cnd_p019",
+    "prerequisiteId": "cnd_p018",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「做事要仔细」，再学「错了就要改」。"
+  },
+  {
+    "topicId": "cnd_p020",
+    "prerequisiteId": "cnd_p019",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「错了就要改」，再学「我们有精神」。"
+  },
+  {
+    "topicId": "cnd_p021",
+    "prerequisiteId": "cnd_p020",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「我们有精神」，再学「和大家在一起」。"
+  },
+  {
+    "topicId": "cnd_p022",
+    "prerequisiteId": "cnd_p021",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「和大家在一起」，再学「请帮我一下」。"
+  },
+  {
+    "topicId": "cnd_p023",
+    "prerequisiteId": "cnd_p022",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「请帮我一下」，再学「我们爱分享」。"
+  },
+  {
+    "topicId": "cnd_p024",
+    "prerequisiteId": "cnd_p023",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「我们爱分享」，再学「大家来合作」。"
+  },
+  {
+    "topicId": "cnd_p025",
+    "prerequisiteId": "cnd_p024",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「大家来合作」，再学「这是我的家」。"
+  },
+  {
+    "topicId": "cnd_p026",
+    "prerequisiteId": "cnd_p025",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「这是我的家」，再学「相亲相爱一家人」。"
+  },
+  {
+    "topicId": "cnd_p027",
+    "prerequisiteId": "cnd_p026",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「相亲相爱一家人」，再学「让我自己来整理」。"
+  },
+  {
+    "topicId": "cnd_p029",
+    "prerequisiteId": "cnd_p028",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「学做家务活」，再学「快乐儿童节」。"
+  },
+  {
+    "topicId": "cnd_p030",
+    "prerequisiteId": "cnd_p029",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「快乐儿童节」，再学「光荣的少先队」。"
+  },
+  {
+    "topicId": "cnd_p033",
+    "prerequisiteId": "cnd_p032",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「学先锋 做先锋」，再学「假期有收获」。"
+  },
+  {
+    "topicId": "cnd_p034",
+    "prerequisiteId": "cnd_p033",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「假期有收获」，再学「教师节快乐」。"
+  },
+  {
+    "topicId": "cnd_p035",
+    "prerequisiteId": "cnd_p034",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「教师节快乐」，再学「团团圆圆过中秋」。"
+  },
+  {
+    "topicId": "cnd_p036",
+    "prerequisiteId": "cnd_p035",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「团团圆圆过中秋」，再学「欢欢喜喜庆国庆」。"
+  },
+  {
+    "topicId": "cnd_p037",
+    "prerequisiteId": "cnd_p036",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「欢欢喜喜庆国庆」，再学「这是我们班」。"
+  },
+  {
+    "topicId": "cnd_p039",
+    "prerequisiteId": "cnd_p038",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「班级生活有规则」，再学「我是班级值日生」。"
+  },
+  {
+    "topicId": "cnd_p041",
+    "prerequisiteId": "cnd_p040",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「我为班级作贡献」，再学「我爱家乡山和水」。"
+  },
+  {
+    "topicId": "cnd_p042",
+    "prerequisiteId": "cnd_p041",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「我爱家乡山和水」，再学「家乡物产养育我」。"
+  },
+  {
+    "topicId": "cnd_p043",
+    "prerequisiteId": "cnd_p042",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「家乡物产养育我」，再学「可亲可敬的家乡人」。"
+  },
+  {
+    "topicId": "cnd_p044",
+    "prerequisiteId": "cnd_p043",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「可亲可敬的家乡人」，再学「家乡新变化」。"
+  },
+  {
+    "topicId": "cnd_p045",
+    "prerequisiteId": "cnd_p044",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「家乡新变化」，再学「美丽中国我们的家」。"
+  },
+  {
+    "topicId": "cnd_p047",
+    "prerequisiteId": "cnd_p046",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「我们都是中国人」，再学「红红火火中国年」。"
+  },
+  {
+    "topicId": "cnd_p048",
+    "prerequisiteId": "cnd_p047",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「红红火火中国年」，再学「祖国，我为您自豪」。"
+  },
+  {
+    "topicId": "cnd_p049",
+    "prerequisiteId": "cnd_p048",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「祖国，我为您自豪」，再学「身心健康很重要」。"
+  },
+  {
+    "topicId": "cnd_p050",
+    "prerequisiteId": "cnd_p049",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「身心健康很重要」，再学「学做“快乐鸟”」。"
+  },
+  {
+    "topicId": "cnd_p051",
+    "prerequisiteId": "cnd_p050",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「学做“快乐鸟”」，再学「做个“开心果”」。"
+  },
+  {
+    "topicId": "cnd_p052",
+    "prerequisiteId": "cnd_p051",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「做个“开心果”」，再学「坚持才会有收获」。"
+  },
+  {
+    "topicId": "cnd_p053",
+    "prerequisiteId": "cnd_p052",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「坚持才会有收获」，再学「亲近大自然」。"
+  },
+  {
+    "topicId": "cnd_p055",
+    "prerequisiteId": "cnd_p054",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「爱护动植物」，再学「小水滴的诉说」。"
+  },
+  {
+    "topicId": "cnd_p057",
+    "prerequisiteId": "cnd_p056",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「我是一张纸」，再学「勤俭传家好」。"
+  },
+  {
+    "topicId": "cnd_p058",
+    "prerequisiteId": "cnd_p057",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「勤俭传家好」，再学「诚信贵如金」。"
+  },
+  {
+    "topicId": "cnd_p059",
+    "prerequisiteId": "cnd_p058",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「诚信贵如金」，再学「少年当自强」。"
+  },
+  {
+    "topicId": "cnd_p060",
+    "prerequisiteId": "cnd_p059",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「少年当自强」，再学「见贤要思齐」。"
+  },
+  {
+    "topicId": "cnd_p061",
+    "prerequisiteId": "cnd_p060",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「见贤要思齐」，再学「每个人都有梦想」。"
+  },
+  {
+    "topicId": "cnd_p062",
+    "prerequisiteId": "cnd_p061",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「每个人都有梦想」，再学「我们共同的梦想」。"
+  },
+  {
+    "topicId": "cnd_p063",
+    "prerequisiteId": "cnd_p062",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「我们共同的梦想」，再学「梦想接力棒」。"
+  },
+  {
+    "topicId": "cnd_p064",
+    "prerequisiteId": "cnd_p063",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「梦想接力棒」，再学「实现梦想从现在做起」。"
+  },
+  {
+    "topicId": "cnd_p065",
+    "prerequisiteId": "cnd_p064",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「实现梦想从现在做起」，再学「学习伴我成长」。"
+  },
+  {
+    "topicId": "cnd_p066",
+    "prerequisiteId": "cnd_p065",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「学习伴我成长」，再学「我学习，我快乐」。"
+  },
+  {
+    "topicId": "cnd_p068",
+    "prerequisiteId": "cnd_p067",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「学习有方法」，再学「科技力量大」。"
+  },
+  {
+    "topicId": "cnd_p069",
+    "prerequisiteId": "cnd_p068",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「科技力量大」，再学「走近科学家」。"
+  },
+  {
+    "topicId": "cnd_p071",
+    "prerequisiteId": "cnd_p070",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「从小爱科学」，再学「走近我们的老师」。"
+  },
+  {
+    "topicId": "cnd_p072",
+    "prerequisiteId": "cnd_p071",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「走近我们的老师」，再学「同学相伴」。"
+  },
+  {
+    "topicId": "cnd_p073",
+    "prerequisiteId": "cnd_p072",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「同学相伴」，再学「让我们的学校更美好」。"
+  },
+  {
+    "topicId": "cnd_p074",
+    "prerequisiteId": "cnd_p073",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「让我们的学校更美好」，再学「公共场所的文明素养」。"
+  },
+  {
+    "topicId": "cnd_p075",
+    "prerequisiteId": "cnd_p074",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「公共场所的文明素养」，再学「我们都是热心人」。"
+  },
+  {
+    "topicId": "cnd_p076",
+    "prerequisiteId": "cnd_p075",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「我们都是热心人」，再学「生活离不开规则」。"
+  },
+  {
+    "topicId": "cnd_p078",
+    "prerequisiteId": "cnd_p077",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「安全记心上」，再学「我们的生活越来越幸福」。"
+  },
+  {
+    "topicId": "cnd_p080",
+    "prerequisiteId": "cnd_p079",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「幸福生活是奋斗出来的」，再学「一切靠劳动」。"
+  },
+  {
+    "topicId": "cnd_p081",
+    "prerequisiteId": "cnd_p080",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「一切靠劳动」，再学「致敬劳动者」。"
+  },
+  {
+    "topicId": "cnd_p082",
+    "prerequisiteId": "cnd_p081",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「致敬劳动者」，再学「从小爱劳动」。"
+  },
+  {
+    "topicId": "cnd_p083",
+    "prerequisiteId": "cnd_p082",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「从小爱劳动」，再学「少让父母操心」。"
+  },
+  {
+    "topicId": "cnd_p085",
+    "prerequisiteId": "cnd_p084",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「我的家庭贡献与责任」，再学「弘扬家庭美德」。"
+  },
+  {
+    "topicId": "cnd_p086",
+    "prerequisiteId": "cnd_p085",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「弘扬家庭美德」，再学「学会倾听」。"
+  },
+  {
+    "topicId": "cnd_p087",
+    "prerequisiteId": "cnd_p086",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「学会倾听」，再学「学会表达」。"
+  },
+  {
+    "topicId": "cnd_p088",
+    "prerequisiteId": "cnd_p087",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「学会表达」，再学「同学要互助」。"
+  },
+  {
+    "topicId": "cnd_p089",
+    "prerequisiteId": "cnd_p088",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「同学要互助」，再学「待人要诚信」。"
+  },
+  {
+    "topicId": "cnd_p090",
+    "prerequisiteId": "cnd_p089",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「待人要诚信」，再学「热爱班集体」。"
+  },
+  {
+    "topicId": "cnd_p091",
+    "prerequisiteId": "cnd_p090",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「热爱班集体」，再学「选举班委会」。"
+  },
+  {
+    "topicId": "cnd_p093",
+    "prerequisiteId": "cnd_p092",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「协商决定班级事务」，再学「我是独特的」。"
+  },
+  {
+    "topicId": "cnd_p094",
+    "prerequisiteId": "cnd_p093",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「我是独特的」，再学「生命最宝贵」。"
+  },
+  {
+    "topicId": "cnd_p096",
+    "prerequisiteId": "cnd_p095",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「自我保护，免受伤害」，再学「神奇的世界」。"
+  },
+  {
+    "topicId": "cnd_p097",
+    "prerequisiteId": "cnd_p096",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「神奇的世界」，再学「别让它抢走太多」。"
+  },
+  {
+    "topicId": "cnd_p099",
+    "prerequisiteId": "cnd_p098",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「安全文明上网」，再学「购物有学问」。"
+  },
+  {
+    "topicId": "cnd_p100",
+    "prerequisiteId": "cnd_p099",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「购物有学问」，再学「学会合理消费」。"
+  },
+  {
+    "topicId": "cnd_p102",
+    "prerequisiteId": "cnd_p101",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「反对浪费」，再学「我们的好朋友」。"
+  },
+  {
+    "topicId": "cnd_p103",
+    "prerequisiteId": "cnd_p102",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「我们的好朋友」，再学「说话要算数」。"
+  },
+  {
+    "topicId": "cnd_p104",
+    "prerequisiteId": "cnd_p103",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「说话要算数」，再学「当冲突发生」。"
+  },
+  {
+    "topicId": "cnd_p105",
+    "prerequisiteId": "cnd_p104",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「当冲突发生」，再学「买东西的学问」。"
+  },
+  {
+    "topicId": "cnd_p106",
+    "prerequisiteId": "cnd_p105",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「买东西的学问」，再学「合理消费」。"
+  },
+  {
+    "topicId": "cnd_p108",
+    "prerequisiteId": "cnd_p107",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「有多少浪费本可以避免」，再学「我们的衣食之源」。"
+  },
+  {
+    "topicId": "cnd_p109",
+    "prerequisiteId": "cnd_p108",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「我们的衣食之源」，再学「这些东西哪里来」。"
+  },
+  {
+    "topicId": "cnd_p111",
+    "prerequisiteId": "cnd_p110",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「生活离不开他们」，再学「我们当地的风俗」。"
+  },
+  {
+    "topicId": "cnd_p112",
+    "prerequisiteId": "cnd_p111",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「我们当地的风俗」，再学「多姿多彩的民间艺术」。"
+  },
+  {
+    "topicId": "cnd_p113",
+    "prerequisiteId": "cnd_p112",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「多姿多彩的民间艺术」，再学「家乡的喜与忧」。"
+  },
+  {
+    "topicId": "cnd_p114",
+    "prerequisiteId": "cnd_p113",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「家乡的喜与忧」，再学「开天辟地的大事变」。"
+  },
+  {
+    "topicId": "cnd_p115",
+    "prerequisiteId": "cnd_p114",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「开天辟地的大事变」，再学「探索中国革命道路」。"
+  },
+  {
+    "topicId": "cnd_p116",
+    "prerequisiteId": "cnd_p115",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「探索中国革命道路」，再学「抗日战争的中流砥柱」。"
+  },
+  {
+    "topicId": "cnd_p117",
+    "prerequisiteId": "cnd_p116",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「抗日战争的中流砥柱」，再学「夺取胜利的解放战争」。"
+  },
+  {
+    "topicId": "cnd_p120",
+    "prerequisiteId": "cnd_p119",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「人民当家作主」，再学「社会主义好」。"
+  },
+  {
+    "topicId": "cnd_p122",
+    "prerequisiteId": "cnd_p121",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「改革开放展宏图」，再学「综合国力日益提升」。"
+  },
+  {
+    "topicId": "cnd_p123",
+    "prerequisiteId": "cnd_p122",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「综合国力日益提升」，再学「祖国统一大业不断推进」。"
+  },
+  {
+    "topicId": "cnd_p124",
+    "prerequisiteId": "cnd_p123",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「祖国统一大业不断推进」，再学「走进新时代」。"
+  },
+  {
+    "topicId": "cnd_p125",
+    "prerequisiteId": "cnd_p124",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「走进新时代」，再学「历史性成就」。"
+  },
+  {
+    "topicId": "cnd_p126",
+    "prerequisiteId": "cnd_p125",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「历史性成就」，再学「开启新征程」。"
+  },
+  {
+    "topicId": "cnd_p127",
+    "prerequisiteId": "cnd_p126",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「开启新征程」，再学「读懂彼此的心」。"
+  },
+  {
+    "topicId": "cnd_p128",
+    "prerequisiteId": "cnd_p127",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「读懂彼此的心」，再学「让我们的家更美好」。"
+  },
+  {
+    "topicId": "cnd_p129",
+    "prerequisiteId": "cnd_p128",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「让我们的家更美好」，再学「弘扬优秀家风」。"
+  },
+  {
+    "topicId": "cnd_p130",
+    "prerequisiteId": "cnd_p129",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「弘扬优秀家风」，再学「我们的公共生活」。"
+  },
+  {
+    "topicId": "cnd_p131",
+    "prerequisiteId": "cnd_p130",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「我们的公共生活」，再学「建立良好的公共秩序」。"
+  },
+  {
+    "topicId": "cnd_p132",
+    "prerequisiteId": "cnd_p131",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「建立良好的公共秩序」，再学「我参与 我奉献」。"
+  },
+  {
+    "topicId": "cnd_p133",
+    "prerequisiteId": "cnd_p132",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「我参与 我奉献」，再学「不甘屈辱 奋勇抗争」。"
+  },
+  {
+    "topicId": "cnd_p134",
+    "prerequisiteId": "cnd_p133",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「不甘屈辱 奋勇抗争」，再学「推翻帝制 民族觉醒」。"
+  },
+  {
+    "topicId": "cnd_p136",
+    "prerequisiteId": "cnd_p135",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「中国有了共产党」，再学「夺取抗日战争和人民解放战争的胜利」。"
+  },
+  {
+    "topicId": "cnd_p139",
+    "prerequisiteId": "cnd_p138",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「富起来到强起来」，再学「法律是什么」。"
+  },
+  {
+    "topicId": "cnd_p140",
+    "prerequisiteId": "cnd_p139",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「法律是什么」，再学「法律作用大」。"
+  },
+  {
+    "topicId": "cnd_p141",
+    "prerequisiteId": "cnd_p140",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「法律作用大」，再学「宪法是根本法」。"
+  },
+  {
+    "topicId": "cnd_p142",
+    "prerequisiteId": "cnd_p141",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「宪法是根本法」，再学「我是中国公民」。"
+  },
+  {
+    "topicId": "cnd_p145",
+    "prerequisiteId": "cnd_p144",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「了解国家机构」，再学「未成年人需特殊保护」。"
+  },
+  {
+    "topicId": "cnd_p147",
+    "prerequisiteId": "cnd_p146",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「专门法律来保护」，再学「特殊关爱 助我成长」。"
+  },
+  {
+    "topicId": "cnd_p148",
+    "prerequisiteId": "cnd_p147",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「特殊关爱 助我成长」，再学「用好法律 维护权利」。"
+  },
+  {
+    "topicId": "cnd_p150",
+    "prerequisiteId": "cnd_p149",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「做守法公民」，再学「学会尊重」。"
+  },
+  {
+    "topicId": "cnd_p153",
+    "prerequisiteId": "cnd_p152",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「学会反思」，再学「地球——我们的家园」。"
+  },
+  {
+    "topicId": "cnd_p155",
+    "prerequisiteId": "cnd_p154",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「应对自然灾害」，再学「探访古代文明」。"
+  },
+  {
+    "topicId": "cnd_p156",
+    "prerequisiteId": "cnd_p155",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「探访古代文明」，再学「多元文化 多样魅力」。"
+  },
+  {
+    "topicId": "cnd_p157",
+    "prerequisiteId": "cnd_p156",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「多元文化 多样魅力」，再学「科技发展 造福人类」。"
+  },
+  {
+    "topicId": "cnd_p158",
+    "prerequisiteId": "cnd_p157",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「科技发展 造福人类」，再学「日益重要的国际组织」。"
+  },
+  {
+    "topicId": "cnd_p004",
+    "prerequisiteId": "cnd_p001",
+    "strength": "hard",
+    "reason": "平安回家建立在已经开始校园生活的基础上。"
+  },
+  {
+    "topicId": "cnd_p007",
+    "prerequisiteId": "cnd_p005",
+    "strength": "hard",
+    "reason": "好好上课之前，要先懂得尊敬老师。"
+  },
+  {
+    "topicId": "cnd_p016",
+    "prerequisiteId": "cnd_p013",
+    "strength": "hard",
+    "reason": "公共文明中，安静和排队都是基本要求，先有公共意识再落实排队。"
+  },
+  {
+    "topicId": "cnd_p015",
+    "prerequisiteId": "cnd_p014",
+    "strength": "hard",
+    "reason": "爱护环境与爱护公物同属公共责任。"
+  },
+  {
+    "topicId": "cnd_p028",
+    "prerequisiteId": "cnd_p027",
+    "strength": "hard",
+    "reason": "做家务前先学会整理自己的物品。"
+  },
+  {
+    "topicId": "cnd_p031",
+    "prerequisiteId": "cnd_p030",
+    "strength": "hard",
+    "reason": "戴红领巾前先认识少先队。"
+  },
+  {
+    "topicId": "cnd_p032",
+    "prerequisiteId": "cnd_p031",
+    "strength": "hard",
+    "reason": "学先锋建立在成为少先队员、戴上红领巾的认识上。"
+  },
+  {
+    "topicId": "cnd_p038",
+    "prerequisiteId": "cnd_p037",
+    "strength": "hard",
+    "reason": "制定和遵守班规之前，先认识自己的班级。"
+  },
+  {
+    "topicId": "cnd_p040",
+    "prerequisiteId": "cnd_p039",
+    "strength": "hard",
+    "reason": "为班级作贡献包含认真做好值日等责任。"
+  },
+  {
+    "topicId": "cnd_p048",
+    "prerequisiteId": "cnd_p045",
+    "strength": "hard",
+    "reason": "为祖国自豪建立在认识美丽中国的基础上。"
+  },
+  {
+    "topicId": "cnd_p046",
+    "prerequisiteId": "cnd_p045",
+    "strength": "hard",
+    "reason": "认识中国人身份与认识祖国家园相联系。"
+  },
+  {
+    "topicId": "cnd_p052",
+    "prerequisiteId": "cnd_p050",
+    "strength": "hard",
+    "reason": "坚持努力与保持积极心态相联系。"
+  },
+  {
+    "topicId": "cnd_p056",
+    "prerequisiteId": "cnd_p055",
+    "strength": "hard",
+    "reason": "节约用纸与节约用水同属珍惜资源。"
+  },
+  {
+    "topicId": "cnd_p054",
+    "prerequisiteId": "cnd_p053",
+    "strength": "hard",
+    "reason": "爱护动植物建立在亲近自然的态度上。"
+  },
+  {
+    "topicId": "cnd_p064",
+    "prerequisiteId": "cnd_p061",
+    "strength": "hard",
+    "reason": "行动建立在先有梦想的认识上。"
+  },
+  {
+    "topicId": "cnd_p067",
+    "prerequisiteId": "cnd_p066",
+    "strength": "hard",
+    "reason": "掌握方法建立在愿意学习的基础上。"
+  },
+  {
+    "topicId": "cnd_p070",
+    "prerequisiteId": "cnd_p069",
+    "strength": "hard",
+    "reason": "爱科学建立在了解科学家精神之上。"
+  },
+  {
+    "topicId": "cnd_p076",
+    "prerequisiteId": "cnd_p074",
+    "strength": "hard",
+    "reason": "理解规则建立在公共文明行为之上。"
+  },
+  {
+    "topicId": "cnd_p077",
+    "prerequisiteId": "cnd_p076",
+    "strength": "hard",
+    "reason": "安全规则是生活规则的重要部分。"
+  },
+  {
+    "topicId": "cnd_p079",
+    "prerequisiteId": "cnd_p078",
+    "strength": "hard",
+    "reason": "懂得奋斗才能理解幸福从何而来。"
+  },
+  {
+    "topicId": "cnd_p082",
+    "prerequisiteId": "cnd_p080",
+    "strength": "hard",
+    "reason": "爱劳动建立在认识劳动价值之上。"
+  },
+  {
+    "topicId": "cnd_p084",
+    "prerequisiteId": "cnd_p083",
+    "strength": "hard",
+    "reason": "承担责任包含少让父母操心。"
+  },
+  {
+    "topicId": "cnd_p089",
+    "prerequisiteId": "cnd_p087",
+    "strength": "hard",
+    "reason": "诚信表达建立在会表达的基础上。"
+  },
+  {
+    "topicId": "cnd_p092",
+    "prerequisiteId": "cnd_p091",
+    "strength": "hard",
+    "reason": "协商班级事务与选举班委同属集体自治。"
+  },
+  {
+    "topicId": "cnd_p095",
+    "prerequisiteId": "cnd_p094",
+    "strength": "hard",
+    "reason": "自我保护建立在珍爱生命之上。"
+  },
+  {
+    "topicId": "cnd_p098",
+    "prerequisiteId": "cnd_p097",
+    "strength": "hard",
+    "reason": "文明上网包含合理控制使用时间。"
+  },
+  {
+    "topicId": "cnd_p101",
+    "prerequisiteId": "cnd_p100",
+    "strength": "hard",
+    "reason": "反对浪费是合理消费的延伸。"
+  },
+  {
+    "topicId": "cnd_p104",
+    "prerequisiteId": "cnd_p102",
+    "strength": "hard",
+    "reason": "处理冲突建立在健康友谊观之上。"
+  },
+  {
+    "topicId": "cnd_p107",
+    "prerequisiteId": "cnd_p106",
+    "strength": "hard",
+    "reason": "避免浪费与合理消费一致。"
+  },
+  {
+    "topicId": "cnd_p110",
+    "prerequisiteId": "cnd_p109",
+    "strength": "hard",
+    "reason": "理解劳动者建立在认识物品来源之上。"
+  },
+  {
+    "topicId": "cnd_p141",
+    "prerequisiteId": "cnd_p139",
+    "strength": "hard",
+    "reason": "认识宪法建立在认识法律是什么之上。"
+  },
+  {
+    "topicId": "cnd_p143",
+    "prerequisiteId": "cnd_p142",
+    "strength": "hard",
+    "reason": "权利义务建立在公民身份认识之上。"
+  },
+  {
+    "topicId": "cnd_p144",
+    "prerequisiteId": "cnd_p143",
+    "strength": "hard",
+    "reason": "了解国家机构与公民权利义务相关。"
+  },
+  {
+    "topicId": "cnd_p146",
+    "prerequisiteId": "cnd_p145",
+    "strength": "hard",
+    "reason": "专门法律是特殊保护的具体体现。"
+  },
+  {
+    "topicId": "cnd_p149",
+    "prerequisiteId": "cnd_p148",
+    "strength": "hard",
+    "reason": "守法与依法维权相一致。"
+  },
+  {
+    "topicId": "cnd_p151",
+    "prerequisiteId": "cnd_p150",
+    "strength": "hard",
+    "reason": "宽容建立在尊重他人之上。"
+  },
+  {
+    "topicId": "cnd_p152",
+    "prerequisiteId": "cnd_p151",
+    "strength": "hard",
+    "reason": "反思自我与宽容待人共同促进成长。"
+  },
+  {
+    "topicId": "cnd_p154",
+    "prerequisiteId": "cnd_p153",
+    "strength": "hard",
+    "reason": "应对灾害建立在认识地球家园之上。"
+  },
+  {
+    "topicId": "cnd_p159",
+    "prerequisiteId": "cnd_p158",
+    "strength": "hard",
+    "reason": "爱和平与了解国际合作相关。"
+  },
+  {
+    "topicId": "cnd_p118",
+    "prerequisiteId": "cnd_p117",
+    "strength": "hard",
+    "reason": "新中国成立承接解放战争胜利。"
+  },
+  {
+    "topicId": "cnd_p119",
+    "prerequisiteId": "cnd_p118",
+    "strength": "hard",
+    "reason": "人民当家作主建立在新中国成立之上。"
+  },
+  {
+    "topicId": "cnd_p121",
+    "prerequisiteId": "cnd_p120",
+    "strength": "hard",
+    "reason": "改革开放是建设社会主义的重要篇章。"
+  },
+  {
+    "topicId": "cnd_p124",
+    "prerequisiteId": "cnd_p121",
+    "strength": "hard",
+    "reason": "新时代建立在改革开放发展基础上。"
+  },
+  {
+    "topicId": "cnd_p126",
+    "prerequisiteId": "cnd_p124",
+    "strength": "hard",
+    "reason": "新征程是新时代的延续。"
+  },
+  {
+    "topicId": "cnd_p135",
+    "prerequisiteId": "cnd_p134",
+    "strength": "hard",
+    "reason": "中国共产党诞生于近代民族觉醒的历史进程中。"
+  },
+  {
+    "topicId": "cnd_p137",
+    "prerequisiteId": "cnd_p136",
+    "strength": "hard",
+    "reason": "新中国屹立世界东方承接革命胜利。"
+  },
+  {
+    "topicId": "cnd_p138",
+    "prerequisiteId": "cnd_p137",
+    "strength": "hard",
+    "reason": "国家发展历程前后相承。"
+  },
+  {
+    "topicId": "cne_p246",
+    "prerequisiteId": "cne_p152",
+    "strength": "hard",
+    "reason": "先会祈使句，再学 must / mustn't。"
+  },
+  {
+    "topicId": "cne_p246",
+    "prerequisiteId": "cne_p151",
+    "strength": "soft",
+    "reason": "先认规则用词。"
+  },
+  {
+    "topicId": "cne_p247",
+    "prerequisiteId": "cne_p246",
+    "strength": "hard",
+    "reason": "先会 must 班规，再做海报读写。"
+  },
+  {
+    "topicId": "cne_p247",
+    "prerequisiteId": "cne_p154",
+    "strength": "soft",
+    "reason": "先会读规则。"
+  },
+  {
+    "topicId": "cne_p248",
+    "prerequisiteId": "cne_p089",
+    "strength": "hard",
+    "reason": "先会问几点，再说该做什么。"
+  },
+  {
+    "topicId": "cne_p248",
+    "prerequisiteId": "cne_p090",
+    "strength": "soft",
+    "reason": "先会说时刻和该做的事。"
+  },
+  {
+    "topicId": "cne_p249",
+    "prerequisiteId": "cne_p248",
+    "strength": "hard",
+    "reason": "先会 It's time，再读时间表。"
+  },
+  {
+    "topicId": "cne_p249",
+    "prerequisiteId": "cne_p091",
+    "strength": "soft",
+    "reason": "先会读作息时刻。"
+  },
+  {
+    "topicId": "cne_p250",
+    "prerequisiteId": "cne_p105",
+    "strength": "hard",
+    "reason": "先会 How much，再练完整购物句。"
+  },
+  {
+    "topicId": "cne_p250",
+    "prerequisiteId": "cne_p106",
+    "strength": "soft",
+    "reason": "先会在商店购物。"
+  },
+  {
+    "topicId": "cne_p251",
+    "prerequisiteId": "cne_p250",
+    "strength": "hard",
+    "reason": "先会购物对话，再读价签。"
+  },
+  {
+    "topicId": "cne_p251",
+    "prerequisiteId": "cne_p107",
+    "strength": "soft",
+    "reason": "先会读价签。"
+  },
+  {
+    "topicId": "cne_p252",
+    "prerequisiteId": "cne_p096",
+    "strength": "soft",
+    "reason": "先认农场词，再扩动物与作物。"
+  },
+  {
+    "topicId": "cne_p253",
+    "prerequisiteId": "cne_p097",
+    "strength": "soft",
+    "reason": "先接触 These/Those，再练 There be。"
+  },
+  {
+    "topicId": "cne_p253",
+    "prerequisiteId": "cne_p252",
+    "strength": "hard",
+    "reason": "先认农场词，再说有什么。"
+  },
+  {
+    "topicId": "cne_p254",
+    "prerequisiteId": "cne_p088",
+    "strength": "soft",
+    "reason": "先认一天活动，再学周末计划词。"
+  },
+  {
+    "topicId": "cne_p255",
+    "prerequisiteId": "cne_p254",
+    "strength": "hard",
+    "reason": "先认计划词，再说 will 打算。"
+  },
+  {
+    "topicId": "cne_p255",
+    "prerequisiteId": "cne_p090",
+    "strength": "soft",
+    "reason": "先会说该做的事。"
+  },
+  {
+    "topicId": "cne_p256",
+    "prerequisiteId": "cne_p255",
+    "strength": "hard",
+    "reason": "先会用 will 说打算，再讨论计划。"
+  },
+  {
+    "topicId": "cne_p257",
+    "prerequisiteId": "cne_p256",
+    "strength": "hard",
+    "reason": "读懂计划前先会讨论计划。"
+  },
+  {
+    "topicId": "cne_p258",
+    "prerequisiteId": "cne_p133",
+    "strength": "soft",
+    "reason": "先认一天活动，再学频率词。"
+  },
+  {
+    "topicId": "cne_p259",
+    "prerequisiteId": "cne_p258",
+    "strength": "hard",
+    "reason": "先认频率词，再练作息句。"
+  },
+  {
+    "topicId": "cne_p259",
+    "prerequisiteId": "cne_p135",
+    "strength": "soft",
+    "reason": "先会谈论作息。"
+  },
+  {
+    "topicId": "cne_p260",
+    "prerequisiteId": "cne_p137",
+    "strength": "soft",
+    "reason": "先认季节词，再学季节活动。"
+  },
+  {
+    "topicId": "cne_p261",
+    "prerequisiteId": "cne_p138",
+    "strength": "hard",
+    "reason": "先会谈最喜欢的季节，再说理由。"
+  },
+  {
+    "topicId": "cne_p261",
+    "prerequisiteId": "cne_p260",
+    "strength": "soft",
+    "reason": "理由常涉及季节活动。"
+  },
+  {
+    "topicId": "cne_p262",
+    "prerequisiteId": "cne_p261",
+    "strength": "hard",
+    "reason": "读懂理由前先会 Why/Because。"
+  },
+  {
+    "topicId": "cne_p262",
+    "prerequisiteId": "cne_p139",
+    "strength": "soft",
+    "reason": "先会读季节短文。"
+  },
+  {
+    "topicId": "cne_p263",
+    "prerequisiteId": "cne_p140",
+    "strength": "hard",
+    "reason": "先认部分月份，再扩更多月份。"
+  },
+  {
+    "topicId": "cne_p264",
+    "prerequisiteId": "cne_p142",
+    "strength": "soft",
+    "reason": "先会谈节日在几月。"
+  },
+  {
+    "topicId": "cne_p264",
+    "prerequisiteId": "cne_p263",
+    "strength": "hard",
+    "reason": "先认更多月份。"
+  },
+  {
+    "topicId": "cne_p265",
+    "prerequisiteId": "cne_p144",
+    "strength": "hard",
+    "reason": "先会基础序数词，再学更多序数词。"
+  },
+  {
+    "topicId": "cne_p266",
+    "prerequisiteId": "cne_p145",
+    "strength": "hard",
+    "reason": "先会说日期，再问生日。"
+  },
+  {
+    "topicId": "cne_p266",
+    "prerequisiteId": "cne_p265",
+    "strength": "soft",
+    "reason": "生日日期常用序数词。"
+  },
+  {
+    "topicId": "cne_p267",
+    "prerequisiteId": "cne_p266",
+    "strength": "hard",
+    "reason": "先会说生日日期，再读日程。"
+  },
+  {
+    "topicId": "cne_p267",
+    "prerequisiteId": "cne_p146",
+    "strength": "soft",
+    "reason": "先会读日期通知。"
+  },
+  {
+    "topicId": "cne_p268",
+    "prerequisiteId": "cne_p148",
+    "strength": "hard",
+    "reason": "先会现在进行时结构，再练 -ing 变化。"
+  },
+  {
+    "topicId": "cne_p269",
+    "prerequisiteId": "cne_p149",
+    "strength": "hard",
+    "reason": "先会 Whose 与正在做的事。"
+  },
+  {
+    "topicId": "cne_p269",
+    "prerequisiteId": "cne_p268",
+    "strength": "soft",
+    "reason": "描述动作常用 -ing。"
+  },
+  {
+    "topicId": "cne_p270",
+    "prerequisiteId": "cne_p151",
+    "strength": "soft",
+    "reason": "四下已学班级规则词，五下再学安静做事词。"
+  },
+  {
+    "topicId": "cne_p270",
+    "prerequisiteId": "cne_p148",
+    "strength": "soft",
+    "reason": "本单元常与正在做的事一起出现。"
+  },
+  {
+    "topicId": "cne_p271",
+    "prerequisiteId": "cne_p270",
+    "strength": "hard",
+    "reason": "先认安静做事词，再练 Keep/No。"
+  },
+  {
+    "topicId": "cne_p271",
+    "prerequisiteId": "cne_p152",
+    "strength": "soft",
+    "reason": "先接触过祈使句。"
+  },
+  {
+    "topicId": "cne_p272",
+    "prerequisiteId": "cne_p271",
+    "strength": "hard",
+    "reason": "先会 Keep/No 句式，再说场合规则。"
+  },
+  {
+    "topicId": "cne_p272",
+    "prerequisiteId": "cne_p153",
+    "strength": "soft",
+    "reason": "四下已练说过规则。"
+  },
+  {
+    "topicId": "cne_p273",
+    "prerequisiteId": "cne_p148",
+    "strength": "hard",
+    "reason": "先会现在进行时。"
+  },
+  {
+    "topicId": "cne_p273",
+    "prerequisiteId": "cne_p272",
+    "strength": "hard",
+    "reason": "先会说规则。"
+  },
+  {
+    "topicId": "cne_p274",
+    "prerequisiteId": "cne_p272",
+    "strength": "hard",
+    "reason": "先会说基本规则，再学排队轮流。"
+  },
+  {
+    "topicId": "cne_p275",
+    "prerequisiteId": "cne_p273",
+    "strength": "hard",
+    "reason": "读懂规则前先会进行时与守规。"
+  },
+  {
+    "topicId": "cne_p275",
+    "prerequisiteId": "cne_p274",
+    "strength": "soft",
+    "reason": "短文可能含排队轮流。"
+  },
+  {
+    "topicId": "cne_p275",
+    "prerequisiteId": "cne_p154",
+    "strength": "soft",
+    "reason": "四下已练读规则。"
   }
 ]

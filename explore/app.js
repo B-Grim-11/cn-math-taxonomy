@@ -9,6 +9,8 @@
     application: '应用', modeling: '建模'
   };
   var DOMAIN_ORDER = ['数与代数', '图形与几何', '统计与概率', '综合与实践'];
+  var SCI_DOMAIN_ORDER = ['物质科学', '生命科学', '地球与宇宙科学', '技术与工程'];
+  var MOR_DOMAIN_ORDER = ['生活与安全', '学校生活', '家庭与亲情', '社会规则', '公民与国家', '自然与环境'];
   var ZH_DOMAIN_ORDER = ['拼音', '识字写字', '词语', '句子', '阅读理解', '古诗文积累', '习作基础'];
 
   var topics = [];
@@ -252,11 +254,13 @@
 
   function topicSubject(topic) {
     if (!topic) return 'math';
-    if (topic.subject === 'english' || topic.subject === 'physics' || topic.subject === 'chinese') return topic.subject;
+    if (topic.subject === 'english' || topic.subject === 'physics' || topic.subject === 'chinese' || topic.subject === 'science' || topic.subject === 'morality') return topic.subject;
     var id = String(topic.id || '');
     if (id.indexOf('cne_') === 0) return 'english';
     if (id.indexOf('cnp_') === 0) return 'physics';
     if (id.indexOf('cnc_') === 0) return 'chinese';
+    if (id.indexOf('cns_') === 0) return 'science';
+    if (id.indexOf('cnd_') === 0) return 'morality';
     return 'math';
   }
 
@@ -401,7 +405,7 @@
       box.replaceChildren(el('div', { class: 'detail-empty' },
         el('h1', { text: '选择一个知识点' }),
         el('p', { text: '可以搜索，也可以按年级、册、章展开。选中之后，中间只画它附近的先修，以及后面一层会用到它的知识点。' })));
-      document.title = subject === 'english' ? '知识图谱 · 英语' : subject === 'physics' ? '知识图谱 · 物理' : subject === 'chinese' ? '知识图谱 · 小学语文' : '知识图谱 · 中小学·高中知识图谱';
+      document.title = subject === 'english' ? '知识图谱 · 英语' : subject === 'physics' ? '知识图谱 · 物理' : subject === 'chinese' ? '知识图谱 · 小学语文' : subject === 'science' ? '知识图谱 · 小学科学' : subject === 'morality' ? '知识图谱 · 小学道德与法治' : '知识图谱 · 中小学·高中知识图谱';
       return;
     }
     var topic = byId.get(selected);
@@ -855,7 +859,7 @@
   function fillDomain() {
     var seen = {};
     topics.forEach(function (topic) { if (topic.domain) seen[topic.domain] = true; });
-    var domainOrder = subject === 'chinese' ? ZH_DOMAIN_ORDER : DOMAIN_ORDER;
+    var domainOrder = subject === 'chinese' ? ZH_DOMAIN_ORDER : subject === 'science' ? SCI_DOMAIN_ORDER : subject === 'morality' ? MOR_DOMAIN_ORDER : DOMAIN_ORDER;
     var names = domainOrder.filter(function (name) { return seen[name]; });
     Object.keys(seen).forEach(function (name) { if (names.indexOf(name) < 0) names.push(name); });
     var select = $('fDomain');
@@ -866,8 +870,18 @@
   function readSubject() {
     var params = new URLSearchParams(location.search);
     var explicit = params.get('subject');
-    if (explicit === 'english' || explicit === 'math' || explicit === 'physics' || explicit === 'chinese') return explicit;
+    if (explicit === 'english' || explicit === 'math' || explicit === 'physics' || explicit === 'chinese' || explicit === 'science' || explicit === 'morality') return explicit;
     var hash = readHash();
+    if (/^cns_[A-Za-z0-9]+$/.test(hash)) {
+      params.set('subject', 'science');
+      history.replaceState(null, '', location.pathname + '?' + params.toString() + '#' + hash);
+      return 'science';
+    }
+    if (/^cnd_[A-Za-z0-9]+$/.test(hash)) {
+      params.set('subject', 'morality');
+      history.replaceState(null, '', location.pathname + '?' + params.toString() + '#' + hash);
+      return 'morality';
+    }
     if (/^cnc_[A-Za-z0-9]+$/.test(hash)) {
       params.set('subject', 'chinese');
       history.replaceState(null, '', location.pathname + '?' + params.toString() + '#' + hash);
@@ -890,6 +904,8 @@
     document.body.classList.toggle('subject-english', subject === 'english');
     document.body.classList.toggle('subject-physics', subject === 'physics');
     document.body.classList.toggle('subject-chinese', subject === 'chinese');
+    document.body.classList.toggle('subject-science', subject === 'science');
+    document.body.classList.toggle('subject-morality', subject === 'morality');
     document.querySelectorAll('.site-nav a:not(.subject-link), a.brand').forEach(function (link) {
       var href = link.getAttribute('href');
       var next = withSubject(href);
@@ -919,6 +935,38 @@
       var physicsSample = $('pick-sample');
       if (physicsSample) physicsSample.textContent = '先看看「欧姆定律」';
       document.title = '知识图谱 · 物理';
+      return;
+    }
+    if (subject === 'science') {
+      document.querySelectorAll('#stage-tabs [data-stage]').forEach(function (button) {
+        var sciStage = button.getAttribute('data-stage');
+        button.hidden = sciStage === 'j' || sciStage === 'h';
+      });
+      var sciGrade = $('fGrade');
+      sciGrade.replaceChildren();
+      sciGrade.append(el('option', { value: '', text: '全部年级' }));
+      [1, 2, 3, 4, 5, 6].forEach(function (g) {
+        sciGrade.append(el('option', { value: String(g), text: CN[g] + '年级' }));
+      });
+      var sciSample = $('pick-sample');
+      if (sciSample) sciSample.textContent = '先看看「昼夜交替与地球自转」';
+      document.title = '知识图谱 · 小学科学';
+      return;
+    }
+    if (subject === 'morality') {
+      document.querySelectorAll('#stage-tabs [data-stage]').forEach(function (button) {
+        var morStage = button.getAttribute('data-stage');
+        button.hidden = morStage === 'j' || morStage === 'h';
+      });
+      var morGrade = $('fGrade');
+      morGrade.replaceChildren();
+      morGrade.append(el('option', { value: '', text: '全部年级' }));
+      [1, 2, 3, 4, 5, 6].forEach(function (g) {
+        morGrade.append(el('option', { value: String(g), text: CN[g] + '年级' }));
+      });
+      var morSample = $('pick-sample');
+      if (morSample) morSample.textContent = '先看看「我向国旗敬个礼」';
+      document.title = '知识图谱 · 小学道德与法治';
       return;
     }
     if (subject === 'chinese') {
@@ -971,7 +1019,7 @@
   function applyQuery() {
     var params = new URLSearchParams(location.search);
     var gradeValue = params.get('grade') || '';
-    var gradeOk = subject === 'english' ? /^(?:[3-9]|1[0-6])$/ : subject === 'physics' ? /^(?:[89]|1[0-5])$/ : subject === 'chinese' ? /^[1-6]$/ : /^(?:[1-9]|1[0-4])$/;
+    var gradeOk = subject === 'english' ? /^(?:[3-9]|1[0-6])$/ : subject === 'physics' ? /^(?:[89]|1[0-5])$/ : subject === 'chinese' || subject === 'science' || subject === 'morality' ? /^[1-6]$/ : /^(?:[1-9]|1[0-4])$/;
     if (gradeOk.test(gradeValue)) grade = gradeValue;
     var stageValue = params.get('stage') || '';
     if (stageValue === 'p' || stageValue === 'j' || stageValue === 'h') stage = stageValue;
@@ -1085,6 +1133,16 @@
       if (subject === 'english') {
         var hit = topics.find(function (topic) { return String(topic.name).indexOf('现在进行时') >= 0; });
         if (hit) select(hit.id, 'user');
+        return;
+      }
+      if (subject === 'science') {
+        var sciHit = topics.find(function (topic) { return String(topic.name).indexOf('昼夜交替') >= 0; });
+        if (sciHit) select(sciHit.id, 'user');
+        return;
+      }
+      if (subject === 'morality') {
+        var morHit = topics.find(function (topic) { return String(topic.name).indexOf('国旗') >= 0; });
+        if (morHit) select(morHit.id, 'user');
         return;
       }
       if (subject === 'chinese') {

@@ -6,6 +6,8 @@
   const LS_SESSION_EN = 'cneDiagnose.session.v2';
   const LS_SESSION_PHY = 'cnpDiagnose.session.v2';
   const LS_SESSION_ZH = 'cncDiagnose.session.v2';
+  const LS_SESSION_SCI = 'cnsDiagnose.session.v1';
+  const LS_SESSION_MOR = 'cndDiagnose.session.v1';
   const LS_SETTINGS = 'cnmDiagnose.settings.v2';
   const LS_SEEN = 'cnmDiagnose.seen.v1';
   const LIMIT_MIN = 8, LIMIT_MAX = 30;
@@ -85,6 +87,8 @@
     if (subject === 'english') return LS_SESSION_EN;
     if (subject === 'physics') return LS_SESSION_PHY;
     if (subject === 'chinese') return LS_SESSION_ZH;
+    if (subject === 'science') return LS_SESSION_SCI;
+    if (subject === 'morality') return LS_SESSION_MOR;
     return LS_SESSION;
   }
   function withSubject(href) {
@@ -94,7 +98,7 @@
   function detectSubject() {
     const params = new URLSearchParams(location.search);
     const explicit = params.get('subject');
-    if (explicit === 'english' || explicit === 'math' || explicit === 'physics' || explicit === 'chinese') return explicit;
+    if (explicit === 'english' || explicit === 'math' || explicit === 'physics' || explicit === 'chinese' || explicit === 'science' || explicit === 'morality') return explicit;
     const target = params.get('target') || '';
     let hashId = (location.hash || '').replace(/^#/, '');
     try { hashId = decodeURIComponent(hashId); } catch (e) { /* 保持原样 */ }
@@ -108,6 +112,16 @@
       history.replaceState(null, '', location.pathname + '?' + params.toString() + location.hash);
       return 'physics';
     }
+    if (/(^|,)\s*cns_/.test(target) || /^cns_/.test(hashId)) {
+      params.set('subject', 'science');
+      history.replaceState(null, '', location.pathname + '?' + params.toString() + location.hash);
+      return 'science';
+    }
+    if (/(^|,)\s*cnd_/.test(target) || /^cnd_/.test(hashId)) {
+      params.set('subject', 'morality');
+      history.replaceState(null, '', location.pathname + '?' + params.toString() + location.hash);
+      return 'morality';
+    }
     if (/(^|,)\s*cnc_/.test(target) || /^cnc_/.test(hashId)) {
       params.set('subject', 'chinese');
       history.replaceState(null, '', location.pathname + '?' + params.toString() + location.hash);
@@ -119,6 +133,8 @@
     document.body.classList.toggle('subject-english', subject === 'english');
     document.body.classList.toggle('subject-physics', subject === 'physics');
     document.body.classList.toggle('subject-chinese', subject === 'chinese');
+    document.body.classList.toggle('subject-science', subject === 'science');
+    document.body.classList.toggle('subject-morality', subject === 'morality');
     document.querySelectorAll('.site-nav a:not(.subject-link), a.brand').forEach(function (link) {
       const href = link.getAttribute('href');
       const next = withSubject(href);
@@ -140,6 +156,16 @@
       document.title = '诊断 · 物理';
       if (gradeSel !== '八' && gradeSel !== '九' && !/^(必修[一二三]|选必[一二三])$/.test(gradeSel)) gradeSel = '八';
       if (gradeSel === '九') volSel = '全';
+    }
+    if (subject === 'science') {
+      document.title = '诊断 · 小学科学';
+      if ('一二三四五六'.indexOf(gradeSel) < 0) gradeSel = '一';
+      if (volSel === '全') volSel = '';
+    }
+    if (subject === 'morality') {
+      document.title = '诊断 · 小学道德与法治';
+      if ('一二三四五六'.indexOf(gradeSel) < 0) gradeSel = '一';
+      if (volSel === '全') volSel = '';
     }
     if (subject === 'chinese') {
       document.title = '诊断 · 小学语文';
@@ -277,14 +303,14 @@
             CC.setCurrent(id);
             renderResult();
           }),
-          cur ? h('a', { class: 'btn', href: childrenHref('history.html?child=' + encodeURIComponent(cur.id)), text: '历史与薄弱点' }) : null));
+          cur ? h('a', { class: 'btn', href: childrenHref('history.html?child=' + encodeURIComponent(cur.id)), text: '盲区与历史' }) : null));
     }
     return h('div', { class: 'card child-bar no-print', id: 'child-bar' },
       h('div', { class: 'row' },
         h('label', { for: 'child-select' }, '当前孩子'),
         childSelect(function (id) { CC.setCurrent(id); renderStart(); }),
         h('span', { class: 'grow' }),
-        cur ? h('a', { class: 'btn', href: childrenHref('history.html?child=' + encodeURIComponent(cur.id)), text: '历史与薄弱点' }) : null,
+        cur ? h('a', { class: 'btn', href: childrenHref('history.html?child=' + encodeURIComponent(cur.id)), text: '盲区与历史' }) : null,
         h('a', { class: 'btn', href: childrenHref(fromQuery()), text: '孩子档案' })),
       h('p', { class: 'muted small', style: 'margin:8px 0 0' },
         cur ? '诊断做完，结果会保存到「' + cur.name + '」的档案里。' : '选了“不保存到档案”时，诊断结果不会存下来。'));
@@ -299,6 +325,62 @@
       counts: { weak: sum.weak.length, shaky: sum.shaky.length, mastered: sum.mastered.length, untested: sum.untested.length },
       weak: sum.weak, roots: sum.roots.map(function (r) { return r.id; }), shaky: sum.shaky, mastered: sum.mastered
     });
+  }
+  function noteBlind(sum) {
+    if (demo || !sum || !sum.asked || !window.CnmBlind) return;
+    window.CnmBlind.noteResult({
+      subject: subject, key: recordKey(), label: sessionMeta.label, demo: demo,
+      weak: sum.weak, shaky: sum.shaky, mastered: sum.mastered,
+      roots: sum.roots.map(function (r) { return r.id; }),
+      answers: session.answers
+    });
+  }
+  function diagnoseHrefFor(ids) {
+    if (window.CnmBlind) return window.CnmBlind.diagnoseHref(ids, subject, './');
+    const list = (Array.isArray(ids) ? ids : [ids]).filter(Boolean);
+    let q = 'target=' + list.map(encodeURIComponent).join(',');
+    if (subject !== 'math') q = 'subject=' + subject + '&' + q;
+    return './?' + q;
+  }
+  function blindStartCard() {
+    if (!window.CnmBlind) return null;
+    const rows = window.CnmBlind.list({ subject: subject, limit: 6 });
+    if (!rows.length) return null;
+    const cur = CC.current();
+    const more = window.CnmBlind.historyHref(cur && cur.id, '../children/');
+    return h('div', { class: 'card', id: 'blind-start' },
+      h('h2', { text: '本机盲区（最近薄弱点）' }),
+      h('p', { class: 'muted small' }, '根据本机诊断记录汇总，数据只留在这台浏览器。点「再测」会按该知识点重新诊断。'),
+      h('ul', { class: 'blind-list' }, rows.map(function (row) {
+        return h('li', { class: 'blind-item' },
+          h('span', { class: 'blind-name', text: nameOf(row.id) }),
+          ' ',
+          h('span', { class: 'tag ' + (row.status === 'weak' ? 'weak' : 'shaky'), text: row.status === 'weak' ? (row.root ? '根因' : '薄弱') : '不稳' }),
+          row.wrongs ? h('span', { class: 'muted small', text: ' · 答错 ' + row.wrongs + ' 次' }) : null,
+          ' ',
+          h('a', { class: 'blind-retest', href: diagnoseHrefFor([row.id]), text: '再测' }));
+      })),
+      h('p', { class: 'row' },
+        h('a', { class: 'btn', href: more, text: '查看全部盲区' }),
+        rows[0] ? h('a', { class: 'btn btn-primary', href: diagnoseHrefFor(rows.filter(function (r) { return r.status === 'weak'; }).slice(0, 5).map(function (r) { return r.id; })), text: '再测前几个薄弱点' }) : null));
+  }
+  function blindResultCard(sum) {
+    const weakIds = (sum.weak || []).slice();
+    const rootIds = (sum.roots || []).map(function (r) { return r.id; });
+    const shakyIds = (sum.shaky || []).slice();
+    if (!weakIds.length && !shakyIds.length) return null;
+    const cur = CC.current();
+    const hist = window.CnmBlind ? window.CnmBlind.historyHref(cur && cur.id, '../children/') : '../children/history.html';
+    return h('div', { class: 'card no-print', id: 'blind-result' },
+      h('h2', { text: '盲区再测' }),
+      h('p', { class: 'muted small' }, '把本轮判为薄弱或不稳的知识点收进本机盲区汇总，可一键再测。不会上传答题内容。'),
+      rootIds.length ? h('p', null,
+        h('a', { class: 'btn btn-primary', href: diagnoseHrefFor(rootIds), text: '再测薄弱根因（' + rootIds.length + '）' })) : null,
+      weakIds.length && weakIds.join(',') !== rootIds.join(',') ? h('p', null,
+        h('a', { class: 'btn', href: diagnoseHrefFor(weakIds.slice(0, 8)), text: '再测薄弱知识点（' + Math.min(8, weakIds.length) + (weakIds.length > 8 ? '+' : '') + '）' })) : null,
+      shakyIds.length ? h('p', null,
+        h('a', { class: 'btn', href: diagnoseHrefFor(shakyIds.slice(0, 8)), text: '再测不稳知识点（' + Math.min(8, shakyIds.length) + (shakyIds.length > 8 ? '+' : '') + '）' })) : null,
+      h('p', null, h('a', { href: hist, text: '打开本机盲区汇总' })));
   }
 
   /* ------------------------------------------------------------ 会话 */
@@ -432,6 +514,8 @@
     }
     if (errMsg) page.append(h('p', { class: 'err', text: errMsg }));
     page.append(childBar('start'));
+    const startBlind = blindStartCard();
+    if (startBlind) page.append(startBlind);
 
     const st = getSettings();
     const limitInput = h('input', { type: 'number', min: LIMIT_MIN, max: LIMIT_MAX, step: 1, value: String(st.limit), id: 'limit-input', 'aria-label': '题量上限' });
@@ -466,14 +550,18 @@
         ? '选一个想学会或想检查的英语知识点。' + confirmHelp
         : subject === 'chinese'
         ? '选一个想学会或想检查的语文知识点。' + confirmHelp
+        : subject === 'science'
+        ? '选一个想学会或想检查的科学知识点。' + confirmHelp
+        : subject === 'morality'
+        ? '选一个想学会或想检查的道德与法治知识点。' + confirmHelp
         : '选一个想学会或想检查的知识点。' + confirmHelp),
       h('div', { class: 'stage-tabs', role: 'tablist', 'aria-label': '学段' },
         subject === 'physics' ? [stageButton('', '全部'), stageButton('j', '初中'), stageButton('h', '高中')]
-          : subject === 'chinese' ? [stageButton('', '全部'), stageButton('p', '小学')]
+          : subject === 'chinese' || subject === 'science' || subject === 'morality' ? [stageButton('', '全部'), stageButton('p', '小学')]
           : [stageButton('', '全部'), stageButton('p', '小学'), stageButton('j', '初中'), stageButton('h', '高中')]),
       h('input', {
         type: 'search', class: 'search-lg', id: 'search',
-        placeholder: subject === 'physics' ? '搜索知识点，例如：欧姆定律、浮力、牛顿第二定律、楞次定律' : subject === 'english' ? '搜索知识点，例如：现在进行时、虚拟语气、there is' : subject === 'chinese' ? '搜索知识点，例如：声母、静夜思、的地得' : '搜索知识点，例如：配方法、20 以内加法、一次函数',
+        placeholder: subject === 'physics' ? '搜索知识点，例如：欧姆定律、浮力、牛顿第二定律、楞次定律' : subject === 'english' ? '搜索知识点，例如：现在进行时、虚拟语气、there is' : subject === 'chinese' ? '搜索知识点，例如：声母、静夜思、的地得' : subject === 'science' ? '搜索知识点，例如：溶解、电路、昼夜交替' : subject === 'morality' ? '搜索知识点，例如：升国旗、排队、宪法、节约用水' : '搜索知识点，例如：配方法、20 以内加法、一次函数',
         value: startQuery, autocomplete: 'off', 'aria-label': '搜索知识点',
         oninput: function (e) {
           startQuery = e.target.value;
@@ -541,7 +629,7 @@
             ['必修一', '必修一'], ['必修二', '必修二'], ['必修三', '必修三'],
             ['选必一', '选必一'], ['选必二', '选必二'], ['选必三', '选必三'], ['选必四', '选必四']
           ])
-          : subject === 'chinese'
+          : subject === 'chinese' || subject === 'science' || subject === 'morality'
           ? '一二三四五六'.split('').map(function (x) { return [x, x + '年级']; })
           : GRADES.map(function (x) { return [x, x + '年级']; }).concat([
             ['高一', '高一'], ['高二', '高二'], ['选必一', '选必一'], ['选必二', '选必二'], ['选必三', '选必三']
@@ -819,7 +907,7 @@
     return raw || '本次诊断';
   }
   function buildShareModel(sum, chapters) {
-    var subjectName = subject === 'english' ? '英语' : subject === 'physics' ? '物理' : subject === 'chinese' ? '语文' : '数学';
+    var subjectName = subject === 'english' ? '英语' : subject === 'physics' ? '物理' : subject === 'chinese' ? '语文' : subject === 'science' ? '科学' : subject === 'morality' ? '道德与法治' : '数学';
     var spots = [];
     var spotKind = 'topic';
     if (chapters && chapters.length) {
@@ -968,6 +1056,7 @@
     const page = h('div');
     if (demo) page.append(demoBanner());
     saveToChild(sum);
+    noteBlind(sum);
     page.append(childBar('result'));
 
     const targetsMastered = session.targets.every(function (id) { return E.statusOf(session, id) === 'mastered'; });
@@ -1007,6 +1096,8 @@
         h('button', { onclick: function () { if (confirm('重新开始会清除当前进度，确定吗？')) restart(); } }, '重新开始'),
         session.answers.length ? h('button', { onclick: function () { rebuild(session.answers.slice(0, -1)); } }, '撤销上一题') : null));
     page.append(summaryCard);
+    const blindCard = blindResultCard(sum);
+    if (blindCard) page.append(blindCard);
     if (screen) page.append(chaptersCard(chapters, outOfScope));
 
     page.append(h('div', { class: 'card', id: 'roots' },
@@ -1098,8 +1189,10 @@
               seg('m', c.mastered, c.total), seg('s', c.shaky, c.total), seg('w', c.weak, c.total), seg('u', c.untested, c.total))),
           h('div', { class: 'body' },
             h('div', { class: 'muted small', text: '共 ' + c.total + ' 个知识点' }),
-            c.weakIds.length ? h('div', { class: 'chap-names' }, tag('weak', '薄弱'), nameList(c.weakIds)) : null,
-            c.shakyIds.length ? h('div', { class: 'chap-names' }, tag('shaky', '不稳'), nameList(c.shakyIds)) : null,
+            c.weakIds.length ? h('div', { class: 'chap-names' }, tag('weak', '薄弱'), nameList(c.weakIds),
+              ' ', h('a', { class: 'blind-retest no-print', href: diagnoseHrefFor(c.weakIds), text: '再测本章薄弱' })) : null,
+            c.shakyIds.length ? h('div', { class: 'chap-names' }, tag('shaky', '不稳'), nameList(c.shakyIds),
+              ' ', h('a', { class: 'blind-retest no-print', href: diagnoseHrefFor(c.shakyIds), text: '再测本章不稳' })) : null,
             !c.weakIds.length && !c.shakyIds.length ? h('div', { class: 'muted small', text: c.untested ? '没有发现薄弱或不稳的点，另有 ' + c.untested + ' 个没测到。' : '没有发现薄弱或不稳的点。' }) : null));
       }));
   }
@@ -1122,6 +1215,10 @@
         ? '目标与学习路径上的知识点对应的《义务教育英语课程标准（2022年版）》和《普通高中英语课程标准（2017年版2025年修订）》公开转述（一级、二级、三级，以及高中必修、选择性必修）。'
         : subject === 'chinese'
         ? '目标与学习路径上的知识点对应的《义务教育语文课程标准（2022年版）》第一至第三学段的公开转述。'
+        : subject === 'science'
+        ? '目标与学习路径上的知识点对应的《义务教育科学课程标准（2022年版）》第一至第三学段学习内容的公开转述。'
+        : subject === 'morality'
+        ? '目标与学习路径上的知识点对应的《义务教育道德与法治课程标准（2022年版）》第一至第三学段内容要求的公开转述。'
         : '目标与学习路径上的知识点对应的《义务教育数学课程标准（2022年版）》内容要求（第一至第四学段）。'),
       keys.length ? keys.map(function (k) {
         const item = D.stdById[k];

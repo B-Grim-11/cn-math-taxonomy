@@ -84,6 +84,17 @@ body.subject-english {
   --logo-fold: #ffffff;
 }
 
+body.subject-science {
+  --brand: #047857;
+  --brand-strong: #065f46;
+  --brand-soft: #ecfdf5;
+  --on-brand: #ffffff;
+  --focus: #047857;
+  --accent: #047857;
+  --logo-sheet: #d1fae5;
+  --logo-fold: #ffffff;
+}
+
 body.subject-chinese {
   --brand: #9f1239;
   --brand-strong: #881337;
@@ -92,6 +103,17 @@ body.subject-chinese {
   --focus: #9f1239;
   --accent: #9f1239;
   --logo-sheet: #ffe4e6;
+  --logo-fold: #ffffff;
+}
+
+body.subject-morality {
+  --brand: #c2410c;
+  --brand-strong: #9a3412;
+  --brand-soft: #fff7ed;
+  --on-brand: #ffffff;
+  --focus: #c2410c;
+  --accent: #c2410c;
+  --logo-sheet: #ffedd5;
   --logo-fold: #ffffff;
 }
 
@@ -173,6 +195,16 @@ body.subject-chinese {
     --logo-sheet: #2a2870;
     --logo-fold: #3c3a96;
   }
+  body.subject-science {
+    --brand: #6ee7b7;
+    --brand-strong: #a7f3d0;
+    --brand-soft: #064e3b;
+    --on-brand: #022c22;
+    --focus: #a7f3d0;
+    --accent: #6ee7b7;
+    --logo-sheet: #065f46;
+    --logo-fold: #047857;
+  }
   body.subject-chinese {
     --brand: #fda4af;
     --brand-strong: #fecdd3;
@@ -182,6 +214,16 @@ body.subject-chinese {
     --accent: #fda4af;
     --logo-sheet: #6b1230;
     --logo-fold: #9f1239;
+  }
+  body.subject-morality {
+    --brand: #fdba74;
+    --brand-strong: #fed7aa;
+    --brand-soft: #7c2d12;
+    --on-brand: #431407;
+    --focus: #fed7aa;
+    --accent: #fdba74;
+    --logo-sheet: #9a3412;
+    --logo-fold: #c2410c;
   }
 }
 
@@ -608,3 +650,16 @@ a.iq-card .iq-note { color: var(--muted); font-size: 0.82rem; font-weight: 650; 
   .stat-grid { grid-template-columns: 1fr 1fr; }
   .hero { padding: 22px 16px 18px; }
 }
+
+
+/* 首页本机盲区汇总 */
+.blind-home { margin: 28px 0 8px; }
+.blind-home-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.blind-home-item {
+  display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 12px;
+  padding: 12px 14px; border: 1px solid var(--line); border-radius: 12px; background: var(--card, #fff);
+}
+.blind-home-name { font-weight: 800; color: var(--brand-strong); text-decoration: none; overflow-wrap: anywhere; }
+.blind-home-name:hover { text-decoration: underline; }
+.blind-home-meta { color: var(--muted); font-size: 0.9rem; }
+.blind-home-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }

@@ -42,7 +42,7 @@
   if (params.get('from') === 'diagnose') {
     var back = document.getElementById('back');
     var sub = params.get('subject');
-    var href = '../diagnose/' + (sub === 'english' || sub === 'physics' || sub === 'chinese' ? '?subject=' + sub : '');
+    var href = '../diagnose/' + (sub === 'english' || sub === 'physics' || sub === 'chinese' || sub === 'science' || sub === 'morality' ? '?subject=' + sub : '');
     var a = el('a', null, '← 回到诊断');
     a.href = href;
     back.appendChild(a);
@@ -101,7 +101,7 @@
       use.addEventListener('click', function () { CC.setCurrent(c.id); render(); });
       row.appendChild(use);
     }
-    var hist = el('a', 'btn', '历史与薄弱点');
+    var hist = el('a', 'btn', '盲区与历史');
     hist.href = 'history.html?child=' + encodeURIComponent(c.id);
     row.appendChild(hist);
     var edit = el('button', null, '编辑');
