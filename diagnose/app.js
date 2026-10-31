@@ -8,6 +8,7 @@
   const LS_SESSION_ZH = 'cncDiagnose.session.v2';
   const LS_SESSION_SCI = 'cnsDiagnose.session.v1';
   const LS_SESSION_MOR = 'cndDiagnose.session.v1';
+  const LS_SESSION_HIS = 'cnhDiagnose.session.v1';
   const LS_SETTINGS = 'cnmDiagnose.settings.v2';
   const LS_SEEN = 'cnmDiagnose.seen.v1';
   const LIMIT_MIN = 8, LIMIT_MAX = 30;
@@ -89,6 +90,7 @@
     if (subject === 'chinese') return LS_SESSION_ZH;
     if (subject === 'science') return LS_SESSION_SCI;
     if (subject === 'morality') return LS_SESSION_MOR;
+    if (subject === 'history') return LS_SESSION_HIS;
     return LS_SESSION;
   }
   function withSubject(href) {
@@ -98,7 +100,7 @@
   function detectSubject() {
     const params = new URLSearchParams(location.search);
     const explicit = params.get('subject');
-    if (explicit === 'english' || explicit === 'math' || explicit === 'physics' || explicit === 'chinese' || explicit === 'science' || explicit === 'morality') return explicit;
+    if (explicit === 'english' || explicit === 'math' || explicit === 'physics' || explicit === 'chinese' || explicit === 'science' || explicit === 'morality' || explicit === 'history') return explicit;
     const target = params.get('target') || '';
     let hashId = (location.hash || '').replace(/^#/, '');
     try { hashId = decodeURIComponent(hashId); } catch (e) { /* 保持原样 */ }
@@ -122,6 +124,11 @@
       history.replaceState(null, '', location.pathname + '?' + params.toString() + location.hash);
       return 'morality';
     }
+    if (/(^|,)\s*cnh_/.test(target) || /^cnh_/.test(hashId)) {
+      params.set('subject', 'history');
+      history.replaceState(null, '', location.pathname + '?' + params.toString() + location.hash);
+      return 'history';
+    }
     if (/(^|,)\s*cnc_/.test(target) || /^cnc_/.test(hashId)) {
       params.set('subject', 'chinese');
       history.replaceState(null, '', location.pathname + '?' + params.toString() + location.hash);
@@ -135,6 +142,7 @@
     document.body.classList.toggle('subject-chinese', subject === 'chinese');
     document.body.classList.toggle('subject-science', subject === 'science');
     document.body.classList.toggle('subject-morality', subject === 'morality');
+    document.body.classList.toggle('subject-history', subject === 'history');
     document.querySelectorAll('.site-nav a:not(.subject-link), a.brand').forEach(function (link) {
       const href = link.getAttribute('href');
       const next = withSubject(href);
@@ -165,6 +173,11 @@
     if (subject === 'morality') {
       document.title = '诊断 · 小学道德与法治';
       if ('一二三四五六'.indexOf(gradeSel) < 0) gradeSel = '一';
+      if (volSel === '全') volSel = '';
+    }
+    if (subject === 'history') {
+      document.title = '诊断 · 初中历史';
+      if ('七八九'.indexOf(gradeSel) < 0) gradeSel = '七';
       if (volSel === '全') volSel = '';
     }
     if (subject === 'chinese') {
@@ -554,14 +567,17 @@
         ? '选一个想学会或想检查的科学知识点。' + confirmHelp
         : subject === 'morality'
         ? '选一个想学会或想检查的道德与法治知识点。' + confirmHelp
+        : subject === 'history'
+        ? '选一个想学会或想检查的历史知识点。' + confirmHelp
         : '选一个想学会或想检查的知识点。' + confirmHelp),
       h('div', { class: 'stage-tabs', role: 'tablist', 'aria-label': '学段' },
         subject === 'physics' ? [stageButton('', '全部'), stageButton('j', '初中'), stageButton('h', '高中')]
+          : subject === 'history' ? [stageButton('', '全部'), stageButton('j', '初中')]
           : subject === 'chinese' || subject === 'science' || subject === 'morality' ? [stageButton('', '全部'), stageButton('p', '小学')]
           : [stageButton('', '全部'), stageButton('p', '小学'), stageButton('j', '初中'), stageButton('h', '高中')]),
       h('input', {
         type: 'search', class: 'search-lg', id: 'search',
-        placeholder: subject === 'physics' ? '搜索知识点，例如：欧姆定律、浮力、牛顿第二定律、楞次定律' : subject === 'english' ? '搜索知识点，例如：现在进行时、虚拟语气、there is' : subject === 'chinese' ? '搜索知识点，例如：声母、静夜思、的地得' : subject === 'science' ? '搜索知识点，例如：溶解、电路、昼夜交替' : subject === 'morality' ? '搜索知识点，例如：升国旗、排队、宪法、节约用水' : '搜索知识点，例如：配方法、20 以内加法、一次函数',
+        placeholder: subject === 'physics' ? '搜索知识点，例如：欧姆定律、浮力、牛顿第二定律、楞次定律' : subject === 'english' ? '搜索知识点，例如：现在进行时、虚拟语气、there is' : subject === 'chinese' ? '搜索知识点，例如：声母、静夜思、的地得' : subject === 'science' ? '搜索知识点，例如：溶解、电路、昼夜交替' : subject === 'morality' ? '搜索知识点，例如：升国旗、排队、宪法、节约用水' : subject === 'history' ? '搜索知识点，例如：鸦片战争、丝绸之路、五四运动' : '搜索知识点，例如：配方法、20 以内加法、一次函数',
         value: startQuery, autocomplete: 'off', 'aria-label': '搜索知识点',
         oninput: function (e) {
           startQuery = e.target.value;
@@ -629,6 +645,8 @@
             ['必修一', '必修一'], ['必修二', '必修二'], ['必修三', '必修三'],
             ['选必一', '选必一'], ['选必二', '选必二'], ['选必三', '选必三'], ['选必四', '选必四']
           ])
+          : subject === 'history'
+          ? '七八九'.split('').map(function (x) { return [x, x + '年级']; })
           : subject === 'chinese' || subject === 'science' || subject === 'morality'
           ? '一二三四五六'.split('').map(function (x) { return [x, x + '年级']; })
           : GRADES.map(function (x) { return [x, x + '年级']; }).concat([
@@ -686,7 +704,7 @@
       if (!chapters.length) return;
       const count = chapters.reduce(function (n, c) { return n + c.rows.length; }, 0);
       shown += count;
-      const openVol = subject === 'physics' ? '八上' : subject === 'english' ? '三上' : '一上';
+      const openVol = subject === 'physics' ? '八上' : subject === 'english' ? '三上' : subject === 'history' ? '七上' : '一上';
       const seniorOpen = subject === 'english' || subject === 'physics' ? '必修一' : '高一';
       const det = h('details', { class: 'vol', open: !!q || (startStage === 'j' ? vv[0] === '七上' : startStage === 'h' ? vv[0] === seniorOpen : vv[0] === openVol) },
         h('summary', null, vv[1] + '（' + count + ' 个知识点）'));
@@ -907,7 +925,7 @@
     return raw || '本次诊断';
   }
   function buildShareModel(sum, chapters) {
-    var subjectName = subject === 'english' ? '英语' : subject === 'physics' ? '物理' : subject === 'chinese' ? '语文' : subject === 'science' ? '科学' : subject === 'morality' ? '道德与法治' : '数学';
+    var subjectName = subject === 'english' ? '英语' : subject === 'physics' ? '物理' : subject === 'chinese' ? '语文' : subject === 'science' ? '科学' : subject === 'morality' ? '道德与法治' : subject === 'history' ? '历史' : '数学';
     var spots = [];
     var spotKind = 'topic';
     if (chapters && chapters.length) {
@@ -1219,6 +1237,8 @@
         ? '目标与学习路径上的知识点对应的《义务教育科学课程标准（2022年版）》第一至第三学段学习内容的公开转述。'
         : subject === 'morality'
         ? '目标与学习路径上的知识点对应的《义务教育道德与法治课程标准（2022年版）》第一至第三学段内容要求的公开转述。'
+        : subject === 'history'
+        ? '目标与学习路径上的知识点对应的《义务教育历史课程标准（2022年版）》第四学段内容要求的公开转述。'
         : '目标与学习路径上的知识点对应的《义务教育数学课程标准（2022年版）》内容要求（第一至第四学段）。'),
       keys.length ? keys.map(function (k) {
         const item = D.stdById[k];
