@@ -1443,6 +1443,13 @@ test('gradeTargets：一年级 = 一上 + 一下，七上只含七上；写法�
   const g9his = E.gradeTargets(RGQ, '九下', 'history');
   assert.strictEqual(g9his.ids.length, 23);
   assert.ok(g9his.ids.every((id) => id.startsWith('cnh_') && RGQ.byId[id].grade === 9 && RGQ.byId[id].semester === '下'));
+  const g7geo = E.gradeTargets(RGQ, '七上', 'geography');
+  assert.strictEqual(g7geo.ids.length, 17);
+  assert.ok(g7geo.ids.every((id) => id.startsWith('cng_')));
+  const g8geo = E.gradeTargets(RGQ, '八下', 'geography');
+  assert.strictEqual(g8geo.ids.length, 14);
+  assert.ok(g8geo.ids.every((id) => id.startsWith('cng_') && RGQ.byId[id].grade === 8 && RGQ.byId[id].semester === '下'));
+  assert.strictEqual(E.gradeTargets(RGQ, '九上', 'geography'), null);
   const g7 = E.gradeTargets(RGQ, '七年级');
   assert.strictEqual(g7.ids.length, formal.filter((t) => t.grade === 7 && String(t.id).startsWith('cnm_')).length);
   assert.ok(g7.ids.every((id) => id.startsWith('cnm_')));

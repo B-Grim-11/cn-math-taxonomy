@@ -128,6 +128,17 @@ body.subject-history {
   --logo-fold: #ffffff;
 }
 
+body.subject-geography {
+  --brand: #0e7490;
+  --brand-strong: #155e75;
+  --brand-soft: #ecfeff;
+  --on-brand: #ffffff;
+  --focus: #0e7490;
+  --accent: #0e7490;
+  --logo-sheet: #cffafe;
+  --logo-fold: #ffffff;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     color-scheme: dark;
@@ -245,6 +256,16 @@ body.subject-history {
     --accent: #d6c3ad;
     --logo-sheet: #4a382c;
     --logo-fold: #6b5344;
+  }
+  body.subject-geography {
+    --brand: #67e8f9;
+    --brand-strong: #a5f3fc;
+    --brand-soft: #164e63;
+    --on-brand: #083344;
+    --focus: #a5f3fc;
+    --accent: #67e8f9;
+    --logo-sheet: #155e75;
+    --logo-fold: #0e7490;
   }
 }
 

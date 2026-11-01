@@ -79529,5 +79529,1599 @@
         "note": "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
       }
     ]
+  },
+  {
+    "id": "cng_j001",
+    "name": "地球的宇宙环境",
+    "domain": "地球与地图",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第1单元 地球",
+    "type": "conceptual",
+    "description": "知道地球在太阳系中的位置，以及恒星、行星、卫星等天体的基本关系。",
+    "mastery_criteria": [
+      "能说出本课的基本概念、数据和空间位置",
+      "能在地图或示意图上作出与教材相符的判断"
+    ],
+    "diagnostic_question": {
+      "question": "地球在太阳系中属于哪一类天体？",
+      "answer": "行星"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:EM.01",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ],
+    "root_reason": "七年级上册从地球的宇宙环境讲起，认识地球在宇宙中的位置是初中地理的起点，前面没有更早的初中地理知识点。"
+  },
+  {
+    "id": "cng_j002",
+    "name": "地球与地球仪",
+    "domain": "地球与地图",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第1单元 地球",
+    "type": "procedural",
+    "description": "知道地球的形状和大小，会用经纬网确定位置。",
+    "mastery_criteria": [
+      "能说出本课的基本概念、数据和空间位置",
+      "能在地图或示意图上作出与教材相符的判断"
+    ],
+    "diagnostic_question": {
+      "question": "地球的平均半径大约是？",
+      "answer": "6371千米"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:EM.01",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j003",
+    "name": "地球的运动",
+    "domain": "地球与地图",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第1单元 地球",
+    "type": "reasoning",
+    "description": "知道地球自转和公转的方向、周期及地理意义。",
+    "mastery_criteria": [
+      "能说出本课的基本概念、数据和空间位置",
+      "能在地图或示意图上作出与教材相符的判断"
+    ],
+    "diagnostic_question": {
+      "question": "地球自转的方向是？",
+      "answer": "自西向东"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:EM.01",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j004",
+    "name": "地图的阅读",
+    "domain": "地球与地图",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第2单元 地图",
+    "type": "procedural",
+    "description": "知道地图三要素，会用比例尺、方向和图例读图。",
+    "mastery_criteria": [
+      "能说出本课的基本概念、数据和空间位置",
+      "能在地图或示意图上作出与教材相符的判断"
+    ],
+    "diagnostic_question": {
+      "question": "地图的三要素是？",
+      "answer": "比例尺、方向、图例"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:EM.02",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j005",
+    "name": "地形图的判读",
+    "domain": "地球与地图",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第2单元 地图",
+    "type": "procedural",
+    "description": "会根据等高线判读海拔、坡度和五种基本地形。",
+    "mastery_criteria": [
+      "能说出本课的基本概念、数据和空间位置",
+      "能在地图或示意图上作出与教材相符的判断"
+    ],
+    "diagnostic_question": {
+      "question": "等高线地形图上，等高线越密集，表示？",
+      "answer": "坡度越陡"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:EM.02",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j006",
+    "name": "地图的选择和应用",
+    "domain": "地球与地图",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第2单元 地图",
+    "type": "application",
+    "description": "能根据出行、查找范围等需要选择合适的地图。",
+    "mastery_criteria": [
+      "能说出本课的基本概念、数据和空间位置",
+      "能在地图或示意图上作出与教材相符的判断"
+    ],
+    "diagnostic_question": {
+      "question": "查找北京到上海的铁路路线，最合适的是？",
+      "answer": "中国交通图"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:EM.02",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j007",
+    "name": "大洲和大洋",
+    "domain": "地球与地图",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第3单元 陆地和海洋",
+    "type": "conceptual",
+    "description": "知道海陆分布和七大洲、四大洋的名称与位置。",
+    "mastery_criteria": [
+      "能说出本课的基本概念、数据和空间位置",
+      "能在地图或示意图上作出与教材相符的判断"
+    ],
+    "diagnostic_question": {
+      "question": "地球表面海洋与陆地面积大约是？",
+      "answer": "海洋约 71%，陆地约 29%"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:EM.03",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j008",
+    "name": "世界的地形",
+    "domain": "地球与地图",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第3单元 陆地和海洋",
+    "type": "conceptual",
+    "description": "知道陆地五种基本地形和世界主要山脉、平原的分布。",
+    "mastery_criteria": [
+      "能说出本课的基本概念、数据和空间位置",
+      "能在地图或示意图上作出与教材相符的判断"
+    ],
+    "diagnostic_question": {
+      "question": "陆地五种基本地形是？",
+      "answer": "平原、高原、山地、丘陵、盆地"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:EM.03",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j009",
+    "name": "海陆的变迁",
+    "domain": "地球与地图",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第3单元 陆地和海洋",
+    "type": "reasoning",
+    "description": "知道沧海桑田的证据，以及板块运动与火山地震的关系。",
+    "mastery_criteria": [
+      "能说出本课的基本概念、数据和空间位置",
+      "能在地图或示意图上作出与教材相符的判断"
+    ],
+    "diagnostic_question": {
+      "question": "海陆变迁的重要证据之一是？",
+      "answer": "有的高山上发现海洋生物化石"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:EM.03",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j010",
+    "name": "多变的天气",
+    "domain": "世界地理",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第4单元 天气与气候",
+    "type": "conceptual",
+    "description": "区分天气和气候，会读天气预报中的常用符号。",
+    "mastery_criteria": [
+      "能说出本课的位置、自然或人文特征",
+      "能把区域特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "“今天多云，明天有中雨”描述的是？",
+      "answer": "天气"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:WG.01",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j011",
+    "name": "气温的变化与分布",
+    "domain": "世界地理",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第4单元 天气与气候",
+    "type": "reasoning",
+    "description": "知道气温的日变化、年变化和世界气温分布规律。",
+    "mastery_criteria": [
+      "能说出本课的位置、自然或人文特征",
+      "能把区域特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "一天中，陆地最高气温通常出现在？",
+      "answer": "午后 2 时左右"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:WG.01",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j012",
+    "name": "降水的变化与分布",
+    "domain": "世界地理",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第4单元 天气与气候",
+    "type": "reasoning",
+    "description": "知道降水的季节变化和世界降水的分布规律。",
+    "mastery_criteria": [
+      "能说出本课的位置、自然或人文特征",
+      "能把区域特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "赤道附近地区年降水量通常？",
+      "answer": "很丰富"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:WG.01",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j013",
+    "name": "世界的气候",
+    "domain": "世界地理",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第4单元 天气与气候",
+    "type": "conceptual",
+    "description": "知道世界主要气候类型的分布和特征。",
+    "mastery_criteria": [
+      "能说出本课的位置、自然或人文特征",
+      "能把区域特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "热带雨林气候主要分布在？",
+      "answer": "赤道附近"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:WG.01",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j014",
+    "name": "人口与人种",
+    "domain": "世界地理",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第5单元 居民与文化",
+    "type": "conceptual",
+    "description": "知道世界人口的增长、分布和三大人种。",
+    "mastery_criteria": [
+      "能说出本课的位置、自然或人文特征",
+      "能把区域特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "目前世界人口最多的大洲是？",
+      "answer": "亚洲"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:WG.02",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j015",
+    "name": "城镇与乡村",
+    "domain": "世界地理",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第5单元 居民与文化",
+    "type": "conceptual",
+    "description": "知道聚落的形态、城乡差异及形成条件。",
+    "mastery_criteria": [
+      "能说出本课的位置、自然或人文特征",
+      "能把区域特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "聚落通常分为？",
+      "answer": "乡村和城镇"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:WG.02",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j016",
+    "name": "多样的文化",
+    "domain": "世界地理",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第5单元 居民与文化",
+    "type": "conceptual",
+    "description": "知道世界语言、宗教和文化景观的多样性。",
+    "mastery_criteria": [
+      "能说出本课的位置、自然或人文特征",
+      "能把区域特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "使用人数最多的语言是？",
+      "answer": "汉语"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:WG.02",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j017",
+    "name": "发展与合作",
+    "domain": "世界地理",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第6单元 发展与合作",
+    "type": "reasoning",
+    "description": "知道发达国家与发展中国家的差异，以及国际合作的意义。",
+    "mastery_criteria": [
+      "能说出本课的位置、自然或人文特征",
+      "能把区域特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "目前世界上大多数国家属于？",
+      "answer": "发展中国家"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:WG.03",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j018",
+    "name": "亚洲的自然环境",
+    "domain": "世界地理",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第7单元 我们生活的大洲——亚洲",
+    "type": "conceptual",
+    "description": "知道亚洲的位置、地形地势、河流和气候特点。",
+    "mastery_criteria": [
+      "能说出本课的位置、自然或人文特征",
+      "能把区域特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "亚洲大部分位于哪个半球？",
+      "answer": "北半球和东半球"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:WG.04",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j019",
+    "name": "亚洲的人文环境",
+    "domain": "世界地理",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第7单元 我们生活的大洲——亚洲",
+    "type": "conceptual",
+    "description": "知道亚洲的人口、文化和经济发展差异。",
+    "mastery_criteria": [
+      "能说出本课的位置、自然或人文特征",
+      "能把区域特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "亚洲是世界上人口最多的大洲，人口主要集中在？",
+      "answer": "东亚、东南亚和南亚"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:WG.04",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j020",
+    "name": "日本",
+    "domain": "世界地理",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第8单元 我们邻近的地区和国家",
+    "type": "conceptual",
+    "description": "知道日本的位置、自然环境和经济发展特点。",
+    "mastery_criteria": [
+      "能说出本课的位置、自然或人文特征",
+      "能把区域特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "日本是位于亚洲东部的？",
+      "answer": "岛国"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:WG.05",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j021",
+    "name": "东南亚",
+    "domain": "世界地理",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第8单元 我们邻近的地区和国家",
+    "type": "conceptual",
+    "description": "知道东南亚的位置、气候、农业和马六甲海峡的重要性。",
+    "mastery_criteria": [
+      "能说出本课的位置、自然或人文特征",
+      "能把区域特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "东南亚处在亚洲与大洋洲、印度洋与太平洋之间的？",
+      "answer": "“十字路口”"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:WG.05",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j022",
+    "name": "印度",
+    "domain": "世界地理",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第8单元 我们邻近的地区和国家",
+    "type": "conceptual",
+    "description": "知道印度的位置、热带季风气候、农业和信息技术产业。",
+    "mastery_criteria": [
+      "能说出本课的位置、自然或人文特征",
+      "能把区域特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "印度大部分地区的气候类型是？",
+      "answer": "热带季风气候"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:WG.05",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j023",
+    "name": "俄罗斯",
+    "domain": "世界地理",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第8单元 我们邻近的地区和国家",
+    "type": "conceptual",
+    "description": "知道俄罗斯的位置、自然资源和工业、交通特点。",
+    "mastery_criteria": [
+      "能说出本课的位置、自然或人文特征",
+      "能把区域特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "俄罗斯是世界上？",
+      "answer": "面积最大的国家"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:WG.05",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j024",
+    "name": "西亚",
+    "domain": "世界地理",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第9单元 东半球其他的地区和国家",
+    "type": "conceptual",
+    "description": "知道西亚的位置、干旱环境和石油资源。",
+    "mastery_criteria": [
+      "能说出本课的位置、自然或人文特征",
+      "能把区域特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "西亚地处亚、欧、非三洲交界，被称为？",
+      "answer": "“三洲五海之地”"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:WG.06",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j025",
+    "name": "欧洲西部",
+    "domain": "世界地理",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第9单元 东半球其他的地区和国家",
+    "type": "conceptual",
+    "description": "知道欧洲西部的位置、温带海洋性气候和发达的经济。",
+    "mastery_criteria": [
+      "能说出本课的位置、自然或人文特征",
+      "能把区域特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "欧洲西部大多数国家属于？",
+      "answer": "发达国家"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:WG.06",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j026",
+    "name": "撒哈拉以南非洲",
+    "domain": "世界地理",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第9单元 东半球其他的地区和国家",
+    "type": "reasoning",
+    "description": "知道撒哈拉以南非洲的位置、热带气候、资源和经济发展。",
+    "mastery_criteria": [
+      "能说出本课的位置、自然或人文特征",
+      "能把区域特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "撒哈拉以南非洲大部分位于？",
+      "answer": "热带"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:WG.06",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j027",
+    "name": "澳大利亚",
+    "domain": "世界地理",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第9单元 东半球其他的地区和国家",
+    "type": "conceptual",
+    "description": "知道澳大利亚是独占一块大陆的国家，以及气候、动物和农矿产业。",
+    "mastery_criteria": [
+      "能说出本课的位置、自然或人文特征",
+      "能把区域特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "澳大利亚是世界上唯一独占一块大陆的国家，这块大陆是？",
+      "answer": "澳大利亚大陆"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:WG.06",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j028",
+    "name": "美国",
+    "domain": "世界地理",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第10单元 西半球的国家",
+    "type": "conceptual",
+    "description": "知道美国的位置、农业专业化、工业和高新技术产业。",
+    "mastery_criteria": [
+      "能说出本课的位置、自然或人文特征",
+      "能把区域特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "美国本土位于哪个大洲？",
+      "answer": "北美洲"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:WG.07",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j029",
+    "name": "巴西",
+    "domain": "世界地理",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第10单元 西半球的国家",
+    "type": "conceptual",
+    "description": "知道巴西的位置、热带雨林、人口城市分布和经济发展。",
+    "mastery_criteria": [
+      "能说出本课的位置、自然或人文特征",
+      "能把区域特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "巴西大部分位于？",
+      "answer": "南美洲东部，赤道和南回归线之间"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:WG.07",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j030",
+    "name": "极地地区",
+    "domain": "世界地理",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第11单元 极地地区",
+    "type": "conceptual",
+    "description": "知道北极地区和南极地区的自然环境及科考、环保意义。",
+    "mastery_criteria": [
+      "能说出本课的位置、自然或人文特征",
+      "能把区域特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "南极地区是地球上最冷的地区之一，被称为？",
+      "answer": "“冰雪高原”"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:WG.08",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j031",
+    "name": "疆域",
+    "domain": "中国地理",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第1单元 从世界看中国",
+    "type": "conceptual",
+    "description": "知道中国的半球位置、海陆位置、领土面积、邻国和行政区划。",
+    "mastery_criteria": [
+      "能说出本课的位置、分布或基本国情",
+      "能把自然或人文特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "我国领土面积大约是？",
+      "answer": "960 万平方千米"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:CG.01",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j032",
+    "name": "人口",
+    "domain": "中国地理",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第1单元 从世界看中国",
+    "type": "conceptual",
+    "description": "知道中国人口数量、分布特点和人口政策。",
+    "mastery_criteria": [
+      "能说出本课的位置、分布或基本国情",
+      "能把自然或人文特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "我国是世界上人口最多的国家之一，人口分布的基本特点是？",
+      "answer": "东南多、西北少"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:CG.01",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j033",
+    "name": "民族",
+    "domain": "中国地理",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第1单元 从世界看中国",
+    "type": "conceptual",
+    "description": "知道中国是统一的多民族国家，以及民族分布特点。",
+    "mastery_criteria": [
+      "能说出本课的位置、分布或基本国情",
+      "能把自然或人文特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "我国共有多少个民族？",
+      "answer": "56 个"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:CG.01",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j034",
+    "name": "地形",
+    "domain": "中国地理",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第2单元 中国的自然环境",
+    "type": "conceptual",
+    "description": "知道中国地势西高东低、三级阶梯和主要地形区。",
+    "mastery_criteria": [
+      "能说出本课的位置、分布或基本国情",
+      "能把自然或人文特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "我国地势的基本特征是？",
+      "answer": "西高东低，呈三级阶梯"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:CG.02",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j035",
+    "name": "气候",
+    "domain": "中国地理",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第2单元 中国的自然环境",
+    "type": "reasoning",
+    "description": "知道中国气候的主要特征及其成因。",
+    "mastery_criteria": [
+      "能说出本课的位置、分布或基本国情",
+      "能把自然或人文特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "我国气候的显著特征之一是？",
+      "answer": "季风气候显著"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:CG.02",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j036",
+    "name": "河流与湖泊",
+    "domain": "中国地理",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第2单元 中国的自然环境",
+    "type": "conceptual",
+    "description": "知道长江、黄河等外流河和主要湖泊的特征。",
+    "mastery_criteria": [
+      "能说出本课的位置、分布或基本国情",
+      "能把自然或人文特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "我国最长的河流是？",
+      "answer": "长江"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:CG.02",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j037",
+    "name": "土地资源",
+    "domain": "中国地理",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第3单元 中国的自然资源",
+    "type": "conceptual",
+    "description": "知道中国土地资源的构成和“十分珍惜、合理利用土地”的国策。",
+    "mastery_criteria": [
+      "能说出本课的位置、分布或基本国情",
+      "能把自然或人文特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "我国土地资源的特点是？",
+      "answer": "总量丰富，人均不足，山地多、耕地少"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:CG.03",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j038",
+    "name": "水资源",
+    "domain": "中国地理",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第3单元 中国的自然资源",
+    "type": "reasoning",
+    "description": "知道中国水资源的时空分布特点和解决措施。",
+    "mastery_criteria": [
+      "能说出本课的位置、分布或基本国情",
+      "能把自然或人文特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "我国水资源的空间分布特点是？",
+      "answer": "东多西少、南多北少"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:CG.03",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j039",
+    "name": "矿产资源",
+    "domain": "中国地理",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第3单元 中国的自然资源",
+    "type": "conceptual",
+    "description": "知道中国矿产资源的特点及能源矿产的分布。",
+    "mastery_criteria": [
+      "能说出本课的位置、分布或基本国情",
+      "能把自然或人文特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "我国矿产资源的基本特点是？",
+      "answer": "种类多、储量较丰富，但人均较少"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:CG.03",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j040",
+    "name": "海洋资源",
+    "domain": "中国地理",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第3单元 中国的自然资源",
+    "type": "conceptual",
+    "description": "知道中国的海洋国土、海洋资源和海洋权益。",
+    "mastery_criteria": [
+      "能说出本课的位置、分布或基本国情",
+      "能把自然或人文特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "我国既是陆地大国，也是海洋大国，管辖的海域面积约？",
+      "answer": "300 万平方千米"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:CG.03",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j041",
+    "name": "农业",
+    "domain": "中国地理",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第4单元 中国的经济发展",
+    "type": "conceptual",
+    "description": "知道中国农业的地区差异和主要农作物分布。",
+    "mastery_criteria": [
+      "能说出本课的位置、分布或基本国情",
+      "能把自然或人文特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "我国农业的地区分布，大体是？",
+      "answer": "东部以种植业为主，西部以畜牧业为主"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:CG.04",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j042",
+    "name": "工业",
+    "domain": "中国地理",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第4单元 中国的经济发展",
+    "type": "conceptual",
+    "description": "知道中国工业的分布和高新技术产业。",
+    "mastery_criteria": [
+      "能说出本课的位置、分布或基本国情",
+      "能把自然或人文特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "我国四大工业基地都位于？",
+      "answer": "东部沿海地区"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:CG.04",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j043",
+    "name": "交通运输",
+    "domain": "中国地理",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第4单元 中国的经济发展",
+    "type": "conceptual",
+    "description": "知道中国交通运输方式的特点和铁路干线分布。",
+    "mastery_criteria": [
+      "能说出本课的位置、分布或基本国情",
+      "能把自然或人文特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "现代交通运输方式中，运量大、运费较低、速度较慢的是？",
+      "answer": "水路运输"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:CG.04",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j044",
+    "name": "自然灾害与防灾减灾",
+    "domain": "中国地理",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第5单元 建设美丽中国",
+    "type": "application",
+    "description": "知道中国主要自然灾害的分布和防灾减灾措施。",
+    "mastery_criteria": [
+      "能说出本课的位置、分布或基本国情",
+      "能把自然或人文特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "我国是自然灾害多发的国家，常见的气象灾害有？",
+      "answer": "干旱、洪涝、台风、寒潮等"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:CG.05",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j045",
+    "name": "环境保护与发展",
+    "domain": "中国地理",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第5单元 建设美丽中国",
+    "type": "reasoning",
+    "description": "知道生态文明建设和可持续发展的基本要求。",
+    "mastery_criteria": [
+      "能说出本课的位置、分布或基本国情",
+      "能把自然或人文特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "我国面临的环境问题包括？",
+      "answer": "大气污染、水污染、水土流失、土地荒漠化等"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:CG.05",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j046",
+    "name": "中国的地理差异",
+    "domain": "中国地理",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第6单元 中国的地理差异",
+    "type": "conceptual",
+    "description": "知道秦岭—淮河线和四大地理区域的划分。",
+    "mastery_criteria": [
+      "能说出本课的位置、分布或基本国情",
+      "能把自然或人文特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "我国四大地理区域是？",
+      "answer": "北方地区、南方地区、西北地区、青藏地区"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:CG.06",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j047",
+    "name": "北方地区的自然特征与农业",
+    "domain": "中国地理",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第7单元 北方地区",
+    "type": "conceptual",
+    "description": "知道北方地区的位置、气候、地形和旱作农业。",
+    "mastery_criteria": [
+      "能说出本课的位置、分布或基本国情",
+      "能把自然或人文特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "北方地区主要位于？",
+      "answer": "秦岭—淮河以北的东部季风区"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:CG.07",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j048",
+    "name": "东北三省",
+    "domain": "中国地理",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第7单元 北方地区",
+    "type": "conceptual",
+    "description": "知道东北三省的位置、“山环水绕、沃野千里”和工业、农业。",
+    "mastery_criteria": [
+      "能说出本课的位置、分布或基本国情",
+      "能把自然或人文特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "东北三省是指？",
+      "answer": "黑龙江、吉林、辽宁"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:CG.07",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j049",
+    "name": "黄土高原",
+    "domain": "中国地理",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第7单元 北方地区",
+    "type": "reasoning",
+    "description": "知道黄土高原的位置、黄土成因和水土流失的治理。",
+    "mastery_criteria": [
+      "能说出本课的位置、分布或基本国情",
+      "能把自然或人文特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "黄土高原是世界上最大的黄土堆积区，主要位于？",
+      "answer": "黄河中游"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:CG.07",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j050",
+    "name": "北京",
+    "domain": "中国地理",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第7单元 北方地区",
+    "type": "application",
+    "description": "知道北京的位置、城市职能和城市建设。",
+    "mastery_criteria": [
+      "能说出本课的位置、分布或基本国情",
+      "能把自然或人文特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "北京是我国的？",
+      "answer": "首都，也是政治、文化中心和国际交往中心"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:CG.07",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j051",
+    "name": "南方地区的自然特征与农业",
+    "domain": "中国地理",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第8单元 南方地区",
+    "type": "conceptual",
+    "description": "知道南方地区的位置、亚热带和热带季风气候及水田农业。",
+    "mastery_criteria": [
+      "能说出本课的位置、分布或基本国情",
+      "能把自然或人文特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "南方地区位于秦岭—淮河以南、青藏高原以东，气候以什么为主？",
+      "answer": "亚热带、热带季风气候"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:CG.08",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j052",
+    "name": "长江三角洲地区",
+    "domain": "中国地理",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第8单元 南方地区",
+    "type": "conceptual",
+    "description": "知道长江三角洲的位置、河海交汇优势和城市群。",
+    "mastery_criteria": [
+      "能说出本课的位置、分布或基本国情",
+      "能把自然或人文特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "长江三角洲位于？",
+      "answer": "长江入海口附近"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:CG.08",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j053",
+    "name": "香港和澳门",
+    "domain": "中国地理",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第8单元 南方地区",
+    "type": "conceptual",
+    "description": "知道香港、澳门的位置、特别行政区地位和与祖国内地的联系。",
+    "mastery_criteria": [
+      "能说出本课的位置、分布或基本国情",
+      "能把自然或人文特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "香港和澳门是我国的？",
+      "answer": "特别行政区"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:CG.08",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j054",
+    "name": "台湾省",
+    "domain": "中国地理",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第8单元 南方地区",
+    "type": "conceptual",
+    "description": "知道台湾是中国神圣领土，以及自然环境和经济发展。",
+    "mastery_criteria": [
+      "能说出本课的位置、分布或基本国情",
+      "能把自然或人文特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "台湾岛是我国面积最大的岛屿，西隔什么与福建省相望？",
+      "answer": "台湾海峡"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:CG.08",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j055",
+    "name": "西北地区的自然特征与农业",
+    "domain": "中国地理",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第9单元 西北地区",
+    "type": "conceptual",
+    "description": "知道西北地区干旱的自然环境、草原荒漠和灌溉农业。",
+    "mastery_criteria": [
+      "能说出本课的位置、分布或基本国情",
+      "能把自然或人文特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "西北地区最显著的自然特征是？",
+      "answer": "干旱"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:CG.09",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j056",
+    "name": "塔里木盆地",
+    "domain": "中国地理",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第9单元 西北地区",
+    "type": "reasoning",
+    "description": "知道塔里木盆地的位置、油气资源和绿洲农业。",
+    "mastery_criteria": [
+      "能说出本课的位置、分布或基本国情",
+      "能把自然或人文特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "塔里木盆地是我国面积最大的盆地，位于？",
+      "answer": "新疆南部"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:CG.09",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j057",
+    "name": "青藏地区的自然特征与农业",
+    "domain": "中国地理",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第10单元 青藏地区",
+    "type": "conceptual",
+    "description": "知道青藏地区高寒的自然环境和河谷农业、高寒畜牧业。",
+    "mastery_criteria": [
+      "能说出本课的位置、分布或基本国情",
+      "能把自然或人文特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "青藏地区的突出自然特征是？",
+      "answer": "高寒"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:CG.10",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j058",
+    "name": "三江源地区",
+    "domain": "中国地理",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第10单元 青藏地区",
+    "type": "reasoning",
+    "description": "知道三江源是长江、黄河、澜沧江的源区及其生态意义。",
+    "mastery_criteria": [
+      "能说出本课的位置、分布或基本国情",
+      "能把自然或人文特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "三江源地区位于青海省南部，是哪些大河的源头？",
+      "answer": "长江、黄河、澜沧江"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:CG.10",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cng_j059",
+    "name": "奋进中的中国",
+    "domain": "中国地理",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第11单元 奋进中的中国",
+    "type": "reasoning",
+    "description": "知道中国的发展成就、面临的挑战和负责任大国的作用。",
+    "mastery_criteria": [
+      "能说出本课的位置、分布或基本国情",
+      "能把自然或人文特征对应到教材中的典型事实"
+    ],
+    "diagnostic_question": {
+      "question": "我国目前仍是世界上最大的？",
+      "answer": "发展中国家"
+    },
+    "external": false,
+    "subject": "geography",
+    "standards": [
+      {
+        "id": "cgs-2022:CG.11",
+        "confidence": "inferred",
+        "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
   }
 ]

@@ -12,6 +12,7 @@
   var SCI_DOMAIN_ORDER = ['物质科学', '生命科学', '地球与宇宙科学', '技术与工程'];
   var MOR_DOMAIN_ORDER = ['生活与安全', '学校生活', '家庭与亲情', '社会规则', '公民与国家', '自然与环境'];
   var HIS_DOMAIN_ORDER = ['中国古代史', '中国近代史', '中国现代史', '世界古代史', '世界近代史', '世界现代史'];
+  var GEO_DOMAIN_ORDER = ['地球与地图', '世界地理', '中国地理'];
   var ZH_DOMAIN_ORDER = ['拼音', '识字写字', '词语', '句子', '阅读理解', '古诗文积累', '习作基础'];
 
   var topics = [];
@@ -255,7 +256,7 @@
 
   function topicSubject(topic) {
     if (!topic) return 'math';
-    if (topic.subject === 'english' || topic.subject === 'physics' || topic.subject === 'chinese' || topic.subject === 'science' || topic.subject === 'morality' || topic.subject === 'history') return topic.subject;
+    if (topic.subject === 'english' || topic.subject === 'physics' || topic.subject === 'chinese' || topic.subject === 'science' || topic.subject === 'morality' || topic.subject === 'history' || topic.subject === 'geography') return topic.subject;
     var id = String(topic.id || '');
     if (id.indexOf('cne_') === 0) return 'english';
     if (id.indexOf('cnp_') === 0) return 'physics';
@@ -263,6 +264,7 @@
     if (id.indexOf('cns_') === 0) return 'science';
     if (id.indexOf('cnd_') === 0) return 'morality';
     if (id.indexOf('cnh_') === 0) return 'history';
+    if (id.indexOf('cng_') === 0) return 'geography';
     return 'math';
   }
 
@@ -407,7 +409,7 @@
       box.replaceChildren(el('div', { class: 'detail-empty' },
         el('h1', { text: '选择一个知识点' }),
         el('p', { text: '可以搜索，也可以按年级、册、章展开。选中之后，中间只画它附近的先修，以及后面一层会用到它的知识点。' })));
-      document.title = subject === 'english' ? '知识图谱 · 英语' : subject === 'physics' ? '知识图谱 · 物理' : subject === 'chinese' ? '知识图谱 · 小学语文' : subject === 'science' ? '知识图谱 · 小学科学' : subject === 'morality' ? '知识图谱 · 小学道德与法治' : subject === 'history' ? '知识图谱 · 初中历史' : '知识图谱 · 中小学·高中知识图谱';
+      document.title = subject === 'english' ? '知识图谱 · 英语' : subject === 'physics' ? '知识图谱 · 物理' : subject === 'chinese' ? '知识图谱 · 小学语文' : subject === 'science' ? '知识图谱 · 小学科学' : subject === 'morality' ? '知识图谱 · 小学道德与法治' : subject === 'history' ? '知识图谱 · 初中历史' : subject === 'geography' ? '知识图谱 · 初中地理' : '知识图谱 · 中小学·高中知识图谱';
       return;
     }
     var topic = byId.get(selected);
@@ -861,7 +863,7 @@
   function fillDomain() {
     var seen = {};
     topics.forEach(function (topic) { if (topic.domain) seen[topic.domain] = true; });
-    var domainOrder = subject === 'chinese' ? ZH_DOMAIN_ORDER : subject === 'science' ? SCI_DOMAIN_ORDER : subject === 'morality' ? MOR_DOMAIN_ORDER : subject === 'history' ? HIS_DOMAIN_ORDER : DOMAIN_ORDER;
+    var domainOrder = subject === 'chinese' ? ZH_DOMAIN_ORDER : subject === 'science' ? SCI_DOMAIN_ORDER : subject === 'morality' ? MOR_DOMAIN_ORDER : subject === 'history' ? HIS_DOMAIN_ORDER : subject === 'geography' ? GEO_DOMAIN_ORDER : DOMAIN_ORDER;
     var names = domainOrder.filter(function (name) { return seen[name]; });
     Object.keys(seen).forEach(function (name) { if (names.indexOf(name) < 0) names.push(name); });
     var select = $('fDomain');
@@ -872,8 +874,13 @@
   function readSubject() {
     var params = new URLSearchParams(location.search);
     var explicit = params.get('subject');
-    if (explicit === 'english' || explicit === 'math' || explicit === 'physics' || explicit === 'chinese' || explicit === 'science' || explicit === 'morality' || explicit === 'history') return explicit;
+    if (explicit === 'english' || explicit === 'math' || explicit === 'physics' || explicit === 'chinese' || explicit === 'science' || explicit === 'morality' || explicit === 'history' || explicit === 'geography') return explicit;
     var hash = readHash();
+    if (/^cng_[A-Za-z0-9]+$/.test(hash)) {
+      params.set('subject', 'geography');
+      history.replaceState(null, '', location.pathname + '?' + params.toString() + '#' + hash);
+      return 'geography';
+    }
     if (/^cnh_[A-Za-z0-9]+$/.test(hash)) {
       params.set('subject', 'history');
       history.replaceState(null, '', location.pathname + '?' + params.toString() + '#' + hash);
@@ -914,6 +921,7 @@
     document.body.classList.toggle('subject-science', subject === 'science');
     document.body.classList.toggle('subject-morality', subject === 'morality');
     document.body.classList.toggle('subject-history', subject === 'history');
+    document.body.classList.toggle('subject-geography', subject === 'geography');
     document.querySelectorAll('.site-nav a:not(.subject-link), a.brand').forEach(function (link) {
       var href = link.getAttribute('href');
       var next = withSubject(href);
@@ -993,6 +1001,22 @@
       document.title = '知识图谱 · 初中历史';
       return;
     }
+    if (subject === 'geography') {
+      document.querySelectorAll('#stage-tabs [data-stage]').forEach(function (button) {
+        var geoStage = button.getAttribute('data-stage');
+        button.hidden = geoStage === 'p' || geoStage === 'h';
+      });
+      var geoGrade = $('fGrade');
+      geoGrade.replaceChildren();
+      geoGrade.append(el('option', { value: '', text: '全部年级' }));
+      [7, 8].forEach(function (g) {
+        geoGrade.append(el('option', { value: String(g), text: CN[g] + '年级' }));
+      });
+      var geoSample = $('pick-sample');
+      if (geoSample) geoSample.textContent = '先看看「地球的宇宙环境」';
+      document.title = '知识图谱 · 初中地理';
+      return;
+    }
     if (subject === 'chinese') {
       document.querySelectorAll('#stage-tabs [data-stage]').forEach(function (button) {
         var stageName = button.getAttribute('data-stage');
@@ -1043,7 +1067,7 @@
   function applyQuery() {
     var params = new URLSearchParams(location.search);
     var gradeValue = params.get('grade') || '';
-    var gradeOk = subject === 'english' ? /^(?:[3-9]|1[0-6])$/ : subject === 'physics' ? /^(?:[89]|1[0-5])$/ : subject === 'history' ? /^[7-9]$/ : subject === 'chinese' || subject === 'science' || subject === 'morality' ? /^[1-6]$/ : /^(?:[1-9]|1[0-4])$/;
+    var gradeOk = subject === 'english' ? /^(?:[3-9]|1[0-6])$/ : subject === 'physics' ? /^(?:[89]|1[0-5])$/ : subject === 'history' ? /^[7-9]$/ : subject === 'geography' ? /^[78]$/ : subject === 'chinese' || subject === 'science' || subject === 'morality' ? /^[1-6]$/ : /^(?:[1-9]|1[0-4])$/;
     if (gradeOk.test(gradeValue)) grade = gradeValue;
     var stageValue = params.get('stage') || '';
     if (stageValue === 'p' || stageValue === 'j' || stageValue === 'h') stage = stageValue;
@@ -1172,6 +1196,11 @@
       if (subject === 'history') {
         var hisHit = topics.find(function (topic) { return topic.name === '远古时期的人类活动'; });
         if (hisHit) select(hisHit.id, 'user');
+        return;
+      }
+      if (subject === 'geography') {
+        var geoHit = topics.find(function (topic) { return topic.name === '地球的宇宙环境'; });
+        if (geoHit) select(geoHit.id, 'user');
         return;
       }
       if (subject === 'chinese') {
